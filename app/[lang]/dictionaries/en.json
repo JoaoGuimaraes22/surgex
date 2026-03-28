@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "name": "Business Name",
+    "title": "Business Name | City",
+    "description": "Welcome to my site.",
+    "phone": "",
+    "email": "",
+    "address": "",
+    "type": "LocalBusiness"
+  },
+  "ui": {
+    "skipToContent": "Skip to content",
+    "errorTitle": "Something went wrong",
+    "errorRetry": "Try again",
+    "notFoundTitle": "Page not found",
+    "notFoundLink": "Go home"
+  },
+  "home": {
+    "title": "Welcome",
+    "description": "This is the starting point of your project. Edit this page to get started."
+  }
+}

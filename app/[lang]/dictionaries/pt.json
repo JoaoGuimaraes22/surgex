@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "name": "Nome do Negócio",
+    "title": "Nome do Negócio | Cidade",
+    "description": "Bem-vindo ao meu site.",
+    "phone": "",
+    "email": "",
+    "address": "",
+    "type": "LocalBusiness"
+  },
+  "ui": {
+    "skipToContent": "Saltar para o conteúdo",
+    "errorTitle": "Algo correu mal",
+    "errorRetry": "Tentar novamente",
+    "notFoundTitle": "Página não encontrada",
+    "notFoundLink": "Ir para início"
+  },
+  "home": {
+    "title": "Bem-vindo",
+    "description": "Este e o ponto de partida do seu projeto. Edite esta pagina para comecar."
+  }
+}
