@@ -26,7 +26,7 @@ export default function Contact({
   };
 }) {
   return (
-    <section id="contact" className="relative overflow-hidden bg-background py-32 px-10">
+    <section id="contact" className="relative z-[5] overflow-hidden bg-background py-32 px-10">
       <div className="mb-16">
         <span className="font-mono text-[9px] uppercase tracking-[2px] text-muted">
           {dict.label}

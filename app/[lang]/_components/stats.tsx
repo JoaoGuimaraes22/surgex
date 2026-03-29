@@ -11,7 +11,7 @@ export default function Stats({
   };
 }) {
   return (
-    <section className="relative overflow-hidden bg-background py-24 px-10">
+    <section className="relative z-[5] overflow-hidden bg-background py-24 px-10">
       <div className="mb-12">
         <span className="font-mono text-[9px] uppercase tracking-[2px] text-muted">
           {dict.label}

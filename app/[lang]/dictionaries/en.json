@@ -1,8 +1,8 @@
 {
   "metadata": {
     "name": "SurgeX",
-    "title": "SurgeX | AI-Powered Development Agency",
-    "description": "Web design, marketing, and automation powered by AI. We build high-performance websites and digital systems that drive results.",
+    "title": "SurgeX | Bespoke AI Solutions for Your Business",
+    "description": "We listen to your business, find where AI makes a real difference, and build custom solutions — websites, automations, chatbots, and more. Premium quality, fast delivery, fair prices.",
     "phone": "",
     "email": "hello@surgex.pt",
     "address": "",
@@ -21,20 +21,21 @@
     "cta": "Contact",
     "links": [
       { "id": "services", "label": "Services" },
-      { "id": "work", "label": "Work" },
+      { "id": "work", "label": "Projects" },
       { "id": "process", "label": "Process" },
       { "id": "contact", "label": "Contact" }
     ]
   },
   "hero": {
-    "titleLine1": "AI-POWERED",
-    "titleLine2": "DEVELOPMENT.",
+    "titleLine1": "PREMIUM QUALITY.",
+    "titleLine2": "FAIR PRICES.",
+    "subtitle": "SurgeX — AI Driven Agency",
     "meta": [
-      { "label": "ID_TYPE", "value": "AI_AGENCY" },
+      { "label": "ID_TYPE", "value": "AI_SOLUTIONS" },
       { "label": "LOC", "value": "LISBON_PT_BASE" },
       { "label": "STATUS", "value": "OPERATIONAL..." }
     ],
-    "ctaServices": "Our Services",
+    "ctaServices": "What We Do",
     "ctaWork": "See Our Work",
     "ctaContact": "Get In Touch",
     "sidebar": "SURGEX // AI SYSTEMS // 2025",
@@ -49,25 +50,32 @@
     "headline": "What We Build.",
     "items": [
       {
-        "id": "web-design",
+        "id": "ai-solutions",
         "tag": "01",
-        "title": "Web Design",
-        "description": "Websites that look premium and load instantly. Designed to rank on Google, work perfectly on any device, and turn visitors into paying customers.",
-        "features": ["Custom Design", "Google Ranking", "Mobile-Ready", "Analytics"]
+        "title": "Bespoke AI Solutions",
+        "description": "We sit down with you, understand how your business works, and find exactly where AI makes a real difference. No generic products — everything is built for your specific needs.",
+        "features": ["AI Workshops", "Custom Builds", "Full Integration", "Ongoing Support"]
       },
       {
-        "id": "marketing",
+        "id": "websites",
         "tag": "02",
-        "title": "Digital Marketing",
-        "description": "Get found by the right people. We run targeted ad campaigns, manage your social media presence, and create content that drives real business growth.",
-        "features": ["Google Ads", "Social Media", "Content Creation", "Lead Generation"]
+        "title": "Websites & Apps",
+        "description": "Premium websites and apps that load fast, rank on Google, and turn visitors into customers. Custom design, not templates. Ready in days, not months.",
+        "features": ["Custom Design", "Google Ranking", "Mobile-Ready", "Analytics"]
       },
       {
         "id": "automation",
         "tag": "03",
-        "title": "AI Automation",
-        "description": "Stop wasting time on repetitive work. We build smart systems that answer your customers, follow up on leads, and run your operations while you sleep.",
-        "features": ["Smart Chatbots", "Auto Follow-ups", "Email Sequences", "Business Workflows"]
+        "title": "Automation & Chatbots",
+        "description": "Stop doing things manually. We build systems that answer your customers, follow up on leads, manage emails, and run your operations — while you focus on what matters.",
+        "features": ["Smart Chatbots", "Auto Follow-ups", "Email Sequences", "Process Automation"]
+      },
+      {
+        "id": "marketing",
+        "tag": "04",
+        "title": "Digital Marketing",
+        "description": "Get found by the right people. Targeted ad campaigns, social media management, and content that actually drives business growth — all powered by AI.",
+        "features": ["Google Ads", "Social Media", "Content Creation", "Lead Generation"]
       }
     ]
   },
@@ -78,42 +86,42 @@
       {
         "id": "harvey",
         "name": "Harvey Salon",
-        "category": "Web Design",
+        "category": "Website",
         "image": "/portfolio/harvey.jpg",
         "url": "https://harvey-salon.vercel.app"
       },
       {
         "id": "vetavencas",
         "name": "Vet Avencas",
-        "category": "Web Design",
+        "category": "Website",
         "image": "/portfolio/vetavencas.jpg",
         "url": "https://vet-avencas.vercel.app"
       },
       {
         "id": "apjardins",
         "name": "AP Jardins",
-        "category": "Web Design",
+        "category": "Website",
         "image": "/portfolio/apjardins.jpg",
         "url": "https://ap-jardins.vercel.app"
       },
       {
         "id": "popei",
         "name": "Popei Gym",
-        "category": "Web Design",
+        "category": "Website",
         "image": "/portfolio/popei.jpg",
         "url": "https://popei-gym.vercel.app"
       },
       {
         "id": "santoamaro",
         "name": "Santo Amaro",
-        "category": "Web Design",
+        "category": "Website",
         "image": "/portfolio/santoamaro.jpg",
         "url": "https://canalizadora-santo-amaro.vercel.app"
       },
       {
         "id": "mademoiselle",
         "name": "Mademoiselle",
-        "category": "Web Design",
+        "category": "Website",
         "image": "/portfolio/mademoiselle.jpg",
         "url": "https://mademoiselle-nails.vercel.app"
       }
@@ -122,30 +130,30 @@
   },
   "process": {
     "label": "PROCESS",
-    "headline": "How We Operate.",
+    "headline": "How We Work.",
     "steps": [
       {
         "tag": "01",
-        "title": "Discovery",
-        "description": "We learn your business inside out — who your customers are, what your competitors are doing, and where the biggest opportunities are.",
+        "title": "Listen",
+        "description": "We sit down with you and learn how your business actually runs. No assumptions, no pushing products — just listening.",
         "status": "INIT_SCAN"
       },
       {
         "tag": "02",
-        "title": "Design & Build",
-        "description": "We design and build your website from scratch. You get a premium, custom site — not a cookie-cutter template. Ready in days, not months.",
-        "status": "EXECUTING"
+        "title": "Identify",
+        "description": "Together, we pinpoint where AI and automation can save you time, money, or both. We pick the highest-impact opportunity to start.",
+        "status": "ANALYZING"
       },
       {
         "tag": "03",
-        "title": "Optimize",
-        "description": "We make sure your site loads fast, ranks on Google, and actually gets people to take action — book, call, or buy.",
-        "status": "CALIBRATING"
+        "title": "Build & Deliver",
+        "description": "We build the full solution — AI, design, backend, everything. You test it, we refine it, and it goes live. Premium quality, delivered fast.",
+        "status": "EXECUTING"
       },
       {
         "tag": "04",
-        "title": "Launch & Scale",
-        "description": "Your site goes live and we don't disappear. We set up marketing, track results, and keep improving what works.",
+        "title": "Support & Grow",
+        "description": "We host it, keep it updated, fix what breaks. Once the first solution is running, we move to the next one. Long-term partnership, not a one-off project.",
         "status": "DEPLOYED"
       }
     ]
@@ -161,15 +169,15 @@
   },
   "contact": {
     "label": "CONTACT",
-    "headline": "Start a Project.",
-    "description": "Ready to build something? Send us a message and we'll get back to you within 24 hours.",
+    "headline": "Let's Talk.",
+    "description": "Tell us about your business and what's not working. We'll figure out together where AI can make the biggest difference.",
     "fields": {
       "name": "Name",
       "email": "Email",
       "message": "Message",
       "namePlaceholder": "Your name",
       "emailPlaceholder": "your@email.com",
-      "messagePlaceholder": "Tell us about your project..."
+      "messagePlaceholder": "Tell us about your business and what you'd like to improve..."
     },
     "cta": "Transmit",
     "info": {
@@ -184,7 +192,7 @@
     "copyright": "© 2025 SurgeX. All systems operational.",
     "links": [
       { "label": "Services", "href": "#services" },
-      { "label": "Work", "href": "#work" },
+      { "label": "Projects", "href": "#work" },
       { "label": "Process", "href": "#process" },
       { "label": "Contact", "href": "#contact" }
     ]

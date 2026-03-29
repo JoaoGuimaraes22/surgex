@@ -9,7 +9,7 @@ export default function Footer({
   };
 }) {
   return (
-    <footer className="overflow-hidden border-t border-muted/20 bg-background px-10 py-12">
+    <footer className="relative z-[5] overflow-hidden border-t border-muted/20 bg-background px-10 pt-12 pb-32">
       <div className="flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
         {/* Brand */}
         <div className="text-sm font-bold uppercase tracking-[4px]">

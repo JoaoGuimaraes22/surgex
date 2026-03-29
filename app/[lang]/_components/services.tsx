@@ -18,7 +18,7 @@ export default function Services({
   };
 }) {
   return (
-    <section id="services" className="relative overflow-hidden bg-background py-32 px-10">
+    <section id="services" className="relative z-[5] overflow-hidden bg-background py-32 px-10">
       {/* Section label */}
       <div className="mb-16">
         <span className="font-mono text-[9px] uppercase tracking-[2px] text-muted">
@@ -33,7 +33,7 @@ export default function Services({
       </div>
 
       {/* Service cards */}
-      <div className="grid gap-px md:grid-cols-3" style={{ background: "var(--muted)" }}>
+      <div className="grid gap-px md:grid-cols-2" style={{ background: "var(--muted)" }}>
         {dict.items.map((item, i) => (
           <motion.div
             key={item.id}

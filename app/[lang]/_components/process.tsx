@@ -17,7 +17,7 @@ export default function Process({
   };
 }) {
   return (
-    <section id="process" className="relative overflow-hidden bg-background py-32 px-10">
+    <section id="process" className="relative z-[5] overflow-hidden bg-background py-32 px-10">
       {/* Section label */}
       <div className="mb-16">
         <span className="font-mono text-[9px] uppercase tracking-[2px] text-muted">

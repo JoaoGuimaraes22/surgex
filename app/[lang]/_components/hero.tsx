@@ -10,6 +10,7 @@ export default function Hero({
   dict: {
     titleLine1: string;
     titleLine2: string;
+    subtitle: string;
     meta: { label: string; value: string }[];
     ctaServices: string;
     ctaWork: string;
@@ -161,14 +162,14 @@ export default function Hero({
       />
 
       {/* Three.js canvas */}
-      <div ref={canvasRef} className="fixed inset-0 z-[2]" />
+      <div ref={canvasRef} className="pointer-events-none fixed inset-0 z-[2]" />
 
       {/* Main content */}
       <div className="relative z-[5] flex h-screen flex-col justify-center pl-[10%]">
         {/* Meta labels */}
         <div className="mb-5 flex gap-[30px] font-mono text-[9px] tracking-[1px] text-muted">
-          {dict.meta.map((m) => (
-            <p key={m.label}>
+          {dict.meta.map((m, i) => (
+            <p key={m.label} className={i === dict.meta.length - 1 ? "hidden md:block" : ""}>
               {m.label}: <span className="text-foreground">{m.value}</span>
             </p>
           ))}
@@ -183,6 +184,10 @@ export default function Hero({
           <br />
           {dict.titleLine2}
         </h1>
+
+        <p className="mt-4 font-mono text-sm uppercase tracking-[4px] text-muted">
+          {dict.subtitle}
+        </p>
 
         {/* CTAs */}
         <div className="mt-[60px] flex flex-col gap-6">
@@ -202,7 +207,7 @@ export default function Hero({
       </div>
 
       {/* Sidebar vertical text */}
-      <div className="fixed right-10 top-1/2 z-[5] -translate-y-1/2 border-r border-muted/50 pr-[10px] text-[10px] uppercase tracking-[8px] text-muted [writing-mode:vertical-rl]">
+      <div className="fixed right-10 top-1/2 z-[5] hidden -translate-y-1/2 border-r border-muted/50 pr-[10px] text-[10px] uppercase tracking-[8px] text-muted [writing-mode:vertical-rl] md:block">
         {dict.sidebar}
       </div>
 
