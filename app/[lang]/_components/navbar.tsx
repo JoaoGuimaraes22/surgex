@@ -36,8 +36,8 @@ export default function Navbar({
       >
         {/* Brand */}
         <a
-          href="#"
-          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          href={backHref ? "/" : "#"}
+          onClick={backHref ? undefined : () => window.scrollTo({ top: 0, behavior: "smooth" })}
           className="flex items-center gap-3"
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}

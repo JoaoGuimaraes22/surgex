@@ -1,8 +1,8 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
-import * as THREE from "three";
+import { useEffect, useState } from "react";
 import { useTheme } from "./theme-provider";
+import BackgroundSphere from "./background-sphere";
 
 export default function Hero({
   dict,
@@ -20,114 +20,8 @@ export default function Hero({
     signature: string;
   };
 }) {
-  const canvasRef = useRef<HTMLDivElement>(null);
   const [clock, setClock] = useState("00:00:00:00");
   const { theme } = useTheme();
-
-  // Three.js scene
-  useEffect(() => {
-    const container = canvasRef.current;
-    if (!container) return;
-
-    const isDark = theme === "dark";
-    const isMobile = window.innerWidth < 768;
-
-    const scene = new THREE.Scene();
-    const camera = new THREE.PerspectiveCamera(
-      75,
-      window.innerWidth / window.innerHeight,
-      0.1,
-      1000
-    );
-    const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
-    renderer.setSize(window.innerWidth, window.innerHeight);
-    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
-    container.appendChild(renderer.domElement);
-
-    // Torus knot — primary wireframe
-    const torusKnot = new THREE.Mesh(
-      new THREE.TorusKnotGeometry(10, 3, 100, 16),
-      new THREE.MeshBasicMaterial({
-        color: isDark ? 0xffffff : 0x000000,
-        wireframe: true,
-        transparent: true,
-        opacity: isMobile ? 0.07 : 0.15,
-      })
-    );
-    scene.add(torusKnot);
-
-    // Sphere — subtle background wireframe
-    const sphere = new THREE.Mesh(
-      new THREE.SphereGeometry(15, 32, 32),
-      new THREE.MeshBasicMaterial({
-        color: isDark ? 0x444444 : 0xbbbbbb,
-        wireframe: true,
-        transparent: true,
-        opacity: 0.05,
-      })
-    );
-    scene.add(sphere);
-
-    camera.position.z = 30;
-
-    // Mouse-reactive rotation
-    let mouseX = 0;
-    let mouseY = 0;
-    const onMouseMove = (e: MouseEvent) => {
-      mouseX = (e.clientX - window.innerWidth / 2) / 100;
-      mouseY = (e.clientY - window.innerHeight / 2) / 100;
-    };
-    window.addEventListener("mousemove", onMouseMove);
-
-    // Resize handler
-    const onResize = () => {
-      camera.aspect = window.innerWidth / window.innerHeight;
-      camera.updateProjectionMatrix();
-      renderer.setSize(window.innerWidth, window.innerHeight);
-    };
-    window.addEventListener("resize", onResize);
-
-    // Scroll-reactive opacity
-    let scrollProgress = 0;
-    const onScroll = () => {
-      scrollProgress = Math.min(window.scrollY / window.innerHeight, 1);
-    };
-    window.addEventListener("scroll", onScroll, { passive: true });
-
-    // Animation loop
-    let frameId: number;
-    const torusKnotMat = torusKnot.material as THREE.MeshBasicMaterial;
-    const sphereMat = sphere.material as THREE.MeshBasicMaterial;
-
-    const animate = () => {
-      frameId = requestAnimationFrame(animate);
-
-      torusKnot.rotation.x += 0.001;
-      torusKnot.rotation.y += 0.002;
-      sphere.rotation.y -= 0.0005;
-
-      // Torus knot fades out, sphere gains subtle presence
-      const baseOpacity = isMobile ? 0.07 : 0.15;
-      torusKnotMat.opacity = baseOpacity * (1 - scrollProgress);
-      sphereMat.opacity = 0.05;
-
-      // Smooth easing towards mouse position
-      scene.rotation.y += (mouseX - scene.rotation.y) * 0.05;
-      scene.rotation.x += (mouseY - scene.rotation.x) * 0.05;
-
-      renderer.render(scene, camera);
-    };
-    animate();
-
-    return () => {
-      cancelAnimationFrame(frameId);
-      window.removeEventListener("mousemove", onMouseMove);
-      window.removeEventListener("resize", onResize);
-      window.removeEventListener("scroll", onScroll);
-      renderer.dispose();
-      container.removeChild(renderer.domElement);
-    };
-  }, [theme]);
 
   // Live clock
   useEffect(() => {
@@ -161,8 +55,8 @@ export default function Hero({
         }}
       />
 
-      {/* Three.js canvas */}
-      <div ref={canvasRef} className="pointer-events-none fixed inset-0 z-[2]" />
+      {/* Three.js background */}
+      <BackgroundSphere includeTorus />
 
       {/* Main content */}
       <div className="relative z-[5] flex h-screen flex-col justify-center pl-[10%]">
@@ -223,9 +117,8 @@ export default function Hero({
       {/* Stipple grid */}
       <div className="stipple-grid fixed bottom-10 right-10 z-[1] h-[120px] w-[200px] opacity-40" />
 
-
       {/* Logo watermark */}
-      <div className="fixed top-10 right-32 z-[3] opacity-[0.03]">
+      <div className="fixed top-10 right-32 z-[3] hidden opacity-[0.03] md:block">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="/sgx-logo.jpg"

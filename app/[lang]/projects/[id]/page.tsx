@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { getDictionary, hasLocale } from "../../dictionaries";
 import ThemeProvider from "../../_components/theme-provider";
 import Navbar from "../../_components/navbar";
+import BackgroundSphere from "../../_components/background-sphere";
 import ProjectShowcase from "../../_components/project-showcase";
 
 export default async function ProjectPage({
@@ -22,6 +23,7 @@ export default async function ProjectPage({
 
   return (
     <ThemeProvider>
+      <BackgroundSphere />
       <Navbar dict={dict.navbar} hideLinks backHref={`/${lang}#work`} />
       <main>
         <ProjectShowcase project={project} portfolio={dict.portfolio} lang={lang} />
