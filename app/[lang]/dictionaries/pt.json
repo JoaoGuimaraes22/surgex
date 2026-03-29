@@ -84,62 +84,62 @@
     "headline": "Projetos Selecionados.",
     "projects": [
       {
-        "id": "harvey",
-        "name": "Harvey Salon",
+        "id": "mrbig",
+        "name": "Mr. Big Evolution",
         "category": "Website",
-        "image": "/portfolio/harvey.jpg",
-        "url": "https://harvey-barber.vercel.app",
-        "description": "Website premium para barbearia com estética cinematográfica escura. Slider interativo antes/depois, perfis da equipa e galeria expansível.",
-        "services": ["Web Design", "SEO", "Integração Google Reviews"],
-        "niche": "Barbearia"
+        "image": "/portfolio/mrbig.jpg",
+        "url": "https://mrbig.vercel.app",
+        "description": "O maior ginásio da Europa em Carcavelos — 5.000m² de espaço. Website arrojado com modalidades, instalações e inscrição para aula experimental.",
+        "services": ["Web Design", "SEO", "Geração de Leads"],
+        "niche": "Fitness"
       },
       {
-        "id": "vetavencas",
-        "name": "Vet Avencas",
+        "id": "gutsy",
+        "name": "Gutsy",
         "category": "Website",
-        "image": "/portfolio/vetavencas.jpg",
-        "url": "https://vet-avencas.vercel.app",
-        "description": "Website de clínica veterinária com micro-interações e design acolhedor. Sistema de marcações, horários de urgência e catálogo de serviços.",
+        "image": "/portfolio/gutsy.jpg",
+        "url": "https://gutsy.vercel.app",
+        "description": "Restaurante de hambúrgueres artesanais em Carcavelos. Menu, sistema de reservas e design que captura a experiência gastronómica.",
+        "services": ["Web Design", "SEO", "Sistema de Reservas"],
+        "niche": "Restaurante"
+      },
+      {
+        "id": "vettop",
+        "name": "VetTop",
+        "category": "Website",
+        "image": "/portfolio/vettop.jpg",
+        "url": "https://vettop.vercel.app",
+        "description": "Clínica veterinária em Oeiras com urgências 24/7. Design limpo e de confiança com marcações e catálogo completo de serviços.",
         "services": ["Web Design", "SEO", "Sistema de Marcações"],
         "niche": "Veterinária"
       },
       {
-        "id": "apjardins",
-        "name": "AP Jardins",
+        "id": "mmdetalhe",
+        "name": "M M Detalhe",
         "category": "Website",
-        "image": "/portfolio/apjardins.jpg",
-        "url": "https://landscaping-apjardins.vercel.app",
-        "description": "Website de empresa de jardinagem com destaque para projetos ao ar livre. Áreas de serviço, galeria de trabalhos e sistema de contacto para orçamentos.",
-        "services": ["Web Design", "SEO", "Geração de Leads"],
-        "niche": "Jardinagem"
-      },
-      {
-        "id": "popei",
-        "name": "Popei Gym",
-        "category": "Website",
-        "image": "/portfolio/popei.jpg",
-        "url": "https://gym-popei.vercel.app",
-        "description": "Website de ginásio com tema escuro e arrojado. Horários de aulas, modalidades, perfis da equipa e inscrição para aula experimental.",
-        "services": ["Web Design", "SEO", "Sistema de Horários"],
-        "niche": "Fitness"
-      },
-      {
-        "id": "santoamaro",
-        "name": "Santo Amaro",
-        "category": "Website",
-        "image": "/portfolio/santoamaro.jpg",
-        "url": "https://plumbing-santoamaro.vercel.app",
-        "description": "Website de empresa de canalização com cobertura de áreas de serviço, contacto de emergência e integração de avaliações Google.",
+        "image": "/portfolio/mmdetalhe.jpg",
+        "url": "https://mm-detalhe.vercel.app",
+        "description": "Detailing automóvel premium em São Domingos de Rana. Desde revestimento cerâmico a limpeza profunda de interiores. 166+ avaliações cinco estrelas.",
         "services": ["Web Design", "SEO", "Integração Google Reviews"],
-        "niche": "Canalização"
+        "niche": "Detailing Automóvel"
       },
       {
-        "id": "mademoiselle",
-        "name": "Mademoiselle",
+        "id": "elenilson",
+        "name": "Elenilson Silva",
         "category": "Website",
-        "image": "/portfolio/mademoiselle.jpg",
-        "url": "https://salon-mademoiselle.vercel.app",
-        "description": "Website de salão de unhas com design elegante e feminino. Catálogo de serviços, tabela de preços e integração para marcações.",
+        "image": "/portfolio/elenilson.jpg",
+        "url": "https://chiro-elenilson.vercel.app",
+        "description": "Consultório de quiroprática em Parede. Cuidados personalizados, alinhamento corporal holístico e design que inspira confiança. 122+ avaliações cinco estrelas.",
+        "services": ["Web Design", "SEO", "Sistema de Marcações"],
+        "niche": "Quiroprática"
+      },
+      {
+        "id": "karolkris",
+        "name": "Karol&Kris",
+        "category": "Website",
+        "image": "/portfolio/karolkris.jpg",
+        "url": "https://salon-karolkris.vercel.app",
+        "description": "Salão de beleza completo em São João do Estoril. Design elegante para cabelo, unhas, extensões de pestanas e massagens. 4.8★.",
         "services": ["Web Design", "SEO", "Integração de Marcações"],
         "niche": "Beleza"
       }
