@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "name": "Nome do Negócio",
-    "title": "Nome do Negócio | Cidade",
-    "description": "Bem-vindo ao meu site.",
+    "name": "SurgeX",
+    "title": "SurgeX | Agência de Desenvolvimento com IA",
+    "description": "Web design, marketing e automação com inteligência artificial. Criamos websites de alto desempenho e sistemas digitais que geram resultados.",
     "phone": "",
-    "email": "",
+    "email": "hello@surgex.pt",
     "address": "",
-    "type": "LocalBusiness"
+    "type": "ProfessionalService"
   },
   "ui": {
     "skipToContent": "Saltar para o conteúdo",
@@ -15,8 +15,178 @@
     "notFoundTitle": "Página não encontrada",
     "notFoundLink": "Ir para início"
   },
-  "home": {
-    "title": "Bem-vindo",
-    "description": "Este e o ponto de partida do seu projeto. Edite esta pagina para comecar."
+  "navbar": {
+    "brand": "SURGEX",
+    "version": "[v1.0]",
+    "cta": "Contacto",
+    "links": [
+      { "id": "services", "label": "Serviços" },
+      { "id": "work", "label": "Trabalho" },
+      { "id": "process", "label": "Processo" },
+      { "id": "contact", "label": "Contacto" }
+    ]
+  },
+  "hero": {
+    "titleLine1": "DESENVOLVIMENTO",
+    "titleLine2": "COM IA.",
+    "meta": [
+      { "label": "ID_TYPE", "value": "AI_AGENCY" },
+      { "label": "LOC", "value": "LISBON_PT_BASE" },
+      { "label": "STATUS", "value": "OPERACIONAL..." }
+    ],
+    "ctaServices": "Nossos Serviços",
+    "ctaWork": "Ver Portfólio",
+    "ctaContact": "Contacte-nos",
+    "sidebar": "SURGEX // AI SYSTEMS // 2025",
+    "coords": {
+      "lat": "38.7223° N",
+      "lng": "9.1393° W"
+    },
+    "signature": "SurgeX Digital"
+  },
+  "services": {
+    "label": "SERVICES",
+    "headline": "O Que Construímos.",
+    "items": [
+      {
+        "id": "web-design",
+        "tag": "01",
+        "title": "Web Design",
+        "description": "Websites com aspeto premium que carregam instantaneamente. Desenhados para aparecer no Google, funcionar em qualquer dispositivo e transformar visitantes em clientes.",
+        "features": ["Design Personalizado", "Ranking Google", "Mobile-Ready", "Analytics"]
+      },
+      {
+        "id": "marketing",
+        "tag": "02",
+        "title": "Marketing Digital",
+        "description": "Seja encontrado pelas pessoas certas. Gerimos campanhas de anúncios, presença nas redes sociais e criamos conteúdo que gera crescimento real para o seu negócio.",
+        "features": ["Google Ads", "Redes Sociais", "Criação de Conteúdo", "Geração de Leads"]
+      },
+      {
+        "id": "automation",
+        "tag": "03",
+        "title": "Automação com IA",
+        "description": "Pare de perder tempo com trabalho repetitivo. Construímos sistemas inteligentes que respondem aos seus clientes, fazem follow-up de leads e gerem as suas operações enquanto dorme.",
+        "features": ["Chatbots Inteligentes", "Follow-ups Automáticos", "Sequências de Email", "Workflows de Negócio"]
+      }
+    ]
+  },
+  "portfolio": {
+    "label": "TRABALHO",
+    "headline": "Projetos Selecionados.",
+    "projects": [
+      {
+        "id": "harvey",
+        "name": "Harvey Salon",
+        "category": "Web Design",
+        "image": "/portfolio/harvey.jpg",
+        "url": "https://harvey-salon.vercel.app"
+      },
+      {
+        "id": "vetavencas",
+        "name": "Vet Avencas",
+        "category": "Web Design",
+        "image": "/portfolio/vetavencas.jpg",
+        "url": "https://vet-avencas.vercel.app"
+      },
+      {
+        "id": "apjardins",
+        "name": "AP Jardins",
+        "category": "Web Design",
+        "image": "/portfolio/apjardins.jpg",
+        "url": "https://ap-jardins.vercel.app"
+      },
+      {
+        "id": "popei",
+        "name": "Popei Gym",
+        "category": "Web Design",
+        "image": "/portfolio/popei.jpg",
+        "url": "https://popei-gym.vercel.app"
+      },
+      {
+        "id": "santoamaro",
+        "name": "Santo Amaro",
+        "category": "Web Design",
+        "image": "/portfolio/santoamaro.jpg",
+        "url": "https://canalizadora-santo-amaro.vercel.app"
+      },
+      {
+        "id": "mademoiselle",
+        "name": "Mademoiselle",
+        "category": "Web Design",
+        "image": "/portfolio/mademoiselle.jpg",
+        "url": "https://mademoiselle-nails.vercel.app"
+      }
+    ],
+    "cta": "Ver Projeto"
+  },
+  "process": {
+    "label": "PROCESSO",
+    "headline": "Como Operamos.",
+    "steps": [
+      {
+        "tag": "01",
+        "title": "Descoberta",
+        "description": "Aprendemos o seu negócio por dentro e por fora — quem são os seus clientes, o que a concorrência faz e onde estão as maiores oportunidades.",
+        "status": "INIT_SCAN"
+      },
+      {
+        "tag": "02",
+        "title": "Design & Construção",
+        "description": "Desenhamos e construímos o seu website do zero. Recebe um site premium e personalizado — não um template genérico. Pronto em dias, não meses.",
+        "status": "EXECUTING"
+      },
+      {
+        "tag": "03",
+        "title": "Otimizar",
+        "description": "Garantimos que o seu site carrega rápido, aparece no Google e leva as pessoas a agir — marcar, ligar ou comprar.",
+        "status": "CALIBRATING"
+      },
+      {
+        "tag": "04",
+        "title": "Lançar & Escalar",
+        "description": "O seu site fica online e nós não desaparecemos. Configuramos marketing, acompanhamos resultados e melhoramos continuamente o que funciona.",
+        "status": "DEPLOYED"
+      }
+    ]
+  },
+  "stats": {
+    "label": "MÉTRICAS",
+    "items": [
+      { "value": "15+", "label": "Projetos Entregues" },
+      { "value": "48h", "label": "Entrega Média" },
+      { "value": "10x", "label": "Mais Rápido Que o Tradicional" },
+      { "value": "98%", "label": "Mais Barato Que a Concorrência" }
+    ]
+  },
+  "contact": {
+    "label": "CONTACTO",
+    "headline": "Iniciar Projeto.",
+    "description": "Pronto para construir algo? Envie-nos uma mensagem e respondemos dentro de 24 horas.",
+    "fields": {
+      "name": "Nome",
+      "email": "Email",
+      "message": "Mensagem",
+      "namePlaceholder": "O seu nome",
+      "emailPlaceholder": "seu@email.com",
+      "messagePlaceholder": "Fale-nos sobre o seu projeto..."
+    },
+    "cta": "Transmitir",
+    "info": {
+      "email": "hello@surgex.pt",
+      "location": "Lisboa, Portugal",
+      "status": "ACCEPTING_PROJECTS"
+    }
+  },
+  "footer": {
+    "brand": "SURGEX",
+    "version": "[v1.0]",
+    "copyright": "© 2025 SurgeX. Todos os sistemas operacionais.",
+    "links": [
+      { "label": "Serviços", "href": "#services" },
+      { "label": "Trabalho", "href": "#work" },
+      { "label": "Processo", "href": "#process" },
+      { "label": "Contacto", "href": "#contact" }
+    ]
   }
 }

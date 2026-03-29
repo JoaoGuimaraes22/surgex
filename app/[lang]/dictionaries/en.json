@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "name": "Business Name",
-    "title": "Business Name | City",
-    "description": "Welcome to my site.",
+    "name": "SurgeX",
+    "title": "SurgeX | AI-Powered Development Agency",
+    "description": "Web design, marketing, and automation powered by AI. We build high-performance websites and digital systems that drive results.",
     "phone": "",
-    "email": "",
+    "email": "hello@surgex.pt",
     "address": "",
-    "type": "LocalBusiness"
+    "type": "ProfessionalService"
   },
   "ui": {
     "skipToContent": "Skip to content",
@@ -15,8 +15,178 @@
     "notFoundTitle": "Page not found",
     "notFoundLink": "Go home"
   },
-  "home": {
-    "title": "Welcome",
-    "description": "This is the starting point of your project. Edit this page to get started."
+  "navbar": {
+    "brand": "SURGEX",
+    "version": "[v1.0]",
+    "cta": "Contact",
+    "links": [
+      { "id": "services", "label": "Services" },
+      { "id": "work", "label": "Work" },
+      { "id": "process", "label": "Process" },
+      { "id": "contact", "label": "Contact" }
+    ]
+  },
+  "hero": {
+    "titleLine1": "AI-POWERED",
+    "titleLine2": "DEVELOPMENT.",
+    "meta": [
+      { "label": "ID_TYPE", "value": "AI_AGENCY" },
+      { "label": "LOC", "value": "LISBON_PT_BASE" },
+      { "label": "STATUS", "value": "OPERATIONAL..." }
+    ],
+    "ctaServices": "Our Services",
+    "ctaWork": "See Our Work",
+    "ctaContact": "Get In Touch",
+    "sidebar": "SURGEX // AI SYSTEMS // 2025",
+    "coords": {
+      "lat": "38.7223° N",
+      "lng": "9.1393° W"
+    },
+    "signature": "SurgeX Digital"
+  },
+  "services": {
+    "label": "SERVICES",
+    "headline": "What We Build.",
+    "items": [
+      {
+        "id": "web-design",
+        "tag": "01",
+        "title": "Web Design",
+        "description": "Websites that look premium and load instantly. Designed to rank on Google, work perfectly on any device, and turn visitors into paying customers.",
+        "features": ["Custom Design", "Google Ranking", "Mobile-Ready", "Analytics"]
+      },
+      {
+        "id": "marketing",
+        "tag": "02",
+        "title": "Digital Marketing",
+        "description": "Get found by the right people. We run targeted ad campaigns, manage your social media presence, and create content that drives real business growth.",
+        "features": ["Google Ads", "Social Media", "Content Creation", "Lead Generation"]
+      },
+      {
+        "id": "automation",
+        "tag": "03",
+        "title": "AI Automation",
+        "description": "Stop wasting time on repetitive work. We build smart systems that answer your customers, follow up on leads, and run your operations while you sleep.",
+        "features": ["Smart Chatbots", "Auto Follow-ups", "Email Sequences", "Business Workflows"]
+      }
+    ]
+  },
+  "portfolio": {
+    "label": "WORK",
+    "headline": "Selected Projects.",
+    "projects": [
+      {
+        "id": "harvey",
+        "name": "Harvey Salon",
+        "category": "Web Design",
+        "image": "/portfolio/harvey.jpg",
+        "url": "https://harvey-salon.vercel.app"
+      },
+      {
+        "id": "vetavencas",
+        "name": "Vet Avencas",
+        "category": "Web Design",
+        "image": "/portfolio/vetavencas.jpg",
+        "url": "https://vet-avencas.vercel.app"
+      },
+      {
+        "id": "apjardins",
+        "name": "AP Jardins",
+        "category": "Web Design",
+        "image": "/portfolio/apjardins.jpg",
+        "url": "https://ap-jardins.vercel.app"
+      },
+      {
+        "id": "popei",
+        "name": "Popei Gym",
+        "category": "Web Design",
+        "image": "/portfolio/popei.jpg",
+        "url": "https://popei-gym.vercel.app"
+      },
+      {
+        "id": "santoamaro",
+        "name": "Santo Amaro",
+        "category": "Web Design",
+        "image": "/portfolio/santoamaro.jpg",
+        "url": "https://canalizadora-santo-amaro.vercel.app"
+      },
+      {
+        "id": "mademoiselle",
+        "name": "Mademoiselle",
+        "category": "Web Design",
+        "image": "/portfolio/mademoiselle.jpg",
+        "url": "https://mademoiselle-nails.vercel.app"
+      }
+    ],
+    "cta": "View Project"
+  },
+  "process": {
+    "label": "PROCESS",
+    "headline": "How We Operate.",
+    "steps": [
+      {
+        "tag": "01",
+        "title": "Discovery",
+        "description": "We learn your business inside out — who your customers are, what your competitors are doing, and where the biggest opportunities are.",
+        "status": "INIT_SCAN"
+      },
+      {
+        "tag": "02",
+        "title": "Design & Build",
+        "description": "We design and build your website from scratch. You get a premium, custom site — not a cookie-cutter template. Ready in days, not months.",
+        "status": "EXECUTING"
+      },
+      {
+        "tag": "03",
+        "title": "Optimize",
+        "description": "We make sure your site loads fast, ranks on Google, and actually gets people to take action — book, call, or buy.",
+        "status": "CALIBRATING"
+      },
+      {
+        "tag": "04",
+        "title": "Launch & Scale",
+        "description": "Your site goes live and we don't disappear. We set up marketing, track results, and keep improving what works.",
+        "status": "DEPLOYED"
+      }
+    ]
+  },
+  "stats": {
+    "label": "METRICS",
+    "items": [
+      { "value": "15+", "label": "Projects Delivered" },
+      { "value": "48h", "label": "Avg. Delivery" },
+      { "value": "10x", "label": "Faster Than Traditional" },
+      { "value": "98%", "label": "Cheaper Than Competition" }
+    ]
+  },
+  "contact": {
+    "label": "CONTACT",
+    "headline": "Start a Project.",
+    "description": "Ready to build something? Send us a message and we'll get back to you within 24 hours.",
+    "fields": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "your@email.com",
+      "messagePlaceholder": "Tell us about your project..."
+    },
+    "cta": "Transmit",
+    "info": {
+      "email": "hello@surgex.pt",
+      "location": "Lisbon, Portugal",
+      "status": "ACCEPTING_PROJECTS"
+    }
+  },
+  "footer": {
+    "brand": "SURGEX",
+    "version": "[v1.0]",
+    "copyright": "© 2025 SurgeX. All systems operational.",
+    "links": [
+      { "label": "Services", "href": "#services" },
+      { "label": "Work", "href": "#work" },
+      { "label": "Process", "href": "#process" },
+      { "label": "Contact", "href": "#contact" }
+    ]
   }
 }
