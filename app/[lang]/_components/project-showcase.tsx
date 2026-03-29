@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "motion/react";
-import Link from "next/link";
 import { useTheme } from "./theme-provider";
 
 export default function ProjectShowcase({
@@ -31,15 +30,6 @@ export default function ProjectShowcase({
 
   return (
     <div className="relative z-[5] min-h-screen px-6 pt-32 pb-32 md:px-10">
-      {/* Back link */}
-      <Link
-        href={`/${lang}#work`}
-        className="group mb-16 inline-flex items-center gap-3 font-mono text-[10px] uppercase tracking-[2px] text-muted transition-colors duration-300 hover:text-foreground"
-      >
-        <div className="h-px w-8 bg-muted transition-all duration-300 group-hover:w-12 group-hover:bg-foreground" />
-        {portfolio.back}
-      </Link>
-
       <div className="grid gap-16 md:grid-cols-2">
         {/* Left — project image */}
         <motion.div

@@ -1,12 +1,14 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import { useTheme } from "./theme-provider";
 import LocaleSwitcher from "./locale-switcher";
 
 export default function Navbar({
   dict,
   hideLinks = false,
+  backHref,
 }: {
   dict: {
     brand: string;
@@ -15,6 +17,7 @@ export default function Navbar({
     links: { id: string; label: string }[];
   };
   hideLinks?: boolean;
+  backHref?: string;
 }) {
   const { theme, toggle } = useTheme();
   const [open, setOpen] = useState(false);
@@ -48,6 +51,15 @@ export default function Navbar({
 
         {/* Desktop nav */}
         <nav className="hidden items-center gap-10 md:flex">
+          {backHref && (
+            <Link
+              href={backHref}
+              className="flex items-center gap-2 text-[10px] uppercase tracking-[2px] text-muted transition-colors duration-300 hover:text-foreground"
+            >
+              <span className="text-sm">←</span> Go Back
+            </Link>
+          )}
+
           {!hideLinks && dict.links.map((link) => (
             <a
               key={link.id}
@@ -97,6 +109,14 @@ export default function Navbar({
         {/* Mobile: show locale + theme when no links, hamburger otherwise */}
         {hideLinks ? (
           <div className="flex items-center gap-4 md:hidden">
+            {backHref && (
+              <Link
+                href={backHref}
+                className="flex items-center gap-1 text-[10px] uppercase tracking-[2px] text-muted transition-colors duration-300 hover:text-foreground"
+              >
+                <span className="text-sm">←</span>
+              </Link>
+            )}
             <LocaleSwitcher />
             <button
               onClick={toggle}
