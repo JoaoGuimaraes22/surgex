@@ -6,6 +6,7 @@ import LocaleSwitcher from "./locale-switcher";
 
 export default function Navbar({
   dict,
+  hideLinks = false,
 }: {
   dict: {
     brand: string;
@@ -13,6 +14,7 @@ export default function Navbar({
     cta: string;
     links: { id: string; label: string }[];
   };
+  hideLinks?: boolean;
 }) {
   const { theme, toggle } = useTheme();
   const [open, setOpen] = useState(false);
@@ -46,7 +48,7 @@ export default function Navbar({
 
         {/* Desktop nav */}
         <nav className="hidden items-center gap-10 md:flex">
-          {dict.links.map((link) => (
+          {!hideLinks && dict.links.map((link) => (
             <a
               key={link.id}
               href={`#${link.id}`}
@@ -92,7 +94,28 @@ export default function Navbar({
           </button>
         </nav>
 
-        {/* Mobile hamburger */}
+        {/* Mobile: show locale + theme when no links, hamburger otherwise */}
+        {hideLinks ? (
+          <div className="flex items-center gap-4 md:hidden">
+            <LocaleSwitcher />
+            <button
+              onClick={toggle}
+              className="flex h-8 w-8 items-center justify-center text-muted transition-colors duration-300 hover:text-foreground"
+              aria-label={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
+            >
+              {theme === "dark" ? (
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                  <circle cx="12" cy="12" r="5" />
+                  <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
+                </svg>
+              ) : (
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                  <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+                </svg>
+              )}
+            </button>
+          </div>
+        ) : (
         <button
           onClick={() => setOpen(!open)}
           className="relative z-30 flex h-8 w-8 flex-col items-center justify-center gap-1.5 md:hidden"
@@ -109,9 +132,11 @@ export default function Navbar({
             }`}
           />
         </button>
+        )}
       </header>
 
       {/* Mobile overlay */}
+      {!hideLinks && (
       <div
         className={`fixed inset-0 z-[15] bg-background transition-opacity duration-300 md:hidden ${
           open ? "opacity-100" : "pointer-events-none opacity-0"
@@ -180,6 +205,7 @@ export default function Navbar({
           </div>
         </nav>
       </div>
+      )}
     </>
   );
 }

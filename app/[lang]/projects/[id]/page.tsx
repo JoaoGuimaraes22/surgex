@@ -22,7 +22,7 @@ export default async function ProjectPage({
 
   return (
     <ThemeProvider>
-      <Navbar dict={dict.navbar} />
+      <Navbar dict={dict.navbar} hideLinks />
       <main>
         <ProjectShowcase project={project} portfolio={dict.portfolio} lang={lang} />
       </main>
