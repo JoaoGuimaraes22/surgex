@@ -125,7 +125,7 @@ export default function ProjectShowcase({
         <span className="mb-4 block font-mono text-[9px] uppercase tracking-[2px] text-muted">
           LIVE_PREVIEW
         </span>
-        <div className="relative overflow-hidden border border-muted/20" style={{ paddingBottom: "56.25%" }}>
+        <div className="relative h-[85vh] overflow-hidden border border-muted/20 md:h-0 md:pb-[56.25%]">
           <iframe
             src={project.url}
             title={project.name}
