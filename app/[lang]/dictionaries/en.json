@@ -88,7 +88,7 @@
         "name": "Harvey Salon",
         "category": "Website",
         "image": "/portfolio/harvey.jpg",
-        "url": "https://harvey-salon.vercel.app",
+        "url": "https://harvey-barber.vercel.app",
         "description": "Premium barbershop website with a dark cinematic aesthetic. Interactive before/after slider, team profiles, and an expandable gallery showcase.",
         "services": ["Web Design", "SEO", "Google Reviews Integration"],
         "niche": "Barbershop"
@@ -108,7 +108,7 @@
         "name": "AP Jardins",
         "category": "Website",
         "image": "/portfolio/apjardins.jpg",
-        "url": "https://ap-jardins.vercel.app",
+        "url": "https://landscaping-apjardins.vercel.app",
         "description": "Landscaping company website showcasing outdoor projects. Service areas, gallery of completed work, and contact system for quote requests.",
         "services": ["Web Design", "SEO", "Lead Generation"],
         "niche": "Landscaping"
@@ -118,7 +118,7 @@
         "name": "Popei Gym",
         "category": "Website",
         "image": "/portfolio/popei.jpg",
-        "url": "https://popei-gym.vercel.app",
+        "url": "https://gym-popei.vercel.app",
         "description": "Iron gym website with a bold, dark theme. Class schedule, modalities showcase, team profiles, and trial membership signup.",
         "services": ["Web Design", "SEO", "Schedule System"],
         "niche": "Fitness"
@@ -128,7 +128,7 @@
         "name": "Santo Amaro",
         "category": "Website",
         "image": "/portfolio/santoamaro.jpg",
-        "url": "https://canalizadora-santo-amaro.vercel.app",
+        "url": "https://plumbing-santoamaro.vercel.app",
         "description": "Plumbing company website with service area coverage, emergency contact system, and Google reviews integration for trust building.",
         "services": ["Web Design", "SEO", "Google Reviews Integration"],
         "niche": "Plumbing"
@@ -138,7 +138,7 @@
         "name": "Mademoiselle",
         "category": "Website",
         "image": "/portfolio/mademoiselle.jpg",
-        "url": "https://mademoiselle-nails.vercel.app",
+        "url": "https://salon-mademoiselle.vercel.app",
         "description": "Nail salon website with an elegant, feminine design. Service catalog, pricing display, and booking integration for appointments.",
         "services": ["Web Design", "SEO", "Booking Integration"],
         "niche": "Beauty"
