@@ -2,10 +2,10 @@
   "metadata": {
     "name": "SurgeX",
     "title": "SurgeX | Bespoke AI Solutions for Your Business",
-    "description": "We listen to your business, find where AI makes a real difference, and build custom solutions — websites, automations, chatbots, and more. Premium quality, fast delivery, fair prices.",
-    "phone": "",
+    "description": "We listen to your business, find where AI helps, and build custom solutions — websites, automations, chatbots. Premium quality, fair prices.",
+    "phone": "+351 915 109 181",
     "email": "contact@surgex.pt",
-    "address": "",
+    "address": "Lisbon, Portugal",
     "type": "ProfessionalService"
   },
   "ui": {
@@ -211,7 +211,7 @@
   "footer": {
     "brand": "SURGEX",
     "version": "[v1.0]",
-    "copyright": "© 2025 SurgeX. All systems operational.",
+    "copyright": "© 2026 SurgeX. All systems operational.",
     "links": [
       { "label": "Services", "href": "#services" },
       { "label": "Projects", "href": "#work" },

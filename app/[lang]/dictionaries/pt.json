@@ -2,10 +2,10 @@
   "metadata": {
     "name": "SurgeX",
     "title": "SurgeX | Soluções de IA à Medida para o Seu Negócio",
-    "description": "Ouvimos o seu negócio, encontramos onde a IA faz a diferença e construímos soluções personalizadas — websites, automações, chatbots e mais. Qualidade premium, entrega rápida, preços justos.",
-    "phone": "",
+    "description": "Ouvimos o seu negócio, encontramos onde a IA faz a diferença e construímos soluções personalizadas — websites, automações, chatbots. Preços justos.",
+    "phone": "+351 915 109 181",
     "email": "contact@surgex.pt",
-    "address": "",
+    "address": "Lisboa, Portugal",
     "type": "ProfessionalService"
   },
   "ui": {
@@ -211,7 +211,7 @@
   "footer": {
     "brand": "SURGEX",
     "version": "[v1.0]",
-    "copyright": "© 2025 SurgeX. Todos os sistemas operacionais.",
+    "copyright": "© 2026 SurgeX. Todos os sistemas operacionais.",
     "links": [
       { "label": "Serviços", "href": "#services" },
       { "label": "Projetos", "href": "#work" },
