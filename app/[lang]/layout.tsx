@@ -4,6 +4,7 @@ import "../globals.css";
 import { i18n } from "@/i18n-config";
 import { getDictionary, hasLocale } from "./dictionaries";
 import { notFound } from "next/navigation";
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -123,6 +124,7 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
           }}
         />
         {children}
+        <Analytics />
       </body>
     </html>
   );

@@ -9,6 +9,7 @@ import Process from "./_components/process";
 import Stats from "./_components/stats";
 import Contact from "./_components/contact";
 import Footer from "./_components/footer";
+import ChatWidget from "./_components/chat-widget";
 
 export default async function Home({ params }: PageProps<"/[lang]">) {
   const { lang } = await params;
@@ -29,6 +30,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
         <Contact dict={dict.contact} />
       </main>
       <Footer dict={dict.footer} />
+      <ChatWidget dict={dict.chat} lang={lang} />
     </ThemeProvider>
   );
 }

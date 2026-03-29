@@ -218,5 +218,14 @@
       { "label": "Process", "href": "#process" },
       { "label": "Contact", "href": "#contact" }
     ]
+  },
+  "chat": {
+    "title": "SurgeX AI",
+    "subtitle": "Typically replies instantly",
+    "placeholder": "Type a message...",
+    "greeting": "Hey! I'm SurgeX's AI assistant. Ask me anything about our services, how we work, or how we can help your business.",
+    "bubble": "Ask me anything",
+    "ariaLabel": "Open chat",
+    "chips": ["What do you do?", "How fast can you deliver?", "How much does it cost?", "I want to start a project"]
   }
 }
