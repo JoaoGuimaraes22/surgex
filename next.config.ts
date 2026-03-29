@@ -4,13 +4,14 @@ const isDev = process.env.NODE_ENV === "development";
 
 const cspHeader = `
   default-src 'self';
+  connect-src 'self' https://formspree.io;
   script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""};
   style-src 'self' 'unsafe-inline';
   img-src 'self' blob: data:;
   font-src 'self';
   object-src 'none';
   base-uri 'self';
-  form-action 'self';
+  form-action 'self' https://formspree.io;
   frame-src 'self' https://www.google.com https://maps.google.com;
   frame-ancestors 'none';
   upgrade-insecure-requests;

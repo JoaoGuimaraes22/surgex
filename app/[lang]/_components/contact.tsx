@@ -1,6 +1,7 @@
 "use client";
 
 import * as motion from "motion/react-client";
+import { useState } from "react";
 
 export default function Contact({
   dict,
@@ -25,6 +26,33 @@ export default function Contact({
     };
   };
 }) {
+  const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
+
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    setStatus("sending");
+
+    const form = e.currentTarget;
+    const data = new FormData(form);
+
+    try {
+      const res = await fetch("https://formspree.io/f/xwvwlvok", {
+        method: "POST",
+        body: data,
+        headers: { Accept: "application/json" },
+      });
+
+      if (res.ok) {
+        setStatus("sent");
+        form.reset();
+      } else {
+        setStatus("error");
+      }
+    } catch {
+      setStatus("error");
+    }
+  }
+
   return (
     <section id="contact" className="relative z-[5] overflow-hidden py-32 px-10">
       <div className="mb-16">
@@ -47,7 +75,7 @@ export default function Contact({
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
           className="flex flex-col gap-6"
-          onSubmit={(e) => e.preventDefault()}
+          onSubmit={handleSubmit}
         >
           <div>
             <label className="mb-2 block font-mono text-[9px] uppercase tracking-[2px] text-muted">
@@ -55,6 +83,8 @@ export default function Contact({
             </label>
             <input
               type="text"
+              name="name"
+              required
               placeholder={dict.fields.namePlaceholder}
               className="w-full border-b border-muted/30 bg-transparent px-0 py-3 text-sm text-foreground outline-none transition-colors duration-300 placeholder:text-muted/50 focus:border-foreground"
             />
@@ -66,6 +96,8 @@ export default function Contact({
             </label>
             <input
               type="email"
+              name="email"
+              required
               placeholder={dict.fields.emailPlaceholder}
               className="w-full border-b border-muted/30 bg-transparent px-0 py-3 text-sm text-foreground outline-none transition-colors duration-300 placeholder:text-muted/50 focus:border-foreground"
             />
@@ -76,7 +108,9 @@ export default function Contact({
               {dict.fields.message}
             </label>
             <textarea
+              name="message"
               rows={4}
+              required
               placeholder={dict.fields.messagePlaceholder}
               className="w-full resize-none border-b border-muted/30 bg-transparent px-0 py-3 text-sm text-foreground outline-none transition-colors duration-300 placeholder:text-muted/50 focus:border-foreground"
             />
@@ -84,11 +118,20 @@ export default function Contact({
 
           <button
             type="submit"
-            className="group mt-4 inline-flex w-fit items-center gap-5 transition-transform duration-300 ease-out hover:translate-x-[10px]"
+            disabled={status === "sending"}
+            className="group mt-4 inline-flex w-fit items-center gap-5 transition-transform duration-300 ease-out hover:translate-x-[10px] disabled:opacity-50"
           >
-            <span className="text-xs uppercase tracking-[3px]">{dict.cta}</span>
+            <span className="text-xs uppercase tracking-[3px]">
+              {status === "sending" ? "TRANSMITTING..." : status === "sent" ? "TRANSMITTED ✓" : dict.cta}
+            </span>
             <div className="h-px w-[60px] bg-foreground transition-all duration-300 group-hover:w-[100px]" />
           </button>
+
+          {status === "error" && (
+            <p className="font-mono text-[9px] uppercase tracking-[2px] text-red-500">
+              TRANSMISSION_FAILED — TRY AGAIN
+            </p>
+          )}
         </motion.form>
 
         {/* Info panel */}
