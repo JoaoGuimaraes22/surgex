@@ -19,7 +19,7 @@ export default function Portfolio({
   };
 }) {
   return (
-    <section id="work" className="relative z-[5] overflow-hidden bg-background py-32 px-10">
+    <section id="work" className="relative z-[5] overflow-hidden py-32 px-10">
       {/* Section label */}
       <div className="mb-16">
         <span className="font-mono text-[9px] uppercase tracking-[2px] text-muted">

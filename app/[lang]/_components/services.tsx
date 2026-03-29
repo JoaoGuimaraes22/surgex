@@ -1,6 +1,73 @@
 "use client";
 
-import * as motion from "motion/react-client";
+import { motion, useInView } from "motion/react";
+import { useRef } from "react";
+
+function ServiceCard({
+  item,
+  i,
+}: {
+  item: {
+    id: string;
+    tag: string;
+    title: string;
+    description: string;
+    features: string[];
+  };
+  i: number;
+}) {
+  const ref = useRef<HTMLDivElement>(null);
+  const inView = useInView(ref, { once: true, margin: "-20%" });
+
+  const corners = [
+    "top-0 left-0",
+    "top-0 right-0",
+    "bottom-0 left-0",
+    "bottom-0 right-0",
+  ];
+  const corner = corners[i % 4];
+
+  return (
+    <motion.div
+      ref={ref}
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: "-50px" }}
+      transition={{ duration: 0.6, delay: i * 0.15 }}
+      className={`group relative border border-muted/20 p-10 ${inView ? "is-active" : ""}`}
+    >
+      <span className="font-mono text-[10px] tracking-[2px] text-muted">
+        ({item.tag})
+      </span>
+
+      <h3 className="mt-6 text-xl font-light tracking-[-0.5px]">
+        {item.title}
+      </h3>
+
+      <div className="my-6 h-px w-12 bg-muted transition-all duration-500 group-hover:w-full group-hover:bg-foreground group-[.is-active]:w-full group-[.is-active]:bg-foreground md:group-[.is-active]:w-12 md:group-[.is-active]:bg-muted md:group-hover:w-full md:group-hover:bg-foreground" />
+
+      <p className="text-sm leading-relaxed text-muted">
+        {item.description}
+      </p>
+
+      <ul className="mt-8 flex flex-wrap gap-2">
+        {item.features.map((f) => (
+          <li
+            key={f}
+            className="border border-muted/30 px-3 py-1 font-mono text-[9px] uppercase tracking-[1px] text-muted transition-colors duration-300 group-hover:border-foreground/20 group-hover:text-foreground group-[.is-active]:border-foreground/20 group-[.is-active]:text-foreground md:group-[.is-active]:border-muted/30 md:group-[.is-active]:text-muted md:group-hover:border-foreground/20 md:group-hover:text-foreground"
+          >
+            {f}
+          </li>
+        ))}
+      </ul>
+
+      <div className={`absolute ${corner} h-8 w-8 opacity-0 transition-opacity duration-300 group-hover:opacity-100 group-[.is-active]:opacity-100 md:group-[.is-active]:opacity-0 md:group-hover:opacity-100`}>
+        <div className={`absolute ${corner} h-full w-px bg-foreground`} />
+        <div className={`absolute ${corner} h-px w-full bg-foreground`} />
+      </div>
+    </motion.div>
+  );
+}
 
 export default function Services({
   dict,
@@ -18,8 +85,7 @@ export default function Services({
   };
 }) {
   return (
-    <section id="services" className="relative z-[5] overflow-hidden bg-background py-32 px-10">
-      {/* Section label */}
+    <section id="services" className="relative z-[5] overflow-hidden py-32 px-10">
       <div className="mb-16">
         <span className="font-mono text-[9px] uppercase tracking-[2px] text-muted">
           {dict.label}
@@ -32,53 +98,9 @@ export default function Services({
         </h2>
       </div>
 
-      {/* Service cards */}
-      <div className="grid gap-px md:grid-cols-2" style={{ background: "var(--muted)" }}>
+      <div className="grid gap-px md:grid-cols-2">
         {dict.items.map((item, i) => (
-          <motion.div
-            key={item.id}
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-50px" }}
-            transition={{ duration: 0.6, delay: i * 0.15 }}
-            className="group relative bg-background p-10"
-          >
-            {/* Tag number */}
-            <span className="font-mono text-[10px] tracking-[2px] text-muted">
-              ({item.tag})
-            </span>
-
-            {/* Title */}
-            <h3 className="mt-6 text-xl font-light tracking-[-0.5px]">
-              {item.title}
-            </h3>
-
-            {/* Divider */}
-            <div className="my-6 h-px w-12 bg-muted transition-all duration-500 group-hover:w-full group-hover:bg-foreground" />
-
-            {/* Description */}
-            <p className="text-sm leading-relaxed text-muted">
-              {item.description}
-            </p>
-
-            {/* Features */}
-            <ul className="mt-8 flex flex-wrap gap-2">
-              {item.features.map((f) => (
-                <li
-                  key={f}
-                  className="border border-muted/30 px-3 py-1 font-mono text-[9px] uppercase tracking-[1px] text-muted transition-colors duration-300 group-hover:border-foreground/20 group-hover:text-foreground"
-                >
-                  {f}
-                </li>
-              ))}
-            </ul>
-
-            {/* Corner accent */}
-            <div className="absolute top-0 right-0 h-8 w-8 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-              <div className="absolute top-0 right-0 h-full w-px bg-foreground" />
-              <div className="absolute top-0 right-0 h-px w-full bg-foreground" />
-            </div>
-          </motion.div>
+          <ServiceCard key={item.id} item={item} i={i} />
         ))}
       </div>
     </section>
