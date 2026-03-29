@@ -223,10 +223,6 @@ export default function Hero({
       {/* Stipple grid */}
       <div className="stipple-grid fixed bottom-10 right-10 z-[1] h-[120px] w-[200px] opacity-40" />
 
-      {/* Signature */}
-      <div className="fixed bottom-10 right-10 z-[10] font-serif text-sm italic opacity-60">
-        {dict.signature}
-      </div>
 
       {/* Logo watermark */}
       <div className="fixed top-10 right-32 z-[3] opacity-[0.03]">

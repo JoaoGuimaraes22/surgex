@@ -32,7 +32,7 @@ export default function Navbar({
   return (
     <>
       <header
-        className="fixed top-0 left-0 z-20 flex w-full items-center justify-between p-6 md:items-start md:p-10"
+        className="fixed top-0 left-0 z-20 flex w-full items-center justify-between p-6 md:items-start md:px-10 md:pt-6 md:pb-10"
       >
         {/* Brand */}
         <a
@@ -64,7 +64,7 @@ export default function Navbar({
             <a
               key={link.id}
               href={`#${link.id}`}
-              className="group flex items-center gap-[10px] text-[10px] uppercase tracking-[2px] text-muted transition-colors duration-300 hover:text-foreground"
+              className="group flex items-center gap-[10px] rounded-full backdrop-blur-sm bg-background/8 px-1.5 py-0.5 text-[10px] uppercase tracking-[2px] text-muted transition-colors duration-300 hover:text-foreground"
             >
               <span className="text-lg font-extralight text-foreground">(</span>
               {link.label}
