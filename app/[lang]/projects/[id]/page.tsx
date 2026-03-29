@@ -1,8 +1,17 @@
 import { notFound } from "next/navigation";
 import { getDictionary, hasLocale } from "../../dictionaries";
+import { i18n } from "@/i18n-config";
 import ThemeProvider from "../../_components/theme-provider";
 import Navbar from "../../_components/navbar";
 import ProjectShowcase from "../../_components/project-showcase";
+
+const PROJECT_IDS = ["harvey", "vetavencas", "apjardins", "popei", "santoamaro", "mademoiselle"];
+
+export function generateStaticParams() {
+  return i18n.locales.flatMap((lang) =>
+    PROJECT_IDS.map((id) => ({ lang, id }))
+  );
+}
 
 export default async function ProjectPage({
   params,
