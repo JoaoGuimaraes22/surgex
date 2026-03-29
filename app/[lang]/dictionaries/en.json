@@ -88,45 +88,67 @@
         "name": "Harvey Salon",
         "category": "Website",
         "image": "/portfolio/harvey.jpg",
-        "url": "https://harvey-salon.vercel.app"
+        "url": "https://harvey-salon.vercel.app",
+        "description": "Premium barbershop website with a dark cinematic aesthetic. Interactive before/after slider, team profiles, and an expandable gallery showcase.",
+        "services": ["Web Design", "SEO", "Google Reviews Integration"],
+        "niche": "Barbershop"
       },
       {
         "id": "vetavencas",
         "name": "Vet Avencas",
         "category": "Website",
         "image": "/portfolio/vetavencas.jpg",
-        "url": "https://vet-avencas.vercel.app"
+        "url": "https://vet-avencas.vercel.app",
+        "description": "Veterinary clinic website with micro-interactions and a warm, trustworthy design. Appointment system, emergency hours display, and service showcase.",
+        "services": ["Web Design", "SEO", "Appointment System"],
+        "niche": "Veterinary"
       },
       {
         "id": "apjardins",
         "name": "AP Jardins",
         "category": "Website",
         "image": "/portfolio/apjardins.jpg",
-        "url": "https://ap-jardins.vercel.app"
+        "url": "https://ap-jardins.vercel.app",
+        "description": "Landscaping company website showcasing outdoor projects. Service areas, gallery of completed work, and contact system for quote requests.",
+        "services": ["Web Design", "SEO", "Lead Generation"],
+        "niche": "Landscaping"
       },
       {
         "id": "popei",
         "name": "Popei Gym",
         "category": "Website",
         "image": "/portfolio/popei.jpg",
-        "url": "https://popei-gym.vercel.app"
+        "url": "https://popei-gym.vercel.app",
+        "description": "Iron gym website with a bold, dark theme. Class schedule, modalities showcase, team profiles, and trial membership signup.",
+        "services": ["Web Design", "SEO", "Schedule System"],
+        "niche": "Fitness"
       },
       {
         "id": "santoamaro",
         "name": "Santo Amaro",
         "category": "Website",
         "image": "/portfolio/santoamaro.jpg",
-        "url": "https://canalizadora-santo-amaro.vercel.app"
+        "url": "https://canalizadora-santo-amaro.vercel.app",
+        "description": "Plumbing company website with service area coverage, emergency contact system, and Google reviews integration for trust building.",
+        "services": ["Web Design", "SEO", "Google Reviews Integration"],
+        "niche": "Plumbing"
       },
       {
         "id": "mademoiselle",
         "name": "Mademoiselle",
         "category": "Website",
         "image": "/portfolio/mademoiselle.jpg",
-        "url": "https://mademoiselle-nails.vercel.app"
+        "url": "https://mademoiselle-nails.vercel.app",
+        "description": "Nail salon website with an elegant, feminine design. Service catalog, pricing display, and booking integration for appointments.",
+        "services": ["Web Design", "SEO", "Booking Integration"],
+        "niche": "Beauty"
       }
     ],
-    "cta": "View Project"
+    "cta": "View Project",
+    "visitSite": "Visit Live Site",
+    "back": "Back to Projects",
+    "servicesLabel": "SERVICES_DELIVERED",
+    "nicheLabel": "NICHE"
   },
   "process": {
     "label": "PROCESS",

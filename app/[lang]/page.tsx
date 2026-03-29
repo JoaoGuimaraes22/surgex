@@ -23,7 +23,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
       <main>
         <Hero dict={dict.hero} />
         <Services dict={dict.services} />
-        <Portfolio dict={dict.portfolio} />
+        <Portfolio dict={dict.portfolio} lang={lang} />
         <Process dict={dict.process} />
         <Stats dict={dict.stats} />
         <Contact dict={dict.contact} />

@@ -1,9 +1,11 @@
 "use client";
 
 import * as motion from "motion/react-client";
+import Link from "next/link";
 
 export default function Portfolio({
   dict,
+  lang,
 }: {
   dict: {
     label: string;
@@ -17,6 +19,7 @@ export default function Portfolio({
     }[];
     cta: string;
   };
+  lang: string;
 }) {
   return (
     <section id="work" className="relative z-[5] overflow-hidden py-32 px-10">
@@ -36,15 +39,15 @@ export default function Portfolio({
       {/* Project grid */}
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {dict.projects.map((project, i) => (
-          <motion.a
+          <motion.div
             key={project.id}
-            href={project.url}
-            target="_blank"
-            rel="noopener noreferrer"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-50px" }}
             transition={{ duration: 0.6, delay: i * 0.1 }}
+          >
+          <Link
+            href={`/${lang}/projects/${project.id}`}
             className="group relative block aspect-[4/3] overflow-hidden border border-muted/20 bg-muted/5"
           >
             {/* Project image */}
@@ -81,7 +84,8 @@ export default function Portfolio({
               <div className="absolute top-0 right-0 h-full w-px bg-foreground" />
               <div className="absolute top-0 right-0 h-px w-full bg-foreground" />
             </div>
-          </motion.a>
+          </Link>
+          </motion.div>
         ))}
       </div>
     </section>

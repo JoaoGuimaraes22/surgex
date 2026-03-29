@@ -12,7 +12,7 @@ const cspHeader = `
   object-src 'none';
   base-uri 'self';
   form-action 'self' https://formspree.io;
-  frame-src 'self' https://www.google.com https://maps.google.com;
+  frame-src 'self' https://www.google.com https://maps.google.com https://*.vercel.app;
   frame-ancestors 'none';
   upgrade-insecure-requests;
 `;
