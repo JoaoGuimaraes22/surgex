@@ -24,7 +24,7 @@ export default async function ProjectPage({
   return (
     <ThemeProvider>
       <BackgroundSphere />
-      <Navbar dict={dict.navbar} hideLinks backHref={`/${lang}#work`} />
+      <Navbar dict={dict.navbar} hideLinks backHref={`/${lang}/projects`} />
       <main>
         <ProjectShowcase project={project} portfolio={dict.portfolio} lang={lang} />
       </main>

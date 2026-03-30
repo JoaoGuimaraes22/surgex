@@ -142,13 +142,139 @@
         "description": "Full-service beauty salon in São João do Estoril. Elegant design showcasing hair, nails, lash extensions, and massage services. 4.8★ rated.",
         "services": ["Web Design", "SEO", "Booking Integration"],
         "niche": "Beauty"
+      },
+      {
+        "id": "joaofaleiro",
+        "name": "João Faleiro Club",
+        "category": "Website",
+        "image": "/portfolio/joaofaleiro.jpg",
+        "url": "https://gym-joaofaleiro.vercel.app",
+        "description": "Boxing academy in Mem Martins — from beginners to professional fighters. Bold, fight-themed design with training plans and membership signup.",
+        "services": ["Web Design", "SEO", "Lead Generation"],
+        "niche": "Fitness"
+      },
+      {
+        "id": "tascavelha",
+        "name": "Tasca Velha",
+        "category": "Website",
+        "image": "/portfolio/tascavelha.jpg",
+        "url": "https://restaurant-tascavelha.vercel.app",
+        "description": "Traditional Portuguese restaurant in Carcavelos. 15+ years of authentic flavours, menu showcase, and table reservation. 1,459+ Google reviews.",
+        "services": ["Web Design", "SEO", "Reservation System"],
+        "niche": "Restaurant"
+      },
+      {
+        "id": "mademoiselle",
+        "name": "Mademoiselle Nails",
+        "category": "Website",
+        "image": "/portfolio/mademoiselle.jpg",
+        "url": "https://salon-mademoiselle.vercel.app",
+        "description": "Nail salon in Oeiras — 486+ reviews, 4.9★ rating. Elegant design with service showcase, team profiles, and transformation gallery.",
+        "services": ["Web Design", "SEO", "Booking Integration"],
+        "niche": "Beauty"
+      },
+      {
+        "id": "penedo",
+        "name": "Clínica do Penedo",
+        "category": "Website",
+        "image": "/portfolio/penedo.jpg",
+        "url": "https://dentist-penedo.vercel.app",
+        "description": "Dental clinic in São Domingos de Rana. Full service catalog from implants to orthodontics, team profiles, and insurance integrations.",
+        "services": ["Web Design", "SEO", "Appointment System"],
+        "niche": "Dental"
+      },
+      {
+        "id": "takata",
+        "name": "Clínica Takata",
+        "category": "Website",
+        "image": "/portfolio/takata.jpg",
+        "url": "https://dentist-takata.vercel.app",
+        "description": "Dental practice in Parede with perfect 5.0★ Google rating. Clean, trustworthy design with 8 specialties and insurance acceptance.",
+        "services": ["Web Design", "SEO", "Appointment System"],
+        "niche": "Dental"
+      },
+      {
+        "id": "ecestetica",
+        "name": "EC Estética Auto",
+        "category": "Website",
+        "image": "/portfolio/ecestetica.jpg",
+        "url": "https://detailing-ecestetica.vercel.app",
+        "description": "Auto detailing in Quinta do Conde. Deep interior cleaning, mold removal, and home service. 83+ reviews, 4.9★ rating.",
+        "services": ["Web Design", "SEO", "WhatsApp Integration"],
+        "niche": "Auto Detailing"
+      },
+      {
+        "id": "vetavencas",
+        "name": "Vet Avencas",
+        "category": "Website",
+        "image": "/portfolio/vetavencas.jpg",
+        "url": "https://vet-avencas.vercel.app",
+        "description": "Veterinary clinic in Parede, Cascais. 15+ years of compassionate care with 179+ reviews. Full service catalog and appointment booking.",
+        "services": ["Web Design", "SEO", "Appointment System"],
+        "niche": "Veterinary"
+      },
+      {
+        "id": "institutosoares",
+        "name": "Instituto Soares",
+        "category": "Website",
+        "image": "/portfolio/institutosoares.jpg",
+        "url": "https://instituto-soares.vercel.app",
+        "description": "Chiropractic and aesthetics clinic in Agualva-Cacém. Dual-specialty care, team showcase, and pricing plans. 5.0★ Google rating.",
+        "services": ["Web Design", "SEO", "Appointment System"],
+        "niche": "Chiropractic"
+      },
+      {
+        "id": "houseshine",
+        "name": "House Shine Cascais",
+        "category": "Website",
+        "image": "/portfolio/houseshine.jpg",
+        "url": "https://cleaning-houseshine.vercel.app",
+        "description": "Professional domestic cleaning in Cascais. Deep cleaning, post-construction cleanup, before/after showcases. 500+ homes cleaned.",
+        "services": ["Web Design", "SEO", "Lead Generation"],
+        "niche": "Home Services"
+      },
+      {
+        "id": "santoamaro",
+        "name": "Canalizadora de Santo Amaro",
+        "category": "Website",
+        "image": "/portfolio/santoamaro.jpg",
+        "url": "https://plumbing-santoamaro.vercel.app",
+        "description": "24h emergency plumber in Lisbon. Drain unclogging, water heater installation, gas pipework. Bold design with transparent pricing.",
+        "services": ["Web Design", "SEO", "Lead Generation"],
+        "niche": "Home Services"
       }
     ],
     "cta": "View Project",
+    "seeMore": "See All Projects",
     "visitSite": "Visit Live Site",
     "back": "Back to Projects",
     "servicesLabel": "SERVICES_DELIVERED",
     "nicheLabel": "NICHE"
+  },
+  "projectsPage": {
+    "label": "PROJECTS",
+    "headline": "Our Work.",
+    "description": "Every project is a custom-built solution. No templates, no shortcuts.",
+    "categories": {
+      "webDevelopment": {
+        "title": "Web Development",
+        "tag": "01",
+        "description": "Premium websites that rank, convert, and represent your brand."
+      },
+      "automations": {
+        "title": "Automations & Chatbots",
+        "tag": "02",
+        "description": "Intelligent systems that handle customer interactions and streamline operations.",
+        "comingSoon": "Projects coming soon.",
+        "comingSoonCta": "Want to be our first? Let's talk."
+      }
+    },
+    "backToHome": "Back to Home",
+    "cta": "View Project",
+    "meta": {
+      "title": "Projects | SurgeX",
+      "description": "Explore our portfolio of premium websites, automations, and AI solutions built for real businesses."
+    }
   },
   "process": {
     "label": "PROCESS",

@@ -142,13 +142,139 @@
         "description": "Salão de beleza completo em São João do Estoril. Design elegante para cabelo, unhas, extensões de pestanas e massagens. 4.8★.",
         "services": ["Web Design", "SEO", "Integração de Marcações"],
         "niche": "Beleza"
+      },
+      {
+        "id": "joaofaleiro",
+        "name": "João Faleiro Club",
+        "category": "Website",
+        "image": "/portfolio/joaofaleiro.jpg",
+        "url": "https://gym-joaofaleiro.vercel.app",
+        "description": "Academia de boxe em Mem Martins — de iniciantes a lutadores profissionais. Design arrojado com planos de treino e inscrição.",
+        "services": ["Web Design", "SEO", "Geração de Leads"],
+        "niche": "Fitness"
+      },
+      {
+        "id": "tascavelha",
+        "name": "Tasca Velha",
+        "category": "Website",
+        "image": "/portfolio/tascavelha.jpg",
+        "url": "https://restaurant-tascavelha.vercel.app",
+        "description": "Restaurante tradicional português em Carcavelos. 15+ anos de sabores autênticos, menu e reservas. 1.459+ avaliações Google.",
+        "services": ["Web Design", "SEO", "Sistema de Reservas"],
+        "niche": "Restaurante"
+      },
+      {
+        "id": "mademoiselle",
+        "name": "Mademoiselle Nails",
+        "category": "Website",
+        "image": "/portfolio/mademoiselle.jpg",
+        "url": "https://salon-mademoiselle.vercel.app",
+        "description": "Salão de unhas em Oeiras — 486+ avaliações, 4.9★. Design elegante com serviços, equipa e galeria de transformações.",
+        "services": ["Web Design", "SEO", "Integração de Marcações"],
+        "niche": "Beleza"
+      },
+      {
+        "id": "penedo",
+        "name": "Clínica do Penedo",
+        "category": "Website",
+        "image": "/portfolio/penedo.jpg",
+        "url": "https://dentist-penedo.vercel.app",
+        "description": "Clínica dentária em São Domingos de Rana. Catálogo completo de implantes a ortodontia, equipa e seguros aceites.",
+        "services": ["Web Design", "SEO", "Sistema de Marcações"],
+        "niche": "Dentista"
+      },
+      {
+        "id": "takata",
+        "name": "Clínica Takata",
+        "category": "Website",
+        "image": "/portfolio/takata.jpg",
+        "url": "https://dentist-takata.vercel.app",
+        "description": "Consultório dentário em Parede com 5.0★ no Google. Design limpo e de confiança com 8 especialidades e seguros aceites.",
+        "services": ["Web Design", "SEO", "Sistema de Marcações"],
+        "niche": "Dentista"
+      },
+      {
+        "id": "ecestetica",
+        "name": "EC Estética Auto",
+        "category": "Website",
+        "image": "/portfolio/ecestetica.jpg",
+        "url": "https://detailing-ecestetica.vercel.app",
+        "description": "Detailing automóvel em Quinta do Conde. Limpeza profunda de interiores, remoção de bolor e serviço ao domicílio. 83+ avaliações, 4.9★.",
+        "services": ["Web Design", "SEO", "Integração WhatsApp"],
+        "niche": "Detailing Automóvel"
+      },
+      {
+        "id": "vetavencas",
+        "name": "Vet Avencas",
+        "category": "Website",
+        "image": "/portfolio/vetavencas.jpg",
+        "url": "https://vet-avencas.vercel.app",
+        "description": "Clínica veterinária em Parede, Cascais. 15+ anos de cuidados com 179+ avaliações. Catálogo de serviços e marcações.",
+        "services": ["Web Design", "SEO", "Sistema de Marcações"],
+        "niche": "Veterinária"
+      },
+      {
+        "id": "institutosoares",
+        "name": "Instituto Soares",
+        "category": "Website",
+        "image": "/portfolio/institutosoares.jpg",
+        "url": "https://instituto-soares.vercel.app",
+        "description": "Clínica de quiroprática e estética em Agualva-Cacém. Dupla especialidade, equipa e planos de preços. 5.0★ no Google.",
+        "services": ["Web Design", "SEO", "Sistema de Marcações"],
+        "niche": "Quiroprática"
+      },
+      {
+        "id": "houseshine",
+        "name": "House Shine Cascais",
+        "category": "Website",
+        "image": "/portfolio/houseshine.jpg",
+        "url": "https://cleaning-houseshine.vercel.app",
+        "description": "Limpeza doméstica profissional em Cascais. Limpezas profundas, pós-obra, antes/depois. 500+ casas limpas.",
+        "services": ["Web Design", "SEO", "Geração de Leads"],
+        "niche": "Serviços Domésticos"
+      },
+      {
+        "id": "santoamaro",
+        "name": "Canalizadora de Santo Amaro",
+        "category": "Website",
+        "image": "/portfolio/santoamaro.jpg",
+        "url": "https://plumbing-santoamaro.vercel.app",
+        "description": "Canalizador 24h de emergência em Lisboa. Desentupimentos, instalação de esquentadores, gás. Design arrojado com preços transparentes.",
+        "services": ["Web Design", "SEO", "Geração de Leads"],
+        "niche": "Serviços Domésticos"
       }
     ],
     "cta": "Ver Projeto",
+    "seeMore": "Ver Todos os Projetos",
     "visitSite": "Visitar Site",
     "back": "Voltar aos Projetos",
     "servicesLabel": "SERVIÇOS_ENTREGUES",
     "nicheLabel": "NICHO"
+  },
+  "projectsPage": {
+    "label": "PROJETOS",
+    "headline": "O Nosso Trabalho.",
+    "description": "Cada projeto é uma solução feita à medida. Sem templates, sem atalhos.",
+    "categories": {
+      "webDevelopment": {
+        "title": "Desenvolvimento Web",
+        "tag": "01",
+        "description": "Websites premium que posicionam, convertem e representam a sua marca."
+      },
+      "automations": {
+        "title": "Automações & Chatbots",
+        "tag": "02",
+        "description": "Sistemas inteligentes que gerem interações com clientes e otimizam operações.",
+        "comingSoon": "Projetos em breve.",
+        "comingSoonCta": "Quer ser o primeiro? Vamos conversar."
+      }
+    },
+    "backToHome": "Voltar ao Início",
+    "cta": "Ver Projeto",
+    "meta": {
+      "title": "Projetos | SurgeX",
+      "description": "Explore o nosso portfólio de websites premium, automações e soluções de IA construídas para negócios reais."
+    }
   },
   "process": {
     "label": "PROCESSO",

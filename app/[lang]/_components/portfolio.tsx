@@ -18,6 +18,7 @@ export default function Portfolio({
       url: string;
     }[];
     cta: string;
+    seeMore: string;
   };
   lang: string;
 }) {
@@ -36,9 +37,9 @@ export default function Portfolio({
         </h2>
       </div>
 
-      {/* Project grid */}
+      {/* Project grid — show first 6 on homepage */}
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {dict.projects.map((project, i) => (
+        {dict.projects.slice(0, 6).map((project, i) => (
           <motion.div
             key={project.id}
             initial={{ opacity: 0, y: 30 }}
@@ -87,6 +88,19 @@ export default function Portfolio({
           </Link>
           </motion.div>
         ))}
+      </div>
+
+      {/* See More CTA */}
+      <div className="mt-16 flex justify-center">
+        <Link
+          href={`/${lang}/projects`}
+          className="group inline-flex items-center gap-5 transition-transform duration-300 ease-out hover:translate-x-[10px]"
+        >
+          <span className="text-xs uppercase tracking-[3px] text-muted group-hover:text-foreground transition-colors duration-300">
+            {dict.seeMore}
+          </span>
+          <div className="h-px w-[60px] bg-foreground transition-all duration-300 group-hover:w-[100px]" />
+        </Link>
       </div>
     </section>
   );
