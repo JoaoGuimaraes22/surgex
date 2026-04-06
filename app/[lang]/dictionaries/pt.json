@@ -2,7 +2,7 @@
   "metadata": {
     "name": "SurgeX",
     "title": "SurgeX | Soluções de IA à Medida para o Seu Negócio",
-    "description": "Ouvimos o seu negócio, encontramos onde a IA faz a diferença e construímos soluções personalizadas — websites, automações, chatbots. Preços justos.",
+    "description": "Ouvimos o seu negócio, encontramos onde a IA faz a diferença e construímos soluções personalizadas — websites, automações, chatbots. Qualidade premium, preços justos.",
     "phone": "+351 915 109 181",
     "email": "contact@surgex.pt",
     "address": "Lisboa, Portugal",
@@ -54,7 +54,12 @@
         "tag": "01",
         "title": "Soluções de IA à Medida",
         "description": "Sentamo-nos consigo, percebemos como o seu negócio funciona e encontramos exatamente onde a IA faz a diferença. Nada genérico — tudo é construído para as suas necessidades específicas.",
-        "features": ["Workshops de IA", "Builds Personalizados", "Integração Total", "Suporte Contínuo"]
+        "features": [
+          "Workshops de IA",
+          "Builds Personalizados",
+          "Integração Total",
+          "Suporte Contínuo"
+        ]
       },
       {
         "id": "websites",
@@ -68,7 +73,12 @@
         "tag": "03",
         "title": "Automação & Chatbots",
         "description": "Pare de fazer coisas manualmente. Construímos sistemas que respondem aos seus clientes, fazem follow-up de leads, gerem emails e operam o seu negócio — enquanto se foca no que importa.",
-        "features": ["Chatbots Inteligentes", "Follow-ups Automáticos", "Sequências de Email", "Automação de Processos"]
+        "features": [
+          "Chatbots Inteligentes",
+          "Follow-ups Automáticos",
+          "Sequências de Email",
+          "Automação de Processos"
+        ]
       },
       {
         "id": "marketing",
@@ -352,6 +362,11 @@
     "greeting": "Olá! Sou o assistente de IA da SurgeX. Pergunta-me sobre os nossos serviços, como trabalhamos, ou como podemos ajudar o teu negócio.",
     "bubble": "Pergunta-me algo",
     "ariaLabel": "Abrir chat",
-    "chips": ["O que fazem?", "Em quanto tempo entregam?", "Quanto custa?", "Quero iniciar um projeto"]
+    "chips": [
+      "O que fazem?",
+      "Em quanto tempo entregam?",
+      "Quanto custa?",
+      "Quero iniciar um projeto"
+    ]
   }
 }
