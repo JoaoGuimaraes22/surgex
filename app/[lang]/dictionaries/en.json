@@ -396,7 +396,7 @@
   "stats": {
     "label": "METRICS",
     "items": [
-      { "value": "15+", "label": "Projects Delivered" },
+      { "value": "50+", "label": "Projects Delivered" },
       { "value": "48h", "label": "Avg. Delivery" },
       { "value": "10x", "label": "Faster Than Traditional" },
       { "value": "98%", "label": "Cheaper Than Competition" }

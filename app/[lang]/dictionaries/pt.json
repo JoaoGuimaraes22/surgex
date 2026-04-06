@@ -406,7 +406,7 @@
   "stats": {
     "label": "MÉTRICAS",
     "items": [
-      { "value": "15+", "label": "Projetos Entregues" },
+      { "value": "50+", "label": "Projetos Entregues" },
       { "value": "48h", "label": "Entrega Média" },
       { "value": "10x", "label": "Mais Rápido Que o Tradicional" },
       { "value": "98%", "label": "Mais Barato Que a Concorrência" }
