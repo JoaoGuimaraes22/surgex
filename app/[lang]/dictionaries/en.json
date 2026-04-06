@@ -79,8 +79,23 @@
         "title": "Digital Marketing",
         "description": "Get found by the right people. Targeted ad campaigns, social media management, and content that actually drives business growth — all powered by AI.",
         "features": ["Google Ads", "Social Media", "Content Creation", "Lead Generation"]
+      },
+      {
+        "id": "geo-aeo",
+        "tag": "05",
+        "title": "GEO / AEO",
+        "description": "Appear in ChatGPT, Perplexity, and Google AI Overviews. Generative Engine Optimization puts your business in front of AI-powered search results.",
+        "features": ["AI Search Visibility", "Structured Data", "Content Optimization", "Citation Building"]
+      },
+      {
+        "id": "training",
+        "tag": "06",
+        "title": "Training & Workshops",
+        "description": "Teach your team to use AI tools effectively. Hands-on workshops that turn your people into AI power users — no technical background required.",
+        "features": ["Team Workshops", "AI Tool Training", "Custom Curriculum", "Ongoing Support"]
       }
-    ]
+    ],
+    "learnMore": "Learn More"
   },
   "pricing": {
     "label": "PRICING",

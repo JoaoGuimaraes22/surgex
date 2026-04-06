@@ -4,19 +4,20 @@ import { motion, useInView } from "motion/react";
 import { useRef } from "react";
 import Link from "next/link";
 
-function ServiceCard({
+export default function ServiceHubCard({
   item,
+  slug,
   i,
   lang,
   learnMore,
 }: {
   item: {
-    id: string;
     tag: string;
     title: string;
-    description: string;
+    shortDescription: string;
     features: string[];
   };
+  slug: string;
   i: number;
   lang: string;
   learnMore: string;
@@ -41,8 +42,8 @@ function ServiceCard({
       transition={{ duration: 0.6, delay: i * 0.15 }}
     >
       <Link
-        href={`/${lang}/services/${item.id}`}
-        className={`group relative block border border-muted/20 p-10 ${inView ? "is-active" : ""}`}
+        href={`/${lang}/services/${slug}`}
+        className={`group relative flex h-full flex-col border border-muted/20 p-10 transition-colors duration-300 hover:bg-muted/5 ${inView ? "is-active" : ""}`}
       >
         <span className="font-mono text-[10px] tracking-[2px] text-muted">
           ({item.tag})
@@ -55,7 +56,7 @@ function ServiceCard({
         <div className="my-6 h-px w-12 bg-muted transition-all duration-500 group-hover:w-full group-hover:bg-foreground group-[.is-active]:w-full group-[.is-active]:bg-foreground md:group-[.is-active]:w-12 md:group-[.is-active]:bg-muted md:group-hover:w-full md:group-hover:bg-foreground" />
 
         <p className="text-sm leading-relaxed text-muted">
-          {item.description}
+          {item.shortDescription}
         </p>
 
         <ul className="mt-8 flex flex-wrap gap-2">
@@ -69,60 +70,25 @@ function ServiceCard({
           ))}
         </ul>
 
+        {/* Spacer */}
+        <div className="mt-auto" />
+
         {/* Learn More CTA */}
-        <div className="mt-8 flex items-center gap-3">
+        <div className="mt-8 flex items-center gap-3 opacity-0 transition-all duration-300 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0">
           <span className="font-mono text-[10px] uppercase tracking-[2px] text-muted">
             {learnMore}
           </span>
           <div className="h-px w-8 bg-foreground transition-all duration-300 group-hover:w-16" />
         </div>
 
-        <div className={`absolute ${corner} h-8 w-8 opacity-0 transition-opacity duration-300 group-hover:opacity-100 group-[.is-active]:opacity-100 md:group-[.is-active]:opacity-0 md:group-hover:opacity-100`}>
+        {/* Corner accent */}
+        <div
+          className={`absolute ${corner} h-8 w-8 opacity-0 transition-opacity duration-300 group-hover:opacity-100 group-[.is-active]:opacity-100 md:group-[.is-active]:opacity-0 md:group-hover:opacity-100`}
+        >
           <div className={`absolute ${corner} h-full w-px bg-foreground`} />
           <div className={`absolute ${corner} h-px w-full bg-foreground`} />
         </div>
       </Link>
     </motion.div>
-  );
-}
-
-export default function Services({
-  dict,
-  lang,
-}: {
-  dict: {
-    label: string;
-    headline: string;
-    learnMore: string;
-    items: {
-      id: string;
-      tag: string;
-      title: string;
-      description: string;
-      features: string[];
-    }[];
-  };
-  lang: string;
-}) {
-  return (
-    <section id="services" className="relative z-[5] overflow-hidden py-32 px-10">
-      <div className="mb-16">
-        <span className="font-mono text-[9px] uppercase tracking-[2px] text-muted">
-          {dict.label}
-        </span>
-        <h2
-          className="mt-4 font-sans font-extralight leading-[0.9] tracking-[-1px]"
-          style={{ fontSize: "clamp(32px, 5vw, 64px)" }}
-        >
-          {dict.headline}
-        </h2>
-      </div>
-
-      <div className="grid gap-px md:grid-cols-2">
-        {dict.items.map((item, i) => (
-          <ServiceCard key={item.id} item={item} i={i} lang={lang} learnMore={dict.learnMore} />
-        ))}
-      </div>
-    </section>
   );
 }

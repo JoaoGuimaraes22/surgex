@@ -6,7 +6,7 @@ import { getAllSlugs } from "./[lang]/_lib/blog";
 export default function sitemap(): MetadataRoute.Sitemap {
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 
-  const pages = ["", "/projects"];
+  const pages = ["", "/projects", "/services"];
   const projectIds = enDict.portfolio.projects.map((p) => p.id);
 
   const staticPages = pages.flatMap((page) =>
@@ -66,5 +66,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
-  return [...staticPages, ...projectPages, ...blogListingPages, ...blogPostPages];
+  const serviceSlugs = ["ai-solutions", "websites", "automation", "marketing", "geo-aeo", "training"];
+  const servicePages = serviceSlugs.flatMap((slug) =>
+    i18n.locales.map((lang) => ({
+      url: `${siteUrl}/${lang}/services/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+      alternates: {
+        languages: Object.fromEntries(
+          i18n.locales.map((l) => [l, `${siteUrl}/${l}/services/${slug}`])
+        ),
+      },
+    }))
+  );
+
+  return [...staticPages, ...projectPages, ...blogListingPages, ...blogPostPages, ...servicePages];
 }

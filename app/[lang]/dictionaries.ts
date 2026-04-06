@@ -21,3 +21,13 @@ const blogDictionaries = {
 
 export const getBlogDictionary = async (locale: Locale) =>
   blogDictionaries[locale]();
+
+const servicesDictionaries = {
+  en: () =>
+    import("./dictionaries/services-en.json").then((module) => module.default),
+  pt: () =>
+    import("./dictionaries/services-pt.json").then((module) => module.default),
+};
+
+export const getServicesDictionary = async (locale: Locale) =>
+  servicesDictionaries[locale]();

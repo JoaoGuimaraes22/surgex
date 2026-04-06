@@ -41,7 +41,7 @@
 ## Phase B — Marketing & Growth
 
 - [x] Blog / content marketing — MDX blog with 3 SEO posts (both locales), dict-driven UI, navbar/footer/sitemap integration
-- [ ] GEO/AEO service page — optimize businesses to appear in ChatGPT/Perplexity/Google AI Overviews
+- [x] Services hub + 6 landing pages — /services with individual pages for AI, websites, automation, marketing, GEO/AEO, training
 - [ ] Productized chatbot offering — standalone low-cost entry point (landing page + signup flow)
 - [ ] Pessoas 2030 — research PT government digitalization subsidies, help clients co-fund projects
 - [ ] City-specific SEO pages — programmatic local pages ("agência digital em [cidade]")

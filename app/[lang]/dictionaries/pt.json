@@ -2,7 +2,7 @@
   "metadata": {
     "name": "SurgeX",
     "title": "SurgeX | Soluções de IA à Medida para o Seu Negócio",
-    "description": "Ouvimos o seu negócio, encontramos onde a IA faz a diferença e construímos soluções personalizadas — websites, automações, chatbots. Qualidade premium, preços justos.",
+    "description": "Ouvimos o seu negócio, encontramos onde a IA ajuda e construímos soluções à medida — websites, automações, chatbots. Qualidade premium, preços justos.",
     "phone": "+351 915 109 181",
     "email": "contact@surgex.pt",
     "address": "Lisboa, Portugal",
@@ -89,8 +89,23 @@
         "title": "Marketing Digital",
         "description": "Seja encontrado pelas pessoas certas. Campanhas de anúncios segmentadas, gestão de redes sociais e conteúdo que gera crescimento real — tudo potenciado por IA.",
         "features": ["Google Ads", "Redes Sociais", "Criação de Conteúdo", "Geração de Leads"]
+      },
+      {
+        "id": "geo-aeo",
+        "tag": "05",
+        "title": "GEO / AEO",
+        "description": "Apareça no ChatGPT, Perplexity e Google AI Overviews. A Otimização para Motores Generativos coloca o seu negócio nos resultados de pesquisa com IA.",
+        "features": ["Visibilidade IA", "Dados Estruturados", "Otimização Conteúdo", "Construção de Citações"]
+      },
+      {
+        "id": "training",
+        "tag": "06",
+        "title": "Formação & Workshops",
+        "description": "Ensine a sua equipa a usar ferramentas de IA de forma eficaz. Workshops práticos que transformam a sua equipa em utilizadores avançados de IA — sem necessidade de conhecimento técnico.",
+        "features": ["Workshops de Equipa", "Formação em IA", "Currículo Personalizado", "Suporte Contínuo"]
       }
-    ]
+    ],
+    "learnMore": "Saber Mais"
   },
   "pricing": {
     "label": "PREÇOS",
