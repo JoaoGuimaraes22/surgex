@@ -5,8 +5,10 @@ import { i18n, type Locale } from "@/i18n-config";
 
 export default function LocaleSwitcher({
   scrolled = false,
+  alternates,
 }: {
   scrolled?: boolean;
+  alternates?: Record<string, string>;
 }) {
   const pathname = usePathname();
   const router = useRouter();
@@ -15,9 +17,13 @@ export default function LocaleSwitcher({
   if (i18n.locales.length <= 1) return null;
 
   function switchLocale(locale: Locale) {
-    const segments = pathname.split("/");
-    segments[1] = locale;
-    router.push(segments.join("/"));
+    if (alternates && alternates[locale]) {
+      router.push(alternates[locale]);
+    } else {
+      const segments = pathname.split("/");
+      segments[1] = locale;
+      router.push(segments.join("/"));
+    }
   }
 
   return (

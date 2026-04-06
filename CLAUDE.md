@@ -82,7 +82,7 @@ Only for **differentiating sections** (hero, unique niche sections). Skip for st
 - Default locale: `pt`, supported: `pt`, `en`
 - Config lives in `i18n-config.ts` (root)
 - `proxy.ts` handles locale detection via Accept-Language header
-- Translations loaded server-side via `getDictionary(lang)` from `dictionaries.ts`
+- Translations loaded server-side via `getDictionary(lang)` from `dictionaries.ts`. Blog has separate dicts: `getBlogDictionary(lang)` loads from `blog-en.json`/`blog-pt.json`
 - Adding a locale: update `i18n-config.ts`, add JSON in `dictionaries/`, add import in `dictionaries.ts`
 
 ## Naming
@@ -101,7 +101,7 @@ Only for **differentiating sections** (hero, unique niche sections). Skip for st
 - **Dict keys**: camelCase of kebab-case filename (`gallery-strip.tsx` → `galleryStrip`)
 - **Self-contained sections**: each component gets ONE dict key with ALL its data, no cross-key dependencies
 - **Types inferred from JSON**: no explicit Dict interfaces — TypeScript infers from imports
-- **Navbar dict**: `{ brand, cta, links: [{ id, label }] }` — links are dict-driven, never hardcoded
+- **Navbar dict**: `{ brand, cta, links: [{ id, label, href? }] }` — links are dict-driven, never hardcoded. `href` makes it a `<Link>` to a page route instead of an anchor. Pass `lang` prop on sub-pages so anchors resolve to `/{lang}#section`
 - **Page composition**: Navbar + sections + Footer all in `page.tsx`, not layout — layout is for html/body/metadata only
 - **`<main>` wrapper**: sections wrapped in `<main>` element in page.tsx for semantic HTML
 - **`overflow-hidden` on every section**: every `<section>` must include `overflow-hidden`. Motion animations (`initial={{ x: 40 }}`), absolute-positioned decorative elements (`-right-4`), and wide content all cause mobile horizontal overflow without it.
@@ -128,3 +128,12 @@ Only for **differentiating sections** (hero, unique niche sections). Skip for st
 - `error.tsx` must be a Client Component (`"use client"`)
 - Use `_` prefix folders for non-routable code inside `app/`
 - Route groups `(name)` for organizing without affecting URLs
+
+## Blog
+
+- MDX posts in `content/blog/{locale}/` with YAML frontmatter
+- Rendered via `next-mdx-remote/rsc` (server component, no client boundary)
+- Frontmatter parsed by `gray-matter` in `_lib/blog.ts`
+- Each post needs `alternateSlug` in frontmatter pointing to the other locale's slug (for locale switcher)
+- Blog UI strings in separate `blog-en.json`/`blog-pt.json` (not in main dicts)
+- See `info/blog-guide.md` for full workflow

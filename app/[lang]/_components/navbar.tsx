@@ -9,15 +9,19 @@ export default function Navbar({
   dict,
   hideLinks = false,
   backHref,
+  lang,
+  alternates,
 }: {
   dict: {
     brand: string;
     version: string;
     cta: string;
-    links: { id: string; label: string }[];
+    links: { id: string; label: string; href?: string }[];
   };
   hideLinks?: boolean;
   backHref?: string;
+  lang?: string;
+  alternates?: Record<string, string>;
 }) {
   const { theme, toggle } = useTheme();
   const [open, setOpen] = useState(false);
@@ -36,8 +40,8 @@ export default function Navbar({
       >
         {/* Brand */}
         <a
-          href={backHref ? "/" : "#"}
-          onClick={backHref ? undefined : () => window.scrollTo({ top: 0, behavior: "smooth" })}
+          href={backHref ?? (lang ? `/${lang}` : "#")}
+          onClick={!backHref && !lang ? () => window.scrollTo({ top: 0, behavior: "smooth" }) : undefined}
           className="flex items-center gap-3"
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -60,19 +64,31 @@ export default function Navbar({
             </Link>
           )}
 
-          {!hideLinks && dict.links.map((link) => (
-            <a
-              key={link.id}
-              href={`#${link.id}`}
-              className="group flex items-center gap-[10px] rounded-full backdrop-blur-sm bg-background/8 px-1.5 py-0.5 text-[10px] uppercase tracking-[2px] text-muted transition-colors duration-300 hover:text-foreground"
-            >
-              <span className="text-lg font-extralight text-foreground">(</span>
-              {link.label}
-              <span className="text-lg font-extralight text-foreground">)</span>
-            </a>
-          ))}
+          {!hideLinks && dict.links.map((link) =>
+            link.href ? (
+              <Link
+                key={link.id}
+                href={link.href}
+                className="group flex items-center gap-[10px] rounded-full backdrop-blur-sm bg-background/8 px-1.5 py-0.5 text-[10px] uppercase tracking-[2px] text-muted transition-colors duration-300 hover:text-foreground"
+              >
+                <span className="text-lg font-extralight text-foreground">(</span>
+                {link.label}
+                <span className="text-lg font-extralight text-foreground">)</span>
+              </Link>
+            ) : (
+              <a
+                key={link.id}
+                href={lang ? `/${lang}#${link.id}` : `#${link.id}`}
+                className="group flex items-center gap-[10px] rounded-full backdrop-blur-sm bg-background/8 px-1.5 py-0.5 text-[10px] uppercase tracking-[2px] text-muted transition-colors duration-300 hover:text-foreground"
+              >
+                <span className="text-lg font-extralight text-foreground">(</span>
+                {link.label}
+                <span className="text-lg font-extralight text-foreground">)</span>
+              </a>
+            )
+          )}
 
-          <LocaleSwitcher />
+          <LocaleSwitcher alternates={alternates} />
 
           <button
             onClick={toggle}
@@ -117,7 +133,7 @@ export default function Navbar({
                 <span className="text-sm">←</span>
               </Link>
             )}
-            <LocaleSwitcher />
+            <LocaleSwitcher alternates={alternates} />
             <button
               onClick={toggle}
               className="flex h-8 w-8 items-center justify-center text-muted transition-colors duration-300 hover:text-foreground"
@@ -163,23 +179,30 @@ export default function Navbar({
         }`}
       >
         <nav className="flex h-full flex-col items-center justify-center gap-10">
-          {dict.links.map((link, i) => (
-            <a
-              key={link.id}
-              href={`#${link.id}`}
-              onClick={() => setOpen(false)}
-              className="flex items-center gap-3 text-[11px] uppercase tracking-[3px] text-muted transition-colors duration-300 hover:text-foreground"
-              style={{
-                opacity: open ? 1 : 0,
-                transform: open ? "translateY(0)" : "translateY(20px)",
-                transition: `opacity 0.4s ${i * 0.08}s, transform 0.4s ${i * 0.08}s, color 0.3s`,
-              }}
-            >
-              <span className="text-xl font-extralight text-foreground">(</span>
-              {link.label}
-              <span className="text-xl font-extralight text-foreground">)</span>
-            </a>
-          ))}
+          {dict.links.map((link, i) => {
+            const cls = "flex items-center gap-3 text-[11px] uppercase tracking-[3px] text-muted transition-colors duration-300 hover:text-foreground";
+            const st = {
+              opacity: open ? 1 : 0,
+              transform: open ? "translateY(0)" : "translateY(20px)",
+              transition: `opacity 0.4s ${i * 0.08}s, transform 0.4s ${i * 0.08}s, color 0.3s`,
+            };
+            const inner = (
+              <>
+                <span className="text-xl font-extralight text-foreground">(</span>
+                {link.label}
+                <span className="text-xl font-extralight text-foreground">)</span>
+              </>
+            );
+            return link.href ? (
+              <Link key={link.id} href={link.href} onClick={() => setOpen(false)} className={cls} style={st}>
+                {inner}
+              </Link>
+            ) : (
+              <a key={link.id} href={lang ? `/${lang}#${link.id}` : `#${link.id}`} onClick={() => setOpen(false)} className={cls} style={st}>
+                {inner}
+              </a>
+            );
+          })}
 
           {/* Locale + theme row */}
           <div
@@ -190,7 +213,7 @@ export default function Navbar({
               transition: `opacity 0.4s ${dict.links.length * 0.08}s, transform 0.4s ${dict.links.length * 0.08}s`,
             }}
           >
-            <LocaleSwitcher />
+            <LocaleSwitcher alternates={alternates} />
 
             <button
               onClick={toggle}

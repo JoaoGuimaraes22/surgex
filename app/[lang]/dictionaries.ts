@@ -11,3 +11,13 @@ export const hasLocale = (locale: string): locale is Locale =>
   locale in dictionaries;
 
 export const getDictionary = async (locale: Locale) => dictionaries[locale]();
+
+const blogDictionaries = {
+  en: () =>
+    import("./dictionaries/blog-en.json").then((module) => module.default),
+  pt: () =>
+    import("./dictionaries/blog-pt.json").then((module) => module.default),
+};
+
+export const getBlogDictionary = async (locale: Locale) =>
+  blogDictionaries[locale]();

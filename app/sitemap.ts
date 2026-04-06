@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { i18n } from "@/i18n-config";
 import enDict from "./[lang]/dictionaries/en.json";
+import { getAllSlugs } from "./[lang]/_lib/blog";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
@@ -36,5 +37,34 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
-  return [...staticPages, ...projectPages];
+  const blogListingPages = i18n.locales.map((lang) => ({
+    url: `${siteUrl}/${lang}/blog`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.8,
+    alternates: {
+      languages: Object.fromEntries(
+        i18n.locales.map((l) => [l, `${siteUrl}/${l}/blog`])
+      ),
+    },
+  }));
+
+  const blogSlugs = [
+    ...new Set([...getAllSlugs("en"), ...getAllSlugs("pt")]),
+  ];
+  const blogPostPages = blogSlugs.flatMap((slug) =>
+    i18n.locales.map((lang) => ({
+      url: `${siteUrl}/${lang}/blog/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+      alternates: {
+        languages: Object.fromEntries(
+          i18n.locales.map((l) => [l, `${siteUrl}/${l}/blog/${slug}`])
+        ),
+      },
+    }))
+  );
+
+  return [...staticPages, ...projectPages, ...blogListingPages, ...blogPostPages];
 }

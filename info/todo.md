@@ -40,7 +40,7 @@
 
 ## Phase B — Marketing & Growth
 
-- [ ] Blog / content marketing — capture "agência de IA" organic traffic, establish thought leadership
+- [x] Blog / content marketing — MDX blog with 3 SEO posts (both locales), dict-driven UI, navbar/footer/sitemap integration
 - [ ] GEO/AEO service page — optimize businesses to appear in ChatGPT/Perplexity/Google AI Overviews
 - [ ] Productized chatbot offering — standalone low-cost entry point (landing page + signup flow)
 - [ ] Pessoas 2030 — research PT government digitalization subsidies, help clients co-fund projects

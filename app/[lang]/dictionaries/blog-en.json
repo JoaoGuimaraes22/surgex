@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "title": "Blog | SurgeX",
+    "description": "Insights on AI, web development, and digital transformation for Portuguese businesses."
+  },
+  "label": "BLOG",
+  "headline": "Insights.",
+  "description": "Ideas, strategies, and technical deep-dives from the SurgeX team.",
+  "readMore": "Read Article",
+  "backToBlog": "Back to Blog",
+  "publishedOn": "Published",
+  "category": "CATEGORY",
+  "minuteRead": "min read",
+  "allPosts": "All Posts",
+  "noPosts": "No posts yet. Check back soon."
+}

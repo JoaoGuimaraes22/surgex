@@ -25,6 +25,7 @@
       { "id": "work", "label": "Projects" },
       { "id": "process", "label": "Process" },
       { "id": "about", "label": "About" },
+      { "id": "blog", "label": "Blog", "href": "/en/blog" },
       { "id": "contact", "label": "Contact" }
     ]
   },
@@ -467,7 +468,9 @@
       { "label": "Services", "href": "#services" },
       { "label": "Pricing", "href": "#pricing" },
       { "label": "Projects", "href": "#work" },
+      { "label": "Process", "href": "#process" },
       { "label": "About", "href": "#about" },
+      { "label": "Blog", "href": "/en/blog" },
       { "label": "Contact", "href": "#contact" }
     ]
   },

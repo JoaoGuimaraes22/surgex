@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "title": "Blog | SurgeX",
+    "description": "Insights sobre IA, desenvolvimento web e transformação digital para empresas portuguesas."
+  },
+  "label": "BLOG",
+  "headline": "Insights.",
+  "description": "Ideias, estratégias e artigos técnicos da equipa SurgeX.",
+  "readMore": "Ler Artigo",
+  "backToBlog": "Voltar ao Blog",
+  "publishedOn": "Publicado",
+  "category": "CATEGORIA",
+  "minuteRead": "min leitura",
+  "allPosts": "Todos os Artigos",
+  "noPosts": "Ainda sem artigos. Volte em breve."
+}
