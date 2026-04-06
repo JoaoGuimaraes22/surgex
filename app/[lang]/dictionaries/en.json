@@ -21,8 +21,10 @@
     "cta": "Contact",
     "links": [
       { "id": "services", "label": "Services" },
+      { "id": "pricing", "label": "Pricing" },
       { "id": "work", "label": "Projects" },
       { "id": "process", "label": "Process" },
+      { "id": "about", "label": "About" },
       { "id": "contact", "label": "Contact" }
     ]
   },
@@ -79,6 +81,55 @@
       }
     ]
   },
+  "pricing": {
+    "label": "PRICING",
+    "headline": "Transparent Pricing.",
+    "description": "No hidden fees. No surprise invoices. Here's what it costs to work with us.",
+    "plans": [
+      {
+        "id": "website",
+        "tag": "01",
+        "title": "Website",
+        "price": "from 450€",
+        "period": "one-time",
+        "description": "Premium website that ranks, converts, and represents your brand.",
+        "features": ["Custom Design", "SEO Optimized", "Mobile-Ready", "Analytics Dashboard", "2 Languages (PT/EN)"],
+        "status": "AVAILABLE"
+      },
+      {
+        "id": "chatbot",
+        "tag": "02",
+        "title": "AI Chatbot",
+        "price": "from 25€",
+        "period": "/month",
+        "description": "Intelligent assistant that answers customers 24/7 in your brand's voice.",
+        "features": ["24/7 Availability", "Custom Training", "Lead Capture", "Multi-language", "Analytics"],
+        "status": "AVAILABLE"
+      },
+      {
+        "id": "automation",
+        "tag": "03",
+        "title": "Automation",
+        "price": "from 50€",
+        "period": "/month",
+        "description": "Systems that handle repetitive tasks — follow-ups, emails, scheduling.",
+        "features": ["Process Mapping", "Custom Workflows", "Email Sequences", "CRM Integration", "Reporting"],
+        "status": "AVAILABLE"
+      },
+      {
+        "id": "full-package",
+        "tag": "04",
+        "title": "Full Package",
+        "price": "from 1,500€",
+        "period": "one-time + monthly",
+        "description": "Website + chatbot + automation. Everything your business needs, built together.",
+        "features": ["Everything Above", "Priority Support", "Quarterly Reviews", "Dedicated Account", "Custom Integrations"],
+        "status": "RECOMMENDED"
+      }
+    ],
+    "cta": "Start a Project",
+    "note": "Every project is different. These are starting points — we'll build a custom quote after understanding your needs."
+  },
   "portfolio": {
     "label": "WORK",
     "headline": "Selected Projects.",
@@ -121,7 +172,9 @@
         "url": "https://mm-detalhe.vercel.app",
         "description": "Premium auto detailing in São Domingos de Rana. Showcase of services from ceramic coating to interior deep cleaning. 166+ five-star reviews.",
         "services": ["Web Design", "SEO", "Google Reviews Integration"],
-        "niche": "Auto Detailing"
+        "niche": "Auto Detailing",
+        "reviewCount": "166+",
+        "rating": "5.0"
       },
       {
         "id": "elenilson",
@@ -131,7 +184,9 @@
         "url": "https://chiro-elenilson.vercel.app",
         "description": "Chiropractic practice in Parede. Personalized care, holistic body alignment, and a warm design that builds patient trust. 122+ five-star reviews.",
         "services": ["Web Design", "SEO", "Appointment System"],
-        "niche": "Chiropractic"
+        "niche": "Chiropractic",
+        "reviewCount": "122+",
+        "rating": "5.0"
       },
       {
         "id": "karolkris",
@@ -141,7 +196,8 @@
         "url": "https://salon-karolkris.vercel.app",
         "description": "Full-service beauty salon in São João do Estoril. Elegant design showcasing hair, nails, lash extensions, and massage services. 4.8★ rated.",
         "services": ["Web Design", "SEO", "Booking Integration"],
-        "niche": "Beauty"
+        "niche": "Beauty",
+        "rating": "4.8"
       },
       {
         "id": "joaofaleiro",
@@ -161,7 +217,9 @@
         "url": "https://restaurant-tascavelha.vercel.app",
         "description": "Traditional Portuguese restaurant in Carcavelos. 15+ years of authentic flavours, menu showcase, and table reservation. 1,459+ Google reviews.",
         "services": ["Web Design", "SEO", "Reservation System"],
-        "niche": "Restaurant"
+        "niche": "Restaurant",
+        "reviewCount": "1,459+",
+        "rating": "4.7"
       },
       {
         "id": "mademoiselle",
@@ -171,7 +229,9 @@
         "url": "https://salon-mademoiselle.vercel.app",
         "description": "Nail salon in Oeiras — 486+ reviews, 4.9★ rating. Elegant design with service showcase, team profiles, and transformation gallery.",
         "services": ["Web Design", "SEO", "Booking Integration"],
-        "niche": "Beauty"
+        "niche": "Beauty",
+        "reviewCount": "486+",
+        "rating": "4.9"
       },
       {
         "id": "penedo",
@@ -191,7 +251,8 @@
         "url": "https://dentist-takata.vercel.app",
         "description": "Dental practice in Parede with perfect 5.0★ Google rating. Clean, trustworthy design with 8 specialties and insurance acceptance.",
         "services": ["Web Design", "SEO", "Appointment System"],
-        "niche": "Dental"
+        "niche": "Dental",
+        "rating": "5.0"
       },
       {
         "id": "ecestetica",
@@ -201,7 +262,9 @@
         "url": "https://detailing-ecestetica.vercel.app",
         "description": "Auto detailing in Quinta do Conde. Deep interior cleaning, mold removal, and home service. 83+ reviews, 4.9★ rating.",
         "services": ["Web Design", "SEO", "WhatsApp Integration"],
-        "niche": "Auto Detailing"
+        "niche": "Auto Detailing",
+        "reviewCount": "83+",
+        "rating": "4.9"
       },
       {
         "id": "vetavencas",
@@ -211,7 +274,9 @@
         "url": "https://vet-avencas.vercel.app",
         "description": "Veterinary clinic in Parede, Cascais. 15+ years of compassionate care with 179+ reviews. Full service catalog and appointment booking.",
         "services": ["Web Design", "SEO", "Appointment System"],
-        "niche": "Veterinary"
+        "niche": "Veterinary",
+        "reviewCount": "179+",
+        "rating": "4.9"
       },
       {
         "id": "institutosoares",
@@ -221,7 +286,8 @@
         "url": "https://instituto-soares.vercel.app",
         "description": "Chiropractic and aesthetics clinic in Agualva-Cacém. Dual-specialty care, team showcase, and pricing plans. 5.0★ Google rating.",
         "services": ["Web Design", "SEO", "Appointment System"],
-        "niche": "Chiropractic"
+        "niche": "Chiropractic",
+        "rating": "5.0"
       },
       {
         "id": "houseshine",
@@ -249,7 +315,9 @@
     "visitSite": "Visit Live Site",
     "back": "Back to Projects",
     "servicesLabel": "SERVICES_DELIVERED",
-    "nicheLabel": "NICHE"
+    "nicheLabel": "NICHE",
+    "reviewsLabel": "GOOGLE_REVIEWS",
+    "ratingLabel": "RATING"
   },
   "projectsPage": {
     "label": "PROJECTS",
@@ -306,6 +374,25 @@
       }
     ]
   },
+  "about": {
+    "label": "ABOUT",
+    "headline": "Who We Are.",
+    "founder": {
+      "name": "Sebastião Guimarães",
+      "role": "Founder & AI Engineer",
+      "description": "Engineer turned agency founder. I build every solution personally — the AI, the design, the backend. When you work with SurgeX, you work with me directly. No layers, no miscommunication.",
+      "status": "ACTIVE"
+    },
+    "network": {
+      "label": "NETWORK",
+      "description": "For larger projects, I bring in trusted specialists — designers, copywriters, domain experts. Small core, flexible reach.",
+      "tags": ["AI Engineering", "Web Development", "Automation", "Design Network"]
+    },
+    "philosophy": {
+      "label": "PHILOSOPHY",
+      "text": "We believe every business deserves AI that actually works — not a demo, not a proof of concept. Real tools that save real time."
+    }
+  },
   "stats": {
     "label": "METRICS",
     "items": [
@@ -340,10 +427,15 @@
     "copyright": "© 2026 SurgeX. All systems operational.",
     "links": [
       { "label": "Services", "href": "#services" },
+      { "label": "Pricing", "href": "#pricing" },
       { "label": "Projects", "href": "#work" },
-      { "label": "Process", "href": "#process" },
+      { "label": "About", "href": "#about" },
       { "label": "Contact", "href": "#contact" }
     ]
+  },
+  "whatsapp": {
+    "ariaLabel": "Chat on WhatsApp",
+    "tooltip": "WhatsApp"
   },
   "chat": {
     "title": "SurgeX AI",

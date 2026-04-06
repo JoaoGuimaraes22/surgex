@@ -21,8 +21,10 @@
     "cta": "Contacto",
     "links": [
       { "id": "services", "label": "Serviços" },
+      { "id": "pricing", "label": "Preços" },
       { "id": "work", "label": "Projetos" },
       { "id": "process", "label": "Processo" },
+      { "id": "about", "label": "Sobre" },
       { "id": "contact", "label": "Contacto" }
     ]
   },
@@ -89,6 +91,55 @@
       }
     ]
   },
+  "pricing": {
+    "label": "PREÇOS",
+    "headline": "Preços Transparentes.",
+    "description": "Sem taxas escondidas. Sem faturas surpresa. Aqui está quanto custa trabalhar connosco.",
+    "plans": [
+      {
+        "id": "website",
+        "tag": "01",
+        "title": "Website",
+        "price": "desde 450€",
+        "period": "único",
+        "description": "Website premium que posiciona, converte e representa a sua marca.",
+        "features": ["Design Personalizado", "SEO Otimizado", "Mobile-Ready", "Painel de Analytics", "2 Idiomas (PT/EN)"],
+        "status": "AVAILABLE"
+      },
+      {
+        "id": "chatbot",
+        "tag": "02",
+        "title": "Chatbot IA",
+        "price": "desde 25€",
+        "period": "/mês",
+        "description": "Assistente inteligente que responde aos seus clientes 24/7 com a voz da sua marca.",
+        "features": ["Disponível 24/7", "Treino Personalizado", "Captura de Leads", "Multi-idioma", "Analytics"],
+        "status": "AVAILABLE"
+      },
+      {
+        "id": "automation",
+        "tag": "03",
+        "title": "Automação",
+        "price": "desde 50€",
+        "period": "/mês",
+        "description": "Sistemas que tratam de tarefas repetitivas — follow-ups, emails, agendamentos.",
+        "features": ["Mapeamento de Processos", "Workflows Personalizados", "Sequências de Email", "Integração CRM", "Relatórios"],
+        "status": "AVAILABLE"
+      },
+      {
+        "id": "full-package",
+        "tag": "04",
+        "title": "Pacote Completo",
+        "price": "desde 1.500€",
+        "period": "único + mensal",
+        "description": "Website + chatbot + automação. Tudo o que o seu negócio precisa, construído em conjunto.",
+        "features": ["Tudo o Anterior", "Suporte Prioritário", "Revisões Trimestrais", "Conta Dedicada", "Integrações Personalizadas"],
+        "status": "RECOMMENDED"
+      }
+    ],
+    "cta": "Iniciar Projeto",
+    "note": "Cada projeto é diferente. Estes são pontos de partida — construímos um orçamento personalizado após compreender as suas necessidades."
+  },
   "portfolio": {
     "label": "TRABALHO",
     "headline": "Projetos Selecionados.",
@@ -131,7 +182,9 @@
         "url": "https://mm-detalhe.vercel.app",
         "description": "Detailing automóvel premium em São Domingos de Rana. Desde revestimento cerâmico a limpeza profunda de interiores. 166+ avaliações cinco estrelas.",
         "services": ["Web Design", "SEO", "Integração Google Reviews"],
-        "niche": "Detailing Automóvel"
+        "niche": "Detailing Automóvel",
+        "reviewCount": "166+",
+        "rating": "5.0"
       },
       {
         "id": "elenilson",
@@ -141,7 +194,9 @@
         "url": "https://chiro-elenilson.vercel.app",
         "description": "Consultório de quiroprática em Parede. Cuidados personalizados, alinhamento corporal holístico e design que inspira confiança. 122+ avaliações cinco estrelas.",
         "services": ["Web Design", "SEO", "Sistema de Marcações"],
-        "niche": "Quiroprática"
+        "niche": "Quiroprática",
+        "reviewCount": "122+",
+        "rating": "5.0"
       },
       {
         "id": "karolkris",
@@ -151,7 +206,8 @@
         "url": "https://salon-karolkris.vercel.app",
         "description": "Salão de beleza completo em São João do Estoril. Design elegante para cabelo, unhas, extensões de pestanas e massagens. 4.8★.",
         "services": ["Web Design", "SEO", "Integração de Marcações"],
-        "niche": "Beleza"
+        "niche": "Beleza",
+        "rating": "4.8"
       },
       {
         "id": "joaofaleiro",
@@ -171,7 +227,9 @@
         "url": "https://restaurant-tascavelha.vercel.app",
         "description": "Restaurante tradicional português em Carcavelos. 15+ anos de sabores autênticos, menu e reservas. 1.459+ avaliações Google.",
         "services": ["Web Design", "SEO", "Sistema de Reservas"],
-        "niche": "Restaurante"
+        "niche": "Restaurante",
+        "reviewCount": "1.459+",
+        "rating": "4.7"
       },
       {
         "id": "mademoiselle",
@@ -181,7 +239,9 @@
         "url": "https://salon-mademoiselle.vercel.app",
         "description": "Salão de unhas em Oeiras — 486+ avaliações, 4.9★. Design elegante com serviços, equipa e galeria de transformações.",
         "services": ["Web Design", "SEO", "Integração de Marcações"],
-        "niche": "Beleza"
+        "niche": "Beleza",
+        "reviewCount": "486+",
+        "rating": "4.9"
       },
       {
         "id": "penedo",
@@ -201,7 +261,8 @@
         "url": "https://dentist-takata.vercel.app",
         "description": "Consultório dentário em Parede com 5.0★ no Google. Design limpo e de confiança com 8 especialidades e seguros aceites.",
         "services": ["Web Design", "SEO", "Sistema de Marcações"],
-        "niche": "Dentista"
+        "niche": "Dentista",
+        "rating": "5.0"
       },
       {
         "id": "ecestetica",
@@ -211,7 +272,9 @@
         "url": "https://detailing-ecestetica.vercel.app",
         "description": "Detailing automóvel em Quinta do Conde. Limpeza profunda de interiores, remoção de bolor e serviço ao domicílio. 83+ avaliações, 4.9★.",
         "services": ["Web Design", "SEO", "Integração WhatsApp"],
-        "niche": "Detailing Automóvel"
+        "niche": "Detailing Automóvel",
+        "reviewCount": "83+",
+        "rating": "4.9"
       },
       {
         "id": "vetavencas",
@@ -221,7 +284,9 @@
         "url": "https://vet-avencas.vercel.app",
         "description": "Clínica veterinária em Parede, Cascais. 15+ anos de cuidados com 179+ avaliações. Catálogo de serviços e marcações.",
         "services": ["Web Design", "SEO", "Sistema de Marcações"],
-        "niche": "Veterinária"
+        "niche": "Veterinária",
+        "reviewCount": "179+",
+        "rating": "4.9"
       },
       {
         "id": "institutosoares",
@@ -231,7 +296,8 @@
         "url": "https://instituto-soares.vercel.app",
         "description": "Clínica de quiroprática e estética em Agualva-Cacém. Dupla especialidade, equipa e planos de preços. 5.0★ no Google.",
         "services": ["Web Design", "SEO", "Sistema de Marcações"],
-        "niche": "Quiroprática"
+        "niche": "Quiroprática",
+        "rating": "5.0"
       },
       {
         "id": "houseshine",
@@ -259,7 +325,9 @@
     "visitSite": "Visitar Site",
     "back": "Voltar aos Projetos",
     "servicesLabel": "SERVIÇOS_ENTREGUES",
-    "nicheLabel": "NICHO"
+    "nicheLabel": "NICHO",
+    "reviewsLabel": "AVALIAÇÕES_GOOGLE",
+    "ratingLabel": "CLASSIFICAÇÃO"
   },
   "projectsPage": {
     "label": "PROJETOS",
@@ -316,6 +384,25 @@
       }
     ]
   },
+  "about": {
+    "label": "SOBRE",
+    "headline": "Quem Somos.",
+    "founder": {
+      "name": "Sebastião Guimarães",
+      "role": "Fundador & Engenheiro de IA",
+      "description": "Engenheiro tornado fundador de agência. Construo cada solução pessoalmente — a IA, o design, o backend. Quando trabalha com a SurgeX, trabalha diretamente comigo. Sem intermediários, sem falhas de comunicação.",
+      "status": "ACTIVE"
+    },
+    "network": {
+      "label": "REDE",
+      "description": "Para projetos maiores, trago especialistas de confiança — designers, copywriters, peritos de domínio. Núcleo pequeno, alcance flexível.",
+      "tags": ["Engenharia de IA", "Desenvolvimento Web", "Automação", "Rede de Design"]
+    },
+    "philosophy": {
+      "label": "FILOSOFIA",
+      "text": "Acreditamos que todo negócio merece IA que realmente funciona — não uma demo, não uma prova de conceito. Ferramentas reais que poupam tempo real."
+    }
+  },
   "stats": {
     "label": "MÉTRICAS",
     "items": [
@@ -350,10 +437,15 @@
     "copyright": "© 2026 SurgeX. Todos os sistemas operacionais.",
     "links": [
       { "label": "Serviços", "href": "#services" },
+      { "label": "Preços", "href": "#pricing" },
       { "label": "Projetos", "href": "#work" },
-      { "label": "Processo", "href": "#process" },
+      { "label": "Sobre", "href": "#about" },
       { "label": "Contacto", "href": "#contact" }
     ]
+  },
+  "whatsapp": {
+    "ariaLabel": "Conversar no WhatsApp",
+    "tooltip": "WhatsApp"
   },
   "chat": {
     "title": "SurgeX AI",

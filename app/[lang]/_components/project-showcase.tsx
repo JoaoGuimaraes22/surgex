@@ -17,12 +17,16 @@ export default function ProjectShowcase({
     description: string;
     services: string[];
     niche: string;
+    reviewCount?: string;
+    rating?: string;
   };
   portfolio: {
     back: string;
     visitSite: string;
     servicesLabel: string;
     nicheLabel: string;
+    reviewsLabel: string;
+    ratingLabel: string;
   };
   lang: string;
 }) {
@@ -82,6 +86,27 @@ export default function ProjectShowcase({
               </span>
               <p className="mt-1 text-sm">{project.niche}</p>
             </div>
+
+            {(project.reviewCount || project.rating) && (
+              <div className="flex gap-8">
+                {project.rating && (
+                  <div>
+                    <span className="font-mono text-[8px] uppercase tracking-[2px] text-muted">
+                      {portfolio.ratingLabel}
+                    </span>
+                    <p className="mt-1 text-sm">{project.rating}★</p>
+                  </div>
+                )}
+                {project.reviewCount && (
+                  <div>
+                    <span className="font-mono text-[8px] uppercase tracking-[2px] text-muted">
+                      {portfolio.reviewsLabel}
+                    </span>
+                    <p className="mt-1 text-sm">{project.reviewCount}</p>
+                  </div>
+                )}
+              </div>
+            )}
 
             <div>
               <span className="font-mono text-[8px] uppercase tracking-[2px] text-muted">

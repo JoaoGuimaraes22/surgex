@@ -21,12 +21,16 @@
 ## To Do
 
 - [x] Portfolio screenshots — 16 screenshots of deployed sites in `/public/portfolio/`
-- [ ] OG image — create a 1200x630 social sharing image
+- [x] OG image — 1200x630 social sharing image
 - [x] Logo redesign — match Inter Extralight typography
 - [x] Send-as setup — configure Gmail to send from contact@surgex.pt via ImprovMX
 - [x] NEXT_PUBLIC_SITE_URL — set to https://surgex.pt in Vercel env vars
 - [x] Portfolio categories — Web Development (8 niches) + Automations & Chatbots (coming soon)
 - [ ] FAQ section
-- [ ] Pricing section
+- [x] Pricing section — 4 tiers (Website, Chatbot, Automation, Full Package) with transparent pricing
 - [x] Analytics
 - [ ] SEO check — run /seo-check after domain propagation
+- [x] About section — founder + network + philosophy cards
+- [x] Portfolio metrics — review counts + ratings on project cards and detail pages
+- [x] WhatsApp floating button — bottom-left FAB linking to wa.me
+- [ ] Founder photo — add updated photo to `/public/founder.jpg` and wire into about section (grayscale→color hover treatment ready)

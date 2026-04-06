@@ -16,6 +16,8 @@ export default function Portfolio({
       category: string;
       image: string;
       url: string;
+      reviewCount?: string;
+      rating?: string;
     }[];
     cta: string;
     seeMore: string;
@@ -67,6 +69,13 @@ export default function Portfolio({
               <span className="font-mono text-[9px] uppercase tracking-[2px] text-muted">
                 {project.category}
               </span>
+              {(project.reviewCount || project.rating) && (
+                <span className="mt-1 block font-mono text-[9px] tracking-[1px] text-foreground/70">
+                  {project.rating && `${project.rating}★`}
+                  {project.reviewCount && project.rating && " · "}
+                  {project.reviewCount && `${project.reviewCount} reviews`}
+                </span>
+              )}
               <h3 className="mt-2 text-lg font-light tracking-[-0.5px]">
                 {project.name}
               </h3>

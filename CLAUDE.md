@@ -4,6 +4,8 @@
 
 This project was scaffolded with [Ignite](https://github.com/JoaoGuimaraes22/ignite) — a Next.js 16 monorepo for building client landing pages.
 
+Check todos in info/todo.md
+
 ## Available Skills
 
 ```

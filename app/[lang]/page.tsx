@@ -4,12 +4,15 @@ import ThemeProvider from "./_components/theme-provider";
 import Navbar from "./_components/navbar";
 import Hero from "./_components/hero";
 import Services from "./_components/services";
+import Pricing from "./_components/pricing";
 import Portfolio from "./_components/portfolio";
 import Process from "./_components/process";
+import About from "./_components/about";
 import Stats from "./_components/stats";
 import Contact from "./_components/contact";
 import Footer from "./_components/footer";
 import ChatWidget from "./_components/chat-widget";
+import WhatsappButton from "./_components/whatsapp-button";
 
 export default async function Home({ params }: PageProps<"/[lang]">) {
   const { lang } = await params;
@@ -24,13 +27,16 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
       <main>
         <Hero dict={dict.hero} />
         <Services dict={dict.services} />
+        <Pricing dict={dict.pricing} />
         <Portfolio dict={dict.portfolio} lang={lang} />
         <Process dict={dict.process} />
+        <About dict={dict.about} />
         <Stats dict={dict.stats} />
         <Contact dict={dict.contact} />
       </main>
       <Footer dict={dict.footer} />
       <ChatWidget dict={dict.chat} lang={lang} />
+      <WhatsappButton dict={dict.whatsapp} />
     </ThemeProvider>
   );
 }
