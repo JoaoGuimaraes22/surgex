@@ -29,8 +29,19 @@
 - [x] FAQ section — 8 accordion items addressing common prospect objections
 - [x] Pricing section — 4 tiers (Website, Chatbot, Automation, Full Package) with transparent pricing
 - [x] Analytics
-- [ ] SEO check — run /seo-check after domain propagation
+- [x] SEO check — 29 passed, 0 failing, 3 warnings (2026-04-06)
 - [x] About section — founder + network + philosophy cards
 - [x] Portfolio metrics — review counts + ratings on project cards and detail pages
 - [x] WhatsApp floating button — bottom-left FAB linking to wa.me
+- [x] Sitemap — individual project detail pages added (16 projects × 2 locales = 32 URLs)
 - [ ] Founder photo — add updated photo to `/public/founder.jpg` and wire into about section (grayscale→color hover treatment ready)
+- [ ] PT meta description — trim from 166 to 160 chars
+- [ ] Portfolio images — add `loading="lazy"` to below-fold images
+
+## Phase B — Marketing & Growth
+
+- [ ] Blog / content marketing — capture "agência de IA" organic traffic, establish thought leadership
+- [ ] GEO/AEO service page — optimize businesses to appear in ChatGPT/Perplexity/Google AI Overviews
+- [ ] Productized chatbot offering — standalone low-cost entry point (landing page + signup flow)
+- [ ] Pessoas 2030 — research PT government digitalization subsidies, help clients co-fund projects
+- [ ] City-specific SEO pages — programmatic local pages ("agência digital em [cidade]")
