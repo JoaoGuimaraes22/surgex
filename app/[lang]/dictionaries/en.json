@@ -402,6 +402,44 @@
       { "value": "98%", "label": "Cheaper Than Competition" }
     ]
   },
+  "faq": {
+    "label": "FAQ",
+    "headline": "Common Questions.",
+    "items": [
+      {
+        "question": "How long does it take to build a website?",
+        "answer": "Most websites go live in 2-5 days. Complex projects with custom AI integrations may take 1-2 weeks. We move fast without cutting corners."
+      },
+      {
+        "question": "Do I need to understand AI to work with you?",
+        "answer": "Not at all. We handle the technical side. You tell us what's not working in your business, and we figure out where AI makes a difference."
+      },
+      {
+        "question": "What happens after my website goes live?",
+        "answer": "We host it, keep it updated, and fix what breaks. You also get analytics so you can see how it performs. We're a long-term partner, not a one-off vendor."
+      },
+      {
+        "question": "Can I update the content myself?",
+        "answer": "Yes. We build sites that are easy to maintain. For more complex changes, we're always available — that's what the monthly support is for."
+      },
+      {
+        "question": "What's included in the chatbot service?",
+        "answer": "A custom AI assistant trained on your business — services, hours, pricing, FAQs. It answers customers 24/7 in your brand's voice, captures leads, and works in multiple languages."
+      },
+      {
+        "question": "Do you work with businesses outside Lisbon?",
+        "answer": "Absolutely. We work 100% online and serve businesses across all of Portugal. The process is the same — we listen, build, and deliver remotely."
+      },
+      {
+        "question": "What if I'm not happy with the result?",
+        "answer": "We refine until you are. Every project includes a revision period. We don't consider it done until you're satisfied and the solution is performing."
+      },
+      {
+        "question": "Are the prices on your site final?",
+        "answer": "They're starting points. Every business is different, so we build a custom quote after understanding your specific needs. No hidden fees — you'll know the full cost upfront."
+      }
+    ]
+  },
   "contact": {
     "label": "CONTACT",
     "headline": "Let's Talk.",

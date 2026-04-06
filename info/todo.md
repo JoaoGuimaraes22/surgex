@@ -26,7 +26,7 @@
 - [x] Send-as setup — configure Gmail to send from contact@surgex.pt via ImprovMX
 - [x] NEXT_PUBLIC_SITE_URL — set to https://surgex.pt in Vercel env vars
 - [x] Portfolio categories — Web Development (8 niches) + Automations & Chatbots (coming soon)
-- [ ] FAQ section
+- [x] FAQ section — 8 accordion items addressing common prospect objections
 - [x] Pricing section — 4 tiers (Website, Chatbot, Automation, Full Package) with transparent pricing
 - [x] Analytics
 - [ ] SEO check — run /seo-check after domain propagation

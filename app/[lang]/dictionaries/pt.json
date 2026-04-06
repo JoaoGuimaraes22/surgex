@@ -412,6 +412,44 @@
       { "value": "98%", "label": "Mais Barato Que a Concorrência" }
     ]
   },
+  "faq": {
+    "label": "FAQ",
+    "headline": "Perguntas Frequentes.",
+    "items": [
+      {
+        "question": "Quanto tempo demora a construir um website?",
+        "answer": "A maioria dos websites fica online em 2-5 dias. Projetos complexos com integrações de IA personalizadas podem levar 1-2 semanas. Somos rápidos sem comprometer a qualidade."
+      },
+      {
+        "question": "Preciso de perceber de IA para trabalhar convosco?",
+        "answer": "De todo. Nós tratamos da parte técnica. Diga-nos o que não está a funcionar no seu negócio e nós descobrimos onde a IA faz a diferença."
+      },
+      {
+        "question": "O que acontece depois do website ficar online?",
+        "answer": "Alojamos, mantemos atualizado e corrigimos o que partir. Também tem acesso a analytics para ver o desempenho. Somos um parceiro a longo prazo, não um fornecedor pontual."
+      },
+      {
+        "question": "Posso atualizar o conteúdo sozinho?",
+        "answer": "Sim. Construímos sites fáceis de manter. Para alterações mais complexas, estamos sempre disponíveis — é para isso que serve o suporte mensal."
+      },
+      {
+        "question": "O que está incluído no serviço de chatbot?",
+        "answer": "Um assistente de IA personalizado treinado no seu negócio — serviços, horários, preços, perguntas frequentes. Responde aos seus clientes 24/7 com a voz da sua marca, captura leads e funciona em vários idiomas."
+      },
+      {
+        "question": "Trabalham com negócios fora de Lisboa?",
+        "answer": "Claro. Trabalhamos 100% online e servimos negócios em todo Portugal. O processo é o mesmo — ouvimos, construímos e entregamos remotamente."
+      },
+      {
+        "question": "E se não ficar satisfeito com o resultado?",
+        "answer": "Refinamos até ficar. Cada projeto inclui um período de revisão. Não consideramos o trabalho terminado até estar satisfeito e a solução a funcionar."
+      },
+      {
+        "question": "Os preços no site são finais?",
+        "answer": "São pontos de partida. Cada negócio é diferente, por isso construímos um orçamento personalizado após compreender as suas necessidades. Sem taxas escondidas — saberá o custo total desde o início."
+      }
+    ]
+  },
   "contact": {
     "label": "CONTACTO",
     "headline": "Vamos Conversar.",

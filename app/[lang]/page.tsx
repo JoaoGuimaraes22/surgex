@@ -9,6 +9,7 @@ import Portfolio from "./_components/portfolio";
 import Process from "./_components/process";
 import About from "./_components/about";
 import Stats from "./_components/stats";
+import Faq from "./_components/faq";
 import Contact from "./_components/contact";
 import Footer from "./_components/footer";
 import ChatWidget from "./_components/chat-widget";
@@ -32,6 +33,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
         <Process dict={dict.process} />
         <About dict={dict.about} />
         <Stats dict={dict.stats} />
+        <Faq dict={dict.faq} />
         <Contact dict={dict.contact} />
       </main>
       <Footer dict={dict.footer} />
