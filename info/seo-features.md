@@ -20,7 +20,7 @@
 - [x] `<html lang>` attribute per locale
 - [x] Single H1 per page
 - [x] Dynamic `robots.txt` allowing all crawlers
-- [x] Dynamic `sitemap.xml` with hreflang alternates (homepage, 60 projects, 3 blog posts, 6 services, 1 city — 150+ URLs)
+- [x] Dynamic `sitemap.xml` with hreflang alternates (homepage, 60 projects, 8 blog posts, 6 services, 1 city — 179 static pages)
 - [x] 404 page has `noindex` robots directive
 - [x] Favicon set (ico, 96px, apple-touch, manifest icons)
 - [x] PWA manifest with maskable icons
@@ -28,7 +28,7 @@
 - [x] `llms.txt` for AI crawler discoverability
 
 ### Content SEO
-- [x] Blog with 3 SEO-focused posts targeting PT keywords ("website para empresas", "IA para negócios", "SEO local")
+- [x] Blog with 8 SEO-focused posts targeting PT keywords (pricing, reviews, social vs web, GEO/AEO, chatbots, local SEO, AI automation, why websites)
 - [x] 6 service landing pages with rich structured content
 - [x] FAQ section on homepage (8 items with FAQPage schema)
 - [x] FAQ on each service page (3 items each)
@@ -47,7 +47,7 @@
 ## Roadmap
 
 ### High Priority
-- [ ] More blog posts — target local pain points ("quanto custa um website", "como aparecer no Google Maps")
+- [x] More blog posts — 5 new posts targeting pricing, reviews, social vs web, GEO/AEO, chatbots
 - [x] FAQ schema on service pages (3 FAQ items each — FAQPage JSON-LD on all 6 service detail pages)
 - [ ] Google Business Profile — create/claim GBP listing, add services, photos, collect reviews
 

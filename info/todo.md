@@ -44,7 +44,7 @@
 - [x] Services hub + 6 landing pages — /services with individual pages for AI, websites, automation, marketing, GEO/AEO, training
 - [ ] Productized chatbot offering — standalone low-cost entry point (landing page + signup flow)
 - [ ] Pessoas 2030 — research PT government digitalization subsidies, help clients co-fund projects
-- [ ] More blog posts — target local pain points ("quanto custa um website para restaurante", "como aparecer no Google Maps")
+- [x] More blog posts — 5 new posts (pricing, reviews, social vs web, GEO/AEO, chatbots) — 8 total
 
 ## Phase C — Scale (80+ projects)
 
