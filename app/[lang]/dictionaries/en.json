@@ -1430,7 +1430,9 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "57 projects across 25 industries"
+    "projectCount": "57 projects across 25 industries",
+    "cityFilterLabel": "FILTER BY CITY",
+    "cityFilterAll": "All Cities"
   },
   "process": {
     "label": "PROCESS",

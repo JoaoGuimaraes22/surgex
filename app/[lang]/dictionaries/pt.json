@@ -1430,7 +1430,9 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "57 projetos em 25 setores"
+    "projectCount": "57 projetos em 25 setores",
+    "cityFilterLabel": "FILTRAR POR CIDADE",
+    "cityFilterAll": "Todas as Cidades"
   },
   "process": {
     "label": "PROCESSO",

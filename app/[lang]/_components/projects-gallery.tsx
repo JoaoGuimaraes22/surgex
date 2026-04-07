@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { motion } from "motion/react";
 import Link from "next/link";
 
@@ -24,6 +25,8 @@ type ProjectsPageDict = {
   projectCount: string;
   nicheNav: { id: string; label: string }[];
   nicheNavLabel: string;
+  cityFilterLabel: string;
+  cityFilterAll: string;
   categories: {
     webDevelopment: {
       title: string;
@@ -118,19 +121,39 @@ export default function ProjectsGallery({
   };
   lang: string;
 }) {
+  const [cityFilter, setCityFilter] = useState<string | null>(null);
+
+  // Get unique cities sorted by count
+  const cityCounts: Record<string, number> = {};
+  for (const p of portfolio.projects) {
+    if (p.location) cityCounts[p.location] = (cityCounts[p.location] || 0) + 1;
+  }
+  const cities = Object.entries(cityCounts)
+    .sort((a, b) => b[1] - a[1])
+    .filter(([, count]) => count >= 3);
+
+  // Filter projects by city if active
+  const filteredProjects = cityFilter
+    ? portfolio.projects.filter((p) => p.location === cityFilter)
+    : portfolio.projects;
+
   // Map niche display names to stable nav IDs (nav IDs are English-based, consistent across locales)
   const nicheToNavId: Record<string, string> = {};
   const nicheGroups: Record<string, Project[]> = {};
-  for (const project of portfolio.projects) {
+  for (const project of filteredProjects) {
     if (!nicheGroups[project.niche]) {
       nicheGroups[project.niche] = [];
     }
     nicheGroups[project.niche].push(project);
   }
-  // Match niche display names to nav IDs by order (both are in the same order)
-  const nicheNames = Object.keys(nicheGroups);
-  for (let i = 0; i < nicheNames.length; i++) {
-    nicheToNavId[nicheNames[i]] = dict.nicheNav[i]?.id ?? slugify(nicheNames[i]);
+  // Match niche display names to nav IDs by order
+  const allNicheGroups: Record<string, boolean> = {};
+  for (const project of portfolio.projects) {
+    allNicheGroups[project.niche] = true;
+  }
+  const allNicheNames = Object.keys(allNicheGroups);
+  for (let i = 0; i < allNicheNames.length; i++) {
+    nicheToNavId[allNicheNames[i]] = dict.nicheNav[i]?.id ?? slugify(allNicheNames[i]);
   }
 
   return (
@@ -157,6 +180,38 @@ export default function ProjectsGallery({
         <span className="mt-3 block font-mono text-[10px] uppercase tracking-[2px] text-foreground/50">
           {dict.projectCount}
         </span>
+
+        {/* City filter */}
+        <div className="mt-8">
+          <span className="mb-2 block font-mono text-[8px] uppercase tracking-[2px] text-muted/60">
+            {dict.cityFilterLabel}
+          </span>
+          <div className="flex flex-wrap gap-2">
+            <button
+              onClick={() => setCityFilter(null)}
+              className={`rounded-full border px-3 py-1 font-mono text-[9px] uppercase tracking-[1.5px] transition-all duration-200 ${
+                !cityFilter
+                  ? "border-foreground/30 text-foreground bg-foreground/5"
+                  : "border-muted/20 text-muted/60 hover:text-foreground/70 hover:border-muted/40"
+              }`}
+            >
+              {dict.cityFilterAll}
+            </button>
+            {cities.map(([city, count]) => (
+              <button
+                key={city}
+                onClick={() => setCityFilter(cityFilter === city ? null : city)}
+                className={`rounded-full border px-3 py-1 font-mono text-[9px] uppercase tracking-[1.5px] transition-all duration-200 ${
+                  cityFilter === city
+                    ? "border-foreground/30 text-foreground bg-foreground/5"
+                    : "border-muted/20 text-muted/60 hover:text-foreground/70 hover:border-muted/40"
+                }`}
+              >
+                {city} ({count})
+              </button>
+            ))}
+          </div>
+        </div>
       </motion.div>
         {/* Category: Web Development */}
         <div className="mb-24">

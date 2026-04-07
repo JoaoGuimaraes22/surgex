@@ -97,7 +97,7 @@ export default async function CityPage({
   return (
     <ThemeProvider>
       <BackgroundSphere />
-      <Navbar dict={dict.navbar} hideLinks backHref={`/${lang}`} lang={lang} />
+      <Navbar dict={dict.navbar} lang={lang} />
       <main>
         <script
           type="application/ld+json"
