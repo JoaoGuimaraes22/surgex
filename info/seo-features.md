@@ -9,7 +9,7 @@
 - [x] JSON-LD schemas:
   - Homepage: `LocalBusiness` + `FAQPage`
   - Blog posts: `Article` (headline, datePublished, author, publisher)
-  - Service detail: `Service` (name, description, provider)
+  - Service detail: `Service` (name, description, provider) + `FAQPage` (3 Q&A per service)
   - Services hub: `OfferCatalog` (all 6 services listed)
   - Projects listing: `CollectionPage` + `ItemList` (top 10 projects)
   - Project detail: `WebPage` + `LocalBusiness` about (name, location, aggregateRating)
@@ -48,7 +48,7 @@
 
 ### High Priority
 - [ ] More blog posts — target local pain points ("quanto custa um website", "como aparecer no Google Maps")
-- [ ] FAQ schema on service pages (3 FAQ items each — already have content, just need JSON-LD)
+- [x] FAQ schema on service pages (3 FAQ items each — FAQPage JSON-LD on all 6 service detail pages)
 - [ ] Google Business Profile — create/claim GBP listing, add services, photos, collect reviews
 
 ### Medium Priority

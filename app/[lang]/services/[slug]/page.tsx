@@ -99,6 +99,23 @@ export default async function ServiceDetailPage({
     url: `${siteUrl}/${lang}/services/${slug}`,
   };
 
+  const faqJsonLd = service.faq?.items?.length
+    ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: service.faq.items.map(
+          (item: { question: string; answer: string }) => ({
+            "@type": "Question",
+            name: item.question,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: item.answer,
+            },
+          })
+        ),
+      }
+    : null;
+
   return (
     <ThemeProvider>
       <BackgroundSphere />
@@ -108,6 +125,12 @@ export default async function ServiceDetailPage({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
+        {faqJsonLd && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+          />
+        )}
         <ServiceLanding service={service} lang={lang} />
       </main>
       <Footer dict={dict.footer} />
