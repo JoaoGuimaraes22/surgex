@@ -38,6 +38,11 @@
 - [x] PT meta description — trimmed to 150 chars
 - [x] Add barbershop-vip, salon-benicabeleireiro, carwash-spacarcavelos to portfolio (60 projects total)
 
+## Legal Pages
+
+- [ ] Terms of Service page — `/terms` (needed for X Developer Portal, general compliance)
+- [ ] Privacy Policy page — `/privacy` (needed for X Developer Portal, GDPR)
+
 ## Phase B — Marketing & Growth
 
 - [x] Blog / content marketing — MDX blog with 3 SEO posts (both locales), dict-driven UI, navbar/footer/sitemap integration
