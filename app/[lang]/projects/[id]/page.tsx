@@ -47,6 +47,7 @@ export async function generateMetadata({
       description,
       url: `${siteUrl}/${lang}/projects/${id}`,
       type: "website",
+      locale: lang === "pt" ? "pt_PT" : "en_US",
       images: [
         {
           url: `${siteUrl}${project.image}`,

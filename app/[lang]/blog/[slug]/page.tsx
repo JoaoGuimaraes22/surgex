@@ -58,6 +58,7 @@ export async function generateMetadata({
       description: post.description,
       url: `${siteUrl}/${lang}/blog/${slug}`,
       type: "article",
+      locale: lang === "pt" ? "pt_PT" : "en_US",
       article: {
         publishedTime: post.date,
       },

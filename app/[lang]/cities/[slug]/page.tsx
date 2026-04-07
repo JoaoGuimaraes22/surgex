@@ -47,6 +47,8 @@ export async function generateMetadata({
       description: citiesDict.meta.description,
       url: `${siteUrl}/${lang}/cities/${slug}`,
       type: "website",
+      images: [{ url: `${siteUrl}/og-image.jpg`, width: 1200, height: 630 }],
+      locale: lang === "pt" ? "pt_PT" : "en_US",
     },
     twitter: {
       card: "summary_large_image",
