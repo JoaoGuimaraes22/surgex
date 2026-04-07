@@ -329,6 +329,24 @@
         "rating": "5.0"
       },
       {
+        "id": "carwash-spacarcavelos",
+        "name": "Car Wash & Spa Carcavelos",
+        "category": "Website",
+        "image": "/portfolio/carwash-spacarcavelos.jpg",
+        "url": "https://carwash-spacarcavelos.vercel.app",
+        "description": "Lavagem automóvel completa e spa de detailing com boxes self-service e pacotes de lavagem à mão premium.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Detailing Auto",
+        "location": "Carcavelos",
+        "reviewCount": "156+",
+        "rating": "4.6"
+      },
+      {
         "id": "accounting-kapacontabilidade",
         "name": "KAPA Contabilidade&Serviços",
         "category": "Website",
@@ -451,7 +469,7 @@
           "Appointment Booking",
           "Multi-language"
         ],
-        "niche": "Quiropratica",
+        "niche": "Quiroprática",
         "location": "Parede",
         "reviewCount": "122+",
         "rating": "5.0"
@@ -471,7 +489,7 @@
           "Gallery",
           "Multi-language"
         ],
-        "niche": "Quiropratica",
+        "niche": "Quiroprática",
         "location": "Agualva-Cacem",
         "reviewCount": "155+",
         "rating": "5.0"
@@ -978,7 +996,7 @@
           "Google Reviews Integration",
           "Multi-language"
         ],
-        "niche": "Imobiliaria",
+        "niche": "Imobiliária",
         "location": "Carcavelos",
         "reviewCount": "27+",
         "rating": "5.0"
@@ -1057,7 +1075,7 @@
           "Appointment Booking",
           "Multi-language"
         ],
-        "niche": "Salao",
+        "niche": "Salão",
         "location": "Sao Domingos de Rana",
         "reviewCount": "196+",
         "rating": "5.0"
@@ -1076,7 +1094,7 @@
           "Appointment Booking",
           "Multi-language"
         ],
-        "niche": "Salao",
+        "niche": "Salão",
         "location": "Cascais",
         "reviewCount": "202+",
         "rating": "4.5"
@@ -1095,7 +1113,7 @@
           "Appointment Booking",
           "Multi-language"
         ],
-        "niche": "Salao",
+        "niche": "Salão",
         "location": "Carcavelos",
         "reviewCount": "261+",
         "rating": "4.8"
@@ -1114,7 +1132,7 @@
           "Appointment Booking",
           "Multi-language"
         ],
-        "niche": "Salao",
+        "niche": "Salão",
         "location": "Carcavelos",
         "reviewCount": "177+",
         "rating": "4.9"
@@ -1133,7 +1151,7 @@
           "Appointment Booking",
           "Multi-language"
         ],
-        "niche": "Salao",
+        "niche": "Salão",
         "location": "Carcavelos",
         "reviewCount": "413+",
         "rating": "4.8"
@@ -1153,7 +1171,7 @@
           "Gallery",
           "Multi-language"
         ],
-        "niche": "Salao",
+        "niche": "Salão",
         "location": "Carcavelos",
         "reviewCount": "217+",
         "rating": "4.9"
@@ -1172,7 +1190,7 @@
           "Appointment Booking",
           "Multi-language"
         ],
-        "niche": "Salao",
+        "niche": "Salão",
         "location": "Estoril",
         "reviewCount": "206+",
         "rating": "4.8"
@@ -1191,7 +1209,7 @@
           "Appointment Booking",
           "Multi-language"
         ],
-        "niche": "Salao",
+        "niche": "Salão",
         "location": "Oeiras",
         "reviewCount": "486+",
         "rating": "4.9"
@@ -1291,6 +1309,42 @@
         "location": "Oeiras",
         "reviewCount": "262+",
         "rating": "4.8"
+      },
+      {
+        "id": "barbershop-vip",
+        "name": "Barbearia VIP",
+        "category": "Website",
+        "image": "/portfolio/barbershop-vip.jpg",
+        "url": "https://barbershop-vip.vercel.app",
+        "description": "Barbearia clássica no coração de Oeiras com cortes tradicionais, cuidado de barba e ambiente descontraído.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Salão",
+        "location": "Oeiras",
+        "reviewCount": "148+",
+        "rating": "4.8"
+      },
+      {
+        "id": "salon-benicabeleireiro",
+        "name": "Beni Cabeleireiro",
+        "category": "Website",
+        "image": "/portfolio/salon-benicabeleireiro.jpg",
+        "url": "https://salon-benicabeleireiro.vercel.app",
+        "description": "Centro de beleza multisserviços em Carcavelos — cabeleireiro, barbearia, spa, massagem, unhas e tratamentos a laser num só espaço.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Appointment Booking",
+          "Multi-language"
+        ],
+        "niche": "Salão",
+        "location": "Carcavelos",
+        "rating": "4.7"
       }
     ],
     "cta": "Ver Projeto",
@@ -1338,7 +1392,7 @@
       },
       {
         "id": "salon",
-        "label": "Salao"
+        "label": "Salão"
       },
       {
         "id": "dental",
@@ -1370,7 +1424,7 @@
       },
       {
         "id": "chiropractic",
-        "label": "Quiropratica"
+        "label": "Quiroprática"
       },
       {
         "id": "cleaning",
@@ -1422,7 +1476,7 @@
       },
       {
         "id": "real-estate",
-        "label": "Imobiliaria"
+        "label": "Imobiliária"
       },
       {
         "id": "tattoo",
@@ -1430,7 +1484,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "57 projetos em 25 setores",
+    "projectCount": "60 projetos em 25 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
@@ -1492,7 +1546,7 @@
     "label": "MÉTRICAS",
     "items": [
       {
-        "value": "57+",
+        "value": "60+",
         "label": "Projetos Entregues"
       },
       {

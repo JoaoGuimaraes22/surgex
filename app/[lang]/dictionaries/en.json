@@ -293,6 +293,42 @@
         "rating": "5.0"
       },
       {
+        "id": "barbershop-vip",
+        "name": "Barbearia VIP",
+        "category": "Website",
+        "image": "/portfolio/barbershop-vip.jpg",
+        "url": "https://barbershop-vip.vercel.app",
+        "description": "Classic barbershop in the heart of Oeiras offering traditional cuts, beard grooming, and a relaxed atmosphere.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Salon",
+        "location": "Oeiras",
+        "reviewCount": "148+",
+        "rating": "4.8"
+      },
+      {
+        "id": "salon-benicabeleireiro",
+        "name": "Beni Cabeleireiro",
+        "category": "Website",
+        "image": "/portfolio/salon-benicabeleireiro.jpg",
+        "url": "https://salon-benicabeleireiro.vercel.app",
+        "description": "Multi-service beauty hub in Carcavelos — hair salon, barbershop, spa, massage, nails, and laser treatments under one roof.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Appointment Booking",
+          "Multi-language"
+        ],
+        "niche": "Salon",
+        "location": "Carcavelos",
+        "rating": "4.7"
+      },
+      {
         "id": "dentist-takata",
         "name": "Clinica Takata",
         "category": "Website",
@@ -346,6 +382,24 @@
         "location": "Sao Domingos de Rana",
         "reviewCount": "166+",
         "rating": "5.0"
+      },
+      {
+        "id": "carwash-spacarcavelos",
+        "name": "Car Wash & Spa Carcavelos",
+        "category": "Website",
+        "image": "/portfolio/carwash-spacarcavelos.jpg",
+        "url": "https://carwash-spacarcavelos.vercel.app",
+        "description": "Full-service car wash and detailing spa with self-service bays and premium hand wash packages.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Auto Detailing",
+        "location": "Carcavelos",
+        "reviewCount": "156+",
+        "rating": "4.6"
       },
       {
         "id": "accounting-kapacontabilidade",
@@ -1430,7 +1484,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "57 projects across 25 industries",
+    "projectCount": "60 projects across 25 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
@@ -1492,7 +1546,7 @@
     "label": "METRICS",
     "items": [
       {
-        "value": "57+",
+        "value": "60+",
         "label": "Projects Delivered"
       },
       {

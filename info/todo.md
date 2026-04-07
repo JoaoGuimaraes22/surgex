@@ -36,7 +36,7 @@
 - [x] Sitemap — individual project detail pages added (57 projects × 2 locales = 114 URLs)
 - [ ] Founder photo — add updated photo to `/public/founder.jpg` and wire into about section (grayscale→color hover treatment ready)
 - [x] PT meta description — trimmed to 150 chars
-- [ ] Add barbershop-vip, salon-benicabeleireiro, carwash-spacarcavelos to portfolio (deploy first if needed)
+- [x] Add barbershop-vip, salon-benicabeleireiro, carwash-spacarcavelos to portfolio (60 projects total)
 
 ## Phase B — Marketing & Growth
 
