@@ -34,6 +34,11 @@ export async function generateMetadata({
       url: `${siteUrl}/${lang}/projects`,
       type: "website",
     },
+    twitter: {
+      card: "summary_large_image",
+      title: dict.projectsPage.meta.title,
+      description: dict.projectsPage.meta.description,
+    },
   };
 }
 
@@ -47,6 +52,32 @@ export default async function ProjectsPage({
   if (!hasLocale(lang)) notFound();
 
   const dict = await getDictionary(lang);
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.surgex.pt";
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: dict.projectsPage.meta.title,
+    description: dict.projectsPage.meta.description,
+    url: `${siteUrl}/${lang}/projects`,
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: dict.portfolio.projects.length,
+      itemListElement: dict.portfolio.projects.slice(0, 10).map(
+        (p: { id: string; name: string; url: string }, i: number) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          name: p.name,
+          url: `${siteUrl}/${lang}/projects/${p.id}`,
+        })
+      ),
+    },
+    provider: {
+      "@type": "Organization",
+      name: "SurgeX",
+      url: siteUrl,
+    },
+  };
 
   return (
     <ThemeProvider>
@@ -58,6 +89,10 @@ export default async function ProjectsPage({
         nicheNav={{ items: dict.projectsPage.nicheNav, label: dict.projectsPage.nicheNavLabel }}
       />
       <main>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         <ProjectsGallery
           dict={dict.projectsPage}
           portfolio={dict.portfolio}

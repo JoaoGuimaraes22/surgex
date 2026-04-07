@@ -60,6 +60,11 @@ export async function generateMetadata({
       url: `${siteUrl}/${lang}/services/${slug}`,
       type: "website",
     },
+    twitter: {
+      card: "summary_large_image",
+      title: service.meta.title,
+      description: service.meta.description,
+    },
   };
 }
 

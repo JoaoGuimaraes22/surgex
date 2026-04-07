@@ -48,6 +48,11 @@ export async function generateMetadata({
       url: `${siteUrl}/${lang}/cities/${slug}`,
       type: "website",
     },
+    twitter: {
+      card: "summary_large_image",
+      title: citiesDict.meta.title,
+      description: citiesDict.meta.description,
+    },
   };
 }
 

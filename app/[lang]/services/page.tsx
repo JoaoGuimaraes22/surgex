@@ -35,6 +35,11 @@ export async function generateMetadata({
       url: `${siteUrl}/${lang}/services`,
       type: "website",
     },
+    twitter: {
+      card: "summary_large_image",
+      title: servicesDict.meta.title,
+      description: servicesDict.meta.description,
+    },
   };
 }
 
@@ -50,11 +55,37 @@ export default async function ServicesPage({
   const dict = await getDictionary(lang);
   const servicesDict = await getServicesDictionary(lang);
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "OfferCatalog",
+    name: servicesDict.meta.title,
+    description: servicesDict.meta.description,
+    url: `${siteUrl}/${lang}/services`,
+    itemListElement: Object.entries(servicesDict.services).map(
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      ([slug, service]: [string, any]) => ({
+        "@type": "Offer",
+        name: service.title,
+        description: service.tagline,
+        url: `${siteUrl}/${lang}/services/${slug}`,
+      })
+    ),
+    provider: {
+      "@type": "Organization",
+      name: "SurgeX",
+      url: siteUrl,
+    },
+  };
+
   return (
     <ThemeProvider>
       <BackgroundSphere />
       <Navbar dict={dict.navbar} lang={lang} />
       <main>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         <section className="relative z-[5] overflow-hidden px-10 pt-32 pb-24">
           {/* Section header */}
           <div className="mb-16">
