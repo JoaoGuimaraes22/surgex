@@ -5,8 +5,8 @@
 - [x] Hero section (Three.js wireframe, dark/light theme)
 - [x] Navbar (bracketed links, mobile hamburger, theme toggle, locale switcher)
 - [x] Services (4 cards: AI solutions, websites, automation, marketing)
-- [x] Portfolio (16 project cards across 8 niches)
-- [x] Projects showcase page (/projects) with category sections and niche grouping
+- [x] Portfolio (57 project cards across 25 niches)
+- [x] Projects showcase page (/projects) with sticky niche nav, 25 niche sections, project counts
 - [x] Process (4-step consultative flow)
 - [x] Stats (4 metrics)
 - [x] Contact form (Formspree integration)
@@ -20,7 +20,7 @@
 
 ## To Do
 
-- [x] Portfolio screenshots — 16 screenshots of deployed sites in `/public/portfolio/`
+- [x] Portfolio screenshots — 57 og-images of deployed sites in `/public/portfolio/`
 - [x] OG image — 1200x630 social sharing image
 - [x] Logo redesign — match Inter Extralight typography
 - [x] Send-as setup — configure Gmail to send from contact@surgex.pt via ImprovMX
@@ -33,7 +33,7 @@
 - [x] About section — founder + network + philosophy cards
 - [x] Portfolio metrics — review counts + ratings on project cards and detail pages
 - [x] WhatsApp floating button — bottom-left FAB linking to wa.me
-- [x] Sitemap — individual project detail pages added (16 projects × 2 locales = 32 URLs)
+- [x] Sitemap — individual project detail pages added (57 projects × 2 locales = 114 URLs)
 - [ ] Founder photo — add updated photo to `/public/founder.jpg` and wire into about section (grayscale→color hover treatment ready)
 - [ ] PT meta description — trim from 166 to 160 chars
 

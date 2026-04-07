@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { useTheme } from "./theme-provider";
 import LocaleSwitcher from "./locale-switcher";
@@ -11,6 +11,7 @@ export default function Navbar({
   backHref,
   lang,
   alternates,
+  nicheNav,
 }: {
   dict: {
     brand: string;
@@ -22,10 +23,14 @@ export default function Navbar({
   backHref?: string;
   lang?: string;
   alternates?: Record<string, string>;
+  nicheNav?: { items: { id: string; label: string }[]; label: string };
 }) {
   const { theme, toggle } = useTheme();
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [activeNiche, setActiveNiche] = useState(nicheNav?.items[0]?.id ?? "");
+  const nicheScrollRef = useRef<HTMLDivElement>(null);
+  const nicheItemRefs = useRef<Record<string, HTMLButtonElement | null>>({});
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 100);
@@ -33,34 +38,125 @@ export default function Navbar({
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  // Track which niche section is in view
+  useEffect(() => {
+    if (!nicheNav) return;
+    const observers: IntersectionObserver[] = [];
+    for (const item of nicheNav.items) {
+      const el = document.getElementById(item.id);
+      if (!el) continue;
+      const observer = new IntersectionObserver(
+        ([entry]) => {
+          if (entry.isIntersecting) setActiveNiche(item.id);
+        },
+        { rootMargin: "-20% 0px -60% 0px" }
+      );
+      observer.observe(el);
+      observers.push(observer);
+    }
+    return () => observers.forEach((o) => o.disconnect());
+  }, [nicheNav]);
+
+  // Auto-scroll active niche pill into view
+  useEffect(() => {
+    const btn = nicheItemRefs.current[activeNiche];
+    if (btn && nicheScrollRef.current) {
+      const container = nicheScrollRef.current;
+      const left = btn.offsetLeft - container.offsetWidth / 2 + btn.offsetWidth / 2;
+      container.scrollTo({ left, behavior: "smooth" });
+    }
+  }, [activeNiche]);
+
   return (
     <>
       <header
-        className="fixed top-0 left-0 z-20 flex w-full items-center justify-between p-6 md:items-start md:px-10 md:pt-6 md:pb-10"
+        className={`fixed top-0 left-0 z-20 flex w-full items-center justify-between p-6 md:px-10 md:pt-6 md:pb-4 ${nicheNav ? "bg-background/80 backdrop-blur-md border-b border-muted/10" : "md:items-start md:pb-10"}`}
       >
-        {/* Brand */}
-        <a
-          href={backHref ?? (lang ? `/${lang}` : "#")}
-          onClick={!backHref && !lang ? () => window.scrollTo({ top: 0, behavior: "smooth" }) : undefined}
-          className="flex items-center gap-3"
-        >
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src="/sgx-logo-no-bg.png"
-            alt={dict.brand}
-            className={`h-10 w-auto md:h-16 ${theme === "dark" ? "invert" : ""}`}
-          />
-          <span className="hidden font-normal text-sm text-muted md:block">{dict.version}</span>
-        </a>
+        {/* Brand + back */}
+        <div className="flex shrink-0 items-center gap-4">
+          <a
+            href={backHref ?? (lang ? `/${lang}` : "#")}
+            onClick={!backHref && !lang ? () => window.scrollTo({ top: 0, behavior: "smooth" }) : undefined}
+            className="flex items-center gap-3"
+          >
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/sgx-logo-no-bg.png"
+              alt={dict.brand}
+              className={`h-10 w-auto ${nicheNav ? "" : "md:h-16"} ${theme === "dark" ? "invert" : ""}`}
+            />
+            {!nicheNav && (
+              <span className="hidden font-normal text-sm text-muted md:block">{dict.version}</span>
+            )}
+          </a>
 
-        {/* Desktop nav */}
-        <nav className="hidden items-center gap-10 md:flex">
           {backHref && (
+            <Link
+              href={backHref}
+              className="hidden items-center gap-1.5 border border-muted/30 rounded-full px-2.5 py-1 text-[9px] uppercase tracking-[2px] text-muted transition-colors duration-300 hover:text-foreground hover:border-foreground/30 md:flex"
+            >
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M19 12H5M12 19l-7-7 7-7" />
+              </svg>
+              <span>Back</span>
+            </Link>
+          )}
+        </div>
+
+        {/* Desktop: niche nav pills with scroll arrows */}
+        {nicheNav && (
+          <div className="hidden min-w-0 flex-1 items-center gap-1 mx-4 md:flex">
+            <button
+              onClick={() => nicheScrollRef.current?.scrollBy({ left: -200, behavior: "smooth" })}
+              className="shrink-0 flex h-6 w-6 items-center justify-center text-foreground/60 hover:text-foreground transition-colors duration-200"
+              aria-label="Scroll left"
+            >
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M15 18l-6-6 6-6" />
+              </svg>
+            </button>
+            <div
+              ref={nicheScrollRef}
+              className="flex min-w-0 flex-1 gap-1 overflow-x-auto scrollbar-hide"
+            >
+              {nicheNav.items.map((item) => (
+                <button
+                  key={item.id}
+                  ref={(el) => { nicheItemRefs.current[item.id] = el; }}
+                  onClick={() => {
+                    const el = document.getElementById(item.id);
+                    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+                  }}
+                  className={`shrink-0 rounded-full px-3 py-1 font-mono text-[9px] uppercase tracking-[1.5px] transition-all duration-200 ${
+                    activeNiche === item.id
+                      ? "text-foreground bg-foreground/10"
+                      : "text-muted/60 hover:text-foreground/70"
+                  }`}
+                >
+                  {item.label}
+                </button>
+              ))}
+            </div>
+            <button
+              onClick={() => nicheScrollRef.current?.scrollBy({ left: 200, behavior: "smooth" })}
+              className="shrink-0 flex h-6 w-6 items-center justify-center text-foreground/60 hover:text-foreground transition-colors duration-200"
+              aria-label="Scroll right"
+            >
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M9 18l6-6-6-6" />
+              </svg>
+            </button>
+          </div>
+        )}
+
+        {/* Desktop nav (standard links) */}
+        <nav className={`hidden items-center gap-10 md:flex ${nicheNav ? "shrink-0" : ""}`}>
+          {!nicheNav && backHref && (
             <Link
               href={backHref}
               className="flex items-center gap-2 text-[10px] uppercase tracking-[2px] text-muted transition-colors duration-300 hover:text-foreground"
             >
-              <span className="text-sm">←</span> Go Back
+              <span className="text-sm">&larr;</span> Go Back
             </Link>
           )}
 
@@ -170,6 +266,30 @@ export default function Navbar({
         </button>
         )}
       </header>
+
+      {/* Mobile niche nav row */}
+      {nicheNav && (
+        <div className="fixed top-[58px] left-0 z-20 w-full border-b border-muted/10 bg-background/80 backdrop-blur-md md:hidden">
+          <div className="flex gap-1 overflow-x-auto scrollbar-hide px-4 py-2">
+            {nicheNav.items.map((item) => (
+              <button
+                key={item.id}
+                onClick={() => {
+                  const el = document.getElementById(item.id);
+                  if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+                }}
+                className={`shrink-0 rounded-full px-2.5 py-1 font-mono text-[8px] uppercase tracking-[1px] transition-all duration-200 ${
+                  activeNiche === item.id
+                    ? "text-foreground bg-foreground/10"
+                    : "text-muted/60"
+                }`}
+              >
+                {item.label}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
 
       {/* Mobile overlay */}
       {!hideLinks && (

@@ -16,6 +16,7 @@ export default function Portfolio({
       category: string;
       image: string;
       url: string;
+      niche?: string;
       reviewCount?: string;
       rating?: string;
       location?: string;
@@ -25,6 +26,17 @@ export default function Portfolio({
   };
   lang: string;
 }) {
+  // Pick first 6 unique niches for diverse homepage showcase
+  const featured: typeof dict.projects = [];
+  const seen = new Set<string>();
+  for (const p of dict.projects) {
+    const key = p.niche ?? p.category;
+    if (!seen.has(key) && featured.length < 6) {
+      featured.push(p);
+      seen.add(key);
+    }
+  }
+
   return (
     <section id="work" className="relative z-[5] overflow-hidden py-32 px-10">
       {/* Section label */}
@@ -40,9 +52,9 @@ export default function Portfolio({
         </h2>
       </div>
 
-      {/* Project grid — show first 6 on homepage */}
+      {/* Project grid — 6 diverse niches on homepage */}
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {dict.projects.slice(0, 6).map((project, i) => (
+        {featured.map((project, i) => (
           <motion.div
             key={project.id}
             initial={{ opacity: 0, y: 30 }}

@@ -42,6 +42,15 @@ body {
   100% { top: 110%; }
 }
 
+/* Hide scrollbar but allow scrolling */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
 /* Stipple dot grid pattern */
 .stipple-grid {
   background-image: radial-gradient(var(--muted) 0.5px, transparent 0.5px);

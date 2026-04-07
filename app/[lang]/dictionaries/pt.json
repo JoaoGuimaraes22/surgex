@@ -20,13 +20,35 @@
     "version": "[v1.0]",
     "cta": "Contacto",
     "links": [
-      { "id": "services", "label": "Serviços" },
-      { "id": "pricing", "label": "Preços" },
-      { "id": "work", "label": "Projetos" },
-      { "id": "process", "label": "Processo" },
-      { "id": "about", "label": "Sobre" },
-      { "id": "blog", "label": "Blog", "href": "/pt/blog" },
-      { "id": "contact", "label": "Contacto" }
+      {
+        "id": "services",
+        "label": "Serviços"
+      },
+      {
+        "id": "pricing",
+        "label": "Preços"
+      },
+      {
+        "id": "work",
+        "label": "Projetos"
+      },
+      {
+        "id": "process",
+        "label": "Processo"
+      },
+      {
+        "id": "about",
+        "label": "Sobre"
+      },
+      {
+        "id": "blog",
+        "label": "Blog",
+        "href": "/pt/blog"
+      },
+      {
+        "id": "contact",
+        "label": "Contacto"
+      }
     ]
   },
   "hero": {
@@ -34,9 +56,18 @@
     "titleLine2": "PREÇOS JUSTOS.",
     "subtitle": "SurgeX — AI Driven Agency",
     "meta": [
-      { "label": "ID_TYPE", "value": "AI_SOLUTIONS" },
-      { "label": "LOC", "value": "LISBON_PT_BASE" },
-      { "label": "STATUS", "value": "OPERACIONAL..." }
+      {
+        "label": "ID_TYPE",
+        "value": "AI_SOLUTIONS"
+      },
+      {
+        "label": "LOC",
+        "value": "LISBON_PT_BASE"
+      },
+      {
+        "label": "STATUS",
+        "value": "OPERACIONAL..."
+      }
     ],
     "ctaServices": "O Que Fazemos",
     "ctaWork": "Ver Portfólio",
@@ -69,7 +100,12 @@
         "tag": "02",
         "title": "Websites & Apps",
         "description": "Websites e apps premium que carregam rápido, aparecem no Google e transformam visitantes em clientes. Design personalizado, não templates. Pronto em dias, não meses.",
-        "features": ["Design Personalizado", "Ranking Google", "Mobile-Ready", "Analytics"]
+        "features": [
+          "Design Personalizado",
+          "Ranking Google",
+          "Mobile-Ready",
+          "Analytics"
+        ]
       },
       {
         "id": "automation",
@@ -88,21 +124,36 @@
         "tag": "04",
         "title": "Marketing Digital",
         "description": "Seja encontrado pelas pessoas certas. Campanhas de anúncios segmentadas, gestão de redes sociais e conteúdo que gera crescimento real — tudo potenciado por IA.",
-        "features": ["Google Ads", "Redes Sociais", "Criação de Conteúdo", "Geração de Leads"]
+        "features": [
+          "Google Ads",
+          "Redes Sociais",
+          "Criação de Conteúdo",
+          "Geração de Leads"
+        ]
       },
       {
         "id": "geo-aeo",
         "tag": "05",
         "title": "GEO / AEO",
         "description": "Apareça no ChatGPT, Perplexity e Google AI Overviews. A Otimização para Motores Generativos coloca o seu negócio nos resultados de pesquisa com IA.",
-        "features": ["Visibilidade IA", "Dados Estruturados", "Otimização Conteúdo", "Construção de Citações"]
+        "features": [
+          "Visibilidade IA",
+          "Dados Estruturados",
+          "Otimização Conteúdo",
+          "Construção de Citações"
+        ]
       },
       {
         "id": "training",
         "tag": "06",
         "title": "Formação & Workshops",
         "description": "Ensine a sua equipa a usar ferramentas de IA de forma eficaz. Workshops práticos que transformam a sua equipa em utilizadores avançados de IA — sem necessidade de conhecimento técnico.",
-        "features": ["Workshops de Equipa", "Formação em IA", "Currículo Personalizado", "Suporte Contínuo"]
+        "features": [
+          "Workshops de Equipa",
+          "Formação em IA",
+          "Currículo Personalizado",
+          "Suporte Contínuo"
+        ]
       }
     ],
     "learnMore": "Saber Mais"
@@ -119,7 +170,13 @@
         "price": "desde 450€",
         "period": "único",
         "description": "Website premium que posiciona, converte e representa a sua marca.",
-        "features": ["Design Personalizado", "SEO Otimizado", "Mobile-Ready", "Painel de Analytics", "2 Idiomas (PT/EN)"],
+        "features": [
+          "Design Personalizado",
+          "SEO Otimizado",
+          "Mobile-Ready",
+          "Painel de Analytics",
+          "2 Idiomas (PT/EN)"
+        ],
         "status": "AVAILABLE"
       },
       {
@@ -129,7 +186,13 @@
         "price": "desde 25€",
         "period": "/mês",
         "description": "Assistente inteligente que responde aos seus clientes 24/7 com a voz da sua marca.",
-        "features": ["Disponível 24/7", "Treino Personalizado", "Captura de Leads", "Multi-idioma", "Analytics"],
+        "features": [
+          "Disponível 24/7",
+          "Treino Personalizado",
+          "Captura de Leads",
+          "Multi-idioma",
+          "Analytics"
+        ],
         "status": "AVAILABLE"
       },
       {
@@ -139,7 +202,13 @@
         "price": "desde 50€",
         "period": "/mês",
         "description": "Sistemas que tratam de tarefas repetitivas — follow-ups, emails, agendamentos.",
-        "features": ["Mapeamento de Processos", "Workflows Personalizados", "Sequências de Email", "Integração CRM", "Relatórios"],
+        "features": [
+          "Mapeamento de Processos",
+          "Workflows Personalizados",
+          "Sequências de Email",
+          "Integração CRM",
+          "Relatórios"
+        ],
         "status": "AVAILABLE"
       },
       {
@@ -149,7 +218,13 @@
         "price": "desde 1.500€",
         "period": "único + mensal",
         "description": "Website + chatbot + automação. Tudo o que o seu negócio precisa, construído em conjunto.",
-        "features": ["Tudo o Anterior", "Suporte Prioritário", "Revisões Trimestrais", "Conta Dedicada", "Integrações Personalizadas"],
+        "features": [
+          "Tudo o Anterior",
+          "Suporte Prioritário",
+          "Revisões Trimestrais",
+          "Conta Dedicada",
+          "Integrações Personalizadas"
+        ],
         "status": "RECOMMENDED"
       }
     ],
@@ -161,15 +236,715 @@
     "headline": "Projetos Selecionados.",
     "projects": [
       {
+        "id": "accounting-kapacontabilidade",
+        "name": "KAPA Contabilidade&Servicos",
+        "category": "Website",
+        "image": "/portfolio/accounting-kapacontabilidade.jpg",
+        "url": "https://accounting-kapacontabilidade.vercel.app",
+        "description": "Empresa de contabilidade e servicos fiscais em Alcabideche, com atendimento personalizado para familias e empresas.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Contabilidade",
+        "location": "Alcabideche",
+        "reviewCount": "51+",
+        "rating": "4.9"
+      },
+      {
+        "id": "autobody-jpautopaint",
+        "name": "JP Auto Paint",
+        "category": "Website",
+        "image": "/portfolio/autobody-jpautopaint.jpg",
+        "url": "https://autobody-jpautopaint.vercel.app",
+        "description": "Oficina de pintura e bate-chapas com correspondencia de cor de fabrica, reparacoes de carrocaria e trabalho com seguros.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Gallery",
+          "Multi-language"
+        ],
+        "niche": "Pintura Auto",
+        "location": "Sao Domingos de Rana",
+        "reviewCount": "95+",
+        "rating": "4.6"
+      },
+      {
+        "id": "detailing-ecestetica",
+        "name": "EC Estetica Auto",
+        "category": "Website",
+        "image": "/portfolio/detailing-ecestetica.jpg",
+        "url": "https://detailing-ecestetica.vercel.app",
+        "description": "Servico de estetica automovel ao domicilio, especializado em limpeza profunda de interiores e remocao de bolor.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Gallery",
+          "Multi-language"
+        ],
+        "niche": "Detailing Auto",
+        "location": "Quinta do Conde",
+        "reviewCount": "83+",
+        "rating": "4.9"
+      },
+      {
+        "id": "detailing-elefanteazul",
+        "name": "Elefante Azul Cascais",
+        "category": "Website",
+        "image": "/portfolio/detailing-elefanteazul.jpg",
+        "url": "https://detailing-elefanteazul.vercel.app",
+        "description": "Lavagem automovel self-service 24/7 com equipamento profissional e assistencia no local, perto do CascaiShopping.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Detailing Auto",
+        "location": "Alcabideche",
+        "reviewCount": "784+",
+        "rating": "4.3"
+      },
+      {
+        "id": "mm-detalhe",
+        "name": "M M Detalhe Automovel",
+        "category": "Website",
+        "image": "/portfolio/mm-detalhe.jpg",
+        "url": "https://mm-detalhe.vercel.app",
+        "description": "Estudio de estetica automovel premium com revestimento ceramico, correcao de pintura e lavagem ao domicilio.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Gallery",
+          "Multi-language"
+        ],
+        "niche": "Detailing Auto",
+        "location": "Sao Domingos de Rana",
+        "reviewCount": "166+",
+        "rating": "5.0"
+      },
+      {
+        "id": "bar-iateben",
+        "name": "Iate Ben",
+        "category": "Website",
+        "image": "/portfolio/bar-iateben.jpg",
+        "url": "https://bar-iateben.vercel.app",
+        "description": "Discoteca e bar em Carcavelos com duas pistas de danca, DJ sets e noites Ladies Night.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Bar & Noite",
+        "location": "Carcavelos",
+        "reviewCount": "307+",
+        "rating": "3.8"
+      },
+      {
+        "id": "dealership-notoriouscar",
+        "name": "Notorious Car",
+        "category": "Website",
+        "image": "/portfolio/dealership-notoriouscar.jpg",
+        "url": "https://dealership-notoriouscar.vercel.app",
+        "description": "Stand de automoveis usados conhecido pela transparencia, selecao de qualidade e servico personalizado.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Gallery",
+          "Multi-language"
+        ],
+        "niche": "Stand Automovel",
+        "location": "Sao Domingos de Rana",
+        "rating": "5.0"
+      },
+      {
+        "id": "chiro-elenilson",
+        "name": "Elenilson Silva",
+        "category": "Website",
+        "image": "/portfolio/chiro-elenilson.jpg",
+        "url": "https://chiro-elenilson.vercel.app",
+        "description": "Quiropraxista e massagista com mais de 20 anos de experiencia, oferecendo tratamentos holisticos para alivio de dor.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Appointment Booking",
+          "Multi-language"
+        ],
+        "niche": "Quiropratica",
+        "location": "Parede",
+        "reviewCount": "122+",
+        "rating": "5.0"
+      },
+      {
+        "id": "instituto-soares",
+        "name": "Instituto Soares",
+        "category": "Website",
+        "image": "/portfolio/instituto-soares.jpg",
+        "url": "https://instituto-soares.vercel.app",
+        "description": "Clinica de quiropraxia e estetica avancada com ajustamentos na coluna, depilacao a laser e tratamentos faciais.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Appointment Booking",
+          "Gallery",
+          "Multi-language"
+        ],
+        "niche": "Quiropratica",
+        "location": "Agualva-Cacem",
+        "reviewCount": "155+",
+        "rating": "5.0"
+      },
+      {
+        "id": "cleaning-houseshine",
+        "name": "House Shine Cascais JV",
+        "category": "Website",
+        "image": "/portfolio/cleaning-houseshine.jpg",
+        "url": "https://cleaning-houseshine.vercel.app",
+        "description": "Franquia de limpezas domesticas profissionais com limpeza profunda, pos-obra e manutencao regular.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Limpeza",
+        "location": "Cascais",
+        "reviewCount": "58+",
+        "rating": "4.6"
+      },
+      {
+        "id": "dentist-doracosta",
+        "name": "Clinica Dentaria Dora & Costa Matos",
+        "category": "Website",
+        "image": "/portfolio/dentist-doracosta.jpg",
+        "url": "https://dentist-doracosta.vercel.app",
+        "description": "Clinica dentaria familiar com implantes, ortodontia e tratamentos esteticos num ambiente acolhedor.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Appointment Booking",
+          "Multi-language"
+        ],
+        "niche": "Dentista",
+        "location": "Parede",
+        "reviewCount": "82+",
+        "rating": "4.4"
+      },
+      {
+        "id": "dentist-penedo",
+        "name": "Clinica Dentaria do Penedo",
+        "category": "Website",
+        "image": "/portfolio/dentist-penedo.jpg",
+        "url": "https://dentist-penedo.vercel.app",
+        "description": "Clinica dentaria comunitaria conhecida pela equipa simpatica, precos acessiveis e servicos completos.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Appointment Booking",
+          "Multi-language"
+        ],
+        "niche": "Dentista",
+        "location": "Sao Domingos de Rana",
+        "reviewCount": "77+",
+        "rating": "4.7"
+      },
+      {
+        "id": "dentist-primehealthcare",
+        "name": "Prime Health Care",
+        "category": "Website",
+        "image": "/portfolio/dentist-primehealthcare.jpg",
+        "url": "https://dentist-primehealthcare.vercel.app",
+        "description": "Clinica dentaria com atendimento em ingles, especializada em implantes e proteses com procedimentos sem dor.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Appointment Booking",
+          "Multi-language"
+        ],
+        "niche": "Dentista",
+        "location": "Carcavelos",
+        "reviewCount": "27+",
+        "rating": "4.7"
+      },
+      {
+        "id": "dentist-takata",
+        "name": "Clinica Takata",
+        "category": "Website",
+        "image": "/portfolio/dentist-takata.jpg",
+        "url": "https://dentist-takata.vercel.app",
+        "description": "Clinica dentaria com classificacao perfeita de 5 estrelas, conhecida pela honestidade e atencao ao paciente.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Appointment Booking",
+          "Multi-language"
+        ],
+        "niche": "Dentista",
+        "location": "Parede",
+        "reviewCount": "16+",
+        "rating": "5.0"
+      },
+      {
+        "id": "dogcamp",
+        "name": "Dog Camp",
+        "category": "Website",
+        "image": "/portfolio/dogcamp.jpg",
+        "url": "https://dogcamp.vercel.app",
+        "description": "Escola de treino canino com programas individualizados, aulas para cachorros e modificacao comportamental ao ar livre.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Treino Canino",
+        "location": "Almargem do Bispo",
+        "reviewCount": "98+",
+        "rating": "4.8"
+      },
+      {
+        "id": "dogtraining-dogsco",
+        "name": "Dogs & Co",
+        "category": "Website",
+        "image": "/portfolio/dogtraining-dogsco.jpg",
+        "url": "https://dogtraining-dogsco.vercel.app",
+        "description": "Escola de treino canino com obediencia, modificacao comportamental e socializacao em amplos espacos exteriores.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Treino Canino",
+        "location": "Sao Domingos de Rana",
+        "reviewCount": "146+",
+        "rating": "4.9"
+      },
+      {
+        "id": "electrician-eletricland",
+        "name": "Eletricista Eletricland",
+        "category": "Website",
+        "image": "/portfolio/electrician-eletricland.jpg",
+        "url": "https://electrician-eletricland.vercel.app",
+        "description": "Eletricista residencial e comercial 24/7 com instalacao de quadros, projetos eletricos e reparacoes de emergencia.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Eletricista",
+        "location": "Oeiras",
+        "reviewCount": "9+",
+        "rating": "5.0"
+      },
+      {
+        "id": "electrician-jorgemendes",
+        "name": "Jorge Mendes Eletricista",
+        "category": "Website",
+        "image": "/portfolio/electrician-jorgemendes.jpg",
+        "url": "https://electrician-jorgemendes.vercel.app",
+        "description": "Eletricista independente em Lisboa com disponibilidade 24/7, precos transparentes e fluencia em ingles.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Eletricista",
+        "location": "Lisboa",
+        "reviewCount": "185+",
+        "rating": "5.0"
+      },
+      {
+        "id": "gym-fits",
+        "name": "FIT'S ACADEMIA",
+        "category": "Website",
+        "image": "/portfolio/gym-fits.jpg",
+        "url": "https://gym-fits.vercel.app",
+        "description": "Estudio de treino pessoal com instrutores certificados, boxe, treino em circuito e programas personalizados.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Fitness",
+        "location": "Cascais",
+        "reviewCount": "75+",
+        "rating": "4.9"
+      },
+      {
+        "id": "gym-joaofaleiro",
+        "name": "Joao Faleiro Club",
+        "category": "Website",
+        "image": "/portfolio/gym-joaofaleiro.jpg",
+        "url": "https://gym-joaofaleiro.vercel.app",
+        "description": "Ginasio de boxe e artes marciais com treino profissional, programas para criancas e acesso ilimitado.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Fitness",
+        "location": "Mem Martins",
+        "reviewCount": "90+",
+        "rating": "4.8"
+      },
+      {
+        "id": "gym-levelup",
+        "name": "Level UP Fight & Fitness",
+        "category": "Website",
+        "image": "/portfolio/gym-levelup.jpg",
+        "url": "https://gym-levelup.vercel.app",
+        "description": "Academia de desportos de combate a beira-mar no Estoril com Jiu-Jitsu, Muay Thai e treino funcional.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Fitness",
+        "location": "Estoril",
+        "reviewCount": "53+",
+        "rating": "5.0"
+      },
+      {
+        "id": "gym-lineup",
+        "name": "LINE UP Functional Training",
+        "category": "Website",
+        "image": "/portfolio/gym-lineup.jpg",
+        "url": "https://gym-lineup-mocha.vercel.app",
+        "description": "Box de CrossFit e treino funcional com coaches certificados, ambiente comunitario e equipamento de qualidade.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Fitness",
+        "location": "Sao Domingos de Rana",
+        "reviewCount": "67+",
+        "rating": "4.9"
+      },
+      {
+        "id": "gym-popei",
+        "name": "Popei Gym",
+        "category": "Website",
+        "image": "/portfolio/gym-popei.jpg",
+        "url": "https://gym-popei.vercel.app",
+        "description": "Ginasio old-school com equipamento Panatta premium, treino pessoal e comunidade autentica de bodybuilding.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Fitness",
+        "location": "Algueirao-Mem Martins",
+        "reviewCount": "58+",
+        "rating": "4.8"
+      },
+      {
         "id": "mrbig",
         "name": "Mr. Big Evolution",
         "category": "Website",
         "image": "/portfolio/mrbig.jpg",
         "url": "https://mrbig.vercel.app",
-        "description": "O maior ginásio da Europa em Carcavelos — 5.000m² de espaço. Website arrojado com modalidades, instalações e inscrição para aula experimental.",
-        "services": ["Web Design", "SEO", "Geração de Leads"],
+        "description": "Centro de fitness completo em Carcavelos com diversas modalidades de treino e instalacoes modernas.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
         "niche": "Fitness",
-        "location": "Carcavelos"
+        "location": "Carcavelos",
+        "reviewCount": "780+",
+        "rating": "4.7"
+      },
+      {
+        "id": "medspa-headspaportugal",
+        "name": "Head Spa Portugal",
+        "category": "Website",
+        "image": "/portfolio/medspa-headspaportugal.jpg",
+        "url": "https://medspa-headspaportugal.vercel.app",
+        "description": "Spa capilar de inspiracao japonesa com massagem ao couro cabeludo, tratamentos de limpeza profunda e sessoes de relaxamento.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Appointment Booking",
+          "Multi-language"
+        ],
+        "niche": "Head Spa",
+        "location": "Almada",
+        "reviewCount": "212+",
+        "rating": "4.9"
+      },
+      {
+        "id": "hvac-instalar",
+        "name": "Instalar Ar Condicionado",
+        "category": "Website",
+        "image": "/portfolio/hvac-instalar.jpg",
+        "url": "https://hvac-instalar.vercel.app",
+        "description": "Especialista em climatizacao com instalacao de ar condicionado, manutencao e bombas de calor na regiao de Coimbra.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "AVAC",
+        "location": "Coimbra",
+        "reviewCount": "21+",
+        "rating": "5.0"
+      },
+      {
+        "id": "junkremoval-ambimarto",
+        "name": "Ambimarto Lda",
+        "category": "Website",
+        "image": "/portfolio/junkremoval-ambimarto.jpg",
+        "url": "https://junkremoval-ambimarto.vercel.app",
+        "description": "Empresa de gestao de residuos e recolha de sucata, especializada em reciclagem, limpezas comerciais e remocao de entulho.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Recolha de Entulho",
+        "location": "Sao Domingos de Rana",
+        "reviewCount": "25+",
+        "rating": "4.8"
+      },
+      {
+        "id": "landscaping-apjardins",
+        "name": "AP Jardins Sesimbra",
+        "category": "Website",
+        "image": "/portfolio/landscaping-apjardins.jpg",
+        "url": "https://landscaping-apjardins.vercel.app",
+        "description": "Profissional de jardinagem com design de jardins, instalacao, sistemas de rega e manutencao continua em Sesimbra.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Gallery",
+          "Multi-language"
+        ],
+        "niche": "Jardinagem",
+        "location": "Sesimbra",
+        "reviewCount": "23+",
+        "rating": "5.0"
+      },
+      {
+        "id": "laundry-grace",
+        "name": "Grace Laundry",
+        "category": "Website",
+        "image": "/portfolio/laundry-grace.jpg",
+        "url": "https://laundry-grace.vercel.app",
+        "description": "Lavandaria self-service e servico completo com engomadoria, arranjos e funcionamento 7 dias por semana.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Lavandaria",
+        "location": "Carcavelos",
+        "reviewCount": "115+",
+        "rating": "4.4"
+      },
+      {
+        "id": "auto-bicesse",
+        "name": "Auto Bicesse Maxima Lda",
+        "category": "Website",
+        "image": "/portfolio/auto-bicesse.jpg",
+        "url": "https://auto-bicesse.vercel.app",
+        "description": "Oficina de reparacao automovel completa com diagnostico, manutencao, travoes, suspensao e preparacao para IPO.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecanica",
+        "location": "Alcabideche",
+        "reviewCount": "72+",
+        "rating": "4.6"
+      },
+      {
+        "id": "autorepair-electroautoluis",
+        "name": "Electro-auto Luis",
+        "category": "Website",
+        "image": "/portfolio/autorepair-electroautoluis.jpg",
+        "url": "https://autorepair-electroautoluis.vercel.app",
+        "description": "Auto-eletricista familiar especializado em diagnostico eletronico, veiculos classicos e reparacoes eletricas no dia.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Multi-language"
+        ],
+        "niche": "Mecanica",
+        "location": "Parede",
+        "rating": "4.5"
+      },
+      {
+        "id": "mechanic-autochico",
+        "name": "Auto Chico",
+        "category": "Website",
+        "image": "/portfolio/mechanic-autochico.jpg",
+        "url": "https://mechanic-autochico.vercel.app",
+        "description": "Oficina de reparacao automovel de confianca em Cascais com mecanica geral, diagnostico eletronico e preparacao IPO.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Multi-language"
+        ],
+        "niche": "Mecanica",
+        "location": "Cascais",
+        "rating": "4.6"
+      },
+      {
+        "id": "revicar",
+        "name": "Revicar",
+        "category": "Website",
+        "image": "/portfolio/revicar.jpg",
+        "url": "https://revicar.vercel.app",
+        "description": "Oficina de reparacoes automoveis estabelecida em Carcavelos com servicos mecanicos fiaveis e manutencao de veiculos.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecanica",
+        "location": "Carcavelos",
+        "reviewCount": "124+",
+        "rating": "4.5"
+      },
+      {
+        "id": "physio-andreahuber",
+        "name": "Andrea Huber",
+        "category": "Website",
+        "image": "/portfolio/physio-andreahuber.jpg",
+        "url": "https://physio-andreahuber.vercel.app",
+        "description": "Osteopata e fisioterapeuta multilingue no Estoril com visitas domiciliarias, ventosas e tratamento holistico da dor.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Appointment Booking",
+          "Multi-language"
+        ],
+        "niche": "Fisioterapia",
+        "location": "Estoril",
+        "reviewCount": "80+",
+        "rating": "5.0"
+      },
+      {
+        "id": "plumbing-bugarepara",
+        "name": "O Buga Repara",
+        "category": "Website",
+        "image": "/portfolio/plumbing-bugarepara.jpg",
+        "url": "https://plumbing-bugarepara.vercel.app",
+        "description": "Servico de canalizacao e desentupimentos de emergencia 24/7, cobrindo a area metropolitana de Lisboa.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Canalizacao",
+        "location": "Lisboa",
+        "reviewCount": "41+",
+        "rating": "4.4"
+      },
+      {
+        "id": "plumbing-expertcanalizacoes",
+        "name": "Expert Canalizacoes",
+        "category": "Website",
+        "image": "/portfolio/plumbing-expertcanalizacoes.jpg",
+        "url": "https://plumbing-expertcanalizacoes.vercel.app",
+        "description": "Empresa de canalizacao e eletricidade 24 horas com resposta rapida e precos honestos na Grande Lisboa.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Canalizacao",
+        "location": "Sacavem",
+        "reviewCount": "22+",
+        "rating": "4.8"
+      },
+      {
+        "id": "plumbing-santoamaro",
+        "name": "Canalizadora de Santo Amaro",
+        "category": "Website",
+        "image": "/portfolio/plumbing-santoamaro.jpg",
+        "url": "https://plumbing-santoamaro.vercel.app",
+        "description": "Servico de canalizacao 24/7 especializado em reparacoes de emergencia, instalacao de gas e manutencao de esquentadores.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Canalizacao",
+        "location": "Lisboa",
+        "reviewCount": "51+",
+        "rating": "4.5"
+      },
+      {
+        "id": "pool-mergulhosalgado",
+        "name": "Mergulho Salgado",
+        "category": "Website",
+        "image": "/portfolio/pool-mergulhosalgado.jpg",
+        "url": "https://pool-mergulhosalgado.vercel.app",
+        "description": "Especialista em piscinas, spas e saunas com construcao personalizada, renovacao, venda de equipamento e pos-venda.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Gallery",
+          "Multi-language"
+        ],
+        "niche": "Piscina & Spa",
+        "location": "Sintra",
+        "reviewCount": "59+",
+        "rating": "4.2"
+      },
+      {
+        "id": "realestate-sandracasimiro",
+        "name": "Sandra Casimiro",
+        "category": "Website",
+        "image": "/portfolio/realestate-sandracasimiro.jpg",
+        "url": "https://realestate-sandracasimiro.vercel.app",
+        "description": "Consultora imobiliaria Keller Williams especializada em Carcavelos e Linha de Cascais com servico bilingue.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Imobiliaria",
+        "location": "Carcavelos",
+        "reviewCount": "27+",
+        "rating": "5.0"
       },
       {
         "id": "gutsy",
@@ -177,10 +952,326 @@
         "category": "Website",
         "image": "/portfolio/gutsy.jpg",
         "url": "https://gutsy.vercel.app",
-        "description": "Restaurante de hambúrgueres artesanais em Carcavelos. Menu, sistema de reservas e design que captura a experiência gastronómica.",
-        "services": ["Web Design", "SEO", "Sistema de Reservas"],
+        "description": "Restaurante de hamburguer artesanal e bar de cocktails com opcoes vegetarianas, esplanada e menu criativo.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Reservation System",
+          "Gallery",
+          "Multi-language"
+        ],
         "niche": "Restaurante",
-        "location": "Carcavelos"
+        "location": "Carcavelos",
+        "reviewCount": "88+",
+        "rating": "4.1"
+      },
+      {
+        "id": "restaurant-brasabelavista",
+        "name": "Brasa da Bela Vista",
+        "category": "Website",
+        "image": "/portfolio/restaurant-brasabelavista.jpg",
+        "url": "https://restaurant-brasabelavista.vercel.app",
+        "description": "Churrasqueira portuguesa tradicional com grelhados a carvao, doses generosas e sobremesas caseiras.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Reservation System",
+          "Gallery",
+          "Multi-language"
+        ],
+        "niche": "Restaurante",
+        "location": "Sao Domingos de Rana",
+        "reviewCount": "1926+",
+        "rating": "4.4"
+      },
+      {
+        "id": "restaurant-sassoeiros",
+        "name": "Assador Sassoeiros",
+        "category": "Website",
+        "image": "/portfolio/restaurant-sassoeiros.jpg",
+        "url": "https://restaurant-sassoeiros.vercel.app",
+        "description": "Restaurante iconico de churrasco com grelha a carvao, esplanada e a famosa tradicao da rolha & desejo.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Reservation System",
+          "Gallery",
+          "Multi-language"
+        ],
+        "niche": "Restaurante",
+        "location": "Carcavelos",
+        "reviewCount": "3502+",
+        "rating": "4.8"
+      },
+      {
+        "id": "restaurant-tascavelha",
+        "name": "Tasca Velha",
+        "category": "Website",
+        "image": "/portfolio/restaurant-tascavelha.jpg",
+        "url": "https://restaurant-tascavelha.vercel.app",
+        "description": "Restaurante tradicional portugues adorado com doses generosas, sobremesas caseiras e mais de 15 anos de historia.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Reservation System",
+          "Gallery",
+          "Multi-language"
+        ],
+        "niche": "Restaurante",
+        "location": "Carcavelos",
+        "reviewCount": "1459+",
+        "rating": "4.4"
+      },
+      {
+        "id": "barbershop-jaydixon",
+        "name": "Jay Dixon Barbershop",
+        "category": "Website",
+        "image": "/portfolio/barbershop-jaydixon.jpg",
+        "url": "https://barbershop-jaydixon.vercel.app",
+        "description": "Barbearia com classificacao perfeita de 5 estrelas, conhecida pela arte, ambiente familiar e cortes impecaveis.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Appointment Booking",
+          "Multi-language"
+        ],
+        "niche": "Salao",
+        "location": "Sao Domingos de Rana",
+        "reviewCount": "196+",
+        "rating": "5.0"
+      },
+      {
+        "id": "barbershop-labarberia",
+        "name": "La barberia",
+        "category": "Website",
+        "image": "/portfolio/barbershop-labarberia.jpg",
+        "url": "https://barbershop-labarberia.vercel.app",
+        "description": "Barbearia de inspiracao colombiana em Cascais com decoracao retro, servico multilingue e cafe cortesia.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Appointment Booking",
+          "Multi-language"
+        ],
+        "niche": "Salao",
+        "location": "Cascais",
+        "reviewCount": "202+",
+        "rating": "4.5"
+      },
+      {
+        "id": "barbershop-specialone",
+        "name": "Special One Barbershop",
+        "category": "Website",
+        "image": "/portfolio/barbershop-specialone.jpg",
+        "url": "https://barbershop-specialone.vercel.app",
+        "description": "Barbearia comunitaria em Carcavelos que combina heranca africana com cultura portuguesa, aberta a todos.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Appointment Booking",
+          "Multi-language"
+        ],
+        "niche": "Salao",
+        "location": "Carcavelos",
+        "reviewCount": "261+",
+        "rating": "4.8"
+      },
+      {
+        "id": "barbershop-yuris",
+        "name": "Yuri's Barbershop",
+        "category": "Website",
+        "image": "/portfolio/barbershop-yuris.jpg",
+        "url": "https://barbershop-yuris.vercel.app",
+        "description": "Barbearia de bairro em Carcavelos elogiada pela qualidade dos cortes, equipa simpatica e ambiente descontraido.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Appointment Booking",
+          "Multi-language"
+        ],
+        "niche": "Salao",
+        "location": "Carcavelos",
+        "reviewCount": "177+",
+        "rating": "4.9"
+      },
+      {
+        "id": "harvey",
+        "name": "Harvey Cabeleireiro",
+        "category": "Website",
+        "image": "/portfolio/harvey.jpg",
+        "url": "https://harvey-barber.vercel.app",
+        "description": "Cabeleireiro masculino estabelecido em Carcavelos com cortes acessiveis, decoracao de filmes e servico familiar.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Appointment Booking",
+          "Multi-language"
+        ],
+        "niche": "Salao",
+        "location": "Carcavelos",
+        "reviewCount": "413+",
+        "rating": "4.8"
+      },
+      {
+        "id": "salon-benistyles",
+        "name": "Beni Styles",
+        "category": "Website",
+        "image": "/portfolio/salon-benistyles.jpg",
+        "url": "https://salon-benistyles.vercel.app",
+        "description": "Salao de beleza unissexo multicultural com coloracao, manicures e tratamentos para todos os tipos de cabelo.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Appointment Booking",
+          "Gallery",
+          "Multi-language"
+        ],
+        "niche": "Salao",
+        "location": "Carcavelos",
+        "reviewCount": "217+",
+        "rating": "4.9"
+      },
+      {
+        "id": "salon-karolkris",
+        "name": "Karol&Kris",
+        "category": "Website",
+        "image": "/portfolio/salon-karolkris.jpg",
+        "url": "https://salon-karolkris.vercel.app",
+        "description": "Salao de beleza familiar com cabelo, unhas, pestanas, depilacao a laser e massagem com atendimento multilingue.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Appointment Booking",
+          "Multi-language"
+        ],
+        "niche": "Salao",
+        "location": "Estoril",
+        "reviewCount": "206+",
+        "rating": "4.8"
+      },
+      {
+        "id": "salon-mademoiselle",
+        "name": "Mademoiselle Nails and Beauty",
+        "category": "Website",
+        "image": "/portfolio/salon-mademoiselle.jpg",
+        "url": "https://salon-mademoiselle.vercel.app",
+        "description": "Salao de unhas e estetica especializado em unhas de gel, nail art, manicures e tratamentos de beleza a precos acessiveis.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Appointment Booking",
+          "Multi-language"
+        ],
+        "niche": "Salao",
+        "location": "Oeiras",
+        "reviewCount": "486+",
+        "rating": "4.9"
+      },
+      {
+        "id": "tattoo-wagnerprimo",
+        "name": "Wagner Primo Tattoo",
+        "category": "Website",
+        "image": "/portfolio/tattoo-wagnerprimo.jpg",
+        "url": "https://tattoo-wagnerprimo.vercel.app",
+        "description": "Estudio de tatuagem personalizada no Estoril especializado em desenhos unicos, cover-ups e trabalho de linha fina.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Appointment Booking",
+          "Gallery",
+          "Multi-language"
+        ],
+        "niche": "Tatuagem",
+        "location": "Estoril",
+        "reviewCount": "164+",
+        "rating": "5.0"
+      },
+      {
+        "id": "vet-aboboda",
+        "name": "Centro Veterinario Aboboda",
+        "category": "Website",
+        "image": "/portfolio/vet-aboboda.jpg",
+        "url": "https://vet-aboboda.vercel.app",
+        "description": "Clinica veterinaria com consultas, cirurgia, dentaria, tosquias e visitas ao domicilio com manuseamento sem stress.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Appointment Booking",
+          "Multi-language"
+        ],
+        "niche": "Veterinaria",
+        "location": "Sao Domingos de Rana",
+        "rating": "4.9"
+      },
+      {
+        "id": "vet-avencas",
+        "name": "Clinica Veterinaria das Avencas",
+        "category": "Website",
+        "image": "/portfolio/vet-avencas.jpg",
+        "url": "https://vet-avencas.vercel.app",
+        "description": "Clinica veterinaria estabelecida ha mais de 15 anos com cuidados compassivos, cirurgia e farmacia no local.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Appointment Booking",
+          "Multi-language"
+        ],
+        "niche": "Veterinaria",
+        "location": "Parede",
+        "reviewCount": "179+",
+        "rating": "4.4"
+      },
+      {
+        "id": "vet-cvls",
+        "name": "CVLS",
+        "category": "Website",
+        "image": "/portfolio/vet-cvls.jpg",
+        "url": "https://vet-cvls.vercel.app",
+        "description": "Clinica veterinaria com consultas, cirurgia, acupuntura, imagiologia e pet shop na Amadora.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Appointment Booking",
+          "Multi-language"
+        ],
+        "niche": "Veterinaria",
+        "location": "Amadora",
+        "reviewCount": "434+",
+        "rating": "4.8"
+      },
+      {
+        "id": "vet-lpda",
+        "name": "LPDA Carcavelos",
+        "category": "Website",
+        "image": "/portfolio/vet-lpda.jpg",
+        "url": "https://vet-lpda.vercel.app",
+        "description": "Clinica veterinaria de protecao animal com cuidados acessiveis, equipa experiente e mais de 20 anos em Carcavelos.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Appointment Booking",
+          "Multi-language"
+        ],
+        "niche": "Veterinaria",
+        "location": "Carcavelos",
+        "reviewCount": "799+",
+        "rating": "4.5"
       },
       {
         "id": "vettop",
@@ -188,168 +1279,18 @@
         "category": "Website",
         "image": "/portfolio/vettop.jpg",
         "url": "https://vettop.vercel.app",
-        "description": "Clínica veterinária em Oeiras com urgências 24/7. Design limpo e de confiança com marcações e catálogo completo de serviços.",
-        "services": ["Web Design", "SEO", "Sistema de Marcações"],
-        "niche": "Veterinária",
-        "location": "Oeiras"
-      },
-      {
-        "id": "mmdetalhe",
-        "name": "M M Detalhe",
-        "category": "Website",
-        "image": "/portfolio/mmdetalhe.jpg",
-        "url": "https://mm-detalhe.vercel.app",
-        "description": "Detailing automóvel premium em São Domingos de Rana. Desde revestimento cerâmico a limpeza profunda de interiores. 166+ avaliações cinco estrelas.",
-        "services": ["Web Design", "SEO", "Integração Google Reviews"],
-        "niche": "Detailing Automóvel",
-        "reviewCount": "166+",
-        "rating": "5.0",
-        "location": "São Domingos de Rana"
-      },
-      {
-        "id": "elenilson",
-        "name": "Elenilson Silva",
-        "category": "Website",
-        "image": "/portfolio/elenilson.jpg",
-        "url": "https://chiro-elenilson.vercel.app",
-        "description": "Consultório de quiroprática em Parede. Cuidados personalizados, alinhamento corporal holístico e design que inspira confiança. 122+ avaliações cinco estrelas.",
-        "services": ["Web Design", "SEO", "Sistema de Marcações"],
-        "niche": "Quiroprática",
-        "reviewCount": "122+",
-        "rating": "5.0",
-        "location": "Parede"
-      },
-      {
-        "id": "karolkris",
-        "name": "Karol&Kris",
-        "category": "Website",
-        "image": "/portfolio/karolkris.jpg",
-        "url": "https://salon-karolkris.vercel.app",
-        "description": "Salão de beleza completo em São João do Estoril. Design elegante para cabelo, unhas, extensões de pestanas e massagens. 4.8★.",
-        "services": ["Web Design", "SEO", "Integração de Marcações"],
-        "niche": "Beleza",
-        "rating": "4.8",
-        "location": "São João do Estoril"
-      },
-      {
-        "id": "joaofaleiro",
-        "name": "João Faleiro Club",
-        "category": "Website",
-        "image": "/portfolio/joaofaleiro.jpg",
-        "url": "https://gym-joaofaleiro.vercel.app",
-        "description": "Academia de boxe em Mem Martins — de iniciantes a lutadores profissionais. Design arrojado com planos de treino e inscrição.",
-        "services": ["Web Design", "SEO", "Geração de Leads"],
-        "niche": "Fitness",
-        "location": "Mem Martins"
-      },
-      {
-        "id": "tascavelha",
-        "name": "Tasca Velha",
-        "category": "Website",
-        "image": "/portfolio/tascavelha.jpg",
-        "url": "https://restaurant-tascavelha.vercel.app",
-        "description": "Restaurante tradicional português em Carcavelos. 15+ anos de sabores autênticos, menu e reservas. 1.459+ avaliações Google.",
-        "services": ["Web Design", "SEO", "Sistema de Reservas"],
-        "niche": "Restaurante",
-        "reviewCount": "1.459+",
-        "rating": "4.7",
-        "location": "Carcavelos"
-      },
-      {
-        "id": "mademoiselle",
-        "name": "Mademoiselle Nails",
-        "category": "Website",
-        "image": "/portfolio/mademoiselle.jpg",
-        "url": "https://salon-mademoiselle.vercel.app",
-        "description": "Salão de unhas em Oeiras — 486+ avaliações, 4.9★. Design elegante com serviços, equipa e galeria de transformações.",
-        "services": ["Web Design", "SEO", "Integração de Marcações"],
-        "niche": "Beleza",
-        "reviewCount": "486+",
-        "rating": "4.9",
-        "location": "Oeiras"
-      },
-      {
-        "id": "penedo",
-        "name": "Clínica do Penedo",
-        "category": "Website",
-        "image": "/portfolio/penedo.jpg",
-        "url": "https://dentist-penedo.vercel.app",
-        "description": "Clínica dentária em São Domingos de Rana. Catálogo completo de implantes a ortodontia, equipa e seguros aceites.",
-        "services": ["Web Design", "SEO", "Sistema de Marcações"],
-        "niche": "Dentista",
-        "location": "São Domingos de Rana"
-      },
-      {
-        "id": "takata",
-        "name": "Clínica Takata",
-        "category": "Website",
-        "image": "/portfolio/takata.jpg",
-        "url": "https://dentist-takata.vercel.app",
-        "description": "Consultório dentário em Parede com 5.0★ no Google. Design limpo e de confiança com 8 especialidades e seguros aceites.",
-        "services": ["Web Design", "SEO", "Sistema de Marcações"],
-        "niche": "Dentista",
-        "rating": "5.0",
-        "location": "Parede"
-      },
-      {
-        "id": "ecestetica",
-        "name": "EC Estética Auto",
-        "category": "Website",
-        "image": "/portfolio/ecestetica.jpg",
-        "url": "https://detailing-ecestetica.vercel.app",
-        "description": "Detailing automóvel em Quinta do Conde. Limpeza profunda de interiores, remoção de bolor e serviço ao domicílio. 83+ avaliações, 4.9★.",
-        "services": ["Web Design", "SEO", "Integração WhatsApp"],
-        "niche": "Detailing Automóvel",
-        "reviewCount": "83+",
-        "rating": "4.9",
-        "location": "Quinta do Conde"
-      },
-      {
-        "id": "vetavencas",
-        "name": "Vet Avencas",
-        "category": "Website",
-        "image": "/portfolio/vetavencas.jpg",
-        "url": "https://vet-avencas.vercel.app",
-        "description": "Clínica veterinária em Parede, Cascais. 15+ anos de cuidados com 179+ avaliações. Catálogo de serviços e marcações.",
-        "services": ["Web Design", "SEO", "Sistema de Marcações"],
-        "niche": "Veterinária",
-        "reviewCount": "179+",
-        "rating": "4.9",
-        "location": "Parede"
-      },
-      {
-        "id": "institutosoares",
-        "name": "Instituto Soares",
-        "category": "Website",
-        "image": "/portfolio/institutosoares.jpg",
-        "url": "https://instituto-soares.vercel.app",
-        "description": "Clínica de quiroprática e estética em Agualva-Cacém. Dupla especialidade, equipa e planos de preços. 5.0★ no Google.",
-        "services": ["Web Design", "SEO", "Sistema de Marcações"],
-        "niche": "Quiroprática",
-        "rating": "5.0",
-        "location": "Agualva-Cacém"
-      },
-      {
-        "id": "houseshine",
-        "name": "House Shine Cascais",
-        "category": "Website",
-        "image": "/portfolio/houseshine.jpg",
-        "url": "https://cleaning-houseshine.vercel.app",
-        "description": "Limpeza doméstica profissional em Cascais. Limpezas profundas, pós-obra, antes/depois. 500+ casas limpas.",
-        "services": ["Web Design", "SEO", "Geração de Leads"],
-        "niche": "Serviços Domésticos",
-        "location": "Cascais"
-      },
-      {
-        "id": "santoamaro",
-        "name": "Canalizadora de Santo Amaro",
-        "category": "Website",
-        "image": "/portfolio/santoamaro.jpg",
-        "url": "https://plumbing-santoamaro.vercel.app",
-        "description": "Canalizador 24h de emergência em Lisboa. Desentupimentos, instalação de esquentadores, gás. Design arrojado com preços transparentes.",
-        "services": ["Web Design", "SEO", "Geração de Leads"],
-        "niche": "Serviços Domésticos",
-        "location": "Lisboa"
+        "description": "Clinica veterinaria completa em Oeiras com cuidados abrangentes e horario alargado ao final do dia.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Appointment Booking",
+          "Multi-language"
+        ],
+        "niche": "Veterinaria",
+        "location": "Oeiras",
+        "reviewCount": "262+",
+        "rating": "4.8"
       }
     ],
     "cta": "Ver Projeto",
@@ -385,7 +1326,111 @@
     "meta": {
       "title": "Projetos | SurgeX",
       "description": "Explore o nosso portfólio de websites premium, automações e soluções de IA construídas para negócios reais."
-    }
+    },
+    "nicheNav": [
+      {
+        "id": "accounting",
+        "label": "Contabilidade"
+      },
+      {
+        "id": "auto-body",
+        "label": "Pintura Auto"
+      },
+      {
+        "id": "auto-detailing",
+        "label": "Detailing Auto"
+      },
+      {
+        "id": "bar-nightlife",
+        "label": "Bar & Noite"
+      },
+      {
+        "id": "car-dealership",
+        "label": "Stand Automovel"
+      },
+      {
+        "id": "chiropractic",
+        "label": "Quiropratica"
+      },
+      {
+        "id": "cleaning",
+        "label": "Limpeza"
+      },
+      {
+        "id": "dental",
+        "label": "Dentista"
+      },
+      {
+        "id": "dog-training",
+        "label": "Treino Canino"
+      },
+      {
+        "id": "electrician",
+        "label": "Eletricista"
+      },
+      {
+        "id": "fitness",
+        "label": "Fitness"
+      },
+      {
+        "id": "head-spa",
+        "label": "Head Spa"
+      },
+      {
+        "id": "hvac",
+        "label": "AVAC"
+      },
+      {
+        "id": "junk-removal",
+        "label": "Recolha de Entulho"
+      },
+      {
+        "id": "landscaping",
+        "label": "Jardinagem"
+      },
+      {
+        "id": "laundry",
+        "label": "Lavandaria"
+      },
+      {
+        "id": "mechanic",
+        "label": "Mecanica"
+      },
+      {
+        "id": "physiotherapy",
+        "label": "Fisioterapia"
+      },
+      {
+        "id": "plumbing",
+        "label": "Canalizacao"
+      },
+      {
+        "id": "pool-spa",
+        "label": "Piscina & Spa"
+      },
+      {
+        "id": "real-estate",
+        "label": "Imobiliaria"
+      },
+      {
+        "id": "restaurant",
+        "label": "Restaurante"
+      },
+      {
+        "id": "salon",
+        "label": "Salao"
+      },
+      {
+        "id": "tattoo",
+        "label": "Tatuagem"
+      },
+      {
+        "id": "veterinary",
+        "label": "Veterinaria"
+      }
+    ],
+    "nicheNavLabel": "EXPLORAR POR NICHO",
+    "projectCount": "57 projetos em 25 setores"
   },
   "process": {
     "label": "PROCESSO",
@@ -429,7 +1474,12 @@
     "network": {
       "label": "REDE",
       "description": "Para projetos maiores, trago especialistas de confiança — designers, copywriters, peritos de domínio. Núcleo pequeno, alcance flexível.",
-      "tags": ["Engenharia de IA", "Desenvolvimento Web", "Automação", "Rede de Design"]
+      "tags": [
+        "Engenharia de IA",
+        "Desenvolvimento Web",
+        "Automação",
+        "Rede de Design"
+      ]
     },
     "philosophy": {
       "label": "FILOSOFIA",
@@ -439,10 +1489,22 @@
   "stats": {
     "label": "MÉTRICAS",
     "items": [
-      { "value": "50+", "label": "Projetos Entregues" },
-      { "value": "48h", "label": "Entrega Média" },
-      { "value": "10x", "label": "Mais Rápido Que o Tradicional" },
-      { "value": "98%", "label": "Mais Barato Que a Concorrência" }
+      {
+        "value": "50+",
+        "label": "Projetos Entregues"
+      },
+      {
+        "value": "48h",
+        "label": "Entrega Média"
+      },
+      {
+        "value": "10x",
+        "label": "Mais Rápido Que o Tradicional"
+      },
+      {
+        "value": "98%",
+        "label": "Mais Barato Que a Concorrência"
+      }
     ]
   },
   "faq": {
@@ -507,13 +1569,34 @@
     "version": "[v1.0]",
     "copyright": "© 2026 SurgeX. Todos os sistemas operacionais.",
     "links": [
-      { "label": "Serviços", "href": "#services" },
-      { "label": "Preços", "href": "#pricing" },
-      { "label": "Projetos", "href": "#work" },
-      { "label": "Processo", "href": "#process" },
-      { "label": "Sobre", "href": "#about" },
-      { "label": "Blog", "href": "/pt/blog" },
-      { "label": "Contacto", "href": "#contact" }
+      {
+        "label": "Serviços",
+        "href": "#services"
+      },
+      {
+        "label": "Preços",
+        "href": "#pricing"
+      },
+      {
+        "label": "Projetos",
+        "href": "#work"
+      },
+      {
+        "label": "Processo",
+        "href": "#process"
+      },
+      {
+        "label": "Sobre",
+        "href": "#about"
+      },
+      {
+        "label": "Blog",
+        "href": "/pt/blog"
+      },
+      {
+        "label": "Contacto",
+        "href": "#contact"
+      }
     ]
   },
   "whatsapp": {

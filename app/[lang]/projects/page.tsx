@@ -51,7 +51,12 @@ export default async function ProjectsPage({
   return (
     <ThemeProvider>
       <BackgroundSphere />
-      <Navbar dict={dict.navbar} hideLinks backHref={`/${lang}`} />
+      <Navbar
+        dict={dict.navbar}
+        hideLinks
+        backHref={`/${lang}`}
+        nicheNav={{ items: dict.projectsPage.nicheNav, label: dict.projectsPage.nicheNavLabel }}
+      />
       <main>
         <ProjectsGallery
           dict={dict.projectsPage}
