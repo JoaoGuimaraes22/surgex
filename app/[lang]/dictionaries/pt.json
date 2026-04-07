@@ -168,7 +168,8 @@
         "url": "https://mrbig.vercel.app",
         "description": "O maior ginásio da Europa em Carcavelos — 5.000m² de espaço. Website arrojado com modalidades, instalações e inscrição para aula experimental.",
         "services": ["Web Design", "SEO", "Geração de Leads"],
-        "niche": "Fitness"
+        "niche": "Fitness",
+        "location": "Carcavelos"
       },
       {
         "id": "gutsy",
@@ -178,7 +179,8 @@
         "url": "https://gutsy.vercel.app",
         "description": "Restaurante de hambúrgueres artesanais em Carcavelos. Menu, sistema de reservas e design que captura a experiência gastronómica.",
         "services": ["Web Design", "SEO", "Sistema de Reservas"],
-        "niche": "Restaurante"
+        "niche": "Restaurante",
+        "location": "Carcavelos"
       },
       {
         "id": "vettop",
@@ -188,7 +190,8 @@
         "url": "https://vettop.vercel.app",
         "description": "Clínica veterinária em Oeiras com urgências 24/7. Design limpo e de confiança com marcações e catálogo completo de serviços.",
         "services": ["Web Design", "SEO", "Sistema de Marcações"],
-        "niche": "Veterinária"
+        "niche": "Veterinária",
+        "location": "Oeiras"
       },
       {
         "id": "mmdetalhe",
@@ -200,7 +203,8 @@
         "services": ["Web Design", "SEO", "Integração Google Reviews"],
         "niche": "Detailing Automóvel",
         "reviewCount": "166+",
-        "rating": "5.0"
+        "rating": "5.0",
+        "location": "São Domingos de Rana"
       },
       {
         "id": "elenilson",
@@ -212,7 +216,8 @@
         "services": ["Web Design", "SEO", "Sistema de Marcações"],
         "niche": "Quiroprática",
         "reviewCount": "122+",
-        "rating": "5.0"
+        "rating": "5.0",
+        "location": "Parede"
       },
       {
         "id": "karolkris",
@@ -223,7 +228,8 @@
         "description": "Salão de beleza completo em São João do Estoril. Design elegante para cabelo, unhas, extensões de pestanas e massagens. 4.8★.",
         "services": ["Web Design", "SEO", "Integração de Marcações"],
         "niche": "Beleza",
-        "rating": "4.8"
+        "rating": "4.8",
+        "location": "São João do Estoril"
       },
       {
         "id": "joaofaleiro",
@@ -233,7 +239,8 @@
         "url": "https://gym-joaofaleiro.vercel.app",
         "description": "Academia de boxe em Mem Martins — de iniciantes a lutadores profissionais. Design arrojado com planos de treino e inscrição.",
         "services": ["Web Design", "SEO", "Geração de Leads"],
-        "niche": "Fitness"
+        "niche": "Fitness",
+        "location": "Mem Martins"
       },
       {
         "id": "tascavelha",
@@ -245,7 +252,8 @@
         "services": ["Web Design", "SEO", "Sistema de Reservas"],
         "niche": "Restaurante",
         "reviewCount": "1.459+",
-        "rating": "4.7"
+        "rating": "4.7",
+        "location": "Carcavelos"
       },
       {
         "id": "mademoiselle",
@@ -257,7 +265,8 @@
         "services": ["Web Design", "SEO", "Integração de Marcações"],
         "niche": "Beleza",
         "reviewCount": "486+",
-        "rating": "4.9"
+        "rating": "4.9",
+        "location": "Oeiras"
       },
       {
         "id": "penedo",
@@ -267,7 +276,8 @@
         "url": "https://dentist-penedo.vercel.app",
         "description": "Clínica dentária em São Domingos de Rana. Catálogo completo de implantes a ortodontia, equipa e seguros aceites.",
         "services": ["Web Design", "SEO", "Sistema de Marcações"],
-        "niche": "Dentista"
+        "niche": "Dentista",
+        "location": "São Domingos de Rana"
       },
       {
         "id": "takata",
@@ -278,7 +288,8 @@
         "description": "Consultório dentário em Parede com 5.0★ no Google. Design limpo e de confiança com 8 especialidades e seguros aceites.",
         "services": ["Web Design", "SEO", "Sistema de Marcações"],
         "niche": "Dentista",
-        "rating": "5.0"
+        "rating": "5.0",
+        "location": "Parede"
       },
       {
         "id": "ecestetica",
@@ -290,7 +301,8 @@
         "services": ["Web Design", "SEO", "Integração WhatsApp"],
         "niche": "Detailing Automóvel",
         "reviewCount": "83+",
-        "rating": "4.9"
+        "rating": "4.9",
+        "location": "Quinta do Conde"
       },
       {
         "id": "vetavencas",
@@ -302,7 +314,8 @@
         "services": ["Web Design", "SEO", "Sistema de Marcações"],
         "niche": "Veterinária",
         "reviewCount": "179+",
-        "rating": "4.9"
+        "rating": "4.9",
+        "location": "Parede"
       },
       {
         "id": "institutosoares",
@@ -313,7 +326,8 @@
         "description": "Clínica de quiroprática e estética em Agualva-Cacém. Dupla especialidade, equipa e planos de preços. 5.0★ no Google.",
         "services": ["Web Design", "SEO", "Sistema de Marcações"],
         "niche": "Quiroprática",
-        "rating": "5.0"
+        "rating": "5.0",
+        "location": "Agualva-Cacém"
       },
       {
         "id": "houseshine",
@@ -323,7 +337,8 @@
         "url": "https://cleaning-houseshine.vercel.app",
         "description": "Limpeza doméstica profissional em Cascais. Limpezas profundas, pós-obra, antes/depois. 500+ casas limpas.",
         "services": ["Web Design", "SEO", "Geração de Leads"],
-        "niche": "Serviços Domésticos"
+        "niche": "Serviços Domésticos",
+        "location": "Cascais"
       },
       {
         "id": "santoamaro",
@@ -333,7 +348,8 @@
         "url": "https://plumbing-santoamaro.vercel.app",
         "description": "Canalizador 24h de emergência em Lisboa. Desentupimentos, instalação de esquentadores, gás. Design arrojado com preços transparentes.",
         "services": ["Web Design", "SEO", "Geração de Leads"],
-        "niche": "Serviços Domésticos"
+        "niche": "Serviços Domésticos",
+        "location": "Lisboa"
       }
     ],
     "cta": "Ver Projeto",
@@ -343,7 +359,8 @@
     "servicesLabel": "SERVIÇOS_ENTREGUES",
     "nicheLabel": "NICHO",
     "reviewsLabel": "AVALIAÇÕES_GOOGLE",
-    "ratingLabel": "CLASSIFICAÇÃO"
+    "ratingLabel": "CLASSIFICAÇÃO",
+    "locationLabel": "LOCALIZAÇÃO"
   },
   "projectsPage": {
     "label": "PROJETOS",

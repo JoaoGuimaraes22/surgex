@@ -18,6 +18,7 @@ export default function Portfolio({
       url: string;
       reviewCount?: string;
       rating?: string;
+      location?: string;
     }[];
     cta: string;
     seeMore: string;
@@ -68,6 +69,7 @@ export default function Portfolio({
             <div className="absolute bottom-0 left-0 w-full p-6">
               <span className="font-mono text-[9px] uppercase tracking-[2px] text-muted">
                 {project.category}
+                {project.location && ` · ${project.location}`}
               </span>
               {(project.reviewCount || project.rating) && (
                 <span className="mt-1 block font-mono text-[9px] tracking-[1px] text-foreground/70">

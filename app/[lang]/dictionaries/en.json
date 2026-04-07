@@ -158,7 +158,8 @@
         "url": "https://mrbig.vercel.app",
         "description": "Europe's largest gym in Carcavelos — 5,000m² of training space. Bold website showcasing modalities, facilities, and trial membership signup.",
         "services": ["Web Design", "SEO", "Lead Generation"],
-        "niche": "Fitness"
+        "niche": "Fitness",
+        "location": "Carcavelos"
       },
       {
         "id": "gutsy",
@@ -168,7 +169,8 @@
         "url": "https://gutsy.vercel.app",
         "description": "Artisan burger restaurant in Carcavelos. Menu showcase, table reservation system, and a design that captures the craft food experience.",
         "services": ["Web Design", "SEO", "Reservation System"],
-        "niche": "Restaurant"
+        "niche": "Restaurant",
+        "location": "Carcavelos"
       },
       {
         "id": "vettop",
@@ -178,7 +180,8 @@
         "url": "https://vettop.vercel.app",
         "description": "Veterinary clinic in Oeiras with 24/7 emergency service. Clean, trustworthy design with appointment booking and full service catalog.",
         "services": ["Web Design", "SEO", "Appointment System"],
-        "niche": "Veterinary"
+        "niche": "Veterinary",
+        "location": "Oeiras"
       },
       {
         "id": "mmdetalhe",
@@ -190,7 +193,8 @@
         "services": ["Web Design", "SEO", "Google Reviews Integration"],
         "niche": "Auto Detailing",
         "reviewCount": "166+",
-        "rating": "5.0"
+        "rating": "5.0",
+        "location": "São Domingos de Rana"
       },
       {
         "id": "elenilson",
@@ -202,7 +206,8 @@
         "services": ["Web Design", "SEO", "Appointment System"],
         "niche": "Chiropractic",
         "reviewCount": "122+",
-        "rating": "5.0"
+        "rating": "5.0",
+        "location": "Parede"
       },
       {
         "id": "karolkris",
@@ -213,7 +218,8 @@
         "description": "Full-service beauty salon in São João do Estoril. Elegant design showcasing hair, nails, lash extensions, and massage services. 4.8★ rated.",
         "services": ["Web Design", "SEO", "Booking Integration"],
         "niche": "Beauty",
-        "rating": "4.8"
+        "rating": "4.8",
+        "location": "São João do Estoril"
       },
       {
         "id": "joaofaleiro",
@@ -223,7 +229,8 @@
         "url": "https://gym-joaofaleiro.vercel.app",
         "description": "Boxing academy in Mem Martins — from beginners to professional fighters. Bold, fight-themed design with training plans and membership signup.",
         "services": ["Web Design", "SEO", "Lead Generation"],
-        "niche": "Fitness"
+        "niche": "Fitness",
+        "location": "Mem Martins"
       },
       {
         "id": "tascavelha",
@@ -235,7 +242,8 @@
         "services": ["Web Design", "SEO", "Reservation System"],
         "niche": "Restaurant",
         "reviewCount": "1,459+",
-        "rating": "4.7"
+        "rating": "4.7",
+        "location": "Carcavelos"
       },
       {
         "id": "mademoiselle",
@@ -247,7 +255,8 @@
         "services": ["Web Design", "SEO", "Booking Integration"],
         "niche": "Beauty",
         "reviewCount": "486+",
-        "rating": "4.9"
+        "rating": "4.9",
+        "location": "Oeiras"
       },
       {
         "id": "penedo",
@@ -257,7 +266,8 @@
         "url": "https://dentist-penedo.vercel.app",
         "description": "Dental clinic in São Domingos de Rana. Full service catalog from implants to orthodontics, team profiles, and insurance integrations.",
         "services": ["Web Design", "SEO", "Appointment System"],
-        "niche": "Dental"
+        "niche": "Dental",
+        "location": "São Domingos de Rana"
       },
       {
         "id": "takata",
@@ -268,7 +278,8 @@
         "description": "Dental practice in Parede with perfect 5.0★ Google rating. Clean, trustworthy design with 8 specialties and insurance acceptance.",
         "services": ["Web Design", "SEO", "Appointment System"],
         "niche": "Dental",
-        "rating": "5.0"
+        "rating": "5.0",
+        "location": "Parede"
       },
       {
         "id": "ecestetica",
@@ -280,7 +291,8 @@
         "services": ["Web Design", "SEO", "WhatsApp Integration"],
         "niche": "Auto Detailing",
         "reviewCount": "83+",
-        "rating": "4.9"
+        "rating": "4.9",
+        "location": "Quinta do Conde"
       },
       {
         "id": "vetavencas",
@@ -292,7 +304,8 @@
         "services": ["Web Design", "SEO", "Appointment System"],
         "niche": "Veterinary",
         "reviewCount": "179+",
-        "rating": "4.9"
+        "rating": "4.9",
+        "location": "Parede"
       },
       {
         "id": "institutosoares",
@@ -303,7 +316,8 @@
         "description": "Chiropractic and aesthetics clinic in Agualva-Cacém. Dual-specialty care, team showcase, and pricing plans. 5.0★ Google rating.",
         "services": ["Web Design", "SEO", "Appointment System"],
         "niche": "Chiropractic",
-        "rating": "5.0"
+        "rating": "5.0",
+        "location": "Agualva-Cacém"
       },
       {
         "id": "houseshine",
@@ -313,7 +327,8 @@
         "url": "https://cleaning-houseshine.vercel.app",
         "description": "Professional domestic cleaning in Cascais. Deep cleaning, post-construction cleanup, before/after showcases. 500+ homes cleaned.",
         "services": ["Web Design", "SEO", "Lead Generation"],
-        "niche": "Home Services"
+        "niche": "Home Services",
+        "location": "Cascais"
       },
       {
         "id": "santoamaro",
@@ -323,7 +338,8 @@
         "url": "https://plumbing-santoamaro.vercel.app",
         "description": "24h emergency plumber in Lisbon. Drain unclogging, water heater installation, gas pipework. Bold design with transparent pricing.",
         "services": ["Web Design", "SEO", "Lead Generation"],
-        "niche": "Home Services"
+        "niche": "Home Services",
+        "location": "Lisbon"
       }
     ],
     "cta": "View Project",
@@ -333,7 +349,8 @@
     "servicesLabel": "SERVICES_DELIVERED",
     "nicheLabel": "NICHE",
     "reviewsLabel": "GOOGLE_REVIEWS",
-    "ratingLabel": "RATING"
+    "ratingLabel": "RATING",
+    "locationLabel": "LOCATION"
   },
   "projectsPage": {
     "label": "PROJECTS",

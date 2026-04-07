@@ -19,6 +19,7 @@ export default function ProjectShowcase({
     niche: string;
     reviewCount?: string;
     rating?: string;
+    location?: string;
   };
   portfolio: {
     back: string;
@@ -27,6 +28,7 @@ export default function ProjectShowcase({
     nicheLabel: string;
     reviewsLabel: string;
     ratingLabel: string;
+    locationLabel: string;
   };
   lang: string;
 }) {
@@ -80,11 +82,21 @@ export default function ProjectShowcase({
 
           {/* Meta */}
           <div className="mt-10 flex flex-col gap-6">
-            <div>
-              <span className="font-mono text-[8px] uppercase tracking-[2px] text-muted">
-                {portfolio.nicheLabel}
-              </span>
-              <p className="mt-1 text-sm">{project.niche}</p>
+            <div className="flex gap-8">
+              <div>
+                <span className="font-mono text-[8px] uppercase tracking-[2px] text-muted">
+                  {portfolio.nicheLabel}
+                </span>
+                <p className="mt-1 text-sm">{project.niche}</p>
+              </div>
+              {project.location && (
+                <div>
+                  <span className="font-mono text-[8px] uppercase tracking-[2px] text-muted">
+                    {portfolio.locationLabel}
+                  </span>
+                  <p className="mt-1 text-sm">{project.location}</p>
+                </div>
+              )}
             </div>
 
             {(project.reviewCount || project.rating) && (

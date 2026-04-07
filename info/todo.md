@@ -36,7 +36,6 @@
 - [x] Sitemap — individual project detail pages added (16 projects × 2 locales = 32 URLs)
 - [ ] Founder photo — add updated photo to `/public/founder.jpg` and wire into about section (grayscale→color hover treatment ready)
 - [ ] PT meta description — trim from 166 to 160 chars
-- [ ] Portfolio images — add `loading="lazy"` to below-fold images
 
 ## Phase B — Marketing & Growth
 
