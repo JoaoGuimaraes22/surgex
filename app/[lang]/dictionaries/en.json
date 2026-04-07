@@ -236,6 +236,118 @@
     "headline": "Selected Projects.",
     "projects": [
       {
+        "id": "gym-levelup",
+        "name": "Level UP Fight & Fitness",
+        "category": "Website",
+        "image": "/portfolio/gym-levelup.jpg",
+        "url": "https://gym-levelup.vercel.app",
+        "description": "Oceanfront combat sports academy in Estoril offering Jiu-Jitsu, Muay Thai, and functional fitness training.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Fitness",
+        "location": "Estoril",
+        "reviewCount": "53+",
+        "rating": "5.0"
+      },
+      {
+        "id": "restaurant-sassoeiros",
+        "name": "Assador Sassoeiros",
+        "category": "Website",
+        "image": "/portfolio/restaurant-sassoeiros.jpg",
+        "url": "https://restaurant-sassoeiros.vercel.app",
+        "description": "Iconic barbecue restaurant with open-fire charcoal grill, outdoor terrace, and the famous cork & wish tradition.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Reservation System",
+          "Gallery",
+          "Multi-language"
+        ],
+        "niche": "Restaurant",
+        "location": "Carcavelos",
+        "reviewCount": "3502+",
+        "rating": "4.8"
+      },
+      {
+        "id": "barbershop-jaydixon",
+        "name": "Jay Dixon Barbershop",
+        "category": "Website",
+        "image": "/portfolio/barbershop-jaydixon.jpg",
+        "url": "https://barbershop-jaydixon.vercel.app",
+        "description": "Perfect 5-star barbershop known for artistry, family atmosphere, and impeccable cuts from classic to modern fades.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Appointment Booking",
+          "Multi-language"
+        ],
+        "niche": "Salon",
+        "location": "Sao Domingos de Rana",
+        "reviewCount": "196+",
+        "rating": "5.0"
+      },
+      {
+        "id": "dentist-takata",
+        "name": "Clinica Takata",
+        "category": "Website",
+        "image": "/portfolio/dentist-takata.jpg",
+        "url": "https://dentist-takata.vercel.app",
+        "description": "Dental clinic with a perfect 5-star rating, known for exceptional honesty, transparency, and patient education.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Appointment Booking",
+          "Multi-language"
+        ],
+        "niche": "Dental",
+        "location": "Parede",
+        "reviewCount": "16+",
+        "rating": "5.0"
+      },
+      {
+        "id": "vet-aboboda",
+        "name": "Centro Veterinario Aboboda",
+        "category": "Website",
+        "image": "/portfolio/vet-aboboda.jpg",
+        "url": "https://vet-aboboda.vercel.app",
+        "description": "Veterinary clinic offering consultations, surgery, dental care, grooming, and home visits with stress-free handling.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Appointment Booking",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Sao Domingos de Rana",
+        "rating": "4.9"
+      },
+      {
+        "id": "mm-detalhe",
+        "name": "M M Detalhe Automovel",
+        "category": "Website",
+        "image": "/portfolio/mm-detalhe.jpg",
+        "url": "https://mm-detalhe.vercel.app",
+        "description": "Premium auto detailing studio offering ceramic coating, paint correction, and mobile car wash services.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Gallery",
+          "Multi-language"
+        ],
+        "niche": "Auto Detailing",
+        "location": "Sao Domingos de Rana",
+        "reviewCount": "166+",
+        "rating": "5.0"
+      },
+      {
         "id": "accounting-kapacontabilidade",
         "name": "KAPA Contabilidade&Servicos",
         "category": "Website",
@@ -308,25 +420,6 @@
         "location": "Alcabideche",
         "reviewCount": "784+",
         "rating": "4.3"
-      },
-      {
-        "id": "mm-detalhe",
-        "name": "M M Detalhe Automovel",
-        "category": "Website",
-        "image": "/portfolio/mm-detalhe.jpg",
-        "url": "https://mm-detalhe.vercel.app",
-        "description": "Premium auto detailing studio offering ceramic coating, paint correction, and mobile car wash services.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Gallery",
-          "Multi-language"
-        ],
-        "niche": "Auto Detailing",
-        "location": "Sao Domingos de Rana",
-        "reviewCount": "166+",
-        "rating": "5.0"
       },
       {
         "id": "bar-iateben",
@@ -478,25 +571,6 @@
         "rating": "4.7"
       },
       {
-        "id": "dentist-takata",
-        "name": "Clinica Takata",
-        "category": "Website",
-        "image": "/portfolio/dentist-takata.jpg",
-        "url": "https://dentist-takata.vercel.app",
-        "description": "Dental clinic with a perfect 5-star rating, known for exceptional honesty, transparency, and patient education.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Appointment Booking",
-          "Multi-language"
-        ],
-        "niche": "Dental",
-        "location": "Parede",
-        "reviewCount": "16+",
-        "rating": "5.0"
-      },
-      {
         "id": "dogcamp",
         "name": "Dog Camp",
         "category": "Website",
@@ -603,24 +677,6 @@
         "location": "Mem Martins",
         "reviewCount": "90+",
         "rating": "4.8"
-      },
-      {
-        "id": "gym-levelup",
-        "name": "Level UP Fight & Fitness",
-        "category": "Website",
-        "image": "/portfolio/gym-levelup.jpg",
-        "url": "https://gym-levelup.vercel.app",
-        "description": "Oceanfront combat sports academy in Estoril offering Jiu-Jitsu, Muay Thai, and functional fitness training.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Multi-language"
-        ],
-        "niche": "Fitness",
-        "location": "Estoril",
-        "reviewCount": "53+",
-        "rating": "5.0"
       },
       {
         "id": "gym-lineup",
@@ -987,26 +1043,6 @@
         "rating": "4.4"
       },
       {
-        "id": "restaurant-sassoeiros",
-        "name": "Assador Sassoeiros",
-        "category": "Website",
-        "image": "/portfolio/restaurant-sassoeiros.jpg",
-        "url": "https://restaurant-sassoeiros.vercel.app",
-        "description": "Iconic barbecue restaurant with open-fire charcoal grill, outdoor terrace, and the famous cork & wish tradition.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Reservation System",
-          "Gallery",
-          "Multi-language"
-        ],
-        "niche": "Restaurant",
-        "location": "Carcavelos",
-        "reviewCount": "3502+",
-        "rating": "4.8"
-      },
-      {
         "id": "restaurant-tascavelha",
         "name": "Tasca Velha",
         "category": "Website",
@@ -1025,25 +1061,6 @@
         "location": "Carcavelos",
         "reviewCount": "1459+",
         "rating": "4.4"
-      },
-      {
-        "id": "barbershop-jaydixon",
-        "name": "Jay Dixon Barbershop",
-        "category": "Website",
-        "image": "/portfolio/barbershop-jaydixon.jpg",
-        "url": "https://barbershop-jaydixon.vercel.app",
-        "description": "Perfect 5-star barbershop known for artistry, family atmosphere, and impeccable cuts from classic to modern fades.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Appointment Booking",
-          "Multi-language"
-        ],
-        "niche": "Salon",
-        "location": "Sao Domingos de Rana",
-        "reviewCount": "196+",
-        "rating": "5.0"
       },
       {
         "id": "barbershop-labarberia",
@@ -1200,23 +1217,6 @@
         "rating": "5.0"
       },
       {
-        "id": "vet-aboboda",
-        "name": "Centro Veterinario Aboboda",
-        "category": "Website",
-        "image": "/portfolio/vet-aboboda.jpg",
-        "url": "https://vet-aboboda.vercel.app",
-        "description": "Veterinary clinic offering consultations, surgery, dental care, grooming, and home visits with stress-free handling.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Appointment Booking",
-          "Multi-language"
-        ],
-        "niche": "Veterinary",
-        "location": "Sao Domingos de Rana",
-        "rating": "4.9"
-      },
-      {
         "id": "vet-avencas",
         "name": "Clinica Veterinaria das Avencas",
         "category": "Website",
@@ -1329,16 +1329,36 @@
     },
     "nicheNav": [
       {
+        "id": "fitness",
+        "label": "Fitness"
+      },
+      {
+        "id": "restaurant",
+        "label": "Restaurant"
+      },
+      {
+        "id": "salon",
+        "label": "Salon"
+      },
+      {
+        "id": "dental",
+        "label": "Dental"
+      },
+      {
+        "id": "veterinary",
+        "label": "Veterinary"
+      },
+      {
+        "id": "auto-detailing",
+        "label": "Auto Detailing"
+      },
+      {
         "id": "accounting",
         "label": "Accounting"
       },
       {
         "id": "auto-body",
         "label": "Auto Body"
-      },
-      {
-        "id": "auto-detailing",
-        "label": "Auto Detailing"
       },
       {
         "id": "bar-nightlife",
@@ -1357,20 +1377,12 @@
         "label": "Cleaning"
       },
       {
-        "id": "dental",
-        "label": "Dental"
-      },
-      {
         "id": "dog-training",
         "label": "Dog Training"
       },
       {
         "id": "electrician",
         "label": "Electrician"
-      },
-      {
-        "id": "fitness",
-        "label": "Fitness"
       },
       {
         "id": "head-spa",
@@ -1413,20 +1425,8 @@
         "label": "Real Estate"
       },
       {
-        "id": "restaurant",
-        "label": "Restaurant"
-      },
-      {
-        "id": "salon",
-        "label": "Salon"
-      },
-      {
         "id": "tattoo",
         "label": "Tattoo"
-      },
-      {
-        "id": "veterinary",
-        "label": "Veterinary"
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
@@ -1490,7 +1490,7 @@
     "label": "METRICS",
     "items": [
       {
-        "value": "50+",
+        "value": "57+",
         "label": "Projects Delivered"
       },
       {
