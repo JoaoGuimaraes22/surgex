@@ -1,0 +1,212 @@
+{
+  "meta": {
+    "privacy": {
+      "title": "Privacy Policy | SurgeX",
+      "description": "Learn how SurgeX collects, uses, and protects your personal data in compliance with GDPR and Portuguese data protection law."
+    },
+    "terms": {
+      "title": "Terms of Service | SurgeX",
+      "description": "Terms and conditions governing the use of SurgeX AI agency services, including bespoke websites, automations, and chatbots."
+    },
+    "cookies": {
+      "title": "Cookie Policy | SurgeX",
+      "description": "Information about the cookies used on surgex.pt, how they work, and how you can manage your preferences."
+    }
+  },
+  "privacy": {
+    "label": "Legal",
+    "headline": "Privacy Policy",
+    "lastUpdated": "Last updated: April 2026",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": [
+          "SurgeX, Unipessoal Lda. (\"SurgeX\", \"we\", \"us\", or \"our\") is committed to protecting and respecting your privacy. This Privacy Policy explains how we collect, use, store, and share your personal data when you visit our website at surgex.pt or engage with our services.",
+          "We process personal data in accordance with the General Data Protection Regulation (EU) 2016/679 (\"GDPR\") and Portuguese Law No. 58/2019 on the protection of personal data. By using our website or services, you acknowledge that you have read and understood this policy."
+        ]
+      },
+      {
+        "title": "Data We Collect",
+        "content": [
+          "We collect personal data that you voluntarily provide to us, including: your name, email address, phone number, and company name when you fill out a contact form or request a consultation; project details and business information you share during our collaboration; and billing information necessary to process payments.",
+          "We also collect limited technical data automatically when you visit our website, including your IP address (anonymized), browser type and version, device type, pages visited, and time spent on our site. This data is collected through Vercel Analytics, which is privacy-focused and does not use cookies for tracking."
+        ]
+      },
+      {
+        "title": "How We Use Your Data",
+        "content": [
+          "We use your personal data for the following purposes: to respond to your inquiries and provide you with information about our services; to deliver and manage the AI solutions, websites, automations, and chatbots we build for you; to process invoices and payments; to send you project updates and relevant communications; and to improve our website and services based on aggregated, anonymized usage data.",
+          "We do not use your personal data for automated decision-making or profiling. We will never sell your personal data to third parties or use it for purposes unrelated to our business relationship with you."
+        ]
+      },
+      {
+        "title": "Legal Basis for Processing",
+        "content": [
+          "We process your personal data under the following legal bases as defined by Article 6 of the GDPR: contractual necessity — processing is necessary to perform or prepare a contract with you when you engage our services; legitimate interest — we have a legitimate interest in understanding how visitors use our website so we can improve it, and in communicating with prospective clients who reach out to us; legal obligation — we may need to process and retain certain data to comply with Portuguese tax and accounting requirements; and consent — where you have given us explicit consent, such as opting in to receive marketing communications.",
+          "You may withdraw your consent at any time by contacting us at contact@surgex.pt. Withdrawal of consent does not affect the lawfulness of processing carried out before the withdrawal."
+        ]
+      },
+      {
+        "title": "Data Sharing & Third Parties",
+        "content": [
+          "We do not sell, rent, or trade your personal data. We may share your data with the following categories of third parties, solely to the extent necessary to deliver our services: Vercel Inc. (website hosting and privacy-focused analytics — data may be processed in the US under Standard Contractual Clauses); payment processors for handling invoices and transactions; and Portuguese tax authorities when required by law.",
+          "We do not use Google Analytics or any other third-party tracking services. All third-party processors we work with are contractually bound to handle your data in compliance with the GDPR and to implement appropriate security measures."
+        ]
+      },
+      {
+        "title": "Your Rights Under GDPR",
+        "content": [
+          "As a data subject, you have the following rights under the GDPR, which you can exercise at any time by contacting us at contact@surgex.pt:",
+          "Right of access — You can request a copy of the personal data we hold about you. Right to rectification — You can ask us to correct any inaccurate or incomplete data. Right to erasure — You can request that we delete your personal data where there is no compelling reason for us to continue processing it. Right to data portability — You can request that we provide your data in a structured, commonly used, machine-readable format. Right to object — You can object to processing based on legitimate interest, and we will stop unless we have compelling legitimate grounds. Right to restrict processing — You can ask us to suspend processing of your data in certain circumstances.",
+          "We will respond to all legitimate requests within 30 days. If your request is particularly complex, we may extend this by a further 60 days, and we will notify you accordingly. You also have the right to lodge a complaint with the Portuguese Data Protection Authority (Comissão Nacional de Proteção de Dados — CNPD) at www.cnpd.pt."
+        ]
+      },
+      {
+        "title": "Data Retention",
+        "content": [
+          "We retain your personal data only for as long as necessary to fulfill the purposes for which it was collected. Contact form submissions and inquiry data are retained for up to 12 months after our last communication, unless a business relationship is established. Client project data is retained for the duration of our contract and for up to 5 years afterward to comply with Portuguese legal and tax obligations.",
+          "Anonymized analytics data, which cannot be linked back to any individual, may be retained indefinitely for statistical purposes. When personal data is no longer needed, we securely delete or anonymize it."
+        ]
+      },
+      {
+        "title": "Data Security",
+        "content": [
+          "We implement appropriate technical and organizational measures to protect your personal data against unauthorized access, alteration, disclosure, or destruction. These measures include encrypted data transmission (TLS/SSL), access controls limited to authorized personnel, secure hosting infrastructure through Vercel, and regular review of our data handling practices.",
+          "While we take every reasonable precaution, no method of transmission over the internet is 100% secure. If you become aware of any security breach, please contact us immediately at contact@surgex.pt."
+        ]
+      },
+      {
+        "title": "Contact Us",
+        "content": [
+          "If you have any questions about this Privacy Policy, wish to exercise your data protection rights, or have concerns about how we handle your data, please contact us at: SurgeX, Lisbon, Portugal. Email: contact@surgex.pt. Phone: +351 915 109 181.",
+          "You can also reach out to the Portuguese Data Protection Authority (CNPD) if you believe your data protection rights have not been adequately addressed."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "label": "Legal",
+    "headline": "Terms of Service",
+    "lastUpdated": "Last updated: April 2026",
+    "sections": [
+      {
+        "title": "Introduction",
+        "content": [
+          "These Terms of Service (\"Terms\") govern your use of the website surgex.pt and any services provided by SurgeX, Unipessoal Lda. (\"SurgeX\", \"we\", \"us\", or \"our\"), an AI agency based in Lisbon, Portugal. By accessing our website or engaging our services, you agree to be bound by these Terms.",
+          "If you do not agree with any part of these Terms, please do not use our website or services. We recommend that you read these Terms carefully before proceeding."
+        ]
+      },
+      {
+        "title": "Services",
+        "content": [
+          "SurgeX provides bespoke AI solutions tailored to each client's needs. Our services include but are not limited to: custom website design and development, AI-powered automations and workflow optimization, chatbot development and integration, and strategic AI consulting for businesses.",
+          "All services are delivered on a project basis as agreed upon in individual proposals or contracts. The specific scope, deliverables, timeline, and pricing for each project are defined in the relevant project agreement between SurgeX and the client."
+        ]
+      },
+      {
+        "title": "Intellectual Property",
+        "content": [
+          "All content on the surgex.pt website — including text, graphics, logos, designs, and code — is the intellectual property of SurgeX and is protected by Portuguese and international copyright law. You may not reproduce, distribute, or create derivative works from our website content without our prior written consent.",
+          "For client projects: upon full payment, the client receives ownership of the final deliverables as specified in the project agreement. SurgeX retains the right to use general techniques, knowledge, and non-confidential elements of the work for future projects and portfolio purposes, unless otherwise agreed in writing."
+        ]
+      },
+      {
+        "title": "Client Obligations",
+        "content": [
+          "When engaging our services, you agree to: provide accurate and complete information necessary for us to deliver the project; respond to requests for feedback, approvals, and materials in a timely manner; ensure that any content, images, or data you provide to us do not infringe on any third-party intellectual property rights; and use the deliverables we create in compliance with all applicable laws.",
+          "Delays caused by the client's failure to provide required materials or approvals may result in adjusted timelines and, where applicable, additional costs as outlined in the project agreement."
+        ]
+      },
+      {
+        "title": "Payment Terms",
+        "content": [
+          "Payment terms are defined in each individual project agreement. Unless otherwise specified, SurgeX typically requires a deposit before work begins, with the remaining balance due upon project completion or according to agreed milestones.",
+          "All invoices are payable within 30 days of issuance unless otherwise stated. Late payments may incur interest at the rate permitted under Portuguese law. SurgeX reserves the right to suspend work on a project if payments are significantly overdue."
+        ]
+      },
+      {
+        "title": "Limitation of Liability",
+        "content": [
+          "To the fullest extent permitted by Portuguese law, SurgeX shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from or related to your use of our website or services. This includes, but is not limited to, loss of profits, data, business opportunities, or goodwill.",
+          "Our total liability for any claim arising from a project shall not exceed the total amount paid by the client for that specific project. Nothing in these Terms excludes or limits our liability for fraud, gross negligence, or any liability that cannot be excluded under applicable law."
+        ]
+      },
+      {
+        "title": "Termination",
+        "content": [
+          "Either party may terminate a project agreement by providing written notice as specified in that agreement. If no termination clause is specified, either party may terminate with 30 days' written notice.",
+          "Upon termination, the client shall pay for all work completed up to the date of termination. SurgeX will deliver any completed work and materials to the client upon receipt of outstanding payments. Provisions regarding intellectual property, limitation of liability, and governing law survive termination."
+        ]
+      },
+      {
+        "title": "Governing Law",
+        "content": [
+          "These Terms are governed by and construed in accordance with the laws of Portugal. Any disputes arising from or in connection with these Terms or our services shall be submitted to the exclusive jurisdiction of the courts of Lisbon, Portugal.",
+          "If any provision of these Terms is found to be invalid or unenforceable by a court of competent jurisdiction, the remaining provisions shall continue in full force and effect."
+        ]
+      },
+      {
+        "title": "Changes to Terms",
+        "content": [
+          "We reserve the right to update or modify these Terms at any time. Changes will be effective immediately upon posting the updated Terms on our website, with the \"Last updated\" date revised accordingly.",
+          "Your continued use of our website or services after any changes constitutes your acceptance of the revised Terms. We encourage you to review this page periodically to stay informed of any updates."
+        ]
+      },
+      {
+        "title": "Contact",
+        "content": [
+          "If you have any questions about these Terms of Service, please contact us at: SurgeX, Lisbon, Portugal. Email: contact@surgex.pt. Phone: +351 915 109 181."
+        ]
+      }
+    ]
+  },
+  "cookies": {
+    "label": "Legal",
+    "headline": "Cookie Policy",
+    "lastUpdated": "Last updated: April 2026",
+    "sections": [
+      {
+        "title": "What Are Cookies",
+        "content": [
+          "Cookies are small text files that are stored on your device (computer, tablet, or mobile) when you visit a website. They are widely used to make websites function properly, improve user experience, and provide information to site owners.",
+          "This Cookie Policy explains what cookies we use on surgex.pt, why we use them, and how you can manage your preferences. We aim to be transparent about our minimal use of cookies in line with the GDPR and the Portuguese Electronic Communications Law."
+        ]
+      },
+      {
+        "title": "Cookies We Use",
+        "content": [
+          "We use a minimal number of cookies on our website. Essential cookies are strictly necessary for the website to function correctly. These include cookies that manage session state, language preferences, and security features. These cookies do not collect personal data and cannot be disabled without affecting site functionality.",
+          "Vercel Analytics: Our website is hosted on Vercel, which provides privacy-focused, cookieless web analytics. Vercel Analytics collects anonymized usage data — such as page views, referral sources, and device type — without placing tracking cookies on your device and without collecting personally identifiable information. This data helps us understand how visitors use our site so we can improve it.",
+          "We do not use Google Analytics, advertising cookies, or any third-party tracking cookies. We do not track you across other websites, build advertising profiles, or share browsing data with ad networks."
+        ]
+      },
+      {
+        "title": "Managing Cookies",
+        "content": [
+          "Since we only use essential cookies and cookieless analytics, there is very little to manage. However, you can control cookies through your browser settings. Most browsers allow you to view, delete, and block cookies from websites. Please note that disabling essential cookies may prevent certain features of our website from working correctly.",
+          "For instructions on managing cookies in your specific browser, visit your browser's help documentation or go to www.aboutcookies.org for general guidance."
+        ]
+      },
+      {
+        "title": "Third-Party Cookies",
+        "content": [
+          "We do not allow third parties to place cookies on your device through our website for advertising or tracking purposes. The only third-party service involved in our site's operation is Vercel (our hosting provider), which uses cookieless analytics as described above.",
+          "If we embed any third-party content in the future (such as videos or maps), those providers may set their own cookies. We will update this policy accordingly and inform you of any changes."
+        ]
+      },
+      {
+        "title": "Changes to Policy",
+        "content": [
+          "We may update this Cookie Policy from time to time to reflect changes in our practices or for legal and regulatory reasons. Any changes will be posted on this page with a revised \"Last updated\" date.",
+          "We encourage you to review this policy periodically. Your continued use of our website after any changes constitutes your acceptance of the updated Cookie Policy."
+        ]
+      },
+      {
+        "title": "Contact",
+        "content": [
+          "If you have any questions about our use of cookies, please contact us at: SurgeX, Lisbon, Portugal. Email: contact@surgex.pt. Phone: +351 915 109 181."
+        ]
+      }
+    ]
+  }
+}

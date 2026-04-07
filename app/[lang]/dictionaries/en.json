@@ -1657,6 +1657,11 @@
         "label": "Carcavelos",
         "href": "/en/cities/carcavelos"
       }
+    ],
+    "legal": [
+      { "label": "Privacy Policy", "href": "/en/legal/privacy" },
+      { "label": "Terms of Service", "href": "/en/legal/terms" },
+      { "label": "Cookie Policy", "href": "/en/legal/cookies" }
     ]
   },
   "whatsapp": {

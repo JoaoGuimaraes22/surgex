@@ -6,6 +6,7 @@ export default function Footer({
     version: string;
     copyright: string;
     links: { label: string; href: string }[];
+    legal?: { label: string; href: string }[];
   };
 }) {
   return (
@@ -31,9 +32,24 @@ export default function Footer({
         </nav>
       </div>
 
-      {/* Copyright */}
-      <div className="mt-8 font-mono text-[8px] uppercase tracking-[2px] text-muted">
-        {dict.copyright}
+      {/* Copyright + Legal */}
+      <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+        <div className="font-mono text-[8px] uppercase tracking-[2px] text-muted">
+          {dict.copyright}
+        </div>
+        {dict.legal && (
+          <nav className="flex gap-6">
+            {dict.legal.map((link) => (
+              <a
+                key={link.href}
+                href={link.href}
+                className="font-mono text-[8px] uppercase tracking-[2px] text-muted/60 transition-colors duration-300 hover:text-muted"
+              >
+                {link.label}
+              </a>
+            ))}
+          </nav>
+        )}
       </div>
     </footer>
   );

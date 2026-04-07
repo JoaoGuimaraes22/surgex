@@ -41,3 +41,13 @@ const citiesDictionaries = {
 
 export const getCitiesDictionary = async (locale: Locale) =>
   citiesDictionaries[locale]();
+
+const legalDictionaries = {
+  en: () =>
+    import("./dictionaries/legal-en.json").then((module) => module.default),
+  pt: () =>
+    import("./dictionaries/legal-pt.json").then((module) => module.default),
+};
+
+export const getLegalDictionary = async (locale: Locale) =>
+  legalDictionaries[locale]();

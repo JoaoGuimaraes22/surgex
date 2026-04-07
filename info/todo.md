@@ -40,8 +40,9 @@
 
 ## Legal Pages
 
-- [ ] Terms of Service page — `/terms` (needed for X Developer Portal, general compliance)
-- [ ] Privacy Policy page — `/privacy` (needed for X Developer Portal, GDPR)
+- [x] Terms of Service page — `/legal/terms` (needed for X Developer Portal, general compliance)
+- [x] Privacy Policy page — `/legal/privacy` (needed for X Developer Portal, GDPR)
+- [x] Cookie Policy page — `/legal/cookies` (GDPR compliance)
 
 ## Phase B — Marketing & Growth
 

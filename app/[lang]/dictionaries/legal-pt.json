@@ -1,0 +1,209 @@
+{
+  "meta": {
+    "privacy": {
+      "title": "Política de Privacidade | SurgeX",
+      "description": "Saiba como a SurgeX recolhe, utiliza e protege os seus dados pessoais em conformidade com o RGPD."
+    },
+    "terms": {
+      "title": "Termos de Serviço | SurgeX",
+      "description": "Termos e condições que regem a utilização dos serviços da SurgeX, agência de soluções de IA em Lisboa."
+    },
+    "cookies": {
+      "title": "Política de Cookies | SurgeX",
+      "description": "Informação sobre os cookies utilizados no website da SurgeX e como os pode gerir."
+    }
+  },
+  "privacy": {
+    "label": "Legal",
+    "headline": "Política de Privacidade",
+    "lastUpdated": "Última atualização: abril de 2026",
+    "sections": [
+      {
+        "title": "Introdução",
+        "content": [
+          "A SurgeX, com sede em Lisboa, Portugal, compromete-se a proteger a privacidade dos visitantes do seu website e dos seus clientes. A presente Política de Privacidade explica como recolhemos, utilizamos, armazenamos e protegemos os seus dados pessoais quando visita o nosso website (surgex.pt) ou utiliza os nossos serviços.",
+          "Esta política foi elaborada em conformidade com o Regulamento Geral sobre a Proteção de Dados (RGPD — Regulamento (UE) 2016/679) e com a legislação portuguesa aplicável em matéria de proteção de dados."
+        ]
+      },
+      {
+        "title": "Dados que Recolhemos",
+        "content": [
+          "Recolhemos apenas os dados pessoais estritamente necessários para a prestação dos nossos serviços e para o funcionamento do nosso website. Estes podem incluir: nome, endereço de correio eletrónico, número de telefone e nome da empresa, fornecidos voluntariamente através dos nossos formulários de contacto ou no âmbito de uma relação contratual.",
+          "Recolhemos também dados de utilização de forma automatizada através do Vercel Analytics, tais como páginas visitadas, duração da visita, tipo de dispositivo e país de origem. Estes dados são anónimos e não permitem identificar utilizadores individuais. Não utilizamos Google Analytics nem quaisquer ferramentas de rastreamento de terceiros que recolham dados pessoais."
+        ]
+      },
+      {
+        "title": "Como Utilizamos os Seus Dados",
+        "content": [
+          "Utilizamos os seus dados pessoais para os seguintes fins: responder a pedidos de contacto e de informação; preparar e executar propostas comerciais e contratos de prestação de serviços; enviar comunicações relacionadas com os nossos serviços, apenas quando solicitado; cumprir obrigações legais e regulamentares.",
+          "Os dados analíticos anónimos são utilizados exclusivamente para compreender como os visitantes interagem com o nosso website e para melhorar a experiência de utilização."
+        ]
+      },
+      {
+        "title": "Base Legal para o Tratamento",
+        "content": [
+          "O tratamento dos seus dados pessoais assenta nas seguintes bases legais previstas no RGPD: consentimento — quando nos fornece os seus dados voluntariamente através de um formulário de contacto (artigo 6.º, n.º 1, alínea a)); execução de contrato — quando o tratamento é necessário para a celebração ou execução de um contrato de prestação de serviços (artigo 6.º, n.º 1, alínea b)); interesse legítimo — para melhorar o nosso website e serviços, desde que tal não prevaleça sobre os seus direitos e liberdades (artigo 6.º, n.º 1, alínea f)); obrigação legal — quando o tratamento for necessário para cumprir uma obrigação jurídica (artigo 6.º, n.º 1, alínea c))."
+        ]
+      },
+      {
+        "title": "Partilha de Dados e Terceiros",
+        "content": [
+          "Não vendemos, alugamos nem partilhamos os seus dados pessoais com terceiros para fins de marketing. Os seus dados poderão ser partilhados apenas com prestadores de serviços essenciais ao funcionamento do nosso website e negócio, nomeadamente: a Vercel, Inc., que aloja o nosso website e fornece serviços de analítica anónima.",
+          "Qualquer subcontratante com acesso a dados pessoais está vinculado por obrigações contratuais de confidencialidade e de conformidade com o RGPD. Quando existir transferência de dados para fora do Espaço Económico Europeu, asseguramos que estão implementadas as salvaguardas adequadas, incluindo cláusulas contratuais-tipo aprovadas pela Comissão Europeia."
+        ]
+      },
+      {
+        "title": "Os Seus Direitos ao Abrigo do RGPD",
+        "content": [
+          "Enquanto titular dos dados, tem os seguintes direitos: direito de acesso — pode solicitar uma cópia dos dados pessoais que detemos sobre si; direito de retificação — pode pedir a correção de dados inexatos ou incompletos; direito ao apagamento — pode solicitar a eliminação dos seus dados pessoais, salvo quando existam obrigações legais de conservação; direito à portabilidade — pode solicitar a transmissão dos seus dados num formato estruturado e de leitura automática; direito de oposição — pode opor-se ao tratamento dos seus dados com base em interesse legítimo.",
+          "Para exercer qualquer um destes direitos, contacte-nos através do endereço contact@surgex.pt. Responderemos ao seu pedido no prazo máximo de 30 dias. Tem ainda o direito de apresentar uma reclamação junto da Comissão Nacional de Proteção de Dados (CNPD) caso considere que os seus direitos não foram devidamente respeitados."
+        ]
+      },
+      {
+        "title": "Retenção de Dados",
+        "content": [
+          "Conservamos os seus dados pessoais apenas durante o período estritamente necessário para os fins para os quais foram recolhidos. Os dados de contacto fornecidos através de formulários são conservados durante 12 meses, salvo se se estabelecer uma relação contratual. Os dados contratuais são conservados durante o período exigido por lei para efeitos fiscais e comerciais (geralmente 10 anos, nos termos da legislação portuguesa).",
+          "Findo o período de retenção, os dados são eliminados de forma segura ou anonimizados de modo irreversível."
+        ]
+      },
+      {
+        "title": "Segurança dos Dados",
+        "content": [
+          "Implementamos medidas técnicas e organizativas adequadas para proteger os seus dados pessoais contra acesso não autorizado, perda, destruição ou alteração. Estas medidas incluem encriptação de dados em trânsito (HTTPS/TLS), acesso restrito a dados pessoais com base no princípio da necessidade de conhecer, e alojamento em infraestruturas com certificações de segurança reconhecidas.",
+          "Apesar dos nossos esforços, nenhum método de transmissão ou armazenamento eletrónico é totalmente seguro. Caso tome conhecimento de qualquer violação de segurança, comprometemo-nos a notificar a autoridade de controlo competente e os titulares dos dados afetados nos termos do RGPD."
+        ]
+      },
+      {
+        "title": "Contacte-nos",
+        "content": [
+          "Para quaisquer questões relacionadas com esta Política de Privacidade ou com o tratamento dos seus dados pessoais, pode contactar-nos através dos seguintes meios: correio eletrónico — contact@surgex.pt; telefone — +351 915 109 181; morada — Lisboa, Portugal.",
+          "Estamos à sua disposição para esclarecer qualquer dúvida e para garantir que os seus direitos são plenamente respeitados."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "label": "Legal",
+    "headline": "Termos de Serviço",
+    "lastUpdated": "Última atualização: abril de 2026",
+    "sections": [
+      {
+        "title": "Introdução",
+        "content": [
+          "Os presentes Termos de Serviço regulam a utilização do website surgex.pt e a contratação dos serviços prestados pela SurgeX, com sede em Lisboa, Portugal. Ao aceder ao nosso website ou ao contratar os nossos serviços, aceita ficar vinculado a estes termos.",
+          "Recomendamos a leitura atenta deste documento. Caso não concorde com alguma das disposições aqui previstas, deve cessar a utilização do nosso website e dos nossos serviços."
+        ]
+      },
+      {
+        "title": "Serviços",
+        "content": [
+          "A SurgeX é uma agência especializada em soluções de inteligência artificial personalizadas para empresas. Os nossos serviços incluem, entre outros: desenvolvimento de websites com integração de IA, automações de processos empresariais com recurso a inteligência artificial e desenvolvimento de chatbots e assistentes virtuais inteligentes.",
+          "O âmbito específico de cada projeto é definido individualmente com o cliente, mediante proposta comercial ou contrato de prestação de serviços. Os serviços são prestados de acordo com as melhores práticas do setor e com as especificações acordadas entre as partes."
+        ]
+      },
+      {
+        "title": "Propriedade Intelectual",
+        "content": [
+          "Todo o conteúdo presente no website surgex.pt — incluindo textos, imagens, logótipos, design e código — é propriedade da SurgeX ou dos respetivos titulares de direitos e encontra-se protegido pela legislação portuguesa e europeia em matéria de propriedade intelectual.",
+          "No âmbito dos projetos desenvolvidos para clientes, a titularidade da propriedade intelectual do trabalho final é transferida para o cliente após o pagamento integral do valor acordado, salvo disposição contratual em contrário. A SurgeX reserva-se o direito de utilizar o trabalho realizado para fins de portfólio, salvo acordo escrito em sentido contrário."
+        ]
+      },
+      {
+        "title": "Obrigações do Cliente",
+        "content": [
+          "O cliente compromete-se a fornecer informações corretas, completas e atualizadas necessárias à execução dos serviços contratados. O cliente é responsável por garantir que detém os direitos sobre todo o conteúdo (textos, imagens, logótipos) fornecido à SurgeX para inclusão nos projetos.",
+          "O cliente deve responder a pedidos de validação e aprovação dentro dos prazos razoáveis acordados. Atrasos na resposta do cliente poderão resultar na extensão dos prazos de entrega, sem qualquer responsabilidade para a SurgeX."
+        ]
+      },
+      {
+        "title": "Condições de Pagamento",
+        "content": [
+          "As condições de pagamento são definidas na proposta comercial ou contrato celebrado com cada cliente. Salvo acordo em contrário, é solicitado um pagamento inicial de 50% do valor total antes do início do projeto, sendo o restante devido após a entrega final.",
+          "Em caso de atraso no pagamento superior a 15 dias, a SurgeX reserva-se o direito de suspender os trabalhos em curso até à regularização do valor em dívida. O incumprimento reiterado poderá resultar na resolução do contrato, sem prejuízo do direito a receber os valores devidos pelo trabalho já executado."
+        ]
+      },
+      {
+        "title": "Limitação de Responsabilidade",
+        "content": [
+          "A SurgeX empenha-se em prestar serviços de elevada qualidade, mas não garante que o website esteja permanentemente disponível ou isento de erros. Não somos responsáveis por danos indiretos, incidentais ou consequenciais decorrentes da utilização do website ou dos nossos serviços.",
+          "A responsabilidade total da SurgeX perante o cliente, por qualquer causa relacionada com os serviços prestados, está limitada ao valor total efetivamente pago pelo cliente no âmbito do projeto em questão. Esta limitação não se aplica em casos de dolo ou negligência grosseira."
+        ]
+      },
+      {
+        "title": "Rescisão",
+        "content": [
+          "Qualquer uma das partes pode rescindir o contrato de prestação de serviços mediante comunicação escrita com um pré-aviso de 15 dias. Em caso de rescisão pelo cliente, são devidos os valores correspondentes ao trabalho já executado até à data da rescisão.",
+          "A SurgeX pode resolver o contrato com efeitos imediatos em caso de incumprimento grave por parte do cliente, nomeadamente falta de pagamento ou violação de obrigações contratuais essenciais."
+        ]
+      },
+      {
+        "title": "Lei Aplicável",
+        "content": [
+          "Os presentes Termos de Serviço são regidos pela lei portuguesa. Qualquer litígio emergente da interpretação ou execução destes termos será submetido à competência exclusiva dos tribunais da comarca de Lisboa, com renúncia expressa a qualquer outro foro."
+        ]
+      },
+      {
+        "title": "Alterações aos Termos",
+        "content": [
+          "A SurgeX reserva-se o direito de alterar os presentes Termos de Serviço a qualquer momento. As alterações entram em vigor a partir da data de publicação no website. Recomendamos a consulta periódica desta página para se manter informado sobre quaisquer atualizações.",
+          "A continuação da utilização do website ou dos nossos serviços após a publicação de alterações constitui aceitação dos novos termos."
+        ]
+      },
+      {
+        "title": "Contacto",
+        "content": [
+          "Para quaisquer questões relacionadas com estes Termos de Serviço, pode contactar-nos através dos seguintes meios: correio eletrónico — contact@surgex.pt; telefone — +351 915 109 181; morada — Lisboa, Portugal."
+        ]
+      }
+    ]
+  },
+  "cookies": {
+    "label": "Legal",
+    "headline": "Política de Cookies",
+    "lastUpdated": "Última atualização: abril de 2026",
+    "sections": [
+      {
+        "title": "O que São Cookies",
+        "content": [
+          "Cookies são pequenos ficheiros de texto que são armazenados no seu dispositivo (computador, tablet ou telemóvel) quando visita um website. São amplamente utilizados para garantir o funcionamento correto dos websites, melhorar a experiência de navegação e fornecer informações aos proprietários do website.",
+          "Nem todos os cookies recolhem dados pessoais. Alguns são estritamente necessários para o funcionamento técnico do website, enquanto outros podem ser utilizados para fins analíticos ou publicitários. No nosso caso, utilizamos apenas cookies essenciais e analíticos anónimos."
+        ]
+      },
+      {
+        "title": "Cookies que Utilizamos",
+        "content": [
+          "Cookies essenciais — são indispensáveis para o funcionamento básico do website. Permitem a navegação e a utilização de funcionalidades essenciais, como a gestão de sessões e preferências de idioma. Estes cookies não recolhem dados pessoais e não podem ser desativados sem comprometer o funcionamento do website.",
+          "Vercel Analytics — utilizamos o Vercel Analytics, um serviço de analítica focado na privacidade que não utiliza cookies de rastreamento nem recolhe dados pessoais identificáveis. Os dados são agregados e anónimos, permitindo-nos compreender métricas gerais de utilização do website, como o número de visitas e as páginas mais consultadas.",
+          "Não utilizamos Google Analytics, pixels de rastreamento, cookies publicitários nem quaisquer outras ferramentas de rastreamento de terceiros que recolham dados pessoais ou acompanhem a sua atividade na internet."
+        ]
+      },
+      {
+        "title": "Gerir Cookies",
+        "content": [
+          "Pode gerir ou desativar cookies através das definições do seu navegador. A maioria dos navegadores permite bloquear ou eliminar cookies, bem como configurar notificações sempre que um novo cookie é armazenado. As instruções específicas variam conforme o navegador utilizado — consulte o menu de ajuda ou definições do seu navegador.",
+          "Tenha em atenção que a desativação de cookies essenciais pode afetar o funcionamento correto de algumas funcionalidades do website. Dado que não utilizamos cookies de rastreamento, a desativação de cookies não essenciais não terá impacto significativo na sua experiência de navegação."
+        ]
+      },
+      {
+        "title": "Cookies de Terceiros",
+        "content": [
+          "O nosso website é alojado na plataforma Vercel, que pode utilizar cookies estritamente necessários para a entrega e segurança do conteúdo. Estes cookies são técnicos e não são utilizados para fins de rastreamento ou publicidade.",
+          "Não integramos no nosso website quaisquer serviços de terceiros que coloquem cookies de rastreamento no seu dispositivo. Caso esta prática venha a ser alterada no futuro, esta política será atualizada em conformidade e será solicitado o seu consentimento prévio, nos termos do RGPD."
+        ]
+      },
+      {
+        "title": "Alterações à Política",
+        "content": [
+          "A SurgeX reserva-se o direito de atualizar esta Política de Cookies sempre que necessário, nomeadamente para refletir alterações nos cookies utilizados ou na legislação aplicável. Quaisquer alterações serão publicadas nesta página com a respetiva data de atualização.",
+          "Recomendamos que consulte esta página periodicamente para se manter informado sobre a nossa utilização de cookies."
+        ]
+      },
+      {
+        "title": "Contacto",
+        "content": [
+          "Se tiver alguma questão sobre a nossa utilização de cookies, não hesite em contactar-nos: correio eletrónico — contact@surgex.pt; telefone — +351 915 109 181; morada — Lisboa, Portugal."
+        ]
+      }
+    ]
+  }
+}
