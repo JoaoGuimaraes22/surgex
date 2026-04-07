@@ -106,7 +106,7 @@ export default function Hero({
       </div>
 
       {/* Coordinates + clock */}
-      <div className="fixed bottom-10 left-10 z-[5] font-mono text-[8px] leading-[1.6] text-muted">
+      <div className="fixed bottom-6 left-24 z-[5] font-mono text-[8px] leading-[1.6] text-muted">
         LAT: {dict.coords.lat}
         <br />
         LNG: {dict.coords.lng}
