@@ -35,15 +35,14 @@
 ### High Priority
 
 #### llms.txt
-- A `/.well-known/llms.txt` or `/llms.txt` file that describes the business for AI crawlers
+- A `/llms.txt` file that describes the business for AI crawlers
 - Tells ChatGPT, Perplexity, etc. what SurgeX is, what we do, where we are
-- Simple to implement — just a structured text file served statically
-- **Status:** Not implemented
+- **Status:** Implemented (`public/llms.txt`)
 
 #### FAQ Schema (JSON-LD)
-- Add `FAQPage` JSON-LD schema to homepage (8 FAQ items) and service pages (3 each)
+- `FAQPage` JSON-LD schema on homepage (8 FAQ items)
 - Google shows FAQ rich snippets in search results — more SERP real estate
-- **Status:** FAQ content exists, schema markup not yet added
+- **Status:** Implemented on homepage. TODO: add to service pages (3 FAQ items each)
 
 #### Blog post images
 - Each blog post should have a hero image (`/public/blog/`)

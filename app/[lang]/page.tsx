@@ -22,10 +22,27 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
 
   const dict = await getDictionary(lang);
 
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: dict.faq.items.map((item: { question: string; answer: string }) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: item.answer,
+      },
+    })),
+  };
+
   return (
     <ThemeProvider>
       <Navbar dict={dict.navbar} />
       <main>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
         <Hero dict={dict.hero} />
         <Services dict={dict.services} lang={lang} />
         <Pricing dict={dict.pricing} />
