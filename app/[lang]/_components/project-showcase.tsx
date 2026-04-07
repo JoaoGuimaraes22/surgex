@@ -164,7 +164,7 @@ export default function ProjectShowcase({
         </span>
         <div className="relative h-[85vh] overflow-hidden border border-muted/20 md:h-0 md:pb-[56.25%]">
           <iframe
-            src={project.url}
+            src={`${project.url.replace(/\/$/, "")}/pt`}
             title={project.name}
             className="absolute inset-0 h-full w-full"
             loading="lazy"
