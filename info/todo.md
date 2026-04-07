@@ -35,7 +35,8 @@
 - [x] WhatsApp floating button — bottom-left FAB linking to wa.me
 - [x] Sitemap — individual project detail pages added (57 projects × 2 locales = 114 URLs)
 - [ ] Founder photo — add updated photo to `/public/founder.jpg` and wire into about section (grayscale→color hover treatment ready)
-- [ ] PT meta description — trim from 166 to 160 chars
+- [x] PT meta description — trimmed to 150 chars
+- [ ] Add barbershop-vip, salon-benicabeleireiro, carwash-spacarcavelos to portfolio (deploy first if needed)
 
 ## Phase B — Marketing & Growth
 
@@ -43,4 +44,9 @@
 - [x] Services hub + 6 landing pages — /services with individual pages for AI, websites, automation, marketing, GEO/AEO, training
 - [ ] Productized chatbot offering — standalone low-cost entry point (landing page + signup flow)
 - [ ] Pessoas 2030 — research PT government digitalization subsidies, help clients co-fund projects
-- [ ] City-specific SEO pages — programmatic local pages ("agência digital em [cidade]")
+- [ ] More blog posts — target local pain points ("quanto custa um website para restaurante", "como aparecer no Google Maps")
+
+## Phase C — Scale (80+ projects)
+
+- [x] City SEO page: Carcavelos — `/cities/carcavelos` with 14 local projects, stats, JSON-LD, footer link
+- [ ] City SEO pages: SDR (~6 projects), Cascais (~5 projects) — replicate Carcavelos pattern when density grows

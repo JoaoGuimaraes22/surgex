@@ -81,5 +81,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
-  return [...staticPages, ...projectPages, ...blogListingPages, ...blogPostPages, ...servicePages];
+  const citySlugs = ["carcavelos"];
+  const cityPages = citySlugs.flatMap((slug) =>
+    i18n.locales.map((lang) => ({
+      url: `${siteUrl}/${lang}/cities/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+      alternates: {
+        languages: Object.fromEntries(
+          i18n.locales.map((l) => [l, `${siteUrl}/${l}/cities/${slug}`])
+        ),
+      },
+    }))
+  );
+
+  return [...staticPages, ...projectPages, ...blogListingPages, ...blogPostPages, ...servicePages, ...cityPages];
 }

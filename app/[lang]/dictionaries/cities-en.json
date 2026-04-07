@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "title": "Digital Agency in Carcavelos | SurgeX",
+    "description": "We've built 14 websites for businesses in Carcavelos — restaurants, salons, gyms, clinics and more. See our local portfolio."
+  },
+  "cities": {
+    "carcavelos": {
+      "name": "Carcavelos",
+      "label": "LOCAL_PORTFOLIO",
+      "headline": "Digital Agency in Carcavelos.",
+      "description": "From Sassoeiros to Nova to the beachfront — we've built premium websites for the businesses that make Carcavelos tick. Restaurants, barbershops, gyms, vets, and more. Real results, real reviews.",
+      "stats": {
+        "projects": "14",
+        "avgRating": "4.6",
+        "totalReviews": "8,000+",
+        "niches": "10"
+      },
+      "statsLabels": {
+        "projects": "Websites Built",
+        "avgRating": "Avg. Google Rating",
+        "totalReviews": "Total Client Reviews",
+        "niches": "Industries Served"
+      },
+      "projectsLabel": "OUR_WORK_IN_CARCAVELOS",
+      "projectsHeadline": "What We've Built Here.",
+      "viewProject": "View Project",
+      "cta": "Start Your Project in Carcavelos",
+      "ctaDescription": "Join 14 local businesses already standing out online. We'll build you something worth talking about.",
+      "ctaButton": "Get in Touch"
+    }
+  }
+}

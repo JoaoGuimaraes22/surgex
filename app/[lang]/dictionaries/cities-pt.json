@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "title": "Agência Digital em Carcavelos | SurgeX",
+    "description": "Já criámos 14 websites para negócios em Carcavelos — restaurantes, salões, ginásios, clínicas e mais. Veja o nosso portfólio local."
+  },
+  "cities": {
+    "carcavelos": {
+      "name": "Carcavelos",
+      "label": "PORTFÓLIO_LOCAL",
+      "headline": "Agência Digital em Carcavelos.",
+      "description": "De Sassoeiros à Nova até à praia — criamos websites premium para os negócios que fazem Carcavelos funcionar. Restaurantes, barbearias, ginásios, veterinários e muito mais. Resultados reais, avaliações reais.",
+      "stats": {
+        "projects": "14",
+        "avgRating": "4.6",
+        "totalReviews": "8.000+",
+        "niches": "10"
+      },
+      "statsLabels": {
+        "projects": "Websites Criados",
+        "avgRating": "Avaliação Média Google",
+        "totalReviews": "Avaliações dos Clientes",
+        "niches": "Setores Servidos"
+      },
+      "projectsLabel": "O_NOSSO_TRABALHO_EM_CARCAVELOS",
+      "projectsHeadline": "O Que Construímos Aqui.",
+      "viewProject": "Ver Projeto",
+      "cta": "Comece o Seu Projeto em Carcavelos",
+      "ctaDescription": "Junte-se a 14 negócios locais que já se destacam online. Construímos algo que vale a pena falar.",
+      "ctaButton": "Fale Connosco"
+    }
+  }
+}

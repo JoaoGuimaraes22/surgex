@@ -31,3 +31,13 @@ const servicesDictionaries = {
 
 export const getServicesDictionary = async (locale: Locale) =>
   servicesDictionaries[locale]();
+
+const citiesDictionaries = {
+  en: () =>
+    import("./dictionaries/cities-en.json").then((module) => module.default),
+  pt: () =>
+    import("./dictionaries/cities-pt.json").then((module) => module.default),
+};
+
+export const getCitiesDictionary = async (locale: Locale) =>
+  citiesDictionaries[locale]();
