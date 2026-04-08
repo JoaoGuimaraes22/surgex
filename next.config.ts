@@ -19,7 +19,10 @@ const cspHeader = `
 
 const nextConfig: NextConfig = {
   images: {
-    formats: ["image/avif", "image/webp"],
+    formats: ["image/webp"],
+    minimumCacheTTL: 2678400, // 31 days — local images never change
+    deviceSizes: [640, 828, 1080, 1920],
+    imageSizes: [16, 32, 48, 64, 128, 256],
   },
   async headers() {
     return [
