@@ -81,7 +81,7 @@ export default function Navbar({
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/sgx-logo-no-bg.png"
+              src="/sgx-logo-no-bg.webp"
               alt={dict.brand}
               className={`h-10 w-auto ${nicheNav ? "" : "md:h-16"} ${theme === "dark" ? "invert" : ""}`}
             />

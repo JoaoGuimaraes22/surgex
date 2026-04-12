@@ -245,7 +245,7 @@
         "id": "gym-levelup",
         "name": "Level UP Fight & Fitness",
         "category": "Website",
-        "image": "/portfolio/gym-levelup.jpg",
+        "image": "/portfolio/gym-levelup.webp",
         "url": "https://gym-levelup.vercel.app",
         "description": "Academia de desportos de combate a beira-mar no Estoril com Jiu-Jitsu, Muay Thai e treino funcional.",
         "services": [
@@ -263,7 +263,7 @@
         "id": "restaurant-sassoeiros",
         "name": "Assador Sassoeiros",
         "category": "Website",
-        "image": "/portfolio/restaurant-sassoeiros.jpg",
+        "image": "/portfolio/restaurant-sassoeiros.webp",
         "url": "https://restaurant-sassoeiros.vercel.app",
         "description": "Restaurante iconico de churrasco com grelha a carvao, esplanada e a famosa tradição da rolha & desejo.",
         "services": [
@@ -283,7 +283,7 @@
         "id": "dentist-takata",
         "name": "Clínica Takata",
         "category": "Website",
-        "image": "/portfolio/dentist-takata.jpg",
+        "image": "/portfolio/dentist-takata.webp",
         "url": "https://dentist-takata.vercel.app",
         "description": "Clínica dentaria com classificacao perfeita de 5 estrelas, conhecida pela honestidade e atencao ao paciente.",
         "services": [
@@ -302,7 +302,7 @@
         "id": "vet-aboboda",
         "name": "Centro Veterinario Aboboda",
         "category": "Website",
-        "image": "/portfolio/vet-aboboda.jpg",
+        "image": "/portfolio/vet-aboboda.webp",
         "url": "https://vet-aboboda.vercel.app",
         "description": "Clínica veterinária com consultas, cirurgia, dentaria, tosquias e visitas ao domicílio com manuseamento sem stress.",
         "services": [
@@ -319,7 +319,7 @@
         "id": "mm-detalhe",
         "name": "M M Detalhe Automóvel",
         "category": "Website",
-        "image": "/portfolio/mm-detalhe.jpg",
+        "image": "/portfolio/mm-detalhe.webp",
         "url": "https://mm-detalhe.vercel.app",
         "description": "Estudio de estética automóvel premium com revestimento cerâmico, correção de pintura e lavagem ao domicílio.",
         "services": [
@@ -338,7 +338,7 @@
         "id": "carwash-spacarcavelos",
         "name": "Car Wash & Spa Carcavelos",
         "category": "Website",
-        "image": "/portfolio/carwash-spacarcavelos.jpg",
+        "image": "/portfolio/carwash-spacarcavelos.webp",
         "url": "https://carwash-spacarcavelos.vercel.app",
         "description": "Lavagem automóvel completa e spa de detailing com boxes self-service e pacotes de lavagem à mão premium.",
         "services": [
@@ -356,7 +356,7 @@
         "id": "accounting-kapacontabilidade",
         "name": "KAPA Contabilidade&Serviços",
         "category": "Website",
-        "image": "/portfolio/accounting-kapacontabilidade.jpg",
+        "image": "/portfolio/accounting-kapacontabilidade.webp",
         "url": "https://accounting-kapacontabilidade.vercel.app",
         "description": "Empresa de contabilidade e serviços fiscais em Alcabideche, com atendimento personalizado para famílias e empresas.",
         "services": [
@@ -374,7 +374,7 @@
         "id": "autobody-jpautopaint",
         "name": "JP Auto Paint",
         "category": "Website",
-        "image": "/portfolio/autobody-jpautopaint.jpg",
+        "image": "/portfolio/autobody-jpautopaint.webp",
         "url": "https://autobody-jpautopaint.vercel.app",
         "description": "Oficina de pintura e bate-chapas com correspondência de cor de fábrica, reparações de carroçaria e trabalho com seguros.",
         "services": [
@@ -393,7 +393,7 @@
         "id": "detailing-ecestetica",
         "name": "EC Estética Auto",
         "category": "Website",
-        "image": "/portfolio/detailing-ecestetica.jpg",
+        "image": "/portfolio/detailing-ecestetica.webp",
         "url": "https://detailing-ecestetica.vercel.app",
         "description": "Servico de estética automóvel ao domicílio, especializado em limpeza profunda de interiores e remoção de bolor.",
         "services": [
@@ -412,7 +412,7 @@
         "id": "detailing-elefanteazul",
         "name": "Elefante Azul Cascais",
         "category": "Website",
-        "image": "/portfolio/detailing-elefanteazul.jpg",
+        "image": "/portfolio/detailing-elefanteazul.webp",
         "url": "https://detailing-elefanteazul.vercel.app",
         "description": "Lavagem automóvel self-service 24/7 com equipamento profissional e assistência no local, perto do CascaiShopping.",
         "services": [
@@ -430,7 +430,7 @@
         "id": "bar-iateben",
         "name": "Iate Ben",
         "category": "Website",
-        "image": "/portfolio/bar-iateben.jpg",
+        "image": "/portfolio/bar-iateben.webp",
         "url": "https://bar-iateben.vercel.app",
         "description": "Discoteca e bar em Carcavelos com duas pistas de danca, DJ sets e noites Ladies Night.",
         "services": [
@@ -448,7 +448,7 @@
         "id": "dealership-notoriouscar",
         "name": "Notorious Car",
         "category": "Website",
-        "image": "/portfolio/dealership-notoriouscar.jpg",
+        "image": "/portfolio/dealership-notoriouscar.webp",
         "url": "https://dealership-notoriouscar.vercel.app",
         "description": "Stand de automoveis usados conhecido pela transparencia, selecao de qualidade e servico personalizado.",
         "services": [
@@ -465,7 +465,7 @@
         "id": "chiro-elenilson",
         "name": "Elenilson Silva",
         "category": "Website",
-        "image": "/portfolio/chiro-elenilson.jpg",
+        "image": "/portfolio/chiro-elenilson.webp",
         "url": "https://chiro-elenilson.vercel.app",
         "description": "Quiropraxista e massagista com mais de 20 anos de experiência, oferecendo tratamentos holisticos para alivio de dor.",
         "services": [
@@ -484,7 +484,7 @@
         "id": "instituto-soares",
         "name": "Instituto Soares",
         "category": "Website",
-        "image": "/portfolio/instituto-soares.jpg",
+        "image": "/portfolio/instituto-soares.webp",
         "url": "https://instituto-soares.vercel.app",
         "description": "Clínica de quiropraxia e estética avancada com ajustamentos na coluna, depilacao a laser e tratamentos faciais.",
         "services": [
@@ -504,7 +504,7 @@
         "id": "cleaning-houseshine",
         "name": "House Shine Cascais JV",
         "category": "Website",
-        "image": "/portfolio/cleaning-houseshine.jpg",
+        "image": "/portfolio/cleaning-houseshine.webp",
         "url": "https://cleaning-houseshine.vercel.app",
         "description": "Franquia de limpezas domésticas profissionais com limpeza profunda, pos-obra e manutenção regular.",
         "services": [
@@ -522,7 +522,7 @@
         "id": "dentist-doracosta",
         "name": "Clínica Dentaria Dora & Costa Matos",
         "category": "Website",
-        "image": "/portfolio/dentist-doracosta.jpg",
+        "image": "/portfolio/dentist-doracosta.webp",
         "url": "https://dentist-doracosta.vercel.app",
         "description": "Clínica dentaria familiar com implantes, ortodontia e tratamentos esteticos num ambiente acolhedor.",
         "services": [
@@ -541,7 +541,7 @@
         "id": "dentist-penedo",
         "name": "Clínica Dentaria do Penedo",
         "category": "Website",
-        "image": "/portfolio/dentist-penedo.jpg",
+        "image": "/portfolio/dentist-penedo.webp",
         "url": "https://dentist-penedo.vercel.app",
         "description": "Clínica dentaria comunitaria conhecida pela equipa simpatica, precos acessiveis e serviços completos.",
         "services": [
@@ -560,7 +560,7 @@
         "id": "dentist-primehealthcare",
         "name": "Prime Health Care",
         "category": "Website",
-        "image": "/portfolio/dentist-primehealthcare.jpg",
+        "image": "/portfolio/dentist-primehealthcare.webp",
         "url": "https://dentist-primehealthcare.vercel.app",
         "description": "Clínica dentaria com atendimento em ingles, especializada em implantes e proteses com procedimentos sem dor.",
         "services": [
@@ -579,7 +579,7 @@
         "id": "dogcamp",
         "name": "Dog Camp",
         "category": "Website",
-        "image": "/portfolio/dogcamp.jpg",
+        "image": "/portfolio/dogcamp.webp",
         "url": "https://dogcamp.vercel.app",
         "description": "Escola de treino canino com programas individualizados, aulas para cachorros e modificacao comportamental ao ar livre.",
         "services": [
@@ -597,7 +597,7 @@
         "id": "dogtraining-dogsco",
         "name": "Dogs & Co",
         "category": "Website",
-        "image": "/portfolio/dogtraining-dogsco.jpg",
+        "image": "/portfolio/dogtraining-dogsco.webp",
         "url": "https://dogtraining-dogsco.vercel.app",
         "description": "Escola de treino canino com obediência, modificacao comportamental e socializacao em amplos espacos exteriores.",
         "services": [
@@ -615,7 +615,7 @@
         "id": "electrician-eletricland",
         "name": "Eletricista Eletricland",
         "category": "Website",
-        "image": "/portfolio/electrician-eletricland.jpg",
+        "image": "/portfolio/electrician-eletricland.webp",
         "url": "https://electrician-eletricland.vercel.app",
         "description": "Eletricista residêncial e comercial 24/7 com instalação de quadros, projetos eletricos e reparações de emergência.",
         "services": [
@@ -633,7 +633,7 @@
         "id": "electrician-jorgemendes",
         "name": "Jorge Mendes Eletricista",
         "category": "Website",
-        "image": "/portfolio/electrician-jorgemendes.jpg",
+        "image": "/portfolio/electrician-jorgemendes.webp",
         "url": "https://electrician-jorgemendes.vercel.app",
         "description": "Eletricista independente em Lisboa com disponibilidade 24/7, precos transparentes e fluencia em ingles.",
         "services": [
@@ -651,7 +651,7 @@
         "id": "gym-fits",
         "name": "FIT'S ACADEMIA",
         "category": "Website",
-        "image": "/portfolio/gym-fits.jpg",
+        "image": "/portfolio/gym-fits.webp",
         "url": "https://gym-fits.vercel.app",
         "description": "Estudio de treino pessoal com instrutores certificados, boxe, treino em circuito e programas personalizados.",
         "services": [
@@ -669,7 +669,7 @@
         "id": "gym-joaofaleiro",
         "name": "Joao Faleiro Club",
         "category": "Website",
-        "image": "/portfolio/gym-joaofaleiro.jpg",
+        "image": "/portfolio/gym-joaofaleiro.webp",
         "url": "https://gym-joaofaleiro.vercel.app",
         "description": "Ginasio de boxe e artes marciais com treino profissional, programas para criancas e acesso ilimitado.",
         "services": [
@@ -687,7 +687,7 @@
         "id": "gym-lineup",
         "name": "LINE UP Functional Training",
         "category": "Website",
-        "image": "/portfolio/gym-lineup.jpg",
+        "image": "/portfolio/gym-lineup.webp",
         "url": "https://gym-lineup-mocha.vercel.app",
         "description": "Box de CrossFit e treino funcional com coaches certificados, ambiente comunitario e equipamento de qualidade.",
         "services": [
@@ -705,7 +705,7 @@
         "id": "gym-popei",
         "name": "Popei Gym",
         "category": "Website",
-        "image": "/portfolio/gym-popei.jpg",
+        "image": "/portfolio/gym-popei.webp",
         "url": "https://gym-popei.vercel.app",
         "description": "Ginasio old-school com equipamento Panatta premium, treino pessoal e comunidade autentica de bodybuilding.",
         "services": [
@@ -723,7 +723,7 @@
         "id": "mrbig",
         "name": "Mr. Big Evolution",
         "category": "Website",
-        "image": "/portfolio/mrbig.jpg",
+        "image": "/portfolio/mrbig.webp",
         "url": "https://mrbig.vercel.app",
         "description": "Centro de fitness completo em Carcavelos com diversas modalidades de treino e instalacoes modernas.",
         "services": [
@@ -741,7 +741,7 @@
         "id": "medspa-headspaportugal",
         "name": "Head Spa Portugal",
         "category": "Website",
-        "image": "/portfolio/medspa-headspaportugal.jpg",
+        "image": "/portfolio/medspa-headspaportugal.webp",
         "url": "https://medspa-headspaportugal.vercel.app",
         "description": "Spa capilar de inspiracao japonesa com massagem ao couro cabeludo, tratamentos de limpeza profunda e sessoes de relaxamento.",
         "services": [
@@ -760,7 +760,7 @@
         "id": "hvac-instalar",
         "name": "Instalar Ar Condicionado",
         "category": "Website",
-        "image": "/portfolio/hvac-instalar.jpg",
+        "image": "/portfolio/hvac-instalar.webp",
         "url": "https://hvac-instalar.vercel.app",
         "description": "Especialista em climatização com instalação de ar condicionado, manutenção e bombas de calor na região de Coimbra.",
         "services": [
@@ -778,7 +778,7 @@
         "id": "junkremoval-ambimarto",
         "name": "Ambimarto Lda",
         "category": "Website",
-        "image": "/portfolio/junkremoval-ambimarto.jpg",
+        "image": "/portfolio/junkremoval-ambimarto.webp",
         "url": "https://junkremoval-ambimarto.vercel.app",
         "description": "Empresa de gestão de resíduos e recolha de sucata, especializada em reciclagem, limpezas comerciais e remoção de entulho.",
         "services": [
@@ -796,7 +796,7 @@
         "id": "landscaping-apjardins",
         "name": "AP Jardins Sesimbra",
         "category": "Website",
-        "image": "/portfolio/landscaping-apjardins.jpg",
+        "image": "/portfolio/landscaping-apjardins.webp",
         "url": "https://landscaping-apjardins.vercel.app",
         "description": "Profissional de jardinagem com design de jardins, instalação, sistemas de rega e manutenção continua em Sesimbra.",
         "services": [
@@ -815,7 +815,7 @@
         "id": "laundry-grace",
         "name": "Grace Laundry",
         "category": "Website",
-        "image": "/portfolio/laundry-grace.jpg",
+        "image": "/portfolio/laundry-grace.webp",
         "url": "https://laundry-grace.vercel.app",
         "description": "Lavandaria self-service e servico completo com engomadoria, arranjos e funcionamento 7 dias por semana.",
         "services": [
@@ -833,7 +833,7 @@
         "id": "auto-bicesse",
         "name": "Auto Bicesse Maxima Lda",
         "category": "Website",
-        "image": "/portfolio/auto-bicesse.jpg",
+        "image": "/portfolio/auto-bicesse.webp",
         "url": "https://auto-bicesse.vercel.app",
         "description": "Oficina de reparacao automóvel completa com diagnóstico, manutenção, travoes, suspensao e preparacao para IPO.",
         "services": [
@@ -851,7 +851,7 @@
         "id": "autorepair-electroautoluis",
         "name": "Electro-auto Luis",
         "category": "Website",
-        "image": "/portfolio/autorepair-electroautoluis.jpg",
+        "image": "/portfolio/autorepair-electroautoluis.webp",
         "url": "https://autorepair-electroautoluis.vercel.app",
         "description": "Auto-eletricista familiar especializado em diagnóstico eletronico, veiculos classicos e reparações elétricas no dia.",
         "services": [
@@ -867,7 +867,7 @@
         "id": "mechanic-autochico",
         "name": "Auto Chico",
         "category": "Website",
-        "image": "/portfolio/mechanic-autochico.jpg",
+        "image": "/portfolio/mechanic-autochico.webp",
         "url": "https://mechanic-autochico.vercel.app",
         "description": "Oficina de reparacao automóvel de confianca em Cascais com mecânica geral, diagnóstico eletronico e preparacao IPO.",
         "services": [
@@ -883,7 +883,7 @@
         "id": "revicar",
         "name": "Revicar",
         "category": "Website",
-        "image": "/portfolio/revicar.jpg",
+        "image": "/portfolio/revicar.webp",
         "url": "https://revicar.vercel.app",
         "description": "Oficina de reparações automoveis estabelecida em Carcavelos com serviços mecanicos fiaveis e manutenção de veiculos.",
         "services": [
@@ -901,7 +901,7 @@
         "id": "physio-andreahuber",
         "name": "Andrea Huber",
         "category": "Website",
-        "image": "/portfolio/physio-andreahuber.jpg",
+        "image": "/portfolio/physio-andreahuber.webp",
         "url": "https://physio-andreahuber.vercel.app",
         "description": "Osteopata e fisioterapeuta multilingue no Estoril com visitas domiciliarias, ventosas e tratamento holistico da dor.",
         "services": [
@@ -920,7 +920,7 @@
         "id": "plumbing-bugarepara",
         "name": "O Buga Repara",
         "category": "Website",
-        "image": "/portfolio/plumbing-bugarepara.jpg",
+        "image": "/portfolio/plumbing-bugarepara.webp",
         "url": "https://plumbing-bugarepara.vercel.app",
         "description": "Servico de canalização e desentupimentos de emergência 24/7, cobrindo a area metropolitana de Lisboa.",
         "services": [
@@ -938,7 +938,7 @@
         "id": "plumbing-expertcanalizacoes",
         "name": "Expert Canalizacoes",
         "category": "Website",
-        "image": "/portfolio/plumbing-expertcanalizacoes.jpg",
+        "image": "/portfolio/plumbing-expertcanalizacoes.webp",
         "url": "https://plumbing-expertcanalizacoes.vercel.app",
         "description": "Empresa de canalização e eletricidade 24 horas com resposta rapida e precos honestos na Grande Lisboa.",
         "services": [
@@ -956,7 +956,7 @@
         "id": "plumbing-santoamaro",
         "name": "Canalizadora de Santo Amaro",
         "category": "Website",
-        "image": "/portfolio/plumbing-santoamaro.jpg",
+        "image": "/portfolio/plumbing-santoamaro.webp",
         "url": "https://plumbing-santoamaro.vercel.app",
         "description": "Servico de canalização 24/7 especializado em reparações de emergência, instalação de gas e manutenção de esquentadores.",
         "services": [
@@ -974,7 +974,7 @@
         "id": "pool-mergulhosalgado",
         "name": "Mergulho Salgado",
         "category": "Website",
-        "image": "/portfolio/pool-mergulhosalgado.jpg",
+        "image": "/portfolio/pool-mergulhosalgado.webp",
         "url": "https://pool-mergulhosalgado.vercel.app",
         "description": "Especialista em piscinas, spas e saunas com construção personalizada, renovacao, venda de equipamento e pos-venda.",
         "services": [
@@ -993,7 +993,7 @@
         "id": "realestate-sandracasimiro",
         "name": "Sandra Casimiro",
         "category": "Website",
-        "image": "/portfolio/realestate-sandracasimiro.jpg",
+        "image": "/portfolio/realestate-sandracasimiro.webp",
         "url": "https://realestate-sandracasimiro.vercel.app",
         "description": "Consultora imobiliaria Keller Williams especializada em Carcavelos e Linha de Cascais com servico bilingue.",
         "services": [
@@ -1011,7 +1011,7 @@
         "id": "gutsy",
         "name": "Gutsy",
         "category": "Website",
-        "image": "/portfolio/gutsy.jpg",
+        "image": "/portfolio/gutsy.webp",
         "url": "https://gutsy.vercel.app",
         "description": "Restaurante de hamburguer artesanal e bar de cocktails com opcoes vegetarianas, esplanada e menu criativo.",
         "services": [
@@ -1031,7 +1031,7 @@
         "id": "restaurant-brasabelavista",
         "name": "Brasa da Bela Vista",
         "category": "Website",
-        "image": "/portfolio/restaurant-brasabelavista.jpg",
+        "image": "/portfolio/restaurant-brasabelavista.webp",
         "url": "https://restaurant-brasabelavista.vercel.app",
         "description": "Churrasqueira portuguesa tradicional com grelhados a carvao, doses generosas e sobremesas caseiras.",
         "services": [
@@ -1051,7 +1051,7 @@
         "id": "restaurant-tascavelha",
         "name": "Tasca Velha",
         "category": "Website",
-        "image": "/portfolio/restaurant-tascavelha.jpg",
+        "image": "/portfolio/restaurant-tascavelha.webp",
         "url": "https://restaurant-tascavelha.vercel.app",
         "description": "Restaurante tradicional portugues adorado com doses generosas, sobremesas caseiras e mais de 15 anos de historia.",
         "services": [
@@ -1071,7 +1071,7 @@
         "id": "barbershop-jaydixon",
         "name": "Jay Dixon Barbershop",
         "category": "Website",
-        "image": "/portfolio/barbershop-jaydixon.jpg",
+        "image": "/portfolio/barbershop-jaydixon.webp",
         "url": "https://barbershop-jaydixon.vercel.app",
         "description": "Barbearia com classificacao perfeita de 5 estrelas, conhecida pela arte, ambiente familiar e cortes impecaveis.",
         "services": [
@@ -1090,7 +1090,7 @@
         "id": "barbershop-labarberia",
         "name": "La barberia",
         "category": "Website",
-        "image": "/portfolio/barbershop-labarberia.jpg",
+        "image": "/portfolio/barbershop-labarberia.webp",
         "url": "https://barbershop-labarberia.vercel.app",
         "description": "Barbearia de inspiracao colombiana em Cascais com decoração retro, servico multilingue e cafe cortesia.",
         "services": [
@@ -1109,7 +1109,7 @@
         "id": "barbershop-specialone",
         "name": "Special One Barbershop",
         "category": "Website",
-        "image": "/portfolio/barbershop-specialone.jpg",
+        "image": "/portfolio/barbershop-specialone.webp",
         "url": "https://barbershop-specialone.vercel.app",
         "description": "Barbearia comunitaria em Carcavelos que combina heranca africana com cultura portuguesa, aberta a todos.",
         "services": [
@@ -1128,7 +1128,7 @@
         "id": "barbershop-yuris",
         "name": "Yuri's Barbershop",
         "category": "Website",
-        "image": "/portfolio/barbershop-yuris.jpg",
+        "image": "/portfolio/barbershop-yuris.webp",
         "url": "https://barbershop-yuris.vercel.app",
         "description": "Barbearia de bairro em Carcavelos elogiada pela qualidade dos cortes, equipa simpatica e ambiente descontraido.",
         "services": [
@@ -1147,7 +1147,7 @@
         "id": "harvey",
         "name": "Harvey Cabeleireiro",
         "category": "Website",
-        "image": "/portfolio/harvey.jpg",
+        "image": "/portfolio/harvey.webp",
         "url": "https://harvey-barber.vercel.app",
         "description": "Cabeleireiro masculino estabelecido em Carcavelos com cortes acessiveis, decoração de filmes e servico familiar.",
         "services": [
@@ -1166,7 +1166,7 @@
         "id": "salon-benistyles",
         "name": "Beni Styles",
         "category": "Website",
-        "image": "/portfolio/salon-benistyles.jpg",
+        "image": "/portfolio/salon-benistyles.webp",
         "url": "https://salon-benistyles.vercel.app",
         "description": "Salao de beleza unissexo multicultural com coloracao, manicures e tratamentos para todos os tipos de cabelo.",
         "services": [
@@ -1186,7 +1186,7 @@
         "id": "salon-karolkris",
         "name": "Karol&Kris",
         "category": "Website",
-        "image": "/portfolio/salon-karolkris.jpg",
+        "image": "/portfolio/salon-karolkris.webp",
         "url": "https://salon-karolkris.vercel.app",
         "description": "Salao de beleza familiar com cabelo, unhas, pestanas, depilacao a laser e massagem com atendimento multilingue.",
         "services": [
@@ -1205,7 +1205,7 @@
         "id": "salon-mademoiselle",
         "name": "Mademoiselle Nails and Beauty",
         "category": "Website",
-        "image": "/portfolio/salon-mademoiselle.jpg",
+        "image": "/portfolio/salon-mademoiselle.webp",
         "url": "https://salon-mademoiselle.vercel.app",
         "description": "Salao de unhas e estética especializado em unhas de gel, nail art, manicures e tratamentos de beleza a precos acessiveis.",
         "services": [
@@ -1224,7 +1224,7 @@
         "id": "tattoo-wagnerprimo",
         "name": "Wagner Primo Tattoo",
         "category": "Website",
-        "image": "/portfolio/tattoo-wagnerprimo.jpg",
+        "image": "/portfolio/tattoo-wagnerprimo.webp",
         "url": "https://tattoo-wagnerprimo.vercel.app",
         "description": "Estudio de tatuagem personalizada no Estoril especializado em desenhos unicos, cover-ups e trabalho de linha fina.",
         "services": [
@@ -1244,7 +1244,7 @@
         "id": "vet-avencas",
         "name": "Clínica Veterinária das Avencas",
         "category": "Website",
-        "image": "/portfolio/vet-avencas.jpg",
+        "image": "/portfolio/vet-avencas.webp",
         "url": "https://vet-avencas.vercel.app",
         "description": "Clínica veterinária estabelecida ha mais de 15 anos com cuidados compassivos, cirurgia e farmacia no local.",
         "services": [
@@ -1263,7 +1263,7 @@
         "id": "vet-cvls",
         "name": "CVLS",
         "category": "Website",
-        "image": "/portfolio/vet-cvls.jpg",
+        "image": "/portfolio/vet-cvls.webp",
         "url": "https://vet-cvls.vercel.app",
         "description": "Clínica veterinária com consultas, cirurgia, acupuntura, imagiologia e pet shop na Amadora.",
         "services": [
@@ -1282,7 +1282,7 @@
         "id": "vet-lpda",
         "name": "LPDA Carcavelos",
         "category": "Website",
-        "image": "/portfolio/vet-lpda.jpg",
+        "image": "/portfolio/vet-lpda.webp",
         "url": "https://vet-lpda.vercel.app",
         "description": "Clínica veterinária de protecao animal com cuidados acessiveis, equipa experiente e mais de 20 anos em Carcavelos.",
         "services": [
@@ -1301,7 +1301,7 @@
         "id": "vettop",
         "name": "VetTop",
         "category": "Website",
-        "image": "/portfolio/vettop.jpg",
+        "image": "/portfolio/vettop.webp",
         "url": "https://vettop.vercel.app",
         "description": "Clínica veterinária completa em Oeiras com cuidados abrangentes e horario alargado ao final do dia.",
         "services": [
@@ -1320,7 +1320,7 @@
         "id": "barbershop-vip",
         "name": "Barbearia VIP",
         "category": "Website",
-        "image": "/portfolio/barbershop-vip.jpg",
+        "image": "/portfolio/barbershop-vip.webp",
         "url": "https://barbershop-vip.vercel.app",
         "description": "Barbearia clássica no coração de Oeiras com cortes tradicionais, cuidado de barba e ambiente descontraído.",
         "services": [
@@ -1338,7 +1338,7 @@
         "id": "salon-benicabeleireiro",
         "name": "Beni Cabeleireiro",
         "category": "Website",
-        "image": "/portfolio/salon-benicabeleireiro.jpg",
+        "image": "/portfolio/salon-benicabeleireiro.webp",
         "url": "https://salon-benicabeleireiro.vercel.app",
         "description": "Centro de beleza multisserviços em Carcavelos — cabeleireiro, barbearia, spa, massagem, unhas e tratamentos a laser num só espaço.",
         "services": [

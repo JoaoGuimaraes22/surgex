@@ -121,7 +121,7 @@ export default function Hero({
       <div className="fixed top-10 right-32 z-[3] hidden opacity-[0.03] md:block">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/sgx-logo.jpg"
+          src="/sgx-logo.webp"
           alt=""
           width={300}
           height={300}
