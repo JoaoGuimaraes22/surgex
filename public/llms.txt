@@ -1,19 +1,22 @@
 # SurgeX
 
-> AI-driven agency based in Lisbon, Portugal. We build bespoke AI solutions, premium websites, automation systems, and chatbots for businesses.
+> AI-driven agency based in Lisbon, Portugal. We build bespoke AI solutions, premium websites, automation systems, and chatbots for businesses. Founded by Sebastião Guimarães.
 
-## About
+Contact: +351 915 109 181 | contact@surgex.pt
+Website: https://www.surgex.pt
+WhatsApp: https://wa.me/351915109181
+Location: Lisbon, Portugal
 
-SurgeX is a technology agency specializing in AI solutions for businesses. Founded by Sebastião Guimarães, we build every solution personally — the AI, the design, the backend. We serve businesses across all of Portugal, with 50+ projects delivered across 15+ niches including fitness, dental, beauty, veterinary, restaurants, auto detailing, home services, and more.
+50+ projects delivered across 15+ niches. 48-hour average website delivery. Bilingual: Portuguese and English.
 
 ## Services
 
-- Bespoke AI Solutions: custom AI systems, workshops, integration, and ongoing support
-- Websites & Apps: premium custom-designed websites, SEO-optimized, mobile-ready, bilingual (PT/EN), delivered in 48 hours on average
-- Automation & Chatbots: intelligent chatbots, automated follow-ups, email sequences, process automation — from 25€/month
-- Digital Marketing: Google Ads, social media management, content creation, lead generation — all AI-powered
-- GEO / AEO: Generative Engine Optimization — we help businesses appear in ChatGPT, Perplexity, and Google AI Overviews
-- Training & Workshops: hands-on AI training for teams, prompt engineering, tool selection, workflow integration
+- [Bespoke AI Solutions](https://www.surgex.pt/en/services/ai-solutions): Custom AI systems, workshops, integration, and ongoing support
+- [Websites & Apps](https://www.surgex.pt/en/services/websites): Premium custom-designed websites, SEO-optimized, mobile-ready, bilingual (PT/EN), delivered in 48 hours on average
+- [Automation & Chatbots](https://www.surgex.pt/en/services/automation): Intelligent chatbots, automated follow-ups, email sequences, process automation — from 25€/month
+- [Digital Marketing](https://www.surgex.pt/en/services/marketing): Google Ads, social media management, content creation, lead generation — all AI-powered
+- [GEO / AEO](https://www.surgex.pt/en/services/geo-aeo): Generative Engine Optimization — we help businesses appear in ChatGPT, Perplexity, and Google AI Overviews
+- [Training & Workshops](https://www.surgex.pt/en/services/training): Hands-on AI training for teams, prompt engineering, tool selection, workflow integration
 
 ## Pricing
 
@@ -22,18 +25,23 @@ SurgeX is a technology agency specializing in AI solutions for businesses. Found
 - Automation: from 50€/month
 - Full Package (website + chatbot + automation): from 1,500€
 
-## Contact
+## Blog
 
-- Website: https://www.surgex.pt
-- Email: contact@surgex.pt
-- Phone: +351 915 109 181
-- WhatsApp: https://wa.me/351915109181
-- Location: Lisbon, Portugal
+- [Why Your Business Needs a Professional Website in 2026](https://www.surgex.pt/en/blog/why-your-business-needs-website): The case for investing in a real website vs social-only presence
+- [AI and Automation for Local Businesses in Portugal](https://www.surgex.pt/en/blog/ai-automation-local-businesses): Practical guide to chatbots, automated follow-ups, and review management
+- [Local SEO: How to Make Your Business Appear on Google](https://www.surgex.pt/en/blog/local-seo-appear-on-google): Google Business Profile, NAP consistency, and local search optimization
+- [Does Your Small Business Need a Chatbot?](https://www.surgex.pt/en/blog/chatbot-for-small-business): Honest assessment of when chatbots make sense
+- [How to Respond to Google Reviews](https://www.surgex.pt/en/blog/google-reviews-respond-guide): Why review management matters and how to do it right
+- [How Much Does a Website Cost in Portugal?](https://www.surgex.pt/en/blog/how-much-does-website-cost-portugal): 2026 pricing guide for Portuguese businesses
+- [Social Media vs Website: What Does Your Business Need First?](https://www.surgex.pt/en/blog/social-media-vs-website): Comparing the two and when to invest in each
+- [GEO & AEO: How to Make Your Business Visible to AI Search Engines](https://www.surgex.pt/en/blog/what-is-geo-aeo-ai-search): Optimizing for ChatGPT, Perplexity, Google AI Overviews
 
-## Key Facts
+## Pages
 
-- 50+ projects delivered
-- 48-hour average delivery
-- Bilingual: Portuguese and English
-- Serves businesses across all of Portugal
-- Niches: fitness, dental, beauty, veterinary, restaurants, auto detailing, chiropractic, home services, plumbing, electricians, salons, and more
+- [Projects](https://www.surgex.pt/en/projects): Portfolio of 50+ delivered projects across 15+ niches
+- [Carcavelos](https://www.surgex.pt/en/cities/carcavelos): Our work in the Carcavelos area — 15 websites built
+
+## Optional
+
+- [FAQ](https://www.surgex.pt/en#faq): Common questions about our services, pricing, and process
+- [Process](https://www.surgex.pt/en#process): How we work — from consultation to delivery
