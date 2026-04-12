@@ -6,7 +6,13 @@
     "phone": "+351 915 109 181",
     "email": "contact@surgex.pt",
     "address": "Lisbon, Portugal",
-    "type": "ProfessionalService"
+    "type": "ProfessionalService",
+    "geo": { "latitude": 38.7223, "longitude": -9.1393 },
+    "priceRange": "€€",
+    "sameAs": [
+      "https://www.linkedin.com/company/surgex-pt",
+      "https://www.instagram.com/surgex.pt"
+    ]
   },
   "ui": {
     "skipToContent": "Skip to content",

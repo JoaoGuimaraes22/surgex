@@ -106,6 +106,21 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
         addressCountry: "PT",
       },
     }),
+    ...(dict.metadata.geo && {
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: dict.metadata.geo.latitude,
+        longitude: dict.metadata.geo.longitude,
+      },
+    }),
+    openingHoursSpecification: {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      opens: "09:00",
+      closes: "18:00",
+    },
+    ...(dict.metadata.priceRange && { priceRange: dict.metadata.priceRange }),
+    ...(dict.metadata.sameAs && { sameAs: dict.metadata.sameAs }),
   };
 
   return (

@@ -59,11 +59,35 @@ export default async function BlogPage({
   const blogDict = await getBlogDictionary(lang);
   const posts = getAllPosts(lang);
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: blogDict.meta.title,
+    description: blogDict.meta.description,
+    url: `${siteUrl}/${lang}/blog`,
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: posts.length,
+      itemListElement: posts.slice(0, 10).map((post, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        name: post.title,
+        url: `${siteUrl}/${lang}/blog/${post.slug}`,
+      })),
+    },
+  };
+
   return (
     <ThemeProvider>
       <BackgroundSphere />
       <Navbar dict={dict.navbar} lang={lang} />
       <main>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(jsonLd).replace(/</g, "\u003c"),
+          }}
+        />
         <section className="relative z-[5] overflow-hidden px-10 pt-32 pb-24">
           {/* Section header */}
           <div className="mb-16">
