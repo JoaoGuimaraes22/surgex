@@ -10,7 +10,7 @@ export default function Footer({
   };
 }) {
   return (
-    <footer className="relative z-[5] overflow-hidden border-t border-muted/20 px-10 pt-12 pb-32">
+    <footer className="relative z-[5] overflow-hidden border-t border-muted/20 px-6 pt-12 pb-32 md:px-10">
       <div className="flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
         {/* Brand */}
         <div className="text-sm font-bold uppercase tracking-[4px]">
@@ -19,7 +19,7 @@ export default function Footer({
         </div>
 
         {/* Nav links */}
-        <nav className="flex gap-8">
+        <nav className="flex flex-wrap gap-x-8 gap-y-3">
           {dict.links.map((link) => (
             <a
               key={link.href}
@@ -38,7 +38,7 @@ export default function Footer({
           {dict.copyright}
         </div>
         {dict.legal && (
-          <nav className="flex gap-6">
+          <nav className="flex flex-wrap gap-x-6 gap-y-2">
             {dict.legal.map((link) => (
               <a
                 key={link.href}

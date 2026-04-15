@@ -141,8 +141,13 @@ export default function ProjectsGallery({
     ? visibleProjects.filter((p) => p.location === cityFilter)
     : visibleProjects;
 
-  // Map niche display names to stable nav IDs (nav IDs are English-based, consistent across locales)
+  // Map niche display names to stable nav IDs by matching labels
   const nicheToNavId: Record<string, string> = {};
+  for (const nav of dict.nicheNav) {
+    nicheToNavId[nav.label] = nav.id;
+  }
+
+  // Group projects by niche
   const nicheGroups: Record<string, Project[]> = {};
   for (const project of filteredProjects) {
     if (!nicheGroups[project.niche]) {
@@ -150,15 +155,13 @@ export default function ProjectsGallery({
     }
     nicheGroups[project.niche].push(project);
   }
-  // Match niche display names to nav IDs by order
-  const allNicheGroups: Record<string, boolean> = {};
-  for (const project of visibleProjects) {
-    allNicheGroups[project.niche] = true;
-  }
-  const allNicheNames = Object.keys(allNicheGroups);
-  for (let i = 0; i < allNicheNames.length; i++) {
-    nicheToNavId[allNicheNames[i]] = dict.nicheNav[i]?.id ?? slugify(allNicheNames[i]);
-  }
+
+  // Sort niche groups to match nicheNav order
+  const navOrder = dict.nicheNav.map((n) => n.label);
+  const sortedNicheEntries = Object.entries(nicheGroups).sort(
+    (a, b) => (navOrder.indexOf(a[0]) === -1 ? 999 : navOrder.indexOf(a[0])) -
+              (navOrder.indexOf(b[0]) === -1 ? 999 : navOrder.indexOf(b[0]))
+  );
 
   return (
     <section className="relative z-[5] overflow-hidden px-6 pt-32 pb-24 md:px-10">
@@ -241,8 +244,8 @@ export default function ProjectsGallery({
           </motion.div>
 
           {/* Niche groups */}
-          {Object.entries(nicheGroups).map(([niche, projects]) => (
-            <div key={niche} id={nicheToNavId[niche]} className="mb-16 last:mb-0 scroll-mt-28">
+          {sortedNicheEntries.map(([niche, projects]) => (
+            <div key={niche} id={nicheToNavId[niche] ?? slugify(niche)} className="mb-16 last:mb-0 scroll-mt-28">
               <motion.div
                 className="mb-6 flex items-center justify-between"
                 initial={{ opacity: 0, x: -10 }}
