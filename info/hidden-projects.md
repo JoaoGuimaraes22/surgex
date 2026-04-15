@@ -6,6 +6,7 @@ Projects hidden from the portfolio while prospects are in active sales conversat
 
 - `revicar` — Revicar (interested, 2026-04-15)
 - `vet-lpda` — LPDA Carcavelos (interested, 2026-04-15)
+- `laundry-grace` — Grace Laundry (interested, 2026-04-15)
 
 ## How to Add/Remove
 

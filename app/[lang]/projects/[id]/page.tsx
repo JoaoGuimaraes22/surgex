@@ -8,7 +8,7 @@ import ProjectShowcase from "../../_components/project-showcase";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.surgex.pt";
 
 // TEMP: hide projects for interested prospects (remove when no longer needed)
-const HIDDEN_IDS = ["revicar", "vet-lpda"];
+const HIDDEN_IDS = ["revicar", "vet-lpda", "laundry-grace"];
 
 export async function generateStaticParams() {
   const dict = await getDictionary("en");
