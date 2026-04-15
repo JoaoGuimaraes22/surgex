@@ -8,6 +8,7 @@ Projects hidden from the portfolio while prospects are in active sales conversat
 - `vet-lpda` — LPDA Carcavelos (interested, 2026-04-15)
 - `laundry-grace` — Grace Laundry (interested, 2026-04-15)
 - `barbershop-specialone` — Special One Barbershop (interested, 2026-04-15)
+- `harvey` — Harvey Cabeleireiro (interested, 2026-04-15, meeting 2026-04-16 11h30)
 
 ## How to Add/Remove
 
