@@ -26,10 +26,14 @@ export default function Portfolio({
   };
   lang: string;
 }) {
+  // TEMP: hide projects for interested prospects (remove when no longer needed)
+  const HIDDEN_IDS = ["revicar", "vet-lpda"];
+  const visible = dict.projects.filter((p) => !HIDDEN_IDS.includes(p.id));
+
   // Pick first 6 unique niches for diverse homepage showcase
-  const featured: typeof dict.projects = [];
+  const featured: typeof visible = [];
   const seen = new Set<string>();
-  for (const p of dict.projects) {
+  for (const p of visible) {
     const key = p.niche ?? p.category;
     if (!seen.has(key) && featured.length < 6) {
       featured.push(p);

@@ -7,11 +7,16 @@ import ProjectShowcase from "../../_components/project-showcase";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.surgex.pt";
 
+// TEMP: hide projects for interested prospects (remove when no longer needed)
+const HIDDEN_IDS = ["revicar", "vet-lpda"];
+
 export async function generateStaticParams() {
   const dict = await getDictionary("en");
-  return dict.portfolio.projects.flatMap((p: { id: string }) =>
-    ["en", "pt"].map((lang) => ({ lang, id: p.id }))
-  );
+  return dict.portfolio.projects
+    .filter((p: { id: string }) => !HIDDEN_IDS.includes(p.id))
+    .flatMap((p: { id: string }) =>
+      ["en", "pt"].map((lang) => ({ lang, id: p.id }))
+    );
 }
 
 export async function generateMetadata({
@@ -75,6 +80,7 @@ export default async function ProjectPage({
   if (!hasLocale(lang)) notFound();
 
   const dict = await getDictionary(lang);
+  if (HIDDEN_IDS.includes(id)) notFound();
   const project = dict.portfolio.projects.find(
     (p: { id: string }) => p.id === id
   );

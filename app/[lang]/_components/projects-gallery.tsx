@@ -121,11 +121,15 @@ export default function ProjectsGallery({
   };
   lang: string;
 }) {
+  // TEMP: hide projects for interested prospects (remove when no longer needed)
+  const HIDDEN_IDS = ["revicar", "vet-lpda"];
+  const visibleProjects = portfolio.projects.filter((p) => !HIDDEN_IDS.includes(p.id));
+
   const [cityFilter, setCityFilter] = useState<string | null>(null);
 
   // Get unique cities sorted by count
   const cityCounts: Record<string, number> = {};
-  for (const p of portfolio.projects) {
+  for (const p of visibleProjects) {
     if (p.location) cityCounts[p.location] = (cityCounts[p.location] || 0) + 1;
   }
   const cities = Object.entries(cityCounts)
@@ -134,8 +138,8 @@ export default function ProjectsGallery({
 
   // Filter projects by city if active
   const filteredProjects = cityFilter
-    ? portfolio.projects.filter((p) => p.location === cityFilter)
-    : portfolio.projects;
+    ? visibleProjects.filter((p) => p.location === cityFilter)
+    : visibleProjects;
 
   // Map niche display names to stable nav IDs (nav IDs are English-based, consistent across locales)
   const nicheToNavId: Record<string, string> = {};
@@ -148,7 +152,7 @@ export default function ProjectsGallery({
   }
   // Match niche display names to nav IDs by order
   const allNicheGroups: Record<string, boolean> = {};
-  for (const project of portfolio.projects) {
+  for (const project of visibleProjects) {
     allNicheGroups[project.niche] = true;
   }
   const allNicheNames = Object.keys(allNicheGroups);

@@ -7,7 +7,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 
   const pages = ["", "/projects", "/services"];
-  const projectIds = enDict.portfolio.projects.map((p) => p.id);
+  // TEMP: hide projects for interested prospects (remove when no longer needed)
+  const HIDDEN_IDS = ["revicar", "vet-lpda"];
+  const projectIds = enDict.portfolio.projects
+    .filter((p) => !HIDDEN_IDS.includes(p.id))
+    .map((p) => p.id);
 
   const staticPages = pages.flatMap((page) =>
     i18n.locales.map((lang) => ({
