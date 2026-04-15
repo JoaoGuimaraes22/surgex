@@ -27,7 +27,7 @@ export default function Portfolio({
   lang: string;
 }) {
   // TEMP: hide projects for interested prospects (remove when no longer needed)
-  const HIDDEN_IDS = ["revicar", "vet-lpda", "laundry-grace"];
+  const HIDDEN_IDS = ["revicar", "vet-lpda", "laundry-grace", "barbershop-specialone"];
   const visible = dict.projects.filter((p) => !HIDDEN_IDS.includes(p.id));
 
   // Pick first 6 unique niches for diverse homepage showcase

@@ -8,7 +8,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const pages = ["", "/projects", "/services"];
   // TEMP: hide projects for interested prospects (remove when no longer needed)
-  const HIDDEN_IDS = ["revicar", "vet-lpda", "laundry-grace"];
+  const HIDDEN_IDS = ["revicar", "vet-lpda", "laundry-grace", "barbershop-specialone"];
   const projectIds = enDict.portfolio.projects
     .filter((p) => !HIDDEN_IDS.includes(p.id))
     .map((p) => p.id);
