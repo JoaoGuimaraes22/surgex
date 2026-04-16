@@ -45,7 +45,10 @@ export async function generateMetadata({ params }: LayoutProps<"/[lang]">): Prom
     description,
     alternates: {
       canonical: `${SITE_URL}/${lang}`,
-      languages: Object.fromEntries(i18n.locales.map((l) => [l, `${SITE_URL}/${l}`])),
+      languages: {
+        ...Object.fromEntries(i18n.locales.map((l) => [l, `${SITE_URL}/${l}`])),
+        "x-default": `${SITE_URL}/${i18n.defaultLocale}`,
+      },
     },
     openGraph: {
       title,
