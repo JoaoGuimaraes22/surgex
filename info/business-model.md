@@ -1,4 +1,4 @@
-I consider us to be are an AI agency and we make (good) money with it. What we do is sit down with customers, listen to how their business processes work and during a workshop, pinpoint places together with them where AI could play a role.
+I consider us to be a digital solutions & AI agency and we make (good) money with it. What we do is sit down with customers, listen to how their business processes work and during a workshop, pinpoint places together with them where AI could play a role.
 
 We then translate that into business cases and pick one (with the client) to start on. We implement the case fully, that is, we build the AI components necessary, the UI (be it website or mobile app) for them to use and write all the backend code, middleware, db management, etc. that comes with it to make a fully working solution.
 
