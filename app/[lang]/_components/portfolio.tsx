@@ -26,20 +26,19 @@ export default function Portfolio({
   };
   lang: string;
 }) {
-  // TEMP: hide projects for interested prospects (remove when no longer needed)
-  const HIDDEN_IDS = ["revicar", "vet-lpda", "laundry-grace", "barbershop-specialone", "harvey", "mm-detalhe", "autobody-jpautopaint"];
-  const visible = dict.projects.filter((p) => !HIDDEN_IDS.includes(p.id));
-
-  // Pick first 6 unique niches for diverse homepage showcase
-  const featured: typeof visible = [];
-  const seen = new Set<string>();
-  for (const p of visible) {
-    const key = p.niche ?? p.category;
-    if (!seen.has(key) && featured.length < 6) {
-      featured.push(p);
-      seen.add(key);
-    }
-  }
+  // Hand-picked homepage showcase (order preserved)
+  const FEATURED_IDS = [
+    "dentist-primehealthcare",
+    "dentist-penedo",
+    "vet-avencas",
+    "vet-cvls",
+    "detailing-ecestetica",
+    "dealership-notoriouscar",
+  ];
+  const byId = new Map(dict.projects.map((p) => [p.id, p]));
+  const featured = FEATURED_IDS.map((id) => byId.get(id)).filter(
+    (p): p is (typeof dict.projects)[number] => Boolean(p),
+  );
 
   return (
     <section id="work" className="relative z-[5] overflow-hidden py-32 px-10">
