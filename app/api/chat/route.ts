@@ -38,7 +38,7 @@ Pricing (starting points — every project gets a custom quote):
 - Website: from 450€ (one-time) — custom design, SEO, mobile-ready, analytics, 2 languages
 - AI Chatbot: from 25€/month — 24/7, custom training, lead capture, multi-language
 - Automation: from 50€/month — custom workflows, email sequences, CRM integration
-- Full Package: from 1,500€ (one-time + monthly) — website + chatbot + automation, priority support
+- Digital Marketing (Facebook, Instagram, TikTok, Ads, etc.): from 150€/month — content strategy, social media management, paid ad campaigns, analytics
 
 Key facts:
 - 50+ projects delivered across 15+ niches (fitness, dental, beauty, veterinary, restaurants, auto detailing, etc.)

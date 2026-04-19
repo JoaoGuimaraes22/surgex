@@ -218,18 +218,18 @@
         "status": "AVAILABLE"
       },
       {
-        "id": "full-package",
+        "id": "digital-marketing",
         "tag": "04",
-        "title": "Full Package",
-        "price": "from 1,500€",
-        "period": "one-time + monthly",
-        "description": "Website + chatbot + automation. Everything your business needs, built together.",
+        "title": "Digital Marketing (Facebook, Instagram, TikTok, Ads, Etc.)",
+        "price": "from 150€",
+        "period": "monthly",
+        "description": "Grow your brand across Meta, TikTok, and Google with content, campaigns, and paid ads.",
         "features": [
-          "Everything Above",
-          "Priority Support",
-          "Quarterly Reviews",
-          "Dedicated Account",
-          "Custom Integrations"
+          "Content Strategy",
+          "Social Media Management",
+          "Paid Ad Campaigns",
+          "Analytics & Reporting",
+          "Monthly Reviews"
         ],
         "status": "RECOMMENDED"
       }

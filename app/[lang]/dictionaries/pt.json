@@ -218,18 +218,18 @@
         "status": "AVAILABLE"
       },
       {
-        "id": "full-package",
+        "id": "digital-marketing",
         "tag": "04",
-        "title": "Pacote Completo",
-        "price": "desde 1.500€",
-        "period": "único + mensal",
-        "description": "Website + chatbot + automação. Tudo o que o seu negócio precisa, construído em conjunto.",
+        "title": "Marketing Digital (Facebook, Instagram, TikTok, Ads, Etc.)",
+        "price": "desde 150€",
+        "period": "mensal",
+        "description": "Faça crescer a sua marca na Meta, TikTok e Google com conteúdo, campanhas e anúncios pagos.",
         "features": [
-          "Tudo o Anterior",
-          "Suporte Prioritário",
-          "Revisões Trimestrais",
-          "Conta Dedicada",
-          "Integrações Personalizadas"
+          "Estratégia de Conteúdo",
+          "Gestão de Redes Sociais",
+          "Campanhas de Anúncios Pagos",
+          "Análise e Relatórios",
+          "Revisões Mensais"
         ],
         "status": "RECOMMENDED"
       }
