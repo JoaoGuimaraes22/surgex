@@ -33,11 +33,11 @@ export default function Portfolio({
     "vet-avencas",
     "vet-cvls",
     "detailing-ecestetica",
-    "dealership-notoriouscar",
+    "auto-bicesse",
   ];
   const byId = new Map(dict.projects.map((p) => [p.id, p]));
   const featured = FEATURED_IDS.map((id) => byId.get(id)).filter(
-    (p): p is (typeof dict.projects)[number] => Boolean(p),
+    (p): p is (typeof dict.projects)[number] => Boolean(p)
   );
 
   return (
@@ -65,53 +65,51 @@ export default function Portfolio({
             viewport={{ once: true, margin: "-50px" }}
             transition={{ duration: 0.6, delay: i * 0.1 }}
           >
-          <Link
-            href={`/${lang}/projects/${project.id}`}
-            className="group relative block aspect-[4/3] overflow-hidden border border-muted/20 bg-muted/5"
-          >
-            {/* Project image */}
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={project.image}
-              alt={project.name}
-              className="h-full w-full object-cover opacity-60 transition-all duration-500 group-hover:scale-105 group-hover:opacity-100"
-            />
+            <Link
+              href={`/${lang}/projects/${project.id}`}
+              className="group relative block aspect-[4/3] overflow-hidden border border-muted/20 bg-muted/5"
+            >
+              {/* Project image */}
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={project.image}
+                alt={project.name}
+                className="h-full w-full object-cover opacity-60 transition-all duration-500 group-hover:scale-105 group-hover:opacity-100"
+              />
 
-            {/* Overlay gradient */}
-            <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent" />
+              {/* Overlay gradient */}
+              <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent" />
 
-            {/* Project info */}
-            <div className="absolute bottom-0 left-0 w-full p-6">
-              <span className="font-mono text-[9px] uppercase tracking-[2px] text-muted">
-                {project.category}
-                {project.location && ` · ${project.location}`}
-              </span>
-              {(project.reviewCount || project.rating) && (
-                <span className="mt-1 block font-mono text-[9px] tracking-[1px] text-foreground/70">
-                  {project.rating && `${project.rating}★`}
-                  {project.reviewCount && project.rating && " · "}
-                  {project.reviewCount && `${project.reviewCount} reviews`}
+              {/* Project info */}
+              <div className="absolute bottom-0 left-0 w-full p-6">
+                <span className="font-mono text-[9px] uppercase tracking-[2px] text-muted">
+                  {project.category}
+                  {project.location && ` · ${project.location}`}
                 </span>
-              )}
-              <h3 className="mt-2 text-lg font-light tracking-[-0.5px]">
-                {project.name}
-              </h3>
+                {(project.reviewCount || project.rating) && (
+                  <span className="mt-1 block font-mono text-[9px] tracking-[1px] text-foreground/70">
+                    {project.rating && `${project.rating}★`}
+                    {project.reviewCount && project.rating && " · "}
+                    {project.reviewCount && `${project.reviewCount} reviews`}
+                  </span>
+                )}
+                <h3 className="mt-2 text-lg font-light tracking-[-0.5px]">{project.name}</h3>
 
-              {/* CTA line */}
-              <div className="mt-4 flex items-center gap-3 opacity-0 transition-all duration-300 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0">
-                <span className="font-mono text-[10px] uppercase tracking-[2px] text-muted">
-                  {dict.cta}
-                </span>
-                <div className="h-px w-8 bg-foreground transition-all duration-300 group-hover:w-16" />
+                {/* CTA line */}
+                <div className="mt-4 flex items-center gap-3 opacity-0 transition-all duration-300 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0">
+                  <span className="font-mono text-[10px] uppercase tracking-[2px] text-muted">
+                    {dict.cta}
+                  </span>
+                  <div className="h-px w-8 bg-foreground transition-all duration-300 group-hover:w-16" />
+                </div>
               </div>
-            </div>
 
-            {/* Corner accent */}
-            <div className="absolute top-4 right-4 h-6 w-6 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-              <div className="absolute top-0 right-0 h-full w-px bg-foreground" />
-              <div className="absolute top-0 right-0 h-px w-full bg-foreground" />
-            </div>
-          </Link>
+              {/* Corner accent */}
+              <div className="absolute top-4 right-4 h-6 w-6 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                <div className="absolute top-0 right-0 h-full w-px bg-foreground" />
+                <div className="absolute top-0 right-0 h-px w-full bg-foreground" />
+              </div>
+            </Link>
           </motion.div>
         ))}
       </div>
