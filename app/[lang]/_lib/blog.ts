@@ -13,6 +13,7 @@ export type BlogPostMeta = {
   locale: string;
   image?: string;
   readingTime: number;
+  quickAnswer?: string;
 };
 
 export type BlogPost = BlogPostMeta & {
@@ -41,6 +42,7 @@ export function getAllPosts(locale: string): BlogPostMeta[] {
         locale: data.locale as string,
         image: data.image as string | undefined,
         readingTime: (data.readingTime as number) ?? 5,
+        quickAnswer: data.quickAnswer as string | undefined,
       };
     })
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
@@ -68,6 +70,7 @@ export function getPostBySlug(
         locale: data.locale as string,
         image: data.image as string | undefined,
         readingTime: (data.readingTime as number) ?? 5,
+        quickAnswer: data.quickAnswer as string | undefined,
         content,
       };
     }

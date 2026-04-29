@@ -1,13 +1,32 @@
 import type { MetadataRoute } from "next";
+import { SITE_URL } from "./[lang]/_lib/seo";
+
+const AI_CRAWLERS = [
+  "GPTBot",
+  "ChatGPT-User",
+  "OAI-SearchBot",
+  "ClaudeBot",
+  "Claude-Web",
+  "anthropic-ai",
+  "PerplexityBot",
+  "Perplexity-User",
+  "Google-Extended",
+  "Applebot-Extended",
+  "CCBot",
+  "Bytespider",
+  "DuckAssistBot",
+  "MistralAI-User",
+  "cohere-ai",
+  "meta-externalagent",
+];
 
 export default function robots(): MetadataRoute.Robots {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
-
   return {
-    rules: {
-      userAgent: "*",
-      allow: "/",
-    },
-    sitemap: `${siteUrl}/sitemap.xml`,
+    rules: [
+      { userAgent: "*", allow: "/" },
+      ...AI_CRAWLERS.map((userAgent) => ({ userAgent, allow: "/" })),
+    ],
+    sitemap: `${SITE_URL}/sitemap.xml`,
+    host: SITE_URL,
   };
 }

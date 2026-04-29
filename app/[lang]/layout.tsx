@@ -5,6 +5,8 @@ import { i18n } from "@/i18n-config";
 import { getDictionary, hasLocale } from "./dictionaries";
 import { notFound } from "next/navigation";
 import { Analytics } from "@vercel/analytics/next";
+import { SITE_URL, ogLocale, bcp47Locale, schemaIds } from "./_lib/seo";
+import JsonLd from "./_components/json-ld";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -15,13 +17,6 @@ const jetbrains = JetBrains_Mono({
   variable: "--font-jetbrains",
   subsets: ["latin"],
 });
-
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
-
-const OG_LOCALES: Record<string, string> = {
-  pt: "pt_PT",
-  en: "en_US",
-};
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -56,7 +51,7 @@ export async function generateMetadata({ params }: LayoutProps<"/[lang]">): Prom
       url: `${SITE_URL}/${lang}`,
       siteName: name,
       images: [{ url: `${SITE_URL}/og-image.jpg`, width: 1200, height: 630 }],
-      locale: OG_LOCALES[lang] ?? "en_US",
+      locale: ogLocale(lang),
       type: "website",
     },
     twitter: {
@@ -93,15 +88,18 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
 
   const dict = await getDictionary(lang);
 
-  const jsonLd = {
-    "@context": "https://schema.org",
+  const ids = schemaIds(lang);
+
+  const businessNode = {
     "@type": dict.metadata.type || "LocalBusiness",
+    "@id": ids.business,
     name: dict.metadata.name,
     description: dict.metadata.description,
     url: `${SITE_URL}/${lang}`,
     ...(dict.metadata.phone && { telephone: dict.metadata.phone }),
     ...(dict.metadata.email && { email: dict.metadata.email }),
     image: `${SITE_URL}/og-image.jpg`,
+    logo: `${SITE_URL}/og-image.jpg`,
     ...(dict.metadata.address && {
       address: {
         "@type": "PostalAddress",
@@ -126,6 +124,21 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
     ...(dict.metadata.sameAs && { sameAs: dict.metadata.sameAs }),
   };
 
+  const websiteNode = {
+    "@type": "WebSite",
+    "@id": ids.website,
+    url: `${SITE_URL}/${lang}`,
+    name: dict.metadata.name,
+    description: dict.metadata.description,
+    inLanguage: bcp47Locale(lang),
+    publisher: { "@id": ids.business },
+  };
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [websiteNode, businessNode],
+  };
+
   return (
     <html lang={lang} className={`${inter.variable} ${jetbrains.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">
@@ -135,12 +148,7 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
         >
           {dict.ui.skipToContent}
         </a>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(jsonLd).replace(/</g, "\u003c"),
-          }}
-        />
+        <JsonLd data={jsonLd} />
         {children}
         <Analytics />
       </body>

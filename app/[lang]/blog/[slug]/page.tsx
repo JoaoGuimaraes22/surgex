@@ -12,8 +12,15 @@ import Footer from "../../_components/footer";
 import ChatWidget from "../../_components/chat-widget";
 import WhatsappButton from "../../_components/whatsapp-button";
 import BlogArticle from "../../_components/blog-article";
+import JsonLd from "../../_components/json-ld";
+import {
+  SITE_URL,
+  bcp47Locale,
+  buildBreadcrumb,
+  breadcrumbLabel,
+} from "../../_lib/seo";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.surgex.pt";
+const siteUrl = SITE_URL;
 
 export async function generateStaticParams() {
   const locales = ["en", "pt"] as const;
@@ -115,8 +122,19 @@ export default async function BlogPostPage({
       "@type": "WebPage",
       "@id": `${siteUrl}/${lang}/blog/${slug}`,
     },
-    inLanguage: lang === "pt" ? "pt-PT" : "en",
+    inLanguage: bcp47Locale(lang),
+    ...(post.quickAnswer && {
+      speakable: {
+        "@type": "SpeakableSpecification",
+        cssSelector: [".quick-answer"],
+      },
+    }),
   };
+
+  const breadcrumbJsonLd = buildBreadcrumb(lang, [
+    { name: breadcrumbLabel(lang, "blog"), path: "/blog" },
+    { name: post.title, path: `/blog/${slug}` },
+  ]);
 
   const otherLang2 = lang === "pt" ? "en" : "pt";
   const localeAlternates = {
@@ -129,10 +147,8 @@ export default async function BlogPostPage({
       <BackgroundSphere />
       <Navbar dict={dict.navbar} lang={lang} alternates={localeAlternates} />
       <main>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
+        <JsonLd data={jsonLd} />
+        <JsonLd data={breadcrumbJsonLd} />
         <BlogArticle
           post={post}
           dict={{
@@ -140,6 +156,7 @@ export default async function BlogPostPage({
             publishedOn: blogDict.publishedOn,
             category: blogDict.category,
             minuteRead: blogDict.minuteRead,
+            quickAnswerLabel: blogDict.quickAnswerLabel,
           }}
           lang={lang}
         />

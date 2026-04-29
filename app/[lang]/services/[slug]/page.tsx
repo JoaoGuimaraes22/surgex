@@ -11,8 +11,10 @@ import Footer from "../../_components/footer";
 import ChatWidget from "../../_components/chat-widget";
 import WhatsappButton from "../../_components/whatsapp-button";
 import ServiceLanding from "../../_components/service-landing";
+import JsonLd from "../../_components/json-ld";
+import { SITE_URL, buildBreadcrumb, breadcrumbLabel } from "../../_lib/seo";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.surgex.pt";
+const siteUrl = SITE_URL;
 
 const SERVICE_SLUGS = [
   "ai-solutions",
@@ -116,21 +118,19 @@ export default async function ServiceDetailPage({
       }
     : null;
 
+  const breadcrumbJsonLd = buildBreadcrumb(lang, [
+    { name: breadcrumbLabel(lang, "services"), path: "/services" },
+    { name: service.title, path: `/services/${slug}` },
+  ]);
+
   return (
     <ThemeProvider>
       <BackgroundSphere />
       <Navbar dict={dict.navbar} lang={lang} />
       <main>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
-        {faqJsonLd && (
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
-          />
-        )}
+        <JsonLd data={jsonLd} />
+        {faqJsonLd && <JsonLd data={faqJsonLd} />}
+        <JsonLd data={breadcrumbJsonLd} />
         <ServiceLanding service={service} lang={lang} />
       </main>
       <Footer dict={dict.footer} />

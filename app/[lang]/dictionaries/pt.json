@@ -11,7 +11,9 @@
     "priceRange": "€€",
     "sameAs": [
       "https://www.linkedin.com/company/surgex-pt",
-      "https://www.instagram.com/surgex.pt"
+      "https://www.instagram.com/surgex.pt",
+      "https://www.facebook.com/profile.php?id=61573244306554",
+      "https://x.com/SurgeX_AI"
     ]
   },
   "ui": {
@@ -44,7 +46,8 @@
       },
       {
         "id": "about",
-        "label": "Sobre"
+        "label": "Sobre",
+        "href": "/pt/about"
       },
       {
         "id": "blog",
@@ -1548,6 +1551,79 @@
       "text": "Acreditamos que todo negócio merece IA que realmente funciona — não uma demo, não uma prova de conceito. Ferramentas reais que poupam tempo real."
     }
   },
+  "aboutPage": {
+    "meta": {
+      "title": "Sobre a SurgeX | Agência de IA em Lisboa Fundada por Sebastião Guimarães",
+      "description": "Conheça o fundador da SurgeX. Somos uma agência de IA em Lisboa que constrói soluções personalizadas — websites, automações, chatbots — para negócios em todo o Portugal."
+    },
+    "hero": {
+      "label": "SOBRE",
+      "headline": "Sobre a SurgeX.",
+      "subheadline": "Uma agência de IA em Lisboa, fundada e dirigida por Sebastião Guimarães. Construímos IA, automação e websites à medida para negócios em todo o Portugal — qualidade premium, preços justos, sem intermediários."
+    },
+    "whatWeDo": {
+      "label": "O QUE FAZEMOS",
+      "headline": "Seis serviços. Uma missão.",
+      "description": "Ouvimos o seu negócio, encontramos onde a IA ajuda e construímos. Cada serviço é entregue pessoalmente pelo fundador, com uma rede de especialistas de confiança para projetos maiores.",
+      "services": [
+        {
+          "title": "Soluções de IA",
+          "description": "Chatbots personalizados, integrações de IA e automações inteligentes treinadas no seu negócio.",
+          "href": "/pt/services/ai-solutions"
+        },
+        {
+          "title": "Websites",
+          "description": "Websites rápidos e modernos com Next.js — multilingues, prontos para SEO, desenhados para converter.",
+          "href": "/pt/services/websites"
+        },
+        {
+          "title": "Automação",
+          "description": "Workflows que eliminam trabalho manual — marcações, follow-ups, relatórios, encaminhamento de leads.",
+          "href": "/pt/services/automation"
+        },
+        {
+          "title": "Marketing",
+          "description": "Conteúdo, social e campanhas assistidas por IA — focadas no que realmente move o ponteiro.",
+          "href": "/pt/services/marketing"
+        },
+        {
+          "title": "GEO/AEO",
+          "description": "Seja citado pelo ChatGPT, Perplexity e AI Overviews da Google — a nova fronteira da pesquisa.",
+          "href": "/pt/services/geo-aeo"
+        },
+        {
+          "title": "Formação",
+          "description": "Workshops e sessões 1:1 que ensinam a sua equipa a usar ferramentas de IA que encaixam no vosso workflow.",
+          "href": "/pt/services/training"
+        }
+      ],
+      "cta": "Ver todos os serviços",
+      "ctaHref": "/pt/services"
+    },
+    "location": {
+      "label": "LOCALIZAÇÃO",
+      "headline": "Sediados em Lisboa. A trabalhar em todo o lado.",
+      "description": "Operamos a partir de Lisboa, Portugal — mas todo o trabalho é feito online. Reuniões de descoberta, desenvolvimento, suporte: a mesma velocidade e qualidade, esteja na rua ao lado ou no outro extremo do país.",
+      "cityLabel": "CIDADE",
+      "city": "Lisboa",
+      "country": "Portugal",
+      "emailLabel": "EMAIL",
+      "email": "contact@surgex.pt",
+      "phoneLabel": "TELEFONE",
+      "phone": "+351 915 109 181"
+    },
+    "connect": {
+      "label": "CONECTAR",
+      "headline": "Perfis verificados.",
+      "description": "A mesma SurgeX em todo o lado. Estes são os canais oficiais — o resto não somos nós.",
+      "links": [
+        { "label": "LinkedIn", "href": "https://www.linkedin.com/company/surgex-pt" },
+        { "label": "Instagram", "href": "https://www.instagram.com/surgex.pt" },
+        { "label": "Facebook", "href": "https://www.facebook.com/profile.php?id=61573244306554" },
+        { "label": "X", "href": "https://x.com/SurgeX_AI" }
+      ]
+    }
+  },
   "stats": {
     "label": "MÉTRICAS",
     "items": [
@@ -1649,7 +1725,7 @@
       },
       {
         "label": "Sobre",
-        "href": "#about"
+        "href": "/pt/about"
       },
       {
         "label": "Blog",

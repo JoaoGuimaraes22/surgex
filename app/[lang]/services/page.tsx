@@ -7,8 +7,10 @@ import Footer from "../_components/footer";
 import ChatWidget from "../_components/chat-widget";
 import WhatsappButton from "../_components/whatsapp-button";
 import ServiceHubCard from "../_components/service-hub-card";
+import JsonLd from "../_components/json-ld";
+import { SITE_URL, buildBreadcrumb, breadcrumbLabel } from "../_lib/seo";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.surgex.pt";
+const siteUrl = SITE_URL;
 
 export async function generateMetadata({
   params,
@@ -79,15 +81,17 @@ export default async function ServicesPage({
     },
   };
 
+  const breadcrumbJsonLd = buildBreadcrumb(lang, [
+    { name: breadcrumbLabel(lang, "services"), path: "/services" },
+  ]);
+
   return (
     <ThemeProvider>
       <BackgroundSphere />
       <Navbar dict={dict.navbar} lang={lang} />
       <main>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
+        <JsonLd data={jsonLd} />
+        <JsonLd data={breadcrumbJsonLd} />
         <section className="relative z-[5] overflow-hidden px-10 pt-32 pb-24">
           {/* Section header */}
           <div className="mb-16">

@@ -2,11 +2,12 @@ import type { MetadataRoute } from "next";
 import { i18n } from "@/i18n-config";
 import enDict from "./[lang]/dictionaries/en.json";
 import { getAllSlugs } from "./[lang]/_lib/blog";
+import { SITE_URL } from "./[lang]/_lib/seo";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+  const siteUrl = SITE_URL;
 
-  const pages = ["", "/projects", "/services"];
+  const pages = ["", "/about", "/projects", "/services"];
   // TEMP: hide projects for interested prospects (remove when no longer needed)
   const HIDDEN_IDS = ["revicar", "vet-lpda", "laundry-grace", "barbershop-specialone", "harvey", "mm-detalhe", "autobody-jpautopaint"];
   const projectIds = enDict.portfolio.projects

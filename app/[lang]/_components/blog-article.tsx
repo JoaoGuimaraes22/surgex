@@ -74,12 +74,14 @@ export default function BlogArticle({
     readingTime: number;
     content: string;
     locale: string;
+    quickAnswer?: string;
   };
   dict: {
     backToBlog: string;
     publishedOn: string;
     category: string;
     minuteRead: string;
+    quickAnswerLabel: string;
   };
   lang: string;
 }) {
@@ -121,6 +123,17 @@ export default function BlogArticle({
 
         {/* Divider */}
         <div className="my-8 h-px w-16 bg-muted" />
+
+        {post.quickAnswer && (
+          <aside className="quick-answer mb-12 border border-foreground/20 bg-foreground/[0.03] p-6">
+            <div className="mb-3 font-mono text-[9px] uppercase tracking-[2px] text-muted">
+              {dict.quickAnswerLabel}
+            </div>
+            <p className="text-base leading-relaxed text-foreground">
+              {post.quickAnswer}
+            </p>
+          </aside>
+        )}
 
         {/* MDX Content */}
         <MDXRemote source={post.content} components={mdxComponents} />

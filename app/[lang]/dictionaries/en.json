@@ -11,7 +11,9 @@
     "priceRange": "€€",
     "sameAs": [
       "https://www.linkedin.com/company/surgex-pt",
-      "https://www.instagram.com/surgex.pt"
+      "https://www.instagram.com/surgex.pt",
+      "https://www.facebook.com/profile.php?id=61573244306554",
+      "https://x.com/SurgeX_AI"
     ]
   },
   "ui": {
@@ -44,7 +46,8 @@
       },
       {
         "id": "about",
-        "label": "About"
+        "label": "About",
+        "href": "/en/about"
       },
       {
         "id": "blog",
@@ -1548,6 +1551,79 @@
       "text": "We believe every business deserves AI that actually works — not a demo, not a proof of concept. Real tools that save real time."
     }
   },
+  "aboutPage": {
+    "meta": {
+      "title": "About SurgeX | Lisbon AI Agency Founded by Sebastião Guimarães",
+      "description": "Meet the founder of SurgeX. We're a Lisbon-based AI agency building bespoke solutions — websites, automations, chatbots — for businesses across Portugal."
+    },
+    "hero": {
+      "label": "ABOUT",
+      "headline": "About SurgeX.",
+      "subheadline": "A Lisbon-based AI agency, founded and run by Sebastião Guimarães. We build bespoke AI, automation, and web solutions for businesses across Portugal — premium quality, fair prices, no layers."
+    },
+    "whatWeDo": {
+      "label": "WHAT WE DO",
+      "headline": "Six services. One mission.",
+      "description": "We listen to your business, find where AI helps, and build it. Every service is delivered personally by the founder, with a trusted network of specialists for larger projects.",
+      "services": [
+        {
+          "title": "AI Solutions",
+          "description": "Custom chatbots, AI integrations, and intelligent automations trained on your business.",
+          "href": "/en/services/ai-solutions"
+        },
+        {
+          "title": "Websites",
+          "description": "Fast, modern websites built with Next.js — multilingual, SEO-ready, designed to convert.",
+          "href": "/en/services/websites"
+        },
+        {
+          "title": "Automation",
+          "description": "Workflows that eliminate manual work — bookings, follow-ups, reporting, lead routing.",
+          "href": "/en/services/automation"
+        },
+        {
+          "title": "Marketing",
+          "description": "Content, social, and AI-assisted campaigns built around what actually moves the needle.",
+          "href": "/en/services/marketing"
+        },
+        {
+          "title": "GEO/AEO",
+          "description": "Get cited by ChatGPT, Perplexity, and Google's AI Overviews — the new search frontier.",
+          "href": "/en/services/geo-aeo"
+        },
+        {
+          "title": "Training",
+          "description": "Workshops and 1:1 sessions teaching your team to use AI tools that fit your workflows.",
+          "href": "/en/services/training"
+        }
+      ],
+      "cta": "Explore all services",
+      "ctaHref": "/en/services"
+    },
+    "location": {
+      "label": "LOCATION",
+      "headline": "Based in Lisbon. Working everywhere.",
+      "description": "We operate from Lisbon, Portugal — but the entire engagement happens online. Discovery calls, builds, support: same speed and quality whether you're across the street or across the country.",
+      "cityLabel": "CITY",
+      "city": "Lisbon",
+      "country": "Portugal",
+      "emailLabel": "EMAIL",
+      "email": "contact@surgex.pt",
+      "phoneLabel": "PHONE",
+      "phone": "+351 915 109 181"
+    },
+    "connect": {
+      "label": "CONNECT",
+      "headline": "Verified profiles.",
+      "description": "Same SurgeX everywhere. These are the official channels — anything else isn't us.",
+      "links": [
+        { "label": "LinkedIn", "href": "https://www.linkedin.com/company/surgex-pt" },
+        { "label": "Instagram", "href": "https://www.instagram.com/surgex.pt" },
+        { "label": "Facebook", "href": "https://www.facebook.com/profile.php?id=61573244306554" },
+        { "label": "X", "href": "https://x.com/SurgeX_AI" }
+      ]
+    }
+  },
   "stats": {
     "label": "METRICS",
     "items": [
@@ -1649,7 +1725,7 @@
       },
       {
         "label": "About",
-        "href": "#about"
+        "href": "/en/about"
       },
       {
         "label": "Blog",
