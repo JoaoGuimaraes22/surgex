@@ -14,6 +14,7 @@ import Contact from "./_components/contact";
 import Footer from "./_components/footer";
 import ChatWidget from "./_components/chat-widget";
 import WhatsappButton from "./_components/whatsapp-button";
+import JsonLd from "./_components/json-ld";
 
 export default async function Home({ params }: PageProps<"/[lang]">) {
   const { lang } = await params;
@@ -39,12 +40,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
     <ThemeProvider>
       <Navbar dict={dict.navbar} />
       <main>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(faqJsonLd).replace(/</g, "\u003c"),
-          }}
-        />
+        <JsonLd data={faqJsonLd} />
         <Hero dict={dict.hero} />
         <Services dict={dict.services} lang={lang} />
         <Pricing dict={dict.pricing} />
