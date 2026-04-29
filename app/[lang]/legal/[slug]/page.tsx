@@ -10,8 +10,9 @@ import BackgroundSphere from "../../_components/background-sphere";
 import Footer from "../../_components/footer";
 import ChatWidget from "../../_components/chat-widget";
 import WhatsappButton from "../../_components/whatsapp-button";
+import { SITE_URL, ogLocale } from "../../_lib/seo";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.surgex.pt";
+const siteUrl = SITE_URL;
 
 const validSlugs = ["privacy", "terms", "cookies"] as const;
 type LegalSlug = (typeof validSlugs)[number];
@@ -62,7 +63,7 @@ export async function generateMetadata({
       images: [
         { url: `${siteUrl}/og-image.jpg`, width: 1200, height: 630 },
       ],
-      locale: lang === "pt" ? "pt_PT" : "en_US",
+      locale: ogLocale(lang),
     },
     twitter: {
       card: "summary_large_image",

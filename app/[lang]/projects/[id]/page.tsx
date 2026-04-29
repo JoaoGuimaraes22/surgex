@@ -4,8 +4,10 @@ import ThemeProvider from "../../_components/theme-provider";
 import Navbar from "../../_components/navbar";
 import BackgroundSphere from "../../_components/background-sphere";
 import ProjectShowcase from "../../_components/project-showcase";
+import JsonLd from "../../_components/json-ld";
+import { SITE_URL, ogLocale } from "../../_lib/seo";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.surgex.pt";
+const siteUrl = SITE_URL;
 
 // TEMP: hide projects for interested prospects (remove when no longer needed)
 const HIDDEN_IDS = ["revicar", "vet-lpda", "laundry-grace", "barbershop-specialone", "harvey", "mm-detalhe", "autobody-jpautopaint"];
@@ -52,7 +54,7 @@ export async function generateMetadata({
       description,
       url: `${siteUrl}/${lang}/projects/${id}`,
       type: "website",
-      locale: lang === "pt" ? "pt_PT" : "en_US",
+      locale: ogLocale(lang),
       images: [
         {
           url: `${siteUrl}${project.image}`,
@@ -123,10 +125,7 @@ export default async function ProjectPage({
       <BackgroundSphere />
       <Navbar dict={dict.navbar} hideLinks backHref={`/${lang}/projects`} />
       <main>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
+        <JsonLd data={jsonLd} />
         <ProjectShowcase project={project} portfolio={dict.portfolio} lang={lang} />
       </main>
     </ThemeProvider>

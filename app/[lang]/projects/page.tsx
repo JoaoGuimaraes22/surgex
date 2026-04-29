@@ -6,6 +6,10 @@ import BackgroundSphere from "../_components/background-sphere";
 import ProjectsGallery from "../_components/projects-gallery";
 import Footer from "../_components/footer";
 import ChatWidget from "../_components/chat-widget";
+import JsonLd from "../_components/json-ld";
+import { SITE_URL, ogLocale } from "../_lib/seo";
+
+const siteUrl = SITE_URL;
 
 export async function generateMetadata({
   params,
@@ -15,8 +19,6 @@ export async function generateMetadata({
   const { lang } = await params;
   if (!hasLocale(lang)) return {};
   const dict = await getDictionary(lang);
-  const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://www.surgex.pt";
 
   return {
     title: dict.projectsPage.meta.title,
@@ -34,7 +36,7 @@ export async function generateMetadata({
       url: `${siteUrl}/${lang}/projects`,
       type: "website",
       images: [{ url: `${siteUrl}/og-image.jpg`, width: 1200, height: 630 }],
-      locale: lang === "pt" ? "pt_PT" : "en_US",
+      locale: ogLocale(lang),
     },
     twitter: {
       card: "summary_large_image",
@@ -54,7 +56,6 @@ export default async function ProjectsPage({
   if (!hasLocale(lang)) notFound();
 
   const dict = await getDictionary(lang);
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.surgex.pt";
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -91,10 +92,7 @@ export default async function ProjectsPage({
         nicheNav={{ items: dict.projectsPage.nicheNav, label: dict.projectsPage.nicheNavLabel }}
       />
       <main>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
+        <JsonLd data={jsonLd} />
         <ProjectsGallery
           dict={dict.projectsPage}
           portfolio={dict.portfolio}

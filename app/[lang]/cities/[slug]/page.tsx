@@ -7,8 +7,10 @@ import Footer from "../../_components/footer";
 import ChatWidget from "../../_components/chat-widget";
 import WhatsappButton from "../../_components/whatsapp-button";
 import CityLanding from "../../_components/city-landing";
+import JsonLd from "../../_components/json-ld";
+import { SITE_URL, ogLocale } from "../../_lib/seo";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.surgex.pt";
+const siteUrl = SITE_URL;
 
 const CITY_SLUGS = ["carcavelos"];
 
@@ -48,7 +50,7 @@ export async function generateMetadata({
       url: `${siteUrl}/${lang}/cities/${slug}`,
       type: "website",
       images: [{ url: `${siteUrl}/og-image.jpg`, width: 1200, height: 630 }],
-      locale: lang === "pt" ? "pt_PT" : "en_US",
+      locale: ogLocale(lang),
     },
     twitter: {
       card: "summary_large_image",
@@ -106,10 +108,7 @@ export default async function CityPage({
       <BackgroundSphere />
       <Navbar dict={dict.navbar} lang={lang} />
       <main>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
+        <JsonLd data={jsonLd} />
         <CityLanding dict={city} projects={cityProjects} lang={lang} />
       </main>
       <Footer dict={dict.footer} />
