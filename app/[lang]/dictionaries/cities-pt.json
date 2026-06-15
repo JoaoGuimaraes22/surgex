@@ -1,14 +1,14 @@
 {
   "meta": {
     "title": "Agência Digital em Carcavelos | SurgeX",
-    "description": "A SurgeX já criou 14+ websites para negócios em Carcavelos — restaurantes, salões, ginásios, clínicas e mais. Sites otimizados com IA e SEO. Veja o nosso portfólio local."
+    "description": "A SurgeX cria websites com IA e otimizados para SEO para negócios em Carcavelos — restaurantes, salões, ginásios, clínicas e mais. Veja demos-conceito do que podemos criar para o seu negócio."
   },
   "cities": {
     "carcavelos": {
       "name": "Carcavelos",
       "label": "PORTFÓLIO_LOCAL",
       "headline": "Agência Digital em Carcavelos.",
-      "description": "De Sassoeiros à Nova até à praia — criamos websites premium para os negócios que fazem Carcavelos funcionar. Restaurantes, barbearias, ginásios, veterinários e muito mais. Resultados reais, avaliações reais.",
+      "description": "De Sassoeiros à Nova até à praia — criámos websites-conceito para o tipo de negócios que fazem Carcavelos funcionar: restaurantes, barbearias, ginásios, veterinários e muito mais. Projetos demonstrativos que mostram como a sua presença online poderia ser.",
       "stats": {
         "projects": "15",
         "avgRating": "4.6",
@@ -18,14 +18,14 @@
       "statsLabels": {
         "projects": "Websites Criados",
         "avgRating": "Avaliação Média Google",
-        "totalReviews": "Avaliações dos Clientes",
+        "totalReviews": "Total de Avaliações Google",
         "niches": "Setores Servidos"
       },
       "projectsLabel": "O_NOSSO_TRABALHO_EM_CARCAVELOS",
-      "projectsHeadline": "O Que Construímos Aqui.",
+      "projectsHeadline": "O Que Podemos Construir Aqui.",
       "viewProject": "Ver Projeto",
       "cta": "Comece o Seu Projeto em Carcavelos",
-      "ctaDescription": "Junte-se a 15 negócios locais que já se destacam online. Construímos algo que vale a pena falar.",
+      "ctaDescription": "Seja o primeiro negócio de Carcavelos que construímos a sério. Criamos algo que vale a pena falar.",
       "ctaButton": "Fale Connosco",
       "disclaimer": "Projetos demonstrativos. Sites-conceito criados pela SurgeX para mostrar o nosso trabalho — sem qualquer afiliação, endosso ou encomenda por parte dos negócios apresentados. Os nomes, avaliações e dados são usados apenas para fins ilustrativos."
     }
