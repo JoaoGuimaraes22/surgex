@@ -23,6 +23,7 @@ export default function Portfolio({
     }[];
     cta: string;
     seeMore: string;
+    disclaimer: string;
   };
   lang: string;
 }) {
@@ -113,6 +114,11 @@ export default function Portfolio({
           </motion.div>
         ))}
       </div>
+
+      {/* Demo disclaimer (legal) */}
+      <p className="mx-auto mt-12 max-w-2xl text-center font-mono text-[10px] leading-relaxed tracking-[0.5px] text-muted/60">
+        {dict.disclaimer}
+      </p>
 
       {/* See More CTA */}
       <div className="mt-16 flex justify-center">

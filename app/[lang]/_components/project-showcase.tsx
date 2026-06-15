@@ -29,6 +29,7 @@ export default function ProjectShowcase({
     reviewsLabel: string;
     ratingLabel: string;
     locationLabel: string;
+    disclaimerSingle: string;
   };
   lang: string;
 }) {
@@ -78,6 +79,11 @@ export default function ProjectShowcase({
           {/* Description */}
           <p className="max-w-md text-sm leading-relaxed text-muted">
             {project.description}
+          </p>
+
+          {/* Demo disclaimer (legal) */}
+          <p className="mt-6 max-w-md font-mono text-[10px] leading-relaxed tracking-[0.5px] text-muted/60">
+            {portfolio.disclaimerSingle}
           </p>
 
           {/* Meta */}

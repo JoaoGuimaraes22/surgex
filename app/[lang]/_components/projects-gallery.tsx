@@ -22,6 +22,7 @@ type ProjectsPageDict = {
   label: string;
   headline: string;
   description: string;
+  disclaimer: string;
   projectCount: string;
   nicheNav: { id: string; label: string }[];
   nicheNavLabel: string;
@@ -187,6 +188,9 @@ export default function ProjectsGallery({
         <span className="mt-3 block font-mono text-[10px] uppercase tracking-[2px] text-foreground/50">
           {dict.projectCount}
         </span>
+        <p className="mt-6 max-w-lg font-mono text-[10px] leading-relaxed tracking-[0.5px] text-muted/60">
+          {dict.disclaimer}
+        </p>
 
         {/* City filter */}
         <div className="mt-8">

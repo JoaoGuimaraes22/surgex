@@ -26,6 +26,7 @@ type CityDict = {
   cta: string;
   ctaDescription: string;
   ctaButton: string;
+  disclaimer: string;
 };
 
 export default function CityLanding({
@@ -155,6 +156,11 @@ export default function CityLanding({
             </motion.div>
           ))}
         </div>
+
+        {/* Demo disclaimer (legal) */}
+        <p className="mt-10 max-w-2xl font-mono text-[10px] leading-relaxed tracking-[0.5px] text-muted/60">
+          {dict.disclaimer}
+        </p>
       </section>
 
       {/* CTA */}

@@ -778,24 +778,6 @@
         "rating": "4.8"
       },
       {
-        "id": "mrbig",
-        "name": "Mr. Big Evolution",
-        "category": "Website",
-        "image": "/portfolio/mrbig.webp",
-        "url": "https://mrbig.vercel.app",
-        "description": "Full-service fitness center in Carcavelos with diverse training modalities and modern facilities.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Multi-language"
-        ],
-        "niche": "Fitness",
-        "location": "Carcavelos",
-        "reviewCount": "780+",
-        "rating": "4.7"
-      },
-      {
         "id": "medspa-headspaportugal",
         "name": "Head Spa Portugal",
         "category": "Website",
@@ -1364,12 +1346,15 @@
     "nicheLabel": "NICHE",
     "reviewsLabel": "GOOGLE_REVIEWS",
     "ratingLabel": "RATING",
-    "locationLabel": "LOCATION"
+    "locationLabel": "LOCATION",
+    "disclaimer": "Demonstration projects. Concept sites built by SurgeX to showcase our work — not affiliated with, endorsed by, or commissioned by the businesses shown. Business names, ratings, and data are used for illustrative purposes only.",
+    "disclaimerSingle": "Demonstration project. A concept site built by SurgeX to showcase our work — not affiliated with, endorsed by, or commissioned by the business shown. The business name, ratings, and data are used for illustrative purposes only."
   },
   "projectsPage": {
     "label": "PROJECTS",
     "headline": "Our Work.",
     "description": "Every project is a custom-built solution. No templates, no shortcuts.",
+    "disclaimer": "Demonstration projects. Concept sites built by SurgeX to showcase our work — not affiliated with, endorsed by, or commissioned by the businesses shown. Business names, ratings, and data are used for illustrative purposes only.",
     "categories": {
       "webDevelopment": {
         "title": "Web Development",
@@ -1493,7 +1478,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "60 projects across 25 industries",
+    "projectCount": "59 projects across 25 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

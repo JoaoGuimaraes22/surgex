@@ -723,24 +723,6 @@
         "rating": "4.8"
       },
       {
-        "id": "mrbig",
-        "name": "Mr. Big Evolution",
-        "category": "Website",
-        "image": "/portfolio/mrbig.webp",
-        "url": "https://mrbig.vercel.app",
-        "description": "Centro de fitness completo em Carcavelos com diversas modalidades de treino e instalacoes modernas.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Multi-language"
-        ],
-        "niche": "Fitness",
-        "location": "Carcavelos",
-        "reviewCount": "780+",
-        "rating": "4.7"
-      },
-      {
         "id": "medspa-headspaportugal",
         "name": "Head Spa Portugal",
         "category": "Website",
@@ -1364,12 +1346,15 @@
     "nicheLabel": "NICHO",
     "reviewsLabel": "AVALIAÇÕES_GOOGLE",
     "ratingLabel": "CLASSIFICAÇÃO",
-    "locationLabel": "LOCALIZAÇÃO"
+    "locationLabel": "LOCALIZAÇÃO",
+    "disclaimer": "Projetos demonstrativos. Sites-conceito criados pela SurgeX para mostrar o nosso trabalho — sem qualquer afiliação, endosso ou encomenda por parte dos negócios apresentados. Os nomes, avaliações e dados são usados apenas para fins ilustrativos.",
+    "disclaimerSingle": "Projeto demonstrativo. Site-conceito criado pela SurgeX para mostrar o nosso trabalho — sem qualquer afiliação, endosso ou encomenda por parte do negócio apresentado. O nome, avaliações e dados são usados apenas para fins ilustrativos."
   },
   "projectsPage": {
     "label": "PROJETOS",
     "headline": "O Nosso Trabalho.",
     "description": "Cada projeto é uma solução feita à medida. Sem templates, sem atalhos.",
+    "disclaimer": "Projetos demonstrativos. Sites-conceito criados pela SurgeX para mostrar o nosso trabalho — sem qualquer afiliação, endosso ou encomenda por parte dos negócios apresentados. Os nomes, avaliações e dados são usados apenas para fins ilustrativos.",
     "categories": {
       "webDevelopment": {
         "title": "Desenvolvimento Web",
@@ -1493,7 +1478,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "60 projetos em 25 setores",
+    "projectCount": "59 projetos em 25 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
