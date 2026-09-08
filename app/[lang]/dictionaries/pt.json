@@ -7,7 +7,10 @@
     "email": "contact@surgex.pt",
     "address": "Lisboa, Portugal",
     "type": "ProfessionalService",
-    "geo": { "latitude": 38.7223, "longitude": -9.1393 },
+    "geo": {
+      "latitude": 38.7223,
+      "longitude": -9.1393
+    },
     "priceRange": "€€",
     "sameAs": [
       "https://www.linkedin.com/company/surgex-pt",
@@ -484,26 +487,6 @@
         "rating": "5.0"
       },
       {
-        "id": "instituto-soares",
-        "name": "Instituto Soares",
-        "category": "Website",
-        "image": "/portfolio/instituto-soares.webp",
-        "url": "https://instituto-soares.vercel.app",
-        "description": "Clínica de quiropraxia e estética avancada com ajustamentos na coluna, depilacao a laser e tratamentos faciais.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Appointment Booking",
-          "Gallery",
-          "Multi-language"
-        ],
-        "niche": "Quiroprática",
-        "location": "Agualva-Cacem",
-        "reviewCount": "155+",
-        "rating": "5.0"
-      },
-      {
         "id": "cleaning-houseshine",
         "name": "House Shine Cascais JV",
         "category": "Website",
@@ -560,25 +543,6 @@
         "rating": "4.7"
       },
       {
-        "id": "dentist-primehealthcare",
-        "name": "Prime Health Care",
-        "category": "Website",
-        "image": "/portfolio/dentist-primehealthcare.webp",
-        "url": "https://dentist-primehealthcare.vercel.app",
-        "description": "Clínica dentaria com atendimento em ingles, especializada em implantes e proteses com procedimentos sem dor.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Appointment Booking",
-          "Multi-language"
-        ],
-        "niche": "Dentista",
-        "location": "Carcavelos",
-        "reviewCount": "27+",
-        "rating": "4.7"
-      },
-      {
         "id": "dogcamp",
         "name": "Dog Camp",
         "category": "Website",
@@ -630,24 +594,6 @@
         "niche": "Eletricista",
         "location": "Oeiras",
         "reviewCount": "9+",
-        "rating": "5.0"
-      },
-      {
-        "id": "electrician-jorgemendes",
-        "name": "Jorge Mendes Eletricista",
-        "category": "Website",
-        "image": "/portfolio/electrician-jorgemendes.webp",
-        "url": "https://electrician-jorgemendes.vercel.app",
-        "description": "Eletricista independente em Lisboa com disponibilidade 24/7, precos transparentes e fluencia em ingles.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Multi-language"
-        ],
-        "niche": "Eletricista",
-        "location": "Lisboa",
-        "reviewCount": "185+",
         "rating": "5.0"
       },
       {
@@ -902,24 +848,6 @@
         "rating": "5.0"
       },
       {
-        "id": "plumbing-bugarepara",
-        "name": "O Buga Repara",
-        "category": "Website",
-        "image": "/portfolio/plumbing-bugarepara.webp",
-        "url": "https://plumbing-bugarepara.vercel.app",
-        "description": "Servico de canalização e desentupimentos de emergência 24/7, cobrindo a area metropolitana de Lisboa.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Multi-language"
-        ],
-        "niche": "Canalização",
-        "location": "Lisboa",
-        "reviewCount": "41+",
-        "rating": "4.4"
-      },
-      {
         "id": "plumbing-expertcanalizacoes",
         "name": "Expert Canalizacoes",
         "category": "Website",
@@ -954,43 +882,6 @@
         "location": "Lisboa",
         "reviewCount": "51+",
         "rating": "4.5"
-      },
-      {
-        "id": "pool-mergulhosalgado",
-        "name": "Mergulho Salgado",
-        "category": "Website",
-        "image": "/portfolio/pool-mergulhosalgado.webp",
-        "url": "https://pool-mergulhosalgado.vercel.app",
-        "description": "Especialista em piscinas, spas e saunas com construção personalizada, renovacao, venda de equipamento e pos-venda.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Gallery",
-          "Multi-language"
-        ],
-        "niche": "Piscina & Spa",
-        "location": "Sintra",
-        "reviewCount": "59+",
-        "rating": "4.2"
-      },
-      {
-        "id": "realestate-sandracasimiro",
-        "name": "Sandra Casimiro",
-        "category": "Website",
-        "image": "/portfolio/realestate-sandracasimiro.webp",
-        "url": "https://realestate-sandracasimiro.vercel.app",
-        "description": "Consultora imobiliaria Keller Williams especializada em Carcavelos e Linha de Cascais com servico bilingue.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Multi-language"
-        ],
-        "niche": "Imobiliária",
-        "location": "Carcavelos",
-        "reviewCount": "27+",
-        "rating": "5.0"
       },
       {
         "id": "gutsy",
@@ -1108,25 +999,6 @@
         "location": "Carcavelos",
         "reviewCount": "261+",
         "rating": "4.8"
-      },
-      {
-        "id": "barbershop-yuris",
-        "name": "Yuri's Barbershop",
-        "category": "Website",
-        "image": "/portfolio/barbershop-yuris.webp",
-        "url": "https://barbershop-yuris.vercel.app",
-        "description": "Barbearia de bairro em Carcavelos elogiada pela qualidade dos cortes, equipa simpatica e ambiente descontraido.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Appointment Booking",
-          "Multi-language"
-        ],
-        "niche": "Salão",
-        "location": "Carcavelos",
-        "reviewCount": "177+",
-        "rating": "4.9"
       },
       {
         "id": "harvey",
@@ -1264,25 +1136,6 @@
         "rating": "4.8"
       },
       {
-        "id": "vet-lpda",
-        "name": "LPDA Carcavelos",
-        "category": "Website",
-        "image": "/portfolio/vet-lpda.webp",
-        "url": "https://vet-lpda.vercel.app",
-        "description": "Clínica veterinária de protecao animal com cuidados acessiveis, equipa experiente e mais de 20 anos em Carcavelos.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Appointment Booking",
-          "Multi-language"
-        ],
-        "niche": "Veterinária",
-        "location": "Carcavelos",
-        "reviewCount": "799+",
-        "rating": "4.5"
-      },
-      {
         "id": "vettop",
         "name": "VetTop",
         "category": "Website",
@@ -1318,24 +1171,6 @@
         "location": "Oeiras",
         "reviewCount": "148+",
         "rating": "4.8"
-      },
-      {
-        "id": "salon-benicabeleireiro",
-        "name": "Beni Cabeleireiro",
-        "category": "Website",
-        "image": "/portfolio/salon-benicabeleireiro.webp",
-        "url": "https://salon-benicabeleireiro.vercel.app",
-        "description": "Centro de beleza multisserviços em Carcavelos — cabeleireiro, barbearia, spa, massagem, unhas e tratamentos a laser num só espaço.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Appointment Booking",
-          "Multi-language"
-        ],
-        "niche": "Salão",
-        "location": "Carcavelos",
-        "rating": "4.7"
       }
     ],
     "cta": "Ver Projeto",
@@ -1602,10 +1437,22 @@
       "headline": "Perfis verificados.",
       "description": "A mesma SurgeX em todo o lado. Estes são os canais oficiais — o resto não somos nós.",
       "links": [
-        { "label": "LinkedIn", "href": "https://www.linkedin.com/company/surgex-pt" },
-        { "label": "Instagram", "href": "https://www.instagram.com/surgex.pt" },
-        { "label": "Facebook", "href": "https://www.facebook.com/profile.php?id=61573244306554" },
-        { "label": "X", "href": "https://x.com/SurgeX_AI" }
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/company/surgex-pt"
+        },
+        {
+          "label": "Instagram",
+          "href": "https://www.instagram.com/surgex.pt"
+        },
+        {
+          "label": "Facebook",
+          "href": "https://www.facebook.com/profile.php?id=61573244306554"
+        },
+        {
+          "label": "X",
+          "href": "https://x.com/SurgeX_AI"
+        }
       ]
     }
   },
@@ -1726,9 +1573,18 @@
       }
     ],
     "legal": [
-      { "label": "Política de Privacidade", "href": "/pt/legal/privacy" },
-      { "label": "Termos de Serviço", "href": "/pt/legal/terms" },
-      { "label": "Política de Cookies", "href": "/pt/legal/cookies" }
+      {
+        "label": "Política de Privacidade",
+        "href": "/pt/legal/privacy"
+      },
+      {
+        "label": "Termos de Serviço",
+        "href": "/pt/legal/terms"
+      },
+      {
+        "label": "Política de Cookies",
+        "href": "/pt/legal/cookies"
+      }
     ]
   },
   "whatsapp": {

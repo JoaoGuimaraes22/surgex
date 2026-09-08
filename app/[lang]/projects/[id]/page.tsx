@@ -10,7 +10,7 @@ import { SITE_URL, ogLocale } from "../../_lib/seo";
 const siteUrl = SITE_URL;
 
 // TEMP: hide projects for interested prospects (remove when no longer needed)
-const HIDDEN_IDS = ["revicar", "vet-lpda", "laundry-grace", "barbershop-specialone", "harvey", "mm-detalhe", "autobody-jpautopaint"];
+const HIDDEN_IDS = ["revicar", "laundry-grace", "barbershop-specialone", "harvey", "mm-detalhe", "autobody-jpautopaint"];
 
 export async function generateStaticParams() {
   const dict = await getDictionary("en");
