@@ -12,6 +12,9 @@ const siteUrl = SITE_URL;
 // TEMP: hide projects for interested prospects (remove when no longer needed)
 const HIDDEN_IDS = ["revicar", "laundry-grace", "barbershop-specialone", "harvey", "mm-detalhe", "autobody-jpautopaint"];
 
+// Only ids from generateStaticParams exist — anything else is a real 404 (not a streamed soft-404).
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   const dict = await getDictionary("en");
   return dict.portfolio.projects
