@@ -9,6 +9,7 @@ import WhatsappButton from "../../_components/whatsapp-button";
 import CityLanding from "../../_components/city-landing";
 import JsonLd from "../../_components/json-ld";
 import { SITE_URL, ogLocale } from "../../_lib/seo";
+import { visibleProjects } from "../../_lib/hidden-projects";
 
 const siteUrl = SITE_URL;
 
@@ -77,7 +78,7 @@ export default async function CityPage({
   const dict = await getDictionary(lang);
 
   // Filter portfolio projects by city
-  const cityProjects = dict.portfolio.projects.filter(
+  const cityProjects = visibleProjects(dict.portfolio.projects).filter(
     (p: { location?: string }) =>
       p.location?.toLowerCase() === city.name.toLowerCase()
   );

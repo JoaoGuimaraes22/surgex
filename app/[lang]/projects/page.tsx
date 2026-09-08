@@ -8,6 +8,7 @@ import Footer from "../_components/footer";
 import ChatWidget from "../_components/chat-widget";
 import JsonLd from "../_components/json-ld";
 import { SITE_URL, ogLocale } from "../_lib/seo";
+import { visibleProjects } from "../_lib/hidden-projects";
 
 const siteUrl = SITE_URL;
 
@@ -56,6 +57,7 @@ export default async function ProjectsPage({
   if (!hasLocale(lang)) notFound();
 
   const dict = await getDictionary(lang);
+  const listedProjects = visibleProjects(dict.portfolio.projects);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -65,8 +67,8 @@ export default async function ProjectsPage({
     url: `${siteUrl}/${lang}/projects`,
     mainEntity: {
       "@type": "ItemList",
-      numberOfItems: dict.portfolio.projects.length,
-      itemListElement: dict.portfolio.projects.slice(0, 10).map(
+      numberOfItems: listedProjects.length,
+      itemListElement: listedProjects.slice(0, 10).map(
         (p: { id: string; name: string; url: string }, i: number) => ({
           "@type": "ListItem",
           position: i + 1,

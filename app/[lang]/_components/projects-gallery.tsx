@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { motion } from "motion/react";
 import Link from "next/link";
+import { visibleProjects as filterVisible } from "../_lib/hidden-projects";
 
 type Project = {
   id: string;
@@ -122,9 +123,7 @@ export default function ProjectsGallery({
   };
   lang: string;
 }) {
-  // TEMP: hide projects for interested prospects (remove when no longer needed)
-  const HIDDEN_IDS = ["revicar", "laundry-grace", "barbershop-specialone", "harvey", "mm-detalhe", "autobody-jpautopaint"];
-  const visibleProjects = portfolio.projects.filter((p) => !HIDDEN_IDS.includes(p.id));
+  const visibleProjects = filterVisible(portfolio.projects);
 
   const [cityFilter, setCityFilter] = useState<string | null>(null);
 

@@ -6,19 +6,16 @@ import BackgroundSphere from "../../_components/background-sphere";
 import ProjectShowcase from "../../_components/project-showcase";
 import JsonLd from "../../_components/json-ld";
 import { SITE_URL, ogLocale } from "../../_lib/seo";
+import { isHiddenProject, visibleProjects } from "../../_lib/hidden-projects";
 
 const siteUrl = SITE_URL;
-
-// TEMP: hide projects for interested prospects (remove when no longer needed)
-const HIDDEN_IDS = ["revicar", "laundry-grace", "barbershop-specialone", "harvey", "mm-detalhe", "autobody-jpautopaint"];
 
 // Only ids from generateStaticParams exist — anything else is a real 404 (not a streamed soft-404).
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
   const dict = await getDictionary("en");
-  return dict.portfolio.projects
-    .filter((p: { id: string }) => !HIDDEN_IDS.includes(p.id))
+  return visibleProjects(dict.portfolio.projects)
     .flatMap((p: { id: string }) =>
       ["en", "pt"].map((lang) => ({ lang, id: p.id }))
     );
@@ -85,7 +82,7 @@ export default async function ProjectPage({
   if (!hasLocale(lang)) notFound();
 
   const dict = await getDictionary(lang);
-  if (HIDDEN_IDS.includes(id)) notFound();
+  if (isHiddenProject(id)) notFound();
   const project = dict.portfolio.projects.find(
     (p: { id: string }) => p.id === id
   );

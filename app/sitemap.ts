@@ -3,16 +3,13 @@ import { i18n } from "@/i18n-config";
 import enDict from "./[lang]/dictionaries/en.json";
 import { getAllSlugs } from "./[lang]/_lib/blog";
 import { SITE_URL } from "./[lang]/_lib/seo";
+import { visibleProjects } from "./[lang]/_lib/hidden-projects";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const siteUrl = SITE_URL;
 
   const pages = ["", "/about", "/projects", "/services"];
-  // TEMP: hide projects for interested prospects (remove when no longer needed)
-  const HIDDEN_IDS = ["revicar", "laundry-grace", "barbershop-specialone", "harvey", "mm-detalhe", "autobody-jpautopaint"];
-  const projectIds = enDict.portfolio.projects
-    .filter((p) => !HIDDEN_IDS.includes(p.id))
-    .map((p) => p.id);
+  const projectIds = visibleProjects(enDict.portfolio.projects).map((p) => p.id);
 
   const staticPages = pages.flatMap((page) =>
     i18n.locales.map((lang) => ({
