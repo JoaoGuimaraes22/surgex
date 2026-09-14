@@ -17,12 +17,11 @@ import { SITE_URL, buildBreadcrumb, breadcrumbLabel } from "../../_lib/seo";
 const siteUrl = SITE_URL;
 
 const SERVICE_SLUGS = [
-  "ai-solutions",
-  "websites",
-  "automation",
-  "marketing",
-  "geo-aeo",
-  "training",
+  "online-presence",
+  "get-found",
+  "customer-care",
+  "social-media",
+  "campaigns",
 ];
 
 export async function generateStaticParams() {

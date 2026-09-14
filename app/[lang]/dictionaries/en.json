@@ -1,8 +1,8 @@
 {
   "metadata": {
     "name": "SurgeX",
-    "title": "SurgeX | Bespoke AI Solutions for Your Business",
-    "description": "We listen to your business, find where AI helps, and build custom solutions — websites, automations, chatbots. Premium quality, fair prices.",
+    "title": "SurgeX | AI-Powered Digital Marketing for Local Businesses",
+    "description": "Website, Google Maps, SEO, automatic customer care and social media for local businesses — all built with AI, so it costs a fraction of the usual.",
     "phone": "+351 915 109 181",
     "email": "contact@surgex.pt",
     "address": "Lisbon, Portugal",
@@ -66,11 +66,11 @@
   "hero": {
     "titleLine1": "PREMIUM QUALITY.",
     "titleLine2": "FAIR PRICES.",
-    "subtitle": "SurgeX — Digital Solutions & AI for Businesses",
+    "subtitle": "SurgeX — AI-Powered Digital Marketing for Local Businesses",
     "meta": [
       {
         "label": "ID_TYPE",
-        "value": "AI_SOLUTIONS"
+        "value": "AI_MARKETING"
       },
       {
         "label": "LOC",
@@ -84,7 +84,7 @@
     "ctaServices": "What We Do",
     "ctaWork": "See Our Work",
     "ctaContact": "Get In Touch",
-    "sidebar": "SURGEX // AI SYSTEMS // 2026",
+    "sidebar": "SURGEX // AI MARKETING // 2026",
     "coords": {
       "lat": "38.7223° N",
       "lng": "9.1393° W"
@@ -93,78 +93,66 @@
   },
   "services": {
     "label": "SERVICES",
-    "headline": "What We Build.",
+    "headline": "What We Do For You.",
     "items": [
       {
-        "id": "ai-solutions",
+        "id": "online-presence",
         "tag": "01",
-        "title": "Bespoke AI Solutions",
-        "description": "We sit down with you, understand how your business works, and find exactly where AI makes a real difference. No generic products — everything is built for your specific needs.",
+        "title": "Online Presence",
+        "description": "A premium website online in 48 hours, bilingual and ready for Google. Your business listed and kept up to date on Google Maps, Apple Maps, TripAdvisor and Bing — the same name, address, hours and photos everywhere.",
         "features": [
-          "AI Workshops",
-          "Custom Builds",
-          "Full Integration",
-          "Ongoing Support"
+          "Website In 48h",
+          "Google Business Profile",
+          "Apple Maps & TripAdvisor",
+          "Consistent Listings"
         ]
       },
       {
-        "id": "websites",
+        "id": "get-found",
         "tag": "02",
-        "title": "Websites & Apps",
-        "description": "Premium websites and apps that load fast, rank on Google, and turn visitors into customers. Custom design, not templates. Ready in days, not months.",
+        "title": "Get Found",
+        "description": "When someone nearby searches for what you do, you show up. Local SEO on Google, pages for the areas you serve, and presence in the answers of ChatGPT, Perplexity, Gemini and Google AI Overviews. We track your positions every month.",
         "features": [
-          "Custom Design",
-          "Google Ranking",
-          "Mobile-Ready",
-          "Analytics"
+          "Local SEO",
+          "Area Pages",
+          "AI Search (GEO/AEO)",
+          "Position Tracking"
         ]
       },
       {
-        "id": "automation",
+        "id": "customer-care",
         "tag": "03",
-        "title": "Automation & Chatbots",
-        "description": "Stop doing things manually. We build systems that answer your customers, follow up on leads, manage emails, and run your operations — while you focus on what matters.",
+        "title": "Automatic Customer Care",
+        "description": "Your customers get an answer at any hour, even when you're busy. An AI chatbot that knows your business, a WhatsApp button with your hours, automatic follow-ups on quotes and requests, and Google review requests after every job.",
         "features": [
-          "Smart Chatbots",
+          "AI Chatbot 24/7",
+          "WhatsApp Button",
           "Auto Follow-ups",
-          "Email Sequences",
-          "Process Automation"
+          "Review Requests"
         ]
       },
       {
-        "id": "marketing",
+        "id": "social-media",
         "tag": "04",
-        "title": "Digital Marketing",
-        "description": "Get found by the right people. Targeted ad campaigns, social media management, and content that actually drives business growth — all powered by AI.",
+        "title": "Social Media & Content",
+        "description": "A monthly calendar, posts and images created with AI in your brand's voice, published automatically on Instagram, Facebook and LinkedIn. You approve, we publish. Every month you get a report of how far it reached.",
         "features": [
-          "Google Ads",
-          "Social Media",
-          "Content Creation",
-          "Lead Generation"
+          "Monthly Calendar",
+          "AI Posts & Images",
+          "Auto Publishing",
+          "Monthly Reach Report"
         ]
       },
       {
-        "id": "geo-aeo",
+        "id": "campaigns",
         "tag": "05",
-        "title": "GEO / AEO",
-        "description": "Appear in ChatGPT, Perplexity, and Google AI Overviews. Generative Engine Optimization puts your business in front of AI-powered search results.",
+        "title": "Campaigns & Outreach",
+        "description": "New customers found for you, past customers brought back. Automatic outreach by email and WhatsApp to the people who should know you, newsletters and reactivation campaigns to your existing base, Google and Meta ads when they make sense — ad spend is your own budget, and everything is measured.",
         "features": [
-          "AI Search Visibility",
-          "Structured Data",
-          "Content Optimization",
-          "Citation Building"
-        ]
-      },
-      {
-        "id": "training",
-        "tag": "06",
-        "title": "Training & Workshops",
-        "description": "Teach your team to use AI tools effectively. Hands-on workshops that turn your people into AI power users — no technical background required.",
-        "features": [
-          "Team Workshops",
-          "AI Tool Training",
-          "Custom Curriculum",
-          "Ongoing Support"
+          "Automatic Outreach",
+          "Newsletters",
+          "Reactivation Campaigns",
+          "Google & Meta Ads"
         ]
       }
     ],
@@ -172,76 +160,76 @@
   },
   "pricing": {
     "label": "PRICING",
-    "headline": "Transparent Pricing.",
-    "description": "No hidden fees. No surprise invoices. Here's what it costs to work with us.",
+    "headline": "Simple Pricing.",
+    "description": "One setup fee, then a monthly plan you can cancel anytime. No hidden fees, no surprises.",
     "plans": [
       {
-        "id": "website",
+        "id": "setup",
         "tag": "01",
-        "title": "Website",
-        "price": "from 450€",
+        "title": "Setup",
+        "price": "€500",
         "period": "one-time",
-        "description": "Premium website that ranks, converts, and represents your brand.",
+        "description": "Everything to get your business online in 48 hours. Half at the start, half on approval of the final version.",
         "features": [
-          "Custom Design",
-          "SEO Optimized",
-          "Mobile-Ready",
-          "Analytics Dashboard",
-          "2 Languages (PT/EN)"
+          "Website In 48h",
+          "Google Maps Listing",
+          "Apple Maps, TripAdvisor & Bing",
+          "Domain & Email Setup",
+          "First SEO Optimization"
         ],
         "status": "AVAILABLE"
       },
       {
-        "id": "chatbot",
+        "id": "presence",
         "tag": "02",
-        "title": "AI Chatbot",
-        "price": "from 25€",
-        "period": "/month",
-        "description": "Intelligent assistant that answers customers 24/7 in your brand's voice.",
+        "title": "Presence",
+        "price": "€35",
+        "period": "/mo",
+        "description": "Keeps your site and listings live, secure and up to date.",
         "features": [
-          "24/7 Availability",
-          "Custom Training",
-          "Lead Capture",
-          "Multi-language",
-          "Analytics"
+          "Hosting & Security",
+          "Regular Updates",
+          "Listings Kept Current",
+          "Small Content Changes",
+          "Support Included"
         ],
         "status": "AVAILABLE"
       },
       {
-        "id": "automation",
+        "id": "growth",
         "tag": "03",
-        "title": "Automation",
-        "price": "from 50€",
-        "period": "/month",
-        "description": "Systems that handle repetitive tasks — follow-ups, emails, scheduling.",
+        "title": "Growth",
+        "price": "€65",
+        "period": "/mo",
+        "description": "Everything in Presence, plus getting found and answering customers automatically.",
         "features": [
-          "Process Mapping",
-          "Custom Workflows",
-          "Email Sequences",
-          "CRM Integration",
-          "Reporting"
-        ],
-        "status": "AVAILABLE"
-      },
-      {
-        "id": "digital-marketing",
-        "tag": "04",
-        "title": "Digital Marketing (Facebook, Instagram, TikTok, Ads, Etc.)",
-        "price": "from 150€",
-        "period": "monthly",
-        "description": "Grow your brand across Meta, TikTok, and Google with content, campaigns, and paid ads.",
-        "features": [
-          "Content Strategy",
-          "Social Media Management",
-          "Paid Ad Campaigns",
-          "Analytics & Reporting",
-          "Monthly Reviews"
+          "Everything In Presence",
+          "Local SEO & AI Search",
+          "AI Chatbot & WhatsApp",
+          "Automatic Review Requests",
+          "Automatic Follow-ups"
         ],
         "status": "RECOMMENDED"
+      },
+      {
+        "id": "complete",
+        "tag": "04",
+        "title": "Complete",
+        "price": "€100",
+        "period": "/mo",
+        "description": "Everything in Growth, plus social media, campaigns and a monthly results report.",
+        "features": [
+          "Everything In Growth",
+          "Social Media Content",
+          "Automatic Publishing",
+          "Campaigns & Newsletters",
+          "Monthly Results Report"
+        ],
+        "status": "AVAILABLE"
       }
     ],
     "cta": "Start a Project",
-    "note": "Every project is different. These are starting points — we'll build a custom quote after understanding your needs."
+    "note": "Each plan includes exactly what is listed — nothing hidden to add later. No contract: cancel whenever you want. The monthly plan starts once you approve the site. Ad spend on Google or Meta is always extra and comes from your own budget."
   },
   "portfolio": {
     "label": "WORK",
@@ -1188,18 +1176,18 @@
   "projectsPage": {
     "label": "PROJECTS",
     "headline": "Our Work.",
-    "description": "Every project is a custom-built solution. No templates, no shortcuts.",
+    "description": "Every project is built for that business. No templates, no shortcuts.",
     "disclaimer": "Demonstration projects. Concept sites built by SurgeX to showcase our work — not affiliated with, endorsed by, or commissioned by the businesses shown. Business names, ratings, and data are used for illustrative purposes only.",
     "categories": {
       "webDevelopment": {
         "title": "Web Development",
         "tag": "01",
-        "description": "Premium websites that rank, convert, and represent your brand."
+        "description": "Premium websites that show up on Google, convert visitors and represent the brand."
       },
       "automations": {
-        "title": "Automations & Chatbots",
+        "title": "Customer Care & Chatbots",
         "tag": "02",
-        "description": "Intelligent systems that handle customer interactions and streamline operations.",
+        "description": "Chatbots, WhatsApp and follow-ups that answer customers and bring them back.",
         "comingSoon": "Projects coming soon.",
         "comingSoonCta": "Want to be our first? Let's talk."
       }
@@ -1208,7 +1196,7 @@
     "cta": "View Project",
     "meta": {
       "title": "Projects | SurgeX",
-      "description": "Explore our portfolio of premium websites, automations, and AI solutions built for real businesses."
+      "description": "Explore our portfolio: premium websites, Google Maps presence, automatic customer care and social media built for real local businesses."
     },
     "nicheNav": [
       {
@@ -1324,25 +1312,25 @@
       {
         "tag": "01",
         "title": "Listen",
-        "description": "We sit down with you and learn how your business actually runs. No assumptions, no pushing products — just listening. Based in Lisbon, serving businesses across Cascais, Oeiras, Sintra, Almada, and all of Portugal.",
+        "description": "15 minutes about your business: who your customers are, where they come from today, what you want more of. Based in Lisbon, serving businesses across Cascais, Oeiras, Sintra, Almada and all of Portugal.",
         "status": "INIT_SCAN"
       },
       {
         "tag": "02",
-        "title": "Identify",
-        "description": "Together, we pinpoint where AI and automation can save you time, money, or both. We pick the highest-impact opportunity to start.",
-        "status": "ANALYZING"
-      },
-      {
-        "tag": "03",
-        "title": "Build & Deliver",
-        "description": "We build the full solution — AI, design, backend, everything. You test it, we refine it, and it goes live. Premium quality, delivered fast.",
+        "title": "Launch",
+        "description": "Your website goes online in 48 hours, and your business gets listed on Google Maps, Apple Maps and TripAdvisor. You approve the final version before anything goes public.",
         "status": "EXECUTING"
       },
       {
+        "tag": "03",
+        "title": "Activate",
+        "description": "Depending on your plan, we switch on automatic customer care, local SEO, social media and campaigns. Each piece is set up around your business, not a generic template.",
+        "status": "ACTIVATING"
+      },
+      {
         "tag": "04",
-        "title": "Support & Grow",
-        "description": "We host it, keep it updated, fix what breaks. Once the first solution is running, we move to the next one. Long-term partnership, not a one-off project.",
+        "title": "Grow",
+        "description": "Every month you get a report of what happened. What works gets more attention, what doesn't gets dropped. An ongoing partnership, not a one-off project.",
         "status": "DEPLOYED"
       }
     ]
@@ -1353,68 +1341,63 @@
     "founder": {
       "name": "Sebastião Guimarães",
       "role": "Founder & AI Engineer",
-      "description": "Engineer turned agency founder. I build every solution personally — the AI, the design, the backend. When you work with SurgeX, you work with me directly. No layers, no miscommunication.",
+      "description": "Engineer turned agency founder. I build the whole marketing engine personally — the website, the listings, the customer care, the content. When you work with SurgeX, you work with me directly. No layers, no miscommunication.",
       "status": "ACTIVE"
     },
     "network": {
       "label": "NETWORK",
-      "description": "For larger projects, I bring in trusted specialists — designers, copywriters, domain experts. Small core, flexible reach.",
+      "description": "For larger projects, I bring in trusted specialists — designers, copywriters, local experts. Small core, flexible reach.",
       "tags": [
-        "AI Engineering",
-        "Web Development",
+        "Digital Marketing",
+        "Local SEO",
         "Automation",
-        "Design Network"
+        "Design"
       ]
     },
     "philosophy": {
       "label": "PHILOSOPHY",
-      "text": "We believe every business deserves AI that actually works — not a demo, not a proof of concept. Real tools that save real time."
+      "text": "We believe every local business deserves to be found and to answer its customers 24/7 — not just the ones with big budgets. AI is what makes that affordable."
     }
   },
   "aboutPage": {
     "meta": {
-      "title": "About SurgeX | Lisbon AI Agency Founded by Sebastião Guimarães",
-      "description": "Meet the founder of SurgeX. We're a Lisbon-based AI agency building bespoke solutions — websites, automations, chatbots — for businesses across Portugal."
+      "title": "About SurgeX | AI-Powered Digital Marketing Agency in Lisbon",
+      "description": "Meet the founder of SurgeX, the Lisbon agency that puts local businesses online and brings them customers: website, Google Maps, SEO and social media, built with AI."
     },
     "hero": {
       "label": "ABOUT",
       "headline": "About SurgeX.",
-      "subheadline": "A Lisbon-based AI agency, founded and run by Sebastião Guimarães. We build bespoke AI, automation, and web solutions for businesses across Portugal — premium quality, fair prices, no layers."
+      "subheadline": "A Lisbon-based digital marketing agency, founded and run by Sebastião Guimarães. We put local businesses online and bring them customers — website, Google Maps, SEO, automatic customer care, social media and campaigns — all built with AI, so it costs a fraction of the usual."
     },
     "whatWeDo": {
       "label": "WHAT WE DO",
-      "headline": "Six services. One mission.",
-      "description": "We listen to your business, find where AI helps, and build it. Every service is delivered personally by the founder, with a trusted network of specialists for larger projects.",
+      "headline": "Five services. One goal: more customers.",
+      "description": "Every service exists to bring you customers, not to show off technology. Everything is delivered personally by the founder, with a trusted network of specialists for larger projects.",
       "services": [
         {
-          "title": "AI Solutions",
-          "description": "Custom chatbots, AI integrations, and intelligent automations trained on your business.",
-          "href": "/en/services/ai-solutions"
+          "title": "Online Presence",
+          "description": "A premium website in 48 hours and your business listed on Google Maps, Apple Maps, TripAdvisor and Bing.",
+          "href": "/en/services/online-presence"
         },
         {
-          "title": "Websites",
-          "description": "Fast, modern websites built with Next.js — multilingual, SEO-ready, designed to convert.",
-          "href": "/en/services/websites"
+          "title": "Get Found",
+          "description": "Local SEO and presence in AI answers — ChatGPT, Perplexity, Google AI Overviews — so nearby customers find you first.",
+          "href": "/en/services/get-found"
         },
         {
-          "title": "Automation",
-          "description": "Workflows that eliminate manual work — bookings, follow-ups, reporting, lead routing.",
-          "href": "/en/services/automation"
+          "title": "Automatic Customer Care",
+          "description": "AI chatbot, WhatsApp button, automatic follow-ups and review requests — your customers get an answer 24/7.",
+          "href": "/en/services/customer-care"
         },
         {
-          "title": "Marketing",
-          "description": "Content, social, and AI-assisted campaigns built around what actually moves the needle.",
-          "href": "/en/services/marketing"
+          "title": "Social Media & Content",
+          "description": "Monthly calendar, posts and images made with AI, published automatically on Instagram, Facebook and LinkedIn.",
+          "href": "/en/services/social-media"
         },
         {
-          "title": "GEO/AEO",
-          "description": "Get cited by ChatGPT, Perplexity, and Google's AI Overviews — the new search frontier.",
-          "href": "/en/services/geo-aeo"
-        },
-        {
-          "title": "Training",
-          "description": "Workshops and 1:1 sessions teaching your team to use AI tools that fit your workflows.",
-          "href": "/en/services/training"
+          "title": "Campaigns & Outreach",
+          "description": "Automatic outreach, newsletters and reactivation campaigns that bring new customers in and old ones back.",
+          "href": "/en/services/campaigns"
         }
       ],
       "cta": "Explore all services",
@@ -1482,50 +1465,42 @@
     "headline": "Common Questions.",
     "items": [
       {
-        "question": "How long does it take to build a website?",
-        "answer": "Most websites go live in 2-5 days. Complex projects with custom AI integrations may take 1-2 weeks. We move fast without cutting corners."
+        "question": "How fast will my website be online?",
+        "answer": "48 hours on average, from the moment we have your information. You review the final version, approve it, and it goes live together with your listings on Google Maps, Apple Maps and TripAdvisor."
+      },
+      {
+        "question": "What does the €500 setup include?",
+        "answer": "A premium bilingual website delivered in 48 hours, your business listed on Google Maps (Google Business Profile), Apple Maps, TripAdvisor and Bing, domain and email set up, and a first SEO optimization. You pay half at the start and half when you approve the final version."
+      },
+      {
+        "question": "What do I get for €35, €65 or €100 a month?",
+        "answer": "Presence (€35) keeps your site and listings hosted, secure and up to date, with small content changes and support. Growth (€65) adds ongoing local SEO and AI search visibility, an AI chatbot, a WhatsApp button, automatic review requests and follow-ups. Complete (€100) adds social media content published automatically, campaigns and newsletters, and a monthly results report."
+      },
+      {
+        "question": "Can I change plan or cancel?",
+        "answer": "Yes, at any time. There is no contract and no minimum period. Move up when you want more, move down when you want less, or cancel — no questions asked."
       },
       {
         "question": "Do I need to understand AI to work with you?",
-        "answer": "Not at all. We handle the technical side. You tell us what's not working in your business, and we figure out where AI makes a difference."
+        "answer": "Not at all. AI is our engine, not your homework. You tell us about your business and your customers; we handle everything technical. You only see the results: more calls, more messages, more visits."
       },
       {
-        "question": "What happens after my website goes live?",
-        "answer": "We host it, keep it updated, and fix what breaks. You also get analytics so you can see how it performs. We're a long-term partner, not a one-off vendor."
-      },
-      {
-        "question": "Can I update the content myself?",
-        "answer": "Yes. We build sites that are easy to maintain. For more complex changes, we're always available — that's what the monthly support is for."
-      },
-      {
-        "question": "What's included in the chatbot service?",
-        "answer": "A custom AI assistant trained on your business — services, hours, pricing, FAQs. It answers customers 24/7 in your brand's voice, captures leads, and works in multiple languages."
-      },
-      {
-        "question": "Do you work with businesses outside Lisbon?",
-        "answer": "Absolutely. We work 100% online and serve businesses across all of Portugal. The process is the same — we listen, build, and deliver remotely."
-      },
-      {
-        "question": "What if I'm not happy with the result?",
-        "answer": "We refine until you are. Every project includes a revision period. We don't consider it done until you're satisfied and the solution is performing."
-      },
-      {
-        "question": "Are the prices on your site final?",
-        "answer": "They're starting points. Every business is different, so we build a custom quote after understanding your specific needs. No hidden fees — you'll know the full cost upfront."
+        "question": "Do you work outside Lisbon?",
+        "answer": "Yes. We're based in Lisbon and work 100% online, serving businesses across all of Portugal. The process is the same everywhere — a 15-minute call, your site online in 48 hours, and everything else set up remotely."
       }
     ]
   },
   "contact": {
     "label": "CONTACT",
     "headline": "Let's Talk.",
-    "description": "Tell us about your business and what's not working. We'll figure out together where AI can make the biggest difference.",
+    "description": "Tell us about your business and where your customers come from today. We'll show you what we would put in place to bring you more — no commitment.",
     "fields": {
       "name": "Name",
       "email": "Email",
       "message": "Message",
       "namePlaceholder": "Your name",
       "emailPlaceholder": "your@email.com",
-      "messagePlaceholder": "Tell us about your business and what you'd like to improve..."
+      "messagePlaceholder": "Tell us about your business and what you'd like more of — calls, bookings, customers..."
     },
     "cta": "Transmit",
     "info": {
@@ -1595,14 +1570,14 @@
     "title": "SurgeX AI",
     "subtitle": "Typically replies instantly",
     "placeholder": "Type a message...",
-    "greeting": "Hey! I'm SurgeX's AI assistant. Ask me anything about our services, how we work, or how we can help your business.",
+    "greeting": "Hi! I'm SurgeX's AI assistant. Ask me what's included, what it costs, or how we get your business found on Google Maps.",
     "bubble": "Ask me anything",
     "ariaLabel": "Open chat",
     "chips": [
-      "What do you do?",
-      "How fast can you deliver?",
+      "What's included?",
       "How much does it cost?",
-      "I want to start a project"
+      "How do I show up on Google Maps?",
+      "I want to get started"
     ]
   }
 }

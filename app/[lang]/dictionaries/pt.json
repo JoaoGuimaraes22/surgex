@@ -1,8 +1,8 @@
 {
   "metadata": {
     "name": "SurgeX",
-    "title": "SurgeX | Soluções de IA à Medida para o Seu Negócio",
-    "description": "Ouvimos o seu negócio, encontramos onde a IA ajuda e construímos soluções à medida — websites, automações, chatbots. Qualidade premium, preços justos.",
+    "title": "SurgeX | Marketing Digital com IA para Negócios Locais",
+    "description": "Website, Google Maps, SEO, atendimento automático e redes sociais para negócios locais — tudo feito com IA, por isso custa uma fração do habitual.",
     "phone": "+351 915 109 181",
     "email": "contact@surgex.pt",
     "address": "Lisboa, Portugal",
@@ -66,11 +66,11 @@
   "hero": {
     "titleLine1": "QUALIDADE PREMIUM.",
     "titleLine2": "PREÇOS JUSTOS.",
-    "subtitle": "SurgeX — Soluções Digitais & IA para Empresas",
+    "subtitle": "SurgeX — Marketing Digital com IA para Negócios Locais",
     "meta": [
       {
         "label": "ID_TYPE",
-        "value": "AI_SOLUTIONS"
+        "value": "AI_MARKETING"
       },
       {
         "label": "LOC",
@@ -84,7 +84,7 @@
     "ctaServices": "O Que Fazemos",
     "ctaWork": "Ver Portfólio",
     "ctaContact": "Fale Connosco",
-    "sidebar": "SURGEX // AI SYSTEMS // 2026",
+    "sidebar": "SURGEX // AI MARKETING // 2026",
     "coords": {
       "lat": "38.7223° N",
       "lng": "9.1393° W"
@@ -93,78 +93,66 @@
   },
   "services": {
     "label": "SERVIÇOS",
-    "headline": "O Que Construímos.",
+    "headline": "O Que Fazemos Por Si.",
     "items": [
       {
-        "id": "ai-solutions",
+        "id": "online-presence",
         "tag": "01",
-        "title": "Soluções de IA à Medida",
-        "description": "Sentamo-nos consigo, percebemos como o seu negócio funciona e encontramos exatamente onde a IA faz a diferença. Nada genérico — tudo é construído para as suas necessidades específicas.",
+        "title": "Presença Online",
+        "description": "Um website premium online em 48 horas, bilingue e pronto para o Google. O seu negócio listado e mantido atualizado no Google Maps, Apple Maps, TripAdvisor e Bing — o mesmo nome, morada, horário e fotos em todo o lado.",
         "features": [
-          "Workshops de IA",
-          "Builds Personalizados",
-          "Integração Total",
-          "Suporte Contínuo"
+          "Website em 48h",
+          "Google Business Profile",
+          "Apple Maps & TripAdvisor",
+          "Listagens Consistentes"
         ]
       },
       {
-        "id": "websites",
+        "id": "get-found",
         "tag": "02",
-        "title": "Websites & Apps",
-        "description": "Websites e apps premium que carregam rápido, aparecem no Google e transformam visitantes em clientes. Design personalizado, não templates. Pronto em dias, não meses.",
+        "title": "Ser Encontrado",
+        "description": "Quando alguém perto de si procura o que faz, aparece. SEO local no Google, páginas para as zonas que serve e presença nas respostas do ChatGPT, Perplexity, Gemini e Google AI Overviews. Acompanhamos as suas posições todos os meses.",
         "features": [
-          "Design Personalizado",
-          "Ranking Google",
-          "Mobile-Ready",
-          "Analytics"
+          "SEO Local",
+          "Páginas por Zona",
+          "Pesquisa com IA (GEO/AEO)",
+          "Monitorização de Posições"
         ]
       },
       {
-        "id": "automation",
+        "id": "customer-care",
         "tag": "03",
-        "title": "Automação & Chatbots",
-        "description": "Pare de fazer coisas manualmente. Construímos sistemas que respondem aos seus clientes, fazem follow-up de leads, gerem emails e operam o seu negócio — enquanto se foca no que importa.",
+        "title": "Atendimento Automático",
+        "description": "Os seus clientes têm resposta a qualquer hora, mesmo quando está ocupado. Um chatbot de IA que conhece o seu negócio, botão WhatsApp com horário, follow-ups automáticos a pedidos e orçamentos, e pedidos de avaliação Google depois de cada serviço.",
         "features": [
-          "Chatbots Inteligentes",
+          "Chatbot IA 24/7",
+          "Botão WhatsApp",
           "Follow-ups Automáticos",
-          "Sequências de Email",
-          "Automação de Processos"
+          "Pedidos de Avaliação"
         ]
       },
       {
-        "id": "marketing",
+        "id": "social-media",
         "tag": "04",
-        "title": "Marketing Digital",
-        "description": "Seja encontrado pelas pessoas certas. Campanhas de anúncios segmentadas, gestão de redes sociais e conteúdo que gera crescimento real — tudo potenciado por IA.",
+        "title": "Redes Sociais & Conteúdo",
+        "description": "Um calendário mensal, posts e imagens criados com IA na voz da sua marca, publicados automaticamente no Instagram, Facebook e LinkedIn. Aprova, nós publicamos. Todos os meses recebe um relatório do alcance.",
         "features": [
-          "Google Ads",
-          "Redes Sociais",
-          "Criação de Conteúdo",
-          "Geração de Leads"
+          "Calendário Mensal",
+          "Posts & Imagens com IA",
+          "Publicação Automática",
+          "Relatório Mensal de Alcance"
         ]
       },
       {
-        "id": "geo-aeo",
+        "id": "campaigns",
         "tag": "05",
-        "title": "GEO / AEO",
-        "description": "Apareça no ChatGPT, Perplexity e Google AI Overviews. A Otimização para Motores Generativos coloca o seu negócio nos resultados de pesquisa com IA.",
+        "title": "Campanhas & Prospeção",
+        "description": "Clientes novos encontrados para si, clientes antigos trazidos de volta. Prospeção automática por email e WhatsApp a quem devia conhecê-lo, newsletters e campanhas de reativação à sua base atual, anúncios Google e Meta quando fizer sentido — o investimento em anúncios é o seu próprio orçamento, e tudo é medido.",
         "features": [
-          "Visibilidade IA",
-          "Dados Estruturados",
-          "Otimização Conteúdo",
-          "Construção de Citações"
-        ]
-      },
-      {
-        "id": "training",
-        "tag": "06",
-        "title": "Formação & Workshops",
-        "description": "Ensine a sua equipa a usar ferramentas de IA de forma eficaz. Workshops práticos que transformam a sua equipa em utilizadores avançados de IA — sem necessidade de conhecimento técnico.",
-        "features": [
-          "Workshops de Equipa",
-          "Formação em IA",
-          "Currículo Personalizado",
-          "Suporte Contínuo"
+          "Prospeção Automática",
+          "Newsletters",
+          "Campanhas de Reativação",
+          "Anúncios Google & Meta"
         ]
       }
     ],
@@ -172,76 +160,76 @@
   },
   "pricing": {
     "label": "PREÇOS",
-    "headline": "Preços Transparentes.",
-    "description": "Sem taxas escondidas. Sem faturas surpresa. Aqui está quanto custa trabalhar connosco.",
+    "headline": "Preços Simples.",
+    "description": "Um valor de arranque, depois uma mensalidade que pode cancelar quando quiser. Sem taxas escondidas, sem surpresas.",
     "plans": [
       {
-        "id": "website",
+        "id": "setup",
         "tag": "01",
-        "title": "Website",
-        "price": "desde 450€",
+        "title": "Setup",
+        "price": "500€",
         "period": "único",
-        "description": "Website premium que posiciona, converte e representa a sua marca.",
+        "description": "Tudo para pôr o seu negócio online em 48 horas. Metade no arranque, metade na aprovação da versão final.",
         "features": [
-          "Design Personalizado",
-          "SEO Otimizado",
-          "Mobile-Ready",
-          "Painel de Analytics",
-          "2 Idiomas (PT/EN)"
+          "Website em 48h",
+          "Listagem Google Maps",
+          "Apple Maps, TripAdvisor & Bing",
+          "Domínio & Email",
+          "Primeira Otimização SEO"
         ],
         "status": "AVAILABLE"
       },
       {
-        "id": "chatbot",
+        "id": "presence",
         "tag": "02",
-        "title": "Chatbot IA",
-        "price": "desde 25€",
+        "title": "Presença",
+        "price": "35€",
         "period": "/mês",
-        "description": "Assistente inteligente que responde aos seus clientes 24/7 com a voz da sua marca.",
+        "description": "Mantém o seu site e as suas listagens online, seguros e atualizados.",
         "features": [
-          "Disponível 24/7",
-          "Treino Personalizado",
-          "Captura de Leads",
-          "Multi-idioma",
-          "Analytics"
+          "Alojamento & Segurança",
+          "Atualizações Regulares",
+          "Listagens Atualizadas",
+          "Pequenas Alterações",
+          "Suporte Incluído"
         ],
         "status": "AVAILABLE"
       },
       {
-        "id": "automation",
+        "id": "growth",
         "tag": "03",
-        "title": "Automação",
-        "price": "desde 50€",
+        "title": "Crescimento",
+        "price": "65€",
         "period": "/mês",
-        "description": "Sistemas que tratam de tarefas repetitivas — follow-ups, emails, agendamentos.",
+        "description": "Tudo o que está na Presença, mais ser encontrado e responder aos clientes automaticamente.",
         "features": [
-          "Mapeamento de Processos",
-          "Workflows Personalizados",
-          "Sequências de Email",
-          "Integração CRM",
-          "Relatórios"
-        ],
-        "status": "AVAILABLE"
-      },
-      {
-        "id": "digital-marketing",
-        "tag": "04",
-        "title": "Marketing Digital (Facebook, Instagram, TikTok, Ads, Etc.)",
-        "price": "desde 150€",
-        "period": "mensal",
-        "description": "Faça crescer a sua marca na Meta, TikTok e Google com conteúdo, campanhas e anúncios pagos.",
-        "features": [
-          "Estratégia de Conteúdo",
-          "Gestão de Redes Sociais",
-          "Campanhas de Anúncios Pagos",
-          "Análise e Relatórios",
-          "Revisões Mensais"
+          "Tudo da Presença",
+          "SEO Local & Pesquisa IA",
+          "Chatbot IA & WhatsApp",
+          "Pedidos de Avaliação Automáticos",
+          "Follow-ups Automáticos"
         ],
         "status": "RECOMMENDED"
+      },
+      {
+        "id": "complete",
+        "tag": "04",
+        "title": "Completo",
+        "price": "100€",
+        "period": "/mês",
+        "description": "Tudo o que está no Crescimento, mais redes sociais, campanhas e relatório mensal de resultados.",
+        "features": [
+          "Tudo do Crescimento",
+          "Conteúdo Redes Sociais",
+          "Publicação Automática",
+          "Campanhas & Newsletters",
+          "Relatório Mensal de Resultados"
+        ],
+        "status": "AVAILABLE"
       }
     ],
     "cta": "Iniciar Projeto",
-    "note": "Cada projeto é diferente. Estes são pontos de partida — construímos um orçamento personalizado após compreender as suas necessidades."
+    "note": "Cada plano inclui exatamente o que está listado — nada escondido para acrescentar depois. Sem fidelização: cancela quando quiser. A mensalidade começa assim que aprova o site. O investimento em anúncios Google ou Meta é sempre à parte e sai do seu próprio orçamento."
   },
   "portfolio": {
     "label": "TRABALHO",
@@ -1188,18 +1176,18 @@
   "projectsPage": {
     "label": "PROJETOS",
     "headline": "O Nosso Trabalho.",
-    "description": "Cada projeto é uma solução feita à medida. Sem templates, sem atalhos.",
+    "description": "Cada projeto é construído para aquele negócio. Sem templates, sem atalhos.",
     "disclaimer": "Projetos demonstrativos. Sites-conceito criados pela SurgeX para mostrar o nosso trabalho — sem qualquer afiliação, endosso ou encomenda por parte dos negócios apresentados. Os nomes, avaliações e dados são usados apenas para fins ilustrativos.",
     "categories": {
       "webDevelopment": {
         "title": "Desenvolvimento Web",
         "tag": "01",
-        "description": "Websites premium que posicionam, convertem e representam a sua marca."
+        "description": "Websites premium que aparecem no Google, convertem visitantes e representam a marca."
       },
       "automations": {
-        "title": "Automações & Chatbots",
+        "title": "Atendimento & Chatbots",
         "tag": "02",
-        "description": "Sistemas inteligentes que gerem interações com clientes e otimizam operações.",
+        "description": "Chatbots, WhatsApp e follow-ups que respondem aos clientes e os fazem voltar.",
         "comingSoon": "Projetos em breve.",
         "comingSoonCta": "Quer ser o primeiro? Vamos conversar."
       }
@@ -1208,7 +1196,7 @@
     "cta": "Ver Projeto",
     "meta": {
       "title": "Projetos | SurgeX",
-      "description": "Explore o nosso portfólio de websites premium, automações e soluções de IA construídas para negócios reais."
+      "description": "Explore o nosso portfólio: websites premium, presença no Google Maps, atendimento automático e redes sociais construídos para negócios locais reais."
     },
     "nicheNav": [
       {
@@ -1324,25 +1312,25 @@
       {
         "tag": "01",
         "title": "Ouvir",
-        "description": "Sentamo-nos consigo e aprendemos como o seu negócio realmente funciona. Sem suposições, sem empurrar produtos — apenas ouvir. Sediados em Lisboa, servimos negócios em Cascais, Oeiras, Sintra, Almada e todo Portugal.",
+        "description": "15 minutos sobre o seu negócio: quem são os seus clientes, de onde vêm hoje, o que quer ter mais. Sediados em Lisboa, servimos negócios em Cascais, Oeiras, Sintra, Almada e todo o Portugal.",
         "status": "INIT_SCAN"
       },
       {
         "tag": "02",
-        "title": "Identificar",
-        "description": "Juntos, identificamos onde a IA e automação podem poupar-lhe tempo, dinheiro, ou ambos. Escolhemos a oportunidade de maior impacto para começar.",
-        "status": "ANALYZING"
-      },
-      {
-        "tag": "03",
-        "title": "Construir & Entregar",
-        "description": "Construímos a solução completa — IA, design, backend, tudo. Você testa, nós refinamos, e vai para produção. Qualidade premium, entrega rápida.",
+        "title": "Lançar",
+        "description": "O seu website fica online em 48 horas e o seu negócio é listado no Google Maps, Apple Maps e TripAdvisor. Aprova a versão final antes de algo ficar público.",
         "status": "EXECUTING"
       },
       {
+        "tag": "03",
+        "title": "Ativar",
+        "description": "Conforme o plano, ligamos o atendimento automático, o SEO local, as redes sociais e as campanhas. Cada peça é configurada à volta do seu negócio, não de um modelo genérico.",
+        "status": "ACTIVATING"
+      },
+      {
         "tag": "04",
-        "title": "Suportar & Crescer",
-        "description": "Alojamos, mantemos atualizado, corrigimos o que partir. Quando a primeira solução está a funcionar, passamos à próxima. Parceria a longo prazo, não um projeto pontual.",
+        "title": "Crescer",
+        "description": "Todos os meses recebe um relatório do que aconteceu. O que funciona ganha mais atenção, o que não funciona sai. Uma parceria contínua, não um projeto pontual.",
         "status": "DEPLOYED"
       }
     ]
@@ -1353,68 +1341,63 @@
     "founder": {
       "name": "Sebastião Guimarães",
       "role": "Fundador & Engenheiro de IA",
-      "description": "Engenheiro tornado fundador de agência. Construo cada solução pessoalmente — a IA, o design, o backend. Quando trabalha com a SurgeX, trabalha diretamente comigo. Sem intermediários, sem falhas de comunicação.",
+      "description": "Engenheiro tornado fundador de agência. Construo todo o motor de marketing pessoalmente — o website, as listagens, o atendimento, o conteúdo. Quando trabalha com a SurgeX, trabalha diretamente comigo. Sem intermediários, sem falhas de comunicação.",
       "status": "ACTIVE"
     },
     "network": {
       "label": "REDE",
-      "description": "Para projetos maiores, trago especialistas de confiança — designers, copywriters, peritos de domínio. Núcleo pequeno, alcance flexível.",
+      "description": "Para projetos maiores, trago especialistas de confiança — designers, copywriters, conhecedores locais. Núcleo pequeno, alcance flexível.",
       "tags": [
-        "Engenharia de IA",
-        "Desenvolvimento Web",
+        "Marketing Digital",
+        "SEO Local",
         "Automação",
-        "Rede de Design"
+        "Design"
       ]
     },
     "philosophy": {
       "label": "FILOSOFIA",
-      "text": "Acreditamos que todo negócio merece IA que realmente funciona — não uma demo, não uma prova de conceito. Ferramentas reais que poupam tempo real."
+      "text": "Acreditamos que todo o negócio local merece ser encontrado e responder aos seus clientes 24/7 — não só os que têm grandes orçamentos. A IA é o que torna isso acessível."
     }
   },
   "aboutPage": {
     "meta": {
-      "title": "Sobre a SurgeX | Agência de IA em Lisboa Fundada por Sebastião Guimarães",
-      "description": "Conheça o fundador da SurgeX. Somos uma agência de IA em Lisboa que constrói soluções personalizadas — websites, automações, chatbots — para negócios em todo o Portugal."
+      "title": "Sobre a SurgeX | Agência de Marketing Digital com IA em Lisboa",
+      "description": "Conheça o fundador da SurgeX, a agência de Lisboa que põe negócios locais online e lhes traz clientes: website, Google Maps, SEO e redes sociais, feitos com IA."
     },
     "hero": {
       "label": "SOBRE",
       "headline": "Sobre a SurgeX.",
-      "subheadline": "Uma agência de IA em Lisboa, fundada e dirigida por Sebastião Guimarães. Construímos IA, automação e websites à medida para negócios em todo o Portugal — qualidade premium, preços justos, sem intermediários."
+      "subheadline": "Uma agência de marketing digital em Lisboa, fundada e dirigida por Sebastião Guimarães. Pomos negócios locais online e trazemos-lhes clientes — website, Google Maps, SEO, atendimento automático, redes sociais e campanhas — tudo feito com IA, por isso custa uma fração do habitual."
     },
     "whatWeDo": {
       "label": "O QUE FAZEMOS",
-      "headline": "Seis serviços. Uma missão.",
-      "description": "Ouvimos o seu negócio, encontramos onde a IA ajuda e construímos. Cada serviço é entregue pessoalmente pelo fundador, com uma rede de especialistas de confiança para projetos maiores.",
+      "headline": "Cinco serviços. Um objetivo: mais clientes.",
+      "description": "Cada serviço existe para lhe trazer clientes, não para mostrar tecnologia. Tudo é entregue pessoalmente pelo fundador, com uma rede de especialistas de confiança para projetos maiores.",
       "services": [
         {
-          "title": "Soluções de IA",
-          "description": "Chatbots personalizados, integrações de IA e automações inteligentes treinadas no seu negócio.",
-          "href": "/pt/services/ai-solutions"
+          "title": "Presença Online",
+          "description": "Um website premium em 48 horas e o seu negócio listado no Google Maps, Apple Maps, TripAdvisor e Bing.",
+          "href": "/pt/services/online-presence"
         },
         {
-          "title": "Websites",
-          "description": "Websites rápidos e modernos com Next.js — multilingues, prontos para SEO, desenhados para converter.",
-          "href": "/pt/services/websites"
+          "title": "Ser Encontrado",
+          "description": "SEO local e presença nas respostas de IA — ChatGPT, Perplexity, Google AI Overviews — para que os clientes perto de si o encontrem primeiro.",
+          "href": "/pt/services/get-found"
         },
         {
-          "title": "Automação",
-          "description": "Workflows que eliminam trabalho manual — marcações, follow-ups, relatórios, encaminhamento de leads.",
-          "href": "/pt/services/automation"
+          "title": "Atendimento Automático",
+          "description": "Chatbot de IA, botão WhatsApp, follow-ups e pedidos de avaliação automáticos — os seus clientes têm resposta 24/7.",
+          "href": "/pt/services/customer-care"
         },
         {
-          "title": "Marketing",
-          "description": "Conteúdo, social e campanhas assistidas por IA — focadas no que realmente move o ponteiro.",
-          "href": "/pt/services/marketing"
+          "title": "Redes Sociais & Conteúdo",
+          "description": "Calendário mensal, posts e imagens feitos com IA, publicados automaticamente no Instagram, Facebook e LinkedIn.",
+          "href": "/pt/services/social-media"
         },
         {
-          "title": "GEO/AEO",
-          "description": "Seja citado pelo ChatGPT, Perplexity e AI Overviews da Google — a nova fronteira da pesquisa.",
-          "href": "/pt/services/geo-aeo"
-        },
-        {
-          "title": "Formação",
-          "description": "Workshops e sessões 1:1 que ensinam a sua equipa a usar ferramentas de IA que encaixam no vosso workflow.",
-          "href": "/pt/services/training"
+          "title": "Campanhas & Prospeção",
+          "description": "Prospeção automática, newsletters e campanhas de reativação que trazem clientes novos e recuperam os antigos.",
+          "href": "/pt/services/campaigns"
         }
       ],
       "cta": "Ver todos os serviços",
@@ -1482,50 +1465,42 @@
     "headline": "Perguntas Frequentes.",
     "items": [
       {
-        "question": "Quanto tempo demora a construir um website?",
-        "answer": "A maioria dos websites fica online em 2-5 dias. Projetos complexos com integrações de IA personalizadas podem levar 1-2 semanas. Somos rápidos sem comprometer a qualidade."
+        "question": "Em quanto tempo fica o meu website online?",
+        "answer": "Em média, 48 horas a partir do momento em que temos a sua informação. Revê a versão final, aprova, e fica online juntamente com as suas listagens no Google Maps, Apple Maps e TripAdvisor."
+      },
+      {
+        "question": "O que inclui o setup de 500€?",
+        "answer": "Um website premium bilingue entregue em 48 horas, o seu negócio listado no Google Maps (Google Business Profile), Apple Maps, TripAdvisor e Bing, configuração de domínio e email, e uma primeira otimização SEO. Paga metade no arranque e metade quando aprova a versão final."
+      },
+      {
+        "question": "O que recebo por 35€, 65€ ou 100€ por mês?",
+        "answer": "Presença (35€) mantém o site e as listagens alojados, seguros e atualizados, com pequenas alterações de conteúdo e suporte. Crescimento (65€) acrescenta SEO local e visibilidade na pesquisa com IA em contínuo, chatbot de IA, botão WhatsApp, pedidos de avaliação e follow-ups automáticos. Completo (100€) acrescenta redes sociais com publicação automática, campanhas e newsletters, e um relatório mensal de resultados."
+      },
+      {
+        "question": "Posso mudar de plano ou cancelar?",
+        "answer": "Sim, a qualquer momento. Não há fidelização nem período mínimo. Sobe quando quiser mais, desce quando quiser menos, ou cancela — sem perguntas."
       },
       {
         "question": "Preciso de perceber de IA para trabalhar convosco?",
-        "answer": "De todo. Nós tratamos da parte técnica. Diga-nos o que não está a funcionar no seu negócio e nós descobrimos onde a IA faz a diferença."
+        "answer": "De todo. A IA é o nosso motor, não o seu trabalho de casa. Fala-nos do seu negócio e dos seus clientes; nós tratamos de tudo o que é técnico. Só vê os resultados: mais chamadas, mais mensagens, mais visitas."
       },
       {
-        "question": "O que acontece depois do website ficar online?",
-        "answer": "Alojamos, mantemos atualizado e corrigimos o que partir. Também tem acesso a analytics para ver o desempenho. Somos um parceiro a longo prazo, não um fornecedor pontual."
-      },
-      {
-        "question": "Posso atualizar o conteúdo sozinho?",
-        "answer": "Sim. Construímos sites fáceis de manter. Para alterações mais complexas, estamos sempre disponíveis — é para isso que serve o suporte mensal."
-      },
-      {
-        "question": "O que está incluído no serviço de chatbot?",
-        "answer": "Um assistente de IA personalizado treinado no seu negócio — serviços, horários, preços, perguntas frequentes. Responde aos seus clientes 24/7 com a voz da sua marca, captura leads e funciona em vários idiomas."
-      },
-      {
-        "question": "Trabalham com negócios fora de Lisboa?",
-        "answer": "Claro. Trabalhamos 100% online e servimos negócios em todo Portugal. O processo é o mesmo — ouvimos, construímos e entregamos remotamente."
-      },
-      {
-        "question": "E se não ficar satisfeito com o resultado?",
-        "answer": "Refinamos até ficar. Cada projeto inclui um período de revisão. Não consideramos o trabalho terminado até estar satisfeito e a solução a funcionar."
-      },
-      {
-        "question": "Os preços no site são finais?",
-        "answer": "São pontos de partida. Cada negócio é diferente, por isso construímos um orçamento personalizado após compreender as suas necessidades. Sem taxas escondidas — saberá o custo total desde o início."
+        "question": "Trabalham fora de Lisboa?",
+        "answer": "Sim. Estamos sediados em Lisboa e trabalhamos 100% online, com negócios em todo o Portugal. O processo é o mesmo em qualquer lado — uma chamada de 15 minutos, o site online em 48 horas e tudo o resto configurado à distância."
       }
     ]
   },
   "contact": {
     "label": "CONTACTO",
     "headline": "Vamos Conversar.",
-    "description": "Fale-nos do seu negócio e do que não está a funcionar. Juntos descobrimos onde a IA pode fazer a maior diferença.",
+    "description": "Fale-nos do seu negócio e de onde vêm os seus clientes hoje. Mostramos-lhe o que poríamos em prática para lhe trazer mais — sem compromisso.",
     "fields": {
       "name": "Nome",
       "email": "Email",
       "message": "Mensagem",
       "namePlaceholder": "O seu nome",
       "emailPlaceholder": "seu@email.com",
-      "messagePlaceholder": "Fale-nos do seu negócio e do que gostaria de melhorar..."
+      "messagePlaceholder": "Fale-nos do seu negócio e do que gostaria de ter mais — chamadas, marcações, clientes..."
     },
     "cta": "Transmitir",
     "info": {
@@ -1594,15 +1569,15 @@
   "chat": {
     "title": "SurgeX AI",
     "subtitle": "Responde quase instantaneamente",
-    "placeholder": "Escreve uma mensagem...",
-    "greeting": "Olá! Sou o assistente de IA da SurgeX. Pergunta-me sobre os nossos serviços, como trabalhamos, ou como podemos ajudar o teu negócio.",
-    "bubble": "Pergunta-me algo",
+    "placeholder": "Escreva uma mensagem...",
+    "greeting": "Olá! Sou o assistente de IA da SurgeX. Pergunte-me o que está incluído, quanto custa ou como o seu negócio aparece no Google Maps.",
+    "bubble": "Pergunte-me algo",
     "ariaLabel": "Abrir chat",
     "chips": [
-      "O que fazem?",
-      "Em quanto tempo entregam?",
+      "O que está incluído?",
       "Quanto custa?",
-      "Quero iniciar um projeto"
+      "Como apareço no Google Maps?",
+      "Quero começar"
     ]
   }
 }

@@ -8,7 +8,7 @@ Address:  Lisboa, Portugal
 Phone:    +351 915 109 181
 Website:  https://surgex.pt
 Email:    contact@surgex.pt
-Category: Digital Agency / Web Development / AI Solutions
+Category: Marketing Agency / Digital Marketing / Web Design
 ```
 
 ## Directories
@@ -16,7 +16,7 @@ Category: Digital Agency / Web Development / AI Solutions
 ### High Priority (PT authority sites)
 
 - [ ] **Páginas Amarelas** — https://www.pai.pt/registar-empresa
-  - Category: "Agências Digitais" or "Desenvolvimento Web"
+  - Category: "Agências de Marketing" or "Marketing Digital" (fallback: "Desenvolvimento Web")
   - Free basic listing
 
 - [ ] **Racius** — https://www.racius.com
@@ -37,7 +37,7 @@ Category: Digital Agency / Web Development / AI Solutions
 
 - [ ] **Cylex Portugal** — https://www.cylex.pt/adicionar-empresa
   - Free listing with description, hours, photos
-  - Category: "Desenvolvimento de Software" or "Marketing Digital"
+  - Category: "Marketing Digital" or "Agências de Marketing"
 
 - [ ] **Hotfrog** — https://www.hotfrog.pt
   - Free business profile
@@ -71,6 +71,6 @@ Category: Digital Agency / Web Development / AI Solutions
 - Do all of these in ONE sitting — consistency is easier when you do it all at once
 - Copy/paste the NAP block above, don't retype (avoids typos)
 - Use the same logo everywhere (the SurgeX logo from the site)
-- For descriptions, use: "Agência digital em Lisboa especializada em websites, automações e soluções de IA para negócios locais. 60+ projetos entregues."
+- For descriptions, use: "Agência de marketing digital com IA em Lisboa: websites, Google Maps, SEO, atendimento automático e redes sociais para negócios locais. 60+ projetos entregues." (full kit: `internal/surgex-ops/references/brand-positioning.md`)
 - Save login credentials somewhere — you'll need them if you ever update the listing
 - After completing, Google "SurgeX Lisboa" in ~2-4 weeks to see citations appearing

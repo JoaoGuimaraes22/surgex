@@ -68,7 +68,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
-  const serviceSlugs = ["ai-solutions", "websites", "automation", "marketing", "geo-aeo", "training"];
+  const serviceSlugs = ["online-presence", "get-found", "customer-care", "social-media", "campaigns"];
   const servicePages = serviceSlugs.flatMap((slug) =>
     i18n.locales.map((lang) => ({
       url: `${siteUrl}/${lang}/services/${slug}`,

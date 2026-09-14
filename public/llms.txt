@@ -1,29 +1,29 @@
 # SurgeX
 
-> Digital solutions & AI agency based in Lisbon, Portugal. We build bespoke AI solutions, premium websites, automation systems, and chatbots for businesses. Founded by Sebastião Guimarães.
+> AI-powered digital marketing agency for local businesses, based in Lisbon, Portugal. We put a business online and bring it customers: website, Google Maps and other listings, local SEO and GEO/AEO, automatic customer care, social media and campaigns — all built and run with AI. Founded by Sebastião Guimarães.
 
 Contact: +351 915 109 181 | contact@surgex.pt
 Website: https://www.surgex.pt
 WhatsApp: https://wa.me/351915109181
 Location: Lisbon, Portugal
 
-50+ projects delivered across 15+ niches. 48-hour average website delivery. Bilingual: Portuguese and English.
+60+ projects delivered across 15+ niches. 48-hour average website delivery. Bilingual: Portuguese and English. Works 100% online across Portugal.
 
 ## Services
 
-- [Bespoke AI Solutions](https://www.surgex.pt/en/services/ai-solutions): Custom AI systems, workshops, integration, and ongoing support
-- [Websites & Apps](https://www.surgex.pt/en/services/websites): Premium custom-designed websites, SEO-optimized, mobile-ready, bilingual (PT/EN), delivered in 48 hours on average
-- [Automation & Chatbots](https://www.surgex.pt/en/services/automation): Intelligent chatbots, automated follow-ups, email sequences, process automation — from 25€/month
-- [Digital Marketing](https://www.surgex.pt/en/services/marketing): Google Ads, social media management, content creation, lead generation — all AI-powered
-- [GEO / AEO](https://www.surgex.pt/en/services/geo-aeo): Generative Engine Optimization — we help businesses appear in ChatGPT, Perplexity, and Google AI Overviews
-- [Training & Workshops](https://www.surgex.pt/en/services/training): Hands-on AI training for teams, prompt engineering, tool selection, workflow integration
+- [Online Presence](https://www.surgex.pt/en/services/online-presence): Premium bilingual website delivered in 48 hours, plus listings created and kept up to date on Google Maps / Google Business Profile, Apple Maps, TripAdvisor and Bing
+- [Get Found](https://www.surgex.pt/en/services/get-found): Local SEO and GEO/AEO — appearing on Google and in ChatGPT, Perplexity, Gemini and Google AI Overviews
+- [Automatic Customer Care](https://www.surgex.pt/en/services/customer-care): AI chatbot trained on the business, WhatsApp button, automatic follow-ups, automatic Google review requests, missed-call replies
+- [Social Media & Content](https://www.surgex.pt/en/services/social-media): Monthly calendar, posts and images generated with AI in the brand's voice, automatic publishing on Instagram, Facebook and LinkedIn
+- [Campaigns & Outreach](https://www.surgex.pt/en/services/campaigns): Prospecting by email and WhatsApp, newsletters and reactivation campaigns, Google and Meta ads when they make sense
 
 ## Pricing
 
-- Websites: from 450€ (one-time)
-- AI Chatbot: from 25€/month
-- Automation: from 50€/month
-- Digital Marketing (Facebook, Instagram, TikTok, Ads, etc.): from 150€/month
+- Setup: 500€ one-time (half at kickoff, half on approval) — website in 48h, listings on Google Maps, Apple Maps, TripAdvisor and Bing, domain and email setup, first SEO pass
+- Presence: 35€/month — hosting, updates, listings kept current, support
+- Growth (recommended): 65€/month — Presence + local SEO and GEO, AI chatbot, WhatsApp, review requests, follow-ups
+- Complete: 100€/month — Growth + social media, campaigns and newsletters, monthly results report
+- No lock-in contract. Ad spend is always the client's own budget.
 
 ## Blog
 
@@ -38,10 +38,10 @@ Location: Lisbon, Portugal
 
 ## Pages
 
-- [Projects](https://www.surgex.pt/en/projects): Portfolio of 50+ delivered projects across 15+ niches
+- [Projects](https://www.surgex.pt/en/projects): Portfolio of 60+ delivered projects across 15+ niches
 - [Carcavelos](https://www.surgex.pt/en/cities/carcavelos): Our work in the Carcavelos area — 15 websites built
 
 ## Optional
 
 - [FAQ](https://www.surgex.pt/en#faq): Common questions about our services, pricing, and process
-- [Process](https://www.surgex.pt/en#process): How we work — from consultation to delivery
+- [Process](https://www.surgex.pt/en#process): How we work — listen, launch, activate, grow

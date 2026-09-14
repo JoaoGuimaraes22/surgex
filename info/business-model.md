@@ -1,9 +1,11 @@
-I consider us to be a digital solutions & AI agency and we make (good) money with it. What we do is sit down with customers, listen to how their business processes work and during a workshop, pinpoint places together with them where AI could play a role.
+# Business model (rebranded 2026-09-14)
 
-We then translate that into business cases and pick one (with the client) to start on. We implement the case fully, that is, we build the AI components necessary, the UI (be it website or mobile app) for them to use and write all the backend code, middleware, db management, etc. that comes with it to make a fully working solution.
+SurgeX is an AI-powered digital marketing agency for local businesses in Portugal. We put a business online and bring it customers: a premium website in 48 hours, listings on Google Maps / Google Business Profile, Apple Maps, TripAdvisor and Bing, local SEO and GEO/AEO (showing up in ChatGPT, Perplexity and Google AI Overviews), automatic customer care (AI chatbot, WhatsApp, follow-ups, review requests), social media content, and campaigns (prospecting, newsletters, ads when they make sense).
 
-We deliver it, test it with the client and host it for them to make sure we comply with legislation, keep the models and prompts up to date and fix bugs. Once that first case is delivered, we continue with the next (for that same client).
+AI is the engine, not the product. It is how one engineer delivers what used to take an agency team, which is why the price is a fraction of the usual — we never sell "AI" for its own sake.
 
-Not sure if this is what you meant, but it is what we do. We don't confine to specific services, don't offer only 1 or 2 products, we build bespoke AI solutions.
+Commercial model: €500 setup (half at kickoff, half on approval of the final site), then one of three monthly plans — Presença €35 (hosting, listings kept up to date, support), Crescimento €65 (+ local SEO/GEO, chatbot, WhatsApp, reviews, follow-ups), Completo €100 (+ social media, campaigns, monthly report). No contract lock-in. Ad spend is always the client's own budget.
 
-The market is wild though I think it's mostly us listening very well to what the clients actually need instead of pushing our product up their butt that makes a difference. We don't do AI for the sake of doing AI.
+Process: listen (15 min about the business and where customers come from today) → launch (site + listings in 48h) → activate (customer care, SEO, social, campaigns per plan) → grow (monthly report; scale what works, drop what doesn't).
+
+What makes the difference is still listening: we start from where the business loses customers today, not from a product list.

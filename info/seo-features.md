@@ -54,11 +54,11 @@
 ### Medium Priority
 - [ ] City SEO pages for SDR (~10 projects) and Cascais (~5 projects) when density is sufficient
 - [ ] Citation building — list SurgeX on PT business directories (Páginas Amarelas, Racius, Infoempresas)
-- [ ] Structured data expansion — add `offers` to Service JSON-LD (pricing from 450€), `hasOfferCatalog`
+- [ ] Structured data expansion — add `offers` to Service JSON-LD (setup 500€, plans 35/65/100€), `hasOfferCatalog`
 - [ ] Internal linking strategy — blog→services, services→portfolio, portfolio→services
 
 ### Nice-to-have
-- [ ] BreadcrumbList JSON-LD for nested routes (/services/websites, /projects/gutsy)
+- [ ] BreadcrumbList JSON-LD for nested routes (/services/online-presence, /projects/gutsy)
 - [ ] Dynamic OG images for service detail and city pages (like blog has)
 - [ ] Organization JSON-LD with `sameAs` links (LinkedIn, GitHub, etc.)
 - [ ] Monitor what ChatGPT/Perplexity say about SurgeX periodically
@@ -74,7 +74,7 @@
 - [ ] Monitor what ChatGPT/Perplexity say about SurgeX periodically
 
 ### As a service we offer clients
-- [x] GEO/AEO service page live at `/services/geo-aeo`
+- [x] GEO/AEO service page live at `/services/get-found` (was `/services/geo-aeo` until the 2026-09 rebrand)
 - [x] Full landing page with use cases, process, FAQ
 - [ ] Develop actual delivery playbook (audit → implement → monitor)
 - [ ] Create case study once first client is served

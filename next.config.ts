@@ -17,7 +17,30 @@ const cspHeader = `
   upgrade-insecure-requests;
 `;
 
+/** 2026-09 rebrand: six service pages became five pillars. Old URLs 301 to the closest pillar. */
+const LEGACY_SERVICE_REDIRECTS: Record<string, string> = {
+  "ai-solutions": "customer-care",
+  websites: "online-presence",
+  automation: "customer-care",
+  marketing: "social-media",
+  "geo-aeo": "get-found",
+};
+
 const nextConfig: NextConfig = {
+  async redirects() {
+    return [
+      ...Object.entries(LEGACY_SERVICE_REDIRECTS).map(([from, to]) => ({
+        source: `/:lang(en|pt)/services/${from}`,
+        destination: `/:lang/services/${to}`,
+        permanent: true,
+      })),
+      {
+        source: "/:lang(en|pt)/services/training",
+        destination: "/:lang/services",
+        permanent: true,
+      },
+    ];
+  },
   images: {
     formats: ["image/webp"],
     minimumCacheTTL: 2678400, // 31 days — local images never change

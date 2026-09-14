@@ -1,195 +1,50 @@
 {
   "meta": {
     "title": "Services | SurgeX",
-    "description": "AI-powered websites, chatbots, automation, marketing, and training for Portuguese businesses. 50+ projects delivered. See what SurgeX can build for you."
+    "description": "Website, Google Maps, local SEO, automatic customer care, social media and campaigns for local businesses in Portugal — all built with AI, from €35/month. See what SurgeX does for you."
   },
   "hub": {
     "label": "SERVICES",
-    "headline": "What We Build.",
-    "description": "Six ways we help businesses grow — from custom AI solutions to websites that rank, chatbots that sell, and marketing that converts. Every service is built around your business, not a template.",
+    "headline": "What We Do For You.",
+    "description": "Five ways we bring customers to your business — from your website and Google Maps to automatic customer care, social media and campaigns. All built with AI, so it costs a fraction of the usual. No lock-in.",
     "learnMore": "Learn More"
   },
   "services": {
-    "ai-solutions": {
+    "online-presence": {
       "tag": "01",
-      "title": "Bespoke AI Solutions",
-      "shortDescription": "Custom AI built around your business — not off-the-shelf software with your logo on it. We workshop your challenges, design a solution, build it into your operations, and support it long-term. From intelligent document processing to predictive analytics, we turn AI from a buzzword into a competitive edge.",
+      "title": "Online Presence",
+      "shortDescription": "A premium website delivered in 48 hours, bilingual and built to rank — plus your business listed and kept up to date on Google Maps, Apple Maps, TripAdvisor and Bing. Everything a customer sees when they look you up, done right.",
       "features": [
-        "Custom AI Strategy Workshops",
-        "End-to-End Development",
-        "Systems Integration",
-        "Ongoing Support & Iteration"
+        "Premium Website in 48h",
+        "Bilingual (PT/EN) & SEO-Ready",
+        "Google Maps, Apple Maps, TripAdvisor, Bing",
+        "Listings Kept Up to Date"
       ],
       "hero": {
-        "title": "Bespoke AI Solutions",
-        "subtitle": "AI that fits your business like a glove.",
-        "valueProp": "We don't sell generic AI products — we build custom solutions deeply embedded in your operations."
+        "title": "Your Business, Online in 48 Hours.",
+        "subtitle": "A premium website plus your listings on Google Maps, Apple Maps, TripAdvisor and Bing — created, verified and kept up to date.",
+        "valueProp": "One €500 setup. From €35/month to keep it all running. No lock-in."
       },
       "description": {
         "label": "OVERVIEW",
         "headline": "What's Included.",
-        "text": "Every engagement starts with understanding your business inside out. We identify where AI creates real value — not where it sounds impressive — then build, integrate, and refine until it works as naturally as any other part of your team.",
+        "text": "When someone hears about you, the first thing they do is look you up. We make sure what they find is right: a fast, bilingual website that looks premium, and a consistent business profile — name, address, phone, hours, photos — on every map and directory that matters. Built with AI, so it takes days, not months.",
         "highlights": [
           {
-            "title": "Discovery Workshop",
-            "text": "A hands-on session where we map your workflows, identify bottlenecks, and pinpoint where AI delivers the highest ROI."
+            "title": "Premium Website",
+            "text": "Designed for your niche, not a template with your colours. Fast on mobile, Portuguese and English included, and built to rank on Google from day one. Live in 48 hours on average."
           },
           {
-            "title": "Custom Development",
-            "text": "Purpose-built AI tailored to your data, your processes, and your goals. No generic tools repackaged."
+            "title": "Listings Everywhere",
+            "text": "We create or claim your Google Business Profile, Apple Maps, TripAdvisor and Bing Places listings, verify them, and fill in categories, hours, photos and services properly."
           },
           {
-            "title": "Seamless Integration",
-            "text": "We plug into your existing systems — CRM, ERP, databases, APIs — so adoption is frictionless for your team."
+            "title": "One Consistent Identity",
+            "text": "Same name, address and phone across every platform. Inconsistent details are the most common reason local businesses drop in Google Maps — we remove the problem."
           },
           {
-            "title": "Continuous Improvement",
-            "text": "AI gets smarter with use. We monitor performance, retrain models, and iterate based on real results."
-          }
-        ]
-      },
-      "useCases": {
-        "label": "USE CASES",
-        "headline": "Who This Is For.",
-        "items": [
-          {
-            "tag": "01",
-            "title": "Retail & E-Commerce",
-            "text": "Automate product recommendations, forecast demand, and personalize the shopping experience. One client reduced overstock by 30% with an AI-powered inventory system."
-          },
-          {
-            "tag": "02",
-            "title": "Professional Services",
-            "text": "Law firms, accountants, consultancies — automate document review, client intake, and reporting. Spend time on billable work instead of admin."
-          },
-          {
-            "tag": "03",
-            "title": "Healthcare & Clinics",
-            "text": "Streamline patient triage, automate appointment scheduling, and generate clinical summaries. GDPR-compliant by design."
-          },
-          {
-            "tag": "04",
-            "title": "Manufacturing & Logistics",
-            "text": "Predictive maintenance, quality control vision systems, and supply chain optimization. AI that pays for itself in months, not years."
-          }
-        ]
-      },
-      "process": {
-        "label": "PROCESS",
-        "headline": "How We Deliver.",
-        "steps": [
-          {
-            "tag": "01",
-            "title": "Discovery",
-            "description": "We audit your operations and identify the highest-impact AI opportunities. You get a clear roadmap with expected ROI.",
-            "status": "PHASE_1"
-          },
-          {
-            "tag": "02",
-            "title": "Design & Prototype",
-            "description": "We build a working proof of concept using your real data. You see results before committing to a full build.",
-            "status": "PHASE_2"
-          },
-          {
-            "tag": "03",
-            "title": "Build & Integrate",
-            "description": "Full development and integration with your existing systems. We handle the technical complexity so you don't have to.",
-            "status": "PHASE_3"
-          },
-          {
-            "tag": "04",
-            "title": "Launch & Iterate",
-            "description": "We deploy, monitor, and continuously improve. Your AI solution gets smarter every month.",
-            "status": "PHASE_4"
-          }
-        ]
-      },
-      "benefits": {
-        "label": "BENEFITS",
-        "headline": "Why It Matters.",
-        "items": [
-          {
-            "title": "Competitive Advantage",
-            "text": "Most businesses are still figuring out AI. A custom solution puts you years ahead of competitors using generic tools."
-          },
-          {
-            "title": "Operational Efficiency",
-            "text": "Automate repetitive tasks and free your team to focus on high-value work that actually grows the business."
-          },
-          {
-            "title": "Data-Driven Decisions",
-            "text": "Stop guessing. AI surfaces patterns in your data that humans miss, giving you clarity on what's working and what's not."
-          },
-          {
-            "title": "Scalable Growth",
-            "text": "AI solutions scale with you. Handle 10x the volume without 10x the headcount."
-          }
-        ]
-      },
-      "faq": {
-        "label": "FAQ",
-        "headline": "Common Questions.",
-        "items": [
-          {
-            "question": "How long does a custom AI project take?",
-            "answer": "Most projects go from discovery to live deployment in 4-8 weeks. Complex integrations may take longer, but you'll see a working prototype within the first two weeks."
-          },
-          {
-            "question": "Do we need a data science team?",
-            "answer": "No. We handle everything — from data preparation to model training to deployment. Your team just needs to know how to use the final product, and we train them on that too."
-          },
-          {
-            "question": "What about data privacy and GDPR?",
-            "answer": "Every solution we build is GDPR-compliant by default. Your data stays yours. We can work with on-premise deployments or EU-hosted cloud infrastructure."
-          }
-        ]
-      },
-      "cta": {
-        "headline": "Ready to Start?",
-        "text": "Tell us about your business and the challenges you're facing. We'll map out where AI creates the most value — no commitment, no jargon.",
-        "buttonLabel": "Get In Touch",
-        "buttonHref": "#contact"
-      },
-      "meta": {
-        "title": "Bespoke AI Solutions | SurgeX",
-        "description": "Custom AI solutions for Portuguese businesses. From workshops to deployment — we build AI that fits your operations, not generic software. Talk to SurgeX."
-      }
-    },
-    "websites": {
-      "tag": "02",
-      "title": "Websites & Apps",
-      "shortDescription": "Premium custom websites designed to rank on Google, convert visitors, and look stunning on every device. Average delivery in 48 hours. Bilingual by default, SEO-optimized from day one. 50+ sites built for Portuguese businesses across every niche.",
-      "features": [
-        "Custom Design & Development",
-        "SEO-Optimized from Day One",
-        "Mobile-First & Lightning Fast",
-        "Bilingual (PT/EN) by Default"
-      ],
-      "hero": {
-        "title": "Websites & Apps",
-        "subtitle": "Your business deserves better than a template.",
-        "valueProp": "We build custom websites that rank, convert, and launch in 48 hours — starting from 450€."
-      },
-      "description": {
-        "label": "OVERVIEW",
-        "headline": "What's Included.",
-        "text": "Every website is designed from scratch for your specific business. We research your niche, study your competitors, and build a site that makes you stand out. Not a template with your colors — a genuine competitive advantage online.",
-        "highlights": [
-          {
-            "title": "Custom Design",
-            "text": "Unique layouts designed for your niche. A restaurant site doesn't look like a gym site, and it shouldn't."
-          },
-          {
-            "title": "Built-In SEO",
-            "text": "Technical SEO, structured data, meta tags, and content strategy baked in from the start. Your site ranks because we build it to rank."
-          },
-          {
-            "title": "Blazing Fast",
-            "text": "Sub-second load times on mobile and desktop. Speed matters for Google rankings and for keeping visitors on your page."
-          },
-          {
-            "title": "Bilingual Ready",
-            "text": "Full Portuguese and English versions included. Perfect for tourism areas or businesses serving international clients."
+            "title": "Kept Up to Date",
+            "text": "New hours, a holiday closure, a new service or photos — tell us and it changes everywhere. Hosting, security and updates are included in every monthly plan."
           }
         ]
       },
@@ -200,22 +55,22 @@
           {
             "tag": "01",
             "title": "Restaurants & Cafés",
-            "text": "Menu showcase, Google Reviews integration, location maps, and reservation links. We've built 15+ restaurant sites that consistently outrank competitors on local search."
+            "text": "Menu, hours, photos and reviews where tourists and locals actually look: Google Maps, TripAdvisor and Apple Maps. A site that makes them pick you before they arrive."
           },
           {
             "tag": "02",
-            "title": "Clinics & Healthcare",
-            "text": "Service pages that build trust, team bios, appointment booking, and GDPR-compliant contact forms. Professional presentation that matches the quality of your care."
+            "title": "Clinics & Dentists",
+            "text": "Service pages that build trust, team profiles, directions and a booking button. The professional first impression your care deserves."
           },
           {
             "tag": "03",
-            "title": "Gyms & Fitness",
-            "text": "Class schedules, trainer profiles, membership CTAs, and photo galleries that showcase your space. Designed to turn visitors into members."
+            "title": "Salons, Gyms & Studios",
+            "text": "Prices, schedules and a gallery of your space, plus a Google Maps profile that shows up when someone nearby searches. Designed to turn a look into a visit."
           },
           {
             "tag": "04",
-            "title": "Local Services",
-            "text": "Plumbers, electricians, salons, auto repair — service area pages, before/after galleries, and Google Maps integration. Dominate your local search results."
+            "title": "Trades & Auto Services",
+            "text": "Mechanics, electricians, plumbers, cleaners: service-area pages, before/after photos and a phone number one tap away. Found by the people who need you today."
           }
         ]
       },
@@ -225,26 +80,26 @@
         "steps": [
           {
             "tag": "01",
-            "title": "Research & Brief",
-            "description": "We study your business, competitors, and target audience. You get a design brief within 24 hours.",
+            "title": "Listen",
+            "description": "A 15-minute conversation about your business, your customers and what you want people to find. We collect the details, photos and access we need.",
             "status": "PHASE_1"
           },
           {
             "tag": "02",
-            "title": "Design & Build",
-            "description": "Custom design and development in parallel. Most sites are code-complete within 48 hours of approval.",
+            "title": "Build",
+            "description": "We design and build the website and write the content in both languages. You review a live preview and approve.",
             "status": "PHASE_2"
           },
           {
             "tag": "03",
-            "title": "Content & SEO",
-            "description": "Professional copy in both languages, optimized images, structured data, and technical SEO — all handled by us.",
+            "title": "List",
+            "description": "We create or claim your listings on Google Maps, Apple Maps, TripAdvisor and Bing, verify them and fill every field consistently.",
             "status": "PHASE_3"
           },
           {
             "tag": "04",
-            "title": "Launch & Support",
-            "description": "We deploy to a fast global CDN, set up analytics, and provide ongoing support. Your site is live and performing.",
+            "title": "Launch & Maintain",
+            "description": "Domain, email and site go live within 48 hours. From then on we host, secure, update and keep every listing current.",
             "status": "PHASE_4"
           }
         ]
@@ -254,20 +109,20 @@
         "headline": "Why It Matters.",
         "items": [
           {
-            "title": "Found on Google",
-            "text": "93% of online experiences start with a search engine. A well-built site is your most powerful marketing asset."
+            "title": "Found Before They Call",
+            "text": "Most customers look you up on Google Maps or your website before choosing. If the details are wrong or missing, they choose someone else."
           },
           {
-            "title": "Professional Credibility",
-            "text": "Customers judge your business by your website. A premium site builds instant trust — especially against competitors with outdated pages."
+            "title": "Trust at First Glance",
+            "text": "A premium site and a complete, photo-rich profile signal a business that takes itself seriously — especially next to competitors with outdated pages."
           },
           {
-            "title": "Conversion-Focused",
-            "text": "Every element is designed to drive action — calls, bookings, visits. Beautiful design that actually generates business."
+            "title": "Nothing to Manage",
+            "text": "You run the business. We handle domain, hosting, security, updates and every listing. One message from you is enough to change anything."
           },
           {
-            "title": "48-Hour Delivery",
-            "text": "We move fast. Most businesses wait weeks or months for a website. You'll have yours in days."
+            "title": "Fast and Affordable",
+            "text": "AI does the heavy lifting, so delivery takes 48 hours and costs a fraction of a traditional agency — 98% cheaper, in our experience."
           }
         ]
       },
@@ -275,66 +130,70 @@
         "label": "FAQ",
         "headline": "Common Questions.",
         "items": [
+          {
+            "question": "What does it cost?",
+            "answer": "Setup is €500 one-time: website, listings on Google Maps, Apple Maps, TripAdvisor and Bing, domain and email setup, and a first SEO optimisation. Half at the start, half when you approve the final version. Then the Presence plan at €35/month keeps it hosted, secure and up to date. No lock-in."
+          },
           {
             "question": "How can you deliver a website in 48 hours?",
-            "answer": "We've built 50+ sites and developed proprietary tools that accelerate every step — from research to deployment. Speed doesn't mean shortcuts. It means experience and better systems."
+            "answer": "We have built 60+ sites and use AI at every step — research, design, copy, images. Speed does not mean shortcuts; it means better tools and experience. You still review and approve everything before it goes live."
           },
           {
-            "question": "What does a website cost?",
-            "answer": "Custom websites start from 450€. The final price depends on the number of pages, features, and integrations you need. We'll give you a clear quote upfront — no surprises."
+            "question": "Do I need to provide texts and photos?",
+            "answer": "No. We write the content in Portuguese and English and generate images tailored to your business. If you have real photos of your space or team, even better — we use them."
           },
           {
-            "question": "Do I need to provide content and images?",
-            "answer": "We handle everything. Professional copywriting in PT and EN, AI-generated images tailored to your business, and SEO optimization. You just need to review and approve."
+            "question": "I already have a website. Can you just do the listings?",
+            "answer": "Yes, but we usually recommend replacing it: most sites we see are slow, not mobile-friendly and invisible to Google. Tell us what you have and we will be honest about what makes sense."
           }
         ]
       },
       "cta": {
-        "headline": "Ready to Start?",
-        "text": "Your competitors already have a website. Make sure yours is better. Tell us about your business and we'll show you what's possible.",
+        "headline": "Ready to Be Found?",
+        "text": "Tell us the name of your business. Within 48 hours you can have a premium website and a complete profile on every map that matters.",
         "buttonLabel": "Get In Touch",
         "buttonHref": "#contact"
       },
       "meta": {
-        "title": "Websites & Apps | SurgeX",
-        "description": "Custom websites for Portuguese businesses from 450€. SEO-optimized, bilingual, delivered in 48 hours. 50+ sites built across every niche. Get a quote from SurgeX."
+        "title": "Online Presence — Website & Listings | SurgeX",
+        "description": "Premium bilingual website in 48 hours plus your business on Google Maps, Apple Maps, TripAdvisor and Bing. €500 setup, from €35/month. For local businesses across Portugal."
       }
     },
-    "automation": {
-      "tag": "03",
-      "title": "Automation & Chatbots",
-      "shortDescription": "Smart chatbots that handle customer questions 24/7, automated follow-ups that never forget a lead, and process automation that eliminates the repetitive work your team hates. Stop losing customers to slow response times.",
+    "get-found": {
+      "tag": "02",
+      "title": "Get Found",
+      "shortDescription": "Local SEO so you appear when someone nearby searches for what you do, and GEO/AEO so you are the answer when they ask ChatGPT, Perplexity or Google instead. Ongoing work, with your positions tracked every month.",
       "features": [
-        "AI-Powered Chatbots",
-        "Automated Follow-Ups",
-        "Email & SMS Sequences",
-        "Process Automation"
+        "Google Business Profile Optimisation",
+        "Local Keywords & Area Pages",
+        "Visible in ChatGPT, Perplexity & Google AI",
+        "Monthly Position Tracking"
       ],
       "hero": {
-        "title": "Automation & Chatbots",
-        "subtitle": "Your business, running on autopilot.",
-        "valueProp": "AI chatbots and automation that handle your customer service, lead capture, and repetitive tasks — starting from 25€/month."
+        "title": "Be the Answer, Not the Fifth Result.",
+        "subtitle": "Local SEO and AI search optimisation so your business shows up on Google Maps, in Google results and in the answers people get from ChatGPT, Perplexity and Google AI Overviews.",
+        "valueProp": "Included in the Growth plan — €65/month, everything in Presence plus continuous SEO and GEO/AEO."
       },
       "description": {
         "label": "OVERVIEW",
         "headline": "What's Included.",
-        "text": "We build intelligent systems that work while you sleep. From chatbots that answer customer questions in seconds to automated workflows that eliminate hours of manual work every week. Your team focuses on what matters — the machines handle the rest.",
+        "text": "Being online is not the same as being found. 'Dentist near me', 'best brunch in Cascais', 'mechanic open Saturday' — every day people search for exactly what you do, and increasingly they ask an AI instead of scrolling results. We work every month so that the answer is you: on Google Maps, in Google results, and in ChatGPT, Perplexity and Google AI Overviews.",
         "highlights": [
           {
-            "title": "AI Chatbots",
-            "text": "Trained on your business data, your FAQ, your tone of voice. Answers questions, books appointments, and captures leads — 24 hours a day."
+            "title": "Google Business Profile Optimisation",
+            "text": "Categories, services, products, posts, Q&A and photos tuned to what people actually search. Your profile is the most important local ranking factor — we keep it working."
           },
           {
-            "title": "Smart Follow-Ups",
-            "text": "Never lose a lead again. Automated email and SMS sequences that nurture prospects at exactly the right time."
+            "title": "Local Keywords & Area Pages",
+            "text": "We find the searches that bring customers in your area and build pages for each service and zone you serve, in Portuguese and English."
           },
           {
-            "title": "Process Automation",
-            "text": "Invoice generation, data entry, report creation, appointment reminders — if it's repetitive, we can automate it."
+            "title": "GEO / AEO: AI Search",
+            "text": "We structure your site and your listings so ChatGPT, Perplexity, Gemini and Google AI Overviews understand your business and recommend it accurately when someone asks."
           },
           {
-            "title": "Multi-Channel",
-            "text": "Works across your website, WhatsApp, Instagram DMs, and email. One system, every channel your customers use."
+            "title": "Positions Tracked",
+            "text": "Every month you see where you rank for the searches that matter and how AI describes your business — and what we changed as a result."
           }
         ]
       },
@@ -344,23 +203,23 @@
         "items": [
           {
             "tag": "01",
-            "title": "Customer Service",
-            "text": "A chatbot handles 80% of common questions instantly — business hours, pricing, directions, availability. Your team only handles the complex stuff."
+            "title": "Restaurants & Cafés",
+            "text": "Tourists ask AI where to eat before they land, and locals search 'near me' at 7pm. Be in the top three on the map and in the AI's answer."
           },
           {
             "tag": "02",
-            "title": "Appointment Booking",
-            "text": "Clients book directly through chat, get automatic confirmations and reminders. No more phone tag or missed bookings. Perfect for clinics, salons, and gyms."
+            "title": "Clinics, Dentists & Vets",
+            "text": "Patients search by problem, area and insurance. Service pages and a well-tuned profile mean you appear for the searches that lead to appointments."
           },
           {
             "tag": "03",
-            "title": "Lead Qualification",
-            "text": "Your chatbot asks the right questions, scores leads, and routes hot prospects to your sales team immediately. Cold leads get nurtured automatically."
+            "title": "Gyms, Salons & Studios",
+            "text": "'Pilates in Oeiras', 'barber open now' — highly local, highly intentional searches. We make sure you own them in your neighbourhood."
           },
           {
             "tag": "04",
-            "title": "Internal Operations",
-            "text": "Automate employee onboarding checklists, inventory alerts, weekly reports, and cross-team notifications. Less admin, more productive hours."
+            "title": "Trades & Professional Services",
+            "text": "Plumbers, electricians, accountants, lawyers: one page per service and area, so you are found by the people ready to hire — not just browsing."
           }
         ]
       },
@@ -370,26 +229,26 @@
         "steps": [
           {
             "tag": "01",
-            "title": "Map Your Workflows",
-            "description": "We identify which tasks eat up your team's time and which customer interactions can be automated without losing the human touch.",
+            "title": "Audit",
+            "description": "We check how you rank today for the searches that matter and how ChatGPT, Perplexity and Google AI describe you — and your competitors.",
             "status": "PHASE_1"
           },
           {
             "tag": "02",
-            "title": "Build & Train",
-            "description": "We build your chatbot, train it on your business data, and set up automation workflows tailored to your processes.",
+            "title": "Optimise",
+            "description": "Google Business Profile, site structure, local keywords, structured data and AI-readable content, all fixed in the first weeks.",
             "status": "PHASE_2"
           },
           {
             "tag": "03",
-            "title": "Test & Refine",
-            "description": "Real conversation testing with edge cases. We refine responses until your chatbot sounds like your best employee.",
+            "title": "Build",
+            "description": "Area and service pages, Q&A content and consistent mentions across the platforms search engines and AI models trust.",
             "status": "PHASE_3"
           },
           {
             "tag": "04",
-            "title": "Deploy & Optimize",
-            "description": "Go live across all channels. We monitor conversations, track performance, and continuously improve accuracy.",
+            "title": "Track & Adjust",
+            "description": "Monthly report with positions and AI visibility. Search changes fast — we adjust every month so you keep climbing.",
             "status": "PHASE_4"
           }
         ]
@@ -399,20 +258,20 @@
         "headline": "Why It Matters.",
         "items": [
           {
-            "title": "24/7 Availability",
-            "text": "Your customers don't wait for business hours. A chatbot responds in seconds, any time of day, any day of the week."
+            "title": "Customers With Intent",
+            "text": "Someone searching 'dentist in Almada today' is ready to book. Ranking for those searches brings customers, not just visitors."
           },
           {
-            "title": "Never Miss a Lead",
-            "text": "Every inquiry gets an instant response. Every lead gets followed up. Automatically. Consistently. Without fail."
+            "title": "Ahead of AI Search",
+            "text": "Very few local businesses are optimised for AI answers yet. Getting there now means owning your niche before competitors know the game exists."
           },
           {
-            "title": "Save Hours Every Week",
-            "text": "Automation handles the repetitive work your team dreads. That's hours back every week for work that actually moves the needle."
+            "title": "Compounding Results",
+            "text": "Unlike ads, SEO builds. Every month of work makes the next one stronger, and the customers keep coming without paying per click."
           },
           {
-            "title": "Affordable at Any Scale",
-            "text": "Starting from 25€/month. Whether you get 10 inquiries or 1,000, the cost stays predictable."
+            "title": "You See the Numbers",
+            "text": "No vague promises. Positions, calls, direction requests and website visits, reported every month in plain language."
           }
         ]
       },
@@ -420,66 +279,219 @@
         "label": "FAQ",
         "headline": "Common Questions.",
         "items": [
+          {
+            "question": "Which plan includes this?",
+            "answer": "Get Found is part of the Growth plan at €65/month — everything in Presence (€35) plus continuous local SEO, GEO/AEO, the AI chatbot, WhatsApp button, automatic review requests and follow-ups. The first SEO optimisation is already included in the €500 setup."
+          },
+          {
+            "question": "How long until I see results?",
+            "answer": "Google Business Profile improvements often show within 2 to 4 weeks. Organic and AI visibility take 2 to 4 months to build momentum. We set honest expectations and show progress every month."
+          },
+          {
+            "question": "What is GEO/AEO, in plain terms?",
+            "answer": "It is making sure AI assistants — ChatGPT, Perplexity, Google AI Overviews — know your business exists, what it does and where, so they recommend it when someone asks. Same goal as SEO, different rules."
+          },
+          {
+            "question": "Can you guarantee first place?",
+            "answer": "No one can, on Google or in AI answers. What we guarantee is the work: every factor that influences ranking gets handled, and you see the evidence in the monthly report."
+          }
+        ]
+      },
+      "cta": {
+        "headline": "Ready to Be Found?",
+        "text": "Search for your business on Google Maps and ask ChatGPT about it. If you are not the answer, we should talk.",
+        "buttonLabel": "Get In Touch",
+        "buttonHref": "#contact"
+      },
+      "meta": {
+        "title": "Get Found — Local SEO & AI Search | SurgeX",
+        "description": "Local SEO and GEO/AEO for local businesses in Portugal: rank on Google Maps and appear in ChatGPT, Perplexity and Google AI answers. Included in the Growth plan, €65/month."
+      }
+    },
+    "customer-care": {
+      "tag": "03",
+      "title": "Automatic Customer Care",
+      "shortDescription": "An AI chatbot on your site that knows your business, a WhatsApp button with your hours, automatic follow-ups on every request, review requests after each visit and a reply to every missed call. Every customer answered, even when you are busy.",
+      "features": [
+        "AI Chatbot Trained on Your Business",
+        "WhatsApp Button With Hours",
+        "Automatic Follow-Ups & Review Requests",
+        "Missed-Call Reply"
+      ],
+      "hero": {
+        "title": "Every Customer Answered. Even at 11pm.",
+        "subtitle": "An AI chatbot trained on your business, a WhatsApp button, automatic follow-ups, Google review requests and missed-call replies — working while you serve the customers in front of you.",
+        "valueProp": "Included in the Growth plan — €65/month. No lock-in."
+      },
+      "description": {
+        "label": "OVERVIEW",
+        "headline": "What's Included.",
+        "text": "You lose customers in the gaps: the call you could not take, the message answered the next day, the quote nobody followed up, the happy client who never left a review. We close those gaps automatically. The chatbot answers in seconds in Portuguese and English, WhatsApp is one tap away, and every request, quote and visit gets the follow-up it deserves — without you lifting a finger.",
+        "highlights": [
+          {
+            "title": "AI Chatbot on Your Site",
+            "text": "Trained on your services, prices, hours and FAQ. Answers questions, captures bookings and requests, and hands over to you when a human is needed — 24 hours a day."
+          },
+          {
+            "title": "WhatsApp, One Tap Away",
+            "text": "A WhatsApp button on every page, showing when you are open and what to expect. Most of your customers already live there; meet them."
+          },
+          {
+            "title": "Follow-Ups That Never Forget",
+            "text": "Every quote, booking or enquiry gets an automatic follow-up at the right moment, by WhatsApp or email. Fewer lost leads, no spreadsheet to remember."
+          },
+          {
+            "title": "Reviews & Missed Calls",
+            "text": "After each visit, a polite automatic request for a Google review. When you miss a call, the caller gets an instant message so they do not call the next business on the list."
+          }
+        ]
+      },
+      "useCases": {
+        "label": "USE CASES",
+        "headline": "Who This Is For.",
+        "items": [
+          {
+            "tag": "01",
+            "title": "Restaurants & Cafés",
+            "text": "Reservation requests, group bookings and 'are you open today?' handled instantly. After the meal, a review request that fills your Google profile with five stars."
+          },
+          {
+            "tag": "02",
+            "title": "Clinics, Dentists & Vets",
+            "text": "Appointment requests captured at any hour, reminders sent automatically, and post-visit review requests. Fewer no-shows, fuller schedules."
+          },
+          {
+            "tag": "03",
+            "title": "Salons & Gyms",
+            "text": "Booking questions answered on the spot, missed calls turned into WhatsApp conversations, and lapsed clients gently reminded to come back."
+          },
+          {
+            "tag": "04",
+            "title": "Trades & Auto Services",
+            "text": "You are under a car or on a roof — the chatbot takes the request, the missed-call reply keeps the customer, and the quote follow-up wins the job."
+          }
+        ]
+      },
+      "process": {
+        "label": "PROCESS",
+        "headline": "How We Deliver.",
+        "steps": [
+          {
+            "tag": "01",
+            "title": "Map the Gaps",
+            "description": "We look at where enquiries arrive today — calls, forms, WhatsApp, Instagram — and where they get lost. Then we decide what to automate first.",
+            "status": "PHASE_1"
+          },
+          {
+            "tag": "02",
+            "title": "Train & Configure",
+            "description": "We train the chatbot on your business, set up the WhatsApp button and hours, and write the follow-up, reminder and review messages in your tone.",
+            "status": "PHASE_2"
+          },
+          {
+            "tag": "03",
+            "title": "Test",
+            "description": "Real conversations, edge cases and the 'I don't know' path. We refine until the chatbot sounds like your best employee and every hand-over reaches you.",
+            "status": "PHASE_3"
+          },
+          {
+            "tag": "04",
+            "title": "Go Live & Improve",
+            "description": "Everything switches on together. We watch the conversations and the numbers each month and improve replies, timing and flows.",
+            "status": "PHASE_4"
+          }
+        ]
+      },
+      "benefits": {
+        "label": "BENEFITS",
+        "headline": "Why It Matters.",
+        "items": [
+          {
+            "title": "No More Lost Customers",
+            "text": "Every enquiry gets an answer in seconds, every quote gets a follow-up, every missed call gets a reply. The customer who would have gone elsewhere stays with you."
+          },
+          {
+            "title": "More Google Reviews",
+            "text": "Reviews decide who gets picked on the map. Asking automatically after every visit turns happy customers into public proof, consistently."
+          },
+          {
+            "title": "Hours Back Every Week",
+            "text": "The same ten questions, answered by the chatbot. Reminders and follow-ups sent by themselves. Time you get back for the work that pays."
+          },
+          {
+            "title": "Sounds Like You",
+            "text": "Trained on your real answers and your tone. Customers get help, not a robot — and when they need you, the hand-over is immediate."
+          }
+        ]
+      },
+      "faq": {
+        "label": "FAQ",
+        "headline": "Common Questions.",
+        "items": [
+          {
+            "question": "Which plan includes this?",
+            "answer": "Automatic Customer Care is part of the Growth plan at €65/month, alongside continuous local SEO and GEO/AEO. The Complete plan at €100/month adds social media and campaigns on top. All plans are month to month, no lock-in."
+          },
           {
             "question": "Will the chatbot sound robotic?",
-            "answer": "No. We train it on your actual FAQ, your tone, and your brand voice. Most customers can't tell they're chatting with AI — and when they need a human, the handoff is seamless."
+            "answer": "No. It is trained on your actual services, prices and answers, in Portuguese and English, and speaks in your tone. When it cannot answer, it says so and passes the conversation to you with full context."
           },
           {
-            "question": "What happens if the chatbot can't answer a question?",
-            "answer": "It gracefully escalates to a human team member via email, WhatsApp, or your preferred channel. No dead ends for your customers."
+            "question": "Does it work with WhatsApp?",
+            "answer": "Yes. The WhatsApp button links straight to your number with a pre-filled message, and follow-ups and missed-call replies can go by WhatsApp or email — whichever your customers use."
           },
           {
-            "question": "How long does setup take?",
-            "answer": "A basic chatbot can be live within a week. More complex automations with multiple integrations typically take 2-3 weeks."
+            "question": "Are automatic review requests allowed?",
+            "answer": "Yes, as long as you ask every customer the same way and never filter by satisfaction — which is exactly how we set it up. The result is more reviews, honestly earned."
           }
         ]
       },
       "cta": {
-        "headline": "Ready to Start?",
-        "text": "Every minute your team spends on repetitive tasks is a minute they're not growing your business. Let's fix that.",
+        "headline": "Ready to Answer Everyone?",
+        "text": "Count the calls you missed this week and the quotes you never chased. That is the revenue this service recovers. Let's switch it on.",
         "buttonLabel": "Get In Touch",
         "buttonHref": "#contact"
       },
       "meta": {
-        "title": "Automation & Chatbots | SurgeX",
-        "description": "AI chatbots and business automation from 25€/month. 24/7 customer service, lead capture, and process automation for Portuguese SMBs. Built by SurgeX."
+        "title": "Automatic Customer Care — AI Chatbot & WhatsApp | SurgeX",
+        "description": "AI chatbot trained on your business, WhatsApp button, automatic follow-ups, Google review requests and missed-call replies for local businesses in Portugal. Growth plan, €65/month."
       }
     },
-    "marketing": {
+    "social-media": {
       "tag": "04",
-      "title": "Digital Marketing",
-      "shortDescription": "AI-powered digital marketing that actually delivers measurable results. Google Ads, social media management, content creation, and lead generation — all driven by data, not guesswork. We track every euro so you know exactly what's working.",
+      "title": "Social Media & Content",
+      "shortDescription": "A monthly calendar, posts and images created with AI in your brand's voice, published automatically to Instagram, Facebook and LinkedIn, and a monthly reach report. A consistent presence without spending your evenings on it.",
       "features": [
-        "Google Ads Management",
-        "Social Media Strategy",
-        "AI-Powered Content Creation",
-        "Lead Generation Campaigns"
+        "Monthly Content Calendar",
+        "Posts & Images in Your Brand Voice",
+        "Auto-Publishing to Instagram, Facebook & LinkedIn",
+        "Monthly Reach Report"
       ],
       "hero": {
-        "title": "Digital Marketing",
-        "subtitle": "Marketing that proves its own ROI.",
-        "valueProp": "AI-driven campaigns that target the right people, at the right time, with the right message — and show you the numbers to prove it."
+        "title": "Consistent Posts. Zero Evenings Lost.",
+        "subtitle": "A monthly calendar, posts and images created with AI in your brand's voice, published automatically to Instagram, Facebook and LinkedIn — with a report every month.",
+        "valueProp": "Included in the Complete plan — €100/month. No lock-in."
       },
       "description": {
         "label": "OVERVIEW",
         "headline": "What's Included.",
-        "text": "We combine AI with marketing expertise to run campaigns that outperform traditional agencies. Every decision is data-driven. Every euro is tracked. You get transparent reporting and campaigns that improve automatically over time.",
+        "text": "Customers check your Instagram before they check your website. An account that last posted in March says 'maybe closed'. We give you a presence that looks alive and on-brand every week: a calendar you approve in minutes, posts and images generated with AI in your voice, scheduled and published automatically, and a monthly report showing what reached people.",
         "highlights": [
           {
-            "title": "Google Ads",
-            "text": "Search, display, and local campaigns managed by AI-assisted bidding and targeting. We maximize clicks and conversions while minimizing wasted spend."
+            "title": "Monthly Calendar",
+            "text": "A plan for the month — promotions, behind-the-scenes, tips, seasonal moments — sent for your approval before anything goes out. Change or veto anything with one message."
           },
           {
-            "title": "Social Media",
-            "text": "Strategy, content creation, and community management across Instagram, Facebook, and LinkedIn. Consistent presence without the time commitment."
+            "title": "Posts & Images With AI",
+            "text": "Captions and visuals created with AI, trained on your brand, your tone and your photos. Consistent look, correct Portuguese, no stock-photo feel."
           },
           {
-            "title": "Content Creation",
-            "text": "AI-assisted blog posts, social graphics, video scripts, and ad copy — all aligned with your brand voice and SEO strategy."
+            "title": "Published Automatically",
+            "text": "Scheduled and posted to Instagram, Facebook and LinkedIn at the times your audience is online. Nothing for you to copy, paste or remember."
           },
           {
-            "title": "Lead Generation",
-            "text": "Landing pages, lead magnets, and conversion funnels designed to turn traffic into paying customers."
+            "title": "Monthly Report",
+            "text": "Reach, followers, engagement and the posts that worked — in one page, in plain language. What performs gets more of; what does not gets dropped."
           }
         ]
       },
@@ -489,23 +501,23 @@
         "items": [
           {
             "tag": "01",
-            "title": "Local Businesses",
-            "text": "Dominate your area with hyperlocal Google Ads and social media targeting. Restaurants, salons, clinics — we drive foot traffic from the neighborhoods that matter."
+            "title": "Restaurants & Cafés",
+            "text": "Daily specials, seasonal menus, the terrace in the sun. Food content is what people scroll for — we keep yours flowing every week."
           },
           {
             "tag": "02",
-            "title": "E-Commerce",
-            "text": "Product ads, retargeting campaigns, and email sequences that recover abandoned carts. AI optimizes your ad spend across channels in real time."
+            "title": "Salons, Barbers & Beauty",
+            "text": "Before-and-afters, new services, booking reminders. A feed that shows your work is the best advertising a salon can have."
           },
           {
             "tag": "03",
-            "title": "Professional Services",
-            "text": "Lawyers, accountants, consultants — build authority with content marketing and capture high-intent leads through targeted search campaigns."
+            "title": "Gyms & Studios",
+            "text": "Class schedules, member wins, trainer tips and challenges. Content that keeps members engaged and shows newcomers what to expect."
           },
           {
             "tag": "04",
-            "title": "Startups & New Businesses",
-            "text": "Limited budget? We stretch every euro with AI-powered targeting that finds your ideal customers faster than traditional methods."
+            "title": "Clinics, Vets & Professionals",
+            "text": "Educational posts that build trust — tips, common questions, team introductions. Authority without the hard sell."
           }
         ]
       },
@@ -515,26 +527,26 @@
         "steps": [
           {
             "tag": "01",
-            "title": "Audit & Strategy",
-            "description": "We analyze your current marketing, competitors, and target audience. You get a clear strategy with projected results.",
+            "title": "Voice & Style",
+            "description": "We learn your brand: tone, colours, what you post about, what you never would. Plus a photo bank from your business.",
             "status": "PHASE_1"
           },
           {
             "tag": "02",
-            "title": "Campaign Setup",
-            "description": "Ad accounts, tracking pixels, landing pages, and creative assets — all built and configured for maximum performance.",
+            "title": "Calendar",
+            "description": "The month's calendar with themes, dates and drafts, sent for your approval. You take five minutes; we take the rest.",
             "status": "PHASE_2"
           },
           {
             "tag": "03",
-            "title": "Launch & Optimize",
-            "description": "Campaigns go live with AI-assisted monitoring. We optimize targeting, bidding, and creative based on real-time performance data.",
+            "title": "Create & Schedule",
+            "description": "Posts and images generated with AI, checked by a human, scheduled across Instagram, Facebook and LinkedIn.",
             "status": "PHASE_3"
           },
           {
             "tag": "04",
-            "title": "Report & Scale",
-            "description": "Monthly reports with clear metrics — leads, cost per acquisition, ROI. We scale what works and cut what doesn't.",
+            "title": "Report & Refine",
+            "description": "A monthly report on reach and engagement. Next month's calendar leans into what worked.",
             "status": "PHASE_4"
           }
         ]
@@ -544,20 +556,20 @@
         "headline": "Why It Matters.",
         "items": [
           {
-            "title": "Measurable Results",
-            "text": "Every campaign comes with transparent reporting. You know exactly how many leads, calls, and customers your marketing generated."
+            "title": "Always Open, Online",
+            "text": "Regular posts tell customers you are active, busy and worth visiting. Silence tells them the opposite."
           },
           {
-            "title": "AI-Powered Efficiency",
-            "text": "AI optimizes your campaigns 24/7 — adjusting bids, refining audiences, and testing creative faster than any human could."
+            "title": "Your Time Back",
+            "text": "No more Sunday nights choosing photos and writing captions. The calendar runs itself; you approve and get on with the business."
           },
           {
-            "title": "Lower Cost Per Lead",
-            "text": "Better targeting means less wasted spend. Our clients typically see 30-50% lower cost per lead compared to self-managed campaigns."
+            "title": "On-Brand, Every Time",
+            "text": "Same voice, same look, correct Portuguese. Content that looks like it came from a professional team — because it did."
           },
           {
-            "title": "Consistent Pipeline",
-            "text": "Stop relying on word of mouth alone. A steady stream of qualified leads, month after month."
+            "title": "Costs a Fraction",
+            "text": "AI creates the drafts, a human checks them. That is how we deliver an agency's monthly output at a price a local business can actually pay."
           }
         ]
       },
@@ -566,65 +578,69 @@
         "headline": "Common Questions.",
         "items": [
           {
-            "question": "How much should I budget for ads?",
-            "answer": "We recommend starting with at least 300-500€/month in ad spend for local businesses. We'll tell you honestly if your budget is too low for your goals — no point wasting money."
+            "question": "Which plan includes this?",
+            "answer": "Social Media & Content is part of the Complete plan at €100/month — everything in Growth (€65) plus the monthly calendar, AI-created posts and images, automatic publishing and campaigns. Month to month, no lock-in."
           },
           {
-            "question": "How quickly will I see results?",
-            "answer": "Google Ads can generate leads within the first week. Social media and content marketing take 2-3 months to build momentum. We set realistic expectations upfront."
+            "question": "How many posts per month?",
+            "answer": "Typically 8 to 12 posts across Instagram, Facebook and LinkedIn, depending on your business and what performs. Frequency is agreed in the calendar and adjusted as the numbers come in."
           },
           {
-            "question": "Do I need a website first?",
-            "answer": "A website helps enormously — and we build those too. But we can start with social media and landing pages while your site is being built."
+            "question": "Will it look generic or AI-made?",
+            "answer": "No. Everything is trained on your brand and your real photos, and a human reviews every post before it is scheduled. You approve the calendar, so nothing goes out that does not sound like you."
+          },
+          {
+            "question": "Do you reply to comments and messages?",
+            "answer": "Publishing and reporting are included. Direct messages are best handled by the Automatic Customer Care flows — chatbot, WhatsApp and follow-ups — which are already in your plan."
           }
         ]
       },
       "cta": {
-        "headline": "Ready to Start?",
-        "text": "Your customers are searching for you right now. Make sure they find you — not your competitor.",
+        "headline": "Ready to Post Every Week?",
+        "text": "Open your Instagram and check the date of your last post. If it makes you wince, we can fix that this month.",
         "buttonLabel": "Get In Touch",
         "buttonHref": "#contact"
       },
       "meta": {
-        "title": "Digital Marketing | SurgeX",
-        "description": "AI-powered digital marketing for Portuguese businesses. Google Ads, social media, content creation, and lead generation with measurable ROI. Talk to SurgeX."
+        "title": "Social Media & Content — Instagram, Facebook, LinkedIn | SurgeX",
+        "description": "Monthly calendar, AI-created posts and images in your brand voice, automatic publishing to Instagram, Facebook and LinkedIn, and a monthly report. Complete plan, €100/month."
       }
     },
-    "geo-aeo": {
+    "campaigns": {
       "tag": "05",
-      "title": "GEO / AEO",
-      "shortDescription": "Generative Engine Optimization and Answer Engine Optimization — making your business visible to ChatGPT, Perplexity, Google AI Overviews, and every AI that answers questions about your industry. Most businesses are invisible to AI search. We fix that.",
+      "title": "Campaigns & Outreach",
+      "shortDescription": "Automatic outreach to the customers you want, newsletters and reactivation campaigns to the ones you already have, and Google or Meta ads when they make sense. Every campaign measured, so you know exactly what brought business in.",
       "features": [
-        "AI Visibility Audits",
-        "llms.txt Implementation",
-        "Structured Data Optimization",
-        "AI Citation Building"
+        "Automatic Outreach by Email & WhatsApp",
+        "Newsletters & Reactivation Campaigns",
+        "Google & Meta Ads When It Makes Sense",
+        "Every Campaign Measured"
       ],
       "hero": {
-        "title": "GEO / AEO",
-        "subtitle": "Be the answer AI gives.",
-        "valueProp": "The future of search is AI-powered — and most businesses are completely invisible to it. We make sure yours isn't."
+        "title": "Go Get the Customers. Automatically.",
+        "subtitle": "Automatic outreach to new prospects, newsletters and reactivation campaigns to your existing customers, and Google or Meta ads when they pay off — all measured.",
+        "valueProp": "Included in the Complete plan — €100/month. Ad spend is your own budget, on top."
       },
       "description": {
         "label": "OVERVIEW",
         "headline": "What's Included.",
-        "text": "Search is changing. People are asking ChatGPT, Perplexity, and Google AI Overviews instead of scrolling through results. If your business isn't structured for AI to understand and recommend, you're already falling behind. We know how LLMs work — and we use that knowledge to make your business the one they cite.",
+        "text": "Waiting to be found is only half the job. The other half is going to get customers: reaching the businesses or people you want as clients, bringing back the ones who have not visited in a while, and — when the numbers justify it — paying for attention on Google and Meta. We build the campaigns, run them with AI, and report what each one brought back in calls, bookings and visits.",
         "highlights": [
           {
-            "title": "AI Visibility Audit",
-            "text": "We test how ChatGPT, Perplexity, and Google AI Overviews talk about your business and your competitors. You'll see exactly where you stand."
+            "title": "Automatic Outreach",
+            "text": "For businesses that sell to other businesses or to a defined audience: we identify prospects, write personalised messages and send them by email or WhatsApp on a schedule, with follow-ups. You take the replies."
           },
           {
-            "title": "llms.txt & Structured Data",
-            "text": "We implement llms.txt files and optimize your structured data so AI models can accurately understand your business, services, and expertise."
+            "title": "Newsletters & Reactivation",
+            "text": "Your existing customer list is your cheapest source of revenue. Monthly newsletters, seasonal offers and 'we miss you' campaigns that bring people back through the door."
           },
           {
-            "title": "Q&A Content Restructuring",
-            "text": "We restructure your content into the question-and-answer format that AI engines prefer to cite. Your expertise becomes the answer."
+            "title": "Google & Meta Ads",
+            "text": "When a campaign makes sense we set it up, target locally and optimise it. Ad spend is always your budget, paid directly to the platform — we tell you honestly when it is not worth it."
           },
           {
-            "title": "Citation Building & Monitoring",
-            "text": "We build authoritative mentions across platforms that LLMs trust, then monitor your AI visibility over time to track progress."
+            "title": "All of It Measured",
+            "text": "Every campaign has a number: opens, replies, bookings, calls, cost per new customer. Reported monthly. What works gets more; what does not stops."
           }
         ]
       },
@@ -634,23 +650,23 @@
         "items": [
           {
             "tag": "01",
-            "title": "Local Service Businesses",
-            "text": "When someone asks ChatGPT 'best plumber in Cascais,' will your business be mentioned? We make sure it is — with accurate information, not hallucinated details."
+            "title": "Restaurants & Cafés",
+            "text": "Reactivate past guests with seasonal menus and events, reach companies nearby for lunches and group bookings, and fill quiet weekdays."
           },
           {
             "tag": "02",
-            "title": "Restaurants & Hospitality",
-            "text": "AI assistants are becoming the new concierge. Tourists ask AI for restaurant recommendations before they even land. Your business needs to be in those answers."
+            "title": "Clinics, Dentists & Vets",
+            "text": "Check-up reminders, vaccination campaigns, seasonal offers to your patient base. Recall campaigns that fill the calendar with people who already trust you."
           },
           {
             "tag": "03",
-            "title": "Healthcare Professionals",
-            "text": "Patients increasingly ask AI for doctor and clinic recommendations. Proper structured data and authoritative content ensure AI recommends you accurately."
+            "title": "Gyms, Salons & Studios",
+            "text": "Win back lapsed members and clients, promote new classes or services, run a January or September push with local ads that actually convert."
           },
           {
             "tag": "04",
-            "title": "Any Business Found Online",
-            "text": "If customers find you through search today, they'll find you through AI tomorrow. GEO/AEO is the SEO of the next decade — and early movers win."
+            "title": "Trades & Professional Services",
+            "text": "Automatic outreach to property managers, condominiums, companies and partners who need your service regularly — a pipeline that does not depend on word of mouth."
           }
         ]
       },
@@ -660,26 +676,26 @@
         "steps": [
           {
             "tag": "01",
-            "title": "AI Visibility Audit",
-            "description": "We query major AI platforms about your business and industry. You get a detailed report on how AI currently sees you — and your competitors.",
+            "title": "Targets & Offer",
+            "description": "Who you want to reach, what you offer them and what a good result looks like. We define the audience, the message and the number to beat.",
             "status": "PHASE_1"
           },
           {
             "tag": "02",
-            "title": "Technical Optimization",
-            "description": "We implement llms.txt, optimize structured data, and restructure your content for AI comprehension and citation.",
+            "title": "Build",
+            "description": "Prospect lists, message sequences, newsletter templates, ad creatives and tracking — built with AI, reviewed by a human, approved by you.",
             "status": "PHASE_2"
           },
           {
             "tag": "03",
-            "title": "Authority Building",
-            "description": "We create and distribute authoritative content across platforms that LLMs use as training data and retrieval sources.",
+            "title": "Launch",
+            "description": "Outreach, newsletters and ads go out on schedule. Replies land in your inbox or WhatsApp; you close the deal.",
             "status": "PHASE_3"
           },
           {
             "tag": "04",
-            "title": "Monitor & Adapt",
-            "description": "AI search evolves fast. We continuously monitor your visibility across AI platforms and adapt strategy as models update.",
+            "title": "Measure & Scale",
+            "description": "Monthly report: what went out, who replied, what it brought in. We double down on what works and cut what does not.",
             "status": "PHASE_4"
           }
         ]
@@ -689,20 +705,20 @@
         "headline": "Why It Matters.",
         "items": [
           {
-            "title": "First-Mover Advantage",
-            "text": "Less than 1% of businesses are optimized for AI search. Getting in now means dominating your niche before competitors even understand the game."
+            "title": "A Pipeline You Control",
+            "text": "Stop relying on word of mouth and walk-ins alone. A steady, predictable flow of enquiries you can turn up or down."
           },
           {
-            "title": "Future-Proof Visibility",
-            "text": "Traditional SEO isn't dying — but AI search is growing fast. Businesses that optimize for both will own the next decade of digital discovery."
+            "title": "Your Existing Customers, Again",
+            "text": "Bringing a customer back costs a fraction of finding a new one. Most local businesses never ask. You will, automatically."
           },
           {
-            "title": "Accurate Representation",
-            "text": "Without optimization, AI might hallucinate details about your business. We ensure AI has correct, authoritative information to work with."
+            "title": "Ads Only When They Pay",
+            "text": "We do not push ad spend. We run ads when the maths works, with your budget, and stop them when it stops working."
           },
           {
-            "title": "Built by AI Experts",
-            "text": "We don't just do marketing — we build AI systems. We understand how LLMs retrieve, rank, and cite information from the inside out."
+            "title": "Numbers, Not Opinions",
+            "text": "Every euro and every message has a result attached. You know what brought business — and what did not."
           }
         ]
       },
@@ -711,173 +727,32 @@
         "headline": "Common Questions.",
         "items": [
           {
-            "question": "What is GEO/AEO and how is it different from SEO?",
-            "answer": "SEO optimizes for Google's link-based results. GEO/AEO optimizes for AI-generated answers — ChatGPT, Perplexity, Google AI Overviews. Different algorithms, different strategies, but complementary goals: making your business findable."
+            "question": "Which plan includes this?",
+            "answer": "Campaigns & Outreach is part of the Complete plan at €100/month, together with social media and a monthly results report. Month to month, no lock-in. Any Google or Meta ad spend is separate and paid by you directly to the platform."
           },
           {
-            "question": "Is this actually worth investing in right now?",
-            "answer": "AI search usage is doubling every quarter. It's where SEO was in 2005 — early, but the businesses that move now will have an insurmountable lead. And yes, we practice what we preach."
+            "question": "How much should I spend on ads?",
+            "answer": "Often nothing at first: outreach and reactivation campaigns cost only the plan. If ads make sense for your business, we suggest a budget you are comfortable with and tell you honestly if it is too low to work."
           },
           {
-            "question": "What is llms.txt?",
-            "answer": "It's a new standard file (like robots.txt for search engines) that tells AI models what your business is about, what services you offer, and how to accurately represent you. We handle the implementation."
+            "question": "Is automatic outreach legal?",
+            "answer": "Yes, done properly: business contacts, a clear identification, a real offer and a one-message way to opt out. We follow the rules of every platform and of the GDPR, and we never buy dubious lists."
+          },
+          {
+            "question": "How fast will I see results?",
+            "answer": "Reactivation campaigns to your own list can bring bookings within days. Outreach typically shows replies in the first weeks. Ads generate calls from the first days when the offer is right."
           }
         ]
       },
       "cta": {
-        "headline": "Ready to Start?",
-        "text": "Ask ChatGPT about your business right now. If the answer is wrong — or worse, empty — we need to talk.",
+        "headline": "Ready to Go Get Customers?",
+        "text": "Tell us who your ideal customer is and how many more you could serve this month. We will show you the campaign that gets them.",
         "buttonLabel": "Get In Touch",
         "buttonHref": "#contact"
       },
       "meta": {
-        "title": "GEO / AEO — AI Search Optimization | SurgeX",
-        "description": "Make your business visible to ChatGPT, Perplexity, and Google AI Overviews. GEO/AEO optimization by AI experts. First-mover advantage starts now. SurgeX."
-      }
-    },
-    "training": {
-      "tag": "06",
-      "title": "Training & Workshops",
-      "shortDescription": "Practical, hands-on AI training for your team. No technical background required. We teach your people to use AI tools effectively — from prompt engineering to workflow automation — so they're more productive from day one.",
-      "features": [
-        "Prompt Engineering",
-        "AI Tool Selection & Setup",
-        "Workflow Integration",
-        "Team Enablement Programs"
-      ],
-      "hero": {
-        "title": "Training & Workshops",
-        "subtitle": "Give your team an unfair advantage.",
-        "valueProp": "Practical AI training that turns your team into power users — no technical background required."
-      },
-      "description": {
-        "label": "OVERVIEW",
-        "headline": "What's Included.",
-        "text": "AI tools are only as good as the people using them. We run hands-on workshops that teach your team to use AI effectively in their daily work — not theory, not hype, just practical skills they can apply immediately. Every session is customized for your industry and your team's actual workflows.",
-        "highlights": [
-          {
-            "title": "Prompt Engineering",
-            "text": "The skill that 10x's every AI tool. We teach your team to get consistently great results from ChatGPT, Copilot, and other AI assistants."
-          },
-          {
-            "title": "AI Tool Selection",
-            "text": "There are hundreds of AI tools. We cut through the noise and help you pick the 3-5 that actually matter for your business."
-          },
-          {
-            "title": "Workflow Integration",
-            "text": "We don't just teach tools — we redesign workflows. Your team learns where AI fits into their daily routine for maximum impact."
-          },
-          {
-            "title": "Ongoing Enablement",
-            "text": "AI evolves fast. We offer follow-up sessions and resources to keep your team current as new tools and capabilities emerge."
-          }
-        ]
-      },
-      "useCases": {
-        "label": "USE CASES",
-        "headline": "Who This Is For.",
-        "items": [
-          {
-            "tag": "01",
-            "title": "Sales Teams",
-            "text": "AI-powered prospecting, email personalization, CRM automation, and meeting prep. Your sales team closes more deals with less manual work."
-          },
-          {
-            "tag": "02",
-            "title": "Customer Service Teams",
-            "text": "Draft responses faster, summarize customer histories instantly, and handle more tickets without burning out. AI as a support agent's best tool."
-          },
-          {
-            "tag": "03",
-            "title": "Management & Leadership",
-            "text": "Strategic overview of AI capabilities, risk assessment, and opportunity mapping. Make informed decisions about AI adoption across your organization."
-          },
-          {
-            "tag": "04",
-            "title": "Marketing Departments",
-            "text": "Content creation, ad copy, social media management, and data analysis — all supercharged with AI. Produce more, better content in less time."
-          }
-        ]
-      },
-      "process": {
-        "label": "PROCESS",
-        "headline": "How We Deliver.",
-        "steps": [
-          {
-            "tag": "01",
-            "title": "Needs Assessment",
-            "description": "We interview your team to understand current workflows, pain points, and AI familiarity. The training is built around your reality.",
-            "status": "PHASE_1"
-          },
-          {
-            "tag": "02",
-            "title": "Custom Curriculum",
-            "description": "We design a workshop agenda tailored to your industry, team size, and skill level. Practical exercises using your actual work scenarios.",
-            "status": "PHASE_2"
-          },
-          {
-            "tag": "03",
-            "title": "Hands-On Workshop",
-            "description": "Interactive sessions where your team practices with real AI tools on real tasks. Everyone leaves with skills they can use immediately.",
-            "status": "PHASE_3"
-          },
-          {
-            "tag": "04",
-            "title": "Follow-Up & Resources",
-            "description": "Post-workshop support, reference guides, and optional follow-up sessions to reinforce learning and address new questions.",
-            "status": "PHASE_4"
-          }
-        ]
-      },
-      "benefits": {
-        "label": "BENEFITS",
-        "headline": "Why It Matters.",
-        "items": [
-          {
-            "title": "Immediate Productivity Gains",
-            "text": "Your team starts working faster the day after training. We've seen teams save 5-10 hours per person per week with the right AI tools."
-          },
-          {
-            "title": "Reduce AI Anxiety",
-            "text": "Most employees are curious but cautious about AI. Hands-on experience replaces fear with confidence and practical understanding."
-          },
-          {
-            "title": "Competitive Edge",
-            "text": "Teams that use AI effectively outperform those that don't. It's that simple. Train your people before your competitors train theirs."
-          },
-          {
-            "title": "No Technical Prerequisites",
-            "text": "Our workshops are designed for non-technical professionals. If your team can use email, they can learn to use AI effectively."
-          }
-        ]
-      },
-      "faq": {
-        "label": "FAQ",
-        "headline": "Common Questions.",
-        "items": [
-          {
-            "question": "How long is a typical workshop?",
-            "answer": "Most workshops run 3-4 hours for a focused session, or a full day for comprehensive training. We also offer multi-session programs spread across weeks for deeper learning."
-          },
-          {
-            "question": "Can you train our team remotely?",
-            "answer": "Yes. We run workshops both in person (Lisbon area) and remotely via video call. Remote sessions work just as well — we've designed them to be highly interactive."
-          },
-          {
-            "question": "What if our team has mixed skill levels?",
-            "answer": "We design the curriculum to accommodate different levels. Beginners get solid foundations while more advanced users get power-user techniques. Everyone walks away with something new."
-          }
-        ]
-      },
-      "cta": {
-        "headline": "Ready to Start?",
-        "text": "Your team is already using AI — probably badly. Let's make sure they're using it well. One workshop can transform how your entire organization works.",
-        "buttonLabel": "Get In Touch",
-        "buttonHref": "#contact"
-      },
-      "meta": {
-        "title": "AI Training & Workshops | SurgeX",
-        "description": "Hands-on AI training for non-technical teams. Prompt engineering, tool selection, and workflow integration. In-person or remote. Book a workshop with SurgeX."
+        "title": "Campaigns & Outreach — Prospecting, Newsletters, Ads | SurgeX",
+        "description": "Automatic outreach by email and WhatsApp, newsletters and reactivation campaigns, and Google or Meta ads when they make sense — all measured. Complete plan, €100/month. Ad spend separate."
       }
     }
   }

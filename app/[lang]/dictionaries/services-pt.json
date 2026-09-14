@@ -1,199 +1,50 @@
 {
   "meta": {
     "title": "Serviços | SurgeX",
-    "description": "Websites premium, chatbots IA, automação e marketing digital para PMEs portuguesas. 50+ projetos entregues. Soluções à medida desde 25€/mês."
+    "description": "Website, Google Maps, SEO local, atendimento automático, redes sociais e campanhas para negócios locais em Portugal — tudo feito com IA, desde 35€/mês. Veja o que a SurgeX faz por si."
   },
   "hub": {
     "label": "SERVIÇOS",
-    "headline": "O Que Construímos.",
-    "description": "Cada negócio é diferente. Por isso, não vendemos pacotes genéricos — ouvimos, entendemos e construímos soluções à medida. Da estratégia ao lançamento, tudo passa por nós.",
+    "headline": "O Que Fazemos Por Si.",
+    "description": "Cinco formas de trazer clientes ao seu negócio — do website e do Google Maps ao atendimento automático, redes sociais e campanhas. Tudo feito com IA, por isso custa uma fração do habitual. Sem fidelização.",
     "learnMore": "Saber Mais"
   },
   "services": {
-    "ai-solutions": {
+    "online-presence": {
       "tag": "01",
-      "title": "Soluções de IA à Medida",
-      "shortDescription": "Inteligência artificial desenhada para o seu negócio — não soluções genéricas. Identificamos oportunidades, construímos e integramos.",
+      "title": "Presença Online",
+      "shortDescription": "Um website premium entregue em 48 horas, bilingue e pronto para o Google — mais o seu negócio listado e atualizado no Google Maps, Apple Maps, TripAdvisor e Bing. Tudo o que um cliente vê quando o procura, bem feito.",
       "features": [
-        "Consultoria e auditoria de IA",
-        "Desenvolvimento de soluções personalizadas",
-        "Integração com sistemas existentes",
-        "Suporte e otimização contínua"
+        "Website Premium em 48h",
+        "Bilingue (PT/EN) e Pronto para SEO",
+        "Google Maps, Apple Maps, TripAdvisor, Bing",
+        "Listagens Sempre Atualizadas"
       ],
       "hero": {
-        "title": "IA Que Trabalha Para Si.",
-        "subtitle": "Soluções de inteligência artificial construídas à medida do seu negócio — não produtos de prateleira.",
-        "valueProp": "Mais eficiência. Menos custos. Resultados reais."
+        "title": "O Seu Negócio Online em 48 Horas.",
+        "subtitle": "Um website premium mais as suas listagens no Google Maps, Apple Maps, TripAdvisor e Bing — criadas, verificadas e mantidas atualizadas.",
+        "valueProp": "Setup único de 500€. Desde 35€/mês para manter tudo a funcionar. Sem fidelização."
       },
       "description": {
         "label": "VISÃO GERAL",
         "headline": "O Que Está Incluído.",
-        "text": "Começamos por ouvir. Analisamos os processos do seu negócio, identificamos onde a IA pode fazer a diferença e construímos soluções que se integram naturalmente no dia a dia da sua equipa. Sem jargão, sem complicações.",
+        "text": "Quando alguém ouve falar de si, a primeira coisa que faz é procurá-lo. Garantimos que o que encontra está certo: um website rápido e bilingue com aspeto premium, e um perfil consistente — nome, morada, telefone, horário, fotos — em todos os mapas e diretórios que contam. Feito com IA, por isso demora dias, não meses.",
         "highlights": [
           {
-            "title": "Auditoria de Processos",
-            "text": "Mapeamos os seus fluxos de trabalho e identificamos as áreas com maior potencial de automação e otimização com IA."
+            "title": "Website Premium",
+            "text": "Desenhado para o seu setor, não um template com as suas cores. Rápido no telemóvel, português e inglês incluídos, e construído para aparecer no Google desde o primeiro dia. Online em 48 horas, em média."
           },
           {
-            "title": "Desenvolvimento Personalizado",
-            "text": "Construímos ferramentas de IA específicas para as suas necessidades — desde classificação de dados até geração de conteúdo."
+            "title": "Listagens em Todo o Lado",
+            "text": "Criamos ou reclamamos o seu Google Business Profile, Apple Maps, TripAdvisor e Bing Places, verificamos e preenchemos categorias, horários, fotos e serviços como deve ser."
           },
           {
-            "title": "Integração Completa",
-            "text": "Ligamos as soluções de IA aos sistemas que já utiliza — CRM, email, bases de dados, ferramentas internas."
+            "title": "Uma Identidade Consistente",
+            "text": "O mesmo nome, morada e telefone em todas as plataformas. Dados inconsistentes são a razão mais comum para um negócio local cair no Google Maps — eliminamos o problema."
           },
           {
-            "title": "Suporte Contínuo",
-            "text": "Acompanhamos o desempenho, ajustamos modelos e garantimos que a solução evolui com o seu negócio."
-          }
-        ]
-      },
-      "useCases": {
-        "label": "CASOS DE USO",
-        "headline": "Para Quem É.",
-        "items": [
-          {
-            "tag": "01",
-            "title": "Retalho e Comércio",
-            "text": "Previsão de inventário, recomendações personalizadas e atendimento automatizado que aumentam vendas e reduzem desperdício."
-          },
-          {
-            "tag": "02",
-            "title": "Serviços Profissionais",
-            "text": "Automatização de relatórios, triagem de documentos e assistentes inteligentes que libertam horas à sua equipa."
-          },
-          {
-            "tag": "03",
-            "title": "Saúde e Clínicas",
-            "text": "Triagem de pacientes, gestão de marcações e análise de dados clínicos com total conformidade regulatória."
-          },
-          {
-            "tag": "04",
-            "title": "Manufatura e Logística",
-            "text": "Controlo de qualidade visual, otimização de rotas e manutenção preditiva que reduzem custos operacionais."
-          }
-        ]
-      },
-      "process": {
-        "label": "PROCESSO",
-        "headline": "Como Entregamos.",
-        "steps": [
-          {
-            "tag": "01",
-            "title": "Descoberta",
-            "description": "Reunião inicial para mapear processos, identificar desafios e definir objetivos claros para a solução de IA.",
-            "status": "PHASE_1"
-          },
-          {
-            "tag": "02",
-            "title": "Prototipagem",
-            "description": "Desenvolvemos um protótipo funcional para validar a abordagem antes de investir no desenvolvimento completo.",
-            "status": "PHASE_2"
-          },
-          {
-            "tag": "03",
-            "title": "Desenvolvimento",
-            "description": "Construção da solução final com testes rigorosos, integração com os seus sistemas e formação da equipa.",
-            "status": "PHASE_3"
-          },
-          {
-            "tag": "04",
-            "title": "Lançamento e Suporte",
-            "description": "Deploy em produção, monitorização de desempenho e otimizações contínuas baseadas em dados reais.",
-            "status": "PHASE_4"
-          }
-        ]
-      },
-      "benefits": {
-        "label": "BENEFÍCIOS",
-        "headline": "Porque Importa.",
-        "items": [
-          {
-            "title": "Redução de Custos",
-            "text": "Automatize tarefas repetitivas e liberte a sua equipa para trabalho de maior valor. Clientes reportam poupanças de 30-60% em tempo operacional."
-          },
-          {
-            "title": "Decisões Baseadas em Dados",
-            "text": "Transforme dados dispersos em insights acionáveis. A IA encontra padrões que passam despercebidos à análise humana."
-          },
-          {
-            "title": "Vantagem Competitiva",
-            "text": "Enquanto a concorrência ainda faz tudo manualmente, o seu negócio já opera com inteligência artificial integrada."
-          },
-          {
-            "title": "Escalabilidade",
-            "text": "Soluções que crescem consigo. O que funciona para 10 clientes funciona para 10.000 — sem aumentar a equipa."
-          }
-        ]
-      },
-      "faq": {
-        "label": "FAQ",
-        "headline": "Perguntas Frequentes.",
-        "items": [
-          {
-            "question": "Preciso de conhecimentos técnicos para usar as soluções de IA?",
-            "answer": "Não. Desenhamos interfaces simples e intuitivas. A sua equipa recebe formação completa e suporte contínuo."
-          },
-          {
-            "question": "Quanto tempo demora a implementar uma solução de IA?",
-            "answer": "Depende da complexidade. Soluções simples ficam prontas em 2-4 semanas. Projetos mais complexos levam 6-12 semanas, com protótipo funcional logo na segunda semana."
-          },
-          {
-            "question": "Os meus dados estão seguros?",
-            "answer": "Absolutamente. Utilizamos encriptação de ponta a ponta, cumprimos o RGPD e os dados nunca saem dos servidores que define."
-          },
-          {
-            "question": "E se a solução não funcionar como esperado?",
-            "answer": "Começamos sempre com um protótipo validado antes do desenvolvimento completo. Incluímos período de ajustes sem custos adicionais."
-          }
-        ]
-      },
-      "cta": {
-        "headline": "Pronto Para Começar?",
-        "text": "Conte-nos o seu desafio. Marcamos uma reunião sem compromisso para explorar como a IA pode transformar o seu negócio.",
-        "buttonLabel": "Fale Connosco",
-        "buttonHref": "#contact"
-      },
-      "meta": {
-        "title": "Soluções de IA à Medida | SurgeX",
-        "description": "Inteligência artificial personalizada para o seu negócio. Consultoria, desenvolvimento e integração de IA. 50+ projetos entregues em Lisboa."
-      }
-    },
-    "websites": {
-      "tag": "02",
-      "title": "Websites & Apps",
-      "shortDescription": "Websites premium que convertem visitantes em clientes. Design único, SEO otimizado, mobile-first e entrega em 48 horas.",
-      "features": [
-        "Design premium e único",
-        "SEO otimizado desde o primeiro dia",
-        "Mobile-first e velocidade máxima",
-        "Bilingue (PT/EN) incluído"
-      ],
-      "hero": {
-        "title": "O Seu Negócio Merece Mais Que Um Template.",
-        "subtitle": "Websites de alto desempenho, desenhados à medida e entregues em 48 horas. Desde 450€.",
-        "valueProp": "50+ websites entregues. Zero templates. 100% resultados."
-      },
-      "description": {
-        "label": "VISÃO GERAL",
-        "headline": "O Que Está Incluído.",
-        "text": "Cada website que construímos é único. Não usamos templates — desenhamos e desenvolvemos tudo de raiz para refletir a identidade do seu negócio. O resultado: sites rápidos, bonitos e que aparecem no Google.",
-        "highlights": [
-          {
-            "title": "Design Original",
-            "text": "Layout e identidade visual criados de raiz para o seu negócio. Nada de templates reaproveitados — cada projeto é único."
-          },
-          {
-            "title": "SEO Técnico Completo",
-            "text": "Estrutura otimizada, meta tags, schema markup, sitemap e velocidade de carregamento — tudo configurado para rankear no Google."
-          },
-          {
-            "title": "Bilingue de Raiz",
-            "text": "Português e inglês incluídos. Conteúdo profissional em ambos os idiomas, com URLs localizados e hreflang correto."
-          },
-          {
-            "title": "Entrega em 48 Horas",
-            "text": "Da primeira conversa ao site online em 48 horas. Inclui domínio, hosting, SSL e configuração completa."
+            "title": "Sempre Atualizado",
+            "text": "Novo horário, fecho num feriado, um serviço novo ou fotos — diz-nos e muda em todo o lado. Alojamento, segurança e atualizações estão incluídos em todos os planos mensais."
           }
         ]
       },
@@ -204,22 +55,22 @@
           {
             "tag": "01",
             "title": "Restaurantes e Cafés",
-            "text": "Menus digitais, sistema de reservas, integração com Google Maps e avaliações. O cliente encontra-o e decide em segundos."
+            "text": "Ementa, horário, fotos e avaliações onde turistas e locais realmente procuram: Google Maps, TripAdvisor e Apple Maps. Um site que os faz escolhê-lo antes de chegarem."
           },
           {
             "tag": "02",
-            "title": "Clínicas e Consultórios",
-            "text": "Apresentação de serviços, equipa médica, marcação online e informação para pacientes. Transmita confiança desde o primeiro clique."
+            "title": "Clínicas e Dentistas",
+            "text": "Páginas de serviços que transmitem confiança, perfis da equipa, direções e um botão de marcação. A primeira impressão profissional que o seu cuidado merece."
           },
           {
             "tag": "03",
-            "title": "Ginásios e Estúdios",
-            "text": "Horários, modalidades, preços e inscrição online. Um site que motiva e converte visitantes em membros."
+            "title": "Salões, Ginásios e Estúdios",
+            "text": "Preços, horários e uma galeria do seu espaço, mais um perfil no Google Maps que aparece quando alguém procura por perto. Feito para transformar uma pesquisa numa visita."
           },
           {
             "tag": "04",
-            "title": "Serviços Locais",
-            "text": "Canalizadores, eletricistas, limpezas, veterinários — qualquer serviço local que precisa de visibilidade online para captar clientes."
+            "title": "Oficinas e Serviços Técnicos",
+            "text": "Mecânicos, eletricistas, canalizadores, limpezas: páginas por zona de atuação, fotos de antes e depois e um número de telefone a um toque. Encontrado por quem precisa de si hoje."
           }
         ]
       },
@@ -229,26 +80,26 @@
         "steps": [
           {
             "tag": "01",
-            "title": "Briefing",
-            "description": "Conversa rápida para entender o seu negócio, público-alvo e objetivos. Recolhemos toda a informação necessária.",
+            "title": "Ouvir",
+            "description": "Uma conversa de 15 minutos sobre o seu negócio, os seus clientes e o que quer que as pessoas encontrem. Recolhemos os dados, as fotos e os acessos de que precisamos.",
             "status": "PHASE_1"
           },
           {
             "tag": "02",
-            "title": "Design e Conteúdo",
-            "description": "Criamos o design e escrevemos o conteúdo bilingue. Apresentamos para aprovação antes de avançar.",
+            "title": "Construir",
+            "description": "Desenhamos e construímos o website e escrevemos o conteúdo nas duas línguas. Revê uma pré-visualização online e aprova.",
             "status": "PHASE_2"
           },
           {
             "tag": "03",
-            "title": "Desenvolvimento",
-            "description": "Construção com tecnologia de ponta — Next.js, animações fluidas, otimização de imagens e SEO técnico.",
+            "title": "Listar",
+            "description": "Criamos ou reclamamos as suas listagens no Google Maps, Apple Maps, TripAdvisor e Bing, verificamos e preenchemos todos os campos de forma consistente.",
             "status": "PHASE_3"
           },
           {
             "tag": "04",
-            "title": "Lançamento",
-            "description": "Deploy, configuração de domínio, SSL, analytics e verificação final. O seu site fica online em 48 horas.",
+            "title": "Lançar e Manter",
+            "description": "Domínio, email e site ficam online em 48 horas. A partir daí alojamos, protegemos, atualizamos e mantemos todas as listagens em dia.",
             "status": "PHASE_4"
           }
         ]
@@ -258,20 +109,20 @@
         "headline": "Porque Importa.",
         "items": [
           {
-            "title": "Primeira Impressão Conta",
-            "text": "75% dos utilizadores julgam a credibilidade de uma empresa pelo design do website. O seu site é a sua montra digital."
+            "title": "Encontrado Antes de Ligar",
+            "text": "A maioria dos clientes procura-o no Google Maps ou no seu website antes de escolher. Se os dados estão errados ou em falta, escolhem outro."
           },
           {
-            "title": "Clientes Encontram-no",
-            "text": "Um site otimizado para SEO aparece nas pesquisas locais. Os seus clientes procuram-no — garanta que o encontram."
+            "title": "Confiança à Primeira Vista",
+            "text": "Um site premium e um perfil completo, cheio de fotos, mostram um negócio que se leva a sério — sobretudo ao lado de concorrentes com páginas desatualizadas."
           },
           {
-            "title": "Velocidade e Performance",
-            "text": "Sites que carregam em menos de 2 segundos. Cada segundo extra de carregamento custa-lhe 20% das conversões."
+            "title": "Nada Para Gerir",
+            "text": "O seu trabalho é o negócio. Nós tratamos do domínio, alojamento, segurança, atualizações e de todas as listagens. Uma mensagem sua chega para mudar o que for preciso."
           },
           {
-            "title": "Investimento, Não Custo",
-            "text": "Desde 450€ para um website completo que trabalha para si 24/7. Sem mensalidades obrigatórias, sem surpresas."
+            "title": "Rápido e Acessível",
+            "text": "A IA faz o trabalho pesado, por isso a entrega demora 48 horas e custa uma fração de uma agência tradicional — 98% mais barato, na nossa experiência."
           }
         ]
       },
@@ -280,367 +131,516 @@
         "headline": "Perguntas Frequentes.",
         "items": [
           {
-            "question": "Porquê 450€ quando há sites a 50€?",
-            "answer": "Sites baratos usam templates genéricos, sem SEO e sem performance. Nós construímos de raiz com design único, código otimizado e conteúdo profissional bilingue. O investimento paga-se nos primeiros clientes que o encontram online."
+            "question": "Quanto custa?",
+            "answer": "O setup é 500€, pagamento único: website, listagens no Google Maps, Apple Maps, TripAdvisor e Bing, configuração de domínio e email e uma primeira otimização SEO. Metade no arranque, metade quando aprova a versão final. Depois, o plano Presença a 35€/mês mantém tudo alojado, seguro e atualizado. Sem fidelização."
           },
           {
-            "question": "Preciso de fornecer o conteúdo?",
-            "answer": "Não. Tratamos de tudo — textos, tradução, imagens e estrutura. Só precisamos de uma conversa sobre o seu negócio."
+            "question": "Como conseguem entregar um website em 48 horas?",
+            "answer": "Já construímos mais de 60 sites e usamos IA em cada passo — pesquisa, design, textos, imagens. Rapidez não significa atalhos; significa melhores ferramentas e experiência. Continua a rever e aprovar tudo antes de ficar online."
           },
           {
-            "question": "O que acontece depois do lançamento?",
-            "answer": "O site é seu. Oferecemos manutenção opcional e estamos disponíveis para atualizações futuras. Sem contratos de fidelização."
+            "question": "Preciso de fornecer textos e fotos?",
+            "answer": "Não. Escrevemos o conteúdo em português e inglês e geramos imagens adaptadas ao seu negócio. Se tiver fotos reais do seu espaço ou da equipa, ainda melhor — usamo-las."
           },
           {
-            "question": "Posso ver exemplos de trabalho vosso?",
-            "answer": "Claro. Temos 50+ projetos no portfólio — restaurantes, clínicas, ginásios, serviços de reparação e muito mais. Peça-nos exemplos do seu setor."
+            "question": "Já tenho website. Podem tratar só das listagens?",
+            "answer": "Sim, mas normalmente recomendamos substituí-lo: a maioria dos sites que vemos é lenta, não funciona bem no telemóvel e é invisível para o Google. Diga-nos o que tem e seremos honestos sobre o que faz sentido."
           }
         ]
       },
       "cta": {
-        "headline": "Pronto Para Começar?",
-        "text": "O seu próximo cliente está a pesquisar no Google agora. Garanta que encontra um site que impressiona.",
-        "buttonLabel": "Peça Orçamento",
-        "buttonHref": "#contact"
-      },
-      "meta": {
-        "title": "Websites & Apps Premium | SurgeX",
-        "description": "Websites profissionais desde 450€. Design único, SEO otimizado, bilingue e entregue em 48h. 50+ projetos para PMEs em Lisboa."
-      }
-    },
-    "automation": {
-      "tag": "03",
-      "title": "Automação & Chatbots",
-      "shortDescription": "Chatbots inteligentes e automações que trabalham 24/7. Atendimento, marcações e follow-ups no piloto automático.",
-      "features": [
-        "Chatbots IA para atendimento 24/7",
-        "Follow-ups e sequências automáticas",
-        "Automação de processos internos",
-        "Captura e qualificação de leads"
-      ],
-      "hero": {
-        "title": "O Seu Negócio Nunca Dorme.",
-        "subtitle": "Chatbots e automações que atendem clientes, marcam serviços e captam leads — mesmo quando não está disponível.",
-        "valueProp": "Atendimento 24/7. Desde 25€/mês."
-      },
-      "description": {
-        "label": "VISÃO GERAL",
-        "headline": "O Que Está Incluído.",
-        "text": "Imagine ter um assistente que nunca se esquece de um follow-up, responde a clientes às 3 da manhã e qualifica leads automaticamente. É isso que construímos — automações práticas que poupam tempo e geram receita.",
-        "highlights": [
-          {
-            "title": "Chatbot IA Personalizado",
-            "text": "Treinado com a informação do seu negócio. Responde a perguntas, sugere serviços e encaminha para si quando necessário."
-          },
-          {
-            "title": "Follow-ups Automáticos",
-            "text": "Sequências de email e mensagem que mantêm o contacto com leads e clientes. Sem esforço manual, sem esquecimentos."
-          },
-          {
-            "title": "Marcações Automatizadas",
-            "text": "Os clientes marcam diretamente pelo chatbot ou formulário. Recebe notificação, o cliente recebe confirmação."
-          },
-          {
-            "title": "Automação de Processos",
-            "text": "Elimine tarefas repetitivas — desde geração de faturas até atualização de CRM. Ligamos os seus sistemas entre si."
-          }
-        ]
-      },
-      "useCases": {
-        "label": "CASOS DE USO",
-        "headline": "Para Quem É.",
-        "items": [
-          {
-            "tag": "01",
-            "title": "Atendimento ao Cliente",
-            "text": "Responda a perguntas frequentes instantaneamente, 24 horas por dia. Reduza chamadas e emails repetitivos em 70%."
-          },
-          {
-            "tag": "02",
-            "title": "Marcações e Reservas",
-            "text": "Clientes marcam diretamente — sem telefonemas, sem trocas de mensagens. Ideal para clínicas, salões e restaurantes."
-          },
-          {
-            "tag": "03",
-            "title": "Qualificação de Leads",
-            "text": "O chatbot faz as perguntas certas e entrega-lhe leads qualificados. Sabe quem está pronto para comprar antes de falar com eles."
-          },
-          {
-            "tag": "04",
-            "title": "Operações Internas",
-            "text": "Automatize relatórios, notificações e fluxos de aprovação. A sua equipa foca-se no que realmente importa."
-          }
-        ]
-      },
-      "process": {
-        "label": "PROCESSO",
-        "headline": "Como Entregamos.",
-        "steps": [
-          {
-            "tag": "01",
-            "title": "Mapeamento",
-            "description": "Identificamos os processos repetitivos e as oportunidades de automação com maior impacto no seu negócio.",
-            "status": "PHASE_1"
-          },
-          {
-            "tag": "02",
-            "title": "Configuração",
-            "description": "Construímos o chatbot e as automações, treinamos com a informação do seu negócio e testamos exaustivamente.",
-            "status": "PHASE_2"
-          },
-          {
-            "tag": "03",
-            "title": "Integração",
-            "description": "Ligamos tudo ao seu website, WhatsApp, email e outros canais. Configuramos notificações e dashboards.",
-            "status": "PHASE_3"
-          },
-          {
-            "tag": "04",
-            "title": "Otimização",
-            "description": "Monitorizamos conversas e métricas. Ajustamos respostas e fluxos para maximizar conversões e satisfação.",
-            "status": "PHASE_4"
-          }
-        ]
-      },
-      "benefits": {
-        "label": "BENEFÍCIOS",
-        "headline": "Porque Importa.",
-        "items": [
-          {
-            "title": "Disponível 24/7",
-            "text": "Os seus clientes não esperam pelo horário de expediente. O chatbot responde a qualquer hora, qualquer dia."
-          },
-          {
-            "title": "Zero Leads Perdidos",
-            "text": "Cada visitante do site recebe atenção imediata. Sem formulários ignorados, sem chamadas perdidas."
-          },
-          {
-            "title": "Escala Sem Contratar",
-            "text": "Atenda 100 clientes ao mesmo tempo sem aumentar a equipa. A automação cresce consigo."
-          },
-          {
-            "title": "ROI desde o Primeiro Mês",
-            "text": "Desde 25€/mês. Um único lead convertido paga o investimento anual. Sem contratos de longa duração."
-          }
-        ]
-      },
-      "faq": {
-        "label": "FAQ",
-        "headline": "Perguntas Frequentes.",
-        "items": [
-          {
-            "question": "O chatbot parece um robô?",
-            "answer": "Não. Utilizamos IA avançada que conversa naturalmente em português. Os seus clientes sentem que estão a falar com alguém real e informado."
-          },
-          {
-            "question": "Funciona com WhatsApp?",
-            "answer": "Sim. Integramos com WhatsApp, website, email e redes sociais. Os seus clientes usam o canal que preferem."
-          },
-          {
-            "question": "E se o chatbot não souber responder?",
-            "answer": "Encaminha automaticamente para si ou para a sua equipa, com todo o contexto da conversa. Nunca perde uma oportunidade."
-          },
-          {
-            "question": "Posso cancelar a qualquer momento?",
-            "answer": "Sem contratos de fidelização. Paga mês a mês e cancela quando quiser. Mas depois de ver os resultados, não vai querer."
-          }
-        ]
-      },
-      "cta": {
-        "headline": "Pronto Para Começar?",
-        "text": "Enquanto lê isto, pode estar a perder leads. Configure o seu chatbot e comece a converter visitantes em clientes hoje.",
-        "buttonLabel": "Ativar Chatbot",
-        "buttonHref": "#contact"
-      },
-      "meta": {
-        "title": "Automação & Chatbots IA | SurgeX",
-        "description": "Chatbots inteligentes e automações desde 25€/mês. Atendimento 24/7, marcações automáticas e captura de leads para PMEs."
-      }
-    },
-    "marketing": {
-      "tag": "04",
-      "title": "Marketing Digital",
-      "shortDescription": "Campanhas com IA que trazem clientes reais. Google Ads, redes sociais e conteúdo — tudo com ROI mensurável.",
-      "features": [
-        "Google Ads e campanhas pagas",
-        "Gestão de redes sociais",
-        "Criação de conteúdo com IA",
-        "Geração de leads qualificados"
-      ],
-      "hero": {
-        "title": "Marketing Que Traz Clientes.",
-        "subtitle": "Campanhas potenciadas por IA com ROI mensurável. Sem promessas vagas — números reais e clientes reais.",
-        "valueProp": "Cada euro investido é rastreado. Sem desperdício."
-      },
-      "description": {
-        "label": "VISÃO GERAL",
-        "headline": "O Que Está Incluído.",
-        "text": "Marketing digital sem achismos. Usamos IA para criar campanhas mais inteligentes, otimizar orçamentos em tempo real e gerar conteúdo que converte. Sabe exatamente quanto investiu e quanto voltou.",
-        "highlights": [
-          {
-            "title": "Google Ads Otimizado",
-            "text": "Campanhas de pesquisa e display geridas com IA. Segmentação precisa, lances automáticos e otimização contínua para maximizar conversões."
-          },
-          {
-            "title": "Redes Sociais",
-            "text": "Estratégia, criação de conteúdo e gestão de Instagram, Facebook e LinkedIn. Publicações que geram envolvimento e trazem clientes."
-          },
-          {
-            "title": "Conteúdo com IA",
-            "text": "Textos, imagens e vídeos criados com assistência de IA — mais rápido, mais consistente e otimizado para cada plataforma."
-          },
-          {
-            "title": "Relatórios Transparentes",
-            "text": "Dashboard em tempo real com métricas que importam: leads gerados, custo por aquisição e retorno sobre investimento."
-          }
-        ]
-      },
-      "useCases": {
-        "label": "CASOS DE USO",
-        "headline": "Para Quem É.",
-        "items": [
-          {
-            "tag": "01",
-            "title": "Negócios Locais",
-            "text": "Apareça no topo quando clientes locais pesquisam os seus serviços. Google Ads local com segmentação por zona e raio."
-          },
-          {
-            "tag": "02",
-            "title": "E-commerce",
-            "text": "Campanhas de shopping, remarketing e email marketing que recuperam carrinhos abandonados e aumentam o valor médio de encomenda."
-          },
-          {
-            "tag": "03",
-            "title": "Serviços Profissionais",
-            "text": "Posicione-se como referência na sua área. Conteúdo educativo, LinkedIn e Google Ads para atrair clientes de alto valor."
-          },
-          {
-            "tag": "04",
-            "title": "Startups",
-            "text": "Campanhas de aquisição escaláveis com orçamento controlado. Teste rápido de mensagens e canais para encontrar o product-market fit."
-          }
-        ]
-      },
-      "process": {
-        "label": "PROCESSO",
-        "headline": "Como Entregamos.",
-        "steps": [
-          {
-            "tag": "01",
-            "title": "Análise",
-            "description": "Auditoria da presença digital atual, análise da concorrência e definição de objetivos e KPIs concretos.",
-            "status": "PHASE_1"
-          },
-          {
-            "tag": "02",
-            "title": "Estratégia",
-            "description": "Plano de marketing com canais, orçamento, cronograma e metas mensais. Aprovação antes de gastar um cêntimo.",
-            "status": "PHASE_2"
-          },
-          {
-            "tag": "03",
-            "title": "Execução",
-            "description": "Lançamento de campanhas, criação de conteúdo e otimização contínua baseada em dados de desempenho.",
-            "status": "PHASE_3"
-          },
-          {
-            "tag": "04",
-            "title": "Relatório e Escala",
-            "description": "Análise mensal de resultados, ajuste de estratégia e escala do que funciona. Transparência total nos números.",
-            "status": "PHASE_4"
-          }
-        ]
-      },
-      "benefits": {
-        "label": "BENEFÍCIOS",
-        "headline": "Porque Importa.",
-        "items": [
-          {
-            "title": "ROI Mensurável",
-            "text": "Cada euro é rastreado. Sabe exatamente quantos leads e vendas cada campanha gerou. Sem métricas de vaidade."
-          },
-          {
-            "title": "IA Como Vantagem",
-            "text": "Usamos IA para otimizar lances, segmentar audiências e criar conteúdo. As suas campanhas são mais inteligentes que as da concorrência."
-          },
-          {
-            "title": "Resultados Rápidos",
-            "text": "Campanhas pagas geram tráfego desde o primeiro dia. Combinamos com estratégia orgânica para resultados sustentáveis a longo prazo."
-          },
-          {
-            "title": "Sem Desperdício",
-            "text": "Orçamento focado onde gera retorno. Se um canal não funciona, redirecionamos. Zero euros desperdiçados em campanhas ineficazes."
-          }
-        ]
-      },
-      "faq": {
-        "label": "FAQ",
-        "headline": "Perguntas Frequentes.",
-        "items": [
-          {
-            "question": "Qual é o orçamento mínimo para campanhas?",
-            "answer": "Recomendamos um mínimo de 300€/mês em anúncios pagos, mais os nossos honorários de gestão. Mas adaptamos à realidade do seu negócio."
-          },
-          {
-            "question": "Em quanto tempo vejo resultados?",
-            "answer": "Campanhas pagas geram leads desde a primeira semana. Estratégia orgânica (SEO, conteúdo) demora 2-3 meses a mostrar resultados consistentes."
-          },
-          {
-            "question": "Gerem as redes sociais por completo?",
-            "answer": "Sim. Estratégia, criação de conteúdo, publicação e gestão de comunidade. Pode ser tão envolvido ou desligado quanto quiser."
-          },
-          {
-            "question": "Como medem o sucesso?",
-            "answer": "KPIs definidos na estratégia inicial: leads gerados, custo por aquisição, taxa de conversão e ROI. Relatório mensal detalhado."
-          }
-        ]
-      },
-      "cta": {
-        "headline": "Pronto Para Começar?",
-        "text": "Os seus concorrentes já estão a investir em marketing digital. Não fique para trás — comece a captar clientes online hoje.",
+        "headline": "Pronto Para Ser Encontrado?",
+        "text": "Diga-nos o nome do seu negócio. Em 48 horas pode ter um website premium e um perfil completo em todos os mapas que contam.",
         "buttonLabel": "Fale Connosco",
         "buttonHref": "#contact"
       },
       "meta": {
-        "title": "Marketing Digital com IA | SurgeX",
-        "description": "Marketing digital potenciado por IA. Google Ads, redes sociais e conteúdo com ROI mensurável. Campanhas para PMEs em Lisboa."
+        "title": "Presença Online — Website e Listagens | SurgeX",
+        "description": "Website premium bilingue em 48 horas mais o seu negócio no Google Maps, Apple Maps, TripAdvisor e Bing. Setup 500€, desde 35€/mês. Para negócios locais em todo o Portugal."
       }
     },
-    "geo-aeo": {
+    "get-found": {
+      "tag": "02",
+      "title": "Ser Encontrado",
+      "shortDescription": "SEO local para aparecer quando alguém por perto procura o que faz, e GEO/AEO para ser a resposta quando perguntam ao ChatGPT, Perplexity ou Google. Trabalho contínuo, com as suas posições acompanhadas todos os meses.",
+      "features": [
+        "Otimização do Google Business Profile",
+        "Palavras-Chave Locais e Páginas por Zona",
+        "Visível no ChatGPT, Perplexity e Google AI",
+        "Acompanhamento Mensal de Posições"
+      ],
+      "hero": {
+        "title": "Seja a Resposta, Não o Quinto Resultado.",
+        "subtitle": "SEO local e otimização para pesquisa com IA para que o seu negócio apareça no Google Maps, nos resultados do Google e nas respostas que as pessoas recebem do ChatGPT, Perplexity e Google AI Overviews.",
+        "valueProp": "Incluído no plano Crescimento — 65€/mês, tudo o que está no Presença mais SEO e GEO/AEO contínuos."
+      },
+      "description": {
+        "label": "VISÃO GERAL",
+        "headline": "O Que Está Incluído.",
+        "text": "Estar online não é o mesmo que ser encontrado. 'Dentista perto de mim', 'melhor brunch em Cascais', 'oficina aberta ao sábado' — todos os dias há pessoas a procurar exatamente o que faz, e cada vez mais perguntam a uma IA em vez de percorrer resultados. Trabalhamos todos os meses para que a resposta seja o seu negócio: no Google Maps, nos resultados do Google e no ChatGPT, Perplexity e Google AI Overviews.",
+        "highlights": [
+          {
+            "title": "Otimização do Google Business Profile",
+            "text": "Categorias, serviços, produtos, publicações, perguntas e fotos afinados para o que as pessoas realmente procuram. O seu perfil é o fator local mais importante — mantemo-lo a trabalhar."
+          },
+          {
+            "title": "Palavras-Chave Locais e Páginas por Zona",
+            "text": "Encontramos as pesquisas que trazem clientes na sua área e criamos páginas para cada serviço e zona que serve, em português e inglês."
+          },
+          {
+            "title": "GEO / AEO: Pesquisa com IA",
+            "text": "Estruturamos o seu site e as suas listagens para que o ChatGPT, Perplexity, Gemini e Google AI Overviews compreendam o seu negócio e o recomendem corretamente quando alguém pergunta."
+          },
+          {
+            "title": "Posições Acompanhadas",
+            "text": "Todos os meses vê onde está posicionado nas pesquisas que importam e como a IA descreve o seu negócio — e o que mudámos em consequência."
+          }
+        ]
+      },
+      "useCases": {
+        "label": "CASOS DE USO",
+        "headline": "Para Quem É.",
+        "items": [
+          {
+            "tag": "01",
+            "title": "Restaurantes e Cafés",
+            "text": "Os turistas perguntam à IA onde comer antes de aterrar, e os locais pesquisam 'perto de mim' às 19h. Esteja nos três primeiros do mapa e na resposta da IA."
+          },
+          {
+            "tag": "02",
+            "title": "Clínicas, Dentistas e Veterinários",
+            "text": "Os pacientes pesquisam por problema, zona e seguro. Páginas de serviço e um perfil bem afinado fazem-no aparecer nas pesquisas que levam a marcações."
+          },
+          {
+            "tag": "03",
+            "title": "Ginásios, Salões e Estúdios",
+            "text": "'Pilates em Oeiras', 'barbeiro aberto agora' — pesquisas muito locais e com intenção. Garantimos que são suas no seu bairro."
+          },
+          {
+            "tag": "04",
+            "title": "Serviços Técnicos e Profissionais",
+            "text": "Canalizadores, eletricistas, contabilistas, advogados: uma página por serviço e zona, para ser encontrado por quem está pronto para contratar — não só a olhar."
+          }
+        ]
+      },
+      "process": {
+        "label": "PROCESSO",
+        "headline": "Como Entregamos.",
+        "steps": [
+          {
+            "tag": "01",
+            "title": "Auditar",
+            "description": "Verificamos como está posicionado hoje nas pesquisas que importam e como o ChatGPT, Perplexity e Google AI o descrevem — a si e à concorrência.",
+            "status": "PHASE_1"
+          },
+          {
+            "tag": "02",
+            "title": "Otimizar",
+            "description": "Google Business Profile, estrutura do site, palavras-chave locais, dados estruturados e conteúdo legível por IA, tudo corrigido nas primeiras semanas.",
+            "status": "PHASE_2"
+          },
+          {
+            "tag": "03",
+            "title": "Construir",
+            "description": "Páginas por zona e serviço, conteúdo em pergunta-resposta e menções consistentes nas plataformas em que os motores de pesquisa e as IAs confiam.",
+            "status": "PHASE_3"
+          },
+          {
+            "tag": "04",
+            "title": "Acompanhar e Ajustar",
+            "description": "Relatório mensal com posições e visibilidade em IA. A pesquisa muda depressa — ajustamos todos os meses para continuar a subir.",
+            "status": "PHASE_4"
+          }
+        ]
+      },
+      "benefits": {
+        "label": "BENEFÍCIOS",
+        "headline": "Porque Importa.",
+        "items": [
+          {
+            "title": "Clientes Com Intenção",
+            "text": "Quem pesquisa 'dentista em Almada hoje' está pronto para marcar. Aparecer nessas pesquisas traz clientes, não apenas visitas."
+          },
+          {
+            "title": "À Frente na Pesquisa com IA",
+            "text": "Ainda muito poucos negócios locais estão otimizados para respostas de IA. Chegar agora significa dominar o seu nicho antes de a concorrência perceber o jogo."
+          },
+          {
+            "title": "Resultados Que Acumulam",
+            "text": "Ao contrário dos anúncios, o SEO constrói-se. Cada mês de trabalho torna o seguinte mais forte, e os clientes continuam a chegar sem pagar por clique."
+          },
+          {
+            "title": "Vê os Números",
+            "text": "Sem promessas vagas. Posições, chamadas, pedidos de direções e visitas ao site, reportados todos os meses em linguagem simples."
+          }
+        ]
+      },
+      "faq": {
+        "label": "FAQ",
+        "headline": "Perguntas Frequentes.",
+        "items": [
+          {
+            "question": "Que plano inclui este serviço?",
+            "answer": "Ser Encontrado faz parte do plano Crescimento, a 65€/mês — tudo o que está no Presença (35€) mais SEO local e GEO/AEO contínuos, chatbot IA, botão WhatsApp, pedidos de avaliação automáticos e follow-ups. A primeira otimização SEO já vem incluída no setup de 500€."
+          },
+          {
+            "question": "Quanto tempo até ver resultados?",
+            "answer": "As melhorias no Google Business Profile costumam notar-se em 2 a 4 semanas. A visibilidade orgânica e em IA demora 2 a 4 meses a ganhar tração. Definimos expectativas honestas e mostramos o progresso todos os meses."
+          },
+          {
+            "question": "O que é GEO/AEO, em termos simples?",
+            "answer": "É garantir que os assistentes de IA — ChatGPT, Perplexity, Google AI Overviews — sabem que o seu negócio existe, o que faz e onde, para o recomendarem quando alguém pergunta. O mesmo objetivo do SEO, com regras diferentes."
+          },
+          {
+            "question": "Podem garantir o primeiro lugar?",
+            "answer": "Ninguém pode, no Google ou nas respostas de IA. O que garantimos é o trabalho: todos os fatores que influenciam a posição são tratados, e vê as provas no relatório mensal."
+          }
+        ]
+      },
+      "cta": {
+        "headline": "Pronto Para Ser Encontrado?",
+        "text": "Procure o seu negócio no Google Maps e pergunte ao ChatGPT por ele. Se não é a resposta, devíamos falar.",
+        "buttonLabel": "Fale Connosco",
+        "buttonHref": "#contact"
+      },
+      "meta": {
+        "title": "Ser Encontrado — SEO Local e Pesquisa com IA | SurgeX",
+        "description": "SEO local e GEO/AEO para negócios locais em Portugal: posicione-se no Google Maps e apareça nas respostas do ChatGPT, Perplexity e Google AI. Incluído no plano Crescimento, 65€/mês."
+      }
+    },
+    "customer-care": {
+      "tag": "03",
+      "title": "Atendimento Automático",
+      "shortDescription": "Um chatbot IA no site que conhece o seu negócio, um botão WhatsApp com horário, follow-ups automáticos a cada pedido, pedidos de avaliação depois de cada visita e resposta a todas as chamadas perdidas. Todos os clientes atendidos, mesmo quando está ocupado.",
+      "features": [
+        "Chatbot IA Treinado no Seu Negócio",
+        "Botão WhatsApp com Horário",
+        "Follow-ups e Pedidos de Avaliação Automáticos",
+        "Resposta a Chamadas Perdidas"
+      ],
+      "hero": {
+        "title": "Todos os Clientes Atendidos. Mesmo às 23h.",
+        "subtitle": "Um chatbot IA treinado no seu negócio, botão WhatsApp, follow-ups automáticos, pedidos de avaliação Google e resposta a chamadas perdidas — a trabalhar enquanto atende os clientes que tem à frente.",
+        "valueProp": "Incluído no plano Crescimento — 65€/mês. Sem fidelização."
+      },
+      "description": {
+        "label": "VISÃO GERAL",
+        "headline": "O Que Está Incluído.",
+        "text": "Perde clientes nos intervalos: a chamada que não conseguiu atender, a mensagem respondida no dia seguinte, o orçamento que ninguém acompanhou, o cliente satisfeito que nunca deixou avaliação. Fechamos esses intervalos automaticamente. O chatbot responde em segundos em português e inglês, o WhatsApp está a um toque, e cada pedido, orçamento e visita recebe o seguimento que merece — sem que tenha de levantar um dedo.",
+        "highlights": [
+          {
+            "title": "Chatbot IA no Seu Site",
+            "text": "Treinado nos seus serviços, preços, horários e perguntas frequentes. Responde a dúvidas, capta marcações e pedidos e passa-lhe a conversa quando é preciso uma pessoa — 24 horas por dia."
+          },
+          {
+            "title": "WhatsApp a Um Toque",
+            "text": "Um botão WhatsApp em todas as páginas, a mostrar quando está aberto e o que esperar. A maioria dos seus clientes já vive lá; vá ao encontro deles."
+          },
+          {
+            "title": "Follow-ups Que Nunca Esquecem",
+            "text": "Cada orçamento, marcação ou pedido recebe um follow-up automático no momento certo, por WhatsApp ou email. Menos leads perdidos, sem folha de cálculo para lembrar."
+          },
+          {
+            "title": "Avaliações e Chamadas Perdidas",
+            "text": "Depois de cada visita, um pedido educado e automático de avaliação no Google. Quando perde uma chamada, quem ligou recebe uma mensagem imediata para não ligar ao negócio seguinte da lista."
+          }
+        ]
+      },
+      "useCases": {
+        "label": "CASOS DE USO",
+        "headline": "Para Quem É.",
+        "items": [
+          {
+            "tag": "01",
+            "title": "Restaurantes e Cafés",
+            "text": "Pedidos de reserva, grupos e 'estão abertos hoje?' tratados na hora. Depois da refeição, um pedido de avaliação que enche o seu perfil Google de cinco estrelas."
+          },
+          {
+            "tag": "02",
+            "title": "Clínicas, Dentistas e Veterinários",
+            "text": "Pedidos de consulta captados a qualquer hora, lembretes enviados automaticamente e pedidos de avaliação após a visita. Menos faltas, agenda mais cheia."
+          },
+          {
+            "tag": "03",
+            "title": "Salões e Ginásios",
+            "text": "Dúvidas sobre marcações respondidas no momento, chamadas perdidas transformadas em conversas de WhatsApp e clientes inativos lembrados com delicadeza de voltar."
+          },
+          {
+            "tag": "04",
+            "title": "Oficinas e Serviços Técnicos",
+            "text": "Está debaixo de um carro ou em cima de um telhado — o chatbot recebe o pedido, a resposta à chamada perdida segura o cliente e o follow-up ao orçamento ganha o trabalho."
+          }
+        ]
+      },
+      "process": {
+        "label": "PROCESSO",
+        "headline": "Como Entregamos.",
+        "steps": [
+          {
+            "tag": "01",
+            "title": "Mapear as Falhas",
+            "description": "Vemos por onde chegam os pedidos hoje — chamadas, formulários, WhatsApp, Instagram — e onde se perdem. Depois decidimos o que automatizar primeiro.",
+            "status": "PHASE_1"
+          },
+          {
+            "tag": "02",
+            "title": "Treinar e Configurar",
+            "description": "Treinamos o chatbot no seu negócio, configuramos o botão WhatsApp e o horário e escrevemos as mensagens de follow-up, lembrete e avaliação no seu tom.",
+            "status": "PHASE_2"
+          },
+          {
+            "tag": "03",
+            "title": "Testar",
+            "description": "Conversas reais, casos limite e o caminho do 'não sei'. Afinamos até o chatbot soar como o seu melhor funcionário e cada passagem chegar até si.",
+            "status": "PHASE_3"
+          },
+          {
+            "tag": "04",
+            "title": "Ativar e Melhorar",
+            "description": "Tudo é ligado em conjunto. Acompanhamos as conversas e os números todos os meses e melhoramos respostas, timing e fluxos.",
+            "status": "PHASE_4"
+          }
+        ]
+      },
+      "benefits": {
+        "label": "BENEFÍCIOS",
+        "headline": "Porque Importa.",
+        "items": [
+          {
+            "title": "Fim dos Clientes Perdidos",
+            "text": "Cada pedido tem resposta em segundos, cada orçamento tem follow-up, cada chamada perdida tem resposta. O cliente que teria ido a outro lado fica consigo."
+          },
+          {
+            "title": "Mais Avaliações no Google",
+            "text": "As avaliações decidem quem é escolhido no mapa. Pedir automaticamente depois de cada visita transforma clientes satisfeitos em prova pública, de forma consistente."
+          },
+          {
+            "title": "Horas de Volta Todas as Semanas",
+            "text": "As mesmas dez perguntas, respondidas pelo chatbot. Lembretes e follow-ups enviados sozinhos. Tempo que recupera para o trabalho que paga."
+          },
+          {
+            "title": "Soa a Si",
+            "text": "Treinado nas suas respostas reais e no seu tom. Os clientes recebem ajuda, não um robô — e quando precisam de si, a passagem é imediata."
+          }
+        ]
+      },
+      "faq": {
+        "label": "FAQ",
+        "headline": "Perguntas Frequentes.",
+        "items": [
+          {
+            "question": "Que plano inclui este serviço?",
+            "answer": "O Atendimento Automático faz parte do plano Crescimento, a 65€/mês, juntamente com SEO local e GEO/AEO contínuos. O plano Completo, a 100€/mês, acrescenta redes sociais e campanhas. Todos os planos são mês a mês, sem fidelização."
+          },
+          {
+            "question": "O chatbot vai parecer um robô?",
+            "answer": "Não. É treinado nos seus serviços, preços e respostas reais, em português e inglês, e fala no seu tom. Quando não sabe responder, diz e passa-lhe a conversa com todo o contexto."
+          },
+          {
+            "question": "Funciona com WhatsApp?",
+            "answer": "Sim. O botão WhatsApp liga diretamente ao seu número com uma mensagem pré-preenchida, e os follow-ups e respostas a chamadas perdidas podem ir por WhatsApp ou email — o que os seus clientes usarem."
+          },
+          {
+            "question": "Os pedidos de avaliação automáticos são permitidos?",
+            "answer": "Sim, desde que peça a todos os clientes da mesma forma e nunca filtre pela satisfação — que é exatamente como o configuramos. O resultado são mais avaliações, ganhas honestamente."
+          }
+        ]
+      },
+      "cta": {
+        "headline": "Pronto Para Atender Toda a Gente?",
+        "text": "Conte as chamadas que perdeu esta semana e os orçamentos que nunca acompanhou. É essa a receita que este serviço recupera. Vamos ligá-lo.",
+        "buttonLabel": "Fale Connosco",
+        "buttonHref": "#contact"
+      },
+      "meta": {
+        "title": "Atendimento Automático — Chatbot IA e WhatsApp | SurgeX",
+        "description": "Chatbot IA treinado no seu negócio, botão WhatsApp, follow-ups automáticos, pedidos de avaliação Google e resposta a chamadas perdidas para negócios locais em Portugal. Plano Crescimento, 65€/mês."
+      }
+    },
+    "social-media": {
+      "tag": "04",
+      "title": "Redes Sociais & Conteúdo",
+      "shortDescription": "Um calendário mensal, posts e imagens criados com IA na voz da sua marca, publicados automaticamente no Instagram, Facebook e LinkedIn, e um relatório mensal de alcance. Presença consistente sem gastar as suas noites nisso.",
+      "features": [
+        "Calendário Mensal de Conteúdo",
+        "Posts e Imagens na Voz da Marca",
+        "Publicação Automática no Instagram, Facebook e LinkedIn",
+        "Relatório Mensal de Alcance"
+      ],
+      "hero": {
+        "title": "Posts Consistentes. Zero Noites Perdidas.",
+        "subtitle": "Um calendário mensal, posts e imagens criados com IA na voz da sua marca, publicados automaticamente no Instagram, Facebook e LinkedIn — com relatório todos os meses.",
+        "valueProp": "Incluído no plano Completo — 100€/mês. Sem fidelização."
+      },
+      "description": {
+        "label": "VISÃO GERAL",
+        "headline": "O Que Está Incluído.",
+        "text": "Os clientes vêem o seu Instagram antes de verem o seu website. Uma conta cujo último post foi em março diz 'talvez tenha fechado'. Damos-lhe uma presença que parece viva e fiel à marca todas as semanas: um calendário que aprova em minutos, posts e imagens gerados com IA na sua voz, agendados e publicados automaticamente, e um relatório mensal a mostrar o que chegou às pessoas.",
+        "highlights": [
+          {
+            "title": "Calendário Mensal",
+            "text": "Um plano para o mês — promoções, bastidores, dicas, momentos sazonais — enviado para aprovação antes de sair o que quer que seja. Altere ou vete qualquer coisa com uma mensagem."
+          },
+          {
+            "title": "Posts e Imagens com IA",
+            "text": "Legendas e visuais criados com IA, treinada na sua marca, no seu tom e nas suas fotos. Aspeto consistente, português correto, sem ar de banco de imagens."
+          },
+          {
+            "title": "Publicação Automática",
+            "text": "Agendado e publicado no Instagram, Facebook e LinkedIn às horas em que o seu público está online. Nada para copiar, colar ou lembrar."
+          },
+          {
+            "title": "Relatório Mensal",
+            "text": "Alcance, seguidores, interação e os posts que funcionaram — numa página, em linguagem simples. O que resulta ganha mais espaço; o que não resulta sai."
+          }
+        ]
+      },
+      "useCases": {
+        "label": "CASOS DE USO",
+        "headline": "Para Quem É.",
+        "items": [
+          {
+            "tag": "01",
+            "title": "Restaurantes e Cafés",
+            "text": "Pratos do dia, ementas sazonais, a esplanada ao sol. Conteúdo de comida é o que as pessoas procuram ao fazer scroll — mantemos o seu a fluir todas as semanas."
+          },
+          {
+            "tag": "02",
+            "title": "Salões, Barbearias e Beleza",
+            "text": "Antes e depois, serviços novos, lembretes de marcação. Um feed que mostra o seu trabalho é a melhor publicidade que um salão pode ter."
+          },
+          {
+            "tag": "03",
+            "title": "Ginásios e Estúdios",
+            "text": "Horários de aulas, conquistas de membros, dicas de treinadores e desafios. Conteúdo que mantém os membros ligados e mostra aos novos o que esperar."
+          },
+          {
+            "tag": "04",
+            "title": "Clínicas, Veterinários e Profissionais",
+            "text": "Posts educativos que constroem confiança — dicas, perguntas comuns, apresentação da equipa. Autoridade sem venda agressiva."
+          }
+        ]
+      },
+      "process": {
+        "label": "PROCESSO",
+        "headline": "Como Entregamos.",
+        "steps": [
+          {
+            "tag": "01",
+            "title": "Voz e Estilo",
+            "description": "Aprendemos a sua marca: tom, cores, sobre o que publica, o que nunca publicaria. Mais um banco de fotos do seu negócio.",
+            "status": "PHASE_1"
+          },
+          {
+            "tag": "02",
+            "title": "Calendário",
+            "description": "O calendário do mês com temas, datas e rascunhos, enviado para aprovação. Leva-lhe cinco minutos; nós tratamos do resto.",
+            "status": "PHASE_2"
+          },
+          {
+            "tag": "03",
+            "title": "Criar e Agendar",
+            "description": "Posts e imagens gerados com IA, verificados por uma pessoa, agendados no Instagram, Facebook e LinkedIn.",
+            "status": "PHASE_3"
+          },
+          {
+            "tag": "04",
+            "title": "Reportar e Afinar",
+            "description": "Relatório mensal de alcance e interação. O calendário do mês seguinte aposta no que funcionou.",
+            "status": "PHASE_4"
+          }
+        ]
+      },
+      "benefits": {
+        "label": "BENEFÍCIOS",
+        "headline": "Porque Importa.",
+        "items": [
+          {
+            "title": "Sempre Aberto, Online",
+            "text": "Posts regulares dizem aos clientes que está ativo, com movimento e que vale a visita. O silêncio diz-lhes o contrário."
+          },
+          {
+            "title": "O Seu Tempo de Volta",
+            "text": "Acabaram-se os domingos à noite a escolher fotos e escrever legendas. O calendário corre sozinho; aprova e volta ao negócio."
+          },
+          {
+            "title": "Fiel à Marca, Sempre",
+            "text": "A mesma voz, o mesmo aspeto, português correto. Conteúdo que parece vir de uma equipa profissional — porque vem."
+          },
+          {
+            "title": "Custa uma Fração",
+            "text": "A IA cria os rascunhos, uma pessoa verifica. É assim que entregamos a produção mensal de uma agência a um preço que um negócio local consegue pagar."
+          }
+        ]
+      },
+      "faq": {
+        "label": "FAQ",
+        "headline": "Perguntas Frequentes.",
+        "items": [
+          {
+            "question": "Que plano inclui este serviço?",
+            "answer": "Redes Sociais & Conteúdo faz parte do plano Completo, a 100€/mês — tudo o que está no Crescimento (65€) mais o calendário mensal, posts e imagens criados com IA, publicação automática e campanhas. Mês a mês, sem fidelização."
+          },
+          {
+            "question": "Quantos posts por mês?",
+            "answer": "Normalmente 8 a 12 posts entre Instagram, Facebook e LinkedIn, consoante o seu negócio e o que funciona. A frequência é acordada no calendário e ajustada conforme os números chegam."
+          },
+          {
+            "question": "Vai parecer genérico ou feito por IA?",
+            "answer": "Não. Tudo é treinado na sua marca e nas suas fotos reais, e uma pessoa revê cada post antes de ser agendado. Aprova o calendário, por isso nada sai que não soe a si."
+          },
+          {
+            "question": "Respondem a comentários e mensagens?",
+            "answer": "Publicação e relatório estão incluídos. As mensagens diretas são melhor tratadas pelos fluxos do Atendimento Automático — chatbot, WhatsApp e follow-ups — que já fazem parte do seu plano."
+          }
+        ]
+      },
+      "cta": {
+        "headline": "Pronto Para Publicar Todas as Semanas?",
+        "text": "Abra o seu Instagram e veja a data do último post. Se faz uma careta, resolvemos isso já este mês.",
+        "buttonLabel": "Fale Connosco",
+        "buttonHref": "#contact"
+      },
+      "meta": {
+        "title": "Redes Sociais & Conteúdo — Instagram, Facebook, LinkedIn | SurgeX",
+        "description": "Calendário mensal, posts e imagens criados com IA na voz da sua marca, publicação automática no Instagram, Facebook e LinkedIn e relatório mensal. Plano Completo, 100€/mês."
+      }
+    },
+    "campaigns": {
       "tag": "05",
-      "title": "GEO / AEO",
-      "shortDescription": "Apareça nas respostas do ChatGPT, Perplexity e Google AI Overviews. O futuro da pesquisa é IA — esteja preparado.",
+      "title": "Campanhas & Prospeção",
+      "shortDescription": "Prospeção automática aos clientes que quer, newsletters e campanhas de reativação aos que já tem, e anúncios Google ou Meta quando fizer sentido. Cada campanha medida, para saber exatamente o que trouxe negócio.",
       "features": [
-        "Otimização para motores de IA",
-        "Dados estruturados e llms.txt",
-        "Conteúdo Q&A otimizado",
-        "Monitorização e auditorias"
+        "Prospeção Automática por Email e WhatsApp",
+        "Newsletters e Campanhas de Reativação",
+        "Anúncios Google e Meta Quando Fizer Sentido",
+        "Cada Campanha Medida"
       ],
       "hero": {
-        "title": "O Google Já Não É Suficiente.",
-        "subtitle": "As pessoas pesquisam no ChatGPT, Perplexity e Gemini. Se o seu negócio não aparece nas respostas de IA, não existe.",
-        "valueProp": "Serviço pioneiro em Portugal. Posicione-se antes da concorrência."
+        "title": "Vá Buscar os Clientes. Automaticamente.",
+        "subtitle": "Prospeção automática a novos potenciais clientes, newsletters e campanhas de reativação aos clientes atuais, e anúncios Google ou Meta quando compensam — tudo medido.",
+        "valueProp": "Incluído no plano Completo — 100€/mês. O investimento em anúncios é o seu próprio orçamento, à parte."
       },
       "description": {
         "label": "VISÃO GERAL",
         "headline": "O Que Está Incluído.",
-        "text": "GEO (Generative Engine Optimization) e AEO (Answer Engine Optimization) são a nova fronteira do SEO. Otimizamos o seu negócio para ser citado e recomendado pelas IAs — ChatGPT, Perplexity, Google AI Overviews e Gemini.",
+        "text": "Esperar ser encontrado é só metade do trabalho. A outra metade é ir buscar clientes: chegar às empresas ou pessoas que quer como clientes, trazer de volta quem não visita há algum tempo e — quando os números o justificam — pagar por atenção no Google e na Meta. Construímos as campanhas, corremos-nas com IA e reportamos o que cada uma trouxe em chamadas, marcações e visitas.",
         "highlights": [
           {
-            "title": "llms.txt e Dados Estruturados",
-            "text": "Implementamos ficheiros llms.txt e schema markup avançado para que os modelos de IA compreendam e citem o seu negócio corretamente."
+            "title": "Prospeção Automática",
+            "text": "Para negócios que vendem a outras empresas ou a um público definido: identificamos potenciais clientes, escrevemos mensagens personalizadas e enviamo-las por email ou WhatsApp com calendário e follow-ups. Fica com as respostas."
           },
           {
-            "title": "Conteúdo Q&A Otimizado",
-            "text": "Criamos conteúdo estruturado em formato pergunta-resposta que os motores de IA preferem citar nas suas respostas."
+            "title": "Newsletters e Reativação",
+            "text": "A sua lista de clientes atuais é a sua fonte de receita mais barata. Newsletters mensais, ofertas sazonais e campanhas 'temos saudades' que trazem as pessoas de volta à porta."
           },
           {
-            "title": "Estratégia de Citações",
-            "text": "Construímos presença em fontes que os LLMs consultam — diretórios, artigos, menções e referências autoritativas."
+            "title": "Anúncios Google e Meta",
+            "text": "Quando uma campanha faz sentido, configuramo-la, segmentamos localmente e otimizamos. O investimento em anúncios é sempre o seu orçamento, pago diretamente à plataforma — dizemos-lhe honestamente quando não compensa."
           },
           {
-            "title": "Monitorização Contínua",
-            "text": "Auditamos regularmente como o seu negócio aparece nas respostas de IA e ajustamos a estratégia em conformidade."
+            "title": "Tudo Medido",
+            "text": "Cada campanha tem um número: aberturas, respostas, marcações, chamadas, custo por cliente novo. Reportado mensalmente. O que funciona ganha mais; o que não funciona para."
           }
         ]
       },
@@ -650,23 +650,23 @@
         "items": [
           {
             "tag": "01",
-            "title": "Negócios Locais",
-            "text": "Quando alguém pergunta 'melhor restaurante em Cascais' ao ChatGPT, quer que o seu negócio seja a resposta."
+            "title": "Restaurantes e Cafés",
+            "text": "Reative antigos clientes com ementas sazonais e eventos, chegue às empresas da zona para almoços e grupos, e encha os dias de semana mais parados."
           },
           {
             "tag": "02",
-            "title": "Serviços Profissionais",
-            "text": "Advogados, contabilistas, consultores — apareça como recomendação quando alguém pede sugestões à IA."
+            "title": "Clínicas, Dentistas e Veterinários",
+            "text": "Lembretes de check-up, campanhas de vacinação, ofertas sazonais à sua base de pacientes. Campanhas de retorno que enchem a agenda com quem já confia em si."
           },
           {
             "tag": "03",
-            "title": "E-commerce",
-            "text": "Quando um utilizador pergunta ao Perplexity 'melhor produto para X', o seu produto deve estar na lista."
+            "title": "Ginásios, Salões e Estúdios",
+            "text": "Recupere membros e clientes inativos, promova aulas ou serviços novos e faça a campanha de janeiro ou setembro com anúncios locais que convertem de verdade."
           },
           {
             "tag": "04",
-            "title": "Marcas e Empresas",
-            "text": "Controle a narrativa sobre a sua marca nas respostas de IA. Garanta informação correta e posicionamento favorável."
+            "title": "Serviços Técnicos e Profissionais",
+            "text": "Prospeção automática a gestores de condomínios, empresas e parceiros que precisam do seu serviço regularmente — um funil que não depende do passa-palavra."
           }
         ]
       },
@@ -676,26 +676,26 @@
         "steps": [
           {
             "tag": "01",
-            "title": "Auditoria IA",
-            "description": "Analisamos como o seu negócio aparece atualmente nas respostas do ChatGPT, Perplexity e Google AI Overviews.",
+            "title": "Alvos e Oferta",
+            "description": "Quem quer alcançar, o que lhes oferece e o que é um bom resultado. Definimos o público, a mensagem e o número a bater.",
             "status": "PHASE_1"
           },
           {
             "tag": "02",
-            "title": "Estratégia",
-            "description": "Definimos as queries-alvo, identificamos lacunas e criamos um plano de otimização para motores generativos.",
+            "title": "Construir",
+            "description": "Listas de potenciais clientes, sequências de mensagens, modelos de newsletter, criativos de anúncios e medição — construídos com IA, revistos por uma pessoa, aprovados por si.",
             "status": "PHASE_2"
           },
           {
             "tag": "03",
-            "title": "Implementação",
-            "description": "Instalamos llms.txt, otimizamos dados estruturados, criamos conteúdo Q&A e construímos citações em fontes autoritativas.",
+            "title": "Lançar",
+            "description": "Prospeção, newsletters e anúncios saem conforme o calendário. As respostas chegam ao seu email ou WhatsApp; fecha o negócio.",
             "status": "PHASE_3"
           },
           {
             "tag": "04",
-            "title": "Monitorização",
-            "description": "Acompanhamento mensal de visibilidade em motores de IA, relatórios de citações e ajustes estratégicos contínuos.",
+            "title": "Medir e Escalar",
+            "description": "Relatório mensal: o que saiu, quem respondeu, o que trouxe. Reforçamos o que funciona e cortamos o que não funciona.",
             "status": "PHASE_4"
           }
         ]
@@ -705,20 +705,20 @@
         "headline": "Porque Importa.",
         "items": [
           {
-            "title": "O Futuro é Agora",
-            "text": "40% das pesquisas já passam por IA. Este número duplica todos os anos. Quem se posicionar primeiro, ganha."
+            "title": "Um Funil Que Controla",
+            "text": "Deixe de depender só do passa-palavra e de quem entra pela porta. Um fluxo estável e previsível de pedidos que pode aumentar ou reduzir."
           },
           {
-            "title": "Vantagem de Primeiro",
-            "text": "Quase nenhum negócio em Portugal está otimizado para IA. Ser pioneiro dá-lhe uma vantagem enorme e duradoura."
+            "title": "Os Seus Clientes, Outra Vez",
+            "text": "Trazer um cliente de volta custa uma fração de encontrar um novo. A maioria dos negócios locais nunca pede. O seu vai pedir, automaticamente."
           },
           {
-            "title": "Tráfego Qualificado",
-            "text": "Quem pesquisa em IA está mais avançado no processo de decisão. As citações de IA convertem melhor que resultados tradicionais."
+            "title": "Anúncios Só Quando Compensam",
+            "text": "Não empurramos investimento em anúncios. Fazemos anúncios quando as contas batem certo, com o seu orçamento, e paramo-los quando deixam de resultar."
           },
           {
-            "title": "Complementa o SEO",
-            "text": "Não substitui o SEO tradicional — adiciona um novo canal de aquisição. Mais visibilidade, mais oportunidades."
+            "title": "Números, Não Opiniões",
+            "text": "Cada euro e cada mensagem tem um resultado associado. Sabe o que trouxe negócio — e o que não trouxe."
           }
         ]
       },
@@ -727,181 +727,32 @@
         "headline": "Perguntas Frequentes.",
         "items": [
           {
-            "question": "O que é GEO/AEO exatamente?",
-            "answer": "GEO (Generative Engine Optimization) otimiza o seu negócio para aparecer nas respostas de IAs generativas como ChatGPT e Perplexity. AEO (Answer Engine Optimization) foca-se em aparecer em respostas diretas, incluindo Google AI Overviews."
+            "question": "Que plano inclui este serviço?",
+            "answer": "Campanhas & Prospeção faz parte do plano Completo, a 100€/mês, juntamente com redes sociais e um relatório mensal de resultados. Mês a mês, sem fidelização. Qualquer investimento em anúncios Google ou Meta é à parte e pago por si diretamente à plataforma."
           },
           {
-            "question": "Isto substitui o SEO?",
-            "answer": "Não. Complementa-o. O SEO tradicional continua essencial. GEO/AEO adiciona um novo canal de visibilidade que está a crescer rapidamente."
+            "question": "Quanto devo investir em anúncios?",
+            "answer": "Muitas vezes nada, ao início: prospeção e campanhas de reativação custam só o plano. Se os anúncios fizerem sentido para o seu negócio, sugerimos um orçamento com que se sinta confortável e dizemos-lhe honestamente se é baixo demais para funcionar."
           },
           {
-            "question": "Quanto tempo demora a ver resultados?",
-            "answer": "Os motores de IA atualizam os seus dados regularmente. Tipicamente, vê melhorias em 4-8 semanas após a implementação completa."
+            "question": "A prospeção automática é legal?",
+            "answer": "Sim, feita como deve ser: contactos profissionais, identificação clara, uma oferta real e uma forma de cancelar com uma mensagem. Seguimos as regras de cada plataforma e do RGPD, e nunca compramos listas duvidosas."
           },
           {
-            "question": "Podem garantir que aparecemos no ChatGPT?",
-            "answer": "Ninguém pode garantir posições em IA, tal como no SEO. Mas otimizamos todas as variáveis que influenciam a citação e temos resultados comprovados."
+            "question": "Em quanto tempo vejo resultados?",
+            "answer": "Campanhas de reativação à sua própria lista podem trazer marcações em dias. A prospeção costuma mostrar respostas nas primeiras semanas. Os anúncios geram chamadas desde os primeiros dias quando a oferta é certa."
           }
         ]
       },
       "cta": {
-        "headline": "Pronto Para Começar?",
-        "text": "A pesquisa está a mudar. Posicione o seu negócio nas respostas de IA antes da concorrência.",
-        "buttonLabel": "Saiba Como",
+        "headline": "Pronto Para Ir Buscar Clientes?",
+        "text": "Diga-nos quem é o seu cliente ideal e quantos mais conseguiria atender este mês. Mostramos-lhe a campanha que os traz.",
+        "buttonLabel": "Fale Connosco",
         "buttonHref": "#contact"
       },
       "meta": {
-        "title": "GEO / AEO — Otimização para IA | SurgeX",
-        "description": "Apareça nas respostas do ChatGPT, Perplexity e Google AI. Serviço pioneiro de GEO/AEO em Portugal. Otimização para motores de IA."
-      }
-    },
-    "training": {
-      "tag": "06",
-      "title": "Formação & Workshops",
-      "shortDescription": "Ensine a sua equipa a usar IA no dia a dia. Workshops práticos, sem jargão técnico — resultados desde o primeiro dia.",
-      "features": [
-        "Prompt engineering prático",
-        "Seleção de ferramentas de IA",
-        "Integração em workflows existentes",
-        "Capacitação de equipas"
-      ],
-      "hero": {
-        "title": "A Sua Equipa. Potenciada por IA.",
-        "subtitle": "Workshops práticos que ensinam a sua equipa a usar IA de forma produtiva — sem necessidade de conhecimentos técnicos.",
-        "valueProp": "Resultados imediatos. Competências para o futuro."
-      },
-      "description": {
-        "label": "VISÃO GERAL",
-        "headline": "O Que Está Incluído.",
-        "text": "Não ensinamos teoria — ensinamos prática. Os nossos workshops focam-se em ferramentas reais, casos de uso do seu setor e exercícios hands-on. A sua equipa sai a usar IA no mesmo dia.",
-        "highlights": [
-          {
-            "title": "Prompt Engineering",
-            "text": "A base de tudo. Ensinamos a comunicar com IAs de forma eficaz — do ChatGPT ao Claude, Gemini e ferramentas especializadas."
-          },
-          {
-            "title": "Seleção de Ferramentas",
-            "text": "O mercado tem centenas de ferramentas de IA. Ajudamos a escolher as certas para o seu setor e fluxos de trabalho específicos."
-          },
-          {
-            "title": "Integração em Workflows",
-            "text": "Não basta saber usar — é preciso integrar. Mapeamos os processos da equipa e mostramos onde a IA encaixa."
-          },
-          {
-            "title": "Materiais e Suporte",
-            "text": "Guias práticos, templates de prompts e 30 dias de suporte pós-workshop para dúvidas e acompanhamento."
-          }
-        ]
-      },
-      "useCases": {
-        "label": "CASOS DE USO",
-        "headline": "Para Quem É.",
-        "items": [
-          {
-            "tag": "01",
-            "title": "Equipas de Marketing",
-            "text": "Criação de conteúdo, análise de dados, gestão de campanhas e copywriting — tudo mais rápido e melhor com IA."
-          },
-          {
-            "tag": "02",
-            "title": "Equipas de Vendas",
-            "text": "Pesquisa de leads, personalização de propostas, follow-ups e análise de concorrência com assistência de IA."
-          },
-          {
-            "tag": "03",
-            "title": "Gestão e Operações",
-            "text": "Relatórios automáticos, análise de dados, gestão de projetos e tomada de decisão baseada em IA."
-          },
-          {
-            "tag": "04",
-            "title": "Atendimento ao Cliente",
-            "text": "Respostas mais rápidas, resolução de problemas e documentação — a IA como copiloto do atendimento."
-          }
-        ]
-      },
-      "process": {
-        "label": "PROCESSO",
-        "headline": "Como Entregamos.",
-        "steps": [
-          {
-            "tag": "01",
-            "title": "Diagnóstico",
-            "description": "Avaliamos o nível da equipa, os processos atuais e identificamos as áreas com maior potencial de impacto com IA.",
-            "status": "PHASE_1"
-          },
-          {
-            "tag": "02",
-            "title": "Programa à Medida",
-            "description": "Desenhamos o workshop com exemplos e exercícios específicos do seu setor. Nada genérico.",
-            "status": "PHASE_2"
-          },
-          {
-            "tag": "03",
-            "title": "Workshop Prático",
-            "description": "Sessão presencial ou remota (3-6 horas). Teoria mínima, prática máxima. A equipa sai a usar IA.",
-            "status": "PHASE_3"
-          },
-          {
-            "tag": "04",
-            "title": "Acompanhamento",
-            "description": "30 dias de suporte pós-workshop. Respondemos a dúvidas, validamos implementações e sugerimos otimizações.",
-            "status": "PHASE_4"
-          }
-        ]
-      },
-      "benefits": {
-        "label": "BENEFÍCIOS",
-        "headline": "Porque Importa.",
-        "items": [
-          {
-            "title": "Produtividade Imediata",
-            "text": "A sua equipa sai do workshop a usar IA no mesmo dia. Sem semanas de adaptação — resultados desde a primeira hora."
-          },
-          {
-            "title": "Autonomia da Equipa",
-            "text": "Em vez de depender de consultores, a sua equipa ganha competências próprias. Investimento que se multiplica."
-          },
-          {
-            "title": "Adaptado ao Seu Negócio",
-            "text": "Não é um workshop genérico. Os exemplos, exercícios e ferramentas são específicos do seu setor e dos seus processos."
-          },
-          {
-            "title": "Futuro-Proof",
-            "text": "A IA está a mudar todas as profissões. Equipas que dominam IA hoje estão preparadas para as mudanças de amanhã."
-          }
-        ]
-      },
-      "faq": {
-        "label": "FAQ",
-        "headline": "Perguntas Frequentes.",
-        "items": [
-          {
-            "question": "A minha equipa não tem conhecimentos técnicos. É problema?",
-            "answer": "De todo. Os workshops são desenhados para pessoas sem background técnico. Se sabe usar um computador, consegue usar IA."
-          },
-          {
-            "question": "Quanto tempo dura o workshop?",
-            "answer": "Entre 3 e 6 horas, dependendo da profundidade. Pode ser numa sessão ou dividido em módulos ao longo de uma semana."
-          },
-          {
-            "question": "Fazem workshops presenciais?",
-            "answer": "Sim. Presencial na zona de Lisboa ou remoto para qualquer localização. O formato presencial permite exercícios mais interativos."
-          },
-          {
-            "question": "Quantas pessoas podem participar?",
-            "answer": "Recomendamos grupos de 5-15 pessoas para máxima interação. Para equipas maiores, dividimos em sessões ou adaptamos o formato."
-          }
-        ]
-      },
-      "cta": {
-        "headline": "Pronto Para Começar?",
-        "text": "A sua equipa pode ser mais produtiva amanhã. Marque um workshop e veja a diferença que a IA faz no dia a dia.",
-        "buttonLabel": "Marcar Workshop",
-        "buttonHref": "#contact"
-      },
-      "meta": {
-        "title": "Formação IA & Workshops | SurgeX",
-        "description": "Workshops práticos de IA para equipas. Prompt engineering, ferramentas e integração em workflows. Sem jargão técnico. Lisboa."
+        "title": "Campanhas & Prospeção — Prospeção, Newsletters, Anúncios | SurgeX",
+        "description": "Prospeção automática por email e WhatsApp, newsletters e campanhas de reativação, e anúncios Google ou Meta quando fizer sentido — tudo medido. Plano Completo, 100€/mês. Anúncios à parte."
       }
     }
   }
