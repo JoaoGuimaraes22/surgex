@@ -1177,6 +1177,24 @@
         "location": "Oeiras",
         "reviewCount": "262+",
         "rating": "4.8"
+      },
+      {
+        "id": "caixilharia-fazmeca",
+        "name": "Fazmeca",
+        "category": "Website",
+        "image": "/portfolio/caixilharia-fazmeca.webp",
+        "url": "https://demo-caixilharia-fazmeca.vercel.app",
+        "description": "Aluminium & PVC window fabricator in Alvalade — framed hero, Aluminium-vs-PVC comparator, production-sheet process and a before/after slider.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Windows & Doors",
+        "location": "Lisboa",
+        "reviewCount": "14+",
+        "rating": "4.8"
       }
     ],
     "cta": "View Project",
@@ -1320,10 +1338,14 @@
       {
         "id": "tattoo",
         "label": "Tattoo"
+      },
+      {
+        "id": "windows-doors",
+        "label": "Windows & Doors"
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "60 projects across 26 industries",
+    "projectCount": "61 projects across 27 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

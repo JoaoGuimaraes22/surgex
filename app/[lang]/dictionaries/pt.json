@@ -1161,6 +1161,24 @@
         "rating": "4.8"
       },
       {
+        "id": "caixilharia-fazmeca",
+        "name": "Fazmeca",
+        "category": "Website",
+        "image": "/portfolio/caixilharia-fazmeca.webp",
+        "url": "https://demo-caixilharia-fazmeca.vercel.app",
+        "description": "Fabricante de caixilharia em alumínio e PVC em Alvalade — hero emoldurado, comparador Alumínio vs PVC, ficha de produção e slider antes/depois.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Caixilharia",
+        "location": "Lisboa",
+        "reviewCount": "14+",
+        "rating": "4.8"
+      },
+      {
         "id": "barbershop-vip",
         "name": "Barbearia VIP",
         "category": "Website",
@@ -1320,10 +1338,14 @@
       {
         "id": "tattoo",
         "label": "Tatuagem"
+      },
+      {
+        "id": "windows-doors",
+        "label": "Caixilharia"
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "60 projetos em 26 setores",
+    "projectCount": "61 projetos em 27 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
