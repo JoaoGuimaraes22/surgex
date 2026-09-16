@@ -1,5 +1,7 @@
 # Adding a Project to the SurgeX Portfolio
 
+> Automated since 2026-09-16: `npx tsx scripts/add-portfolio-project.ts <project-dir>` from the monorepo root does every step below, reading the niche pair from the project's `info/info.md` (`**Niche**` / `**Niche (PT)**`) and the PT table from `packages/cli/src/core/leads/niches.ts` (`NICHE_LABELS_PT` — the table below is a copy, keep the code one current). `scripts/register-demo.ts` runs it together with `ignite leads add`. The manual steps stay here as the reference of what the script writes.
+
 ## Quick Steps
 
 1. **Copy og-image** from the project into surgex-ai:
