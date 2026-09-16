@@ -272,6 +272,24 @@
         "rating": "4.3"
       },
       {
+        "id": "locksmith-arranjos",
+        "name": "Arranjos e Companhia Algés",
+        "category": "Website",
+        "image": "/portfolio/locksmith-arranjos.webp",
+        "url": "https://demo-locksmith-arranjos.vercel.app",
+        "description": "Loja de arranjos de bairro em Algés (Oeiras): cópias de chaves e comandos na hora, arranjos de costura, reparação de calçado e bordados.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Arranjos e Reparações",
+        "location": "Algés",
+        "reviewCount": "139+",
+        "rating": "4.9"
+      },
+      {
         "id": "restaurant-sassoeiros",
         "name": "Assador Sassoeiros",
         "category": "Website",
@@ -1336,6 +1354,10 @@
         "label": "Imobiliária"
       },
       {
+        "id": "repairs-alterations",
+        "label": "Arranjos e Reparações"
+      },
+      {
         "id": "tattoo",
         "label": "Tatuagem"
       },
@@ -1345,7 +1367,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "61 projetos em 27 setores",
+    "projectCount": "62 projetos em 28 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

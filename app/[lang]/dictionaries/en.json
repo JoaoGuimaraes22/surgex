@@ -272,6 +272,24 @@
         "rating": "4.3"
       },
       {
+        "id": "locksmith-arranjos",
+        "name": "Arranjos e Companhia Algés",
+        "category": "Website",
+        "image": "/portfolio/locksmith-arranjos.webp",
+        "url": "https://demo-locksmith-arranjos.vercel.app",
+        "description": "Neighbourhood repair shop in Algés (Oeiras): key and remote copies while you wait, clothing alterations, shoe repair and embroidery.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Repairs & Alterations",
+        "location": "Algés",
+        "reviewCount": "139+",
+        "rating": "4.9"
+      },
+      {
         "id": "restaurant-sassoeiros",
         "name": "Assador Sassoeiros",
         "category": "Website",
@@ -1336,6 +1354,10 @@
         "label": "Real Estate"
       },
       {
+        "id": "repairs-alterations",
+        "label": "Repairs & Alterations"
+      },
+      {
         "id": "tattoo",
         "label": "Tattoo"
       },
@@ -1345,7 +1367,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "61 projects across 27 industries",
+    "projectCount": "62 projects across 28 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
