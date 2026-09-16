@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>Cábula do Parceiro SurgeX</title>
+<link rel="icon" href="/favicon.ico">
+</head>
+<body>
+<style>
+  :root {
+    --bg: #f3f5f7; --surface: #ffffff; --ink: #14181c; --muted: #5b6670; --line: #d9dfe4;
+    --accent: #0d8f7d; --accent-ink: #ffffff; --accent-soft: #dff5f0; --warn-soft: #fdecec; --warn: #b3261e;
+    --mono-bg: #eef1f4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0f1215; --surface: #181d22; --ink: #eef2f4; --muted: #9aa6b0; --line: #2a3138;
+      --accent: #5eead4; --accent-ink: #0f1215; --accent-soft: #14332e; --warn-soft: #3a1a18; --warn: #ff8a80;
+      --mono-bg: #10151a;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0f1215; --surface: #181d22; --ink: #eef2f4; --muted: #9aa6b0; --line: #2a3138;
+    --accent: #5eead4; --accent-ink: #0f1215; --accent-soft: #14332e; --warn-soft: #3a1a18; --warn: #ff8a80;
+    --mono-bg: #10151a;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; font-size: 16px; line-height: 1.55; }
+  .wrap { max-width: 680px; margin: 0 auto; padding-block: 0 64px; padding-inline: 16px; }
+  h1, h2, h3 { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; text-wrap: balance; letter-spacing: -0.01em; }
+  h1 { font-size: 30px; font-weight: 800; margin: 24px 0 4px; }
+  h2 { font-size: 20px; font-weight: 800; margin: 0 0 12px; }
+  h3 { font-size: 15px; font-weight: 700; margin: 16px 0 6px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
+  p { margin: 0 0 12px; max-width: 62ch; }
+  .sub { color: var(--muted); margin-bottom: 16px; }
+  .sub a { color: var(--accent); }
+  nav.tabs { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); padding-block: 10px; margin-inline: -16px; padding-inline: 16px; display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; border-bottom: 1px solid var(--line); }
+  nav.tabs::-webkit-scrollbar { display: none; }
+  nav.tabs a { flex: 0 0 auto; text-decoration: none; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 6px 12px; font-size: 14px; font-weight: 600; }
+  nav.tabs a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  section { padding-block: 28px; border-bottom: 1px solid var(--line); scroll-margin-top: 64px; }
+  section:last-of-type { border-bottom: 0; }
+  .three { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+  @media (max-width: 560px) { .three { grid-template-columns: 1fr; } }
+  .tier { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 14px; display: flex; flex-direction: column; gap: 4px; }
+  .tier.rec { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent) inset; }
+  .tier .n { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; font-weight: 800; font-size: 26px; font-variant-numeric: tabular-nums; }
+  .tier .n small { font-size: 14px; font-weight: 600; color: var(--muted); }
+  .tier .t { font-weight: 700; }
+  .tier .rec-tag { font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
+  .tier p { font-size: 14px; color: var(--muted); margin: 4px 0 0; }
+  .setup { background: var(--ink); color: var(--bg); border-radius: 12px; padding: 16px; margin-bottom: 12px; display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: baseline; }
+  .setup .n { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; font-weight: 800; font-size: 34px; line-height: 1; }
+  .setup .d { font-size: 14px; opacity: 0.85; }
+  .rules { display: grid; gap: 6px; padding: 0; margin: 12px 0 0; list-style: none; }
+  .rules li { padding-left: 18px; position: relative; font-size: 15px; }
+  .rules li::before { content: ""; position: absolute; left: 0; top: 0.6em; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); }
+  .quote { background: var(--accent-soft); border-left: 4px solid var(--accent); border-radius: 0 10px 10px 0; padding: 14px 16px; font-size: 17px; line-height: 1.5; margin: 0 0 16px; }
+  ol.script { padding-left: 0; list-style: none; margin: 0; display: grid; gap: 10px; counter-reset: s; }
+  ol.script li { counter-increment: s; display: grid; grid-template-columns: 30px 1fr; gap: 10px; align-items: start; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px; }
+  ol.script li::before { content: counter(s); width: 28px; height: 28px; border-radius: 50%; background: var(--accent); color: var(--accent-ink); font-weight: 800; display: grid; place-items: center; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; font-size: 14px; }
+  ol.script b { display: block; font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin-bottom: 2px; }
+  ol.script span { font-size: 15px; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  .scroll { overflow-x: auto; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; }
+  details { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; margin-bottom: 8px; }
+  summary { cursor: pointer; padding: 12px 14px; font-weight: 600; list-style: none; display: flex; justify-content: space-between; gap: 10px; }
+  summary::-webkit-details-marker { display: none; }
+  summary::after { content: "+"; color: var(--accent); font-weight: 800; }
+  details[open] summary::after { content: "–"; }
+  details div { padding: 0 14px 14px; font-size: 15px; color: var(--ink); }
+  .never { display: grid; gap: 8px; }
+  .never div { display: grid; grid-template-columns: 1fr; gap: 4px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px; font-size: 14px; }
+  .never .no { color: var(--warn); font-weight: 600; text-decoration: line-through; }
+  .never .yes::before { content: "→ "; color: var(--accent); font-weight: 800; }
+  pre { background: var(--mono-bg); border: 1px solid var(--line); border-radius: 10px; padding: 14px; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 13.5px; line-height: 1.5; overflow-x: auto; margin: 0 0 10px; white-space: pre; }
+  .btn { font: inherit; font-weight: 700; background: var(--accent); color: var(--accent-ink); border: 0; border-radius: 999px; padding: 10px 18px; cursor: pointer; }
+  .btn:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+  .labels { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0; }
+  .labels code { background: var(--accent-soft); color: var(--ink); border-radius: 6px; padding: 3px 8px; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 13px; }
+  .check { list-style: none; padding: 0; margin: 0; display: grid; gap: 6px; }
+  .check label { display: flex; gap: 10px; align-items: flex-start; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; font-size: 15px; cursor: pointer; }
+  .check input { width: 20px; height: 20px; margin: 2px 0 0; accent-color: var(--accent); flex: 0 0 auto; }
+  .commission { background: var(--accent-soft); border: 1px solid var(--accent); border-radius: 10px; padding: 12px 14px; font-size: 14px; }
+  .contact { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 8px; }
+  .contact a { text-decoration: none; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 8px 14px; font-weight: 600; font-size: 14px; }
+  .toast { position: fixed; left: 50%; bottom: calc(24px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); background: var(--ink); color: var(--bg); padding: 10px 16px; border-radius: 999px; font-weight: 600; font-size: 14px; }
+  @media (prefers-reduced-motion: no-preference) { details div { animation: fade .15s ease; } @keyframes fade { from { opacity: .4 } to { opacity: 1 } } }
+</style>
+
+<div class="wrap">
+  <h1>Cábula do Parceiro SurgeX</h1>
+  <p class="sub">O essencial do kit, para ter no telemóvel durante uma chamada ou uma visita. Versão 2026-09-15 · dúvidas ao Sebastião: <a href="https://wa.me/351915109181">WhatsApp</a> · <a href="mailto:contact@surgex.pt">contact@surgex.pt</a></p>
+
+  <nav class="tabs" aria-label="Secções">
+    <a href="#precos">Preços</a><a href="#guiao">Guião</a><a href="#objecoes">Objeções</a><a href="#nunca">Nunca dizer</a><a href="#lead">Folha / LEAD</a><a href="#regras">Regras</a><a href="#checklist">Checklist</a>
+  </nav>
+
+  <section id="precos">
+    <h2>Os únicos números que existem</h2>
+    <div class="setup"><span class="n">500 €</span><span class="d">setup único · 250 no arranque + 250 na aprovação da versão final</span><span class="d">site bilingue em 48h · Google Maps, Apple Maps, TripAdvisor, Bing · domínio e email · primeira otimização SEO</span></div>
+    <div class="three">
+      <div class="tier"><span class="t">Presença</span><span class="n">35 €<small>/mês</small></span><p>Alojamento, segurança, listagens atualizadas, pequenas alterações, suporte.</p></div>
+      <div class="tier rec"><span class="rec-tag">Apontar para este</span><span class="t">Crescimento</span><span class="n">65 €<small>/mês</small></span><p>Presença + SEO local contínuo + chatbot IA + botão WhatsApp + pedidos de avaliação e follow-ups automáticos.</p></div>
+      <div class="tier"><span class="t">Completo</span><span class="n">100 €<small>/mês</small></span><p>Crescimento + redes sociais + campanhas e newsletters + relatório mensal.</p></div>
+    </div>
+    <ul class="rules">
+      <li>Sem fidelização. Mudam ou cancelam quando quiserem, um mês de aviso.</li>
+      <li>Sem meses grátis, sem descontos, sem "a partir de". Condições especiais só o Sebastião.</li>
+      <li>A mensalidade começa no mês seguinte à aprovação. Anúncios são orçamento do cliente, à parte.</li>
+      <li>Apresenta sempre os três planos. O do meio é o que queremos que escolham.</li>
+    </ul>
+  </section>
+
+  <section id="guiao">
+    <h2>Guião</h2>
+    <h3>Os 30 segundos (telefone, balcão, WhatsApp)</h3>
+    <p class="quote">"Já criámos um site novo para a [negócio] — ver é grátis, sem compromisso. É um site moderno e rápido, feito para aparecer no Google quando alguém procura [nicho] em [cidade]. Está pronto, é só ativar. Posso mandar-lhe o link?"</p>
+    <h3>Telefone, passo a passo</h3>
+    <ol class="script">
+      <li><div><b>Abrir</b><span>Olá, bom dia! Falo com o responsável da [negócio]? É o [teu nome], da SurgeX.</span></div></li>
+      <li><div><b>Balcão (não é o dono)</b><span>Ah, então é consigo que devo falar depois? É que fizemos uma coisa para a [negócio] e queria mostrar ao dono. A que horas costuma estar? Ou posso deixar-lhe o link por WhatsApp? <em>Nunca fazer o pitch a quem não decide.</em></span></div></li>
+      <li><div><b>Gancho</b><span>Tenho só um minuto? É que já criámos um site novo para o vosso negócio — ver é grátis, sem compromisso — e queria mostrar-lhe.</span></div></li>
+      <li><div><b>Valor</b><span>É um site moderno e rápido, otimizado para aparecer no Google quando procuram [nicho] em [cidade]. Está pronto, é só ativar.</span></div></li>
+      <li><div><b>Contas</b><span>Pense no que vale um cliente para si. Com inteligência artificial baixámos o custo de um site premium, já configurado no Google, para 500 euros. Quanto gasta um cliente numa [nicho] como a sua? Basta o site trazer-lhe 2 ou 3 clientes e fica pago em poucos meses.</span></div></li>
+      <li><div><b>Prova</b><span>Já fizemos isto para mais de 60 negócios na zona de Lisboa — barbearias, clínicas, oficinas. Posso enviar-lhe o link para ver?</span></div></li>
+      <li><div><b>Fecho suave</b><span>Qual é o melhor WhatsApp ou email para lhe enviar? Se gostar, falamos; se não, não há problema nenhum.</span></div></li>
+    </ol>
+    <h3>Quando ligar</h3>
+    <div class="scroll"><table>
+      <tr><th>Janela</th><th>Nichos</th></tr>
+      <tr><td>09:00–10:30</td><td>oficinas, eletricistas, canalizadores, detailing, lavandarias, ofícios</td></tr>
+      <tr><td>10:30–12:30</td><td>dentistas, veterinários, fisio, ginásios, treino de cães</td></tr>
+      <tr><td>14:00–15:30</td><td>salões, barbearias, tatuagem, piercing</td></tr>
+      <tr><td>15:00–17:30</td><td>restaurantes e bares (nunca 12–15h nem depois das 19h)</td></tr>
+    </table></div>
+    <h3>Indicação a um conhecido</h3>
+    <p class="quote">"Um amigo meu tem uma agência que faz sites e Google para negócios locais, com IA — por isso é barato: 500 € o site e a partir de 35 €/mês, sem fidelização. Fizeram mais de 60. Se quiseres, ele faz-te uma demo do teu site em dois dias, sem compromisso. Posso dar-lhe o teu número?"</p>
+  </section>
+
+  <section id="objecoes">
+    <h2>Objeções</h2>
+    <details><summary>Já tenho um site.</summary><div>Ótimo! Posso dar uma vista de olhos e dizer-lhe com honestidade se o novo traz alguma vantagem. Sem compromisso — comparar não custa nada.</div></details>
+    <details><summary>Não tenho tempo agora.</summary><div>Sem problema, demoro 30 segundos. Posso enviar-lhe o link por WhatsApp e vê quando puder?</div></details>
+    <details><summary>Quanto custa?</summary><div>São 500 euros de arranque — metade agora, metade quando aprovar a versão final — com o site, o domínio e o Google Maps tratados. Depois, desde 35 euros por mês para manter tudo online e atualizado; se quiser aparecer melhor no Google e ter atendimento automático, são 65; com redes sociais e campanhas, 100. Sem fidelização. Faça as contas: quantos clientes novos são 500 euros para si? Dois, três? Fica pago em poucos meses.</div></details>
+    <details><summary>É caro.</summary><div>Numa agência tradicional isto custa milhares por mês. Com IA fazemos o mesmo trabalho 10x mais rápido — por isso são 500 euros de arranque e 35 por mês. E não há fidelização: se não valer a pena, cancela.</div></details>
+    <details><summary>Envie por email.</summary><div>Claro, qual é o email? E posso ligar-lhe na próxima semana para saber o que achou?</div></details>
+    <details><summary>Não estou interessado.</summary><div>Compreendo perfeitamente. Posso só deixar-lhe o link? Não perde nada em ver, e se não gostar esquece.</div></details>
+    <details><summary>Já trabalho com alguém.</summary><div>Boa! Não quero substituir ninguém. Mas se quiser uma segunda opinião gratuita sobre a vossa presença online, com todo o gosto.</div></details>
+    <details><summary>Os clientes vêm todos por recomendação.</summary><div>Exatamente por isso — quando alguém vos recomenda, a primeira coisa que a pessoa faz é procurar no Google. O que encontra hoje?</div></details>
+    <details><summary>O meu sobrinho faz-me isso.</summary><div>Perfeito, então já tem quem ponha o conteúdo. A diferença aqui é o que continua depois: Google Maps, avaliações, atendimento automático, tudo a funcionar sozinho por 35 a 65 por mês. Quer ver a demo na mesma?</div></details>
+    <details><summary>Tenho de falar com o meu sócio.</summary><div>Claro. Envio-lhe o link para mostrarem os dois — é mais fácil decidir a olhar para o site. Ligo-lhe quinta?</div></details>
+    <details><summary>Isto é IA? Não confio.</summary><div>A IA é só o que nos deixa fazer em dois dias o que demorava um mês. Quem revê e afina cada site é um engenheiro, à mão. Veja a demo e diga-me se parece feita por um robô.</div></details>
+    <details><summary>Preciso de pensar.</summary><div>Com certeza. O que é que o ajudava a decidir — ver mais exemplos, falar com o Sebastião 10 minutos, ou perceber melhor os planos?</div></details>
+    <p style="margin-top:12px"><strong>Não sabes a resposta?</strong> "Boa pergunta — não te quero dizer disparates. O Sebastião responde-te hoje." Vale mais do que inventar.</p>
+  </section>
+
+  <section id="nunca">
+    <h2>Nunca dizer</h2>
+    <div class="never">
+      <div><span class="no">O site é grátis</span><span class="yes"><b>Ver</b> é grátis, sem compromisso. O site custa 500 €. "Grátis" seguido de "500 €" destrói a confiança.</span></div>
+      <div><span class="no">Garantimos o primeiro lugar no Google / vai ter X clientes</span><span class="yes">Feito para aparecer no Google quando procuram [nicho] em [cidade]. Nunca prometemos resultados.</span></div>
+      <div><span class="no">Desconto, mês grátis, "a partir de"</span><span class="yes">Os preços de cima. Condições especiais só o Sebastião.</span></div>
+      <div><span class="no">Usamos o ChatGPT / o Claude / a Vercel</span><span class="yes">Feito com IA, por isso custa uma fração. O cliente compra clientes, não tecnologia.</span></div>
+      <div><span class="no">Temos uma equipa / um escritório</span><span class="yes">É o Sebastião, engenheiro, que constrói cada projeto pessoalmente.</span></div>
+      <div><span class="no">O site é vosso, levam-no para onde quiserem</span><span class="yes">O site fica no ar enquanto houver um plano ativo. Mais do que isto, passa ao Sebastião.</span></div>
+      <div><span class="no">Assinar, receber dinheiro, prometer outro prazo</span><span class="yes">Contrato, fatura e prazos são com a SurgeX. Tu abres a porta.</span></div>
+      <div><span class="no">Gravar a chamada</span><span class="yes">É crime sem consentimento. Notas de 60 segundos depois.</span></div>
+    </div>
+  </section>
+
+  <section id="lead">
+    <h2>Registar: a folha SurgeX CRM</h2>
+    <p><a href="https://docs.google.com/spreadsheets/d/1cYgpWfBZ8TwD3TiKS6YZ_-Wzma3Sz-1JdfiZtQkAIqk/edit" style="color:var(--accent);font-weight:700">Abrir a folha</a> (app Google Sheets). Antes de ligar: o teu nome em <b>Dono</b>. Só ligas a linhas tuas ou sem dono. Depois de cada contacto, na mesma linha: <b>Resultado</b>, <b>Canal</b>, <b>Notas</b>, e se houver <b>Próximo passo</b> + <b>Data</b> (AAAA-MM-DD). O sistema recolhe a cada 15 min e limpa. Linhas CLIENTE / REJEITADO não se contactam.</p>
+    <h3>Negócio que não está na folha: mensagem LEAD ao Sebastião</h3>
+<pre id="leadfmt">LEAD
+Negócio:
+Cidade / nicho:
+Pessoa (nome, é o dono?):
+Contacto (telemóvel / WhatsApp / email):
+Site atual: sem site / só redes / tem site (link)
+Como foi:
+Resultado:
+Próximo passo + data: </pre>
+    <button class="btn" id="copy" type="button">Copiar formato</button>
+    <h3>Resultado: sempre exatamente uma etiqueta</h3>
+    <div class="labels"><code>sem-resposta</code><code>balcão</code><code>dono-não</code><code>dono-quer-link</code><code>reunião</code></div>
+    <p>O contacto continua teu: follow-up ao dia 3 e ao dia 7, depois pára. A reunião marca-se com os dois; o fecho é do Sebastião. Nunca dois de nós a escrever à mesma pessoa.</p>
+  </section>
+
+  <section id="regras">
+    <h2>Regras do jogo</h2>
+    <ul class="rules">
+      <li>Só contactos profissionais públicos (telefone, email e redes do negócio).</li>
+      <li>9h–19h, segunda a sábado. Nunca ao domingo.</li>
+      <li>Um não é um não. Sai com simpatia, regista <code>dono-não</code>, não voltas a contactar.</li>
+      <li>Um canal de cada vez. Não mandes email, WhatsApp e Instagram no mesmo dia.</li>
+      <li>Apresentas-te sempre como parceiro da SurgeX, com o teu nome verdadeiro.</li>
+      <li>Não falas de clientes pelo nome sem autorização. "Mais de 60 negócios na zona de Lisboa" chega; os públicos estão em surgex.pt/pt/projects.</li>
+      <li>Nunca contactar: cadeias e franchisings, negócios a fechar, quem já disse não, e <b>Mr. Big Evolution (Carcavelos)</b> em circunstância alguma.</li>
+    </ul>
+    <h3>Comissão</h3>
+    <div class="commission"><b>400 € por cliente que assina</b> — 80 % do setup, tanto faz se foi indicação ou venda da lista. Paga por transferência depois de o cliente pagar o setup na totalidade, contra recibo. As mensalidades ficam na SurgeX.</div>
+    <div class="contact"><a href="https://surgex.pt/pt">surgex.pt</a><a href="https://www.surgex.pt/pt/projects">Projetos</a><a href="https://www.surgex.pt/pt/services">Serviços</a><a href="https://wa.me/351915109181">Sebastião · WhatsApp</a></div>
+  </section>
+
+  <section id="checklist">
+    <h2>Antes do primeiro contacto</h2>
+    <ul class="check">
+      <li><label><input type="checkbox" id="c1"> Li o kit de fio a fio e a lista "Nunca dizer" duas vezes</label></li>
+      <li><label><input type="checkbox" id="c2"> Abri três demos da minha lista no telemóvel e naveguei</label></li>
+      <li><label><input type="checkbox" id="c3"> Li o guião de telefone em voz alta três vezes</label></li>
+      <li><label><input type="checkbox" id="c4"> Número do Sebastião guardado e o formato LEAD nas notas</label></li>
+      <li><label><input type="checkbox" id="c5"> Abri a folha SurgeX CRM no telemóvel e li o separador Guia</label></li>
+      <li><label><input type="checkbox" id="c8"> Escolhi as minhas primeiras linhas (Dono = eu), ou os três conhecidos a quem vou falar primeiro</label></li>
+      <li><label><input type="checkbox" id="c6"> Sei de cor: 500 · 35 / 65 / 100 · sem fidelização</label></li>
+      <li><label><input type="checkbox" id="c7"> Fiz a sessão de 45 minutos com o Sebastião</label></li>
+    </ul>
+  </section>
+</div>
+
+<script>
+  (function () {
+    var btn = document.getElementById("copy");
+    var text = document.getElementById("leadfmt").textContent;
+    function toast(msg) {
+      var t = document.createElement("div"); t.className = "toast"; t.textContent = msg; document.body.appendChild(t);
+      setTimeout(function () { t.remove(); }, 1600);
+    }
+    btn.addEventListener("click", function () {
+      var done = function () { toast("Copiado"); };
+      var fail = function () {
+        var r = document.createRange(); r.selectNodeContents(document.getElementById("leadfmt"));
+        var s = window.getSelection(); s.removeAllRanges(); s.addRange(r); toast("Seleciona e copia");
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(done, fail); else fail();
+    });
+    var boxes = document.querySelectorAll(".check input");
+    boxes.forEach(function (b) {
+      try { b.checked = localStorage.getItem("chk:" + b.id) === "1"; } catch (e) {}
+      b.addEventListener("change", function () { try { localStorage.setItem("chk:" + b.id, b.checked ? "1" : "0"); } catch (e) {} });
+    });
+  })();
+</script>
+</body>
+</html>
