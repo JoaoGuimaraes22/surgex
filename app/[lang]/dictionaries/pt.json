@@ -254,6 +254,24 @@
         "rating": "5.0"
       },
       {
+        "id": "music-simps",
+        "name": "Sociedade de Instrução Musical de Porto Salvo",
+        "category": "Website",
+        "image": "/portfolio/music-simps.webp",
+        "url": "https://demo-music-simps.vercel.app",
+        "description": "Sociedade de Instrução Musical de Porto Salvo: escola de música e banda filarmónica desde 1914.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Escola de Música",
+        "location": "Porto Salvo",
+        "reviewCount": "60+",
+        "rating": "4.3"
+      },
+      {
         "id": "restaurant-sassoeiros",
         "name": "Assador Sassoeiros",
         "category": "Website",
@@ -1280,6 +1298,10 @@
         "label": "Mecanica"
       },
       {
+        "id": "music-school",
+        "label": "Escola de Música"
+      },
+      {
         "id": "physiotherapy",
         "label": "Fisioterapia"
       },
@@ -1301,7 +1323,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "59 projetos em 25 setores",
+    "projectCount": "60 projetos em 26 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
