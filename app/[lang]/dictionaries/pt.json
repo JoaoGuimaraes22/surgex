@@ -1231,6 +1231,24 @@
         "location": "Oeiras",
         "reviewCount": "148+",
         "rating": "4.8"
+      },
+      {
+        "id": "estetica-danicabrera",
+        "name": "Dani Cabrera Estética",
+        "category": "Website",
+        "image": "/portfolio/estetica-danicabrera.webp",
+        "url": "https://demo-estetica-danicabrera.vercel.app",
+        "description": "Esteticista no centro da Parede, Cascais: head spa, lifting HIFU, massagens, tratamentos de rosto, depilação e unhas.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Parede, Cascais",
+        "reviewCount": "191+",
+        "rating": "5"
       }
     ],
     "cta": "Ver Projeto",
@@ -1298,6 +1316,10 @@
       {
         "id": "accounting",
         "label": "Contabilidade"
+      },
+      {
+        "id": "aesthetics",
+        "label": "Estética"
       },
       {
         "id": "auto-body",
@@ -1389,7 +1411,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "63 projetos em 29 setores",
+    "projectCount": "64 projetos em 30 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
