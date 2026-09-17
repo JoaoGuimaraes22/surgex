@@ -254,6 +254,24 @@
         "rating": "5.0"
       },
       {
+        "id": "language-cla",
+        "name": "CLA - Language Academy",
+        "category": "Website",
+        "image": "/portfolio/language-cla.webp",
+        "url": "https://demo-language-cla.vercel.app",
+        "description": "Independent language academy on the Cascais line since 1988.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Language School",
+        "location": "Estoril",
+        "reviewCount": "1+",
+        "rating": "5"
+      },
+      {
         "id": "music-simps",
         "name": "Sociedade de Instrução Musical de Porto Salvo",
         "category": "Website",
@@ -1326,6 +1344,10 @@
         "label": "Landscaping"
       },
       {
+        "id": "language-school",
+        "label": "Language School"
+      },
+      {
         "id": "laundry",
         "label": "Laundry"
       },
@@ -1367,7 +1389,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "62 projects across 28 industries",
+    "projectCount": "63 projects across 29 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
