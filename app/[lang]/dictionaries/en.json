@@ -362,6 +362,24 @@
         "rating": "4.3"
       },
       {
+        "id": "pest-rphigiene",
+        "name": "RP Produtos de Higiene & Desbaratização",
+        "category": "Website",
+        "image": "/portfolio/pest-rphigiene.webp",
+        "url": "https://demo-pest-rphigiene.vercel.app",
+        "description": "Pest control in Massamá, Queluz — homes, restaurants, condominiums and industry across Lisbon, the Sintra line, the Cascais line and the south bank.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Pest Control",
+        "location": "Queluz (Sintra)",
+        "reviewCount": "",
+        "rating": "5"
+      },
+      {
         "id": "pool-tomasmonteiro",
         "name": "Tomás Monteiro · Pool Maintenance",
         "category": "Website",
@@ -1462,6 +1480,10 @@
         "label": "Music School"
       },
       {
+        "id": "pest-control",
+        "label": "Pest Control"
+      },
+      {
         "id": "physiotherapy",
         "label": "Physiotherapy"
       },
@@ -1495,7 +1517,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "68 projects across 33 industries",
+    "projectCount": "69 projects across 34 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
