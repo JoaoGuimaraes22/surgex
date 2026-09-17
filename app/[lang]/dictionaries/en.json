@@ -254,6 +254,24 @@
         "rating": "5"
       },
       {
+        "id": "dance-levarte",
+        "name": "Lev'Arte",
+        "category": "Website",
+        "image": "/portfolio/dance-levarte.webp",
+        "url": "https://demo-dance-levarte.vercel.app",
+        "description": "Multidisciplinary dance school in Carcavelos since 2018: classical ballet, contemporary, neoclassical, jazz, Irish and folklore dance for ages 3 to 65.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Dance School",
+        "location": "Carcavelos",
+        "reviewCount": "15+",
+        "rating": "4.7"
+      },
+      {
         "id": "gym-levelup",
         "name": "Level UP Fight & Fitness",
         "category": "Website",
@@ -1342,6 +1360,10 @@
         "label": "Cleaning"
       },
       {
+        "id": "dance-school",
+        "label": "Dance School"
+      },
+      {
         "id": "dog-training",
         "label": "Dog Training"
       },
@@ -1411,7 +1433,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "64 projects across 30 industries",
+    "projectCount": "65 projects across 31 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

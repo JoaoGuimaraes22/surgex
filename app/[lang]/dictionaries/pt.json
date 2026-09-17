@@ -1249,6 +1249,24 @@
         "location": "Parede, Cascais",
         "reviewCount": "191+",
         "rating": "5"
+      },
+      {
+        "id": "dance-levarte",
+        "name": "Lev'Arte",
+        "category": "Website",
+        "image": "/portfolio/dance-levarte.webp",
+        "url": "https://demo-dance-levarte.vercel.app",
+        "description": "Escola de dança multidisciplinar em Carcavelos desde 2018: ballet clássico, contemporâneo, neoclássico, jazz, dança irlandesa e folklore dos 3 aos 65 anos.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Escola de Dança",
+        "location": "Carcavelos",
+        "reviewCount": "15+",
+        "rating": "4.7"
       }
     ],
     "cta": "Ver Projeto",
@@ -1342,6 +1360,10 @@
         "label": "Limpeza"
       },
       {
+        "id": "dance-school",
+        "label": "Escola de Dança"
+      },
+      {
         "id": "dog-training",
         "label": "Treino Canino"
       },
@@ -1411,7 +1433,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "64 projetos em 30 setores",
+    "projectCount": "65 projetos em 31 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
