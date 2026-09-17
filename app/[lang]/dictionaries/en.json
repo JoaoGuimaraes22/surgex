@@ -344,6 +344,24 @@
         "rating": "4.3"
       },
       {
+        "id": "pool-tomasmonteiro",
+        "name": "Tomás Monteiro · Pool Maintenance",
+        "category": "Website",
+        "image": "/portfolio/pool-tomasmonteiro.webp",
+        "url": "https://demo-pool-tomasmonteiro.vercel.app",
+        "description": "Independent pool maintenance in Cascais, Estoril and Alcabideche.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Pool Maintenance",
+        "location": "Alcabideche (Cascais)",
+        "reviewCount": "11+",
+        "rating": "5"
+      },
+      {
         "id": "locksmith-arranjos",
         "name": "Arranjos e Companhia Algés",
         "category": "Website",
@@ -1434,6 +1452,10 @@
         "label": "Plumbing"
       },
       {
+        "id": "pool-maintenance",
+        "label": "Pool Maintenance"
+      },
+      {
         "id": "pool-spa",
         "label": "Pool & Spa"
       },
@@ -1455,7 +1477,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "66 projects across 32 industries",
+    "projectCount": "67 projects across 33 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
