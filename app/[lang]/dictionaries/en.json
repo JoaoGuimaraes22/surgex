@@ -326,6 +326,24 @@
         "rating": "5"
       },
       {
+        "id": "music-lamire",
+        "name": "Atelier Lá Mi Ré",
+        "category": "Website",
+        "image": "/portfolio/music-lamire.webp",
+        "url": "https://demo-music-lamire.vercel.app",
+        "description": "Violin, piano and music initiation lessons in Agualva-Cacém, Sintra — individual, Mon–Sat 08:00–21:00.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Music School",
+        "location": "Agualva-Cacém (Sintra)",
+        "reviewCount": "",
+        "rating": "5"
+      },
+      {
         "id": "music-simps",
         "name": "Sociedade de Instrução Musical de Porto Salvo",
         "category": "Website",
@@ -1477,7 +1495,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "67 projects across 33 industries",
+    "projectCount": "68 projects across 33 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
