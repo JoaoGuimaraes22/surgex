@@ -254,6 +254,24 @@
         "rating": "5"
       },
       {
+        "id": "condo-domuslider",
+        "name": "Domuslider",
+        "category": "Website",
+        "image": "/portfolio/condo-domuslider.webp",
+        "url": "https://demo-condo-domuslider.vercel.app",
+        "description": "Condominium management in Cascais for more than 25 years: assemblies, accounts, quotas, insurance, maintenance and suppliers.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Condominium Management",
+        "location": "Cascais",
+        "reviewCount": "",
+        "rating": "3"
+      },
+      {
         "id": "dance-levarte",
         "name": "Lev'Arte",
         "category": "Website",
@@ -1360,6 +1378,10 @@
         "label": "Cleaning"
       },
       {
+        "id": "condominium-management",
+        "label": "Condominium Management"
+      },
+      {
         "id": "dance-school",
         "label": "Dance School"
       },
@@ -1433,7 +1455,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "65 projects across 31 industries",
+    "projectCount": "66 projects across 32 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
