@@ -344,6 +344,24 @@
         "rating": "5"
       },
       {
+        "id": "clinic-cmeoeiras",
+        "name": "Centro Médico e Enfermagem de Oeiras",
+        "category": "Website",
+        "image": "/portfolio/clinic-cmeoeiras.webp",
+        "url": "https://demo-clinic-cmeoeiras.vercel.app",
+        "description": "Nursing centre and medical consultations in the centre of Oeiras.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Medical Clinic",
+        "location": "Oeiras",
+        "reviewCount": "9+",
+        "rating": "4.3"
+      },
+      {
         "id": "music-lamire",
         "name": "Atelier Lá Mi Ré",
         "category": "Website",
@@ -1498,6 +1516,10 @@
         "label": "Mechanic"
       },
       {
+        "id": "medical-clinic",
+        "label": "Medical Clinic"
+      },
+      {
         "id": "music-school",
         "label": "Music School"
       },
@@ -1539,7 +1561,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "70 projects across 35 industries",
+    "projectCount": "71 projects across 36 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
