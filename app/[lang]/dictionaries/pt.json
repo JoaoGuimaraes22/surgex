@@ -1413,6 +1413,24 @@
         "rating": "3.7"
       },
       {
+        "id": "stand-autopromocao",
+        "name": "Auto Promoção",
+        "category": "Website",
+        "image": "/portfolio/stand-autopromocao.webp",
+        "url": "https://demo-stand-autopromocao.vercel.app",
+        "description": "Stand familiar de usados em São Domingos de Rana desde 1998.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Stand Automóvel",
+        "location": "São Domingos de Rana",
+        "reviewCount": "93+",
+        "rating": "4.8"
+      },
+      {
         "id": "condo-domuslider",
         "name": "Domuslider",
         "category": "Website",
@@ -1641,7 +1659,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "75 projetos em 38 setores",
+    "projectCount": "76 projetos em 38 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
