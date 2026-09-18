@@ -1431,6 +1431,24 @@
         "rating": "4.8"
       },
       {
+        "id": "limpezas-an",
+        "name": "AN Limpezas",
+        "category": "Website",
+        "image": "/portfolio/limpezas-an.webp",
+        "url": "https://demo-limpezas-an.vercel.app",
+        "description": "Equipa de limpezas em Queluz (Sintra), liderada por Amélia: limpeza pós-obra, limpeza profunda, limpeza regular de casas, vidros e varandas.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Limpeza",
+        "location": "Queluz",
+        "reviewCount": "58+",
+        "rating": "4.8"
+      },
+      {
         "id": "condo-domuslider",
         "name": "Domuslider",
         "category": "Website",
@@ -1659,7 +1677,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "76 projetos em 38 setores",
+    "projectCount": "77 projetos em 38 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

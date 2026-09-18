@@ -290,6 +290,24 @@
         "rating": "4.8"
       },
       {
+        "id": "limpezas-an",
+        "name": "AN Limpezas",
+        "category": "Website",
+        "image": "/portfolio/limpezas-an.webp",
+        "url": "https://demo-limpezas-an.vercel.app",
+        "description": "Women-owned cleaning team in Queluz (Sintra): post-construction cleanups, deep cleans, regular home cleaning, windows and balconies.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Cleaning",
+        "location": "Queluz",
+        "reviewCount": "58+",
+        "rating": "4.8"
+      },
+      {
         "id": "condo-domuslider",
         "name": "Domuslider",
         "category": "Website",
@@ -1659,7 +1677,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "76 projects across 38 industries",
+    "projectCount": "77 projects across 38 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
