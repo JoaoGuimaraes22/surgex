@@ -1395,6 +1395,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-soubella",
+        "name": "SouBella Wellness",
+        "category": "Website",
+        "image": "/portfolio/estetica-soubella.webp",
+        "url": "https://demo-estetica-soubella.vercel.app",
+        "description": "Clínica de estética e bem-estar no centro de Oeiras: depilação a laser díodo tripla onda sem limite de zonas, lipolaser e radiofrequência, massagens de 60 minutos, ritual de rosto e manicure.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Oeiras",
+        "reviewCount": "63+",
+        "rating": "3.7"
+      },
+      {
         "id": "condo-domuslider",
         "name": "Domuslider",
         "category": "Website",
@@ -1623,7 +1641,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "74 projetos em 38 setores",
+    "projectCount": "75 projetos em 38 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

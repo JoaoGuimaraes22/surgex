@@ -254,6 +254,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-soubella",
+        "name": "SouBella Wellness",
+        "category": "Website",
+        "image": "/portfolio/estetica-soubella.webp",
+        "url": "https://demo-estetica-soubella.vercel.app",
+        "description": "Aesthetics and wellness clinic in the centre of Oeiras: triple-wave diode laser hair removal with no zone limit, lipolaser and radiofrequency, 60-minute massages, facial ritual and manicure.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Oeiras",
+        "reviewCount": "63+",
+        "rating": "3.7"
+      },
+      {
         "id": "condo-domuslider",
         "name": "Domuslider",
         "category": "Website",
@@ -1623,7 +1641,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "74 projects across 38 industries",
+    "projectCount": "75 projects across 38 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
