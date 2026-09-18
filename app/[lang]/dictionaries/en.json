@@ -362,6 +362,24 @@
         "rating": "5"
       },
       {
+        "id": "chaves-massama",
+        "name": "Casa das Chaves de Massamá",
+        "category": "Website",
+        "image": "/portfolio/chaves-massama.webp",
+        "url": "https://demo-chaves-massama.vercel.app",
+        "description": "Key shop in Massamá (Queluz, Sintra): key copies while you wait, car and motorcycle keys, gate remotes, door opening, locks and security cylinders.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Locksmith",
+        "location": "Queluz (Sintra)",
+        "reviewCount": "",
+        "rating": "3.9"
+      },
+      {
         "id": "clinic-cmeoeiras",
         "name": "Centro Médico e Enfermagem de Oeiras",
         "category": "Website",
@@ -1548,6 +1566,10 @@
         "label": "Laundry"
       },
       {
+        "id": "locksmith",
+        "label": "Locksmith"
+      },
+      {
         "id": "mechanic",
         "label": "Mechanic"
       },
@@ -1601,7 +1623,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "73 projects across 37 industries",
+    "projectCount": "74 projects across 38 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

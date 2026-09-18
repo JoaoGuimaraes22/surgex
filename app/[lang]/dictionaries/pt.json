@@ -308,6 +308,24 @@
         "rating": "5"
       },
       {
+        "id": "chaves-massama",
+        "name": "Casa das Chaves de Massamá",
+        "category": "Website",
+        "image": "/portfolio/chaves-massama.webp",
+        "url": "https://demo-chaves-massama.vercel.app",
+        "description": "Loja de chaves em Massamá (Queluz, Sintra): cópias de chaves na hora, chaves de carro e mota, comandos de portão, abertura de portas, fechaduras e cilindros de segurança.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Chaves e Fechaduras",
+        "location": "Queluz (Sintra)",
+        "reviewCount": "",
+        "rating": "3.9"
+      },
+      {
         "id": "clinic-cmeoeiras",
         "name": "Centro Médico e Enfermagem de Oeiras",
         "category": "Website",
@@ -1548,6 +1566,10 @@
         "label": "Lavandaria"
       },
       {
+        "id": "locksmith",
+        "label": "Chaves e Fechaduras"
+      },
+      {
         "id": "mechanic",
         "label": "Mecanica"
       },
@@ -1601,7 +1623,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "73 projetos em 37 setores",
+    "projectCount": "74 projetos em 38 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
