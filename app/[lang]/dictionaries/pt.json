@@ -272,6 +272,24 @@
         "rating": "4.1"
       },
       {
+        "id": "jardins-rtjardins",
+        "name": "RT Jardins e Regas",
+        "category": "Website",
+        "image": "/portfolio/jardins-rtjardins.webp",
+        "url": "https://demo-jardins-rtjardins.vercel.app",
+        "description": "Manutenção de jardins, rega automática e manutenção de piscinas em Cascais há mais de 20 anos.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Jardinagem",
+        "location": "Alcabideche (Cascais)",
+        "reviewCount": "10+",
+        "rating": "4.6"
+      },
+      {
         "id": "language-cla",
         "name": "CLA - Language Academy",
         "category": "Website",
@@ -1583,7 +1601,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "72 projetos em 37 setores",
+    "projectCount": "73 projetos em 37 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
