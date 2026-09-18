@@ -308,6 +308,24 @@
         "rating": "5.0"
       },
       {
+        "id": "drogaria-jomarsil",
+        "name": "Jomarsil",
+        "category": "Website",
+        "image": "/portfolio/drogaria-jomarsil.webp",
+        "url": "https://demo-drogaria-jomarsil.vercel.app",
+        "description": "Family-run drogaria and hardware store in Paço de Arcos, Oeiras.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Hardware Store",
+        "location": "Paço de Arcos",
+        "reviewCount": "15+",
+        "rating": "4.1"
+      },
+      {
         "id": "language-cla",
         "name": "CLA - Language Academy",
         "category": "Website",
@@ -1448,6 +1466,10 @@
         "label": "Electrician"
       },
       {
+        "id": "hardware-store",
+        "label": "Hardware Store"
+      },
+      {
         "id": "head-spa",
         "label": "Head Spa"
       },
@@ -1517,7 +1539,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "69 projects across 34 industries",
+    "projectCount": "70 projects across 35 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
