@@ -362,6 +362,24 @@
         "rating": "4.3"
       },
       {
+        "id": "serralharia-ruluminios",
+        "name": "Rulumínios",
+        "category": "Website",
+        "image": "/portfolio/serralharia-ruluminios.webp",
+        "url": "https://demo-serralharia-ruluminios.vercel.app",
+        "description": "Family workshop in Damaia, Amadora, since 1982: gates, railings and stairs in iron and steel, aluminium windows and doors with CLASSE+ energy label, and complete home renovations.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Metalwork & Renovation",
+        "location": "Amadora",
+        "reviewCount": "20+",
+        "rating": "4"
+      },
+      {
         "id": "music-lamire",
         "name": "Atelier Lá Mi Ré",
         "category": "Website",
@@ -1520,6 +1538,10 @@
         "label": "Medical Clinic"
       },
       {
+        "id": "metalwork-renovation",
+        "label": "Metalwork & Renovation"
+      },
+      {
         "id": "music-school",
         "label": "Music School"
       },
@@ -1561,7 +1583,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "71 projects across 36 industries",
+    "projectCount": "72 projects across 37 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

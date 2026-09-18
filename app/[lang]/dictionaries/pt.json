@@ -308,6 +308,24 @@
         "rating": "4.3"
       },
       {
+        "id": "serralharia-ruluminios",
+        "name": "Rulumínios",
+        "category": "Website",
+        "image": "/portfolio/serralharia-ruluminios.webp",
+        "url": "https://demo-serralharia-ruluminios.vercel.app",
+        "description": "Oficina familiar na Damaia, Amadora, desde 1982: portões, gradeamentos e escadas em ferro e aço, janelas e portas em alumínio com etiqueta energética CLASSE+ e remodelações completas.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Serralharia & Remodelação",
+        "location": "Amadora",
+        "reviewCount": "20+",
+        "rating": "4"
+      },
+      {
         "id": "music-lamire",
         "name": "Atelier Lá Mi Ré",
         "category": "Website",
@@ -1520,6 +1538,10 @@
         "label": "Clínica Médica"
       },
       {
+        "id": "metalwork-renovation",
+        "label": "Serralharia & Remodelação"
+      },
+      {
         "id": "music-school",
         "label": "Escola de Música"
       },
@@ -1561,7 +1583,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "71 projetos em 36 setores",
+    "projectCount": "72 projetos em 37 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
