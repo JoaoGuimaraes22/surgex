@@ -236,6 +236,24 @@
     "headline": "Selected Projects.",
     "projects": [
       {
+        "id": "contabilidade-riolgest",
+        "name": "RIOLGEST Business Consulting",
+        "category": "Website",
+        "image": "/portfolio/contabilidade-riolgest.webp",
+        "url": "https://demo-contabilidade-riolgest.vercel.app",
+        "description": "Certified accounting office in Alto da Barra, Oeiras, and the Algarve.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Accounting",
+        "location": "Oeiras",
+        "reviewCount": "14+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-danicabrera",
         "name": "Dani Cabrera Estética",
         "category": "Website",
@@ -1735,7 +1753,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "80 projects across 39 industries",
+    "projectCount": "81 projects across 39 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

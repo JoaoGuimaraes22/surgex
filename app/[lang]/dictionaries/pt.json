@@ -1537,6 +1537,24 @@
         "location": "Carcavelos",
         "reviewCount": "15+",
         "rating": "4.7"
+      },
+      {
+        "id": "contabilidade-riolgest",
+        "name": "RIOLGEST Business Consulting",
+        "category": "Website",
+        "image": "/portfolio/contabilidade-riolgest.webp",
+        "url": "https://demo-contabilidade-riolgest.vercel.app",
+        "description": "Escritório de contabilidade certificada no Alto da Barra, Oeiras, e no Algarve.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Contabilidade",
+        "location": "Oeiras",
+        "reviewCount": "14+",
+        "rating": "5"
       }
     ],
     "cta": "Ver Projeto",
@@ -1735,7 +1753,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "80 projetos em 39 setores",
+    "projectCount": "81 projetos em 39 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
