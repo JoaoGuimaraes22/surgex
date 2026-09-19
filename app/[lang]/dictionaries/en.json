@@ -1503,6 +1503,24 @@
         "rating": "4.8"
       },
       {
+        "id": "residuos-recissequeira",
+        "name": "Recissequeira",
+        "category": "Website",
+        "image": "/portfolio/residuos-recissequeira.webp",
+        "url": "https://demo-residuos-recissequeira.vercel.app",
+        "description": "Scrap metal bought by weight and paid on the spot, end-of-life vehicle dismantling with certificate of destruction, crane-truck collections and site containers.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Waste Management",
+        "location": "Sintra",
+        "reviewCount": "15+",
+        "rating": "4.7"
+      },
+      {
         "id": "caixilharia-fazmeca",
         "name": "Fazmeca",
         "category": "Website",
@@ -1708,12 +1726,16 @@
         "label": "Tattoo"
       },
       {
+        "id": "waste-management",
+        "label": "Waste Management"
+      },
+      {
         "id": "windows-doors",
         "label": "Windows & Doors"
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "79 projects across 38 industries",
+    "projectCount": "80 projects across 39 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

@@ -1359,6 +1359,24 @@
         "rating": "4.8"
       },
       {
+        "id": "residuos-recissequeira",
+        "name": "Recissequeira",
+        "category": "Website",
+        "image": "/portfolio/residuos-recissequeira.webp",
+        "url": "https://demo-residuos-recissequeira.vercel.app",
+        "description": "Sucata comprada ao peso e paga no momento, abate de veículos em fim de vida com Certificado de Destruição, recolhas com camião-grua e contentores para obra.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Gestão de Resíduos",
+        "location": "Sintra",
+        "reviewCount": "15+",
+        "rating": "4.7"
+      },
+      {
         "id": "caixilharia-fazmeca",
         "name": "Fazmeca",
         "category": "Website",
@@ -1708,12 +1726,16 @@
         "label": "Tatuagem"
       },
       {
+        "id": "waste-management",
+        "label": "Gestão de Resíduos"
+      },
+      {
         "id": "windows-doors",
         "label": "Caixilharia"
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "79 projetos em 38 setores",
+    "projectCount": "80 projetos em 39 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
