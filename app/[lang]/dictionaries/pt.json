@@ -1503,6 +1503,24 @@
         "rating": "4.8"
       },
       {
+        "id": "condo-aldimar",
+        "name": "Aldimar",
+        "category": "Website",
+        "image": "/portfolio/condo-aldimar.webp",
+        "url": "https://demo-condo-aldimar.vercel.app",
+        "description": "Administração de condomínios independente na Amadora desde 1976: assembleias, atas, quotas, contas anuais, fundo de reserva, seguros, manutenção e fornecedores.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Administração de Condomínios",
+        "location": "Amadora",
+        "reviewCount": "24+",
+        "rating": "4.5"
+      },
+      {
         "id": "condo-domuslider",
         "name": "Domuslider",
         "category": "Website",
@@ -1771,7 +1789,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "82 projetos em 39 setores",
+    "projectCount": "83 projetos em 39 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

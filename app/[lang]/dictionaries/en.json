@@ -326,6 +326,24 @@
         "rating": "4.8"
       },
       {
+        "id": "condo-aldimar",
+        "name": "Aldimar",
+        "category": "Website",
+        "image": "/portfolio/condo-aldimar.webp",
+        "url": "https://demo-condo-aldimar.vercel.app",
+        "description": "Independent condominium administrator in Amadora since 1976: assemblies, minutes, quotas, annual accounts, reserve fund, insurance, maintenance and suppliers.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Condominium Management",
+        "location": "Amadora",
+        "reviewCount": "24+",
+        "rating": "4.5"
+      },
+      {
         "id": "condo-domuslider",
         "name": "Domuslider",
         "category": "Website",
@@ -1771,7 +1789,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "82 projects across 39 industries",
+    "projectCount": "83 projects across 39 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
