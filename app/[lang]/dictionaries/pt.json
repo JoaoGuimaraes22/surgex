@@ -344,6 +344,24 @@
         "rating": "3.9"
       },
       {
+        "id": "chaves-olivais",
+        "name": "Chaves Dos Olivais",
+        "category": "Website",
+        "image": "/portfolio/chaves-olivais.webp",
+        "url": "https://demo-chaves-olivais.vercel.app",
+        "description": "Loja de chaves na Praça do Norte, Olivais Norte, Lisboa.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Chaves e Fechaduras",
+        "location": "Lisboa",
+        "reviewCount": "85+",
+        "rating": "3.7"
+      },
+      {
         "id": "clinic-cmeoeiras",
         "name": "Centro Médico e Enfermagem de Oeiras",
         "category": "Website",
@@ -1753,7 +1771,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "81 projetos em 39 setores",
+    "projectCount": "82 projetos em 39 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
