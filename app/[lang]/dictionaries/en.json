@@ -326,6 +326,24 @@
         "rating": "3"
       },
       {
+        "id": "danca-ritmosreflexos",
+        "name": "Academia Dança Ritmos e Reflexos",
+        "category": "Website",
+        "image": "/portfolio/danca-ritmosreflexos.webp",
+        "url": "https://demo-danca-ritmosreflexos.vercel.app",
+        "description": "Dance school in Agualva-Cacém since 2014: kizomba, semba, salsa, bachata, belly dance, ballet and hip hop for adults and children.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Dance School",
+        "location": "Agualva-Cacém",
+        "reviewCount": "59+",
+        "rating": "4.8"
+      },
+      {
         "id": "dance-levarte",
         "name": "Lev'Arte",
         "category": "Website",
@@ -1713,7 +1731,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "79 projects across 38 industries",
+    "projectCount": "80 projects across 38 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
