@@ -614,6 +614,24 @@
         "rating": "5"
       },
       {
+        "id": "poledance-academia",
+        "name": "Academia de Pole Dance",
+        "category": "Website",
+        "image": "/portfolio/poledance-academia.webp",
+        "url": "https://demo-poledance-academia.vercel.app",
+        "description": "Lisbon's original pole dance studio, since 2007.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Pole Dance Studio",
+        "location": "Lisboa",
+        "reviewCount": "191+",
+        "rating": "5"
+      },
+      {
         "id": "pool-tomasmonteiro",
         "name": "Tomás Monteiro · Pool Maintenance",
         "category": "Website",
@@ -1760,6 +1778,10 @@
         "label": "Plumbing"
       },
       {
+        "id": "pole-dance-studio",
+        "label": "Pole Dance Studio"
+      },
+      {
         "id": "pool-maintenance",
         "label": "Pool Maintenance"
       },
@@ -1789,7 +1811,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "83 projects across 39 industries",
+    "projectCount": "84 projects across 40 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
