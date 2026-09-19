@@ -398,24 +398,6 @@
         "rating": "4.1"
       },
       {
-        "id": "clima-refritec",
-        "name": "Refritec",
-        "category": "Website",
-        "image": "/portfolio/clima-refritec.webp",
-        "url": "https://demo-clima-refritec.vercel.app",
-        "description": "Refritec installs, maintains and repairs air conditioning in Algueirão-Mem Martins, Sintra and the Lisbon west line.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Multi-language"
-        ],
-        "niche": "HVAC",
-        "location": "Algueirão-Mem Martins",
-        "reviewCount": "10+",
-        "rating": "4.6"
-      },
-      {
         "id": "climatizacao-refritec",
         "name": "Refritec",
         "category": "Website",
@@ -1731,7 +1713,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "80 projects across 38 industries",
+    "projectCount": "79 projects across 38 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
