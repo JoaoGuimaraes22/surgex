@@ -290,6 +290,24 @@
         "rating": "4.6"
       },
       {
+        "id": "avac-sotecniar",
+        "name": "Sotecniar",
+        "category": "Website",
+        "image": "/portfolio/avac-sotecniar.webp",
+        "url": "https://demo-avac-sotecniar.vercel.app",
+        "description": "A Sotecniar projeta, instala e mantém sistemas de ventilação, extração, desenfumagem e ar condicionado para empresas e habitações na Amadora e Grande Lisboa.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "AVAC",
+        "location": "Amadora",
+        "reviewCount": "8+",
+        "rating": "4"
+      },
+      {
         "id": "jardins-rtjardins",
         "name": "RT Jardins e Regas",
         "category": "Website",
@@ -1811,7 +1829,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "84 projetos em 40 setores",
+    "projectCount": "85 projetos em 40 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

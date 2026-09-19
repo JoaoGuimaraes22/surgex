@@ -452,6 +452,24 @@
         "rating": "4.6"
       },
       {
+        "id": "avac-sotecniar",
+        "name": "Sotecniar",
+        "category": "Website",
+        "image": "/portfolio/avac-sotecniar.webp",
+        "url": "https://demo-avac-sotecniar.vercel.app",
+        "description": "Sotecniar designs, installs and maintains ventilation, extraction, smoke-extraction and air-conditioning systems for businesses and homes in Amadora and Greater Lisbon.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "HVAC",
+        "location": "Amadora",
+        "reviewCount": "8+",
+        "rating": "4"
+      },
+      {
         "id": "jardins-rtjardins",
         "name": "RT Jardins e Regas",
         "category": "Website",
@@ -1811,7 +1829,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "84 projects across 40 industries",
+    "projectCount": "85 projects across 40 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
