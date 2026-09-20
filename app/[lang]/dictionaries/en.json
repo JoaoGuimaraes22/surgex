@@ -524,6 +524,24 @@
         "rating": "5"
       },
       {
+        "id": "lavandaria-splashwash",
+        "name": "Lavandaria Splashwash",
+        "category": "Website",
+        "image": "/portfolio/lavandaria-splashwash.webp",
+        "url": "https://demo-lavandaria-splashwash.vercel.app",
+        "description": "Attended self-service laundromat in Paço de Arcos, Oeiras — Miele Professional washers and dryers, wash & fold, ironing through lockers, sofas, Wi-Fi and parking at the door.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Laundry",
+        "location": "Paço de Arcos",
+        "reviewCount": "73+",
+        "rating": "4.4"
+      },
+      {
         "id": "chaves-massama",
         "name": "Casa das Chaves de Massamá",
         "category": "Website",
@@ -1847,7 +1865,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "86 projects across 40 industries",
+    "projectCount": "87 projects across 40 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

@@ -344,6 +344,24 @@
         "rating": "5"
       },
       {
+        "id": "lavandaria-splashwash",
+        "name": "Lavandaria Splashwash",
+        "category": "Website",
+        "image": "/portfolio/lavandaria-splashwash.webp",
+        "url": "https://demo-lavandaria-splashwash.vercel.app",
+        "description": "Lavandaria self-service com atendimento em Paço de Arcos, Oeiras — máquinas Miele Professional, lavar e dobrar, engomadoria por cacifos, sofás, Wi-Fi e estacionamento à porta.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Lavandaria",
+        "location": "Paço de Arcos",
+        "reviewCount": "73+",
+        "rating": "4.4"
+      },
+      {
         "id": "chaves-massama",
         "name": "Casa das Chaves de Massamá",
         "category": "Website",
@@ -1847,7 +1865,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "86 projetos em 40 setores",
+    "projectCount": "87 projetos em 40 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
