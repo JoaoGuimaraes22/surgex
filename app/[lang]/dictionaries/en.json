@@ -326,6 +326,24 @@
         "rating": "4.8"
       },
       {
+        "id": "stand-medcar",
+        "name": "MED CAR",
+        "category": "Website",
+        "image": "/portfolio/stand-medcar.webp",
+        "url": "https://demo-stand-medcar.vercel.app",
+        "description": "MED CAR buys and sells used cars in Lumiar, Lisboa.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Car Dealership",
+        "location": "Lisboa",
+        "reviewCount": "21+",
+        "rating": "5"
+      },
+      {
         "id": "limpezas-an",
         "name": "AN Limpezas",
         "category": "Website",
@@ -1865,7 +1883,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "87 projects across 40 industries",
+    "projectCount": "88 projects across 40 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
