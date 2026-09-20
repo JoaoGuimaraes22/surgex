@@ -254,6 +254,24 @@
         "rating": "5"
       },
       {
+        "id": "contabilidade-romadis",
+        "name": "Romadis",
+        "category": "Website",
+        "image": "/portfolio/contabilidade-romadis.webp",
+        "url": "https://demo-contabilidade-romadis.vercel.app",
+        "description": "Romadis – Apoio à Gestão de Empresas: accounting, tax, payroll and business insurance for small companies and freelancers in Rio de Mouro and Sintra.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Accounting",
+        "location": "Rio de Mouro (Sintra)",
+        "reviewCount": "19+",
+        "rating": "4.2"
+      },
+      {
         "id": "estetica-danicabrera",
         "name": "Dani Cabrera Estética",
         "category": "Website",
@@ -1829,7 +1847,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "85 projects across 40 industries",
+    "projectCount": "86 projects across 40 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

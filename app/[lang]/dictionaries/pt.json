@@ -1627,6 +1627,24 @@
         "location": "Oeiras",
         "reviewCount": "14+",
         "rating": "5"
+      },
+      {
+        "id": "contabilidade-romadis",
+        "name": "Romadis",
+        "category": "Website",
+        "image": "/portfolio/contabilidade-romadis.webp",
+        "url": "https://demo-contabilidade-romadis.vercel.app",
+        "description": "Romadis – Apoio à Gestão de Empresas: contabilidade, fiscalidade, salários e seguros para pequenas empresas e trabalhadores independentes em Rio de Mouro e Sintra.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Contabilidade",
+        "location": "Rio de Mouro (Sintra)",
+        "reviewCount": "19+",
+        "rating": "4.2"
       }
     ],
     "cta": "Ver Projeto",
@@ -1829,7 +1847,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "85 projetos em 40 setores",
+    "projectCount": "86 projetos em 40 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
