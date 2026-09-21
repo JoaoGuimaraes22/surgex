@@ -542,6 +542,24 @@
         "rating": "5"
       },
       {
+        "id": "alojamento-salamstays",
+        "name": "Salam Stays",
+        "category": "Website",
+        "image": "/portfolio/alojamento-salamstays.webp",
+        "url": "https://demo-alojamento-salamstays.vercel.app",
+        "description": "A Salam Stays gere casas de férias para proprietários em Lisboa, Ericeira e Algarve: anúncio, preços, limpeza, check-in presencial e um extrato transparente.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Gestão de Alojamento Local",
+        "location": "Lisboa",
+        "reviewCount": "20+",
+        "rating": "5"
+      },
+      {
         "id": "locksmith-arranjos",
         "name": "Arranjos e Companhia Algés",
         "category": "Website",
@@ -1916,6 +1934,10 @@
         "label": "Piscina & Spa"
       },
       {
+        "id": "property-management",
+        "label": "Gestão de Alojamento Local"
+      },
+      {
         "id": "real-estate",
         "label": "Imobiliária"
       },
@@ -1937,7 +1959,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "91 projetos em 40 setores",
+    "projectCount": "92 projetos em 41 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

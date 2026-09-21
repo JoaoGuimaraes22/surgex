@@ -776,6 +776,24 @@
         "rating": "5"
       },
       {
+        "id": "alojamento-salamstays",
+        "name": "Salam Stays",
+        "category": "Website",
+        "image": "/portfolio/alojamento-salamstays.webp",
+        "url": "https://demo-alojamento-salamstays.vercel.app",
+        "description": "Salam Stays manages holiday homes for owners in Lisboa, Ericeira and the Algarve: listing, pricing, cleaning, in-person check-in and a transparent statement.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Property Management",
+        "location": "Lisboa",
+        "reviewCount": "20+",
+        "rating": "5"
+      },
+      {
         "id": "locksmith-arranjos",
         "name": "Arranjos e Companhia Algés",
         "category": "Website",
@@ -1916,6 +1934,10 @@
         "label": "Pool & Spa"
       },
       {
+        "id": "property-management",
+        "label": "Property Management"
+      },
+      {
         "id": "real-estate",
         "label": "Real Estate"
       },
@@ -1937,7 +1959,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "91 projects across 40 industries",
+    "projectCount": "92 projects across 41 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
