@@ -1503,6 +1503,24 @@
         "rating": "5"
       },
       {
+        "id": "hifu-marciasilvano",
+        "name": "Márcia Silvano HIFU EXPERT",
+        "category": "Website",
+        "image": "/portfolio/hifu-marciasilvano.webp",
+        "url": "https://demo-hifu-marciasilvano.vercel.app",
+        "description": "Márcia Silvano é especialista em HIFU e massoterapeuta no Lumiar, Lisboa: HIFU para rosto, pescoço e corpo, tratamentos corporais, massagem terapêutica e drenagem linfática método Renata França.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Lisboa",
+        "reviewCount": "108+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-soubella",
         "name": "SouBella Wellness",
         "category": "Website",
@@ -1883,7 +1901,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "88 projetos em 40 setores",
+    "projectCount": "89 projetos em 40 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
