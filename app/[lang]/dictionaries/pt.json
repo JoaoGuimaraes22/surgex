@@ -1611,6 +1611,24 @@
         "rating": "4.8"
       },
       {
+        "id": "limpezas-jm",
+        "name": "JM Limpezas",
+        "category": "Website",
+        "image": "/portfolio/limpezas-jm.webp",
+        "url": "https://demo-limpezas-jm.vercel.app",
+        "description": "Equipa de limpezas na Amadora: limpeza regular de zonas comuns de condomínios, casas, escritórios, garagens e pós-obra na Amadora e em Lisboa.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Limpezas",
+        "location": "Amadora",
+        "reviewCount": "10+",
+        "rating": "5"
+      },
+      {
         "id": "condo-aldimar",
         "name": "Aldimar",
         "category": "Website",
@@ -1919,7 +1937,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "90 projetos em 40 setores",
+    "projectCount": "91 projetos em 40 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

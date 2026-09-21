@@ -380,6 +380,24 @@
         "rating": "4.8"
       },
       {
+        "id": "limpezas-jm",
+        "name": "JM Limpezas",
+        "category": "Website",
+        "image": "/portfolio/limpezas-jm.webp",
+        "url": "https://demo-limpezas-jm.vercel.app",
+        "description": "Cleaning team based in Amadora: regular cleaning of condominium common areas, homes, offices, garages and post-construction cleanups across Amadora and Lisbon.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Cleaning",
+        "location": "Amadora",
+        "reviewCount": "10+",
+        "rating": "5"
+      },
+      {
         "id": "condo-aldimar",
         "name": "Aldimar",
         "category": "Website",
@@ -1919,7 +1937,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "90 projects across 40 industries",
+    "projectCount": "91 projects across 40 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
