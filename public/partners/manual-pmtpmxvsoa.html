@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>Manual do Parceiro SurgeX</title>
+<link rel="icon" href="/favicon.ico">
+<style>
+  :root {
+    --bg: #f3f5f7; --surface: #ffffff; --ink: #14181c; --muted: #5b6670; --line: #d9dfe4;
+    --accent: #0d8f7d; --accent-ink: #ffffff; --accent-soft: #dff5f0; --mono-bg: #eef1f4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0f1215; --surface: #181d22; --ink: #eef2f4; --muted: #9aa6b0; --line: #2a3138;
+      --accent: #5eead4; --accent-ink: #0f1215; --accent-soft: #14332e; --mono-bg: #10151a;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0f1215; --surface: #181d22; --ink: #eef2f4; --muted: #9aa6b0; --line: #2a3138;
+    --accent: #5eead4; --accent-ink: #0f1215; --accent-soft: #14332e; --mono-bg: #10151a;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; font-size: 16px; line-height: 1.55; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 16px 72px; }
+  header.top { padding: 20px 0 8px; }
+  header.top h1 { font-size: 26px; font-weight: 800; letter-spacing: -0.01em; margin: 0 0 4px; }
+  header.top p { color: var(--muted); margin: 0; font-size: 14px; }
+  header.top a { color: var(--accent); }
+  nav.tabs { position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 10px 0; margin: 0 -16px; padding-inline: 16px; display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; border-bottom: 1px solid var(--line); }
+  nav.tabs::-webkit-scrollbar { display: none; }
+  nav.tabs a { flex: 0 0 auto; text-decoration: none; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 6px 12px; font-size: 14px; font-weight: 600; }
+  nav.tabs a.on { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+  nav.tabs a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  section { padding: 28px 0; border-bottom: 1px solid var(--line); scroll-margin-top: 60px; }
+  section:last-of-type { border-bottom: 0; }
+  h1.sec { font-size: 24px; font-weight: 800; letter-spacing: -0.01em; margin: 0 0 14px; }
+  section h2 { font-size: 17px; font-weight: 800; margin: 22px 0 8px; }
+  section h3 { font-size: 13px; font-weight: 700; margin: 16px 0 6px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
+  p { margin: 0 0 12px; }
+  a { color: var(--accent); }
+  ul, ol { padding-left: 22px; margin: 0 0 12px; }
+  li { margin: 4px 0; }
+  li p { margin: 0; }
+  blockquote { margin: 0 0 12px; padding: 12px 14px; background: var(--accent-soft); border-left: 3px solid var(--accent); border-radius: 0 10px 10px 0; font-size: 17px; }
+  blockquote p { margin: 0; }
+  code { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 0.92em; background: var(--mono-bg); padding: 1px 6px; border-radius: 6px; }
+  .scroll { overflow-x: auto; margin: 0 0 14px; -webkit-overflow-scrolling: touch; }
+  table { border-collapse: collapse; width: 100%; font-size: 14px; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+  th { font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); }
+  .scroll.wide table { min-width: 640px; }
+  td:first-child { min-width: 120px; }
+  .copy { position: relative; margin: 0 0 14px; }
+  .copy pre { margin: 0; background: var(--mono-bg); border: 1px solid var(--line); border-radius: 10px; padding: 12px 12px 12px; padding-right: 88px; white-space: pre-wrap; word-break: break-word; font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 13.5px; line-height: 1.5; }
+  .copy pre code { background: none; padding: 0; font-size: inherit; }
+  .copy .btn { position: absolute; top: 8px; right: 8px; }
+  .btn { appearance: none; border: 0; background: var(--accent); color: var(--accent-ink); border-radius: 999px; padding: 6px 12px; font-size: 13px; font-weight: 700; cursor: pointer; font-family: inherit; }
+  .btn:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+  ul.check { list-style: none; padding: 0; }
+  ul.check li { padding: 0; }
+  ul.check label { display: flex; gap: 10px; align-items: flex-start; padding: 8px 10px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; }
+  ul.check input { width: 20px; height: 20px; margin: 1px 0 0; accent-color: var(--accent); flex: 0 0 auto; }
+  .toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%); background: var(--ink); color: var(--bg); padding: 8px 14px; border-radius: 999px; font-size: 14px; z-index: 9; }
+  footer { color: var(--muted); font-size: 13px; padding-top: 20px; }
+  @media print { nav.tabs, .btn { display: none; } section { break-inside: avoid; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1>Manual do Parceiro SurgeX</h1>
+    <p>Tudo num sítio só, para o telemóvel. Versão 2026-09-21 · <a href="https://wa.me/351915109181">Sebastião · WhatsApp</a></p>
+  </header>
+  <nav class="tabs" aria-label="Secções"><a href="#inicio">Início</a><a href="#oferta">Oferta</a><a href="#cliente">Cliente</a><a href="#folha">Folha</a><a href="#sessao">Sessão</a><a href="#guiao">Guião</a><a href="#nunca">Nunca dizer</a><a href="#objecoes">Objeções</a><a href="#mensagens">Mensagens</a><a href="#formacao">Formação</a><a href="#regras">Regras</a><a href="#checklist">Checklist</a></nav>
+<section id="inicio"><h1 class="sec">Início</h1><p>Este é o manual do parceiro SurgeX: tudo o que precisas para vender, num sítio só, no telemóvel. Lê-o de fio a fio uma vez (30 minutos). Depois, no dia a dia, vives em três secções: <strong>Sessão</strong>, <strong>Guião</strong> e <strong>Objeções</strong>.</p>
+<p>Versão 2026-09-21 · dúvidas ao Sebastião: <a href="https://wa.me/351915109181">WhatsApp</a> · <a href="mailto:contact@surgex.pt">contact@surgex.pt</a></p>
+<h2>Todos os dias</h2>
+<div class="scroll"><table>
+<thead>
+<tr>
+<th>O quê</th>
+<th>Onde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>A folha SurgeX CRM</strong> — quem liga a quem, registar resultados</td>
+<td><a href="https://docs.google.com/spreadsheets/d/1cYgpWfBZ8TwD3TiKS6YZ_-Wzma3Sz-1JdfiZtQkAIqk/edit">Abrir a folha</a> (app Google Sheets)</td>
+</tr>
+<tr>
+<td><strong>Este manual</strong> — guarda-o nos favoritos do telemóvel</td>
+<td>esta página, sem login</td>
+</tr>
+<tr>
+<td>Sebastião — WhatsApp</td>
+<td><a href="https://wa.me/351915109181">wa.me/351915109181</a></td>
+</tr>
+<tr>
+<td>Sebastião — email</td>
+<td>contact@surgex.pt</td>
+</tr>
+<tr>
+<td>A pasta com o acordo e o folheto</td>
+<td><a href="https://drive.google.com/drive/folders/1krjDBPunyPfWqFslmCFBcActbt35he5k">SurgeX Partners no Drive</a></td>
+</tr>
+</tbody>
+</table></div>
+<h2>Para mostrar aos negócios</h2>
+<div class="scroll"><table>
+<thead>
+<tr>
+<th>O quê</th>
+<th>Onde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Site da SurgeX</td>
+<td><a href="https://surgex.pt/pt">surgex.pt/pt</a></td>
+</tr>
+<tr>
+<td>Projetos feitos (prova)</td>
+<td><a href="https://www.surgex.pt/pt/projects">surgex.pt/pt/projects</a></td>
+</tr>
+<tr>
+<td>Serviços e preços</td>
+<td><a href="https://www.surgex.pt/pt/services">surgex.pt/pt/services</a></td>
+</tr>
+<tr>
+<td>A demo de cada negócio</td>
+<td>coluna <strong>Demo</strong> da folha (o link termina em <code>/pt</code>)</td>
+</tr>
+</tbody>
+</table></div>
+<h2>Os três números</h2>
+<p><strong>500 €</strong> setup (250 + 250) · <strong>35 / 65 / 100 €</strong> por mês · <strong>sem fidelização</strong></p>
+<h2>As cinco etiquetas de resultado</h2>
+<p><code>sem-resposta</code> · <code>balcão</code> · <code>dono-não</code> · <code>dono-quer-link</code> · <code>reunião</code></p>
+<h2>A SurgeX em 30 segundos</h2>
+<p>A SurgeX é a agência de <strong>marketing digital com IA para negócios locais</strong>. Pomos o negócio online e trazemos-lhe clientes: website, Google Maps, SEO local, atendimento automático, redes sociais e campanhas. Estamos em Lisboa e trabalhamos 100 % online em todo o Portugal. Mais de 60 projetos entregues, 48 horas de entrega média.</p>
+<p>A IA é o motor, não o produto. É por causa da IA que um só engenheiro (o Sebastião, que constrói tudo pessoalmente) faz o trabalho de uma agência inteira, 10× mais rápido e a uma fração do preço. <strong>Nunca vendemos "IA"</strong> — vendemos clientes novos para o negócio deles.</p>
+<p><strong>A vantagem injusta:</strong> para a maioria dos negócios da lista, <strong>o site já está feito</strong>, com o nome deles, online, antes de qualquer conversa. Não vendemos uma promessa, mostramos um produto acabado.</p></section><section id="oferta"><h1 class="sec">A oferta</h1><p>Cada cliente paga <strong>um setup único + um plano mensal</strong>. Nada se vende à peça. Estes são os únicos números que existem.</p>
+<h2>Setup — 500 € (uma vez)</h2>
+<p>Metade no arranque (250 €), metade quando o cliente aprova a versão final (250 €).</p>
+<ul>
+<li>Website premium bilingue (PT/EN), otimizado para o Google, entregue em 48 horas</li>
+<li>Listagens criadas ou reclamadas em Google Maps / Google Business Profile, Apple Maps, TripAdvisor e Bing — nome, morada, horário, fotos e categorias iguais em todo o lado</li>
+<li>Domínio e email configurados</li>
+<li>Primeira otimização SEO (páginas, palavras-chave locais, perfil Google)</li>
+</ul>
+<h2>Plano mensal — começa no mês seguinte à aprovação, sem fidelização</h2>
+<div class="scroll wide"><table>
+<thead>
+<tr>
+<th>Plano</th>
+<th>Preço</th>
+<th>O que tem</th>
+<th>Para quem</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Presença</strong></td>
+<td><strong>35 €/mês</strong></td>
+<td>Alojamento, segurança e atualizações · listagens mantidas atualizadas · pequenas alterações de conteúdo · suporte</td>
+<td>Quem só precisa de estar online e certo no Google Maps</td>
+</tr>
+<tr>
+<td><strong>Crescimento</strong> (recomendado)</td>
+<td><strong>65 €/mês</strong></td>
+<td>Presença + SEO local contínuo (aparecer no Google Maps e nas respostas do ChatGPT / Google AI) + chatbot de IA no site + botão de WhatsApp com horário + pedidos automáticos de avaliação Google + follow-ups automáticos a pedidos</td>
+<td>Quem vive de pesquisas no Google e não pode perder pedidos: oficinas, clínicas, salões, canalizadores, eletricistas</td>
+</tr>
+<tr>
+<td><strong>Completo</strong></td>
+<td><strong>100 €/mês</strong></td>
+<td>Crescimento + redes sociais (calendário mensal, posts e imagens, publicação automática em Instagram/Facebook) + campanhas, prospeção e newsletters + relatório mensal de resultados</td>
+<td>Quem vive de visibilidade e clientes repetidos: restaurantes, ginásios, lojas, quem tem lista de clientes</td>
+</tr>
+</tbody>
+</table></div>
+<h2>Regras que não se dobram</h2>
+<ul>
+<li>Apresenta sempre os três planos. Aponta para o <strong>Crescimento</strong> (é o do meio, é o que queremos que escolham).</li>
+<li><strong>Sem fidelização.</strong> Mudam de plano ou cancelam quando quiserem, com um mês de aviso.</li>
+<li><strong>Sem meses grátis, sem descontos.</strong> O preço já é a promoção. Se alguém pedir desconto, a resposta é "o plano Presença" — ou passa ao Sebastião. Só o Sebastião pode acordar condições especiais.</li>
+<li>Anúncios (Google/Meta), quando fizer sentido, são sempre orçamento do cliente, à parte.</li>
+<li>Nunca digas 450 €, 25 €, 50 €, 150 €, "3 meses grátis", "a partir de". Não existem.</li>
+</ul>
+<h2>O que acontece depois do sim</h2>
+<ol>
+<li><strong>Ouvir</strong> — 15 minutos com o Sebastião sobre o negócio e de onde vêm os clientes hoje</li>
+<li><strong>Lançar</strong> — site personalizado + listagens em 48 horas; o cliente aprova a versão final</li>
+<li><strong>Ativar</strong> — chatbot, WhatsApp, SEO, redes, campanhas conforme o plano</li>
+<li><strong>Crescer</strong> — relatório mensal; escala-se o que funciona</li>
+</ol>
+<p>Fatura emitida pela SurgeX (isenta de IVA, art. 53.º — os valores são finais). Contrato simples, sem letras pequenas, assinado com o Sebastião.</p></section><section id="cliente"><h1 class="sec">A quem vendemos</h1><h2>Cliente ideal</h2>
+<p>Negócio local, pequeno, com dono presente, que <strong>ganha dinheiro mas tem uma presença online má</strong>:</p>
+<ul>
+<li><strong>Não tem site</strong>, ou só tem uma página de Facebook/Instagram → o pitch mais forte, a demo fala por si</li>
+<li>Tem site mas está <strong>em baixo, lento, antigo, não funciona no telemóvel</strong></li>
+<li>Boas avaliações no Google mas ninguém as vê fora do Google</li>
+<li>Está a <strong>contratar, a abrir segunda loja, tem carrinhas na rua</strong> → tem dinheiro para investir</li>
+</ul>
+<p>Nichos que funcionam: oficinas e bate-chapas, detailing, eletricistas, canalizadores, ar condicionado, lavandarias, salões e barbearias, tatuagem, clínicas dentárias, veterinários, fisioterapia, ginásios, treino de cães, contabilistas, jardinagem, limpezas, remoção de entulho.</p>
+<p>Nichos a evitar por agora: cafés, pastelarias e restaurantes pequenos (margem baixa, dono nunca está, decisão lenta) — só se o dono for teu conhecido.</p>
+<h2>Nunca contactar</h2>
+<ul>
+<li>Cadeias e franchisings (a decisão não é local)</li>
+<li>Negócios a fechar ou sem atividade</li>
+<li>Quem já disse não de forma clara — uma vez chega</li>
+<li><strong>Mr. Big Evolution (Carcavelos)</strong> — nunca, em circunstância alguma</li>
+<li>Qualquer linha da folha com estado <strong>CLIENTE</strong> ou <strong>REJEITADO</strong></li>
+</ul>
+<h2>Duas formas de participar</h2>
+<p><strong>A · Indicação (a mais valiosa).</strong> Conheces o dono de um negócio — o teu barbeiro, a oficina onde vais, o ginásio, o pai de um amigo. Falas-lhe da SurgeX, pedes autorização para o Sebastião lhe mandar uma mensagem (ou apresentas pelo WhatsApp num grupo de três). Se ainda não há demo para esse negócio, o Sebastião constrói uma em 48 horas e o dono vê o site dele antes de decidir. Uma indicação quente vale por dez chamadas frias.</p>
+<p><strong>B · Lista.</strong> Na folha partilhada estão os negócios com demo já feita (telefone, link do site, histórico, janela horária). Pões o teu nome em «Dono» nas linhas que vais trabalhar, e ligas, visitas ou mandas WhatsApp com o guião. O objetivo de cada contacto é <strong>um de três</strong>: o dono quer o link, o dono quer uma reunião, ou o dono disse não. Depois registas o resultado na folha.</p>
+<p>Em qualquer das formas, <strong>quem fecha o negócio, faz o contrato e recebe o dinheiro é sempre a SurgeX</strong>. Tu abres a porta e levas a conversa até ao "quero ver / quero falar". O Sebastião entra na reunião e no fecho — ou fechas tu com ele ao telefone, se te sentires à vontade.</p></section><section id="folha"><h1 class="sec">A folha e o LEAD</h1><p>Todos trabalhamos na mesma folha Google: <strong>SurgeX CRM</strong> (<a href="https://docs.google.com/spreadsheets/d/1cYgpWfBZ8TwD3TiKS6YZ_-Wzma3Sz-1JdfiZtQkAIqk/edit">abrir</a>). Tem os negócios todos, com telefone, WhatsApp, <strong>Contacto (negócio)</strong> — a pessoa por quem perguntar, quando já a conhecemos —, site atual, link da demo, estado, último contacto, <strong>Janela</strong> (a que horas ligar) e <strong>quem é o dono de cada linha</strong>. É assim que ninguém liga duas vezes à mesma pessoa.</p>
+<h2>Antes de ligar</h2>
+<p>Põe o teu nome na coluna <strong>Dono</strong>. Só ligas a linhas com o teu nome ou sem dono. Uma linha com o nome de outro é de outro — não se toca. O Sebastião trabalha as linhas sem dono.</p>
+<h2>Depois de cada contacto (30 segundos, na mesma linha)</h2>
+<ul>
+<li><strong>Resultado</strong> — uma das cinco etiquetas (em baixo)</li>
+<li><strong>Canal</strong> — telefone · whatsapp · visita · email</li>
+<li><strong>Notas</strong> — uma linha</li>
+<li><strong>Próximo passo</strong> + <strong>Data próximo passo</strong> (AAAA-MM-DD), se houver</li>
+<li>Ficaste a saber quem manda? <strong>Nome do contacto</strong> + <strong>Cargo</strong> (dono · gerente · funcionário) — da próxima vez perguntas por essa pessoa, e o Sebastião escreve-lhe pelo nome</li>
+<li>Disseram «só em outubro» ou «já tenho quem faça»? <strong>Prazo decisão</strong> / <strong>Objeção</strong></li>
+</ul>
+<p>O sistema recolhe isso a cada 15 minutos (quando o portátil do Sebastião está ligado), guarda no separador <strong>Histórico</strong>, atualiza «Último contacto», «Contacto (negócio)» e «Estado», e limpa as colunas que preencheste. As colunas A–P e Z são do sistema; não se editam. Regista logo a seguir a cada contacto, não ao fim do dia — é a folha que diz aos outros que aquele negócio já foi tocado.</p>
+<h2>As cinco etiquetas de Resultado</h2>
+<p>Sempre exatamente uma:</p>
+<ul>
+<li><code>sem-resposta</code> — não atenderam / não responderam</li>
+<li><code>balcão</code> — falei com quem não decide; fica o horário do dono ou o WhatsApp</li>
+<li><code>dono-não</code> — o dono disse que não</li>
+<li><code>dono-quer-link</code> — o dono quer ver o site (o mais comum quando corre bem)</li>
+<li><code>reunião</code> — o dono quer falar; data e hora marcadas</li>
+</ul>
+<p>A partir daí cada lead tem um dono claro: <strong>o teu contacto continua teu</strong> — os follow-ups do dia 3 e 7 fazes tu, a reunião marca-se com os dois, o fecho é do Sebastião. Nunca há dois de nós a mandar mensagens à mesma pessoa.</p>
+<h2>Um negócio que não está na folha: a mensagem LEAD</h2>
+<p>Uma indicação tua ainda não tem linha. Mandas ao Sebastião esta mensagem por WhatsApp e ele cria a linha:</p>
+<div class="copy"><button class="btn" type="button">Copiar</button><pre><code>LEAD
+Negócio:
+Cidade / nicho:
+Pessoa (nome, é o dono?):
+Contacto (telemóvel / WhatsApp / email):
+Site atual: sem site / só redes / tem site (link)
+Como foi: (uma linha)
+Resultado: sem-resposta · balcão · dono-não · dono-quer-link · reunião
+Próximo passo + data:
+</code></pre></div>
+<p>Exemplo:</p>
+<div class="copy"><button class="btn" type="button">Copiar</button><pre><code>LEAD
+Negócio: Auto Mesquita
+Cidade / nicho: Alverca · oficina
+Pessoa: Sr. Mesquita, dono
+Contacto: 21 958 4468 (fixo) · WhatsApp 91x xxx xxx (deu-me)
+Site atual: sem site
+Como foi: atendeu ele, gostou da ideia, quer ver no telemóvel à noite
+Resultado: dono-quer-link
+Próximo passo + data: mando o link hoje, ligo quinta 17/09 às 9h30
+</code></pre></div></section><section id="sessao"><h1 class="sec">A sessão de chamadas</h1><p>Uma <strong>janela horária</strong> (60 a 120 minutos), <strong>10 a 15 chamadas</strong>, tudo registado na folha. Não se liga "quando dá": liga-se na janela em que aquele tipo de negócio atende o telefone com calma. Uma sessão por janela; duas janelas num dia já é um dia cheio. O Sebastião faz exatamente a mesma sessão, na mesma folha.</p>
+<h2>As janelas</h2>
+<div class="scroll wide"><table>
+<thead>
+<tr>
+<th>Janela</th>
+<th>Horas</th>
+<th>Quem atende</th>
+<th>Porquê</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>A</strong></td>
+<td>09:00–10:30</td>
+<td>oficinas, eletricistas, canalizadores, detailing, lavandarias, limpezas, contabilistas</td>
+<td>abrem cedo, sossego antes dos trabalhos do dia</td>
+</tr>
+<tr>
+<td><strong>B</strong></td>
+<td>10:30–12:30</td>
+<td>dentistas, veterinários, fisio, quiroprática, ginásios, treino de cães, pet shops</td>
+<td>receção aberta e calma</td>
+</tr>
+<tr>
+<td><strong>C</strong></td>
+<td>14:00–15:30</td>
+<td>salões, barbearias, tatuagem, piercing, estética</td>
+<td>pausa depois do almoço; manhãs e fins de tarde estão cheios</td>
+</tr>
+<tr>
+<td><strong>D</strong></td>
+<td>15:00–17:30</td>
+<td>restaurantes e bares</td>
+<td>entre o almoço e o jantar; incontactáveis 12–15h e depois das 19h</td>
+</tr>
+</tbody>
+</table></div>
+<p>Cada linha da folha já diz a sua janela na coluna <strong>Janela</strong>. Não tens de adivinhar.</p>
+<h2>1 · Antes de ligar (5 minutos)</h2>
+<ol>
+<li><strong>Escolhe a janela</strong> pela hora a que estás. Abre a folha.</li>
+<li><strong>Filtra e ordena</strong>: Janela = a tua · Dono = o teu nome <strong>ou vazio</strong> · Estado ≠ CLIENTE / REJEITADO. Ordena por «Último contacto», vazios primeiro. É essa a tua lista, de cima para baixo.</li>
+<li><strong>Reserva as linhas</strong>: põe o teu nome em <strong>Dono</strong> nas 10–15 linhas que vais ligar agora. É isto que impede outro de ligar ao mesmo negócio. Se no fim não ligaste a alguma, tira o nome.</li>
+<li><strong>Salta</strong> linhas com «Último contacto» de hoje, com <code>dono-não</code>, ou com «Data (registada)» no futuro — já têm um próximo passo com dono.</li>
+<li><strong>Prepara-te tu</strong>: este manual aberto no Guião, guião lido <strong>três vezes em voz alta</strong> (ler ao vivo nota-se na voz), bloco de notas com o formato LEAD, WhatsApp aberto para mandar links na hora.</li>
+</ol>
+<h2>2 · Cada chamada (1 minuto antes, 30 segundos depois)</h2>
+<p><strong>Antes</strong> — só isto, não mais de um minuto: abre a <strong>Demo</strong> (coluna Demo) no telemóvel, é o que vais descrever; lê <strong>Contacto (negócio)</strong> (por quem perguntar), <strong>Site atual</strong> (o argumento: sem site / só redes / tem site) e <strong>Último contacto</strong> (se já falámos com eles, diz-lo no início: «falámos em abril»).</p>
+<p><strong>Durante</strong> — o Guião: abrir (7 segundos) → balcão ou dono → gancho → valor → contas → prova → fecho suave. Balcão nunca ouve o pitch: sai com o horário do dono ou um WhatsApp para o link.</p>
+<p><strong>Depois</strong> — na mesma linha: <strong>Resultado</strong> + <strong>Canal</strong> + <strong>Notas</strong> + <strong>Próximo passo</strong> + <strong>Data</strong>. Soubeste quem manda? <strong>Nome do contacto</strong> + <strong>Cargo</strong>.</p>
+<div class="scroll"><table>
+<thead>
+<tr>
+<th>Resultado</th>
+<th>O que fazes a seguir</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>sem-resposta</code></td>
+<td>Nada. Próximo passo vazio — a linha volta à tua lista noutro dia ou noutra janela. Não insistas no mesmo dia.</td>
+</tr>
+<tr>
+<td><code>balcão</code></td>
+<td>Próximo passo: «ligar às [hora], perguntar por [nome]» + Data. Nome do contacto + Cargo = funcionário. Se te deram um WhatsApp para o dono, manda o link (Mensagens · 4) e Próximo passo «follow-up dia 3».</td>
+</tr>
+<tr>
+<td><code>dono-não</code></td>
+<td>Notas com a razão em duas palavras (vai para «Objeção»). Não se volta a ligar. Um não é um não.</td>
+</tr>
+<tr>
+<td><code>dono-quer-link</code></td>
+<td><strong>Manda o link por WhatsApp na hora</strong> (Mensagens · 4, com o teu nome). Próximo passo «follow-up dia 3», Data = daqui a 3 dias. Se não responder: dia 7 (Mensagens · 6) e pára.</td>
+</tr>
+<tr>
+<td><code>reunião</code></td>
+<td>Data e hora nas Notas e no Próximo passo, <strong>e mensagem LEAD ao Sebastião por WhatsApp na hora</strong> — a reunião marca-se com os dois.</td>
+</tr>
+</tbody>
+</table></div>
+<h2>3 · Debrief de 60 segundos</h2>
+<p>Depois de cada chamada em que alguém atendeu (tudo menos <code>sem-resposta</code>), três linhas no bloco de notas:</p>
+<ol>
+<li>O que pegou (uma frase deles ou tua)</li>
+<li>Onde se perdeu</li>
+<li>O que faço diferente na próxima</li>
+</ol>
+<p>Não se gravam chamadas (é crime sem consentimento). O debrief é a gravação.</p>
+<h2>4 · A cada 10–15 chamadas (5 minutos)</h2>
+<ol>
+<li>Conta as etiquetas da sessão.</li>
+<li>Relê os debriefs. Muda <strong>uma</strong> linha do guião — uma, não três.</li>
+<li>Manda ao Sebastião o resumo por WhatsApp:</li>
+</ol>
+<div class="copy"><button class="btn" type="button">Copiar</button><pre><code>Sessão A · 21/09 · 12 chamadas
+5 sem-resposta · 4 balcão · 1 dono-não · 2 dono-quer-link · 0 reunião
+Mudei: [a linha que mudaste e porquê]
+</code></pre></div>
+<p>É com isto que o guião melhora para toda a gente.</p>
+<h2>5 · Fim da sessão (2 minutos)</h2>
+<ul class="check">
+<li><label><input type="checkbox" id="sessao-1"><span>Todas as linhas a que liguei têm <strong>Resultado</strong>.</span></label></li>
+<li><label><input type="checkbox" id="sessao-2"><span>Nenhuma linha com o meu nome em <strong>Dono</strong> ficou por ligar — tirei o nome das que não vou ligar esta semana.</span></label></li>
+<li><label><input type="checkbox" id="sessao-3"><span>Todos os <code>dono-quer-link</code> receberam o link (WhatsApp enviado, não "vou mandar logo").</span></label></li>
+<li><label><input type="checkbox" id="sessao-4"><span>Follow-ups de sessões anteriores feitos: linhas com «Data (registada)» = hoje.</span></label></li>
+<li><label><input type="checkbox" id="sessao-5"><span>Resumo mandado ao Sebastião.</span></label></li>
+</ul>
+<h2>Metas realistas</h2>
+<p>Por sessão de 12 chamadas: 5–6 <code>sem-resposta</code>, 3–4 <code>balcão</code>, 1 <code>dono-não</code>, <strong>2 <code>dono-quer-link</code></strong>. Uma <code>reunião</code> por semana é bom. 30 contactos da lista costumam dar 3 a 5 <code>dono-quer-link</code>, 1 a 2 reuniões e 1 cliente; uma indicação quente fecha uma em três. Se ao fim de 30 chamadas estás longe disto, não é falha tua: é o guião ou a lista, e ajusta-se na chamada com o Sebastião.</p></section><section id="guiao"><h1 class="sec">Guião</h1><h2>Os 30 segundos (a memorizar — serve para telefone, balcão e WhatsApp)</h2>
+<blockquote>
+<p>"Já criámos um site novo para a [negócio] — ver é grátis, sem compromisso. É um site moderno e rápido, feito para aparecer no Google quando alguém procura [nicho] em [cidade]. Está pronto, é só ativar. Posso mandar-lhe o link?"</p>
+</blockquote>
+<p>Três frases, uma pergunta. Nada mais até a pessoa reagir.</p>
+<h2>Telefone (7 segundos + 30 segundos)</h2>
+<ol>
+<li><strong>Abrir</strong> — "Olá, bom dia! Falo com o responsável da [negócio]? É o [teu nome], da SurgeX."</li>
+<li><strong>Balcão</strong> (se não é o dono) — "Ah, então é consigo que devo falar depois? É que fizemos uma coisa para a [negócio] e queria mostrar ao dono. A que horas costuma estar? Ou posso deixar-lhe o link por WhatsApp?" <strong>Nunca faças o pitch a quem não decide.</strong></li>
+<li><strong>Gancho</strong> — "Tenho só um minuto? É que já criámos um site novo para o vosso negócio — ver é grátis, sem compromisso — e queria mostrar-lhe."</li>
+<li><strong>Valor</strong> — "É um site moderno e rápido, otimizado para aparecer no Google quando procuram [nicho] em [cidade]. Está pronto, é só ativar."</li>
+<li><strong>Contas</strong> — "Pense no que vale um cliente para si. Com ferramentas de inteligência artificial conseguimos baixar o custo de um site premium, já configurado no Google, para 500 euros — a mesma qualidade, a uma fração do preço. Quanto gasta um cliente numa [nicho] como a sua? Basta o site trazer-lhe 2 ou 3 clientes e fica pago em poucos meses."</li>
+<li><strong>Prova</strong> — "Já fizemos isto para mais de 60 negócios na zona de Lisboa — barbearias, clínicas, oficinas. Posso enviar-lhe o link para ver?"</li>
+<li><strong>Fecho suave</strong> — "Qual é o melhor WhatsApp ou email para lhe enviar? Se gostar, falamos; se não, não há problema nenhum."</li>
+</ol>
+<p>Lê o guião em voz alta três vezes antes da primeira chamada. Ler ao vivo nota-se na voz. Pausas, energia, sorriso — como dizes vale mais do que o que dizes. A que horas ligar a cada nicho: <strong>Sessão · As janelas</strong>.</p>
+<h2>Visita ao balcão (a mais eficaz)</h2>
+<ul>
+<li>Vai com o link da demo aberto no telemóvel <strong>antes</strong> de entrar</li>
+<li>"Bom dia, sou o [teu nome], da SurgeX. Trabalhamos com presença online para negócios aqui da zona. Reparei que não tinham site / que o site podia ser melhor — e fizemos um para vocês. Posso mostrar? São 30 segundos."</li>
+<li>Mostra o site no telemóvel, deixa a pessoa mexer. Não fales por cima.</li>
+<li>"Foi possível fazer isto antes de qualquer compromisso porque usamos IA — é por isso que o preço é uma fração do habitual."</li>
+<li>Se não é o dono: pede o horário do dono ou o WhatsApp para deixar o link. Deixa o folheto.</li>
+<li>Nunca pressiones. "Pensem nisso, o site fica disponível. Deixo aqui o meu contacto."</li>
+</ul>
+<h2>WhatsApp</h2>
+<p>Modelos prontos em <strong>Mensagens</strong> (com o teu nome). Regras: primeira mensagem curta, link no meio, uma pergunta no fim. Um follow-up ao dia 3, outro ao dia 7, depois pára — não se insiste.</p>
+<h2>Indicação a um conhecido</h2>
+<p>Não precisas de guião, precisas de honestidade:</p>
+<blockquote>
+<p>"Um amigo meu tem uma agência que faz sites e Google para negócios locais, com IA — por isso é barato (500 € o site e a partir de 35 €/mês, sem fidelização). Fizeram mais de 60. Se quiseres, ele faz-te uma demo do teu site em dois dias, sem compromisso, e vês se gostas. Posso dar-lhe o teu número?"</p>
+</blockquote>
+<p>Se disser sim: manda ao Sebastião a mensagem LEAD (<strong>A folha e o LEAD</strong>). Se preferires, cria um grupo de WhatsApp com os três e apresenta em duas linhas (Mensagens · 3).</p></section><section id="nunca"><h1 class="sec">O que nunca dizer</h1><div class="scroll"><table>
+<thead>
+<tr>
+<th>Nunca</th>
+<th>Diz antes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>"O site é grátis"</td>
+<td>"<strong>Ver</strong> é grátis / sem compromisso." O site custa 500 €. Dizer "grátis" e depois "500 €" destrói a confiança que acabaste de ganhar.</td>
+</tr>
+<tr>
+<td>"Garantimos primeiro lugar no Google" / "vai ter X clientes"</td>
+<td>"Feito para aparecer no Google quando procuram [nicho] em [cidade]." Nunca prometemos resultados.</td>
+</tr>
+<tr>
+<td>Descontos, meses grátis, "a partir de"</td>
+<td>Os preços da Oferta. Condições especiais só o Sebastião.</td>
+</tr>
+<tr>
+<td>"Usamos o ChatGPT / o Claude / o Vercel / ..."</td>
+<td>"Feito com IA, por isso custa uma fração." O cliente compra clientes, não tecnologia.</td>
+</tr>
+<tr>
+<td>"Temos uma equipa / um escritório"</td>
+<td>"É o Sebastião, engenheiro, que constrói cada projeto pessoalmente." É verdade e vende.</td>
+</tr>
+<tr>
+<td>"O site é vosso, levam-no para onde quiserem"</td>
+<td>"O site fica no ar enquanto houver um plano ativo." Se insistirem em propriedade, passa ao Sebastião.</td>
+</tr>
+<tr>
+<td>Assinar, prometer prazos diferentes de 48h, aceitar pagamentos</td>
+<td>Tu não assinas nem recebes nada. Contrato e fatura são com a SurgeX.</td>
+</tr>
+<tr>
+<td>Gravar chamadas</td>
+<td>É crime em Portugal sem consentimento. Toma notas depois.</td>
+</tr>
+</tbody>
+</table></div></section><section id="objecoes"><h1 class="sec">Objeções</h1><div class="scroll"><table>
+<thead>
+<tr>
+<th>Dizem</th>
+<th>Respondes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Já tenho um site.</strong></td>
+<td>"Ótimo! Posso dar uma vista de olhos e dizer-lhe com honestidade se o novo traz alguma vantagem. Sem compromisso — comparar não custa nada."</td>
+</tr>
+<tr>
+<td><strong>Não tenho tempo agora.</strong></td>
+<td>"Sem problema, demoro 30 segundos. Posso enviar-lhe o link por WhatsApp e vê quando puder?"</td>
+</tr>
+<tr>
+<td><strong>Quanto custa?</strong></td>
+<td>"São 500 euros de arranque — metade agora, metade quando aprovar a versão final — com o site, o domínio e o Google Maps tratados. Depois, desde 35 euros por mês para manter tudo online e atualizado; se quiser aparecer melhor no Google e ter atendimento automático, são 65; com redes sociais e campanhas, 100. Sem fidelização. Faça as contas: quantos clientes novos são 500 euros para si? Dois, três? Fica pago em poucos meses."</td>
+</tr>
+<tr>
+<td><strong>É caro.</strong></td>
+<td>"Numa agência tradicional isto custa milhares por mês. Com IA fazemos o mesmo trabalho 10x mais rápido — por isso são 500 euros de arranque e 35 por mês. E não há fidelização: se não valer a pena, cancela."</td>
+</tr>
+<tr>
+<td><strong>Envie por email.</strong></td>
+<td>"Claro, qual é o email? E posso ligar-lhe na próxima semana para saber o que achou?"</td>
+</tr>
+<tr>
+<td><strong>Não estou interessado.</strong></td>
+<td>"Compreendo perfeitamente. Posso só deixar-lhe o link? Não perde nada em ver, e se não gostar esquece."</td>
+</tr>
+<tr>
+<td><strong>Já trabalho com alguém.</strong></td>
+<td>"Boa! Não quero substituir ninguém. Mas se quiser uma segunda opinião gratuita sobre a vossa presença online, com todo o gosto."</td>
+</tr>
+<tr>
+<td><strong>Os clientes vêm todos por recomendação.</strong></td>
+<td>"Exatamente por isso — quando alguém vos recomenda, a primeira coisa que a pessoa faz é procurar no Google. O que encontra hoje?"</td>
+</tr>
+<tr>
+<td><strong>O meu sobrinho faz-me isso.</strong></td>
+<td>"Perfeito, então já tem quem ponha o conteúdo. A diferença aqui é o que continua depois: Google Maps, avaliações, atendimento automático, tudo a funcionar sozinho por 35 a 65 por mês. Quer ver a demo na mesma?"</td>
+</tr>
+<tr>
+<td><strong>Tenho de falar com o meu sócio / a minha mulher.</strong></td>
+<td>"Claro. Envio-lhe o link para mostrarem os dois — é mais fácil decidir a olhar para o site. Ligo-lhe quinta?"</td>
+</tr>
+<tr>
+<td><strong>Isto é IA? Não confio.</strong></td>
+<td>"A IA é só o que nos deixa fazer em dois dias o que demorava um mês. Quem revê e afina cada site é um engenheiro, à mão. Veja a demo e diga-me se parece feita por um robô."</td>
+</tr>
+<tr>
+<td><strong>Preciso de pensar.</strong></td>
+<td>"Com certeza. O que é que o ajudava a decidir — ver mais exemplos, falar com o Sebastião 10 minutos, ou perceber melhor os planos?"</td>
+</tr>
+</tbody>
+</table></div>
+<p>Se não sabes a resposta a alguma coisa: <strong>"Boa pergunta — não te quero dizer disparates. O Sebastião responde-te hoje."</strong> E passas a pergunta. Vale mais do que inventar.</p></section><section id="mensagens"><h1 class="sec">Mensagens</h1><p>Modelos prontos a copiar. Substitui <code>{{MEU_NOME}}</code>, <code>{{NEGOCIO}}</code>, <code>{{NOME}}</code>, <code>{{LINK}}</code> (o link da demo, sempre com <code>/pt</code> no fim), <code>{{CIDADE}}</code>, <code>{{NICHO}}</code>. <code>{{SAUDACAO}}</code> = "Bom dia" (até às 12h) · "Boa tarde" (12h–19h). Nunca mandes mensagens depois das 19h nem ao domingo. Tom: curto, direto, sem "grátis", uma pergunta no fim.</p>
+<h2>1 · Primeiro contacto — WhatsApp (modo Lista, negócio com demo)</h2>
+<h3>Direto</h3>
+<div class="copy"><button class="btn" type="button">Copiar</button><pre><code>{{SAUDACAO}} {{NOME}}! Criámos um site para o {{NEGOCIO}}: {{LINK}}
+
+Sou o {{MEU_NOME}}, parceiro da SurgeX — trabalhamos com sites e Google para negócios locais aqui na zona. Reparei no {{NEGOCIO}} e achei que merecia um site à altura, por isso fizemos-vos um. Ver é sem compromisso.
+
+Se quiser ver com calma, podemos falar 10 minutos esta semana. Quando é melhor?
+
+{{MEU_NOME}}, parceiro SurgeX
+www.surgex.pt/pt
+</code></pre></div>
+<h3>Elogio (quando têm boas avaliações)</h3>
+<div class="copy"><button class="btn" type="button">Copiar</button><pre><code>{{SAUDACAO}}! Criámos um site para o {{NEGOCIO}}: {{LINK}}
+
+Sou o {{MEU_NOME}}, parceiro da SurgeX. As vossas {{REVIEWS}} avaliações com {{AVALIACAO}} no Google chamaram-me a atenção — e foi por isso que vos escolhemos. Trabalhamos com negócios locais que merecem uma presença online à altura do que fazem.
+
+Se quiser ver com calma, podemos falar 10 minutos esta semana. Quando é melhor?
+
+{{MEU_NOME}}, parceiro SurgeX
+www.surgex.pt/pt
+</code></pre></div>
+<h3>Local (és da zona)</h3>
+<div class="copy"><button class="btn" type="button">Copiar</button><pre><code>{{SAUDACAO}}! Criámos um site para o {{NEGOCIO}}: {{LINK}}
+
+Sou o {{MEU_NOME}}, também aqui de {{CIDADE}}. Ando a ajudar negócios cá da zona a ter uma presença online melhor, com a SurgeX, e o vosso chamou-me a atenção.
+
+Se quiser ver com calma, falamos 10 minutos esta semana. Quando é melhor?
+
+{{MEU_NOME}}, parceiro SurgeX
+www.surgex.pt/pt
+</code></pre></div>
+<h2>2 · Primeiro contacto — Email (modo Lista)</h2>
+<div class="copy"><button class="btn" type="button">Copiar</button><pre><code>Assunto: Criámos um site para o {{NEGOCIO}} — sem compromisso
+
+{{SAUDACAO}} {{NOME}},
+
+Sou o {{MEU_NOME}}, parceiro da SurgeX, uma agência de marketing digital com IA que trabalha com presença online para negócios locais aqui na zona.
+
+Reparei no {{NEGOCIO}} e achei que o vosso negócio merecia um site à altura. Por isso, construímos um para vocês: {{LINK}}
+
+Ver é sem compromisso nenhum — o vosso negócio chamou-nos a atenção e quisemos mostrar o que conseguimos fazer.
+
+Se quiserem ajustar alguma coisa, respondam a este email ou podemos falar 10 minutos por telefone.
+
+Cumprimentos,
+{{MEU_NOME}}
+Parceiro SurgeX · www.surgex.pt
+
+P.S. Usamos IA para acelerar o processo — é por isso que conseguimos construir o site antes de qualquer compromisso. Funciona perfeitamente no telemóvel e pode ficar online em 48 horas.
+</code></pre></div>
+<h2>3 · Indicação — a um conhecido (modo Indicação)</h2>
+<h3>Ao dono que conheces</h3>
+<div class="copy"><button class="btn" type="button">Copiar</button><pre><code>Olá {{NOME}}! Um amigo meu, o Sebastião, tem uma agência (SurgeX) que faz sites e Google para negócios locais — com IA, por isso é barato: 500 € o site com tudo, depois desde 35 €/mês, sem fidelização. Já fizeram mais de 60.
+
+Lembrei-me de ti por causa do {{NEGOCIO}}. Se quiseres, ele faz-te uma demo do teu site em dois dias, sem compromisso, e vês se gostas. Posso dar-lhe o teu número?
+</code></pre></div>
+<h3>Apresentação num grupo de três (depois do sim)</h3>
+<div class="copy"><button class="btn" type="button">Copiar</button><pre><code>Olá aos dois! Sebastião, este é o {{NOME}}, do {{NEGOCIO}} em {{CIDADE}} — {{NICHO}}, {{SITE_ATUAL}}. {{NOME}}, o Sebastião é o engenheiro da SurgeX de que te falei. Deixo-vos à conversa 🙂
+</code></pre></div>
+<h2>4 · Depois de «dono-quer-link» — envio do site</h2>
+<div class="copy"><button class="btn" type="button">Copiar</button><pre><code>Olá {{NOME}}, é o {{MEU_NOME}}, da SurgeX — como combinado, fica aqui o site que criámos para o {{NEGOCIO}}: {{LINK}}
+
+Veja com calma no telemóvel. Se houver alguma coisa que mudava — textos, fotos, cores — diga-me, ajusta-se tudo. Se gostar, o Sebastião (o engenheiro que constrói os sites) fala consigo 15 minutos para o pôr online no vosso domínio.
+
+{{MEU_NOME}}, parceiro SurgeX
+</code></pre></div>
+<h2>5 · Follow-up — Dia 3</h2>
+<div class="copy"><button class="btn" type="button">Copiar</button><pre><code>Olá {{NOME}}! Só para garantir que viu — o site que criámos para o {{NEGOCIO}} continua aqui: {{LINK}}
+
+Sem stress se não for boa altura. Fica disponível.
+
+{{MEU_NOME}}, parceiro SurgeX
+</code></pre></div>
+<h2>6 · Follow-up — Dia 7 (último)</h2>
+<div class="copy"><button class="btn" type="button">Copiar</button><pre><code>Olá {{NOME}}! Último contacto da minha parte — já temos mais de 60 negócios connosco, e o site do {{NEGOCIO}} fica no servidor até ao fim do mês. Depois é retirado para dar lugar a outros projetos.
+
+Se quiserem pô-lo online, é só dizer. Se não for a altura certa, sem problema — fica o meu contacto para o futuro.
+
+{{MEU_NOME}}, parceiro SurgeX
+</code></pre></div>
+<p>Depois do dia 7: pára. Regista <code>sem-resposta</code> na folha e passa ao próximo.</p>
+<h2>7 · Reunião marcada — confirmação</h2>
+<div class="copy"><button class="btn" type="button">Copiar</button><pre><code>Olá {{NOME}}, confirmado: {{DIA}} às {{HORA}}, {{ONDE_OU_VIDEOCHAMADA}}, com o Sebastião da SurgeX. Leve as dúvidas todas — a conversa é sobre o vosso negócio e de onde vêm os clientes hoje, não é uma apresentação. Até lá!
+
+{{MEU_NOME}}, parceiro SurgeX
+</code></pre></div>
+<h2>8 · A mensagem LEAD ao Sebastião</h2>
+<p>Só para negócios que não estão na folha (indicações tuas). O formato e um exemplo estão em <strong>A folha e o LEAD</strong>.</p></section><section id="formacao"><h1 class="sec">Formação</h1><p>A sessão de 45 minutos que o Sebastião faz com cada parceiro novo antes do primeiro contacto (videochamada ou café). Pré-requisito: ler este manual de fio a fio. Depois da sessão: a Semana 1.</p>
+<h2>A sessão (45 min)</h2>
+<h3>0–5 · Porque é que isto funciona</h3>
+<ul>
+<li>O site já existe com o nome deles. Não vendemos uma promessa, mostramos um produto.</li>
+<li>A IA é o motor: é por isso que custa 500 € e não 3 000 €. Nunca se vende "IA".</li>
+<li>O parceiro abre portas e leva até ao "quero ver / quero falar". O Sebastião fecha.</li>
+</ul>
+<h3>5–15 · A oferta de cor</h3>
+<p>Sebastião pergunta, parceiro responde sem olhar:</p>
+<ol>
+<li>Quanto custa o setup e como se paga? → <em>500 €, metade no arranque, metade na aprovação</em></li>
+<li>O que tem o setup? → <em>site bilingue em 48h, listagens Google Maps/Apple/TripAdvisor/Bing, domínio e email, primeira otimização SEO</em></li>
+<li>Os três planos e preços? → <em>Presença 35, Crescimento 65, Completo 100</em></li>
+<li>Qual apontamos? → <em>Crescimento</em></li>
+<li>Fidelização? Meses grátis? Descontos? → <em>Não, não, não — só o Sebastião</em></li>
+<li>O site é grátis? → <em>Ver é grátis. O site custa 500 €.</em></li>
+<li>Quem paga os anúncios? → <em>O cliente, à parte</em></li>
+<li>O que fazes com uma pergunta a que não sabes responder? → <em>Passo ao Sebastião hoje</em></li>
+</ol>
+<p>Corrigir na hora. Repetir as que falharem.</p>
+<h3>15–20 · Ver três demos</h3>
+<p>Abrir no telemóvel do parceiro três sites da lista dele (um sem site, um só-redes, um com site próprio fraco). Navegar: hero, serviços, avaliações Google, botão WhatsApp, PT/EN, velocidade. O parceiro tem de conseguir dizer "isto aqui é o que os vossos clientes veem quando vos procuram" a apontar.</p>
+<h3>20–35 · Role-play (Sebastião faz de dono)</h3>
+<p>Três rondas, 3–4 minutos cada. O parceiro usa o Guião. Depois de cada ronda, 1 minuto de feedback: <strong>uma coisa que pegou, uma coisa a mudar</strong>.</p>
+<p><strong>Ronda 1 — o balcão.</strong> Atende a funcionária. "O patrão não está." Objetivo: sair com o horário do dono ou um WhatsApp para o link, sem fazer o pitch à funcionária.</p>
+<p><strong>Ronda 2 — o dono apressado.</strong> "Não tenho tempo, quanto é que isso custa?" Objetivo: resposta de preço completa em 20 segundos (500 · 35/65/100 · sem fidelização · "faça as contas") e fecho suave para o link.</p>
+<p><strong>Ronda 3 — o cético.</strong> "Já tenho site, o meu sobrinho faz, isto é IA, não confio." Objetivo: não discutir; oferecer segunda opinião honesta + demo; terminar com "posso mandar o link?".</p>
+<p>Variantes se houver tempo: "envie por email" (pedir email + marcar dia para ligar), "tenho de falar com o sócio" (mandar link para os dois, ligar quinta).</p>
+<h3>35–40 · O sistema</h3>
+<ul>
+<li>Abrir a folha <strong>SurgeX CRM</strong> no telemóvel do parceiro (app Google Sheets, conta já partilhada). Mostrar: <strong>Janela</strong>, Dono, Resultado, Canal, Notas, Próximo passo, Data; o separador Guia; o Histórico. Fazer ao vivo o filtro de uma sessão: Janela = a de agora, Dono = vazio, ordenar por Último contacto.</li>
+<li>Registar ao vivo a ronda 2: Dono = o parceiro, Resultado = <code>dono-quer-link</code>, Notas, Data. Explicar que o sistema recolhe e limpa a cada 15 minutos.</li>
+<li>Mensagem LEAD: só para negócios fora da folha (indicações). Preencher uma ao vivo.</li>
+<li>As cinco etiquetas: <code>sem-resposta · balcão · dono-não · dono-quer-link · reunião</code>.</li>
+<li>Dia 3 / dia 7 e depois pára.</li>
+<li>Quem manda mensagem a quem: o contacto do parceiro é do parceiro; o Sebastião só entra quando o parceiro passa o LEAD. Nunca dois a escrever à mesma pessoa.</li>
+</ul>
+<h3>40–45 · Regras e comissão</h3>
+<ul>
+<li><strong>Nunca dizer</strong> e <strong>Regras e comissão</strong> em voz alta, linha a linha.</li>
+<li>Comissão confirmada em números e como se paga.</li>
+<li>Entregar: o acesso à folha (já partilhado com o email dele), o folheto (se for fazer visitas), o número do Sebastião guardado como "Sebastião SurgeX".</li>
+<li>Marcar a chamada de 10 minutos ao fim dos primeiros 10–15 contactos.</li>
+</ul>
+<h2>Semana 1 do parceiro</h2>
+<div class="scroll"><table>
+<thead>
+<tr>
+<th>Dia</th>
+<th>O quê</th>
+<th>Objetivo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Sessão de 45 min. Guardar formato LEAD nas notas. Ler o guião 3× em voz alta. Ler a <strong>Sessão</strong> deste manual.</td>
+<td>Pronto</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>3 indicações</strong>: os três donos que conheces melhor (Mensagens · 3). 5 chamadas da lista na janela certa.</td>
+<td>1 sim para dar o número · 5 LEAD enviados</td>
+</tr>
+<tr>
+<td>3</td>
+<td>10 chamadas. Follow-up dia 3 aos de dia 1–2 que não responderam.</td>
+<td>2 <code>dono-quer-link</code></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Visitas: 4–6 negócios da lista na mesma zona, 2 horas, folheto na mão.</td>
+<td>1 <code>reunião</code> ou 3 <code>dono-quer-link</code></td>
+</tr>
+<tr>
+<td>5</td>
+<td>10 chamadas. Chamada de 10 min com o Sebastião: contar etiquetas, mudar uma linha do guião.</td>
+<td>Ajuste feito</td>
+</tr>
+<tr>
+<td>6 (sáb. manhã)</td>
+<td>Follow-ups dia 7. Visitas a salões/barbearias (sábado de manhã é bom).</td>
+<td>Lista limpa</td>
+</tr>
+</tbody>
+</table></div>
+<p>Fim da semana: ~30 contactos, 3–5 <code>dono-quer-link</code>, 1–2 reuniões marcadas. Se não estiveres perto disto, não é falha tua — é o guião ou a lista, e ajusta-se na chamada de sexta.</p>
+<h2>Teste rápido (10 perguntas, responder sem consultar)</h2>
+<ol>
+<li>Quanto custa o setup e em que momentos se paga?</li>
+<li>Nomeia as quatro plataformas onde criamos as listagens.</li>
+<li>Preço e três coisas que o Crescimento tem e a Presença não.</li>
+<li>O que dizes quando atende alguém que não é o dono?</li>
+<li>"O site é grátis?" — a resposta certa.</li>
+<li>Um dono pede 10 % de desconto. O que fazes?</li>
+<li>Podes gravar a chamada para aprender? Porquê?</li>
+<li>Quantos follow-ups fazes e em que dias?</li>
+<li>As cinco etiquetas de resultado.</li>
+<li>Um dono pergunta "e se eu cancelar, o site é meu?" — o que dizes?</li>
+</ol>
+<p><strong>Respostas:</strong> 1) 500 €, 250 no arranque + 250 na aprovação da versão final · 2) Google Maps/GBP, Apple Maps, TripAdvisor, Bing · 3) 65 €; SEO local contínuo, chatbot IA + botão WhatsApp, pedidos de avaliação + follow-ups automáticos · 4) Peço o horário do dono ou um WhatsApp para deixar o link; não faço o pitch · 5) "Ver é grátis, sem compromisso. O site custa 500 €." · 6) Não dou; ofereço o plano Presença ou passo ao Sebastião · 7) Não, é crime sem consentimento; notas depois · 8) Dois: dia 3 e dia 7, depois pára · 9) sem-resposta, balcão, dono-não, dono-quer-link, reunião · 10) "O site fica no ar enquanto houver um plano ativo" e passo ao Sebastião se quiserem detalhes.</p></section><section id="regras"><h1 class="sec">Regras e comissão</h1><h2>Regras do jogo</h2>
+<ul>
+<li><strong>Só contactos profissionais públicos</strong> (telefone e email do negócio, redes do negócio). Nunca números pessoais que descobriste por outra via.</li>
+<li><strong>Horário:</strong> 9h–19h, segunda a sábado. Nunca domingos.</li>
+<li><strong>Um não é um não.</strong> Sai da conversa com simpatia, regista <code>dono-não</code>, não voltas a contactar.</li>
+<li><strong>Uma pessoa, um canal de cada vez.</strong> Não mandes email, WhatsApp e Instagram ao mesmo negócio no mesmo dia.</li>
+<li><strong>Não gravas chamadas.</strong> Tomas notas depois (60 segundos: o que pegou, o que falhou).</li>
+<li><strong>Não assinas nada, não recebes dinheiro, não prometes o que não está na Oferta.</strong></li>
+<li><strong>Não falas dos outros clientes pelo nome</strong> sem autorização do Sebastião. "Mais de 60 negócios na zona de Lisboa" chega; os projetos públicos estão em surgex.pt/pt/projects.</li>
+<li><strong>Apresentas-te sempre como parceiro da SurgeX</strong>, com o teu nome verdadeiro.</li>
+</ul>
+<h2>A tua comissão</h2>
+<p><strong>400 € por cliente que assina</strong> — 80 % do setup de 500 €. Tanto faz se foi uma indicação a um conhecido ou uma venda da lista: o que conta é o cliente assinar e pagar o setup.</p>
+<ul>
+<li>Pago por transferência até 10 dias depois de o cliente pagar o setup na totalidade (o 2.º pagamento, na aprovação da versão final), contra recibo.</li>
+<li>As mensalidades (35 / 65 / 100 €) ficam na SurgeX — são o que paga o alojamento, o SEO, o chatbot e o trabalho de todos os meses.</li>
+<li>Se um cliente vier por duas vias, conta a primeira mensagem LEAD registada. Negócios já em conversa com o Sebastião à data do LEAD não contam.</li>
+<li>Se o setup for descontado por decisão da SurgeX, a comissão é 80 % do valor efetivamente recebido.</li>
+<li>Comissões são rendimento: emites recibo de ato isolado (ou fatura-recibo, se tiveres atividade aberta).</li>
+</ul>
+<h2>O acordo</h2>
+<p>Uma página, assinada com o Sebastião antes do primeiro contacto (<code>acordo-parceiro.docx</code>, na pasta do Drive). Diz o que está aqui: apresentas-te com o teu nome, usas só a oferta e as regras deste manual, não vinculas a SurgeX (não assinas, não faturas, não recebes, não prometes resultados), registas cada contacto no mesmo dia, só usas contactos profissionais públicos, tratas a lista e os preços como confidenciais. Sem exclusividade, sem mínimos, sem horário; qualquer das partes termina quando quiser, por mensagem, e as comissões de clientes já assinados continuam a ser devidas.</p></section><section id="checklist"><h1 class="sec">Antes do primeiro contacto</h1><ul class="check">
+<li><label><input type="checkbox" id="checklist-1"><span>Li este manual de fio a fio e <strong>Nunca dizer</strong> duas vezes</span></label></li>
+<li><label><input type="checkbox" id="checklist-2"><span>Abri três demos da minha lista no telemóvel e naveguei — sei o que estou a mostrar</span></label></li>
+<li><label><input type="checkbox" id="checklist-3"><span>Li o guião de telefone em voz alta três vezes</span></label></li>
+<li><label><input type="checkbox" id="checklist-4"><span>Tenho o número do Sebastião guardado e o formato LEAD no bloco de notas do telemóvel</span></label></li>
+<li><label><input type="checkbox" id="checklist-5"><span>Abri a folha SurgeX CRM no telemóvel (app Google Sheets), vi as colunas «Janela», «Dono» e «Resultado», e li o separador «Guia»</span></label></li>
+<li><label><input type="checkbox" id="checklist-6"><span>Escolhi as minhas primeiras linhas na folha (Dono = eu), ou os três conhecidos a quem vou falar primeiro</span></label></li>
+<li><label><input type="checkbox" id="checklist-7"><span>Sei os três preços de cor: <strong>500 · 35 / 65 / 100 · sem fidelização</strong></span></label></li>
+<li><label><input type="checkbox" id="checklist-8"><span>Fiz a sessão de 45 minutos com o Sebastião</span></label></li>
+</ul>
+<p>Boa sorte. O site já está feito — só tens de o mostrar.</p></section>
+  <footer>Gerado a partir de <code>surgex-ops/partners/hub/</code> por <code>scripts/build-partner-hub.py</code>. Se algo está errado, diz ao Sebastião — corrige-se na fonte, não aqui.</footer>
+</div>
+<script>
+  (function () {
+    function toast(msg) {
+      var t = document.createElement("div"); t.className = "toast"; t.textContent = msg; document.body.appendChild(t);
+      setTimeout(function () { t.remove(); }, 1600);
+    }
+    document.querySelectorAll(".copy .btn").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var pre = btn.parentNode.querySelector("pre");
+        var text = pre.textContent;
+        var fail = function () {
+          var r = document.createRange(); r.selectNodeContents(pre);
+          var s = window.getSelection(); s.removeAllRanges(); s.addRange(r); toast("Seleciona e copia");
+        };
+        if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(function () { toast("Copiado"); }, fail); else fail();
+      });
+    });
+    document.querySelectorAll("ul.check input").forEach(function (b) {
+      try { b.checked = localStorage.getItem("chk:" + b.id) === "1"; } catch (e) {}
+      b.addEventListener("change", function () { try { localStorage.setItem("chk:" + b.id, b.checked ? "1" : "0"); } catch (e) {} });
+    });
+    var links = Array.prototype.slice.call(document.querySelectorAll("nav.tabs a"));
+    var byId = {};
+    links.forEach(function (a) { byId[a.getAttribute("href").slice(1)] = a; });
+    if ("IntersectionObserver" in window) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (en) {
+          if (!en.isIntersecting) return;
+          links.forEach(function (a) { a.classList.remove("on"); });
+          var a = byId[en.target.id]; if (a) { a.classList.add("on"); a.scrollIntoView({ block: "nearest", inline: "center" }); }
+        });
+      }, { rootMargin: "-40% 0px -55% 0px" });
+      document.querySelectorAll("section[id]").forEach(function (s) { io.observe(s); });
+    }
+  })();
+</script>
+</body>
+</html>
