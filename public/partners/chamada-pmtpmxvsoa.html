@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>Chamada · SurgeX</title>
+<link rel="icon" href="/favicon.ico">
+<style>
+  :root {
+    --bg: #f3f5f7; --surface: #ffffff; --ink: #14181c; --muted: #5b6670; --line: #d9dfe4;
+    --accent: #0d8f7d; --accent-ink: #ffffff; --accent-soft: #dff5f0; --mono-bg: #eef1f4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0f1215; --surface: #181d22; --ink: #eef2f4; --muted: #9aa6b0; --line: #2a3138;
+      --accent: #5eead4; --accent-ink: #0f1215; --accent-soft: #14332e; --mono-bg: #10151a;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0f1215; --surface: #181d22; --ink: #eef2f4; --muted: #9aa6b0; --line: #2a3138;
+    --accent: #5eead4; --accent-ink: #0f1215; --accent-soft: #14332e; --mono-bg: #10151a;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; font-size: 16px; line-height: 1.55; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 16px 72px; }
+  header.top { padding: 20px 0 8px; }
+  header.top h1 { font-size: 26px; font-weight: 800; letter-spacing: -0.01em; margin: 0 0 4px; }
+  header.top p { color: var(--muted); margin: 0; font-size: 14px; }
+  header.top a { color: var(--accent); }
+  nav.tabs { position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 10px 0; margin: 0 -16px; padding-inline: 16px; display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; border-bottom: 1px solid var(--line); }
+  nav.tabs::-webkit-scrollbar { display: none; }
+  nav.tabs a { flex: 0 0 auto; text-decoration: none; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 6px 12px; font-size: 14px; font-weight: 600; }
+  nav.tabs a.on { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+  nav.tabs a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  section { padding: 28px 0; border-bottom: 1px solid var(--line); scroll-margin-top: 60px; }
+  h1, h2, h3 { scroll-margin-top: 64px; }
+  section:last-of-type { border-bottom: 0; }
+  h1.sec { font-size: 24px; font-weight: 800; letter-spacing: -0.01em; margin: 0 0 14px; }
+  section h2 { font-size: 17px; font-weight: 800; margin: 22px 0 8px; }
+  section h3 { font-size: 13px; font-weight: 700; margin: 16px 0 6px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
+  p { margin: 0 0 12px; }
+  a { color: var(--accent); }
+  ul, ol { padding-left: 22px; margin: 0 0 12px; }
+  li { margin: 4px 0; }
+  li p { margin: 0; }
+  blockquote { margin: 0 0 12px; padding: 12px 14px; background: var(--accent-soft); border-left: 3px solid var(--accent); border-radius: 0 10px 10px 0; font-size: 17px; }
+  blockquote p { margin: 0; }
+  code { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 0.92em; background: var(--mono-bg); padding: 1px 6px; border-radius: 6px; }
+  .scroll { overflow-x: auto; margin: 0 0 14px; -webkit-overflow-scrolling: touch; }
+  table { border-collapse: collapse; width: 100%; font-size: 14px; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+  th { font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); }
+  .scroll.wide table { min-width: 640px; }
+  td:first-child { min-width: 120px; }
+  .copy { position: relative; margin: 0 0 14px; }
+  .copy pre { margin: 0; background: var(--mono-bg); border: 1px solid var(--line); border-radius: 10px; padding: 12px 12px 12px; padding-right: 88px; white-space: pre-wrap; word-break: break-word; font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 13.5px; line-height: 1.5; }
+  .copy pre code { background: none; padding: 0; font-size: inherit; }
+  .copy .btn { position: absolute; top: 8px; right: 8px; }
+  .btn { appearance: none; border: 0; background: var(--accent); color: var(--accent-ink); border-radius: 999px; padding: 6px 12px; font-size: 13px; font-weight: 700; cursor: pointer; font-family: inherit; }
+  .btn:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+  ul.check { list-style: none; padding: 0; }
+  ul.check li { padding: 0; }
+  ul.check label { display: flex; gap: 10px; align-items: flex-start; padding: 8px 10px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; }
+  ul.check input { width: 20px; height: 20px; margin: 1px 0 0; accent-color: var(--accent); flex: 0 0 auto; }
+  .toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%); background: var(--ink); color: var(--bg); padding: 8px 14px; border-radius: 999px; font-size: 14px; z-index: 9; }
+  footer { color: var(--muted); font-size: 13px; padding-top: 20px; }
+  @media print { nav.tabs, .btn { display: none; } section { break-inside: avoid; } }
+
+  body { font-size: 17px; }</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1>Chamada · SurgeX</h1>
+    <p>Guião, objeções, o que nunca dizer, os números. Versão 2026-09-21 · <a href="manual-pmtpmxvsoa.html">Manual completo</a> · <a href="https://wa.me/351915109181">Sebastião · WhatsApp</a></p>
+  </header>
+  <nav class="tabs" aria-label="Secções"><a href="#numeros-h">Números</a><a href="#1-abrir-com-permissao-7-segundos">Abrir</a><a href="#2-a-pergunta-que-quebra-o-padrao">Pergunta</a><a href="#3-o-contrato-porque-liguei-30-segundos">Porquê</a><a href="#4-as-contas-so-se-a-pessoa-ainda-estiver-contigo">Contas</a><a href="#5-prova-e-fecho-suave">Fecho</a><a href="#o-balcao-quando-nao-e-o-dono-que-atende">Balcão</a><a href="#cortes-a-meio-do-opener">Cortes</a><a href="#objecoes-h">Objeções</a><a href="#nunca-h">Nunca</a></nav>
+<section id="numeros"><h1 class="sec" id="numeros-h">Os números e as etiquetas</h1><p><strong>500 €</strong> setup (250 no arranque + 250 na aprovação) · <strong>35 / 65 / 100 €</strong> por mês (Presença · <strong>Crescimento</strong> · Completo) · <strong>sem fidelização</strong> · sem meses grátis, sem descontos.</p>
+<p><code>sem-resposta</code> · <code>balcão</code> · <code>dono-não</code> · <code>dono-quer-link</code> · <code>reunião</code></p>
+<p>Dúvida a meio da chamada: "Boa pergunta — não lhe quero dizer disparates. O Sebastião responde-lhe hoje." → <a href="https://wa.me/351915109181">WhatsApp do Sebastião</a></p></section><section id="guiao"><h1 class="sec" id="guiao-h">Guião</h1><h2 id="o-guiao-falado-palavra-por-palavra">O guião falado — palavra por palavra</h2>
+<p>Isto é para ser <strong>dito</strong>, não lido. Lê em voz alta três vezes antes da primeira chamada, com as pausas. Depois nunca mais olhas para ele durante uma chamada.</p>
+<p><strong>Como ler:</strong> <code>…</code> pausa curta (meio segundo) · <code>……</code> pausa longa (um segundo — deixa a pessoa responder) · <code>↓</code> voz a descer no fim (calma, certeza) · <code>↑</code> voz a subir no fim (pergunta, permissão) · <em>[uhm]</em> / <em>[ah]</em> filler de propósito — soa a pessoa, não a robô. Ritmo lento, sorriso audível, volume normal.</p>
+<h3 id="1-abrir-com-permissao-7-segundos">1 · Abrir com permissão (7 segundos)</h3>
+<blockquote>
+<p>"Olá, bom dia… [NOME]? ↑</p>
+<p>…… <em>[ah]</em> olá [NOME]… é o… <em>[uhm]</em>… [TEU NOME], da SurgeX ↓</p>
+<p>Sei que estou a interromper… mas importa-se que lhe roube… meio minuto? ↑</p>
+<p>…… Digo-lhe já exatamente porque liguei… e depois diz-me se faz sentido… ou não ↑</p>
+<p>…… Ótimo… obrigado ↓"</p>
+</blockquote>
+<p>Se não sabes o nome: "Olá, bom dia… falo com o responsável da [NEGÓCIO]? ↑" e segue igual. O "importa-se… meio minuto?" é a pergunta mais importante da chamada: pede pouco, dá o controlo à pessoa, e quase toda a gente diz que sim.</p>
+<h3 id="2-a-pergunta-que-quebra-o-padrao">2 · A pergunta que quebra o padrão</h3>
+<blockquote>
+<p>"E… <em>[uhm]</em>… lembre-me… já ouviu falar da SurgeX? …… por acaso? ↑"</p>
+</blockquote>
+<p><strong>Se não</strong> (o normal):</p>
+<blockquote>
+<p>"<em>[Ah]</em> ok… sem problema… ↓ então… sinta-se à vontade para me cortar se não for para si… ↑"</p>
+</blockquote>
+<p><strong>Se sim:</strong></p>
+<blockquote>
+<p>"<em>[Ah]</em> boa… então já faz uma ideia do que fazemos… ↓ deixe-me só dizer-lhe porque liguei a si em concreto… ↑"</p>
+</blockquote>
+<p>Ninguém espera esta pergunta. Tira-te do saco das chamadas de vendas e dá-te dois segundos de atenção verdadeira.</p>
+<h3 id="3-o-contrato-porque-liguei-30-segundos">3 · O contrato: porque liguei (30 segundos)</h3>
+<blockquote>
+<p>"Nós fazemos sites… ↓ e pomos negócios daqui da zona a aparecer no Google… quando alguém procura ↓</p>
+<p>e… <em>[uhm]</em>… a razão pela qual liguei… é que já fizemos um site para a [NEGÓCIO] ↓</p>
+<p>…… Está feito… com o vosso nome… ↓ ver é grátis, sem compromisso… e queria só… mostrar-lhe ↑</p>
+<p>…… É um site moderno… rápido… ↓ feito para aparecer no Google quando alguém procura [NICHO] em [CIDADE] ↓ …… está pronto… é só ativar ↓"</p>
+</blockquote>
+<p>Pára. Deixa reagir. Se ficar em silêncio dois segundos, continua para as contas; se disser qualquer coisa, responde e só depois avança.</p>
+<h3 id="4-as-contas-so-se-a-pessoa-ainda-estiver-contigo">4 · As contas (só se a pessoa ainda estiver contigo)</h3>
+<blockquote>
+<p>"Pense no que vale um cliente para si… ↓</p>
+<p>…… Com inteligência artificial… conseguimos baixar o custo de um site premium… já configurado no Google… para 500 euros ↓</p>
+<p>…… a mesma qualidade… a uma fração do preço ↓</p>
+<p>Quanto gasta um cliente numa [NICHO] como a sua? ↑ …… <em>[deixa responder]</em></p>
+<p>Pois… ↓ basta o site trazer-lhe 2 ou 3 clientes… e fica pago ↓"</p>
+</blockquote>
+<h3 id="5-prova-e-fecho-suave">5 · Prova e fecho suave</h3>
+<blockquote>
+<p>"Já fizemos isto para mais de 60 negócios na zona de Lisboa… ↓ barbearias… clínicas… oficinas ↓</p>
+<p>…… Posso mandar-lhe o link para ver? ↑</p>
+<p>…… Qual é o melhor WhatsApp… ou email… para lhe enviar? ↑</p>
+<p>…… Se gostar… falamos ↓ se não… não há problema nenhum ↓"</p>
+</blockquote>
+<p>Manda o link <strong>na hora</strong>, ainda com a pessoa ao telefone se possível: "Já lhe mandei… deve estar a chegar ↓". Regista <code>dono-quer-link</code>.</p>
+<h3 id="o-balcao-quando-nao-e-o-dono-que-atende">O balcão (quando não é o dono que atende)</h3>
+<p>Ouves "o patrão não está" / "é sobre o quê?":</p>
+<blockquote>
+<p>"<em>[Ah]</em>… então é consigo que devo falar depois? ↑</p>
+<p>…… É que fizemos uma coisa para a [NEGÓCIO]… um site… ↓ e queria mostrar ao dono ↓</p>
+<p>…… A que horas costuma estar? ↑ …… Ou posso deixar-lhe o link por WhatsApp… para ele ver quando puder? ↑</p>
+<p>…… E… <em>[uhm]</em>… como se chama ele? ↑ …… Obrigado, [NOME DO BALCÃO] ↓ ligo às [HORA] e pergunto pelo [NOME DO DONO] ↓"</p>
+</blockquote>
+<p>Nunca fazes o pitch ao balcão. Sais com <strong>dois</strong> dos três: hora, nome do dono, WhatsApp. Regista <code>balcão</code> + Nome do contacto + Cargo + Próximo passo.</p>
+<h3 id="cortes-a-meio-do-opener">Cortes a meio do opener</h3>
+<div class="scroll"><table>
+<thead>
+<tr>
+<th>Dizem</th>
+<th>Respondes (e continuas)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>"Não tenho tempo."</td>
+<td>"Percebo… ↓ trinta segundos… e diz-me se vale a pena… ↑ ou desligo eu ↓ …… Já fizemos um site para a [NEGÓCIO]…"</td>
+</tr>
+<tr>
+<td>"É para vender alguma coisa?"</td>
+<td>"É para lhe mostrar uma coisa que já está feita… ↓ com o vosso nome… ↓ ver é grátis… ↑ vender só se gostar ↓"</td>
+</tr>
+<tr>
+<td>"Mande por email."</td>
+<td>"Claro… ↓ qual é o email? ↑ …… E posso ligar-lhe na próxima semana… para saber o que achou? ↑"</td>
+</tr>
+<tr>
+<td>"Não estou interessado."</td>
+<td>"Compreendo perfeitamente… ↓ …… posso só deixar-lhe o link? ↑ não perde nada em ver… ↓ e se não gostar… esquece ↓"</td>
+</tr>
+<tr>
+<td>"Já tenho site."</td>
+<td>"Ótimo… ↓ …… posso dar uma vista de olhos… e dizer-lhe com honestidade se o novo traz alguma vantagem? ↑ …… comparar não custa nada ↓"</td>
+</tr>
+</tbody>
+</table></div>
+<p>As respostas completas a todas as objeções estão em <strong>Objeções</strong>. Aqui o que importa é não perder o tom: a voz desce, não sobe, quando te cortam.</p>
+<h3 id="o-que-faz-a-diferenca">O que faz a diferença</h3>
+<ul>
+<li><strong>As pausas são o guião.</strong> Quem lê depressa soa a telemarketing. Cada <code>……</code> é a pessoa a decidir ficar.</li>
+<li><strong>Voz a descer nas afirmações, a subir nas perguntas.</strong> "Já fizemos um site para a [NEGÓCIO] ↓" é um facto; "posso mostrar-lhe? ↑" é um pedido.</li>
+<li><strong>O filler é intencional, mas pouco.</strong> Um <em>[uhm]</em> por frase, no máximo. Serve para soar a pessoa que está a pensar, não a pessoa que decorou.</li>
+<li><strong>Nunca "grátis" sozinho.</strong> É sempre "<strong>ver</strong> é grátis". O site custa 500 €.</li>
+<li><strong>Depois de cada pergunta, cala-te.</strong> Quem fala primeiro, perde a pergunta.</li>
+</ul>
+<h2 id="os-30-segundos-a-memorizar-serve-para-telefone-balcao-e-whatsapp">Os 30 segundos (a memorizar — serve para telefone, balcão e WhatsApp)</h2>
+<blockquote>
+<p>"Já criámos um site novo para a [negócio] — ver é grátis, sem compromisso. É um site moderno e rápido, feito para aparecer no Google quando alguém procura [nicho] em [cidade]. Está pronto, é só ativar. Posso mandar-lhe o link?"</p>
+</blockquote>
+<p>Três frases, uma pergunta. Nada mais até a pessoa reagir.</p>
+<h2 id="telefone-a-versao-curta-7-segundos-30-segundos">Telefone — a versão curta (7 segundos + 30 segundos)</h2>
+<ol>
+<li><strong>Abrir</strong> — "Olá, bom dia! Falo com o responsável da [negócio]? É o [teu nome], da SurgeX."</li>
+<li><strong>Balcão</strong> (se não é o dono) — "Ah, então é consigo que devo falar depois? É que fizemos uma coisa para a [negócio] e queria mostrar ao dono. A que horas costuma estar? Ou posso deixar-lhe o link por WhatsApp?" <strong>Nunca faças o pitch a quem não decide.</strong></li>
+<li><strong>Gancho</strong> — "Tenho só um minuto? É que já criámos um site novo para o vosso negócio — ver é grátis, sem compromisso — e queria mostrar-lhe."</li>
+<li><strong>Valor</strong> — "É um site moderno e rápido, otimizado para aparecer no Google quando procuram [nicho] em [cidade]. Está pronto, é só ativar."</li>
+<li><strong>Contas</strong> — "Pense no que vale um cliente para si. Com ferramentas de inteligência artificial conseguimos baixar o custo de um site premium, já configurado no Google, para 500 euros — a mesma qualidade, a uma fração do preço. Quanto gasta um cliente numa [nicho] como a sua? Basta o site trazer-lhe 2 ou 3 clientes e fica pago em poucos meses."</li>
+<li><strong>Prova</strong> — "Já fizemos isto para mais de 60 negócios na zona de Lisboa — barbearias, clínicas, oficinas. Posso enviar-lhe o link para ver?"</li>
+<li><strong>Fecho suave</strong> — "Qual é o melhor WhatsApp ou email para lhe enviar? Se gostar, falamos; se não, não há problema nenhum."</li>
+</ol>
+<p>Esta é a versão para decorar; as pausas e a entoação estão no guião falado, em cima. A que horas ligar a cada nicho: <strong>Sessão · As janelas</strong>.</p>
+<h2 id="visita-ao-balcao-a-mais-eficaz">Visita ao balcão (a mais eficaz)</h2>
+<ul>
+<li>Vai com o link da demo aberto no telemóvel <strong>antes</strong> de entrar</li>
+<li>"Bom dia, sou o [teu nome], da SurgeX. Trabalhamos com presença online para negócios aqui da zona. Reparei que não tinham site / que o site podia ser melhor — e fizemos um para vocês. Posso mostrar? São 30 segundos."</li>
+<li>Mostra o site no telemóvel, deixa a pessoa mexer. Não fales por cima.</li>
+<li>"Foi possível fazer isto antes de qualquer compromisso porque usamos IA — é por isso que o preço é uma fração do habitual."</li>
+<li>Se não é o dono: pede o horário do dono ou o WhatsApp para deixar o link. Deixa o folheto.</li>
+<li>Nunca pressiones. "Pensem nisso, o site fica disponível. Deixo aqui o meu contacto."</li>
+</ul>
+<h2 id="whatsapp">WhatsApp</h2>
+<p>Modelos prontos em <strong>Mensagens</strong> (com o teu nome). Regras: primeira mensagem curta, link no meio, uma pergunta no fim. Um follow-up ao dia 3, outro ao dia 7, depois pára — não se insiste.</p>
+<h2 id="indicacao-a-um-conhecido">Indicação a um conhecido</h2>
+<p>Não precisas de guião, precisas de honestidade:</p>
+<blockquote>
+<p>"Um amigo meu tem uma agência que faz sites para negócios locais e põe-nos a aparecer no Google, com IA — por isso é barato (500 € o site e a partir de 35 €/mês, sem fidelização). Fizeram mais de 60. Se quiseres, ele faz-te uma demo do teu site em dois dias, sem compromisso, e vês se gostas. Posso dar-lhe o teu número?"</p>
+</blockquote>
+<p>Se disser sim: manda ao Sebastião a mensagem LEAD (<strong>A folha e o LEAD</strong>). Se preferires, cria um grupo de WhatsApp com os três e apresenta em duas linhas (Mensagens · 3).</p></section><section id="objecoes"><h1 class="sec" id="objecoes-h">Objeções</h1><div class="scroll"><table>
+<thead>
+<tr>
+<th>Dizem</th>
+<th>Respondes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Já tenho um site.</strong></td>
+<td>"Ótimo! Posso dar uma vista de olhos e dizer-lhe com honestidade se o novo traz alguma vantagem. Sem compromisso — comparar não custa nada."</td>
+</tr>
+<tr>
+<td><strong>Não tenho tempo agora.</strong></td>
+<td>"Sem problema, demoro 30 segundos. Posso enviar-lhe o link por WhatsApp e vê quando puder?"</td>
+</tr>
+<tr>
+<td><strong>Quanto custa?</strong></td>
+<td>"São 500 euros de arranque — metade agora, metade quando aprovar a versão final — com o site, o domínio e o Google Maps tratados. Depois, desde 35 euros por mês para manter tudo online e atualizado; se quiser aparecer melhor no Google e ter atendimento automático, são 65; com redes sociais e campanhas, 100. Sem fidelização. Faça as contas: quantos clientes novos são 500 euros para si? Dois, três? Fica pago em poucos meses."</td>
+</tr>
+<tr>
+<td><strong>É caro.</strong></td>
+<td>"Numa agência tradicional isto custa milhares por mês. Com IA fazemos o mesmo trabalho 10x mais rápido — por isso são 500 euros de arranque e 35 por mês. E não há fidelização: se não valer a pena, cancela."</td>
+</tr>
+<tr>
+<td><strong>Envie por email.</strong></td>
+<td>"Claro, qual é o email? E posso ligar-lhe na próxima semana para saber o que achou?"</td>
+</tr>
+<tr>
+<td><strong>Não estou interessado.</strong></td>
+<td>"Compreendo perfeitamente. Posso só deixar-lhe o link? Não perde nada em ver, e se não gostar esquece."</td>
+</tr>
+<tr>
+<td><strong>Já trabalho com alguém.</strong></td>
+<td>"Boa! Não quero substituir ninguém. Mas se quiser uma segunda opinião gratuita sobre a vossa presença online, com todo o gosto."</td>
+</tr>
+<tr>
+<td><strong>Os clientes vêm todos por recomendação.</strong></td>
+<td>"Exatamente por isso — quando alguém vos recomenda, a primeira coisa que a pessoa faz é procurar no Google. O que encontra hoje?"</td>
+</tr>
+<tr>
+<td><strong>O meu sobrinho faz-me isso.</strong></td>
+<td>"Perfeito, então já tem quem ponha o conteúdo. A diferença aqui é o que continua depois: Google Maps, avaliações, atendimento automático, tudo a funcionar sozinho por 35 a 65 por mês. Quer ver a demo na mesma?"</td>
+</tr>
+<tr>
+<td><strong>Tenho de falar com o meu sócio / a minha mulher.</strong></td>
+<td>"Claro. Envio-lhe o link para mostrarem os dois — é mais fácil decidir a olhar para o site. Ligo-lhe quinta?"</td>
+</tr>
+<tr>
+<td><strong>Isto é IA? Não confio.</strong></td>
+<td>"A IA é só o que nos deixa fazer em dois dias o que demorava um mês. Quem revê e afina cada site é um engenheiro, à mão. Veja a demo e diga-me se parece feita por um robô."</td>
+</tr>
+<tr>
+<td><strong>Preciso de pensar.</strong></td>
+<td>"Com certeza. O que é que o ajudava a decidir — ver mais exemplos, falar com o Sebastião 10 minutos, ou perceber melhor os planos?"</td>
+</tr>
+</tbody>
+</table></div>
+<p>Se não sabes a resposta a alguma coisa: <strong>"Boa pergunta — não te quero dizer disparates. O Sebastião responde-te hoje."</strong> E passas a pergunta. Vale mais do que inventar.</p></section><section id="nunca"><h1 class="sec" id="nunca-h">O que nunca dizer</h1><div class="scroll"><table>
+<thead>
+<tr>
+<th>Nunca</th>
+<th>Diz antes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>"O site é grátis"</td>
+<td>"<strong>Ver</strong> é grátis / sem compromisso." O site custa 500 €. Dizer "grátis" e depois "500 €" destrói a confiança que acabaste de ganhar.</td>
+</tr>
+<tr>
+<td>"Garantimos primeiro lugar no Google" / "vai ter X clientes"</td>
+<td>"Feito para aparecer no Google quando procuram [nicho] em [cidade]." Nunca prometemos resultados.</td>
+</tr>
+<tr>
+<td>Descontos, meses grátis, "a partir de"</td>
+<td>Os preços da Oferta. Condições especiais só o Sebastião.</td>
+</tr>
+<tr>
+<td>"Usamos o ChatGPT / o Claude / o Vercel / ..."</td>
+<td>"Feito com IA, por isso custa uma fração." O cliente compra clientes, não tecnologia.</td>
+</tr>
+<tr>
+<td>"Temos uma equipa / um escritório"</td>
+<td>"É o Sebastião, engenheiro, que constrói cada projeto pessoalmente." É verdade e vende.</td>
+</tr>
+<tr>
+<td>"O site é vosso, levam-no para onde quiserem"</td>
+<td>"O site fica no ar enquanto houver um plano ativo." Se insistirem em propriedade, passa ao Sebastião.</td>
+</tr>
+<tr>
+<td>Assinar, prometer prazos diferentes de 48h, aceitar pagamentos</td>
+<td>Tu não assinas nem recebes nada. Contrato e fatura são com a SurgeX.</td>
+</tr>
+<tr>
+<td>Gravar chamadas</td>
+<td>É crime em Portugal sem consentimento. Toma notas depois.</td>
+</tr>
+</tbody>
+</table></div></section>
+  <footer>Gerado a partir de <code>surgex-ops/partners/hub/</code> por <code>scripts/build-partner-hub.py</code>. Se algo está errado, diz ao Sebastião — corrige-se na fonte, não aqui.</footer>
+</div>
+<script>
+  (function () {
+    function toast(msg) {
+      var t = document.createElement("div"); t.className = "toast"; t.textContent = msg; document.body.appendChild(t);
+      setTimeout(function () { t.remove(); }, 1600);
+    }
+    document.querySelectorAll(".copy .btn").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var pre = btn.parentNode.querySelector("pre");
+        var text = pre.textContent;
+        var fail = function () {
+          var r = document.createRange(); r.selectNodeContents(pre);
+          var s = window.getSelection(); s.removeAllRanges(); s.addRange(r); toast("Seleciona e copia");
+        };
+        if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(function () { toast("Copiado"); }, fail); else fail();
+      });
+    });
+    document.querySelectorAll("ul.check input").forEach(function (b) {
+      try { b.checked = localStorage.getItem("chk:" + b.id) === "1"; } catch (e) {}
+      b.addEventListener("change", function () { try { localStorage.setItem("chk:" + b.id, b.checked ? "1" : "0"); } catch (e) {} });
+    });
+    var links = Array.prototype.slice.call(document.querySelectorAll("nav.tabs a"));
+    var byId = {};
+    links.forEach(function (a) { byId[a.getAttribute("href").slice(1)] = a; });
+    if ("IntersectionObserver" in window) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (en) {
+          if (!en.isIntersecting) return;
+          links.forEach(function (a) { a.classList.remove("on"); });
+          var a = byId[en.target.id]; if (a) { a.classList.add("on"); a.scrollIntoView({ block: "nearest", inline: "center" }); }
+        });
+      }, { rootMargin: "-10% 0px -80% 0px" });
+      var targets = links.map(function (a) { return document.getElementById(a.getAttribute("href").slice(1)); }).filter(Boolean);
+      targets.forEach(function (t) { io.observe(t); });
+    }
+  })();
+</script>
+</body>
+</html>
