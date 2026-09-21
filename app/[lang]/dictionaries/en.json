@@ -668,6 +668,24 @@
         "rating": "5"
       },
       {
+        "id": "piano-julianamarin",
+        "name": "Estúdio de Piano Juliana Marin",
+        "category": "Website",
+        "image": "/portfolio/piano-julianamarin.webp",
+        "url": "https://demo-piano-julianamarin.vercel.app",
+        "description": "Private piano lessons in Lisbon (São Domingos de Benfica) and online with Juliana Marin — Master's in Musical Performance, a grand piano in the studio, children from 4, adults and families.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Music School",
+        "location": "Lisboa",
+        "reviewCount": "9+",
+        "rating": "5"
+      },
+      {
         "id": "music-simps",
         "name": "Sociedade de Instrução Musical de Porto Salvo",
         "category": "Website",
@@ -1901,7 +1919,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "89 projects across 40 industries",
+    "projectCount": "90 projects across 40 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

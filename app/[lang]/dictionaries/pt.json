@@ -452,6 +452,24 @@
         "rating": "5"
       },
       {
+        "id": "piano-julianamarin",
+        "name": "Estúdio de Piano Juliana Marin",
+        "category": "Website",
+        "image": "/portfolio/piano-julianamarin.webp",
+        "url": "https://demo-piano-julianamarin.vercel.app",
+        "description": "Aulas particulares de piano em Lisboa (São Domingos de Benfica) e online com Juliana Marin — Mestre em Performance Musical, piano de cauda no estúdio, crianças a partir dos 4 anos, adultos e famílias.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Escola de Música",
+        "location": "Lisboa",
+        "reviewCount": "9+",
+        "rating": "5"
+      },
+      {
         "id": "music-simps",
         "name": "Sociedade de Instrução Musical de Porto Salvo",
         "category": "Website",
@@ -1901,7 +1919,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "89 projetos em 40 setores",
+    "projectCount": "90 projetos em 40 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
