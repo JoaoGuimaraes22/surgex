@@ -236,6 +236,24 @@
     "headline": "Selected Projects.",
     "projects": [
       {
+        "id": "contabilidade-joc",
+        "name": "JOC Contabilidade",
+        "category": "Website",
+        "image": "/portfolio/contabilidade-joc.webp",
+        "url": "https://demo-contabilidade-joc.vercel.app",
+        "description": "Certified accounting office in Amadora since 1998.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Accounting",
+        "location": "Amadora",
+        "reviewCount": "16+",
+        "rating": "4.8"
+      },
+      {
         "id": "contabilidade-riolgest",
         "name": "RIOLGEST Business Consulting",
         "category": "Website",
@@ -1959,7 +1977,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "92 projects across 41 industries",
+    "projectCount": "93 projects across 41 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

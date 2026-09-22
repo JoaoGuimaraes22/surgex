@@ -1753,6 +1753,24 @@
         "location": "Rio de Mouro (Sintra)",
         "reviewCount": "19+",
         "rating": "4.2"
+      },
+      {
+        "id": "contabilidade-joc",
+        "name": "JOC Contabilidade",
+        "category": "Website",
+        "image": "/portfolio/contabilidade-joc.webp",
+        "url": "https://demo-contabilidade-joc.vercel.app",
+        "description": "Gabinete de contabilidade certificada na Amadora desde 1998.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Contabilidade",
+        "location": "Amadora",
+        "reviewCount": "16+",
+        "rating": "4.8"
       }
     ],
     "cta": "Ver Projeto",
@@ -1959,7 +1977,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "92 projetos em 41 setores",
+    "projectCount": "93 projetos em 41 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
