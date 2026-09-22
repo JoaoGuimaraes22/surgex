@@ -344,6 +344,24 @@
         "rating": "5"
       },
       {
+        "id": "lavandaria-impec",
+        "name": "Impec — Lavandaria Self Service",
+        "category": "Website",
+        "image": "/portfolio/lavandaria-impec.webp",
+        "url": "https://demo-lavandaria-impec.vercel.app",
+        "description": "Lavandaria self-service na Rua Major Neutel de Abreu, a minutos do metro Alto dos Moinhos.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Lavandaria",
+        "location": "Lisboa",
+        "reviewCount": "86+",
+        "rating": "4.2"
+      },
+      {
         "id": "lavandaria-splashwash",
         "name": "Lavandaria Splashwash",
         "category": "Website",
@@ -2035,7 +2053,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "96 projetos em 42 setores",
+    "projectCount": "97 projetos em 42 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

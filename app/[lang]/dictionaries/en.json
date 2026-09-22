@@ -632,6 +632,24 @@
         "rating": "5"
       },
       {
+        "id": "lavandaria-impec",
+        "name": "Impec — Lavandaria Self Service",
+        "category": "Website",
+        "image": "/portfolio/lavandaria-impec.webp",
+        "url": "https://demo-lavandaria-impec.vercel.app",
+        "description": "Self-service laundry on Rua Major Neutel de Abreu, a few minutes from Alto dos Moinhos.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Laundry",
+        "location": "Lisboa",
+        "reviewCount": "86+",
+        "rating": "4.2"
+      },
+      {
         "id": "lavandaria-splashwash",
         "name": "Lavandaria Splashwash",
         "category": "Website",
@@ -2035,7 +2053,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "96 projects across 42 industries",
+    "projectCount": "97 projects across 42 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
