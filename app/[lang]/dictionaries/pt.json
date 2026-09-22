@@ -1719,6 +1719,24 @@
         "rating": "4.8"
       },
       {
+        "id": "danca-joanamachado",
+        "name": "Escola de Dança Joana Machado",
+        "category": "Website",
+        "image": "/portfolio/danca-joanamachado.webp",
+        "url": "https://demo-danca-joanamachado.vercel.app",
+        "description": "Escola de dança social em Benfica, Lisboa.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Escola de Dança",
+        "location": "Lisboa",
+        "reviewCount": "49+",
+        "rating": "5"
+      },
+      {
         "id": "dance-levarte",
         "name": "Lev'Arte",
         "category": "Website",
@@ -1999,7 +2017,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "94 projetos em 42 setores",
+    "projectCount": "95 projetos em 42 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
