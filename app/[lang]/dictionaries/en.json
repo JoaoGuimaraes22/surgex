@@ -758,6 +758,24 @@
         "rating": "5"
       },
       {
+        "id": "petsitting-yourpetsperson",
+        "name": "Your Pet's Person",
+        "category": "Website",
+        "image": "/portfolio/petsitting-yourpetsperson.webp",
+        "url": "https://demo-petsitting-yourpetsperson.vercel.app",
+        "description": "Daiana looks after your cat, dog or small pet at your home or at hers while you travel — home visits, walks and stays in Carnaxide and around Oeiras, with photos and videos every day.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Pet Sitting",
+        "location": "Carnaxide",
+        "reviewCount": "29+",
+        "rating": "5"
+      },
+      {
         "id": "poledance-academia",
         "name": "Academia de Pole Dance",
         "category": "Website",
@@ -1932,6 +1950,10 @@
         "label": "Pest Control"
       },
       {
+        "id": "pet-sitting",
+        "label": "Pet Sitting"
+      },
+      {
         "id": "physiotherapy",
         "label": "Physiotherapy"
       },
@@ -1977,7 +1999,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "93 projects across 41 industries",
+    "projectCount": "94 projects across 42 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
