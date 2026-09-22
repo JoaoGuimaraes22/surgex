@@ -308,6 +308,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-menteecorpo",
+        "name": "Mente & Corpo · Estética e Spa",
+        "category": "Website",
+        "image": "/portfolio/estetica-menteecorpo.webp",
+        "url": "https://demo-estetica-menteecorpo.vercel.app",
+        "description": "A small aesthetics and spa space in Cavaleira, Algueirão: facials, laser hair removal, massage and nails, with Cláudia.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Algueirão",
+        "reviewCount": "48+",
+        "rating": "4.9"
+      },
+      {
         "id": "hifu-marciasilvano",
         "name": "Márcia Silvano HIFU EXPERT",
         "category": "Website",
@@ -2053,7 +2071,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "97 projects across 42 industries",
+    "projectCount": "98 projects across 42 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
