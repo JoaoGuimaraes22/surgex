@@ -1593,6 +1593,24 @@
         "rating": "3.7"
       },
       {
+        "id": "lavagem-autobrilho",
+        "name": "Auto Brilho - Lavagem de Automóveis",
+        "category": "Website",
+        "image": "/portfolio/lavagem-autobrilho.webp",
+        "url": "https://demo-lavagem-autobrilho.vercel.app",
+        "description": "Lavagem de automóveis à mão e limpeza profunda de interiores na Calçada de Carriche, Lisboa.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Detailing Auto",
+        "location": "Lisboa",
+        "reviewCount": "77+",
+        "rating": "4.4"
+      },
+      {
         "id": "stand-autopromocao",
         "name": "Auto Promoção",
         "category": "Website",
@@ -2017,7 +2035,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "95 projetos em 42 setores",
+    "projectCount": "96 projetos em 42 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
