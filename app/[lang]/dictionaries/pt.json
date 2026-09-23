@@ -1737,6 +1737,24 @@
         "rating": "4.8"
       },
       {
+        "id": "stand-autoestrada",
+        "name": "AutoEstrada",
+        "category": "Website",
+        "image": "/portfolio/stand-autoestrada.webp",
+        "url": "https://demo-stand-autoestrada.vercel.app",
+        "description": "Carros semi-novos, limpos e revistos, na Damaia (Amadora).",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Stand Automóvel",
+        "location": "Amadora",
+        "reviewCount": "13+",
+        "rating": "4.7"
+      },
+      {
         "id": "stand-medcar",
         "name": "MED CAR",
         "category": "Website",
@@ -2197,7 +2215,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "105 projetos em 42 setores",
+    "projectCount": "106 projetos em 42 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

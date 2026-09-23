@@ -398,6 +398,24 @@
         "rating": "4.8"
       },
       {
+        "id": "stand-autoestrada",
+        "name": "AutoEstrada",
+        "category": "Website",
+        "image": "/portfolio/stand-autoestrada.webp",
+        "url": "https://demo-stand-autoestrada.vercel.app",
+        "description": "Semi-new cars, clean and fully serviced, in Damaia (Amadora).",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Car Dealership",
+        "location": "Amadora",
+        "reviewCount": "13+",
+        "rating": "4.7"
+      },
+      {
         "id": "stand-medcar",
         "name": "MED CAR",
         "category": "Website",
@@ -2197,7 +2215,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "105 projects across 42 industries",
+    "projectCount": "106 projects across 42 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
