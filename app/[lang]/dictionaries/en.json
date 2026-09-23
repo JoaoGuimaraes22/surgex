@@ -632,6 +632,24 @@
         "rating": "4.1"
       },
       {
+        "id": "avac-arcoviana",
+        "name": "Arcoviana",
+        "category": "Website",
+        "image": "/portfolio/avac-arcoviana.webp",
+        "url": "https://demo-avac-arcoviana.vercel.app",
+        "description": "Air conditioning in Lisbon since 2016: we visit first, pick the right unit and the right spot, and install it in one day.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "HVAC",
+        "location": "Lisboa",
+        "reviewCount": "37+",
+        "rating": "4.7"
+      },
+      {
         "id": "climatizacao-refritec",
         "name": "Refritec",
         "category": "Website",
@@ -2179,7 +2197,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "104 projects across 42 industries",
+    "projectCount": "105 projects across 42 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
