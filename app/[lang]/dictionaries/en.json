@@ -722,6 +722,24 @@
         "rating": "4.4"
       },
       {
+        "id": "laundry-yourlaundry",
+        "name": "Your Laundry",
+        "category": "Website",
+        "image": "/portfolio/laundry-yourlaundry.webp",
+        "url": "https://demo-laundry-yourlaundry.vercel.app",
+        "description": "Self-service laundry in Alfragide, open every day 08:00–22:00.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Laundry",
+        "location": "Alfragide",
+        "reviewCount": "68+",
+        "rating": "4.8"
+      },
+      {
         "id": "chaves-massama",
         "name": "Casa das Chaves de Massamá",
         "category": "Website",
@@ -2125,7 +2143,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "101 projects across 42 industries",
+    "projectCount": "102 projects across 42 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
