@@ -848,6 +848,24 @@
         "rating": "3.9"
       },
       {
+        "id": "music-atelierguitarra",
+        "name": "Atelier de Guitarra",
+        "category": "Website",
+        "image": "/portfolio/music-atelierguitarra.webp",
+        "url": "https://demo-music-atelierguitarra.vercel.app",
+        "description": "A school dedicated to the guitar in Parque das Nações, Lisbon: electric, acoustic and Portuguese guitar, at each student's pace.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Music School",
+        "location": "Lisboa",
+        "reviewCount": "31+",
+        "rating": "4.9"
+      },
+      {
         "id": "music-lamire",
         "name": "Atelier Lá Mi Ré",
         "category": "Website",
@@ -2161,7 +2179,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "103 projects across 42 industries",
+    "projectCount": "104 projects across 42 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
