@@ -1719,6 +1719,24 @@
         "rating": "5"
       },
       {
+        "id": "stand-tradecar",
+        "name": "Trade Car",
+        "category": "Website",
+        "image": "/portfolio/stand-tradecar.webp",
+        "url": "https://demo-stand-tradecar.vercel.app",
+        "description": "Stand multimarca na Granja do Marquês, Sintra: carros usados top de gama e raros, sempre bem apresentados — e se não estiver no stand, procuramos em vários mercados.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Stand Automóvel",
+        "location": "Sintra",
+        "reviewCount": "55+",
+        "rating": "4.1"
+      },
+      {
         "id": "limpezas-an",
         "name": "AN Limpezas",
         "category": "Website",
@@ -2143,7 +2161,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "102 projetos em 42 setores",
+    "projectCount": "103 projetos em 42 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
