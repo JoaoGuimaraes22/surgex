@@ -596,6 +596,24 @@
         "rating": "5"
       },
       {
+        "id": "petsitting-aquihacao",
+        "name": "Aqui Há Cão",
+        "category": "Website",
+        "image": "/portfolio/petsitting-aquihacao.webp",
+        "url": "https://demo-petsitting-aquihacao.vercel.app",
+        "description": "A Tânia e o João cuidam dos seus gatos e cães em sua casa — visitas, passeios, medicação e fotos depois de cada visita.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Pet Sitting",
+        "location": "Algueirão-Mem Martins",
+        "reviewCount": "47+",
+        "rating": "5"
+      },
+      {
         "id": "petsitting-yourpetsperson",
         "name": "Your Pet's Person",
         "category": "Website",
@@ -2215,7 +2233,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "106 projetos em 42 setores",
+    "projectCount": "107 projetos em 42 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
