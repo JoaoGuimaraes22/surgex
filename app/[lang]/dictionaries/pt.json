@@ -2023,6 +2023,24 @@
         "location": "Amadora",
         "reviewCount": "16+",
         "rating": "4.8"
+      },
+      {
+        "id": "contabilidade-joaodeus",
+        "name": "João Luís de Deus",
+        "category": "Website",
+        "image": "/portfolio/contabilidade-joaodeus.webp",
+        "url": "https://demo-contabilidade-joaodeus.vercel.app",
+        "description": "Contabilidade, IRS e papelada com um contabilista com quem pode falar — independentes, pequenas empresas e quem começa em Portugal.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Contabilidade",
+        "location": "Lisboa",
+        "reviewCount": "10+",
+        "rating": "5"
       }
     ],
     "cta": "Ver Projeto",
@@ -2233,7 +2251,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "107 projetos em 42 setores",
+    "projectCount": "108 projetos em 42 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

@@ -254,6 +254,24 @@
         "rating": "4.8"
       },
       {
+        "id": "contabilidade-joaodeus",
+        "name": "João Luís de Deus",
+        "category": "Website",
+        "image": "/portfolio/contabilidade-joaodeus.webp",
+        "url": "https://demo-contabilidade-joaodeus.vercel.app",
+        "description": "Accounting, IRS and paperwork with an accountant you can talk to — sole traders, small companies and newcomers to Portugal.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Accounting",
+        "location": "Lisboa",
+        "reviewCount": "10+",
+        "rating": "5"
+      },
+      {
         "id": "contabilidade-riolgest",
         "name": "RIOLGEST Business Consulting",
         "category": "Website",
@@ -2233,7 +2251,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "107 projects across 42 industries",
+    "projectCount": "108 projects across 42 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
