@@ -542,6 +542,24 @@
         "rating": "4.7"
       },
       {
+        "id": "creche-dametrela",
+        "name": "Dá-me Trela!",
+        "category": "Website",
+        "image": "/portfolio/creche-dametrela.webp",
+        "url": "https://demo-creche-dametrela.vercel.app",
+        "description": "Educational dog daycare, family boarding and positive-reinforcement training in Campo de Ourique, Lisbon.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Dog Training",
+        "location": "Lisboa",
+        "reviewCount": "",
+        "rating": "4.9"
+      },
+      {
         "id": "gym-levelup",
         "name": "Level UP Fight & Fitness",
         "category": "Website",
@@ -2071,7 +2089,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "98 projects across 42 industries",
+    "projectCount": "99 projects across 42 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

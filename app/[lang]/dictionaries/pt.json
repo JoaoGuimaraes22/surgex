@@ -1809,6 +1809,24 @@
         "rating": "4.7"
       },
       {
+        "id": "creche-dametrela",
+        "name": "Dá-me Trela!",
+        "category": "Website",
+        "image": "/portfolio/creche-dametrela.webp",
+        "url": "https://demo-creche-dametrela.vercel.app",
+        "description": "Creche educativa para cães, lar familiar e treino por reforço positivo em Campo de Ourique, Lisboa.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Treino Canino",
+        "location": "Lisboa",
+        "reviewCount": "",
+        "rating": "4.9"
+      },
+      {
         "id": "contabilidade-riolgest",
         "name": "RIOLGEST Business Consulting",
         "category": "Website",
@@ -2071,7 +2089,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "98 projetos em 42 setores",
+    "projectCount": "99 projetos em 42 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
