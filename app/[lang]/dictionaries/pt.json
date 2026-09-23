@@ -2007,6 +2007,24 @@
         "rating": "4.2"
       },
       {
+        "id": "estetica-dula",
+        "name": "Clínica Dulá",
+        "category": "Website",
+        "image": "/portfolio/estetica-dula.webp",
+        "url": "https://demo-estetica-dula.vercel.app",
+        "description": "Cabelo, unhas, depilação a laser Alexandrite, massagem, rosto e corpo atrás da mesma porta, na Venda Nova, Amadora.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Amadora",
+        "reviewCount": "125+",
+        "rating": "4.4"
+      },
+      {
         "id": "contabilidade-joc",
         "name": "JOC Contabilidade",
         "category": "Website",
@@ -2251,7 +2269,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "108 projetos em 42 setores",
+    "projectCount": "109 projetos em 42 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

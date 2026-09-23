@@ -308,6 +308,24 @@
         "rating": "4.2"
       },
       {
+        "id": "estetica-dula",
+        "name": "Clínica Dulá",
+        "category": "Website",
+        "image": "/portfolio/estetica-dula.webp",
+        "url": "https://demo-estetica-dula.vercel.app",
+        "description": "Hair, nails, Alexandrite laser hair removal, massage, facials and body treatments behind one door in Venda Nova, Amadora.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Amadora",
+        "reviewCount": "125+",
+        "rating": "4.4"
+      },
+      {
         "id": "estetica-danicabrera",
         "name": "Dani Cabrera Estética",
         "category": "Website",
@@ -2251,7 +2269,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "108 projects across 42 industries",
+    "projectCount": "109 projects across 42 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
