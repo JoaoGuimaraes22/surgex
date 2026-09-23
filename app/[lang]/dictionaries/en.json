@@ -452,6 +452,24 @@
         "rating": "5"
       },
       {
+        "id": "limpeza-sofaecia",
+        "name": "Limpeza de Sofá & Cia",
+        "category": "Website",
+        "image": "/portfolio/limpeza-sofaecia.webp",
+        "url": "https://demo-limpeza-sofaecia.vercel.app",
+        "description": "Sofas, armchairs, mattresses, rugs and carpets cleaned and sanitised at your home in Cascais.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Cleaning",
+        "location": "Cascais",
+        "reviewCount": "76+",
+        "rating": "5"
+      },
+      {
         "id": "condo-aldimar",
         "name": "Aldimar",
         "category": "Website",
@@ -2089,7 +2107,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "99 projects across 42 industries",
+    "projectCount": "100 projects across 42 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
