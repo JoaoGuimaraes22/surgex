@@ -452,6 +452,24 @@
         "rating": "4"
       },
       {
+        "id": "music-desafios",
+        "name": "Academia de Música Desafios",
+        "category": "Website",
+        "image": "/portfolio/music-desafios.webp",
+        "url": "https://demo-music-desafios.vercel.app",
+        "description": "Escola de música na Reboleira, Amadora, desde 2011.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Escola de Música",
+        "location": "Amadora",
+        "reviewCount": "44+",
+        "rating": "3.9"
+      },
+      {
         "id": "music-lamire",
         "name": "Atelier Lá Mi Ré",
         "category": "Website",
@@ -2107,7 +2125,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "100 projetos em 42 setores",
+    "projectCount": "101 projetos em 42 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
