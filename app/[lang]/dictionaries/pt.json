@@ -2007,6 +2007,24 @@
         "rating": "5"
       },
       {
+        "id": "cleaning-vassourinha",
+        "name": "Vassourinha",
+        "category": "Website",
+        "image": "/portfolio/cleaning-vassourinha.webp",
+        "url": "https://demo-cleaning-vassourinha.vercel.app",
+        "description": "Pequena equipa de limpeza em Cascais para casas, empresas, condomínios e pós-obra.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Limpeza",
+        "location": "Cascais",
+        "reviewCount": "14+",
+        "rating": "5"
+      },
+      {
         "id": "condo-aldimar",
         "name": "Aldimar",
         "category": "Website",
@@ -2471,7 +2489,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "120 projetos em 43 setores",
+    "projectCount": "121 projetos em 43 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
