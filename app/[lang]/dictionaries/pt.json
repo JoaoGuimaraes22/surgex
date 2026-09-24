@@ -851,6 +851,24 @@
         "rating": "5"
       },
       {
+        "id": "vet-centralpet",
+        "name": "Central Pet Telheiras",
+        "category": "Website",
+        "image": "/portfolio/vet-centralpet.webp",
+        "url": "https://demo-vet-centralpet.vercel.app",
+        "description": "Consultório veterinário em Telheiras, junto ao metro: consultas, vacinas com aviso, passaporte, esterilização, banhos e tosquias.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinária",
+        "location": "Lisboa",
+        "reviewCount": "165+",
+        "rating": "4.7"
+      },
+      {
         "id": "vet-aboboda",
         "name": "Centro Veterinario Aboboda",
         "category": "Website",
@@ -2489,7 +2507,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "121 projetos em 43 setores",
+    "projectCount": "122 projetos em 43 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
