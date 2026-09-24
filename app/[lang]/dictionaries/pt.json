@@ -560,6 +560,24 @@
         "rating": "5"
       },
       {
+        "id": "music-saobras",
+        "name": "Escola de Música São Brás",
+        "category": "Website",
+        "image": "/portfolio/music-saobras.webp",
+        "url": "https://demo-music-saobras.vercel.app",
+        "description": "Escola de música e loja de instrumentos no Casal de São Brás, Amadora.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Escola de Música",
+        "location": "Amadora",
+        "reviewCount": "21+",
+        "rating": "4.4"
+      },
+      {
         "id": "piano-julianamarin",
         "name": "Estúdio de Piano Juliana Marin",
         "category": "Website",
@@ -2435,7 +2453,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "118 projetos em 43 setores",
+    "projectCount": "119 projetos em 43 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
