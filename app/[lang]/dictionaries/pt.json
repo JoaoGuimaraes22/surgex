@@ -869,6 +869,24 @@
         "rating": "5"
       },
       {
+        "id": "tattoo-devil",
+        "name": "Devil Tattoo",
+        "category": "Website",
+        "image": "/portfolio/tattoo-devil.webp",
+        "url": "https://demo-tattoo-devil.vercel.app",
+        "description": "Loja de tatuagens e body piercing na Rua de Macau, Amadora.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Tatuagem",
+        "location": "Amadora",
+        "reviewCount": "278+",
+        "rating": "4.7"
+      },
+      {
         "id": "vet-centralpet",
         "name": "Central Pet Telheiras",
         "category": "Website",
@@ -2561,7 +2579,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "125 projetos em 43 setores",
+    "projectCount": "126 projetos em 43 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
