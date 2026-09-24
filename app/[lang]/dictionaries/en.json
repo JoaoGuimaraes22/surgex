@@ -758,6 +758,24 @@
         "rating": "4.6"
       },
       {
+        "id": "dogcare-caodamalta",
+        "name": "Cão da Malta",
+        "category": "Website",
+        "image": "/portfolio/dogcare-caodamalta.webp",
+        "url": "https://demo-dogcare-caodamalta.vercel.app",
+        "description": "Boarding, day care and dog training in a home with fields in São João das Lampas, Sintra.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Dog Training",
+        "location": "São João das Lampas",
+        "reviewCount": "36+",
+        "rating": "5"
+      },
+      {
         "id": "centrocanino-caotopia",
         "name": "Cãotopia – Centro Canino",
         "category": "Website",
@@ -2615,7 +2633,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "128 projects across 43 industries",
+    "projectCount": "129 projects across 43 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
