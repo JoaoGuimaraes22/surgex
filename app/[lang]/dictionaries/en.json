@@ -1298,6 +1298,24 @@
         "rating": "5"
       },
       {
+        "id": "petsitting-petnessa",
+        "name": "Petnessa",
+        "category": "Website",
+        "image": "/portfolio/petsitting-petnessa.webp",
+        "url": "https://demo-petsitting-petnessa.vercel.app",
+        "description": "Pet sitting at home in the Cascais area: cats and dogs stay in their own territory while Vanessa — a veterinary assistant — visits, plays, gives medication if needed and sends photos and videos every day.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Pet Sitting",
+        "location": "Alcabideche",
+        "reviewCount": "37+",
+        "rating": "5"
+      },
+      {
         "id": "petsitting-yourpetsperson",
         "name": "Your Pet's Person",
         "category": "Website",
@@ -2597,7 +2615,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "127 projects across 43 industries",
+    "projectCount": "128 projects across 43 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

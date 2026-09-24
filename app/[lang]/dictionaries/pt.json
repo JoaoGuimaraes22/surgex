@@ -740,6 +740,24 @@
         "rating": "5"
       },
       {
+        "id": "petsitting-petnessa",
+        "name": "Petnessa",
+        "category": "Website",
+        "image": "/portfolio/petsitting-petnessa.webp",
+        "url": "https://demo-petsitting-petnessa.vercel.app",
+        "description": "Petsitting em casa no concelho de Cascais: gatos e cães ficam no seu território enquanto a Vanessa — assistente de veterinária — os visita, brinca, dá a medicação se for preciso e envia fotos e vídeos todos os dias.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Pet Sitting",
+        "location": "Alcabideche",
+        "reviewCount": "37+",
+        "rating": "5"
+      },
+      {
         "id": "petsitting-yourpetsperson",
         "name": "Your Pet's Person",
         "category": "Website",
@@ -2597,7 +2615,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "127 projetos em 43 setores",
+    "projectCount": "128 projetos em 43 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
