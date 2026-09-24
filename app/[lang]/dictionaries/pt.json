@@ -2187,6 +2187,24 @@
         "rating": "5"
       },
       {
+        "id": "dentist-sorrisosoberano",
+        "name": "Clínica Dentária Sorriso Soberano",
+        "category": "Website",
+        "image": "/portfolio/dentist-sorrisosoberano.webp",
+        "url": "https://demo-dentist-sorrisosoberano.vercel.app",
+        "description": "Clínica dentária na Tapada das Mercês, Mem Martins (Sintra), desde 2016: medicina dentária geral, facetas e coroas, implantes, ortodontia, branqueamento e harmonização facial.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Dentista",
+        "location": "Algueirão-Mem Martins",
+        "reviewCount": "29+",
+        "rating": "4.6"
+      },
+      {
         "id": "centrocanino-caotopia",
         "name": "Cãotopia – Centro Canino",
         "category": "Website",
@@ -2543,7 +2561,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "124 projetos em 43 setores",
+    "projectCount": "125 projetos em 43 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
