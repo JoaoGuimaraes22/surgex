@@ -1082,6 +1082,24 @@
         "rating": "5"
       },
       {
+        "id": "grooming-dogshower",
+        "name": "Dog Shower Cascais",
+        "category": "Website",
+        "image": "/portfolio/grooming-dogshower.webp",
+        "url": "https://demo-grooming-dogshower.vercel.app",
+        "description": "Dog baths, grooming and a small pet shop on the Estrada de Alvide, Cascais.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Pet Grooming",
+        "location": "Alcabideche",
+        "reviewCount": "67+",
+        "rating": "4.7"
+      },
+      {
         "id": "petsitting-aquihacao",
         "name": "Aqui Há Cão",
         "category": "Website",
@@ -1282,6 +1300,24 @@
         "location": "Parede",
         "reviewCount": "16+",
         "rating": "5.0"
+      },
+      {
+        "id": "tattoo-cebola",
+        "name": "Cebola Tattoo Studio",
+        "category": "Website",
+        "image": "/portfolio/tattoo-cebola.webp",
+        "url": "https://demo-tattoo-cebola.vercel.app",
+        "description": "Custom tattoos drawn with you and done calmly, by Cebola — tattooing since 2005.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Tattoo",
+        "location": "Paço de Arcos",
+        "reviewCount": "268+",
+        "rating": "5"
       },
       {
         "id": "vet-aboboda",
@@ -2310,6 +2346,10 @@
         "label": "Pest Control"
       },
       {
+        "id": "pet-grooming",
+        "label": "Pet Grooming"
+      },
+      {
         "id": "pet-sitting",
         "label": "Pet Sitting"
       },
@@ -2359,7 +2399,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "114 projects across 42 industries",
+    "projectCount": "116 projects across 43 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

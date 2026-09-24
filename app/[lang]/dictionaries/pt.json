@@ -614,6 +614,24 @@
         "rating": "5"
       },
       {
+        "id": "grooming-dogshower",
+        "name": "Dog Shower Cascais",
+        "category": "Website",
+        "image": "/portfolio/grooming-dogshower.webp",
+        "url": "https://demo-grooming-dogshower.vercel.app",
+        "description": "Banhos, tosquias e uma pequena loja para cães na Estrada de Alvide, Cascais.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Banhos & Tosquias",
+        "location": "Alcabideche",
+        "reviewCount": "67+",
+        "rating": "4.7"
+      },
+      {
         "id": "petsitting-aquihacao",
         "name": "Aqui Há Cão",
         "category": "Website",
@@ -777,6 +795,24 @@
         "location": "Parede",
         "reviewCount": "16+",
         "rating": "5.0"
+      },
+      {
+        "id": "tattoo-cebola",
+        "name": "Cebola Tattoo Studio",
+        "category": "Website",
+        "image": "/portfolio/tattoo-cebola.webp",
+        "url": "https://demo-tattoo-cebola.vercel.app",
+        "description": "Tatuagens personalizadas, desenhadas consigo e feitas com calma, pelo Cebola — tatuador desde 2005.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Tatuagem",
+        "location": "Paço de Arcos",
+        "reviewCount": "268+",
+        "rating": "5"
       },
       {
         "id": "vet-aboboda",
@@ -2310,6 +2346,10 @@
         "label": "Controlo de Pragas"
       },
       {
+        "id": "pet-grooming",
+        "label": "Banhos & Tosquias"
+      },
+      {
         "id": "pet-sitting",
         "label": "Pet Sitting"
       },
@@ -2359,7 +2399,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "114 projetos em 42 setores",
+    "projectCount": "116 projetos em 43 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
