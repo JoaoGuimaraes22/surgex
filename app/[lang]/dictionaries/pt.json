@@ -380,6 +380,24 @@
         "rating": "4.2"
       },
       {
+        "id": "lavandaria-dc",
+        "name": "Lavandaria D&C",
+        "category": "Website",
+        "image": "/portfolio/lavandaria-dc.webp",
+        "url": "https://demo-lavandaria-dc.vercel.app",
+        "description": "Lavandaria self-service na Rua Ernesto Veiga de Oliveira, Oeiras.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Lavandaria",
+        "location": "Oeiras",
+        "reviewCount": "60+",
+        "rating": "4.4"
+      },
+      {
         "id": "lavandaria-splashwash",
         "name": "Lavandaria Splashwash",
         "category": "Website",
@@ -2453,7 +2471,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "119 projetos em 43 setores",
+    "projectCount": "120 projetos em 43 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
