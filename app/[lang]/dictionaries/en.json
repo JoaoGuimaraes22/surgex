@@ -1172,6 +1172,24 @@
         "rating": "4.3"
       },
       {
+        "id": "guitar-teresaabreu",
+        "name": "Teresa Abreu · Guitarra Clássica",
+        "category": "Website",
+        "image": "/portfolio/guitar-teresaabreu.webp",
+        "url": "https://demo-guitar-teresaabreu.vercel.app",
+        "description": "Private classical guitar lessons with Teresa Abreu in Porto Salvo, Oeiras, or online.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Music School",
+        "location": "Porto Salvo",
+        "reviewCount": "12+",
+        "rating": "5"
+      },
+      {
         "id": "pest-rphigiene",
         "name": "RP Produtos de Higiene & Desbaratização",
         "category": "Website",
@@ -2525,7 +2543,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "123 projects across 43 industries",
+    "projectCount": "124 projects across 43 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
