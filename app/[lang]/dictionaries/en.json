@@ -740,6 +740,24 @@
         "rating": "5"
       },
       {
+        "id": "centrocanino-caotopia",
+        "name": "Cãotopia – Centro Canino",
+        "category": "Website",
+        "image": "/portfolio/centrocanino-caotopia.webp",
+        "url": "https://demo-centrocanino-caotopia.vercel.app",
+        "description": "Dog daycare in open nature in Sintra: off-leash runs, walks, a pool on hot days and a tent for the rain.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Dog Training",
+        "location": "Sintra",
+        "reviewCount": "45+",
+        "rating": "5"
+      },
+      {
         "id": "creche-dametrela",
         "name": "Dá-me Trela!",
         "category": "Website",
@@ -2507,7 +2525,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "122 projects across 43 industries",
+    "projectCount": "123 projects across 43 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

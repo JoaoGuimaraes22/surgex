@@ -2169,6 +2169,24 @@
         "rating": "5"
       },
       {
+        "id": "centrocanino-caotopia",
+        "name": "Cãotopia – Centro Canino",
+        "category": "Website",
+        "image": "/portfolio/centrocanino-caotopia.webp",
+        "url": "https://demo-centrocanino-caotopia.vercel.app",
+        "description": "Creche canina em plena natureza, em Sintra: corridas sem trela, passeios, piscina nos dias quentes e tenda para a chuva.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Treino Canino",
+        "location": "Sintra",
+        "reviewCount": "45+",
+        "rating": "5"
+      },
+      {
         "id": "creche-dametrela",
         "name": "Dá-me Trela!",
         "category": "Website",
@@ -2507,7 +2525,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "122 projetos em 43 setores",
+    "projectCount": "123 projetos em 43 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
