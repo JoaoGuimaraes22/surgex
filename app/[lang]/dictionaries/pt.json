@@ -488,6 +488,24 @@
         "rating": "3.7"
       },
       {
+        "id": "mechanic-quimenauto",
+        "name": "Quimenauto",
+        "category": "Website",
+        "image": "/portfolio/mechanic-quimenauto.webp",
+        "url": "https://demo-mechanic-quimenauto.vercel.app",
+        "description": "Oficina independente multimarca em Linda-a-Velha desde 1990.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Linda-a-Velha",
+        "reviewCount": "337+",
+        "rating": "4.8"
+      },
+      {
         "id": "clinic-cmeoeiras",
         "name": "Centro Médico e Enfermagem de Oeiras",
         "category": "Website",
@@ -2579,7 +2597,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "126 projetos em 43 setores",
+    "projectCount": "127 projetos em 43 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
