@@ -398,6 +398,24 @@
         "rating": "4.4"
       },
       {
+        "id": "lavandaria-vilasintra",
+        "name": "Lavandaria Vila Sintra",
+        "category": "Website",
+        "image": "/portfolio/lavandaria-vilasintra.webp",
+        "url": "https://demo-lavandaria-vilasintra.vercel.app",
+        "description": "Lavandaria self-service no centro de Sintra, aberta todos os dias das 07:00 às 22:00.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Lavandaria",
+        "location": "Sintra",
+        "reviewCount": "103+",
+        "rating": "4.4"
+      },
+      {
         "id": "laundry-yourlaundry",
         "name": "Your Laundry",
         "category": "Website",
@@ -2287,7 +2305,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "110 projetos em 42 setores",
+    "projectCount": "111 projetos em 42 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
