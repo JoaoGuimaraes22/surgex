@@ -686,6 +686,24 @@
         "rating": "4.9"
       },
       {
+        "id": "dentist-reneeroque",
+        "name": "Clínica Dentária Renée & Roque",
+        "category": "Website",
+        "image": "/portfolio/dentist-reneeroque.webp",
+        "url": "https://demo-dentist-reneeroque.vercel.app",
+        "description": "The neighbourhood dental clinic in Paço de Arcos, at the same door since 1994.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Dental",
+        "location": "Paço de Arcos",
+        "reviewCount": "6",
+        "rating": "5"
+      },
+      {
         "id": "creche-dametrela",
         "name": "Dá-me Trela!",
         "category": "Website",
@@ -2399,7 +2417,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "116 projects across 43 industries",
+    "projectCount": "117 projects across 43 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
