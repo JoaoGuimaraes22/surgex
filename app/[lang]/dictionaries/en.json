@@ -272,6 +272,24 @@
         "rating": "5"
       },
       {
+        "id": "accounting-contasperfeitas",
+        "name": "O Contas Perfeitas",
+        "category": "Website",
+        "image": "/portfolio/accounting-contasperfeitas.webp",
+        "url": "https://demo-accounting-contasperfeitas.vercel.app",
+        "description": "Accounting, tax advice, company setup and IRS in São João do Estoril.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Accounting",
+        "location": "Estoril",
+        "reviewCount": "42+",
+        "rating": "5"
+      },
+      {
         "id": "contabilidade-riolgest",
         "name": "RIOLGEST Business Consulting",
         "category": "Website",
@@ -2417,7 +2435,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "117 projects across 43 industries",
+    "projectCount": "118 projects across 43 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

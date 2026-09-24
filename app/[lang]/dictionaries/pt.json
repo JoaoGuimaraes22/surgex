@@ -2203,6 +2203,24 @@
         "location": "Lisboa",
         "reviewCount": "10+",
         "rating": "5"
+      },
+      {
+        "id": "accounting-contasperfeitas",
+        "name": "O Contas Perfeitas",
+        "category": "Website",
+        "image": "/portfolio/accounting-contasperfeitas.webp",
+        "url": "https://demo-accounting-contasperfeitas.vercel.app",
+        "description": "Contabilidade, consultoria fiscal, criação de empresas e IRS em São João do Estoril.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Contabilidade",
+        "location": "Estoril",
+        "reviewCount": "42+",
+        "rating": "5"
       }
     ],
     "cta": "Ver Projeto",
@@ -2417,7 +2435,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "117 projetos em 43 setores",
+    "projectCount": "118 projetos em 43 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
