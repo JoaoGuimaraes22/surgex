@@ -632,6 +632,24 @@
         "rating": "5"
       },
       {
+        "id": "pethotel-bichosecaprichos",
+        "name": "Bichos e Caprichos Lisboa",
+        "category": "Website",
+        "image": "/portfolio/pethotel-bichosecaprichos.webp",
+        "url": "https://demo-pethotel-bichosecaprichos.vercel.app",
+        "description": "Uma veterinária e a família recebem cães e gatos na própria casa, na Penha de França, em Lisboa — estadias, passeios, pet sitting e acupuntura veterinária.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Pet Sitting",
+        "location": "Lisboa",
+        "reviewCount": "12+",
+        "rating": "5"
+      },
+      {
         "id": "petsitting-yourpetsperson",
         "name": "Your Pet's Person",
         "category": "Website",
@@ -2305,7 +2323,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "111 projetos em 42 setores",
+    "projectCount": "112 projetos em 42 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
