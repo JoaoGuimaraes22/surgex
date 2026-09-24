@@ -1863,6 +1863,24 @@
         "rating": "5"
       },
       {
+        "id": "limpezas-pbm",
+        "name": "PBM Limpeza & Higienização",
+        "category": "Website",
+        "image": "/portfolio/limpezas-pbm.webp",
+        "url": "https://demo-limpezas-pbm.vercel.app",
+        "description": "Limpeza e higienização de casas, escritórios, lojas e indústria na Amadora.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Limpeza",
+        "location": "Amadora",
+        "reviewCount": "9+",
+        "rating": "5"
+      },
+      {
         "id": "condo-aldimar",
         "name": "Aldimar",
         "category": "Website",
@@ -2269,7 +2287,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "109 projetos em 42 setores",
+    "projectCount": "110 projetos em 42 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
