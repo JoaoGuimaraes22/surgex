@@ -2007,6 +2007,24 @@
         "rating": "4.7"
       },
       {
+        "id": "dentist-tamissa",
+        "name": "Centro Dentário Dr. Luís Tamissa",
+        "category": "Website",
+        "image": "/portfolio/dentist-tamissa.webp",
+        "url": "https://demo-dentist-tamissa.vercel.app",
+        "description": "Clínica dentária no centro da Amadora desde 2005: cirurgia oral, sisos e implantes com o Dr. Luís Tamissa.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Dentista",
+        "location": "Amadora",
+        "reviewCount": "119+",
+        "rating": "4.9"
+      },
+      {
         "id": "creche-dametrela",
         "name": "Dá-me Trela!",
         "category": "Website",
@@ -2323,7 +2341,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "112 projetos em 42 setores",
+    "projectCount": "113 projetos em 42 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
