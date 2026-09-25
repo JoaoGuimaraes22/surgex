@@ -1136,6 +1136,24 @@
         "rating": "3.7"
       },
       {
+        "id": "mechanic-amadorauto",
+        "name": "Garagem Amadorauto",
+        "category": "Website",
+        "image": "/portfolio/mechanic-amadorauto.webp",
+        "url": "https://demo-mechanic-amadorauto.vercel.app",
+        "description": "General car repairs for every make on Av. Cardoso Lopes, Amadora.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Amadora",
+        "reviewCount": "142+",
+        "rating": "4.8"
+      },
+      {
         "id": "mechanic-quimenauto",
         "name": "Quimenauto",
         "category": "Website",
@@ -2723,7 +2741,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "134 projects across 43 industries",
+    "projectCount": "135 projects across 43 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
