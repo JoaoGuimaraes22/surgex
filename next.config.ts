@@ -50,11 +50,6 @@ const nextConfig: NextConfig = {
   async headers() {
     return [
       {
-        // Hidden partner pages (public/partners/*.html): unguessable URLs, never indexed.
-        source: "/partners/:path*",
-        headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow, noarchive" }],
-      },
-      {
         source: "/(.*)",
         headers: [
           {
