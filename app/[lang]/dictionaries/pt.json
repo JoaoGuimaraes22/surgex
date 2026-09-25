@@ -1917,6 +1917,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-jsstudio",
+        "name": "JS Studio",
+        "category": "Website",
+        "image": "/portfolio/estetica-jsstudio.webp",
+        "url": "https://demo-estetica-jsstudio.vercel.app",
+        "description": "Gel, unhas decoradas, pedicure, cabelo e estética na Estrada da Serra da Mira, Amadora.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Amadora",
+        "reviewCount": "91+",
+        "rating": "4.8"
+      },
+      {
         "id": "estetica-menteecorpo",
         "name": "Mente & Corpo · Estética e Spa",
         "category": "Website",
@@ -2759,7 +2777,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "136 projetos em 43 setores",
+    "projectCount": "137 projetos em 43 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

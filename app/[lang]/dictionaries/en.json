@@ -362,6 +362,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-jsstudio",
+        "name": "JS Studio",
+        "category": "Website",
+        "image": "/portfolio/estetica-jsstudio.webp",
+        "url": "https://demo-estetica-jsstudio.vercel.app",
+        "description": "Gel nails, nail art, pedicure, hair and aesthetics on Estrada da Serra da Mira, Amadora.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Amadora",
+        "reviewCount": "91+",
+        "rating": "4.8"
+      },
+      {
         "id": "estetica-menteecorpo",
         "name": "Mente & Corpo · Estética e Spa",
         "category": "Website",
@@ -2759,7 +2777,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "136 projects across 43 industries",
+    "projectCount": "137 projects across 43 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
