@@ -2349,6 +2349,24 @@
         "rating": "4.9"
       },
       {
+        "id": "gym-espacopt",
+        "name": "Espaço PT",
+        "category": "Website",
+        "image": "/portfolio/gym-espacopt.webp",
+        "url": "https://demo-gym-espacopt.vercel.app",
+        "description": "Estúdio de treino personalizado em Oeiras: treino individual com Personal Trainers especializados, programas de 6 semanas em pequeno grupo às terças e quintas, exercício clínico, treino pré e pós-parto, osteopatia, nutrição e massagens.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Fitness",
+        "location": "Oeiras",
+        "reviewCount": "31+",
+        "rating": "4.9"
+      },
+      {
         "id": "contabilidade-riolgest",
         "name": "RIOLGEST Business Consulting",
         "category": "Website",
@@ -2669,7 +2687,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "131 projetos em 43 setores",
+    "projectCount": "132 projetos em 43 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

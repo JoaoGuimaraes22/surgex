@@ -848,6 +848,24 @@
         "rating": "4.9"
       },
       {
+        "id": "gym-espacopt",
+        "name": "Espaço PT",
+        "category": "Website",
+        "image": "/portfolio/gym-espacopt.webp",
+        "url": "https://demo-gym-espacopt.vercel.app",
+        "description": "A private personal-training studio in Oeiras: one-to-one training with specialist trainers, 6-week small-group programmes on Tuesday and Thursday evenings, clinical exercise, pre and post-natal training, osteopathy, nutrition and massage.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Fitness",
+        "location": "Oeiras",
+        "reviewCount": "31+",
+        "rating": "4.9"
+      },
+      {
         "id": "gym-levelup",
         "name": "Level UP Fight & Fitness",
         "category": "Website",
@@ -2669,7 +2687,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "131 projects across 43 industries",
+    "projectCount": "132 projects across 43 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
