@@ -434,6 +434,24 @@
         "rating": "4.4"
       },
       {
+        "id": "laundry-summerwash",
+        "name": "Summer Wash",
+        "category": "Website",
+        "image": "/portfolio/laundry-summerwash.webp",
+        "url": "https://demo-laundry-summerwash.vercel.app",
+        "description": "Lavandaria self-service no Lourel, Sintra: máquinas de 8 a 16 kg, secadores de 18 kg, detergente incluído.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Lavandaria",
+        "location": "Sintra",
+        "reviewCount": "87+",
+        "rating": "4.6"
+      },
+      {
         "id": "laundry-yourlaundry",
         "name": "Your Laundry",
         "category": "Website",
@@ -2741,7 +2759,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "135 projetos em 43 setores",
+    "projectCount": "136 projetos em 43 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

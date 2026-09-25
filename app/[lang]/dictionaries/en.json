@@ -1082,6 +1082,24 @@
         "rating": "4.4"
       },
       {
+        "id": "laundry-summerwash",
+        "name": "Summer Wash",
+        "category": "Website",
+        "image": "/portfolio/laundry-summerwash.webp",
+        "url": "https://demo-laundry-summerwash.vercel.app",
+        "description": "Self-service laundry in Lourel, Sintra: 8–16 kg washers, 18 kg dryers, detergent included, card discounts.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Laundry",
+        "location": "Sintra",
+        "reviewCount": "87+",
+        "rating": "4.6"
+      },
+      {
         "id": "laundry-yourlaundry",
         "name": "Your Laundry",
         "category": "Website",
@@ -2741,7 +2759,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "135 projects across 43 industries",
+    "projectCount": "136 projects across 43 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
