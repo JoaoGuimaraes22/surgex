@@ -24,6 +24,9 @@ const SERVICE_SLUGS = [
   "campaigns",
 ];
 
+// Only slugs from generateStaticParams exist — anything else is a real 404 (not a streamed soft-404).
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   return SERVICE_SLUGS.flatMap((slug) =>
     ["en", "pt"].map((lang) => ({ lang, slug }))

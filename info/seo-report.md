@@ -1,69 +1,40 @@
 # SEO Check — SurgeX
 
 _URL: https://www.surgex.pt_
-_Checked: 2026-04-29_
-_Pages audited: `/en`, `/pt`, `/en/about`, `/pt/about`, `/en/blog/what-is-geo-aeo-ai-search`, `/en/services/geo-aeo`_
+_Checked: 2026-09-25 (post-rebrand; replaces the 2026-04-29 audit)_
+_Method: served HTML of 26 pages (both locales of `/`, `/about`, `/services`, `/projects`, `/blog`, `/cities/carcavelos`, the five service pages, one project, one blog post) + a HEAD on every image, favicon, manifest and `og:image`; the two cross-locale blog URLs the sitemap listed were fetched separately. No browser: the site is server-rendered, so meta, JSON-LD and headings are in the response._
 
-## ✅ Passing
+## ✅ Passing (503 checks, every page)
 
-### Homepage (`/en` + `/pt`)
+- [x] `<title>` locale-specific on every page; no generic titles
+- [x] `<meta name="description">` present everywhere, locale-specific; home, projects and project pages within 50–160 chars
+- [x] `robots` = `index, follow` on every audited page; `robots.txt` allows all + the AI crawlers
+- [x] Canonical present and equal to the page URL on all 26 pages; `hreflang` alternates on every page
+- [x] Open Graph: `og:title`, `og:description`, `og:url` (= canonical), `og:type`, `og:locale` (`en_*` / `pt_*` matching the path), `og:image` resolves (200, `image/*`) on every page
+- [x] Twitter card (`summary_large_image`), title and description on every page
+- [x] JSON-LD valid on every page: `WebSite` + `LocalBusiness` graph on the home and listing pages, `Article` + `BreadcrumbList` on posts, `AboutPage` + `Organization` + `Person` on `/about`, `Service` + `BreadcrumbList` on service pages, `ProfessionalService` on the city page
+- [x] `<html lang>` matches the locale; exactly one `<h1>` per page
+- [x] Every `<img>` resolves (HEAD 200); all go through `/_next/image` with `srcset`; below-fold images lazy; none over 500 KB
+- [x] Favicon and `site.webmanifest` load
 
-- [x] `<title>` set, locale-specific (EN: "SurgeX | Bespoke AI Solutions for Your Business" / PT: "SurgeX | Soluções de IA à Medida...")
-- [x] `<meta name="description">` set, ~150 chars, locale-specific
-- [x] `<meta name="robots" content="index, follow">`
-- [x] `<link rel="canonical">` matches URL
-- [x] `og:title`, `og:description`, `og:image`, `og:url`, `og:type=website`, `og:locale` (en_US / pt_PT), `og:site_name=SurgeX`
-- [x] `twitter:card=summary_large_image`, `twitter:title`, `twitter:description`, `twitter:image`
-- [x] `<link rel="icon">` → `/favicon.ico`, `apple-touch-icon`, `manifest`
-- [x] `<html lang="en">` / `<html lang="pt">` matches route
-- [x] Exactly 1 `<h1>`
-- [x] No broken images (all 8 imgs render)
-- [x] **JSON-LD `@graph`**: WebSite + ProfessionalService linked via `@id` cross-reference (`#website` ↔ `#business`)
-- [x] **`sameAs`**: 4 URLs in Organization schema (LinkedIn, Instagram, Facebook, X)
-- [x] **FAQPage** schema with 8 Q&As
+## 🔴 Failing — fixed in this pass (deployed with the check)
 
-### `/about` (EN + PT)
+- [x] **Sitemap listed every blog post under both locales with the same slug** (`/pt/blog/online-booking-automation`, `/en/blog/automacao-marcacoes-online`, …): 24 of the 48 blog URLs were the not-found page. `app/sitemap.ts` now lists a post under its own locale only, with the `alternateSlug` as the other locale's alternate (and `lastModified` = the post date instead of build time).
+- [x] **Unknown blog, service and city slugs answered HTTP 200** with the noindex not-found page (a streamed soft 404, e.g. `/pt/blog/nao-existe-xyz`, `/pt/services/nao-existe`). The projects route already had `export const dynamicParams = false` for this reason; the same guard is now on `blog/[slug]`, `services/[slug]` and `cities/[slug]`, so anything outside `generateStaticParams` is a real 404.
 
-- [x] Title/description correctly localized via `aboutPage.meta` dict
-- [x] Canonical + OG locale (en_US / pt_PT) match locale
-- [x] **JSON-LD `@graph`** with all 4 expected types: `AboutPage` + `Organization` + `Person` + `BreadcrumbList`
-- [x] **`@id` cross-references intact**: AboutPage.mainEntity → `#business`, AboutPage.isPartOf → `#website`, Person.worksFor → `#business`, Organization.founder → `#founder`, AboutPage.breadcrumb → `#breadcrumb`
-- [x] **Person node**: name (Sebastião Guimarães), jobTitle (Founder & AI Engineer), description (bio), `worksFor`, `knowsAbout` (6 capabilities), `nationality=Portuguese`, `sameAs` to founder LinkedIn
-- [x] **Organization node**: foundingDate=2026, logo, full address (Lisbon, PT), 4 sameAs URLs
-- [x] **BreadcrumbList**: localized labels (EN: Home > About / PT: Início > Sobre)
-- [x] `inLanguage` = `pt-PT` on PT page (correct BCP-47)
-- [x] 1 H1 ("About SurgeX." / "Sobre a SurgeX.")
+## ⚠️ Warnings (25)
 
-### Blog post (`/en/blog/what-is-geo-aeo-ai-search`)
-
-- [x] **Article schema** with `speakable: { cssSelector: [".quick-answer"] }` — AI engines pointed at the Quick Answer block
-- [x] **`.quick-answer` DOM block present** with 50-word direct answer
-- [x] **BreadcrumbList**: Home > Blog > Post
-- [x] All 7 H2 headings are questions ("How is search changing?", "What is GEO?", etc.)
-- [x] `og:type=article`, `og:locale=en_US`, canonical correct
-- [x] 1 H1, valid hreflang alternates
-
-### Service page (`/en/services/geo-aeo`)
-
-- [x] 4 JSON-LD scripts: layout `@graph` + Service + FAQPage + BreadcrumbList — all valid
-- [x] 1 H1
-
-### Site-wide
-
-- [x] **`/robots.txt`**: 16 AI crawlers explicitly allowed (GPTBot, ChatGPT-User, OAI-SearchBot, ClaudeBot, Claude-Web, anthropic-ai, PerplexityBot, Perplexity-User, Google-Extended, Applebot-Extended, CCBot, Bytespider, DuckAssistBot, MistralAI-User, cohere-ai, meta-externalagent) + `host` declaration
-- [x] **`/llms.txt`**: present at root with business summary
-- [x] **`/sitemap.xml`**: includes `/about` for both locales
-
-## ⚠️ Warnings
-
-- **Homepage images: 0 lazy-loaded, 0 with srcset** — 8 images on `/en`, none use `loading="lazy"` or `srcset`. Likely fine if all are above-fold/hero (lazy on above-fold hurts LCP), but worth confirming with PageSpeed Insights. If any are below-fold, add `loading="lazy"` to the relevant `<img>` or migrate to `next/image`.
-- **Homepage H1 reads as concatenated text** (`"PREMIUM QUALITY.FAIR PRICES."` in `.textContent`) — visually separate lines, but the merged extracted text could read awkwardly to AI extractors. Consider adding a space or splitting into `<span>`s with whitespace between.
-- **`/about` BreadcrumbList has redundant `@context`** inside `@graph` — `buildBreadcrumb` adds `@context` for standalone use, but it's already covered by the parent `@graph`'s `@context`. Valid but noisy. Cosmetic only.
+- [ ] **Meta descriptions over 160 chars on 17 pages** (Google truncates): `/about` EN 165 · `/services` 184/183 · `/blog` 174/162 · `/cities/carcavelos` 183/191 · `/services/online-presence` 172/171 · `get-found` 172/181 · `customer-care` 180/196 · `social-media` 173/172 · `campaigns` 187/187. Trim to ≤155 when the live copy is reviewed (`tasks/todo.md` § Rebrand: "Review the live copy").
+- [ ] `/about` `Organization` node has no `image` (both locales) — add the logo URL once the founder photo / brand assets land.
+- [ ] `/cities/carcavelos` `ProfessionalService` node has no `address`, `telephone` or `image` — the city page's schema is thinner than the home `LocalBusiness`; reuse the shared `schemaIds` entity or add the fields when the next city page is built.
 
 ## 📊 Summary
 
-- **42 checks passed**
-- **0 failing**
-- **3 warnings** (cosmetic / performance)
+| | |
+|---|---|
+| Pages checked | 26 (+2 cross-locale probes) |
+| Checks passed | 503 |
+| Failing | 2 site-wide issues, both fixed and shipped 2026-09-25 |
+| Warnings | 25 (17 description lengths, 8 schema fields) |
 
-The AEO sweep is fully live on production. All 3 batches (AI crawlers, /about entity anchor, blog Quick Answer + speakable) verified end-to-end. Schema graph cross-references work as designed: AI engines parsing any of these pages will see the same `#business`/`#website`/`#founder` entities, treating them as one unified brand identity.
+Re-check after the copy review: descriptions, and `curl -s https://www.surgex.pt/sitemap.xml | grep -c blog` should print 26 (2 listings + 24 posts).

@@ -15,6 +15,9 @@ const siteUrl = SITE_URL;
 
 const CITY_SLUGS = ["carcavelos"];
 
+// Only slugs from generateStaticParams exist — anything else is a real 404 (not a streamed soft-404).
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   return CITY_SLUGS.flatMap((slug) =>
     ["en", "pt"].map((lang) => ({ lang, slug }))

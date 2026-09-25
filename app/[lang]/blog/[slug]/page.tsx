@@ -22,6 +22,9 @@ import {
 
 const siteUrl = SITE_URL;
 
+// Only slugs from generateStaticParams exist — anything else is a real 404 (not a streamed soft-404).
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   const locales = ["en", "pt"] as const;
   const params: { lang: string; slug: string }[] = [];

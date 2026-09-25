@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { i18n } from "@/i18n-config";
 import enDict from "./[lang]/dictionaries/en.json";
-import { getAllSlugs } from "./[lang]/_lib/blog";
+import { getAllPosts } from "./[lang]/_lib/blog";
 import { SITE_URL } from "./[lang]/_lib/seo";
 import { visibleProjects } from "./[lang]/_lib/hidden-projects";
 
@@ -51,21 +51,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   }));
 
-  const blogSlugs = [
-    ...new Set([...getAllSlugs("en"), ...getAllSlugs("pt")]),
-  ];
-  const blogPostPages = blogSlugs.flatMap((slug) =>
-    i18n.locales.map((lang) => ({
-      url: `${siteUrl}/${lang}/blog/${slug}`,
-      lastModified: new Date(),
-      changeFrequency: "monthly" as const,
-      priority: 0.7,
-      alternates: {
-        languages: Object.fromEntries(
-          i18n.locales.map((l) => [l, `${siteUrl}/${l}/blog/${slug}`])
-        ),
-      },
-    }))
+  // A post exists under its own locale only; the other locale's URL is its
+  // `alternateSlug` (listing every slug under both locales sent Google to 26 soft-404s).
+  const blogPostPages = i18n.locales.flatMap((lang) =>
+    getAllPosts(lang).map((post) => {
+      const other = i18n.locales.find((l) => l !== lang) ?? lang;
+      return {
+        url: `${siteUrl}/${lang}/blog/${post.slug}`,
+        lastModified: new Date(post.date),
+        changeFrequency: "monthly" as const,
+        priority: 0.7,
+        alternates: {
+          languages: {
+            [lang]: `${siteUrl}/${lang}/blog/${post.slug}`,
+            [other]: `${siteUrl}/${other}/blog/${post.alternateSlug ?? post.slug}`,
+          },
+        },
+      };
+    })
   );
 
   const serviceSlugs = ["online-presence", "get-found", "customer-care", "social-media", "campaigns"];
