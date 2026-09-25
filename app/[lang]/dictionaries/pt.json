@@ -1953,6 +1953,24 @@
         "rating": "4.4"
       },
       {
+        "id": "lavagem-autowashlourel",
+        "name": "Autowash Continente de Lourel",
+        "category": "Website",
+        "image": "/portfolio/lavagem-autowashlourel.webp",
+        "url": "https://demo-lavagem-autowashlourel.vercel.app",
+        "description": "Lavagem à mão, higienização de interiores, estofos e polimento no piso inferior do Continente de Lourel, Sintra.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Detailing Auto",
+        "location": "Sintra",
+        "reviewCount": "150+",
+        "rating": "4.7"
+      },
+      {
         "id": "lavagem-imperium",
         "name": "Imperium Wash",
         "category": "Website",
@@ -2687,7 +2705,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "132 projetos em 43 setores",
+    "projectCount": "133 projetos em 43 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
