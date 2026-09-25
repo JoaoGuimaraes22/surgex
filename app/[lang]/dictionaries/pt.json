@@ -1917,6 +1917,24 @@
         "rating": "3.7"
       },
       {
+        "id": "spa-springfacial",
+        "name": "Spring Facial SPA",
+        "category": "Website",
+        "image": "/portfolio/spa-springfacial.webp",
+        "url": "https://demo-spa-springfacial.vercel.app",
+        "description": "Massagem thai e com óleos essenciais, unhas de gel, pedicure, estética facial e head spa em Paço de Arcos, Oeiras.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Paço de Arcos",
+        "reviewCount": "93+",
+        "rating": "4.8"
+      },
+      {
         "id": "lavagem-autobrilho",
         "name": "Auto Brilho - Lavagem de Automóveis",
         "category": "Website",
@@ -2633,7 +2651,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "129 projetos em 43 setores",
+    "projectCount": "130 projetos em 43 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
