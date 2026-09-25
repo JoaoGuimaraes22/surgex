@@ -2277,6 +2277,24 @@
         "rating": "4.6"
       },
       {
+        "id": "dogcare-citydog",
+        "name": "CityDog",
+        "category": "Website",
+        "image": "/portfolio/dogcare-citydog.webp",
+        "url": "https://demo-dogcare-citydog.vercel.app",
+        "description": "CityDog: estadia familiar, creche e escola para cães em São João das Lampas, Sintra, à entrada de Mafra.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Treino Canino",
+        "location": "São João das Lampas",
+        "reviewCount": "37+",
+        "rating": "4.5"
+      },
+      {
         "id": "dogcare-caodamalta",
         "name": "Cão da Malta",
         "category": "Website",
@@ -2651,7 +2669,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "130 projetos em 43 setores",
+    "projectCount": "131 projetos em 43 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

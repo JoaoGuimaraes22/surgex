@@ -776,6 +776,24 @@
         "rating": "4.6"
       },
       {
+        "id": "dogcare-citydog",
+        "name": "CityDog",
+        "category": "Website",
+        "image": "/portfolio/dogcare-citydog.webp",
+        "url": "https://demo-dogcare-citydog.vercel.app",
+        "description": "CityDog: family-home dog boarding, daycare and dog school in São João das Lampas, Sintra, on the road to Mafra.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Dog Training",
+        "location": "São João das Lampas",
+        "reviewCount": "37+",
+        "rating": "4.5"
+      },
+      {
         "id": "dogcare-caodamalta",
         "name": "Cão da Malta",
         "category": "Website",
@@ -2651,7 +2669,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "130 projects across 43 industries",
+    "projectCount": "131 projects across 43 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
