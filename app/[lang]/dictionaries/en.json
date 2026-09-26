@@ -776,6 +776,24 @@
         "rating": "4.9"
       },
       {
+        "id": "dentist-alvalade",
+        "name": "Clínica de Medicina Dentária de Alvalade",
+        "category": "Website",
+        "image": "/portfolio/dentist-alvalade.webp",
+        "url": "https://demo-dentist-alvalade.vercel.app",
+        "description": "Independent family dental clinic in Alvalade, Lisbon, for about 30 years.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Dental",
+        "location": "Lisboa",
+        "reviewCount": "69+",
+        "rating": "4.7"
+      },
+      {
         "id": "dentist-reneeroque",
         "name": "Clínica Dentária Renée & Roque",
         "category": "Website",
@@ -2777,7 +2795,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "137 projects across 43 industries",
+    "projectCount": "138 projects across 43 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
