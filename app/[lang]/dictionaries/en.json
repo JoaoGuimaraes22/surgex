@@ -1788,6 +1788,24 @@
         "rating": "5"
       },
       {
+        "id": "vet-bichoscoloridos",
+        "name": "Bichos Coloridos",
+        "category": "Website",
+        "image": "/portfolio/vet-bichoscoloridos.webp",
+        "url": "https://demo-vet-bichoscoloridos.vercel.app",
+        "description": "Dra. Patrícia's vet consultório on the Estrada da Serra da Mira, Amadora, since 2009.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Amadora",
+        "reviewCount": "295+",
+        "rating": "4.8"
+      },
+      {
         "id": "vet-bloomvet",
         "name": "Bloom Vet",
         "category": "Website",
@@ -2939,7 +2957,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "146 projects across 43 industries",
+    "projectCount": "147 projects across 43 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
