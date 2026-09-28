@@ -1770,6 +1770,24 @@
         "rating": "4.7"
       },
       {
+        "id": "tattoo-iguana",
+        "name": "IGUANA EURO INK",
+        "category": "Website",
+        "image": "/portfolio/tattoo-iguana.webp",
+        "url": "https://demo-tattoo-iguana.vercel.app",
+        "description": "Realism, fine line and cover-ups by Iguana — tattooing since 2012, 6× award-winning.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Tattoo",
+        "location": "Amadora",
+        "reviewCount": "99+",
+        "rating": "5"
+      },
+      {
         "id": "vet-centralpet",
         "name": "Central Pet Telheiras",
         "category": "Website",
@@ -2903,7 +2921,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "144 projects across 43 industries",
+    "projectCount": "145 projects across 43 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
