@@ -380,6 +380,24 @@
         "rating": "4.8"
       },
       {
+        "id": "medspa-kufundala",
+        "name": "Kufundala Beauty",
+        "category": "Website",
+        "image": "/portfolio/medspa-kufundala.webp",
+        "url": "https://demo-medspa-kufundala.vercel.app",
+        "description": "Family beauty salon in Lumiar, Lisbon: diode laser and waxing, brows, lashes, microblading, lip micropigmentation, nails, pedicure, massage and lymphatic drainage.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Lisboa",
+        "reviewCount": "14+",
+        "rating": "4.9"
+      },
+      {
         "id": "estetica-menteecorpo",
         "name": "Mente & Corpo · Estética e Spa",
         "category": "Website",
@@ -2849,7 +2867,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "141 projects across 43 industries",
+    "projectCount": "142 projects across 43 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
