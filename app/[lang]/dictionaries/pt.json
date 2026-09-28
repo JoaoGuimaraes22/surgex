@@ -2743,6 +2743,24 @@
         "location": "Estoril",
         "reviewCount": "42+",
         "rating": "5"
+      },
+      {
+        "id": "contabilidade-codifinanca",
+        "name": "Codifinança",
+        "category": "Website",
+        "image": "/portfolio/contabilidade-codifinanca.webp",
+        "url": "https://demo-contabilidade-codifinanca.vercel.app",
+        "description": "Gabinete de contabilidade em Algés, Oeiras, desde 1995: contabilidade, fiscalidade, salários, tesouraria e sede para a sua empresa, com o correio tratado.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Contabilidade",
+        "location": "Algés",
+        "reviewCount": "8+",
+        "rating": "3.6"
       }
     ],
     "cta": "Ver Projeto",
@@ -2957,7 +2975,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "147 projetos em 43 setores",
+    "projectCount": "148 projetos em 43 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

@@ -236,6 +236,24 @@
     "headline": "Selected Projects.",
     "projects": [
       {
+        "id": "contabilidade-codifinanca",
+        "name": "Codifinança",
+        "category": "Website",
+        "image": "/portfolio/contabilidade-codifinanca.webp",
+        "url": "https://demo-contabilidade-codifinanca.vercel.app",
+        "description": "Accounting firm in Algés, Oeiras, since 1995: SNC accounting, tax, payroll, treasury and a registered address for your company, with its mail handled.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Accounting",
+        "location": "Algés",
+        "reviewCount": "8+",
+        "rating": "3.6"
+      },
+      {
         "id": "contabilidade-joc",
         "name": "JOC Contabilidade",
         "category": "Website",
@@ -2957,7 +2975,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "147 projects across 43 industries",
+    "projectCount": "148 projects across 43 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
