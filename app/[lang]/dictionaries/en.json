@@ -776,6 +776,24 @@
         "rating": "5"
       },
       {
+        "id": "danca-escolasintra",
+        "name": "Escola de Dança Sintra",
+        "category": "Website",
+        "image": "/portfolio/danca-escolasintra.webp",
+        "url": "https://demo-danca-escolasintra.vercel.app",
+        "description": "Dance school in Mem Martins (Sintra) since 2014: ballet, contemporary and hip hop for kids and teens; kizomba, semba, bachata, salsa, ballroom, zumba, pilates and yoga for adults.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Dance School",
+        "location": "Algueirão-Mem Martins",
+        "reviewCount": "22+",
+        "rating": "5"
+      },
+      {
         "id": "dance-levarte",
         "name": "Lev'Arte",
         "category": "Website",
@@ -2885,7 +2903,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "143 projects across 43 industries",
+    "projectCount": "144 projects across 43 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
