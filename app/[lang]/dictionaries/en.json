@@ -1478,6 +1478,24 @@
         "rating": "5"
       },
       {
+        "id": "petsitting-pat",
+        "name": "Pat Petsitter House Sitting",
+        "category": "Website",
+        "image": "/portfolio/petsitting-pat.webp",
+        "url": "https://demo-petsitting-pat.vercel.app",
+        "description": "Pat moves into your home while you travel: dogs and cats keep their routine, you get photos and videos every day, and the house is spotless when you come back.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Pet Sitting",
+        "location": "Estoril",
+        "reviewCount": "22+",
+        "rating": "5"
+      },
+      {
         "id": "petsitting-petnessa",
         "name": "Petnessa",
         "category": "Website",
@@ -2831,7 +2849,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "140 projects across 43 industries",
+    "projectCount": "141 projects across 43 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
