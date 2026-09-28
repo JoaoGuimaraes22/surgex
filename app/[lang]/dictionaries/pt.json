@@ -524,6 +524,24 @@
         "rating": "4.6"
       },
       {
+        "id": "mechanic-boxauto",
+        "name": "Boxauto",
+        "category": "Website",
+        "image": "/portfolio/mechanic-boxauto.webp",
+        "url": "https://demo-mechanic-boxauto.vercel.app",
+        "description": "Oficina multimarca familiar em Cabriz, Sintra: diagnóstico, motor e caixa, pneus, chapa e pintura, pré-inspeção, ar condicionado.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Sintra",
+        "reviewCount": "95+",
+        "rating": "4.7"
+      },
+      {
         "id": "mechanic-amadorauto",
         "name": "Garagem Amadorauto",
         "category": "Website",
@@ -2993,7 +3011,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "149 projetos em 43 setores",
+    "projectCount": "150 projetos em 43 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

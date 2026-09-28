@@ -1298,6 +1298,24 @@
         "rating": "4.6"
       },
       {
+        "id": "mechanic-boxauto",
+        "name": "Boxauto",
+        "category": "Website",
+        "image": "/portfolio/mechanic-boxauto.webp",
+        "url": "https://demo-mechanic-boxauto.vercel.app",
+        "description": "Family-run multi-brand workshop in Cabriz, Sintra: diagnostics, engine and gearbox, tyres, body and paint, pre-inspection, A/C.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Sintra",
+        "reviewCount": "95+",
+        "rating": "4.7"
+      },
+      {
         "id": "mechanic-amadorauto",
         "name": "Garagem Amadorauto",
         "category": "Website",
@@ -2993,7 +3011,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "149 projects across 43 industries",
+    "projectCount": "150 projects across 43 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
