@@ -1013,6 +1013,24 @@
         "rating": "5"
       },
       {
+        "id": "vet-bloomvet",
+        "name": "Bloom Vet",
+        "category": "Website",
+        "image": "/portfolio/vet-bloomvet.webp",
+        "url": "https://demo-vet-bloomvet.vercel.app",
+        "description": "A Bloom Vet é um pequeno consultório veterinário em Telheiras, Lisboa, para cães e gatos: consultas, vacinas, esterilização, medicina interna e acompanhamento.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinária",
+        "location": "Lisboa",
+        "reviewCount": "111+",
+        "rating": "4.9"
+      },
+      {
         "id": "vet-centralpet",
         "name": "Central Pet Telheiras",
         "category": "Website",
@@ -2921,7 +2939,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "145 projetos em 43 setores",
+    "projectCount": "146 projetos em 43 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

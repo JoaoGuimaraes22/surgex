@@ -1788,6 +1788,24 @@
         "rating": "5"
       },
       {
+        "id": "vet-bloomvet",
+        "name": "Bloom Vet",
+        "category": "Website",
+        "image": "/portfolio/vet-bloomvet.webp",
+        "url": "https://demo-vet-bloomvet.vercel.app",
+        "description": "Bloom Vet is a small veterinary practice in Telheiras, Lisbon, for dogs and cats: consultations, vaccines, sterilisation, internal medicine and follow-up.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Lisboa",
+        "reviewCount": "111+",
+        "rating": "4.9"
+      },
+      {
         "id": "vet-centralpet",
         "name": "Central Pet Telheiras",
         "category": "Website",
@@ -2921,7 +2939,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "145 projects across 43 industries",
+    "projectCount": "146 projects across 43 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
