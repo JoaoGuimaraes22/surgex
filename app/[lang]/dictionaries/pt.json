@@ -506,6 +506,24 @@
         "rating": "3.7"
       },
       {
+        "id": "mechanic-autoarroios",
+        "name": "Auto Arroios",
+        "category": "Website",
+        "image": "/portfolio/mechanic-autoarroios.webp",
+        "url": "https://demo-mechanic-autoarroios.vercel.app",
+        "description": "Oficina de eletricidade e eletrónica auto na Rua de Arroios 58, Lisboa: diagnóstico de avarias, ar condicionado, iluminação, chaves e centralinas, para todas as marcas.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Lisboa",
+        "reviewCount": "297+",
+        "rating": "4.6"
+      },
+      {
         "id": "mechanic-amadorauto",
         "name": "Garagem Amadorauto",
         "category": "Website",
@@ -2813,7 +2831,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "139 projetos em 43 setores",
+    "projectCount": "140 projetos em 43 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
