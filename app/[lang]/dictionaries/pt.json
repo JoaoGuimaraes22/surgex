@@ -2637,6 +2637,24 @@
         "rating": "4.9"
       },
       {
+        "id": "gym-fabricadofisico",
+        "name": "Fábrica do Físico",
+        "category": "Website",
+        "image": "/portfolio/gym-fabricadofisico.webp",
+        "url": "https://demo-gym-fabricadofisico.vercel.app",
+        "description": "Ginásio old school na Penha de França, Lisboa: musculação, cerca de 20 passadeiras e treino com o coach Rúben Cruz.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Fitness",
+        "location": "Lisboa",
+        "reviewCount": "309+",
+        "rating": "3.9"
+      },
+      {
         "id": "contabilidade-riolgest",
         "name": "RIOLGEST Business Consulting",
         "category": "Website",
@@ -2975,7 +2993,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "148 projetos em 43 setores",
+    "projectCount": "149 projetos em 43 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

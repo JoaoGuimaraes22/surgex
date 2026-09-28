@@ -992,6 +992,24 @@
         "rating": "4.9"
       },
       {
+        "id": "gym-fabricadofisico",
+        "name": "Fábrica do Físico",
+        "category": "Website",
+        "image": "/portfolio/gym-fabricadofisico.webp",
+        "url": "https://demo-gym-fabricadofisico.vercel.app",
+        "description": "Old-school gym in Penha de França, Lisbon: weights, ~20 treadmills and personal training with coach Rúben Cruz.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Fitness",
+        "location": "Lisboa",
+        "reviewCount": "309+",
+        "rating": "3.9"
+      },
+      {
         "id": "gym-levelup",
         "name": "Level UP Fight & Fitness",
         "category": "Website",
@@ -2975,7 +2993,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "148 projects across 43 industries",
+    "projectCount": "149 projects across 43 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
