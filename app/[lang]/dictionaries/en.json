@@ -362,6 +362,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-iambeauty",
+        "name": "I am beauty",
+        "category": "Website",
+        "image": "/portfolio/estetica-iambeauty.webp",
+        "url": "https://demo-estetica-iambeauty.vercel.app",
+        "description": "Gel nails, gelinho and pedicure from 300+ colours, and permanent hair removal with a 5-wave laser, followed session by session.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Sintra",
+        "reviewCount": "203+",
+        "rating": "4.9"
+      },
+      {
         "id": "estetica-jsstudio",
         "name": "JS Studio",
         "category": "Website",
@@ -2867,7 +2885,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "142 projects across 43 industries",
+    "projectCount": "143 projects across 43 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

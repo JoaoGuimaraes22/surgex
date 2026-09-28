@@ -1971,6 +1971,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-iambeauty",
+        "name": "I am beauty",
+        "category": "Website",
+        "image": "/portfolio/estetica-iambeauty.webp",
+        "url": "https://demo-estetica-iambeauty.vercel.app",
+        "description": "Unhas de gel, gelinho e pedicure com mais de 300 cores, e depilação definitiva com laser 5 ondas, acompanhada sessão a sessão.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Sintra",
+        "reviewCount": "203+",
+        "rating": "4.9"
+      },
+      {
         "id": "estetica-jsstudio",
         "name": "JS Studio",
         "category": "Website",
@@ -2867,7 +2885,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "142 projetos em 43 setores",
+    "projectCount": "143 projetos em 43 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
