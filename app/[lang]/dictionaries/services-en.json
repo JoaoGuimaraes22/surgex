@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Services | SurgeX",
-    "description": "Website, Google Maps, local SEO, automatic customer care, social media and campaigns for local businesses in Portugal — all built with AI, from €35/month. See what SurgeX does for you."
+    "description": "Website, Google Maps, local SEO, automatic customer care, social media and campaigns for local businesses in Portugal, built with AI, from €35/month."
   },
   "hub": {
     "label": "SERVICES",
@@ -122,7 +122,7 @@
           },
           {
             "title": "Fast and Affordable",
-            "text": "AI does the heavy lifting, so delivery takes 48 hours and costs a fraction of a traditional agency — 98% cheaper, in our experience."
+            "text": "AI does the heavy lifting, so delivery takes 48 hours and costs a fraction of a traditional agency."
           }
         ]
       },
@@ -156,7 +156,7 @@
       },
       "meta": {
         "title": "Online Presence — Website & Listings | SurgeX",
-        "description": "Premium bilingual website in 48 hours plus your business on Google Maps, Apple Maps, TripAdvisor and Bing. €500 setup, from €35/month. For local businesses across Portugal."
+        "description": "Premium bilingual website in 48 hours plus your business on Google Maps, Apple Maps, TripAdvisor and Bing. €500 setup, from €35/month, across Portugal."
       }
     },
     "get-found": {
@@ -281,7 +281,7 @@
         "items": [
           {
             "question": "Which plan includes this?",
-            "answer": "Get Found is part of the Growth plan at €65/month — everything in Presence (€35) plus continuous local SEO, GEO/AEO, the AI chatbot, WhatsApp button, automatic review requests and follow-ups. The first SEO optimisation is already included in the €500 setup."
+            "answer": "Get Found is part of the Growth plan at €65/month: everything in Presence (€35) plus continuous local SEO, GEO/AEO, the AI chatbot, WhatsApp button, Google review requests and follow-ups. The first SEO optimisation is already included in the €500 setup."
           },
           {
             "question": "How long until I see results?",
@@ -305,28 +305,28 @@
       },
       "meta": {
         "title": "Get Found — Local SEO & AI Search | SurgeX",
-        "description": "Local SEO and GEO/AEO for local businesses in Portugal: rank on Google Maps and appear in ChatGPT, Perplexity and Google AI answers. Included in the Growth plan, €65/month."
+        "description": "Local SEO and GEO/AEO for local businesses in Portugal: rank on Google Maps and appear in ChatGPT, Perplexity and Google AI answers. Growth plan, €65/month."
       }
     },
     "customer-care": {
       "tag": "03",
       "title": "Automatic Customer Care",
-      "shortDescription": "An AI chatbot on your site that knows your business, a WhatsApp button with your hours, automatic follow-ups on every request, review requests after each visit and a reply to every missed call. Every customer answered, even when you are busy.",
+      "shortDescription": "An AI chatbot on your site that knows your business, a WhatsApp button with your hours, automatic follow-ups on every request, and a Google review request ready to send after each visit. Every customer answered, even when you are busy.",
       "features": [
         "AI Chatbot Trained on Your Business",
         "WhatsApp Button With Hours",
-        "Automatic Follow-Ups & Review Requests",
-        "Missed-Call Reply"
+        "Automatic Follow-Ups",
+        "Google Review Kit: Link, QR & Messages"
       ],
       "hero": {
         "title": "Every Customer Answered. Even at 11pm.",
-        "subtitle": "An AI chatbot trained on your business, a WhatsApp button, automatic follow-ups, Google review requests and missed-call replies — working while you serve the customers in front of you.",
+        "subtitle": "An AI chatbot trained on your business, a WhatsApp button, automatic follow-ups and a Google review kit — working while you serve the customers in front of you.",
         "valueProp": "Included in the Growth plan — €65/month. No lock-in."
       },
       "description": {
         "label": "OVERVIEW",
         "headline": "What's Included.",
-        "text": "You lose customers in the gaps: the call you could not take, the message answered the next day, the quote nobody followed up, the happy client who never left a review. We close those gaps automatically. The chatbot answers in seconds in Portuguese and English, WhatsApp is one tap away, and every request, quote and visit gets the follow-up it deserves — without you lifting a finger.",
+        "text": "You lose customers in the gaps: the message answered the next day, the quote nobody followed up, the happy client who never left a review. We close those gaps. The chatbot answers in seconds in Portuguese and English, WhatsApp is one tap away, every request and quote gets its follow-up, and after each visit the review request is one tap away for you.",
         "highlights": [
           {
             "title": "AI Chatbot on Your Site",
@@ -341,8 +341,8 @@
             "text": "Every quote, booking or enquiry gets an automatic follow-up at the right moment, by WhatsApp or email. Fewer lost leads, no spreadsheet to remember."
           },
           {
-            "title": "Reviews & Missed Calls",
-            "text": "After each visit, a polite automatic request for a Google review. When you miss a call, the caller gets an instant message so they do not call the next business on the list."
+            "title": "More Google Reviews",
+            "text": "After each visit you send one ready-made WhatsApp message with your review link. We prepare the link, the printable QR for the counter and the messages in your tone, and we count the reviews every month."
           }
         ]
       },
@@ -353,22 +353,22 @@
           {
             "tag": "01",
             "title": "Restaurants & Cafés",
-            "text": "Reservation requests, group bookings and 'are you open today?' handled instantly. After the meal, a review request that fills your Google profile with five stars."
+            "text": "Reservation requests, group bookings and 'are you open today?' handled instantly. After the meal, one WhatsApp message with your review link, or the QR on the table."
           },
           {
             "tag": "02",
             "title": "Clinics, Dentists & Vets",
-            "text": "Appointment requests captured at any hour, reminders sent automatically, and post-visit review requests. Fewer no-shows, fuller schedules."
+            "text": "Appointment requests captured at any hour, the quote or booking followed up, and the review request ready to send after the visit. Fewer lost patients, fuller schedules."
           },
           {
             "tag": "03",
             "title": "Salons & Gyms",
-            "text": "Booking questions answered on the spot, missed calls turned into WhatsApp conversations, and lapsed clients gently reminded to come back."
+            "text": "Booking questions answered on the spot, the WhatsApp button where your clients already are, and a review link every happy client can use in ten seconds."
           },
           {
             "tag": "04",
             "title": "Trades & Auto Services",
-            "text": "You are under a car or on a roof — the chatbot takes the request, the missed-call reply keeps the customer, and the quote follow-up wins the job."
+            "text": "You are under a car or on a roof: the chatbot takes the request, the WhatsApp button keeps the customer close, and the quote follow-up wins the job."
           }
         ]
       },
@@ -385,7 +385,7 @@
           {
             "tag": "02",
             "title": "Train & Configure",
-            "description": "We train the chatbot on your business, set up the WhatsApp button and hours, and write the follow-up, reminder and review messages in your tone.",
+            "description": "We train the chatbot on your business, set up the WhatsApp button and hours, prepare your Google review link and QR, and write the follow-up and review messages in your tone.",
             "status": "PHASE_2"
           },
           {
@@ -408,15 +408,15 @@
         "items": [
           {
             "title": "No More Lost Customers",
-            "text": "Every enquiry gets an answer in seconds, every quote gets a follow-up, every missed call gets a reply. The customer who would have gone elsewhere stays with you."
+            "text": "Every enquiry gets an answer in seconds and every quote gets a follow-up. The customer who would have gone elsewhere stays with you."
           },
           {
             "title": "More Google Reviews",
-            "text": "Reviews decide who gets picked on the map. Asking automatically after every visit turns happy customers into public proof, consistently."
+            "text": "Reviews decide who gets picked on the map. Asking after every visit, with one ready message, turns happy customers into public proof, consistently."
           },
           {
             "title": "Hours Back Every Week",
-            "text": "The same ten questions, answered by the chatbot. Reminders and follow-ups sent by themselves. Time you get back for the work that pays."
+            "text": "The same ten questions, answered by the chatbot. Follow-ups sent by themselves. Time you get back for the work that pays."
           },
           {
             "title": "Sounds Like You",
@@ -438,23 +438,23 @@
           },
           {
             "question": "Does it work with WhatsApp?",
-            "answer": "Yes. The WhatsApp button links straight to your number with a pre-filled message, and follow-ups and missed-call replies can go by WhatsApp or email — whichever your customers use."
+            "answer": "Yes. The WhatsApp button links straight to your number with a pre-filled message, the review request goes out from your own WhatsApp, and follow-ups can go by WhatsApp or email, whichever your customers use."
           },
           {
-            "question": "Are automatic review requests allowed?",
-            "answer": "Yes, as long as you ask every customer the same way and never filter by satisfaction — which is exactly how we set it up. The result is more reviews, honestly earned."
+            "question": "Are review requests allowed?",
+            "answer": "Yes, as long as you ask every customer the same way, never filter by satisfaction and never offer anything in return. That is how the messages we prepare work. The result is more reviews, honestly earned."
           }
         ]
       },
       "cta": {
         "headline": "Ready to Answer Everyone?",
-        "text": "Count the calls you missed this week and the quotes you never chased. That is the revenue this service recovers. Let's switch it on.",
+        "text": "Count the messages you answered late this week and the quotes you never chased. That is the revenue this service recovers. Let's switch it on.",
         "buttonLabel": "Get In Touch",
         "buttonHref": "#contact"
       },
       "meta": {
         "title": "Automatic Customer Care — AI Chatbot & WhatsApp | SurgeX",
-        "description": "AI chatbot trained on your business, WhatsApp button, automatic follow-ups, Google review requests and missed-call replies for local businesses in Portugal. Growth plan, €65/month."
+        "description": "AI chatbot trained on your business, WhatsApp button, automatic follow-ups and a Google review kit for local businesses in Portugal. Growth plan, €65/month."
       }
     },
     "social-media": {
@@ -583,7 +583,7 @@
           },
           {
             "question": "How many posts per month?",
-            "answer": "Typically 8 to 12 posts across Instagram, Facebook and LinkedIn, depending on your business and what performs. Frequency is agreed in the calendar and adjusted as the numbers come in."
+            "answer": "Typically 8 to 9 posts a month, two a week, across Instagram, Facebook and LinkedIn. The frequency is agreed in the calendar and adjusted as the numbers come in."
           },
           {
             "question": "Will it look generic or AI-made?",
@@ -603,7 +603,7 @@
       },
       "meta": {
         "title": "Social Media & Content — Instagram, Facebook, LinkedIn | SurgeX",
-        "description": "Monthly calendar, AI-created posts and images in your brand voice, automatic publishing to Instagram, Facebook and LinkedIn, and a monthly report. Complete plan, €100/month."
+        "description": "Monthly calendar, AI-created posts and images in your brand voice, published automatically to Instagram, Facebook and LinkedIn. Complete plan, €100/month."
       }
     },
     "campaigns": {
@@ -752,7 +752,7 @@
       },
       "meta": {
         "title": "Campaigns & Outreach — Prospecting, Newsletters, Ads | SurgeX",
-        "description": "Automatic outreach by email and WhatsApp, newsletters and reactivation campaigns, and Google or Meta ads when they make sense — all measured. Complete plan, €100/month. Ad spend separate."
+        "description": "Automatic outreach by email and WhatsApp, newsletters, reactivation campaigns and Google or Meta ads when they make sense. Complete plan, €100/month."
       }
     }
   }

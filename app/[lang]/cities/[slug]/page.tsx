@@ -100,6 +100,14 @@ export default async function CityPage({
         name: "Portugal",
       },
     },
+    telephone: dict.metadata.phone,
+    email: dict.metadata.email,
+    image: `${siteUrl}/og-image.jpg`,
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Lisbon",
+      addressCountry: "PT",
+    },
     provider: {
       "@type": "Organization",
       name: "SurgeX",

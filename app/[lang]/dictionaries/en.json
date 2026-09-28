@@ -206,7 +206,7 @@
           "Everything In Presence",
           "Local SEO & AI Search",
           "AI Chatbot & WhatsApp",
-          "Automatic Review Requests",
+          "Google Review Requests",
           "Automatic Follow-ups"
         ],
         "status": "RECOMMENDED"
@@ -2856,7 +2856,7 @@
   "aboutPage": {
     "meta": {
       "title": "About SurgeX | AI-Powered Digital Marketing Agency in Lisbon",
-      "description": "Meet the founder of SurgeX, the Lisbon agency that puts local businesses online and brings them customers: website, Google Maps, SEO and social media, built with AI."
+      "description": "Meet the founder of SurgeX, the Lisbon agency that puts local businesses online and brings them customers: website, Google Maps, SEO and social media."
     },
     "hero": {
       "label": "ABOUT",
@@ -2880,7 +2880,7 @@
         },
         {
           "title": "Automatic Customer Care",
-          "description": "AI chatbot, WhatsApp button, automatic follow-ups and review requests — your customers get an answer 24/7.",
+          "description": "AI chatbot, WhatsApp button, automatic follow-ups and Google review requests: your customers get an answer 24/7.",
           "href": "/en/services/customer-care"
         },
         {
@@ -2968,7 +2968,7 @@
       },
       {
         "question": "What do I get for €35, €65 or €100 a month?",
-        "answer": "Presence (€35) keeps your site and listings hosted, secure and up to date, with small content changes and support. Growth (€65) adds ongoing local SEO and AI search visibility, an AI chatbot, a WhatsApp button, automatic review requests and follow-ups. Complete (€100) adds social media content published automatically, campaigns and newsletters, and a monthly results report."
+        "answer": "Presence (€35) keeps your site and listings hosted, secure and up to date, with small content changes and support. Growth (€65) adds ongoing local SEO and AI search visibility, an AI chatbot, a WhatsApp button, Google review requests and automatic follow-ups. Complete (€100) adds social media content published automatically, campaigns and newsletters, and a monthly results report."
       },
       {
         "question": "Can I change plan or cancel?",

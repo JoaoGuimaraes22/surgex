@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Serviços | SurgeX",
-    "description": "Website, Google Maps, SEO local, atendimento automático, redes sociais e campanhas para negócios locais em Portugal — tudo feito com IA, desde 35€/mês. Veja o que a SurgeX faz por si."
+    "description": "Website, Google Maps, SEO local, atendimento automático, redes sociais e campanhas para negócios locais em Portugal, tudo feito com IA, desde 35€/mês."
   },
   "hub": {
     "label": "SERVIÇOS",
@@ -122,7 +122,7 @@
           },
           {
             "title": "Rápido e Acessível",
-            "text": "A IA faz o trabalho pesado, por isso a entrega demora 48 horas e custa uma fração de uma agência tradicional — 98% mais barato, na nossa experiência."
+            "text": "A IA faz o trabalho pesado, por isso a entrega demora 48 horas e custa uma fração de uma agência tradicional."
           }
         ]
       },
@@ -156,7 +156,7 @@
       },
       "meta": {
         "title": "Presença Online — Website e Listagens | SurgeX",
-        "description": "Website premium bilingue em 48 horas mais o seu negócio no Google Maps, Apple Maps, TripAdvisor e Bing. Setup 500€, desde 35€/mês. Para negócios locais em todo o Portugal."
+        "description": "Website premium bilingue em 48 horas mais o seu negócio no Google Maps, Apple Maps, TripAdvisor e Bing. Setup 500€, desde 35€/mês, em todo o Portugal."
       }
     },
     "get-found": {
@@ -281,7 +281,7 @@
         "items": [
           {
             "question": "Que plano inclui este serviço?",
-            "answer": "Ser Encontrado faz parte do plano Crescimento, a 65€/mês — tudo o que está no Presença (35€) mais SEO local e GEO/AEO contínuos, chatbot IA, botão WhatsApp, pedidos de avaliação automáticos e follow-ups. A primeira otimização SEO já vem incluída no setup de 500€."
+            "answer": "Ser Encontrado faz parte do plano Crescimento, a 65€/mês: tudo o que está no Presença (35€) mais SEO local e GEO/AEO contínuos, chatbot IA, botão WhatsApp, pedidos de avaliação Google e follow-ups. A primeira otimização SEO já vem incluída no setup de 500€."
           },
           {
             "question": "Quanto tempo até ver resultados?",
@@ -305,28 +305,28 @@
       },
       "meta": {
         "title": "Ser Encontrado — SEO Local e Pesquisa com IA | SurgeX",
-        "description": "SEO local e GEO/AEO para negócios locais em Portugal: posicione-se no Google Maps e apareça nas respostas do ChatGPT, Perplexity e Google AI. Incluído no plano Crescimento, 65€/mês."
+        "description": "SEO local e GEO/AEO para negócios locais em Portugal: apareça no Google Maps e nas respostas do ChatGPT, Perplexity e Google AI. Plano Crescimento, 65€/mês."
       }
     },
     "customer-care": {
       "tag": "03",
       "title": "Atendimento Automático",
-      "shortDescription": "Um chatbot IA no site que conhece o seu negócio, um botão WhatsApp com horário, follow-ups automáticos a cada pedido, pedidos de avaliação depois de cada visita e resposta a todas as chamadas perdidas. Todos os clientes atendidos, mesmo quando está ocupado.",
+      "shortDescription": "Um chatbot IA no site que conhece o seu negócio, um botão WhatsApp com horário, follow-ups automáticos a cada pedido e um pedido de avaliação Google pronto a enviar depois de cada visita. Todos os clientes atendidos, mesmo quando está ocupado.",
       "features": [
         "Chatbot IA Treinado no Seu Negócio",
         "Botão WhatsApp com Horário",
-        "Follow-ups e Pedidos de Avaliação Automáticos",
-        "Resposta a Chamadas Perdidas"
+        "Follow-ups Automáticos",
+        "Kit de Avaliações Google: Link, QR e Mensagens"
       ],
       "hero": {
         "title": "Todos os Clientes Atendidos. Mesmo às 23h.",
-        "subtitle": "Um chatbot IA treinado no seu negócio, botão WhatsApp, follow-ups automáticos, pedidos de avaliação Google e resposta a chamadas perdidas — a trabalhar enquanto atende os clientes que tem à frente.",
+        "subtitle": "Um chatbot IA treinado no seu negócio, botão WhatsApp, follow-ups automáticos e um kit de avaliações Google — a trabalhar enquanto atende os clientes que tem à frente.",
         "valueProp": "Incluído no plano Crescimento — 65€/mês. Sem fidelização."
       },
       "description": {
         "label": "VISÃO GERAL",
         "headline": "O Que Está Incluído.",
-        "text": "Perde clientes nos intervalos: a chamada que não conseguiu atender, a mensagem respondida no dia seguinte, o orçamento que ninguém acompanhou, o cliente satisfeito que nunca deixou avaliação. Fechamos esses intervalos automaticamente. O chatbot responde em segundos em português e inglês, o WhatsApp está a um toque, e cada pedido, orçamento e visita recebe o seguimento que merece — sem que tenha de levantar um dedo.",
+        "text": "Perde clientes nos intervalos: a mensagem respondida no dia seguinte, o orçamento que ninguém acompanhou, o cliente satisfeito que nunca deixou avaliação. Fechamos esses intervalos. O chatbot responde em segundos em português e inglês, o WhatsApp está a um toque, cada pedido e orçamento recebe o seu follow-up, e depois de cada visita o pedido de avaliação fica a um toque para si.",
         "highlights": [
           {
             "title": "Chatbot IA no Seu Site",
@@ -341,8 +341,8 @@
             "text": "Cada orçamento, marcação ou pedido recebe um follow-up automático no momento certo, por WhatsApp ou email. Menos leads perdidos, sem folha de cálculo para lembrar."
           },
           {
-            "title": "Avaliações e Chamadas Perdidas",
-            "text": "Depois de cada visita, um pedido educado e automático de avaliação no Google. Quando perde uma chamada, quem ligou recebe uma mensagem imediata para não ligar ao negócio seguinte da lista."
+            "title": "Mais Avaliações no Google",
+            "text": "Depois de cada visita envia uma mensagem de WhatsApp já pronta com o seu link de avaliação. Nós preparamos o link, o QR para imprimir e pôr ao balcão e as mensagens no seu tom, e contamos as avaliações todos os meses."
           }
         ]
       },
@@ -353,22 +353,22 @@
           {
             "tag": "01",
             "title": "Restaurantes e Cafés",
-            "text": "Pedidos de reserva, grupos e 'estão abertos hoje?' tratados na hora. Depois da refeição, um pedido de avaliação que enche o seu perfil Google de cinco estrelas."
+            "text": "Pedidos de reserva, grupos e 'estão abertos hoje?' tratados na hora. Depois da refeição, uma mensagem de WhatsApp com o seu link de avaliação, ou o QR na mesa."
           },
           {
             "tag": "02",
             "title": "Clínicas, Dentistas e Veterinários",
-            "text": "Pedidos de consulta captados a qualquer hora, lembretes enviados automaticamente e pedidos de avaliação após a visita. Menos faltas, agenda mais cheia."
+            "text": "Pedidos de consulta captados a qualquer hora, o orçamento ou a marcação com follow-up, e o pedido de avaliação pronto a enviar depois da visita. Menos pacientes perdidos, agenda mais cheia."
           },
           {
             "tag": "03",
             "title": "Salões e Ginásios",
-            "text": "Dúvidas sobre marcações respondidas no momento, chamadas perdidas transformadas em conversas de WhatsApp e clientes inativos lembrados com delicadeza de voltar."
+            "text": "Dúvidas sobre marcações respondidas no momento, o botão WhatsApp onde os seus clientes já estão, e um link de avaliação que qualquer cliente satisfeito usa em dez segundos."
           },
           {
             "tag": "04",
             "title": "Oficinas e Serviços Técnicos",
-            "text": "Está debaixo de um carro ou em cima de um telhado — o chatbot recebe o pedido, a resposta à chamada perdida segura o cliente e o follow-up ao orçamento ganha o trabalho."
+            "text": "Está debaixo de um carro ou em cima de um telhado: o chatbot recebe o pedido, o botão WhatsApp mantém o cliente por perto e o follow-up ao orçamento ganha o trabalho."
           }
         ]
       },
@@ -385,7 +385,7 @@
           {
             "tag": "02",
             "title": "Treinar e Configurar",
-            "description": "Treinamos o chatbot no seu negócio, configuramos o botão WhatsApp e o horário e escrevemos as mensagens de follow-up, lembrete e avaliação no seu tom.",
+            "description": "Treinamos o chatbot no seu negócio, configuramos o botão WhatsApp e o horário, preparamos o seu link de avaliação Google e o QR, e escrevemos as mensagens de follow-up e de avaliação no seu tom.",
             "status": "PHASE_2"
           },
           {
@@ -408,15 +408,15 @@
         "items": [
           {
             "title": "Fim dos Clientes Perdidos",
-            "text": "Cada pedido tem resposta em segundos, cada orçamento tem follow-up, cada chamada perdida tem resposta. O cliente que teria ido a outro lado fica consigo."
+            "text": "Cada pedido tem resposta em segundos e cada orçamento tem follow-up. O cliente que teria ido a outro lado fica consigo."
           },
           {
             "title": "Mais Avaliações no Google",
-            "text": "As avaliações decidem quem é escolhido no mapa. Pedir automaticamente depois de cada visita transforma clientes satisfeitos em prova pública, de forma consistente."
+            "text": "As avaliações decidem quem é escolhido no mapa. Pedir depois de cada visita, com uma mensagem já pronta, transforma clientes satisfeitos em prova pública, de forma consistente."
           },
           {
             "title": "Horas de Volta Todas as Semanas",
-            "text": "As mesmas dez perguntas, respondidas pelo chatbot. Lembretes e follow-ups enviados sozinhos. Tempo que recupera para o trabalho que paga."
+            "text": "As mesmas dez perguntas, respondidas pelo chatbot. Follow-ups enviados sozinhos. Tempo que recupera para o trabalho que paga."
           },
           {
             "title": "Soa a Si",
@@ -438,23 +438,23 @@
           },
           {
             "question": "Funciona com WhatsApp?",
-            "answer": "Sim. O botão WhatsApp liga diretamente ao seu número com uma mensagem pré-preenchida, e os follow-ups e respostas a chamadas perdidas podem ir por WhatsApp ou email — o que os seus clientes usarem."
+            "answer": "Sim. O botão WhatsApp liga diretamente ao seu número com uma mensagem pré-preenchida, o pedido de avaliação sai do seu próprio WhatsApp, e os follow-ups podem ir por WhatsApp ou email, o que os seus clientes usarem."
           },
           {
-            "question": "Os pedidos de avaliação automáticos são permitidos?",
-            "answer": "Sim, desde que peça a todos os clientes da mesma forma e nunca filtre pela satisfação — que é exatamente como o configuramos. O resultado são mais avaliações, ganhas honestamente."
+            "question": "Os pedidos de avaliação são permitidos?",
+            "answer": "Sim, desde que peça a todos os clientes da mesma forma, nunca filtre pela satisfação e nunca ofereça nada em troca. É assim que as mensagens que preparamos funcionam. O resultado são mais avaliações, ganhas honestamente."
           }
         ]
       },
       "cta": {
         "headline": "Pronto Para Atender Toda a Gente?",
-        "text": "Conte as chamadas que perdeu esta semana e os orçamentos que nunca acompanhou. É essa a receita que este serviço recupera. Vamos ligá-lo.",
+        "text": "Conte as mensagens que respondeu tarde esta semana e os orçamentos que nunca acompanhou. É essa a receita que este serviço recupera. Vamos ligá-lo.",
         "buttonLabel": "Fale Connosco",
         "buttonHref": "#contact"
       },
       "meta": {
         "title": "Atendimento Automático — Chatbot IA e WhatsApp | SurgeX",
-        "description": "Chatbot IA treinado no seu negócio, botão WhatsApp, follow-ups automáticos, pedidos de avaliação Google e resposta a chamadas perdidas para negócios locais em Portugal. Plano Crescimento, 65€/mês."
+        "description": "Chatbot IA treinado no seu negócio, botão WhatsApp, follow-ups automáticos e kit de avaliações Google para negócios locais. Plano Crescimento, 65€/mês."
       }
     },
     "social-media": {
@@ -583,7 +583,7 @@
           },
           {
             "question": "Quantos posts por mês?",
-            "answer": "Normalmente 8 a 12 posts entre Instagram, Facebook e LinkedIn, consoante o seu negócio e o que funciona. A frequência é acordada no calendário e ajustada conforme os números chegam."
+            "answer": "Normalmente 8 a 9 posts por mês, dois por semana, entre Instagram, Facebook e LinkedIn. A frequência é acordada no calendário e ajustada conforme os números chegam."
           },
           {
             "question": "Vai parecer genérico ou feito por IA?",
@@ -603,7 +603,7 @@
       },
       "meta": {
         "title": "Redes Sociais & Conteúdo — Instagram, Facebook, LinkedIn | SurgeX",
-        "description": "Calendário mensal, posts e imagens criados com IA na voz da sua marca, publicação automática no Instagram, Facebook e LinkedIn e relatório mensal. Plano Completo, 100€/mês."
+        "description": "Calendário mensal, posts e imagens criados com IA na voz da sua marca, publicados automaticamente no Instagram, Facebook e LinkedIn. Plano Completo, 100€/mês."
       }
     },
     "campaigns": {
@@ -752,7 +752,7 @@
       },
       "meta": {
         "title": "Campanhas & Prospeção — Prospeção, Newsletters, Anúncios | SurgeX",
-        "description": "Prospeção automática por email e WhatsApp, newsletters e campanhas de reativação, e anúncios Google ou Meta quando fizer sentido — tudo medido. Plano Completo, 100€/mês. Anúncios à parte."
+        "description": "Prospeção automática por email e WhatsApp, newsletters, campanhas de reativação e anúncios Google ou Meta quando fizer sentido. Plano Completo, 100€/mês."
       }
     }
   }

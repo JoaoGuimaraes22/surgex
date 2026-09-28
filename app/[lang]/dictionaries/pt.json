@@ -206,7 +206,7 @@
           "Tudo da Presença",
           "SEO Local & Pesquisa IA",
           "Chatbot IA & WhatsApp",
-          "Pedidos de Avaliação Automáticos",
+          "Pedidos de Avaliação Google",
           "Follow-ups Automáticos"
         ],
         "status": "RECOMMENDED"
@@ -2880,7 +2880,7 @@
         },
         {
           "title": "Atendimento Automático",
-          "description": "Chatbot de IA, botão WhatsApp, follow-ups e pedidos de avaliação automáticos — os seus clientes têm resposta 24/7.",
+          "description": "Chatbot de IA, botão WhatsApp, follow-ups automáticos e pedidos de avaliação Google: os seus clientes têm resposta 24/7.",
           "href": "/pt/services/customer-care"
         },
         {
@@ -2968,7 +2968,7 @@
       },
       {
         "question": "O que recebo por 35€, 65€ ou 100€ por mês?",
-        "answer": "Presença (35€) mantém o site e as listagens alojados, seguros e atualizados, com pequenas alterações de conteúdo e suporte. Crescimento (65€) acrescenta SEO local e visibilidade na pesquisa com IA em contínuo, chatbot de IA, botão WhatsApp, pedidos de avaliação e follow-ups automáticos. Completo (100€) acrescenta redes sociais com publicação automática, campanhas e newsletters, e um relatório mensal de resultados."
+        "answer": "Presença (35€) mantém o site e as listagens alojados, seguros e atualizados, com pequenas alterações de conteúdo e suporte. Crescimento (65€) acrescenta SEO local e visibilidade na pesquisa com IA em contínuo, chatbot de IA, botão WhatsApp, pedidos de avaliação Google e follow-ups automáticos. Completo (100€) acrescenta redes sociais com publicação automática, campanhas e newsletters, e um relatório mensal de resultados."
       },
       {
         "question": "Posso mudar de plano ou cancelar?",
