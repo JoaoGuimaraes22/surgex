@@ -2491,6 +2491,24 @@
         "rating": "4.4"
       },
       {
+        "id": "vet-cvsintra",
+        "name": "Clínica Veterinária de Sintra",
+        "category": "Website",
+        "image": "/portfolio/vet-cvsintra.webp",
+        "url": "https://demo-vet-cvsintra.vercel.app",
+        "description": "Veterinary clinic in Sintra since 1995.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Sintra",
+        "reviewCount": "197+",
+        "rating": "4.8"
+      },
+      {
         "id": "vet-cvls",
         "name": "CVLS",
         "category": "Website",
@@ -2795,7 +2813,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "138 projects across 43 industries",
+    "projectCount": "139 projects across 43 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
