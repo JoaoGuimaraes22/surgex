@@ -2259,6 +2259,24 @@
         "rating": "4.8"
       },
       {
+        "id": "estetica-sunesthetic",
+        "name": "Sun & Esthetic",
+        "category": "Website",
+        "image": "/portfolio/estetica-sunesthetic.webp",
+        "url": "https://demo-estetica-sunesthetic.vercel.app",
+        "description": "O espaço de solário e estética da Soraia no Casal de São Brás, Amadora: solário desde 10 €, depilação a laser tripla onda com avaliação gratuita, unhas de gel, lifting de pestanas, tratamentos de rosto e massagens.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Amadora",
+        "reviewCount": "68+",
+        "rating": "5"
+      },
+      {
         "id": "lavagem-autobrilho",
         "name": "Auto Brilho - Lavagem de Automóveis",
         "category": "Website",
@@ -3137,7 +3155,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "157 projetos em 43 setores",
+    "projectCount": "158 projetos em 43 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

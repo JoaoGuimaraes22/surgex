@@ -524,6 +524,24 @@
         "rating": "4.8"
       },
       {
+        "id": "estetica-sunesthetic",
+        "name": "Sun & Esthetic",
+        "category": "Website",
+        "image": "/portfolio/estetica-sunesthetic.webp",
+        "url": "https://demo-estetica-sunesthetic.vercel.app",
+        "description": "Soraia's tanning and aesthetics studio in Casal de São Brás, Amadora: solarium from €10, triple-wave laser hair removal with a free assessment, gel nails, lash lift, facials and massages.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Amadora",
+        "reviewCount": "68+",
+        "rating": "5"
+      },
+      {
         "id": "lavagem-autobrilho",
         "name": "Auto Brilho - Lavagem de Automóveis",
         "category": "Website",
@@ -3137,7 +3155,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "157 projects across 43 industries",
+    "projectCount": "158 projects across 43 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
