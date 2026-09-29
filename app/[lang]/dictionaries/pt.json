@@ -2043,6 +2043,24 @@
         "rating": "5"
       },
       {
+        "id": "medspa-eva",
+        "name": "Eva Clínica Estética Avançada",
+        "category": "Website",
+        "image": "/portfolio/medspa-eva.webp",
+        "url": "https://demo-medspa-eva.vercel.app",
+        "description": "Depilação a laser e tratamentos de estética no centro de Oeiras.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Oeiras",
+        "reviewCount": "31+",
+        "rating": "4.2"
+      },
+      {
         "id": "estetica-iambeauty",
         "name": "I am beauty",
         "category": "Website",
@@ -3029,7 +3047,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "151 projetos em 43 setores",
+    "projectCount": "152 projetos em 43 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
