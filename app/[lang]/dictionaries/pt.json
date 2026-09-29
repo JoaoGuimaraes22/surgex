@@ -1934,6 +1934,24 @@
         "rating": "4.8"
       },
       {
+        "id": "vet-mimavet",
+        "name": "MimaVet — Centro Veterinário",
+        "category": "Website",
+        "image": "/portfolio/vet-mimavet.webp",
+        "url": "https://demo-vet-mimavet.vercel.app",
+        "description": "MimaVet, centro veterinário na Amadora desde 2018: consultas gerais e de especialidade, vacinação, análises, ecografia, endoscopia, cirurgias, banhos e tosquias MimaSpa e domicílios.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinária",
+        "location": "Amadora",
+        "reviewCount": "162+",
+        "rating": "4.8"
+      },
+      {
         "id": "vet-primetails",
         "name": "Prime Tails",
         "category": "Website",
@@ -3065,7 +3083,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "153 projetos em 43 setores",
+    "projectCount": "154 projetos em 43 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
