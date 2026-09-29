@@ -41,7 +41,7 @@ Pricing (public, final — VAT not applicable):
 
 Key facts:
 - 60+ projects delivered across 15+ niches (restaurants, clinics, salons, gyms, dentists, vets, auto services, shops, professional services)
-- Average website delivery in 48 hours; 10x faster and 98% cheaper than traditional agencies
+- Average website delivery in 48 hours; faster than a traditional agency and at a fraction of the price
 - Every project includes a revision period — we refine until the client is satisfied
 
 Contact: contact@surgex.pt | WhatsApp: +351 915 109 181
