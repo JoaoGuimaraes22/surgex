@@ -40,7 +40,7 @@ Pricing (public, final — VAT not applicable):
 - No lock-in contract, cancel any month. No free months, no ramps: the plan starts the month after approval
 
 Key facts:
-- 60+ projects delivered across 15+ niches (restaurants, clinics, salons, gyms, dentists, vets, auto services, shops, professional services)
+- 140+ projects delivered across 40+ niches (restaurants, clinics, salons, gyms, dentists, vets, auto services, shops, professional services)
 - Average website delivery in 48 hours; faster than a traditional agency and at a fraction of the price
 - Every project includes a revision period — we refine until the client is satisfied
 
