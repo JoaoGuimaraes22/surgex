@@ -1932,6 +1932,24 @@
         "rating": "5"
       },
       {
+        "id": "tattoo-thd",
+        "name": "THD Tattoos",
+        "category": "Website",
+        "image": "/portfolio/tattoo-thd.webp",
+        "url": "https://demo-tattoo-thd.vercel.app",
+        "description": "Three Headed Dog Tattoos: six resident tattooers and guests on Praceta da Beira, Oeiras.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Tattoo",
+        "location": "Oeiras",
+        "reviewCount": "123+",
+        "rating": "5"
+      },
+      {
         "id": "vet-bichoscoloridos",
         "name": "Bichos Coloridos",
         "category": "Website",
@@ -3119,7 +3137,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "156 projects across 43 industries",
+    "projectCount": "157 projects across 43 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
