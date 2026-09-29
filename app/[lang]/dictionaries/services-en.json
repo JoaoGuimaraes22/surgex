@@ -23,7 +23,7 @@
       "hero": {
         "title": "Your Business, Online in 48 Hours.",
         "subtitle": "A premium website plus your listings on Google Maps, Apple Maps, TripAdvisor and Bing — created, verified and kept up to date.",
-        "valueProp": "One €500 setup. From €35/month to keep it all running. No lock-in."
+        "valueProp": "From €35/month, from month 1. One €500 setup, billed in month 4. No lock-in."
       },
       "description": {
         "label": "OVERVIEW",
@@ -132,7 +132,7 @@
         "items": [
           {
             "question": "What does it cost?",
-            "answer": "Setup is €500 one-time: website, listings on Google Maps, Apple Maps, TripAdvisor and Bing, domain and email setup, and a first SEO optimisation. Half at the start, half when you approve the final version. Then the Presence plan at €35/month keeps it hosted, secure and up to date. No lock-in."
+            "answer": "Setup is €500 one-time: website, listings on Google Maps, Apple Maps, TripAdvisor and Bing, domain and email setup, and a first SEO optimisation. It is only billed in month 4, after three months of seeing the site work. The Presence plan at €35/month keeps it hosted, secure and up to date, and starts in month 1, when your site goes live on your domain. Leave before month 4 and you owe nothing (the site goes offline). No lock-in."
           },
           {
             "question": "How can you deliver a website in 48 hours?",
@@ -156,7 +156,7 @@
       },
       "meta": {
         "title": "Online Presence — Website & Listings | SurgeX",
-        "description": "Premium bilingual website in 48 hours plus your business on Google Maps, Apple Maps, TripAdvisor and Bing. €500 setup, from €35/month, across Portugal."
+        "description": "Premium bilingual website in 48 hours plus your business on Google Maps, Apple Maps, TripAdvisor and Bing. From €35/month; €500 setup billed in month 4. Across Portugal."
       }
     },
     "get-found": {

@@ -33,11 +33,13 @@ Services (five pillars):
 - Campaigns & Outreach: prospecting (email/WhatsApp to potential customers), newsletters and reactivation campaigns, Google/Meta ads when they make sense (ad spend is the client's own budget)
 
 Pricing (public, final — VAT not applicable):
-- Setup: 500€ one-time (half at kickoff, half on approval of the final site) — website in 48h + listings on Google Maps, Apple Maps, TripAdvisor, Bing + domain and email setup + first SEO pass
+- Setup: 500€ one-time, billed in month 4 (after three months of seeing the site work) — website in 48h + listings on Google Maps, Apple Maps, TripAdvisor, Bing + domain and email setup + first SEO pass
 - Presença / Presence: 35€/month — hosting, security and updates, listings kept up to date, small content changes, support
 - Crescimento / Growth (recommended): 65€/month — Presence + ongoing local SEO and GEO + AI chatbot + WhatsApp + automatic review requests + follow-ups
 - Completo / Complete: 100€/month — Growth + social media (calendar, AI posts and images, automatic publishing) + campaigns/prospecting/newsletters + monthly results report
-- No lock-in contract, cancel any month. No free months, no ramps: the plan starts the month after approval
+- The monthly plan starts in month 1, when the site goes live on the client's domain (after they approve the final version); nothing is paid before that
+- Leave before month 4 and the client owes nothing, not even the setup (the site goes offline); months already billed are not refunded
+- No lock-in: from month 4 cancel any time with 30 days' notice; the setup, once billed, is not refundable. No discounts on the monthly fee; never describe the site or setup as free
 
 Key facts:
 - 140+ projects delivered across 40+ niches (restaurants, clinics, salons, gyms, dentists, vets, auto services, shops, professional services)

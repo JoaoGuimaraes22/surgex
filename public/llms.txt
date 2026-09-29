@@ -19,11 +19,12 @@ Location: Lisbon, Portugal
 
 ## Pricing
 
-- Setup: 500€ one-time (half at kickoff, half on approval) — website in 48h, listings on Google Maps, Apple Maps, TripAdvisor and Bing, domain and email setup, first SEO pass
+- Setup: 500€ one-time, billed in month 4 (after three months of seeing the site work) — website in 48h, listings on Google Maps, Apple Maps, TripAdvisor and Bing, domain and email setup, first SEO pass
 - Presence: 35€/month — hosting, updates, listings kept current, support
 - Growth (recommended): 65€/month — Presence + local SEO and GEO, AI chatbot, WhatsApp, review requests, follow-ups
 - Complete: 100€/month — Growth + social media, campaigns and newsletters, monthly results report
-- No lock-in contract. Ad spend is always the client's own budget.
+- The monthly plan starts in month 1, when the site goes live on the client's domain. Leave before month 4 and you owe nothing (the site goes offline).
+- No lock-in: from month 4, cancel any time with 30 days' notice. Ad spend is always the client's own budget.
 
 ## Blog
 

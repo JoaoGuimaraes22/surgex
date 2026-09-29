@@ -4,7 +4,7 @@ SurgeX is an AI-powered digital marketing agency for local businesses in Portuga
 
 AI is the engine, not the product. It is how one engineer delivers what used to take an agency team, which is why the price is a fraction of the usual — we never sell "AI" for its own sake.
 
-Commercial model: €500 setup (half at kickoff, half on approval of the final site), then one of three monthly plans — Presença €35 (hosting, listings kept up to date, support), Crescimento €65 (+ local SEO/GEO, chatbot, WhatsApp, reviews, follow-ups), Completo €100 (+ social media, campaigns, monthly report). No contract lock-in. Ad spend is always the client's own budget.
+Commercial model: one of three monthly plans from month 1 (it starts when the site goes live on the client's domain; nothing is paid before that) — Presença €35 (hosting, listings kept up to date, support), Crescimento €65 (+ local SEO/GEO, chatbot, WhatsApp, reviews, follow-ups), Completo €100 (+ social media, campaigns, monthly report). One-time €500 setup, billed in month 4, after three months of the client seeing the site work; leave before month 4 and they owe nothing (the site goes offline). No lock-in: from month 4, cancel any time with 30 days' notice; billed amounts are not refundable. Ad spend is always the client's own budget.
 
 Process: listen (15 min about the business and where customers come from today) → launch (site + listings in 48h) → activate (customer care, SEO, social, campaigns per plan) → grow (monthly report; scale what works, drop what doesn't).
 

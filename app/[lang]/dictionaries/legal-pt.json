@@ -118,7 +118,8 @@
       {
         "title": "Condições de Pagamento",
         "content": [
-          "As condições de pagamento são definidas na proposta comercial ou contrato celebrado com cada cliente. Salvo acordo em contrário, é solicitado um pagamento inicial de 50% do valor total antes do início do projeto, sendo o restante devido após a entrega final.",
+          "As condições de pagamento são definidas na proposta comercial ou contrato celebrado com cada cliente. Salvo acordo em contrário, o plano mensal é faturado a partir do mês em que o website fica online no domínio do cliente, após a aprovação da versão final, não sendo devido qualquer valor antes dessa data. O valor de arranque (setup) é faturado uma única vez, no 4.º mês de serviço.",
+          "Caso o cliente cesse o serviço antes do 4.º mês, não é devido o valor de arranque nem qualquer outro montante além dos meses já faturados, sendo o website retirado do ar. Os valores já faturados, incluindo o valor de arranque após a sua faturação, não são reembolsáveis.",
           "Em caso de atraso no pagamento superior a 15 dias, a SurgeX reserva-se o direito de suspender os trabalhos em curso até à regularização do valor em dívida. O incumprimento reiterado poderá resultar na resolução do contrato, sem prejuízo do direito a receber os valores devidos pelo trabalho já executado."
         ]
       },
@@ -132,7 +133,7 @@
       {
         "title": "Rescisão",
         "content": [
-          "Qualquer uma das partes pode rescindir o contrato de prestação de serviços mediante comunicação escrita com um pré-aviso de 15 dias. Em caso de rescisão pelo cliente, são devidos os valores correspondentes ao trabalho já executado até à data da rescisão.",
+          "Os serviços não têm período de fidelização. Antes do 4.º mês, o cliente pode cessar o serviço a qualquer momento, nos termos da secção Condições de Pagamento. A partir do 4.º mês, qualquer uma das partes pode rescindir o contrato de prestação de serviços mediante comunicação escrita com um pré-aviso de 30 dias, sendo devidos os valores faturados até ao termo desse prazo.",
           "A SurgeX pode resolver o contrato com efeitos imediatos em caso de incumprimento grave por parte do cliente, nomeadamente falta de pagamento ou violação de obrigações contratuais essenciais."
         ]
       },

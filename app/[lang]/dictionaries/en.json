@@ -161,7 +161,7 @@
   "pricing": {
     "label": "PRICING",
     "headline": "Simple Pricing.",
-    "description": "One setup fee, then a monthly plan you can cancel anytime. No hidden fees, no surprises.",
+    "description": "A monthly plan from month 1, and a setup you only pay in month 4, after seeing the site work. No lock-in, no hidden fees, no surprises.",
     "plans": [
       {
         "id": "setup",
@@ -169,7 +169,7 @@
         "title": "Setup",
         "price": "€500",
         "period": "one-time",
-        "description": "Everything to get your business online in 48 hours. Half at the start, half on approval of the final version.",
+        "description": "Everything to get your business online in 48 hours. Billed in month 4, after three months of seeing the site work.",
         "features": [
           "Website In 48h",
           "Google Maps Listing",
@@ -229,7 +229,7 @@
       }
     ],
     "cta": "Start a Project",
-    "note": "Each plan includes exactly what is listed — nothing hidden to add later. No contract: cancel whenever you want. The monthly plan starts once you approve the site. Ad spend on Google or Meta is always extra and comes from your own budget."
+    "note": "Each plan includes exactly what is listed — nothing hidden to add later. The monthly plan starts in month 1, when your site goes live on your domain; before that you pay nothing. The setup is only billed in month 4: leave before month 4 and you owe nothing (the site goes offline). No lock-in: from month 4 you can cancel whenever you want, with 30 days' notice. Ad spend on Google or Meta is always extra and comes from your own budget."
   },
   "portfolio": {
     "label": "WORK",
@@ -3270,7 +3270,7 @@
       },
       {
         "question": "What does the €500 setup include?",
-        "answer": "A premium bilingual website delivered in 48 hours, your business listed on Google Maps (Google Business Profile), Apple Maps, TripAdvisor and Bing, domain and email set up, and a first SEO optimization. You pay half at the start and half when you approve the final version."
+        "answer": "A premium bilingual website delivered in 48 hours, your business listed on Google Maps (Google Business Profile), Apple Maps, TripAdvisor and Bing, domain and email set up, and a first SEO optimization. Nothing is paid upfront: the monthly plan starts when your site goes live on your domain, and the €500 setup is only billed in month 4, after three months of seeing the site work. Leave before month 4 and you owe nothing (the site goes offline)."
       },
       {
         "question": "What do I get for €35, €65 or €100 a month?",
@@ -3278,7 +3278,7 @@
       },
       {
         "question": "Can I change plan or cancel?",
-        "answer": "Yes, at any time. There is no contract and no minimum period. Move up when you want more, move down when you want less, or cancel — no questions asked."
+        "answer": "Yes. You can change plan at any time: move up when you want more, move down when you want less. There is no lock-in. Leave before month 4 and you owe nothing (not even the setup) and the site goes offline; from month 4 you can cancel whenever you want, with 30 days' notice. Months already billed, and the setup once billed, are not refundable."
       },
       {
         "question": "Do I need to understand AI to work with you?",

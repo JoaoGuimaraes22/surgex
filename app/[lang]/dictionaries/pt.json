@@ -161,7 +161,7 @@
   "pricing": {
     "label": "PREÇOS",
     "headline": "Preços Simples.",
-    "description": "Um valor de arranque, depois uma mensalidade que pode cancelar quando quiser. Sem taxas escondidas, sem surpresas.",
+    "description": "Uma mensalidade desde o 1.º mês e um setup que só se paga no 4.º mês, depois de ver o site a trabalhar. Sem fidelização, sem taxas escondidas, sem surpresas.",
     "plans": [
       {
         "id": "setup",
@@ -169,7 +169,7 @@
         "title": "Setup",
         "price": "500€",
         "period": "único",
-        "description": "Tudo para pôr o seu negócio online em 48 horas. Metade no arranque, metade na aprovação da versão final.",
+        "description": "Tudo para pôr o seu negócio online em 48 horas. Faturado só no 4.º mês, depois de 3 meses a ver o site a trabalhar.",
         "features": [
           "Website em 48h",
           "Listagem Google Maps",
@@ -229,7 +229,7 @@
       }
     ],
     "cta": "Iniciar Projeto",
-    "note": "Cada plano inclui exatamente o que está listado — nada escondido para acrescentar depois. Sem fidelização: cancela quando quiser. A mensalidade começa assim que aprova o site. O investimento em anúncios Google ou Meta é sempre à parte e sai do seu próprio orçamento."
+    "note": "Cada plano inclui exatamente o que está listado — nada escondido para acrescentar depois. A mensalidade começa no 1.º mês, quando o site fica online no seu domínio; antes disso não paga nada. O setup só se paga no 4.º mês: se não servir, sai antes e não deve nada (o site sai do ar). Sem fidelização: a partir do 4.º mês cancela quando quiser, com 30 dias de aviso. O investimento em anúncios Google ou Meta é sempre à parte e sai do seu próprio orçamento."
   },
   "portfolio": {
     "label": "TRABALHO",
@@ -3270,7 +3270,7 @@
       },
       {
         "question": "O que inclui o setup de 500€?",
-        "answer": "Um website premium bilingue entregue em 48 horas, o seu negócio listado no Google Maps (Google Business Profile), Apple Maps, TripAdvisor e Bing, configuração de domínio e email, e uma primeira otimização SEO. Paga metade no arranque e metade quando aprova a versão final."
+        "answer": "Um website premium bilingue entregue em 48 horas, o seu negócio listado no Google Maps (Google Business Profile), Apple Maps, TripAdvisor e Bing, configuração de domínio e email, e uma primeira otimização SEO. Não paga nada à cabeça: a mensalidade começa quando o site fica online no seu domínio, e os 500€ do setup só são faturados no 4.º mês, depois de 3 meses a ver o site a trabalhar. Se sair antes do 4.º mês, não deve nada (o site sai do ar)."
       },
       {
         "question": "O que recebo por 35€, 65€ ou 100€ por mês?",
@@ -3278,7 +3278,7 @@
       },
       {
         "question": "Posso mudar de plano ou cancelar?",
-        "answer": "Sim, a qualquer momento. Não há fidelização nem período mínimo. Sobe quando quiser mais, desce quando quiser menos, ou cancela — sem perguntas."
+        "answer": "Sim. Pode mudar de plano a qualquer momento: sobe quando quiser mais, desce quando quiser menos. Não há fidelização. Se sair antes do 4.º mês, não deve nada (nem o setup) e o site sai do ar; a partir do 4.º mês cancela quando quiser, com 30 dias de aviso. Os meses já faturados e o setup, depois de faturado, não são reembolsáveis."
       },
       {
         "question": "Preciso de perceber de IA para trabalhar convosco?",

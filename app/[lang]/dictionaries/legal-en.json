@@ -120,7 +120,8 @@
       {
         "title": "Payment Terms",
         "content": [
-          "Payment terms are defined in each individual project agreement. Unless otherwise specified, SurgeX typically requires a deposit before work begins, with the remaining balance due upon project completion or according to agreed milestones.",
+          "Payment terms are defined in each individual project agreement. Unless otherwise specified, the monthly plan is billed from the month in which the website goes live on the client's domain, following approval of the final version, and nothing is due before that date. The one-time setup fee is billed once, in the fourth month of service.",
+          "If the client ends the service before the fourth month, the setup fee is not due, nor is any amount beyond the months already billed, and the website is taken offline. Amounts already billed, including the setup fee once billed, are non-refundable.",
           "All invoices are payable within 30 days of issuance unless otherwise stated. Late payments may incur interest at the rate permitted under Portuguese law. SurgeX reserves the right to suspend work on a project if payments are significantly overdue."
         ]
       },
@@ -134,8 +135,8 @@
       {
         "title": "Termination",
         "content": [
-          "Either party may terminate a project agreement by providing written notice as specified in that agreement. If no termination clause is specified, either party may terminate with 30 days' written notice.",
-          "Upon termination, the client shall pay for all work completed up to the date of termination. SurgeX will deliver any completed work and materials to the client upon receipt of outstanding payments. Provisions regarding intellectual property, limitation of liability, and governing law survive termination."
+          "There is no lock-in period. Before the fourth month, the client may end the service at any time, as set out under Payment Terms. From the fourth month, either party may terminate by providing 30 days' written notice, unless the project agreement specifies otherwise; amounts billed up to the end of the notice period remain due.",
+          "Upon termination, the client shall pay any amounts already billed. SurgeX will deliver any completed work and materials to the client upon receipt of outstanding payments. Provisions regarding intellectual property, limitation of liability, and governing law survive termination."
         ]
       },
       {
