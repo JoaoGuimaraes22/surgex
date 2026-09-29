@@ -1424,6 +1424,24 @@
         "rating": "4.8"
       },
       {
+        "id": "mechanic-zechapas",
+        "name": "Zé Chapas",
+        "category": "Website",
+        "image": "/portfolio/mechanic-zechapas.webp",
+        "url": "https://demo-mechanic-zechapas.vercel.app",
+        "description": "A two-person exhaust shop in the historic centre of Oeiras for more than 30 years.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Oeiras",
+        "reviewCount": "91+",
+        "rating": "4.5"
+      },
+      {
         "id": "clinic-cmeoeiras",
         "name": "Centro Médico e Enfermagem de Oeiras",
         "category": "Website",
@@ -3101,7 +3119,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "155 projects across 43 industries",
+    "projectCount": "156 projects across 43 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

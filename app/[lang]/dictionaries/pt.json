@@ -596,6 +596,24 @@
         "rating": "4.8"
       },
       {
+        "id": "mechanic-zechapas",
+        "name": "Zé Chapas",
+        "category": "Website",
+        "image": "/portfolio/mechanic-zechapas.webp",
+        "url": "https://demo-mechanic-zechapas.vercel.app",
+        "description": "Oficina de escapes no centro histórico de Oeiras há mais de 30 anos.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Oeiras",
+        "reviewCount": "91+",
+        "rating": "4.5"
+      },
+      {
         "id": "clinic-cmeoeiras",
         "name": "Centro Médico e Enfermagem de Oeiras",
         "category": "Website",
@@ -3101,7 +3119,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "155 projetos em 43 setores",
+    "projectCount": "156 projetos em 43 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
