@@ -560,6 +560,24 @@
         "rating": "4.4"
       },
       {
+        "id": "detailing-sergios",
+        "name": "Sérgio's CarWash&Detail",
+        "category": "Website",
+        "image": "/portfolio/detailing-sergios.webp",
+        "url": "https://demo-detailing-sergios.vercel.app",
+        "description": "Hand car wash, upholstery cleaning, polishing and detailing at Parque Holanda, Carnaxide.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Auto Detailing",
+        "location": "Carnaxide",
+        "reviewCount": "58+",
+        "rating": "4.9"
+      },
+      {
         "id": "stand-autopromocao",
         "name": "Auto Promoção",
         "category": "Website",
@@ -3011,7 +3029,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "150 projects across 43 industries",
+    "projectCount": "151 projects across 43 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

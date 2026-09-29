@@ -2223,6 +2223,24 @@
         "rating": "4.4"
       },
       {
+        "id": "detailing-sergios",
+        "name": "Sérgio's CarWash&Detail",
+        "category": "Website",
+        "image": "/portfolio/detailing-sergios.webp",
+        "url": "https://demo-detailing-sergios.vercel.app",
+        "description": "Lavagem à mão, limpeza de estofos, polimento e detalhe automóvel no Parque Holanda, em Carnaxide.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Detailing Auto",
+        "location": "Carnaxide",
+        "reviewCount": "58+",
+        "rating": "4.9"
+      },
+      {
         "id": "stand-autopromocao",
         "name": "Auto Promoção",
         "category": "Website",
@@ -3011,7 +3029,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "150 projetos em 43 setores",
+    "projectCount": "151 projetos em 43 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
