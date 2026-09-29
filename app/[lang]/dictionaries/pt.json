@@ -2115,6 +2115,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-espumadepetalas",
+        "name": "Espuma de Pétalas",
+        "category": "Website",
+        "image": "/portfolio/estetica-espumadepetalas.webp",
+        "url": "https://demo-estetica-espumadepetalas.vercel.app",
+        "description": "Centro de estética avançada em Lourel, Sintra, desde 2010: lifting não cirúrgico HIFU 7D para rosto e corpo, fios absorvíveis, o ritual corporal RenovaCorpoDetox, tratamentos faciais profissionais e massagem.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Sintra",
+        "reviewCount": "42+",
+        "rating": "4.8"
+      },
+      {
         "id": "medspa-eva",
         "name": "Eva Clínica Estética Avançada",
         "category": "Website",
@@ -3155,7 +3173,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "158 projetos em 43 setores",
+    "projectCount": "159 projetos em 43 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

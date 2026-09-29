@@ -380,6 +380,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-espumadepetalas",
+        "name": "Espuma de Pétalas",
+        "category": "Website",
+        "image": "/portfolio/estetica-espumadepetalas.webp",
+        "url": "https://demo-estetica-espumadepetalas.vercel.app",
+        "description": "Advanced aesthetics centre in Lourel, Sintra, since 2010: HIFU 7D non-surgical lifting for face and body, absorbable threads, the RenovaCorpoDetox body ritual, professional facials and massage.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Sintra",
+        "reviewCount": "42+",
+        "rating": "4.8"
+      },
+      {
         "id": "medspa-eva",
         "name": "Eva Clínica Estética Avançada",
         "category": "Website",
@@ -3155,7 +3173,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "158 projects across 43 industries",
+    "projectCount": "159 projects across 43 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
