@@ -2601,6 +2601,24 @@
         "rating": "4.6"
       },
       {
+        "id": "dentist-crespocarvalho",
+        "name": "Clínica Geral e Dentária JM Crespo de Carvalho",
+        "category": "Website",
+        "image": "/portfolio/dentist-crespocarvalho.webp",
+        "url": "https://demo-dentist-crespocarvalho.vercel.app",
+        "description": "Clínica geral e dentária familiar no centro da Amadora, junto à estação.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Dentista",
+        "location": "Amadora",
+        "reviewCount": "88+",
+        "rating": "4.7"
+      },
+      {
         "id": "dogcare-citydog",
         "name": "CityDog",
         "category": "Website",
@@ -3047,7 +3065,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "152 projetos em 43 setores",
+    "projectCount": "153 projetos em 43 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
