@@ -1226,6 +1226,24 @@
         "rating": "4.4"
       },
       {
+        "id": "lavandaria-silvia",
+        "name": "Lavandaria da Sílvia",
+        "category": "Website",
+        "image": "/portfolio/lavandaria-silvia.webp",
+        "url": "https://demo-lavandaria-silvia.vercel.app",
+        "description": "Neighbourhood laundry and dry cleaner on Rua do Conde de Redondo, Lisbon: dry cleaning, leather, rugs, laundry by the kilo, ironing, alterations and zips.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Laundry",
+        "location": "Lisboa",
+        "reviewCount": "74+",
+        "rating": "4.3"
+      },
+      {
         "id": "lavandaria-splashwash",
         "name": "Lavandaria Splashwash",
         "category": "Website",
@@ -3083,7 +3101,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "154 projects across 43 industries",
+    "projectCount": "155 projects across 43 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

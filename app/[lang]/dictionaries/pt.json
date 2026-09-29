@@ -398,6 +398,24 @@
         "rating": "4.4"
       },
       {
+        "id": "lavandaria-silvia",
+        "name": "Lavandaria da Sílvia",
+        "category": "Website",
+        "image": "/portfolio/lavandaria-silvia.webp",
+        "url": "https://demo-lavandaria-silvia.vercel.app",
+        "description": "Lavandaria de bairro na Rua do Conde de Redondo, em Lisboa: limpeza a seco, peles, carpetes, roupa ao quilo, engomadoria, arranjos e fechos.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Lavandaria",
+        "location": "Lisboa",
+        "reviewCount": "74+",
+        "rating": "4.3"
+      },
+      {
         "id": "lavandaria-splashwash",
         "name": "Lavandaria Splashwash",
         "category": "Website",
@@ -3083,7 +3101,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "154 projetos em 43 setores",
+    "projectCount": "155 projetos em 43 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
