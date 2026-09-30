@@ -1496,6 +1496,24 @@
         "rating": "4.8"
       },
       {
+        "id": "mechanic-udiel",
+        "name": "Udiel",
+        "category": "Website",
+        "image": "/portfolio/mechanic-udiel.webp",
+        "url": "https://demo-mechanic-udiel.vercel.app",
+        "description": "Independent multi-brand workshop in Vila Nova de Gaia: the fault other garages couldn't find, an estimate before we see the car, a fair price.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Vila Nova de Gaia",
+        "reviewCount": "74+",
+        "rating": "4.8"
+      },
+      {
         "id": "mechanic-zechapas",
         "name": "Zé Chapas",
         "category": "Website",
@@ -3227,7 +3245,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "162 projects across 43 industries",
+    "projectCount": "163 projects across 43 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
