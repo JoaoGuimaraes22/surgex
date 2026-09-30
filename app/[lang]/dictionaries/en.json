@@ -2923,6 +2923,24 @@
         "rating": "4.4"
       },
       {
+        "id": "vet-galiza",
+        "name": "Clínica Veterinária da Galiza",
+        "category": "Website",
+        "image": "/portfolio/vet-galiza.webp",
+        "url": "https://demo-vet-galiza.vercel.app",
+        "description": "Small-animal veterinary clinic at Rua Calouste Gulbenkian 105, Porto.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Porto",
+        "reviewCount": "202+",
+        "rating": "4.7"
+      },
+      {
         "id": "vet-mafamude",
         "name": "Clínica Veterinária de Mafamude",
         "category": "Website",
@@ -3281,7 +3299,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "165 projects across 43 industries",
+    "projectCount": "166 projects across 43 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
