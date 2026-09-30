@@ -902,6 +902,24 @@
         "rating": "4.7"
       },
       {
+        "id": "danca-swaggadem",
+        "name": "Swagga Dem",
+        "category": "Website",
+        "image": "/portfolio/danca-swaggadem.webp",
+        "url": "https://demo-danca-swaggadem.vercel.app",
+        "description": "Cláudia Oliveira's dancehall school in Amadora since 2017 (the crew since 2010): five groups from age 5 to 55+ — Pikis, Kids, Teens, Crew and Mamis.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Dance School",
+        "location": "Amadora",
+        "reviewCount": "10+",
+        "rating": "5"
+      },
+      {
         "id": "dentist-tamissa",
         "name": "Centro Dentário Dr. Luís Tamissa",
         "category": "Website",
@@ -3173,7 +3191,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "159 projects across 43 industries",
+    "projectCount": "160 projects across 43 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
