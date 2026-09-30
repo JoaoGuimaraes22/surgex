@@ -488,6 +488,24 @@
         "rating": "4.8"
       },
       {
+        "id": "coach-liriaguedes",
+        "name": "Liria Guedes",
+        "category": "Website",
+        "image": "/portfolio/coach-liriaguedes.webp",
+        "url": "https://demo-coach-liriaguedes.vercel.app",
+        "description": "Liria Guedes, life coach e terapeuta em Lisboa.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Coaching de Vida",
+        "location": "Lisboa",
+        "reviewCount": "11+",
+        "rating": "5"
+      },
+      {
         "id": "chaves-massama",
         "name": "Casa das Chaves de Massamá",
         "category": "Website",
@@ -3222,6 +3240,10 @@
         "label": "Lavandaria"
       },
       {
+        "id": "life-coach",
+        "label": "Coaching de Vida"
+      },
+      {
         "id": "locksmith",
         "label": "Chaves e Fechaduras"
       },
@@ -3299,7 +3321,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "166 projetos em 43 setores",
+    "projectCount": "167 projetos em 44 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

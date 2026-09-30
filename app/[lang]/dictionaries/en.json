@@ -1424,6 +1424,24 @@
         "rating": "4.8"
       },
       {
+        "id": "coach-liriaguedes",
+        "name": "Liria Guedes",
+        "category": "Website",
+        "image": "/portfolio/coach-liriaguedes.webp",
+        "url": "https://demo-coach-liriaguedes.vercel.app",
+        "description": "Liria Guedes, life coach and therapist in Lisbon.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Life Coach",
+        "location": "Lisboa",
+        "reviewCount": "11+",
+        "rating": "5"
+      },
+      {
         "id": "chaves-massama",
         "name": "Casa das Chaves de Massamá",
         "category": "Website",
@@ -3222,6 +3240,10 @@
         "label": "Laundry"
       },
       {
+        "id": "life-coach",
+        "label": "Life Coach"
+      },
+      {
         "id": "locksmith",
         "label": "Locksmith"
       },
@@ -3299,7 +3321,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "166 projects across 43 industries",
+    "projectCount": "167 projects across 44 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
