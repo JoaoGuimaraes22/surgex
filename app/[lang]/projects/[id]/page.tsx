@@ -42,6 +42,9 @@ export async function generateMetadata({
   return {
     title,
     description,
+    // Demo pages are thin (~90 words) and ranked for the demo businesses' own
+    // names; kept for visitors, out of the index (GSC pass 2026-09-30).
+    robots: { index: false, follow: true },
     alternates: {
       canonical: `${siteUrl}/${lang}/projects/${id}`,
       languages: {

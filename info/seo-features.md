@@ -20,7 +20,7 @@
 - [x] `<html lang>` attribute per locale
 - [x] Single H1 per page
 - [x] Dynamic `robots.txt` allowing all crawlers
-- [x] Dynamic `sitemap.xml` with hreflang alternates (homepage, 60 projects, 8 blog posts, 6 services, 1 city — 179 static pages)
+- [x] Dynamic `sitemap.xml` with hreflang alternates (home, about, projects index, services + 5 pillars, blog + posts, 1 city — 46 URLs on 2026-09-30); project detail pages are `noindex` and left out, `lastModified` only on blog posts
 - [x] 404 page has `noindex` robots directive
 - [x] Favicon set (ico, 96px, apple-touch, manifest icons)
 - [x] PWA manifest with maskable icons

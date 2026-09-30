@@ -103,10 +103,12 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
     ...(dict.metadata.address && {
       address: {
         "@type": "PostalAddress",
-        streetAddress: dict.metadata.address,
+        addressLocality: dict.metadata.address,
         addressCountry: "PT",
       },
     }),
+    // Service-area business: no storefront, serves the whole country.
+    areaServed: { "@type": "Country", name: "Portugal" },
     ...(dict.metadata.geo && {
       geo: {
         "@type": "GeoCoordinates",

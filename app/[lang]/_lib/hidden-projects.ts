@@ -1,8 +1,8 @@
 /**
  * Demo projects kept out of the public site while their prospect is in active
  * talks (they shouldn't find "their" demo on surgex.pt before we've closed).
- * Single source of truth — gallery, sitemap, project pages, city pages and the
- * projects index all filter through here. Remove an id once the deal is done.
+ * Single source of truth — gallery, project pages, city pages and the projects
+ * index all filter through here. Remove an id once the deal is done.
  */
 export const HIDDEN_PROJECT_IDS: readonly string[] = [
   "revicar",

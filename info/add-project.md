@@ -81,4 +81,4 @@ Pick from: `Web Design`, `SEO`, `Google Reviews Integration`, `Multi-language`, 
 - Projects are grouped by niche on the page — the gallery component groups by `niche` field
 - Section IDs on the page use the `nicheNav[].id` (English-based), not the translated niche name
 - Homepage shows first 6 unique niches from the portfolio array — reorder if you want different homepage representation
-- Sitemap auto-generates from the portfolio array — no manual sitemap changes needed
+- Project pages are `noindex` and not in the sitemap (2026-09-30) — no sitemap changes needed

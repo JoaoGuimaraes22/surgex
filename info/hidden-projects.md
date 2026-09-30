@@ -4,25 +4,12 @@ Projects hidden from the portfolio while prospects are in active sales conversat
 
 ## Currently Hidden
 
-- `revicar` — Revicar (interested, 2026-04-15)
-- `vet-lpda` — LPDA Carcavelos (interested, 2026-04-15)
-- `laundry-grace` — Grace Laundry (interested, 2026-04-15)
-- `barbershop-specialone` — Special One Barbershop (interested, 2026-04-15)
-- `harvey` — Harvey Cabeleireiro (interested, 2026-04-15, meeting 2026-04-16 11h30)
+The list lives in code: `HIDDEN_PROJECT_IDS` in `app/[lang]/_lib/hidden-projects.ts` (2026-09-30: `revicar`, `laundry-grace`, `barbershop-specialone`, `harvey`, `mm-detalhe`, `autobody-jpautopaint`).
 
 ## How to Add/Remove
 
-Search for `HIDDEN_IDS` across these 4 files:
+Add or remove the id (from the dict `portfolio.projects` array) in `HIDDEN_PROJECT_IDS` — the one source. The homepage grid, the /projects gallery and index, the project pages (and their static params) and the city pages all filter through `visibleProjects` / `isHiddenProject`.
 
-1. `app/[lang]/_components/portfolio.tsx` — homepage featured grid
-2. `app/[lang]/_components/projects-gallery.tsx` — /projects gallery page
-3. `app/[lang]/projects/[id]/page.tsx` — individual project detail + static params
-4. `app/sitemap.ts` — XML sitemap
-
-Each file has a `HIDDEN_IDS` array at the top. Add or remove project IDs from the array.
-
-**To hide a project:** add its `id` (from the dict `portfolio.projects` array) to all 4 `HIDDEN_IDS` arrays.
-
-**To unhide a project:** remove its `id` from all 4 arrays. When the array is empty, delete the `HIDDEN_IDS` lines and the filter calls entirely.
+Project detail pages are `noindex` and out of the sitemap since 2026-09-30 (thin demo pages that ranked for the businesses' own names), so hiding is about visitors, not search.
 
 Redeploy after changes.
