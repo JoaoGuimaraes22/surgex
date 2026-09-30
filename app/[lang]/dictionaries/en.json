@@ -2869,6 +2869,24 @@
         "rating": "4.4"
       },
       {
+        "id": "vet-mafamude",
+        "name": "Clínica Veterinária de Mafamude",
+        "category": "Website",
+        "image": "/portfolio/vet-mafamude.webp",
+        "url": "https://demo-vet-mafamude.vercel.app",
+        "description": "Family veterinary clinic in Mafamude, Vila Nova de Gaia, since 1990.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Vila Nova de Gaia",
+        "reviewCount": "1075+",
+        "rating": "4.8"
+      },
+      {
         "id": "vet-cvsintra",
         "name": "Clínica Veterinária de Sintra",
         "category": "Website",
@@ -3209,7 +3227,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "161 projects across 43 industries",
+    "projectCount": "162 projects across 43 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
