@@ -2241,6 +2241,24 @@
         "rating": "4.9"
       },
       {
+        "id": "estetica-magikclinic",
+        "name": "MagikClinic",
+        "category": "Website",
+        "image": "/portfolio/estetica-magikclinic.webp",
+        "url": "https://demo-estetica-magikclinic.vercel.app",
+        "description": "MagikClinic, Edifício Capitólio, Av. da França, Porto: microblading, lifting de pestanas MagikLift pela Kelly Agrela, lábios, piercing e visagismo de orelha, tratamentos faciais e drenagem Renata França.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Porto",
+        "reviewCount": "255+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-menteecorpo",
         "name": "Mente & Corpo · Estética e Spa",
         "category": "Website",
@@ -3245,7 +3263,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "163 projetos em 43 setores",
+    "projectCount": "164 projetos em 43 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
