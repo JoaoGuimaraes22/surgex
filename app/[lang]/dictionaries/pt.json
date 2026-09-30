@@ -2295,6 +2295,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-pozinhos",
+        "name": "Pozinhos de Beleza",
+        "category": "Website",
+        "image": "/portfolio/estetica-pozinhos.webp",
+        "url": "https://demo-estetica-pozinhos.vercel.app",
+        "description": "O estúdio da Joana Magalhães em Mafamude, Vila Nova de Gaia: depilação a laser tripla onda sem dor, para mulher e homem, tratamentos de rosto, Ultra Exilis, sobrancelhas, pestanas, massagens e remoção de tatuagem.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Vila Nova de Gaia",
+        "reviewCount": "202+",
+        "rating": "4.9"
+      },
+      {
         "id": "estetica-soubella",
         "name": "SouBella Wellness",
         "category": "Website",
@@ -3263,7 +3281,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "164 projetos em 43 setores",
+    "projectCount": "165 projetos em 43 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
