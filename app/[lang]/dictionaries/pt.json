@@ -2295,6 +2295,24 @@
         "rating": "5"
       },
       {
+        "id": "medspa-thais",
+        "name": "Thaís - Gabinete de Estética",
+        "category": "Website",
+        "image": "/portfolio/medspa-thais.webp",
+        "url": "https://demo-medspa-thais.vercel.app",
+        "description": "Gabinete de estética independente no centro de Oeiras: unhas, tratamentos de rosto, depilação, pestanas e sobrancelhas e tratamentos de corpo.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Oeiras",
+        "reviewCount": "69+",
+        "rating": "4.6"
+      },
+      {
         "id": "lavagem-autobrilho",
         "name": "Auto Brilho - Lavagem de Automóveis",
         "category": "Website",
@@ -3191,7 +3209,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "160 projetos em 43 setores",
+    "projectCount": "161 projetos em 43 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
