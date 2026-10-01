@@ -1497,6 +1497,24 @@
         "rating": "4.6"
       },
       {
+        "id": "mechanic-autoprata",
+        "name": "Auto Prata",
+        "category": "Website",
+        "image": "/portfolio/mechanic-autoprata.webp",
+        "url": "https://demo-mechanic-autoprata.vercel.app",
+        "description": "Multi-brand workshop in Porto: diagnostics, mechanics, bodywork, paint booth, brake and suspension tests, pre-inspection.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Porto",
+        "reviewCount": "101+",
+        "rating": "4"
+      },
+      {
         "id": "mechanic-boxauto",
         "name": "Boxauto",
         "category": "Website",
@@ -3322,7 +3340,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "167 projects across 44 industries",
+    "projectCount": "168 projects across 44 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

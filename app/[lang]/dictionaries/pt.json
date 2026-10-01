@@ -561,6 +561,24 @@
         "rating": "4.6"
       },
       {
+        "id": "mechanic-autoprata",
+        "name": "Auto Prata",
+        "category": "Website",
+        "image": "/portfolio/mechanic-autoprata.webp",
+        "url": "https://demo-mechanic-autoprata.vercel.app",
+        "description": "Oficina multimarca no Porto: diagnóstico, mecânica, chaparia, pintura em estufa, teste de travões e suspensões, pré-inspeção.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Porto",
+        "reviewCount": "101+",
+        "rating": "4"
+      },
+      {
         "id": "mechanic-boxauto",
         "name": "Boxauto",
         "category": "Website",
@@ -3322,7 +3340,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "167 projetos em 44 setores",
+    "projectCount": "168 projetos em 44 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
