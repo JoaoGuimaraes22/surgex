@@ -543,6 +543,24 @@
         "rating": "3.7"
       },
       {
+        "id": "medspa-joel",
+        "name": "Clinic & Spa Joel",
+        "category": "Website",
+        "image": "/portfolio/medspa-joel.webp",
+        "url": "https://demo-medspa-joel.vercel.app",
+        "description": "Massagem terapêutica, acupunctura e estética em Vale de Figueira, São João da Talha (Loures).",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Massagem Terapêutica",
+        "location": "São João da Talha",
+        "reviewCount": "70+",
+        "rating": "4.8"
+      },
+      {
         "id": "mechanic-autoarroios",
         "name": "Auto Arroios",
         "category": "Website",
@@ -3285,6 +3303,10 @@
         "label": "Chaves e Fechaduras"
       },
       {
+        "id": "massage-therapy",
+        "label": "Massagem Terapêutica"
+      },
+      {
         "id": "mechanic",
         "label": "Mecanica"
       },
@@ -3358,7 +3380,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "169 projetos em 44 setores",
+    "projectCount": "170 projetos em 45 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

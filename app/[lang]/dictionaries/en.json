@@ -1479,6 +1479,24 @@
         "rating": "3.7"
       },
       {
+        "id": "medspa-joel",
+        "name": "Clinic & Spa Joel",
+        "category": "Website",
+        "image": "/portfolio/medspa-joel.webp",
+        "url": "https://demo-medspa-joel.vercel.app",
+        "description": "Therapeutic massage, acupuncture and aesthetics in Vale de Figueira, São João da Talha (Loures).",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Massage Therapy",
+        "location": "São João da Talha",
+        "reviewCount": "70+",
+        "rating": "4.8"
+      },
+      {
         "id": "mechanic-autoarroios",
         "name": "Auto Arroios",
         "category": "Website",
@@ -3285,6 +3303,10 @@
         "label": "Locksmith"
       },
       {
+        "id": "massage-therapy",
+        "label": "Massage Therapy"
+      },
+      {
         "id": "mechanic",
         "label": "Mechanic"
       },
@@ -3358,7 +3380,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "169 projects across 44 industries",
+    "projectCount": "170 projects across 45 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
