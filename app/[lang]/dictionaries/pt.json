@@ -687,6 +687,24 @@
         "rating": "4.3"
       },
       {
+        "id": "serralharia-frteixeira",
+        "name": "Fernando Rafael Teixeira",
+        "category": "Website",
+        "image": "/portfolio/serralharia-frteixeira.webp",
+        "url": "https://demo-serralharia-frteixeira.vercel.app",
+        "description": "Serralharia mecânica e civil no Espido, Maia, há mais de 20 anos: estruturas metálicas, portões e grades, caixilhos de alumínio, corrimões e guarda-corpos, reparação e manutenção industrial.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Serralharia & Remodelações",
+        "location": "Maia",
+        "reviewCount": "20+",
+        "rating": "4.9"
+      },
+      {
         "id": "serralharia-ruluminios",
         "name": "Rulumínios",
         "category": "Website",
@@ -3340,7 +3358,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "168 projetos em 44 setores",
+    "projectCount": "169 projetos em 44 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

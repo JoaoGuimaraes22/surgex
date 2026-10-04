@@ -1623,6 +1623,24 @@
         "rating": "4.3"
       },
       {
+        "id": "serralharia-frteixeira",
+        "name": "Fernando Rafael Teixeira",
+        "category": "Website",
+        "image": "/portfolio/serralharia-frteixeira.webp",
+        "url": "https://demo-serralharia-frteixeira.vercel.app",
+        "description": "Metalwork in Espido, Maia, for over 20 years: steel structures, gates and grilles, aluminium frames, handrails and balustrades, repairs and industrial maintenance.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Metalwork & Renovation",
+        "location": "Maia",
+        "reviewCount": "20+",
+        "rating": "4.9"
+      },
+      {
         "id": "serralharia-ruluminios",
         "name": "Rulumínios",
         "category": "Website",
@@ -3340,7 +3358,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "168 projects across 44 industries",
+    "projectCount": "169 projects across 44 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
