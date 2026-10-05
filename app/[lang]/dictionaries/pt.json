@@ -2260,6 +2260,24 @@
         "rating": "4.8"
       },
       {
+        "id": "caixilharia-jb",
+        "name": "JB Alumínios",
+        "category": "Website",
+        "image": "/portfolio/caixilharia-jb.webp",
+        "url": "https://demo-caixilharia-jb.vercel.app",
+        "description": "Fábrica de caixilharia em alumínio em São Sebastião de Guerreiros, Loures: janelas, portas, portadas, portas-janela e estores térmicos feitos à medida, na cor que escolher.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Caixilharia",
+        "location": "Loures",
+        "reviewCount": "16+",
+        "rating": "3.6"
+      },
+      {
         "id": "barbershop-vip",
         "name": "Barbearia VIP",
         "category": "Website",
@@ -3456,7 +3474,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "174 projetos em 46 setores",
+    "projectCount": "175 projetos em 46 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

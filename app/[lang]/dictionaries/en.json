@@ -3230,6 +3230,24 @@
         "location": "Lisboa",
         "reviewCount": "14+",
         "rating": "4.8"
+      },
+      {
+        "id": "caixilharia-jb",
+        "name": "JB Alumínios",
+        "category": "Website",
+        "image": "/portfolio/caixilharia-jb.webp",
+        "url": "https://demo-caixilharia-jb.vercel.app",
+        "description": "Aluminium joinery workshop in São Sebastião de Guerreiros, Loures: windows, doors, portadas, French windows and thermal shutters made to measure, in the colour you choose.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Windows & Doors",
+        "location": "Loures",
+        "reviewCount": "16+",
+        "rating": "3.6"
       }
     ],
     "cta": "View Project",
@@ -3456,7 +3474,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "174 projects across 46 industries",
+    "projectCount": "175 projects across 46 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
