@@ -3068,6 +3068,24 @@
         "rating": "4.7"
       },
       {
+        "id": "vet-infias",
+        "name": "Clínica Veterinária de Infias",
+        "category": "Website",
+        "image": "/portfolio/vet-infias.webp",
+        "url": "https://demo-vet-infias.vercel.app",
+        "description": "Veterinary clinic in Infias, Braga, since 2001.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Braga",
+        "reviewCount": "422+",
+        "rating": "4.8"
+      },
+      {
         "id": "vet-mafamude",
         "name": "Clínica Veterinária de Mafamude",
         "category": "Website",
@@ -3474,7 +3492,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "175 projects across 46 industries",
+    "projectCount": "176 projects across 46 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
