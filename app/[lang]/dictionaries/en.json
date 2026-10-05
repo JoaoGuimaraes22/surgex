@@ -1569,6 +1569,24 @@
         "rating": "4.8"
       },
       {
+        "id": "mechanic-lswauto",
+        "name": "LSW - Auto",
+        "category": "Website",
+        "image": "/portfolio/mechanic-lswauto.webp",
+        "url": "https://demo-mechanic-lswauto.vercel.app",
+        "description": "Owner-run car workshop in Loures: diagnosis, servicing, diesel injectors, A/C, bodywork and paint.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Loures",
+        "reviewCount": "105+",
+        "rating": "4.7"
+      },
+      {
         "id": "mechanic-quimenauto",
         "name": "Quimenauto",
         "category": "Website",
@@ -3398,7 +3416,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "171 projects across 45 industries",
+    "projectCount": "172 projects across 45 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

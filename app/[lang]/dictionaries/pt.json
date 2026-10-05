@@ -633,6 +633,24 @@
         "rating": "4.8"
       },
       {
+        "id": "mechanic-lswauto",
+        "name": "LSW - Auto",
+        "category": "Website",
+        "image": "/portfolio/mechanic-lswauto.webp",
+        "url": "https://demo-mechanic-lswauto.vercel.app",
+        "description": "Oficina automóvel em Loures: diagnóstico, revisões, injetores diesel, ar condicionado, chapa e pintura.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Loures",
+        "reviewCount": "105+",
+        "rating": "4.7"
+      },
+      {
         "id": "mechanic-quimenauto",
         "name": "Quimenauto",
         "category": "Website",
@@ -3398,7 +3416,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "171 projetos em 45 setores",
+    "projectCount": "172 projetos em 45 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
