@@ -2095,6 +2095,24 @@
         "rating": "5.0"
       },
       {
+        "id": "storage-gaia",
+        "name": "Self Storage Gaia",
+        "category": "Website",
+        "image": "/portfolio/storage-gaia.webp",
+        "url": "https://demo-storage-gaia.vercel.app",
+        "description": "Storage boxes from 0.8 m² to 20 m² in central Vila Nova de Gaia.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Self-Storage",
+        "location": "Vila Nova de Gaia",
+        "reviewCount": "0+",
+        "rating": "0"
+      },
+      {
         "id": "tattoo-cebola",
         "name": "Cebola Tattoo Studio",
         "category": "Website",
@@ -3403,6 +3421,10 @@
         "label": "Repairs & Alterations"
       },
       {
+        "id": "self-storage",
+        "label": "Self-Storage"
+      },
+      {
         "id": "tattoo",
         "label": "Tattoo"
       },
@@ -3416,7 +3438,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "172 projects across 45 industries",
+    "projectCount": "173 projects across 46 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
