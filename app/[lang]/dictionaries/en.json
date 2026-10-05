@@ -417,6 +417,24 @@
         "rating": "4.2"
       },
       {
+        "id": "estetica-evafernandes",
+        "name": "Eva Fernandes Estética & Depilação",
+        "category": "Website",
+        "image": "/portfolio/estetica-evafernandes.webp",
+        "url": "https://demo-estetica-evafernandes.vercel.app",
+        "description": "Laser and wax hair removal, eyebrow threading, facials, massage and lymphatic drainage on Avenida João XXI, Braga.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Braga",
+        "reviewCount": "77+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-iambeauty",
         "name": "I am beauty",
         "category": "Website",
@@ -3438,7 +3456,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "173 projects across 46 industries",
+    "projectCount": "174 projects across 46 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

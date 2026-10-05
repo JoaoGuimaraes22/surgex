@@ -2332,6 +2332,24 @@
         "rating": "4.2"
       },
       {
+        "id": "estetica-evafernandes",
+        "name": "Eva Fernandes Estética & Depilação",
+        "category": "Website",
+        "image": "/portfolio/estetica-evafernandes.webp",
+        "url": "https://demo-estetica-evafernandes.vercel.app",
+        "description": "Depilação a laser e a cera, sobrancelha com fio, limpeza de pele, massagem e drenagem linfática na Avenida João XXI, em Braga.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Braga",
+        "reviewCount": "77+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-iambeauty",
         "name": "I am beauty",
         "category": "Website",
@@ -3438,7 +3456,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "173 projetos em 46 setores",
+    "projectCount": "174 projetos em 46 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
