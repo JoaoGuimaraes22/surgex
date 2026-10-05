@@ -1533,6 +1533,24 @@
         "rating": "4.6"
       },
       {
+        "id": "mechanic-autoeste",
+        "name": "Auto Este",
+        "category": "Website",
+        "image": "/portfolio/mechanic-autoeste.webp",
+        "url": "https://demo-mechanic-autoeste.vercel.app",
+        "description": "Multi-brand workshop in the Sete Fontes industrial park, Braga: diagnostics, servicing, brakes, suspension, clutch and timing belts, inspection handled for you.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Braga",
+        "reviewCount": "164+",
+        "rating": "4.7"
+      },
+      {
         "id": "mechanic-autoprata",
         "name": "Auto Prata",
         "category": "Website",
@@ -3492,7 +3510,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "176 projects across 46 industries",
+    "projectCount": "177 projects across 46 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

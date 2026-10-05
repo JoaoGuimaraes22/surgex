@@ -579,6 +579,24 @@
         "rating": "4.6"
       },
       {
+        "id": "mechanic-autoeste",
+        "name": "Auto Este",
+        "category": "Website",
+        "image": "/portfolio/mechanic-autoeste.webp",
+        "url": "https://demo-mechanic-autoeste.vercel.app",
+        "description": "Oficina multimarca no Parque Industrial das Sete Fontes, Braga: diagnóstico, revisões, travões, suspensão, embraiagem e distribuição, tratamos da inspeção.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Braga",
+        "reviewCount": "164+",
+        "rating": "4.7"
+      },
+      {
         "id": "mechanic-autoprata",
         "name": "Auto Prata",
         "category": "Website",
@@ -3492,7 +3510,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "176 projetos em 46 setores",
+    "projectCount": "177 projetos em 46 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
