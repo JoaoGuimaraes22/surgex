@@ -345,6 +345,24 @@
         "rating": "4.2"
       },
       {
+        "id": "estetica-bodyspa",
+        "name": "Body Spa Centro de Estética Matosinhos",
+        "category": "Website",
+        "image": "/portfolio/estetica-bodyspa.webp",
+        "url": "https://demo-estetica-bodyspa.vercel.app",
+        "description": "Diode laser hair removal, cryolipolysis, pressotherapy, lymphatic drainage, massages, facials and eyebrow threading at Rua Sousa Aroso 413, Matosinhos Sul.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Matosinhos",
+        "reviewCount": "187+",
+        "rating": "4.8"
+      },
+      {
         "id": "estetica-dula",
         "name": "Clínica Dulá",
         "category": "Website",
@@ -1729,6 +1747,24 @@
         "location": "Amadora",
         "reviewCount": "20+",
         "rating": "4"
+      },
+      {
+        "id": "serralharia-mrlima",
+        "name": "Serralharia Manuel Rocha Lima",
+        "category": "Website",
+        "image": "/portfolio/serralharia-mrlima.webp",
+        "url": "https://demo-serralharia-mrlima.vercel.app",
+        "description": "Braga metalwork shop, 15+ years: roof replacement with asbestos removal, steel structures, metal stairs, stainless and iron work.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Metalwork & Renovation",
+        "location": "Braga",
+        "reviewCount": "20+",
+        "rating": "5"
       },
       {
         "id": "music-desafios",
@@ -3510,7 +3546,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "177 projects across 46 industries",
+    "projectCount": "179 projects across 46 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

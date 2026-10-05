@@ -777,6 +777,24 @@
         "rating": "4"
       },
       {
+        "id": "serralharia-mrlima",
+        "name": "Serralharia Manuel Rocha Lima",
+        "category": "Website",
+        "image": "/portfolio/serralharia-mrlima.webp",
+        "url": "https://demo-serralharia-mrlima.vercel.app",
+        "description": "Serralharia em Braga há mais de 15 anos: coberturas com remoção de amianto, estruturas e escadas metálicas, inox e ferro.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Serralharia & Remodelações",
+        "location": "Braga",
+        "reviewCount": "20+",
+        "rating": "5"
+      },
+      {
         "id": "music-desafios",
         "name": "Academia de Música Desafios",
         "category": "Website",
@@ -3196,6 +3214,24 @@
         "rating": "4.2"
       },
       {
+        "id": "estetica-bodyspa",
+        "name": "Body Spa Centro de Estética Matosinhos",
+        "category": "Website",
+        "image": "/portfolio/estetica-bodyspa.webp",
+        "url": "https://demo-estetica-bodyspa.vercel.app",
+        "description": "Depilação a laser díodo, criolipólise, pressoterapia, drenagem linfática, massagens, limpeza de pele e sobrancelhas a linha na Rua Sousa Aroso 413, Matosinhos Sul.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Matosinhos",
+        "reviewCount": "187+",
+        "rating": "4.8"
+      },
+      {
         "id": "estetica-dula",
         "name": "Clínica Dulá",
         "category": "Website",
@@ -3510,7 +3546,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "177 projetos em 46 setores",
+    "projectCount": "179 projetos em 46 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
