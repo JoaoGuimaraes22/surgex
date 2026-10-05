@@ -3069,6 +3069,24 @@
         "rating": "4.8"
       },
       {
+        "id": "vet-flamvet",
+        "name": "Flamvet — Clínica Veterinária da Flamenga",
+        "category": "Website",
+        "image": "/portfolio/vet-flamvet.webp",
+        "url": "https://demo-vet-flamvet.vercel.app",
+        "description": "Neighbourhood vet in the Flamenga: unhurried consultations where everything is explained, dogs, cats and rabbits, vaccines, EU pet passport, hospitalisation and grooming.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Santo António dos Cavaleiros",
+        "reviewCount": "137+",
+        "rating": "4.7"
+      },
+      {
         "id": "vet-mimavet",
         "name": "MimaVet — Centro Veterinário",
         "category": "Website",
@@ -3380,7 +3398,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "170 projects across 45 industries",
+    "projectCount": "171 projects across 45 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
