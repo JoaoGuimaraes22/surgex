@@ -2095,6 +2095,24 @@
         "rating": "5.0"
       },
       {
+        "id": "vet-cvalmada",
+        "name": "Centro Veterinário de Almada",
+        "category": "Website",
+        "image": "/portfolio/vet-cvalmada.webp",
+        "url": "https://demo-vet-cvalmada.vercel.app",
+        "description": "Clínica veterinária de bairro em Almada: consultas, vacinas e passaporte europeu, análises, cirurgia e internamento para cães e gatos — e um telefonema no dia seguinte.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinária",
+        "location": "Almada",
+        "reviewCount": "143+",
+        "rating": "4.9"
+      },
+      {
         "id": "vet-avencas",
         "name": "Clínica Veterinária das Avencas",
         "category": "Website",
@@ -3546,7 +3564,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "179 projetos em 46 setores",
+    "projectCount": "180 projetos em 46 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
