@@ -2240,6 +2240,24 @@
         "rating": "4.8"
       },
       {
+        "id": "vet-lilianadias",
+        "name": "Clínica Veterinária Dra. Liliana Dias",
+        "category": "Website",
+        "image": "/portfolio/vet-lilianadias.webp",
+        "url": "https://demo-vet-lilianadias.vercel.app",
+        "description": "Clínica veterinária em Matosinhos: consultas, vacinas, cirurgia e acompanhamento de cães e gatos com a Dra. Liliana Dias.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinária",
+        "location": "Matosinhos",
+        "reviewCount": "254+",
+        "rating": "4.6"
+      },
+      {
         "id": "vet-cvls",
         "name": "CVLS",
         "category": "Website",
@@ -3618,7 +3636,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "183 projetos em 46 setores",
+    "projectCount": "184 projetos em 46 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
