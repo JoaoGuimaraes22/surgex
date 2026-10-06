@@ -1605,6 +1605,24 @@
         "rating": "4.7"
       },
       {
+        "id": "mechanic-electrobino",
+        "name": "Electro Bino",
+        "category": "Website",
+        "image": "/portfolio/mechanic-electrobino.webp",
+        "url": "https://demo-mechanic-electrobino.vercel.app",
+        "description": "Sr. Albino's auto-electrical workshop in Almada, 30+ years: starter motors and alternators repaired, electrical faults found, often the same day.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Almada",
+        "reviewCount": "137+",
+        "rating": "4.5"
+      },
+      {
         "id": "mechanic-amadorauto",
         "name": "Garagem Amadorauto",
         "category": "Website",
@@ -3564,7 +3582,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "180 projects across 46 industries",
+    "projectCount": "181 projects across 46 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

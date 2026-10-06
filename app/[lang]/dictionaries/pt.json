@@ -633,6 +633,24 @@
         "rating": "4.7"
       },
       {
+        "id": "mechanic-electrobino",
+        "name": "Electro Bino",
+        "category": "Website",
+        "image": "/portfolio/mechanic-electrobino.webp",
+        "url": "https://demo-mechanic-electrobino.vercel.app",
+        "description": "Oficina de eletricidade auto do Sr. Albino em Almada há 30+ anos: motores de arranque e alternadores reparados, avarias elétricas, muitas vezes no dia.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Almada",
+        "reviewCount": "137+",
+        "rating": "4.5"
+      },
+      {
         "id": "mechanic-amadorauto",
         "name": "Garagem Amadorauto",
         "category": "Website",
@@ -3564,7 +3582,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "180 projetos em 46 setores",
+    "projectCount": "181 projetos em 46 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
