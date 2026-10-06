@@ -1803,6 +1803,24 @@
         "rating": "5"
       },
       {
+        "id": "serralharia-piedense",
+        "name": "Serralharia Progresso Piedense",
+        "category": "Website",
+        "image": "/portfolio/serralharia-piedense.webp",
+        "url": "https://demo-serralharia-piedense.vercel.app",
+        "description": "Metalwork shop in Cova da Piedade, Almada: outdoor-advertising steel structures, gates, railings and fences, machining and classic-car panels.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Metalwork & Renovation",
+        "location": "Almada",
+        "reviewCount": "40+",
+        "rating": "4.4"
+      },
+      {
         "id": "music-desafios",
         "name": "Academia de Música Desafios",
         "category": "Website",
@@ -3600,7 +3618,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "182 projects across 46 industries",
+    "projectCount": "183 projects across 46 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

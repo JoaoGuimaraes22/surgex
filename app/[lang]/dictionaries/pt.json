@@ -813,6 +813,24 @@
         "rating": "5"
       },
       {
+        "id": "serralharia-piedense",
+        "name": "Serralharia Progresso Piedense",
+        "category": "Website",
+        "image": "/portfolio/serralharia-piedense.webp",
+        "url": "https://demo-serralharia-piedense.vercel.app",
+        "description": "Serralharia na Cova da Piedade, Almada: estruturas para publicidade exterior, portões, gradeamentos e vedações, maquinagem e chapa de clássicos.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Serralharia & Remodelações",
+        "location": "Almada",
+        "reviewCount": "40+",
+        "rating": "4.4"
+      },
+      {
         "id": "music-desafios",
         "name": "Academia de Música Desafios",
         "category": "Website",
@@ -3600,7 +3618,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "182 projetos em 46 setores",
+    "projectCount": "183 projetos em 46 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
