@@ -363,6 +363,24 @@
         "rating": "4.8"
       },
       {
+        "id": "estetica-brunamagalhaes",
+        "name": "Bruna Magalhães Estética",
+        "category": "Website",
+        "image": "/portfolio/estetica-brunamagalhaes.webp",
+        "url": "https://demo-estetica-brunamagalhaes.vercel.app",
+        "description": "Gel nails that last until your maintenance date, brows and lashes, threading, waxing, laser and massages with Bruna, inside Centro Comercial Empórium, Gondomar.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Gondomar",
+        "reviewCount": "63+",
+        "rating": "4.8"
+      },
+      {
         "id": "estetica-dula",
         "name": "Clínica Dulá",
         "category": "Website",
@@ -3672,7 +3690,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "186 projects across 46 industries",
+    "projectCount": "187 projects across 46 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

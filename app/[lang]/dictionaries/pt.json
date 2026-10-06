@@ -3358,6 +3358,24 @@
         "rating": "4.8"
       },
       {
+        "id": "estetica-brunamagalhaes",
+        "name": "Bruna Magalhães Estética",
+        "category": "Website",
+        "image": "/portfolio/estetica-brunamagalhaes.webp",
+        "url": "https://demo-estetica-brunamagalhaes.vercel.app",
+        "description": "Unhas de gel que duram até à manutenção, sobrancelhas e pestanas, linha, depilação, laser e massagens com a Bruna, no Centro Comercial Empórium, Gondomar.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Gondomar",
+        "reviewCount": "63+",
+        "rating": "4.8"
+      },
+      {
         "id": "estetica-dula",
         "name": "Clínica Dulá",
         "category": "Website",
@@ -3672,7 +3690,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "186 projetos em 46 setores",
+    "projectCount": "187 projetos em 46 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
