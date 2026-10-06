@@ -3232,6 +3232,24 @@
         "rating": "4.9"
       },
       {
+        "id": "electrician-mrflash",
+        "name": "MrFlash Alexandre",
+        "category": "Website",
+        "image": "/portfolio/electrician-mrflash.webp",
+        "url": "https://demo-electrician-mrflash.vercel.app",
+        "description": "Eletricista em Almada: quadros elétricos, avarias, puxadas, termoacumuladores e carregadores.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Eletricista",
+        "location": "Almada",
+        "reviewCount": "102+",
+        "rating": "4.8"
+      },
+      {
         "id": "gym-espacopt",
         "name": "Espaço PT",
         "category": "Website",
@@ -3636,7 +3654,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "184 projetos em 46 setores",
+    "projectCount": "185 projetos em 46 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

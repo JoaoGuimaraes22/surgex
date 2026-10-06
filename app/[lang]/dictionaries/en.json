@@ -1191,6 +1191,24 @@
         "rating": "4.9"
       },
       {
+        "id": "electrician-mrflash",
+        "name": "MrFlash Alexandre",
+        "category": "Website",
+        "image": "/portfolio/electrician-mrflash.webp",
+        "url": "https://demo-electrician-mrflash.vercel.app",
+        "description": "Electrician in Almada: switchboards, faults, new circuits, water heaters and EV chargers.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Electrician",
+        "location": "Almada",
+        "reviewCount": "102+",
+        "rating": "4.8"
+      },
+      {
         "id": "gym-espacopt",
         "name": "Espaço PT",
         "category": "Website",
@@ -3636,7 +3654,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "184 projects across 46 industries",
+    "projectCount": "185 projects across 46 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
