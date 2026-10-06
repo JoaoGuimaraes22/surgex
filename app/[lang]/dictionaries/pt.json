@@ -2548,6 +2548,24 @@
         "rating": "4.9"
       },
       {
+        "id": "estetica-mulheres",
+        "name": "MULHERES by Inês Genebra",
+        "category": "Website",
+        "image": "/portfolio/estetica-mulheres.webp",
+        "url": "https://demo-estetica-mulheres.vercel.app",
+        "description": "O espaço de estética da Inês Genebra em Amora, Seixal: reconstrução de sobrancelhas, micropigmentação labial, drenagem linfática, Head Spa e laser.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Amora",
+        "reviewCount": "168+",
+        "rating": "5"
+      },
+      {
         "id": "hifu-marciasilvano",
         "name": "Márcia Silvano HIFU EXPERT",
         "category": "Website",
@@ -3582,7 +3600,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "181 projetos em 46 setores",
+    "projectCount": "182 projetos em 46 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

@@ -543,6 +543,24 @@
         "rating": "4.9"
       },
       {
+        "id": "estetica-mulheres",
+        "name": "MULHERES by Inês Genebra",
+        "category": "Website",
+        "image": "/portfolio/estetica-mulheres.webp",
+        "url": "https://demo-estetica-mulheres.vercel.app",
+        "description": "Inês Genebra's aesthetics space in Amora, Seixal: brow reconstruction, lip micropigmentation, lymphatic drainage, Head Spa, laser and nails.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Amora",
+        "reviewCount": "168+",
+        "rating": "5"
+      },
+      {
         "id": "hifu-marciasilvano",
         "name": "Márcia Silvano HIFU EXPERT",
         "category": "Website",
@@ -3582,7 +3600,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "181 projects across 46 industries",
+    "projectCount": "182 projects across 46 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
