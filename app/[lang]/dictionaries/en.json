@@ -1713,6 +1713,24 @@
         "rating": "4.8"
       },
       {
+        "id": "mechanic-robalomacedo",
+        "name": "Robalo & Macedo",
+        "category": "Website",
+        "image": "/portfolio/mechanic-robalomacedo.webp",
+        "url": "https://demo-mechanic-robalomacedo.vercel.app",
+        "description": "Multi-brand car repair and classic MG restoration in Matosinhos since 1967: mechanics, diagnostics, electrics, bodywork, paint and MG parts.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Matosinhos",
+        "reviewCount": "81+",
+        "rating": "4.6"
+      },
+      {
         "id": "mechanic-udiel",
         "name": "Udiel",
         "category": "Website",
@@ -3654,7 +3672,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "185 projects across 46 industries",
+    "projectCount": "186 projects across 46 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

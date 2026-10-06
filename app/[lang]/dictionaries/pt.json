@@ -705,6 +705,24 @@
         "rating": "4.8"
       },
       {
+        "id": "mechanic-robalomacedo",
+        "name": "Robalo & Macedo",
+        "category": "Website",
+        "image": "/portfolio/mechanic-robalomacedo.webp",
+        "url": "https://demo-mechanic-robalomacedo.vercel.app",
+        "description": "Oficina multimarcas e restauro de MG clássicos em Matosinhos desde 1967: mecânica, diagnóstico, eletricidade, chapa, pintura e peças MG.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Matosinhos",
+        "reviewCount": "81+",
+        "rating": "4.6"
+      },
+      {
         "id": "mechanic-udiel",
         "name": "Udiel",
         "category": "Website",
@@ -3654,7 +3672,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "185 projetos em 46 setores",
+    "projectCount": "186 projetos em 46 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
