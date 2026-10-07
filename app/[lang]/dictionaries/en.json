@@ -2145,6 +2145,24 @@
         "rating": "5"
       },
       {
+        "id": "pool-mergulhosalgado",
+        "name": "Mergulho Salgado",
+        "category": "Website",
+        "image": "/portfolio/pool-mergulhosalgado.webp",
+        "url": "https://demo-pool-mergulhosalgado.vercel.app",
+        "description": "Pool and spa store in Sintra: pool construction, renovation, spas, saunas and robots.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Pool & Spa",
+        "location": "Sintra",
+        "reviewCount": "69+",
+        "rating": "4.4"
+      },
+      {
         "id": "pool-tomasmonteiro",
         "name": "Tomás Monteiro · Pool Maintenance",
         "category": "Website",
@@ -3690,7 +3708,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "187 projects across 46 industries",
+    "projectCount": "188 projects across 46 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
