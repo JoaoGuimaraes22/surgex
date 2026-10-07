@@ -2638,6 +2638,24 @@
         "rating": "4.9"
       },
       {
+        "id": "estetica-latelier",
+        "name": "L’Atelier — Estética Avançada & Bem-Estar",
+        "category": "Website",
+        "image": "/portfolio/estetica-latelier.webp",
+        "url": "https://demo-estetica-latelier.vercel.app",
+        "description": "Depilação a laser, massagem, Head Spa, rosto, sobrancelhas, nanoblading e unhas em Guimarães.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Guimarães",
+        "reviewCount": "93+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-magikclinic",
         "name": "MagikClinic",
         "category": "Website",
@@ -3766,7 +3784,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "191 projetos em 47 setores",
+    "projectCount": "192 projetos em 47 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
