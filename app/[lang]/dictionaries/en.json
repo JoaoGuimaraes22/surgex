@@ -2365,6 +2365,24 @@
         "rating": "0"
       },
       {
+        "id": "solar-thermosilva",
+        "name": "ThermoSilva",
+        "category": "Website",
+        "image": "/portfolio/solar-thermosilva.webp",
+        "url": "https://demo-solar-thermosilva.vercel.app",
+        "description": "Solar panels, solar water heating, heat pumps, pellet stoves and underfloor heating in Fernão Ferro, Seixal.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Solar Energy",
+        "location": "Fernão Ferro",
+        "reviewCount": "7+",
+        "rating": "5"
+      },
+      {
         "id": "tattoo-cebola",
         "name": "Cebola Tattoo Studio",
         "category": "Website",
@@ -3771,6 +3789,10 @@
         "label": "Self-Storage"
       },
       {
+        "id": "solar-energy",
+        "label": "Solar Energy"
+      },
+      {
         "id": "tattoo",
         "label": "Tattoo"
       },
@@ -3784,7 +3806,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "192 projects across 47 industries",
+    "projectCount": "193 projects across 48 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
