@@ -2258,24 +2258,6 @@
         "rating": "4.4"
       },
       {
-        "id": "vet-galiza",
-        "name": "Clínica Veterinária da Galiza",
-        "category": "Website",
-        "image": "/portfolio/vet-galiza.webp",
-        "url": "https://demo-vet-galiza.vercel.app",
-        "description": "Clínica veterinária para cães e gatos na Rua Calouste Gulbenkian 105, Porto.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Multi-language"
-        ],
-        "niche": "Veterinária",
-        "location": "Porto",
-        "reviewCount": "202+",
-        "rating": "4.7"
-      },
-      {
         "id": "vet-infias",
         "name": "Clínica Veterinária de Infias",
         "category": "Website",
@@ -3376,24 +3358,6 @@
         "rating": "4.9"
       },
       {
-        "id": "electrician-mrflash",
-        "name": "MrFlash Alexandre",
-        "category": "Website",
-        "image": "/portfolio/electrician-mrflash.webp",
-        "url": "https://demo-electrician-mrflash.vercel.app",
-        "description": "Eletricista em Almada: quadros elétricos, avarias, puxadas, termoacumuladores e carregadores.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Multi-language"
-        ],
-        "niche": "Eletricista",
-        "location": "Almada",
-        "reviewCount": "102+",
-        "rating": "4.8"
-      },
-      {
         "id": "gym-espacopt",
         "name": "Espaço PT",
         "category": "Website",
@@ -3824,7 +3788,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "194 projetos em 48 setores",
+    "projectCount": "192 projetos em 48 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
