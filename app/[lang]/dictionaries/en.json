@@ -1659,6 +1659,24 @@
         "rating": "4"
       },
       {
+        "id": "mechanic-autosande",
+        "name": "Autosande",
+        "category": "Website",
+        "image": "/portfolio/mechanic-autosande.webp",
+        "url": "https://demo-mechanic-autosande.vercel.app",
+        "description": "Family car workshop in São Martinho de Sande, Guimarães: electronic diagnostics, general mechanics, tyres and wheel alignment.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Guimarães",
+        "reviewCount": "95+",
+        "rating": "4.8"
+      },
+      {
         "id": "mechanic-boxauto",
         "name": "Boxauto",
         "category": "Website",
@@ -3828,7 +3846,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "194 projects across 49 industries",
+    "projectCount": "195 projects across 49 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
