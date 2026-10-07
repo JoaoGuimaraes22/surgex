@@ -2330,6 +2330,24 @@
         "rating": "4.8"
       },
       {
+        "id": "vet-luispaiva",
+        "name": "Clínica Veterinária Dr. Luís Paiva",
+        "category": "Website",
+        "image": "/portfolio/vet-luispaiva.webp",
+        "url": "https://demo-vet-luispaiva.vercel.app",
+        "description": "A clínica do Dr. Luís Paiva em São Pedro da Cova desde 2010: consultas, vacinas, cirurgia, RX e domicílios em Gondomar.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinária",
+        "location": "São Pedro da Cova",
+        "reviewCount": "473+",
+        "rating": "4.8"
+      },
+      {
         "id": "vet-lilianadias",
         "name": "Clínica Veterinária Dra. Liliana Dias",
         "category": "Website",
@@ -3806,7 +3824,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "193 projetos em 48 setores",
+    "projectCount": "194 projetos em 48 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
