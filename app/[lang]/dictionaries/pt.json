@@ -2854,6 +2854,24 @@
         "rating": "3.7"
       },
       {
+        "id": "spa-hera",
+        "name": "SPA HERA",
+        "category": "Website",
+        "image": "/portfolio/spa-hera.webp",
+        "url": "https://demo-spa-hera.vercel.app",
+        "description": "Spa de estética e bem-estar em Odivelas, por marcação: tratamentos de rosto, massagens, depilação a laser e a cera, HIFU e unhas.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Odivelas",
+        "reviewCount": "47+",
+        "rating": "4.6"
+      },
+      {
         "id": "spa-springfacial",
         "name": "Spring Facial SPA",
         "category": "Website",
@@ -3864,7 +3882,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "197 projetos em 49 setores",
+    "projectCount": "198 projetos em 49 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
