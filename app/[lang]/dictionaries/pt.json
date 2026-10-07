@@ -777,6 +777,24 @@
         "rating": "4.6"
       },
       {
+        "id": "mechanic-stargarage",
+        "name": "Star Garage",
+        "category": "Website",
+        "image": "/portfolio/mechanic-stargarage.webp",
+        "url": "https://demo-mechanic-stargarage.vercel.app",
+        "description": "A oficina multimarcas de Fernando Viana em São Cosme, Gondomar: mais de 36 anos de ofício, escola Mercedes-Benz, fotos e vídeos de cada passo.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Gondomar",
+        "reviewCount": "98+",
+        "rating": "4.8"
+      },
+      {
         "id": "mechanic-udiel",
         "name": "Udiel",
         "category": "Website",
@@ -3846,7 +3864,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "195 projetos em 49 setores",
+    "projectCount": "196 projetos em 49 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

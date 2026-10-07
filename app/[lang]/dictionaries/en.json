@@ -1803,6 +1803,24 @@
         "rating": "4.6"
       },
       {
+        "id": "mechanic-stargarage",
+        "name": "Star Garage",
+        "category": "Website",
+        "image": "/portfolio/mechanic-stargarage.webp",
+        "url": "https://demo-mechanic-stargarage.vercel.app",
+        "description": "Fernando Viana's multi-brand workshop in São Cosme, Gondomar: 36+ years in the trade, Mercedes-Benz background, photos and videos of every step.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Gondomar",
+        "reviewCount": "98+",
+        "rating": "4.8"
+      },
+      {
         "id": "mechanic-udiel",
         "name": "Udiel",
         "category": "Website",
@@ -3846,7 +3864,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "195 projects across 49 industries",
+    "projectCount": "196 projects across 49 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
