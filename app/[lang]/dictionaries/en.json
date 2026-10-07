@@ -1731,6 +1731,24 @@
         "rating": "4.7"
       },
       {
+        "id": "mechanic-nunotavares",
+        "name": "Nuno P. Tavares Automóveis",
+        "category": "Website",
+        "image": "/portfolio/mechanic-nunotavares.webp",
+        "url": "https://demo-mechanic-nunotavares.vercel.app",
+        "description": "Father-and-son multi-brand workshop in Arrentela, Seixal: diagnosis, servicing, timing belts, suspension and electrics, with photos of every part we replace.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Arrentela",
+        "reviewCount": "180+",
+        "rating": "5"
+      },
+      {
         "id": "mechanic-quimenauto",
         "name": "Quimenauto",
         "category": "Website",
@@ -3748,7 +3766,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "190 projects across 47 industries",
+    "projectCount": "191 projects across 47 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

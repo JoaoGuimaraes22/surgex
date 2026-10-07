@@ -705,6 +705,24 @@
         "rating": "4.7"
       },
       {
+        "id": "mechanic-nunotavares",
+        "name": "Nuno P. Tavares Automóveis",
+        "category": "Website",
+        "image": "/portfolio/mechanic-nunotavares.webp",
+        "url": "https://demo-mechanic-nunotavares.vercel.app",
+        "description": "Oficina multimarca de pai e filho em Arrentela, Seixal: diagnóstico, revisões, distribuição, suspensão e eletricidade, com fotos de cada peça que trocamos.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Arrentela",
+        "reviewCount": "180+",
+        "rating": "5"
+      },
+      {
         "id": "mechanic-quimenauto",
         "name": "Quimenauto",
         "category": "Website",
@@ -3748,7 +3766,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "190 projetos em 47 setores",
+    "projectCount": "191 projetos em 47 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
