@@ -2329,6 +2329,24 @@
         "rating": "5.0"
       },
       {
+        "id": "storage-boxtorent",
+        "name": "Box to Rent Almada",
+        "category": "Website",
+        "image": "/portfolio/storage-boxtorent.webp",
+        "url": "https://demo-storage-boxtorent.vercel.app",
+        "description": "Self storage in central Almada: lockable boxes from 1 to 22 m², a 24-hour security system and a simple monthly contract.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Self-Storage",
+        "location": "Almada",
+        "reviewCount": "2+",
+        "rating": "5"
+      },
+      {
         "id": "storage-gaia",
         "name": "Self Storage Gaia",
         "category": "Website",
@@ -3788,7 +3806,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "192 projects across 48 industries",
+    "projectCount": "193 projects across 48 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
