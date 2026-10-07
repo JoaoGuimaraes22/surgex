@@ -3393,6 +3393,24 @@
         "rating": "4.7"
       },
       {
+        "id": "vet-fenix",
+        "name": "Fénix Clínica Veterinária",
+        "category": "Website",
+        "image": "/portfolio/vet-fenix.webp",
+        "url": "https://demo-vet-fenix.vercel.app",
+        "description": "Dr. Rui Neves' veterinary clinic in Amora, Seixal: consults, vaccines, sterilisation, in-house tests and a re-check for every case.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Amora",
+        "reviewCount": "259+",
+        "rating": "4.9"
+      },
+      {
         "id": "vet-mimavet",
         "name": "MimaVet — Centro Veterinário",
         "category": "Website",
@@ -3730,7 +3748,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "189 projects across 47 industries",
+    "projectCount": "190 projects across 47 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
