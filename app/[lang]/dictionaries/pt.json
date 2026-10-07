@@ -1446,6 +1446,24 @@
         "rating": "4.2"
       },
       {
+        "id": "vet-anaeosbichos",
+        "name": "Ana e os Bichos",
+        "category": "Website",
+        "image": "/portfolio/vet-anaeosbichos.webp",
+        "url": "https://demo-vet-anaeosbichos.vercel.app",
+        "description": "Clínica veterinária em Azurém, Guimarães: cães, gatos, coelhos, aves, répteis e grande porte.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinária",
+        "location": "Guimarães",
+        "reviewCount": "189+",
+        "rating": "4.4"
+      },
+      {
         "id": "vet-bichoscoloridos",
         "name": "Bichos Coloridos",
         "category": "Website",
@@ -3882,7 +3900,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "198 projetos em 49 setores",
+    "projectCount": "199 projetos em 49 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
