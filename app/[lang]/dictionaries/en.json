@@ -1281,6 +1281,24 @@
         "rating": "5.0"
       },
       {
+        "id": "flooring-preldeck",
+        "name": "Preldeck",
+        "category": "Website",
+        "image": "/portfolio/flooring-preldeck.webp",
+        "url": "https://demo-flooring-preldeck.vercel.app",
+        "description": "Wood floors, decks, floating and vinyl floors, sanding and varnishing in Matosinhos since 2009.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Flooring & Decks",
+        "location": "Matosinhos",
+        "reviewCount": "1+",
+        "rating": "5"
+      },
+      {
         "id": "drogaria-jomarsil",
         "name": "Jomarsil",
         "category": "Website",
@@ -3591,6 +3609,10 @@
         "label": "Electrician"
       },
       {
+        "id": "flooring-decks",
+        "label": "Flooring & Decks"
+      },
+      {
         "id": "hardware-store",
         "label": "Hardware Store"
       },
@@ -3708,7 +3730,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "188 projects across 46 industries",
+    "projectCount": "189 projects across 47 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

@@ -255,6 +255,24 @@
         "rating": "5.0"
       },
       {
+        "id": "flooring-preldeck",
+        "name": "Preldeck",
+        "category": "Website",
+        "image": "/portfolio/flooring-preldeck.webp",
+        "url": "https://demo-flooring-preldeck.vercel.app",
+        "description": "Pavimentos de madeira, decks, flutuantes e vinílicos, afagamentos e envernizamentos em Matosinhos desde 2009.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Pavimentos & Decks",
+        "location": "Matosinhos",
+        "reviewCount": "1+",
+        "rating": "5"
+      },
+      {
         "id": "drogaria-jomarsil",
         "name": "Jomarsil",
         "category": "Website",
@@ -3591,6 +3609,10 @@
         "label": "Eletricista"
       },
       {
+        "id": "flooring-decks",
+        "label": "Pavimentos & Decks"
+      },
+      {
         "id": "hardware-store",
         "label": "Drogaria & Ferragens"
       },
@@ -3708,7 +3730,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "188 projetos em 46 setores",
+    "projectCount": "189 projetos em 47 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
