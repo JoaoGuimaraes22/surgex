@@ -1392,6 +1392,24 @@
         "rating": "5"
       },
       {
+        "id": "madeiras-delfim",
+        "name": "Delfim Ferreira Martins & Filho, Lda.",
+        "category": "Website",
+        "image": "/portfolio/madeiras-delfim.webp",
+        "url": "https://demo-madeiras-delfim.vercel.app",
+        "description": "Casa de madeiras familiar em São Cosme, Gondomar, desde 1997: placas e painéis em stock, corte à medida com orla e cozinhas e mobiliário por medida.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Madeiras & Carpintaria",
+        "location": "S. Cosme",
+        "reviewCount": "36+",
+        "rating": "4.2"
+      },
+      {
         "id": "vet-bichoscoloridos",
         "name": "Bichos Coloridos",
         "category": "Website",
@@ -3797,6 +3815,10 @@
         "label": "Tatuagem"
       },
       {
+        "id": "timber-carpentry",
+        "label": "Madeiras & Carpintaria"
+      },
+      {
         "id": "waste-management",
         "label": "Gestão de Resíduos"
       },
@@ -3806,7 +3828,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "193 projetos em 48 setores",
+    "projectCount": "194 projetos em 49 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
