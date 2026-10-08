@@ -345,24 +345,6 @@
         "rating": "4.2"
       },
       {
-        "id": "decking-socerne",
-        "name": "SOCERNE",
-        "category": "Website",
-        "image": "/portfolio/decking-socerne.webp",
-        "url": "https://demo-decking-socerne.vercel.app",
-        "description": "Wood importer in Guimarães: solid and engineered floors, ipê and composite decks, laminate, SilentOK SPC and façade cladding, supplied and laid.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Multi-language"
-        ],
-        "niche": "Flooring & Decks",
-        "location": "Guimarães",
-        "reviewCount": "0+",
-        "rating": "0"
-      },
-      {
         "id": "estetica-bodyspa",
         "name": "Body Spa Centro de Estética Matosinhos",
         "category": "Website",
@@ -1353,6 +1335,24 @@
         "rating": "5"
       },
       {
+        "id": "decking-socerne",
+        "name": "SOCERNE",
+        "category": "Website",
+        "image": "/portfolio/decking-socerne.webp",
+        "url": "https://demo-decking-socerne.vercel.app",
+        "description": "Wood importer in Guimarães: solid and engineered floors, ipê and composite decks, laminate, SilentOK SPC and façade cladding, supplied and laid.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Flooring & Decks",
+        "location": "Guimarães",
+        "reviewCount": "0+",
+        "rating": "0"
+      },
+      {
         "id": "drogaria-jomarsil",
         "name": "Jomarsil",
         "category": "Website",
@@ -1675,6 +1675,24 @@
         "location": "Lisboa",
         "reviewCount": "297+",
         "rating": "4.6"
+      },
+      {
+        "id": "mechanic-espadaneira",
+        "name": "Auto Espadaneira",
+        "category": "Website",
+        "image": "/portfolio/mechanic-espadaneira.webp",
+        "url": "https://demo-mechanic-espadaneira.vercel.app",
+        "description": "Family-run multimarca workshop in Espadaneira, Coimbra: servicing, brakes, diagnostics and tyres.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Coimbra",
+        "reviewCount": "158+",
+        "rating": "4.7"
       },
       {
         "id": "mechanic-autoeste",
@@ -3976,7 +3994,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "203 projects across 50 industries",
+    "projectCount": "204 projects across 50 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

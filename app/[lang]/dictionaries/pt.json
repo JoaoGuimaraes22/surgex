@@ -237,24 +237,6 @@
     "headline": "Projetos Selecionados.",
     "projects": [
       {
-        "id": "decking-socerne",
-        "name": "SOCERNE",
-        "category": "Website",
-        "image": "/portfolio/decking-socerne.webp",
-        "url": "https://demo-decking-socerne.vercel.app",
-        "description": "Importador de madeiras em Guimarães: soalho maciço e composto, decks de ipê e compósito, laminado, SPC SilentOK e fachadas, fornecidos e aplicados.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Multi-language"
-        ],
-        "niche": "Pavimentos & Decks",
-        "location": "Guimarães",
-        "reviewCount": "0+",
-        "rating": "0"
-      },
-      {
         "id": "gym-levelup",
         "name": "Level UP Fight & Fitness",
         "category": "Website",
@@ -289,6 +271,24 @@
         "location": "Matosinhos",
         "reviewCount": "1+",
         "rating": "5"
+      },
+      {
+        "id": "decking-socerne",
+        "name": "SOCERNE",
+        "category": "Website",
+        "image": "/portfolio/decking-socerne.webp",
+        "url": "https://demo-decking-socerne.vercel.app",
+        "description": "Importador de madeiras em Guimarães: soalho maciço e composto, decks de ipê e compósito, laminado, SPC SilentOK e fachadas, fornecidos e aplicados.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Pavimentos & Decks",
+        "location": "Guimarães",
+        "reviewCount": "0+",
+        "rating": "0"
       },
       {
         "id": "drogaria-jomarsil",
@@ -613,6 +613,24 @@
         "location": "Lisboa",
         "reviewCount": "297+",
         "rating": "4.6"
+      },
+      {
+        "id": "mechanic-espadaneira",
+        "name": "Auto Espadaneira",
+        "category": "Website",
+        "image": "/portfolio/mechanic-espadaneira.webp",
+        "url": "https://demo-mechanic-espadaneira.vercel.app",
+        "description": "Oficina familiar multimarca na Espadaneira, Coimbra: revisões, travões, diagnóstico e pneus.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Coimbra",
+        "reviewCount": "158+",
+        "rating": "4.7"
       },
       {
         "id": "mechanic-autoeste",
@@ -3976,7 +3994,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "203 projetos em 50 setores",
+    "projectCount": "204 projetos em 50 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
