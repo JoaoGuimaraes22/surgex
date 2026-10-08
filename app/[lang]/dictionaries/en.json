@@ -3410,6 +3410,24 @@
         "rating": "4.4"
       },
       {
+        "id": "vet-abcvet",
+        "name": "Clínica Veterinária de Caneças",
+        "category": "Website",
+        "image": "/portfolio/vet-abcvet.webp",
+        "url": "https://demo-vet-abcvet.vercel.app",
+        "description": "Walk-in vet clinic in Caneças, Odivelas: consults, vaccines, surgery and hospitalisation, open seven days a week, no appointment needed.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Caneças",
+        "reviewCount": "305+",
+        "rating": "4.5"
+      },
+      {
         "id": "vet-infias",
         "name": "Clínica Veterinária de Infias",
         "category": "Website",
@@ -3900,7 +3918,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "199 projects across 49 industries",
+    "projectCount": "200 projects across 49 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
