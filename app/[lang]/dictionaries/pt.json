@@ -975,6 +975,24 @@
         "rating": "4.9"
       },
       {
+        "id": "movers-exodo",
+        "name": "Êxodo Mudanças e Transportes",
+        "category": "Website",
+        "image": "/portfolio/movers-exodo.webp",
+        "url": "https://demo-movers-exodo.vercel.app",
+        "description": "Mudanças de casas, lojas e escritórios a partir da Amora, Seixal: embalagem cuidada, montagens, recolhas e guarda-móveis.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mudanças & Montagens",
+        "location": "Amora",
+        "reviewCount": "23+",
+        "rating": "5"
+      },
+      {
         "id": "music-desafios",
         "name": "Academia de Música Desafios",
         "category": "Website",
@@ -3994,7 +4012,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "204 projetos em 50 setores",
+    "projectCount": "205 projetos em 50 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
