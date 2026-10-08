@@ -633,6 +633,24 @@
         "rating": "4.9"
       },
       {
+        "id": "estetica-pricilamartins",
+        "name": "Pricila Martins Beauty",
+        "category": "Website",
+        "image": "/portfolio/estetica-pricilamartins.webp",
+        "url": "https://demo-estetica-pricilamartins.vercel.app",
+        "description": "Pricila Martins' studio in Celas, Coimbra: lash extensions one by one, brow design, nanoblading, micropigmentation and skin care, on beds that massage you.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Coimbra",
+        "reviewCount": "226+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-soubella",
         "name": "SouBella Wellness",
         "category": "Website",
@@ -1963,6 +1981,24 @@
         "location": "Almada",
         "reviewCount": "40+",
         "rating": "4.4"
+      },
+      {
+        "id": "movers-ruialves",
+        "name": "Rui Alves",
+        "category": "Website",
+        "image": "/portfolio/movers-ruialves.webp",
+        "url": "https://demo-movers-ruialves.vercel.app",
+        "description": "Moves, store pickups and furniture assembly in Amadora and Greater Lisbon, plus long runs across Portugal.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Moving & Assembly",
+        "location": "Amadora",
+        "reviewCount": "70+",
+        "rating": "4.9"
       },
       {
         "id": "music-desafios",
@@ -3845,6 +3881,10 @@
         "label": "Metalwork & Renovation"
       },
       {
+        "id": "moving-assembly",
+        "label": "Moving & Assembly"
+      },
+      {
         "id": "music-school",
         "label": "Music School"
       },
@@ -3918,7 +3958,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "200 projects across 49 industries",
+    "projectCount": "202 projects across 50 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

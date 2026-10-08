@@ -921,6 +921,24 @@
         "rating": "4.4"
       },
       {
+        "id": "movers-ruialves",
+        "name": "Rui Alves",
+        "category": "Website",
+        "image": "/portfolio/movers-ruialves.webp",
+        "url": "https://demo-movers-ruialves.vercel.app",
+        "description": "Mudanças, recolhas na loja e montagem de móveis na Amadora e na Grande Lisboa, e viagens longas pelo país.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mudanças & Montagens",
+        "location": "Amadora",
+        "reviewCount": "70+",
+        "rating": "4.9"
+      },
+      {
         "id": "music-desafios",
         "name": "Academia de Música Desafios",
         "category": "Website",
@@ -2872,6 +2890,24 @@
         "rating": "4.9"
       },
       {
+        "id": "estetica-pricilamartins",
+        "name": "Pricila Martins Beauty",
+        "category": "Website",
+        "image": "/portfolio/estetica-pricilamartins.webp",
+        "url": "https://demo-estetica-pricilamartins.vercel.app",
+        "description": "Estúdio de Pricila Martins em Celas, Coimbra: pestanas fio a fio, design de sobrancelhas, nanoblading, micropigmentação e pele, em marquesas com massagem.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Coimbra",
+        "reviewCount": "226+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-soubella",
         "name": "SouBella Wellness",
         "category": "Website",
@@ -3845,6 +3881,10 @@
         "label": "Serralharia & Remodelação"
       },
       {
+        "id": "moving-assembly",
+        "label": "Mudanças & Montagens"
+      },
+      {
         "id": "music-school",
         "label": "Escola de Música"
       },
@@ -3918,7 +3958,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "200 projetos em 49 setores",
+    "projectCount": "202 projetos em 50 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
