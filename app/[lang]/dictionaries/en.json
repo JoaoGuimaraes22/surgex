@@ -345,6 +345,24 @@
         "rating": "4.2"
       },
       {
+        "id": "decking-socerne",
+        "name": "SOCERNE",
+        "category": "Website",
+        "image": "/portfolio/decking-socerne.webp",
+        "url": "https://demo-decking-socerne.vercel.app",
+        "description": "Wood importer in Guimarães: solid and engineered floors, ipê and composite decks, laminate, SilentOK SPC and façade cladding, supplied and laid.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Flooring & Decks",
+        "location": "Guimarães",
+        "reviewCount": "0+",
+        "rating": "0"
+      },
+      {
         "id": "estetica-bodyspa",
         "name": "Body Spa Centro de Estética Matosinhos",
         "category": "Website",
@@ -3958,7 +3976,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "202 projects across 50 industries",
+    "projectCount": "203 projects across 50 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
