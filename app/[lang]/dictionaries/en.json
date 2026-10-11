@@ -1461,6 +1461,24 @@
         "rating": "5"
       },
       {
+        "id": "language-professordio",
+        "name": "Professor Dio",
+        "category": "Website",
+        "image": "/portfolio/language-professordio.webp",
+        "url": "https://demo-language-professordio.vercel.app",
+        "description": "Private Portuguese lessons in Lisbon and online with Dio, a Brazilian linguist: Brazilian and European Portuguese side by side.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Language School",
+        "location": "Lisboa",
+        "reviewCount": "26+",
+        "rating": "5"
+      },
+      {
         "id": "lavandaria-impec",
         "name": "Impec — Lavandaria Self Service",
         "category": "Website",
@@ -4048,7 +4066,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "207 projects across 50 industries",
+    "projectCount": "208 projects across 50 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
