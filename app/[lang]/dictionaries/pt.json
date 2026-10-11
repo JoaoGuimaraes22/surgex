@@ -1317,6 +1317,24 @@
         "rating": "5"
       },
       {
+        "id": "realestate-alvarocastela",
+        "name": "Consultoria imobiliária Álvaro Castela",
+        "category": "Website",
+        "image": "/portfolio/realestate-alvarocastela.webp",
+        "url": "https://demo-realestate-alvarocastela.vercel.app",
+        "description": "Consultor imobiliário independente nos Olivais, Lisboa.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Imobiliária",
+        "location": "Lisboa",
+        "reviewCount": "38+",
+        "rating": "5"
+      },
+      {
         "id": "locksmith-arranjos",
         "name": "Arranjos e Companhia Algés",
         "category": "Website",
@@ -4012,7 +4030,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "205 projetos em 50 setores",
+    "projectCount": "206 projetos em 50 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
