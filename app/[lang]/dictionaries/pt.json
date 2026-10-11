@@ -597,6 +597,24 @@
         "rating": "4.8"
       },
       {
+        "id": "medspa-edigarcia",
+        "name": "Edi Garcia Massoterapeuta",
+        "category": "Website",
+        "image": "/portfolio/medspa-edigarcia.webp",
+        "url": "https://demo-medspa-edigarcia.vercel.app",
+        "description": "Massagem terapêutica e relaxante, drenagem linfática, modelação corporal, limpeza de pele e head spa em Vila Franca de Xira.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Massagem Terapêutica",
+        "location": "Vila Franca de Xira",
+        "reviewCount": "65+",
+        "rating": "5"
+      },
+      {
         "id": "mechanic-autoarroios",
         "name": "Auto Arroios",
         "category": "Website",
@@ -4030,7 +4048,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "206 projetos em 50 setores",
+    "projectCount": "207 projetos em 50 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
