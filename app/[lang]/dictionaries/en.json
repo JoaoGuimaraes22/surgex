@@ -417,6 +417,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-dyoliver",
+        "name": "Dy Oliver Instituto de Estética e Formação",
+        "category": "Website",
+        "image": "/portfolio/estetica-dyoliver.webp",
+        "url": "https://demo-estetica-dyoliver.vercel.app",
+        "description": "Natural lash extensions, brows and threading in Mem Martins, Sintra, plus two-day lash and threading courses with Dy, a trainer for 14+ years.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Algueirão-Mem Martins",
+        "reviewCount": "82+",
+        "rating": "4.8"
+      },
+      {
         "id": "estetica-espumadepetalas",
         "name": "Espuma de Pétalas",
         "category": "Website",
@@ -4210,7 +4228,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "216 projects across 50 industries",
+    "projectCount": "217 projects across 50 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
