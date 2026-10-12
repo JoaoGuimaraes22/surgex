@@ -3142,6 +3142,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-santabeleza",
+        "name": "Santa Beleza & Spa",
+        "category": "Website",
+        "image": "/portfolio/estetica-santabeleza.webp",
+        "url": "https://demo-estetica-santabeleza.vercel.app",
+        "description": "Depilação a laser unissexo, cera, unhas, pedicure com calista, rosto, microblading e medicina estética no centro de Santa Maria da Feira.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Santa Maria da Feira",
+        "reviewCount": "135+",
+        "rating": "4.9"
+      },
+      {
         "id": "estetica-soubella",
         "name": "SouBella Wellness",
         "category": "Website",
@@ -4192,7 +4210,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "215 projetos em 50 setores",
+    "projectCount": "216 projetos em 50 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

@@ -651,6 +651,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-santabeleza",
+        "name": "Santa Beleza & Spa",
+        "category": "Website",
+        "image": "/portfolio/estetica-santabeleza.webp",
+        "url": "https://demo-estetica-santabeleza.vercel.app",
+        "description": "Unisex laser hair removal, waxing, nails, chiropody pedicure, facials, microblading and medical aesthetics in central Santa Maria da Feira.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Santa Maria da Feira",
+        "reviewCount": "135+",
+        "rating": "4.9"
+      },
+      {
         "id": "estetica-soubella",
         "name": "SouBella Wellness",
         "category": "Website",
@@ -4192,7 +4210,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "215 projects across 50 industries",
+    "projectCount": "216 projects across 50 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
