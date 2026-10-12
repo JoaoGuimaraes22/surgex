@@ -1713,6 +1713,24 @@
         "rating": "4.6"
       },
       {
+        "id": "mechanic-autostamaria",
+        "name": "Auto Eléctrica Sta. Maria",
+        "category": "Website",
+        "image": "/portfolio/mechanic-autostamaria.webp",
+        "url": "https://demo-mechanic-autostamaria.vercel.app",
+        "description": "Auto electrics and mechanics since 2002 in São João de Ver, Santa Maria da Feira: diagnostics, batteries, alternators, A/C, servicing.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Santa Maria da Feira",
+        "reviewCount": "131+",
+        "rating": "4.6"
+      },
+      {
         "id": "mechanic-espadaneira",
         "name": "Auto Espadaneira",
         "category": "Website",
@@ -4084,7 +4102,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "209 projects across 50 industries",
+    "projectCount": "210 projects across 50 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
