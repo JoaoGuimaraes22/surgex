@@ -1463,6 +1463,24 @@
         "rating": "4.8"
       },
       {
+        "id": "restaurant-marisqueiraalges",
+        "name": "Marisqueira de Algés",
+        "category": "Website",
+        "image": "/portfolio/restaurant-marisqueiraalges.webp",
+        "url": "https://demo-restaurant-marisqueiraalges.vercel.app",
+        "description": "Marisco fresco ao peso, travessas, arroz de marisco e bifes numa rua pedonal de Algés.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Restaurante",
+        "location": "Algés",
+        "reviewCount": "2520+",
+        "rating": "4.3"
+      },
+      {
         "id": "dentist-takata",
         "name": "Clínica Takata",
         "category": "Website",
@@ -4138,7 +4156,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "212 projetos em 50 setores",
+    "projectCount": "213 projetos em 50 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

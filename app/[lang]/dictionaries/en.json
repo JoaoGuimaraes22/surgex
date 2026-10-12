@@ -2525,6 +2525,24 @@
         "rating": "4.8"
       },
       {
+        "id": "restaurant-marisqueiraalges",
+        "name": "Marisqueira de Algés",
+        "category": "Website",
+        "image": "/portfolio/restaurant-marisqueiraalges.webp",
+        "url": "https://demo-restaurant-marisqueiraalges.vercel.app",
+        "description": "Fresh shellfish by weight, seafood platters, arroz de marisco and steaks on a pedestrian street in Algés.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Restaurant",
+        "location": "Algés",
+        "reviewCount": "2520+",
+        "rating": "4.3"
+      },
+      {
         "id": "barbershop-jaydixon",
         "name": "Jay Dixon Barbershop",
         "category": "Website",
@@ -4138,7 +4156,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "212 projects across 50 industries",
+    "projectCount": "213 projects across 50 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
