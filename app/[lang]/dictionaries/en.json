@@ -2487,6 +2487,24 @@
         "rating": "4.9"
       },
       {
+        "id": "restaurant-novaestrela",
+        "name": "A Nova Estrela",
+        "category": "Website",
+        "image": "/portfolio/restaurant-novaestrela.webp",
+        "url": "https://demo-restaurant-novaestrela.vercel.app",
+        "description": "Family tasca one street from Cascais' centre: fish of the day, octopus à lagareiro, cod gratin with broa.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Restaurant",
+        "location": "Cascais",
+        "reviewCount": "4327+",
+        "rating": "4.7"
+      },
+      {
         "id": "restaurant-sassoeiros",
         "name": "Assador Sassoeiros",
         "category": "Website",
@@ -4120,7 +4138,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "211 projects across 50 industries",
+    "projectCount": "212 projects across 50 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

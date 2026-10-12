@@ -1425,6 +1425,24 @@
         "rating": "4.9"
       },
       {
+        "id": "restaurant-novaestrela",
+        "name": "A Nova Estrela",
+        "category": "Website",
+        "image": "/portfolio/restaurant-novaestrela.webp",
+        "url": "https://demo-restaurant-novaestrela.vercel.app",
+        "description": "Tasca familiar a uma rua do centro de Cascais: peixe do dia, polvo à lagareiro, bacalhau com broa.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Restaurante",
+        "location": "Cascais",
+        "reviewCount": "4327+",
+        "rating": "4.7"
+      },
+      {
         "id": "restaurant-sassoeiros",
         "name": "Assador Sassoeiros",
         "category": "Website",
@@ -4120,7 +4138,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "211 projetos em 50 setores",
+    "projectCount": "212 projetos em 50 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
