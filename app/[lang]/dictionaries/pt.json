@@ -1481,6 +1481,24 @@
         "rating": "4.3"
       },
       {
+        "id": "restaurant-mir",
+        "name": "Mir",
+        "category": "Website",
+        "image": "/portfolio/restaurant-mir.webp",
+        "url": "https://demo-restaurant-mir.vercel.app",
+        "description": "Polvo grelhado, peixe fresco e sardinhas na brasa no centro de Cascais, a dois passos da praia.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Restaurante",
+        "location": "Cascais",
+        "reviewCount": "2110+",
+        "rating": "4.5"
+      },
+      {
         "id": "dentist-takata",
         "name": "Clínica Takata",
         "category": "Website",
@@ -4156,7 +4174,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "213 projetos em 50 setores",
+    "projectCount": "214 projetos em 50 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

@@ -2543,6 +2543,24 @@
         "rating": "4.3"
       },
       {
+        "id": "restaurant-mir",
+        "name": "Mir",
+        "category": "Website",
+        "image": "/portfolio/restaurant-mir.webp",
+        "url": "https://demo-restaurant-mir.vercel.app",
+        "description": "Grilled octopus, fresh fish and sardines over charcoal in the centre of Cascais, steps from the beach.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Restaurant",
+        "location": "Cascais",
+        "reviewCount": "2110+",
+        "rating": "4.5"
+      },
+      {
         "id": "barbershop-jaydixon",
         "name": "Jay Dixon Barbershop",
         "category": "Website",
@@ -4156,7 +4174,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "213 projects across 50 industries",
+    "projectCount": "214 projects across 50 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
