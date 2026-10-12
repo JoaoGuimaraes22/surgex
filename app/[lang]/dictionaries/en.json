@@ -1443,6 +1443,24 @@
         "rating": "4.6"
       },
       {
+        "id": "landscaping-sajardinagem",
+        "name": "SA Serviços de jardinagem",
+        "category": "Website",
+        "image": "/portfolio/landscaping-sajardinagem.webp",
+        "url": "https://demo-landscaping-sajardinagem.vercel.app",
+        "description": "Garden design, build and care in Vila Nova de Gaia: corten-steel planters made on site, synthetic and natural turf, irrigation and maintenance.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Landscaping",
+        "location": "Vila Nova de Gaia",
+        "reviewCount": "10+",
+        "rating": "5"
+      },
+      {
         "id": "language-cla",
         "name": "CLA - Language Academy",
         "category": "Website",
@@ -4102,7 +4120,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "210 projects across 50 industries",
+    "projectCount": "211 projects across 50 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

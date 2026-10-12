@@ -381,6 +381,24 @@
         "rating": "4.6"
       },
       {
+        "id": "landscaping-sajardinagem",
+        "name": "SA Serviços de jardinagem",
+        "category": "Website",
+        "image": "/portfolio/landscaping-sajardinagem.webp",
+        "url": "https://demo-landscaping-sajardinagem.vercel.app",
+        "description": "Jardins em Vila Nova de Gaia: floreiras em aço corten feitas no local, relva sintética e natural, rega automática e manutenção.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Jardinagem",
+        "location": "Vila Nova de Gaia",
+        "reviewCount": "10+",
+        "rating": "5"
+      },
+      {
         "id": "language-cla",
         "name": "CLA - Language Academy",
         "category": "Website",
@@ -4102,7 +4120,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "210 projetos em 50 setores",
+    "projectCount": "211 projetos em 50 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
