@@ -3861,6 +3861,24 @@
         "rating": "5"
       },
       {
+        "id": "vet-davila",
+        "name": "Veterinário da Vila",
+        "category": "Website",
+        "image": "/portfolio/vet-davila.webp",
+        "url": "https://demo-vet-davila.vercel.app",
+        "description": "Village vet for dogs and cats in Castanheira do Ribatejo, with evening consults in Vila Franca de Xira.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Castanheira do Ribatejo",
+        "reviewCount": "152+",
+        "rating": "4.6"
+      },
+      {
         "id": "vettop",
         "name": "VetTop",
         "category": "Website",
@@ -4174,7 +4192,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "214 projects across 50 industries",
+    "projectCount": "215 projects across 50 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
