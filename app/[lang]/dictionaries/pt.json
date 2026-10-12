@@ -1590,6 +1590,24 @@
         "rating": "4.4"
       },
       {
+        "id": "vet-caopanhia",
+        "name": "Aqui Há Gato e Cãopanhia",
+        "category": "Website",
+        "image": "/portfolio/vet-caopanhia.webp",
+        "url": "https://demo-vet-caopanhia.vercel.app",
+        "description": "Veterinário em Santo António dos Olivais, Coimbra: consultas, vacinas, doença e acompanhamento de doença crónica para gatos e cães.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinária",
+        "location": "Coimbra",
+        "reviewCount": "54+",
+        "rating": "4.8"
+      },
+      {
         "id": "vet-bichoscoloridos",
         "name": "Bichos Coloridos",
         "category": "Website",
@@ -4066,7 +4084,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "208 projetos em 50 setores",
+    "projectCount": "209 projetos em 50 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
