@@ -4056,6 +4056,24 @@
         "rating": "4.2"
       },
       {
+        "id": "estetica-bamboo",
+        "name": "Bamboo - Clínica de Estética",
+        "category": "Website",
+        "image": "/portfolio/estetica-bamboo.webp",
+        "url": "https://demo-estetica-bamboo.vercel.app",
+        "description": "Pequena clínica de estética e bem-estar em Leiria: massagem adaptada ao seu corpo, unhas de gel, pedicure e depilação.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Leiria",
+        "reviewCount": "33+",
+        "rating": "4.6"
+      },
+      {
         "id": "estetica-bodyspa",
         "name": "Body Spa Centro de Estética Matosinhos",
         "category": "Website",
@@ -4444,7 +4462,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "229 projetos em 51 setores",
+    "projectCount": "230 projetos em 51 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
