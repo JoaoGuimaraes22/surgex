@@ -3946,6 +3946,24 @@
         "rating": "4.6"
       },
       {
+        "id": "vet-floratinoco",
+        "name": "Clínica Veterinária Drª Flora Tinoco",
+        "category": "Website",
+        "image": "/portfolio/vet-floratinoco.webp",
+        "url": "https://demo-vet-floratinoco.vercel.app",
+        "description": "A small, warm vet clinic in Nogueira, Maia: consults, vaccines, surgery, hospital stays and follow-up for dogs and cats.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Maia",
+        "reviewCount": "281+",
+        "rating": "4.7"
+      },
+      {
         "id": "vet-cvls",
         "name": "CVLS",
         "category": "Website",
@@ -4390,7 +4408,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "226 projects across 51 industries",
+    "projectCount": "227 projects across 51 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
