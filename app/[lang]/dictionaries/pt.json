@@ -3106,6 +3106,24 @@
         "rating": "4.9"
       },
       {
+        "id": "estetica-monalissa",
+        "name": "Monalissa Aesthetic Clinic",
+        "category": "Website",
+        "image": "/portfolio/estetica-monalissa.webp",
+        "url": "https://demo-estetica-monalissa.vercel.app",
+        "description": "Clínica de estética na Maia (C.C.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Maia",
+        "reviewCount": "138+",
+        "rating": "4.9"
+      },
+      {
         "id": "estetica-mulheres",
         "name": "MULHERES by Inês Genebra",
         "category": "Website",
@@ -4246,7 +4264,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "218 projetos em 50 setores",
+    "projectCount": "219 projetos em 50 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
