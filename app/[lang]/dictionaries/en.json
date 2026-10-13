@@ -2361,6 +2361,24 @@
         "rating": "5"
       },
       {
+        "id": "pest-uber",
+        "name": "Über",
+        "category": "Website",
+        "image": "/portfolio/pest-uber.webp",
+        "url": "https://demo-pest-uber.vercel.app",
+        "description": "Pest control in Loures and Lisbon since 2004: rats, cockroaches, ants, fleas, bed bugs and disinfection for homes and businesses.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Pest Control",
+        "location": "Bobadela",
+        "reviewCount": "6+",
+        "rating": "4.7"
+      },
+      {
         "id": "grooming-dogshower",
         "name": "Dog Shower Cascais",
         "category": "Website",
@@ -4340,7 +4358,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "223 projects across 51 industries",
+    "projectCount": "224 projects across 51 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

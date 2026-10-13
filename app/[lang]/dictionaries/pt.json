@@ -1245,6 +1245,24 @@
         "rating": "5"
       },
       {
+        "id": "pest-uber",
+        "name": "Über",
+        "category": "Website",
+        "image": "/portfolio/pest-uber.webp",
+        "url": "https://demo-pest-uber.vercel.app",
+        "description": "Controlo de pragas em Loures e Lisboa desde 2004: ratos, baratas, formigas, pulgas, percevejos e desinfeção para casas e empresas.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Controlo de Pragas",
+        "location": "Bobadela",
+        "reviewCount": "6+",
+        "rating": "4.7"
+      },
+      {
         "id": "grooming-dogshower",
         "name": "Dog Shower Cascais",
         "category": "Website",
@@ -4340,7 +4358,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "223 projetos em 51 setores",
+    "projectCount": "224 projetos em 51 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
