@@ -739,6 +739,24 @@
         "rating": "4.7"
       },
       {
+        "id": "mechanic-autoideal",
+        "name": "Auto Ideal Fonte Nova",
+        "category": "Website",
+        "image": "/portfolio/mechanic-autoideal.webp",
+        "url": "https://demo-mechanic-autoideal.vercel.app",
+        "description": "Oficina em Leiria desde 1955: aferição de tacógrafos (reconhecida pelo IPQ), mecânica de pesados, frio e ligeiros.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Leiria",
+        "reviewCount": "117+",
+        "rating": "4.5"
+      },
+      {
         "id": "mechanic-autoprata",
         "name": "Auto Prata",
         "category": "Website",
@@ -4408,7 +4426,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "227 projetos em 51 setores",
+    "projectCount": "228 projetos em 51 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
