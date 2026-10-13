@@ -2781,6 +2781,24 @@
         "rating": "4.8"
       },
       {
+        "id": "vet-feirapets",
+        "name": "Feira Pets Vet & Spa",
+        "category": "Website",
+        "image": "/portfolio/vet-feirapets.webp",
+        "url": "https://demo-vet-feirapets.vercel.app",
+        "description": "Consultas veterinárias, análises, raio-X e ecografia, banhos, tosquias e loja para animais numa só porta em Santa Maria da Feira.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinária",
+        "location": "Santa Maria da Feira",
+        "reviewCount": "57+",
+        "rating": "4.4"
+      },
+      {
         "id": "vet-flamvet",
         "name": "Flamvet — Clínica Veterinária da Flamenga",
         "category": "Website",
@@ -4322,7 +4340,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "222 projetos em 51 setores",
+    "projectCount": "223 projetos em 51 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
