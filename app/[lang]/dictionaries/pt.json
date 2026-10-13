@@ -1515,6 +1515,24 @@
         "rating": "4.8"
       },
       {
+        "id": "restaurant-viveiro",
+        "name": "Churrasqueira do Viveiro",
+        "category": "Website",
+        "image": "/portfolio/restaurant-viveiro.webp",
+        "url": "https://demo-restaurant-viveiro.vercel.app",
+        "description": "Churrasqueira de bairro no Estoril: frango com pele estaladiça, secretos, picanha e polvo grelhado.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Restaurante",
+        "location": "Estoril",
+        "reviewCount": "1543+",
+        "rating": "4.4"
+      },
+      {
         "id": "restaurant-marisqueiraalges",
         "name": "Marisqueira de Algés",
         "category": "Website",
@@ -4354,7 +4372,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "224 projetos em 51 setores",
+    "projectCount": "225 projetos em 51 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

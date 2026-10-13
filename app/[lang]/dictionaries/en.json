@@ -2631,6 +2631,24 @@
         "rating": "4.8"
       },
       {
+        "id": "restaurant-viveiro",
+        "name": "Churrasqueira do Viveiro",
+        "category": "Website",
+        "image": "/portfolio/restaurant-viveiro.webp",
+        "url": "https://demo-restaurant-viveiro.vercel.app",
+        "description": "Neighbourhood charcoal grill in Estoril: chicken with crisp skin, pork secretos, picanha and grilled octopus.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Restaurant",
+        "location": "Estoril",
+        "reviewCount": "1543+",
+        "rating": "4.4"
+      },
+      {
         "id": "restaurant-marisqueiraalges",
         "name": "Marisqueira de Algés",
         "category": "Website",
@@ -4354,7 +4372,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "224 projects across 51 industries",
+    "projectCount": "225 projects across 51 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
