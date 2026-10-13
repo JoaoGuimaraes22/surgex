@@ -543,6 +543,24 @@
         "rating": "4.9"
       },
       {
+        "id": "estetica-isaimperial",
+        "name": "Isa Imperial Estética Especializada",
+        "category": "Website",
+        "image": "/portfolio/estetica-isaimperial.webp",
+        "url": "https://demo-estetica-isaimperial.vercel.app",
+        "description": "Laser hair removal, skin care, brows, micropigmentation and nails in Setúbal, at Dra. Isa Imperial's specialised aesthetics centre on Rua das Caravelas.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Setúbal",
+        "reviewCount": "201+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-jsstudio",
         "name": "JS Studio",
         "category": "Website",
@@ -4516,7 +4534,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "233 projects across 51 industries",
+    "projectCount": "234 projects across 51 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

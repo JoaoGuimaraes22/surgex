@@ -3228,6 +3228,24 @@
         "rating": "4.9"
       },
       {
+        "id": "estetica-isaimperial",
+        "name": "Isa Imperial Estética Especializada",
+        "category": "Website",
+        "image": "/portfolio/estetica-isaimperial.webp",
+        "url": "https://demo-estetica-isaimperial.vercel.app",
+        "description": "Depilação a laser, cuidados de pele, sobrancelhas, micropigmentação e unhas em Setúbal, no centro de estética especializada da Dra. Isa Imperial.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Setúbal",
+        "reviewCount": "201+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-jsstudio",
         "name": "JS Studio",
         "category": "Website",
@@ -4516,7 +4534,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "233 projetos em 51 setores",
+    "projectCount": "234 projetos em 51 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
