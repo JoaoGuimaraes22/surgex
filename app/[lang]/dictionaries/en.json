@@ -4091,6 +4091,24 @@
         "rating": "4.9"
       },
       {
+        "id": "vet-cortes",
+        "name": "Hospital Veterinário das Cortes",
+        "category": "Website",
+        "image": "/portfolio/vet-cortes.webp",
+        "url": "https://demo-vet-cortes.vercel.app",
+        "description": "Veterinary hospital in Moinho Novo, Leiria, open 24 hours every day: emergencies, consultations, hospitalisation, surgery, exotics.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Leiria",
+        "reviewCount": "400+",
+        "rating": "4.7"
+      },
+      {
         "id": "vet-mimavet",
         "name": "MimaVet — Centro Veterinário",
         "category": "Website",
@@ -4462,7 +4480,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "230 projects across 51 industries",
+    "projectCount": "231 projects across 51 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
