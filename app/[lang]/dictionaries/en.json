@@ -2865,6 +2865,24 @@
         "location": "Vila Nova de Gaia"
       },
       {
+        "id": "solar-consugestoes",
+        "name": "Consugestões",
+        "category": "Website",
+        "image": "/portfolio/solar-consugestoes.webp",
+        "url": "https://demo-solar-consugestoes.vercel.app",
+        "description": "Solar self-consumption systems (UPAC) for homes, farm sheds and industrial roofs in Leiria.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Solar Energy",
+        "location": "Leiria",
+        "reviewCount": "2+",
+        "rating": "5"
+      },
+      {
         "id": "solar-thermosilva",
         "name": "ThermoSilva",
         "category": "Website",
@@ -4498,7 +4516,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "232 projects across 51 industries",
+    "projectCount": "233 projects across 51 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
