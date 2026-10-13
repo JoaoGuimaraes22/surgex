@@ -1784,6 +1784,24 @@
         "rating": "4.2"
       },
       {
+        "id": "tires-agpneus",
+        "name": "AG Pneus — Auto da Guerra",
+        "category": "Website",
+        "image": "/portfolio/tires-agpneus.webp",
+        "url": "https://demo-tires-agpneus.vercel.app",
+        "description": "Casa de pneus independente no Alto da Guerra, Setúbal: todas as marcas e medidas, furos sem marcação, jantes, alinhamento e ensaio na estrada após a montagem.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Pneus",
+        "location": "Setúbal",
+        "reviewCount": "585+",
+        "rating": "4.7"
+      },
+      {
         "id": "tires-kitpneus",
         "name": "Kit Pneus",
         "category": "Website",
@@ -4480,7 +4498,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "231 projetos em 51 setores",
+    "projectCount": "232 projetos em 51 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

@@ -2973,6 +2973,24 @@
         "rating": "4.2"
       },
       {
+        "id": "tires-agpneus",
+        "name": "AG Pneus — Auto da Guerra",
+        "category": "Website",
+        "image": "/portfolio/tires-agpneus.webp",
+        "url": "https://demo-tires-agpneus.vercel.app",
+        "description": "Independent tyre house at Alto da Guerra, Setúbal: every brand and size, punctures without appointment, wheels, alignment and a road test after fitting.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Tire Shop",
+        "location": "Setúbal",
+        "reviewCount": "585+",
+        "rating": "4.7"
+      },
+      {
         "id": "tires-kitpneus",
         "name": "Kit Pneus",
         "category": "Website",
@@ -4480,7 +4498,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "231 projects across 51 industries",
+    "projectCount": "232 projects across 51 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
