@@ -831,6 +831,24 @@
         "rating": "4.7"
       },
       {
+        "id": "mechanic-luismecanica",
+        "name": "Luís Mecânica-Auto",
+        "category": "Website",
+        "image": "/portfolio/mechanic-luismecanica.webp",
+        "url": "https://demo-mechanic-luismecanica.vercel.app",
+        "description": "Oficina multimarca do Luís na Rua do Forno, Folgosa (Maia): revisões, travões, embraiagem e diagnóstico.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Maia",
+        "reviewCount": "96+",
+        "rating": "4.7"
+      },
+      {
         "id": "mechanic-nunotavares",
         "name": "Nuno P. Tavares Automóveis",
         "category": "Website",
@@ -4228,7 +4246,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "217 projetos em 50 setores",
+    "projectCount": "218 projetos em 50 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

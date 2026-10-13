@@ -1929,6 +1929,24 @@
         "rating": "4.7"
       },
       {
+        "id": "mechanic-luismecanica",
+        "name": "Luís Mecânica-Auto",
+        "category": "Website",
+        "image": "/portfolio/mechanic-luismecanica.webp",
+        "url": "https://demo-mechanic-luismecanica.vercel.app",
+        "description": "Luís's multi-brand workshop on Rua do Forno, Folgosa (Maia): servicing, brakes, clutch and diagnosis.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Maia",
+        "reviewCount": "96+",
+        "rating": "4.7"
+      },
+      {
         "id": "mechanic-nunotavares",
         "name": "Nuno P. Tavares Automóveis",
         "category": "Website",
@@ -4228,7 +4246,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "217 projects across 50 industries",
+    "projectCount": "218 projects across 50 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
