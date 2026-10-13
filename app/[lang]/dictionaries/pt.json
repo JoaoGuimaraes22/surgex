@@ -1535,6 +1535,24 @@
         "rating": "4.5"
       },
       {
+        "id": "restaurant-quitanda",
+        "name": "Quitanda · Centro Náutico",
+        "category": "Website",
+        "image": "/portfolio/restaurant-quitanda.webp",
+        "url": "https://demo-restaurant-quitanda.vercel.app",
+        "description": "Restaurante de peixe no Centro Náutico de Paço d'Arcos: escolhe o peixe na montra, pesamos e vai para a grelha a carvão.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Restaurante",
+        "location": "Paço de Arcos",
+        "reviewCount": "1829+",
+        "rating": "4.2"
+      },
+      {
         "id": "dentist-takata",
         "name": "Clínica Takata",
         "category": "Website",
@@ -4282,7 +4300,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "220 projetos em 50 setores",
+    "projectCount": "221 projetos em 50 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

@@ -2651,6 +2651,24 @@
         "rating": "4.5"
       },
       {
+        "id": "restaurant-quitanda",
+        "name": "Quitanda · Centro Náutico",
+        "category": "Website",
+        "image": "/portfolio/restaurant-quitanda.webp",
+        "url": "https://demo-restaurant-quitanda.vercel.app",
+        "description": "Fish house inside the Centro Náutico de Paço d'Arcos: pick your fish at the counter, we weigh it and grill it over charcoal.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Restaurant",
+        "location": "Paço de Arcos",
+        "reviewCount": "1829+",
+        "rating": "4.2"
+      },
+      {
         "id": "barbershop-jaydixon",
         "name": "Jay Dixon Barbershop",
         "category": "Website",
@@ -4282,7 +4300,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "220 projects across 50 industries",
+    "projectCount": "221 projects across 50 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
