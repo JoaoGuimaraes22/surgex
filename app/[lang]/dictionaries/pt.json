@@ -325,6 +325,24 @@
         "rating": "4.7"
       },
       {
+        "id": "avac-frixira",
+        "name": "Frixira",
+        "category": "Website",
+        "image": "/portfolio/avac-frixira.webp",
+        "url": "https://demo-avac-frixira.vercel.app",
+        "description": "Ar condicionado, aquecimento, ventilação, refrigeração e instalações eléctricas para casas, lojas e empresas em Vila Franca de Xira.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "AVAC",
+        "location": "Vila Franca de Xira",
+        "reviewCount": "10+",
+        "rating": "3.7"
+      },
+      {
         "id": "climatizacao-refritec",
         "name": "Refritec",
         "category": "Website",
@@ -4426,7 +4444,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "228 projetos em 51 setores",
+    "projectCount": "229 projetos em 51 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
