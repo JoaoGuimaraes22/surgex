@@ -381,6 +381,24 @@
         "rating": "4.8"
       },
       {
+        "id": "estetica-catarinaferreira",
+        "name": "Catarina Ferreira - Estética e Massagem Terapêutica",
+        "category": "Website",
+        "image": "/portfolio/estetica-catarinaferreira.webp",
+        "url": "https://demo-estetica-catarinaferreira.vercel.app",
+        "description": "Therapeutic and relaxing massage, lymphatic drainage, diode laser and threaded eyebrows with Catarina Ferreira, shop 7 at Rua Dom Fernando II, Famalicão.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Vila Nova de Famalicão",
+        "reviewCount": "123+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-dula",
         "name": "Clínica Dulá",
         "category": "Website",
@@ -4372,7 +4390,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "225 projects across 51 industries",
+    "projectCount": "226 projects across 51 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

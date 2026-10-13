@@ -4056,6 +4056,24 @@
         "rating": "4.4"
       },
       {
+        "id": "estetica-catarinaferreira",
+        "name": "Catarina Ferreira - Estética e Massagem Terapêutica",
+        "category": "Website",
+        "image": "/portfolio/estetica-catarinaferreira.webp",
+        "url": "https://demo-estetica-catarinaferreira.vercel.app",
+        "description": "Massagem terapêutica e relaxante, drenagem linfática, laser díodo e sobrancelha à linha com a Catarina Ferreira, loja 7 da Rua Dom Fernando II, Famalicão.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Vila Nova de Famalicão",
+        "reviewCount": "123+",
+        "rating": "5"
+      },
+      {
         "id": "contabilidade-joc",
         "name": "JOC Contabilidade",
         "category": "Website",
@@ -4372,7 +4390,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "225 projetos em 51 setores",
+    "projectCount": "226 projetos em 51 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
