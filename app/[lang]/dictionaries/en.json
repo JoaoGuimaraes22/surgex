@@ -2869,6 +2869,24 @@
         "rating": "4.2"
       },
       {
+        "id": "tires-kitpneus",
+        "name": "Kit Pneus",
+        "category": "Website",
+        "image": "/portfolio/tires-kitpneus.webp",
+        "url": "https://demo-tires-kitpneus.vercel.app",
+        "description": "New and part-worn tyres, fitting, punctures, rims and car servicing in Vila Nova de Famalicão.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Tire Shop",
+        "location": "Vila Nova de Famalicão",
+        "reviewCount": "388+",
+        "rating": "4.8"
+      },
+      {
         "id": "vet-anaeosbichos",
         "name": "Ana e os Bichos",
         "category": "Website",
@@ -4291,6 +4309,10 @@
         "label": "Timber & Carpentry"
       },
       {
+        "id": "tire-shop",
+        "label": "Tire Shop"
+      },
+      {
         "id": "waste-management",
         "label": "Waste Management"
       },
@@ -4300,7 +4322,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "221 projects across 50 industries",
+    "projectCount": "222 projects across 51 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
