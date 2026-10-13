@@ -561,6 +561,24 @@
         "rating": "4.8"
       },
       {
+        "id": "coach-alexandracardoso",
+        "name": "Alexandra Cardoso",
+        "category": "Website",
+        "image": "/portfolio/coach-alexandracardoso.webp",
+        "url": "https://demo-coach-alexandracardoso.vercel.app",
+        "description": "Coaching de carreira e de vida com Alexandra Cardoso em Vila Nova de Gaia e online.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Coaching de Vida",
+        "location": "Vila Nova de Gaia",
+        "reviewCount": "4+",
+        "rating": "5"
+      },
+      {
         "id": "coach-liriaguedes",
         "name": "Liria Guedes",
         "category": "Website",
@@ -4264,7 +4282,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "219 projetos em 50 setores",
+    "projectCount": "220 projetos em 50 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
