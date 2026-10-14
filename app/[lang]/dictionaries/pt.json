@@ -919,6 +919,24 @@
         "rating": "4.7"
       },
       {
+        "id": "mechanic-momeself",
+        "name": "Momeself",
+        "category": "Website",
+        "image": "/portfolio/mechanic-momeself.webp",
+        "url": "https://demo-mechanic-momeself.vercel.app",
+        "description": "Oficina multimarcas no centro de Barcelos desde 2010: diagnóstico, revisões, travões, eletrónica e colisão.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Barcelos",
+        "reviewCount": "44+",
+        "rating": "4.6"
+      },
+      {
         "id": "mechanic-nunotavares",
         "name": "Nuno P. Tavares Automóveis",
         "category": "Website",
@@ -4588,7 +4606,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "237 projetos em 51 setores",
+    "projectCount": "238 projetos em 51 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

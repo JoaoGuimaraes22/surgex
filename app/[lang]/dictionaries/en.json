@@ -2089,6 +2089,24 @@
         "rating": "4.7"
       },
       {
+        "id": "mechanic-momeself",
+        "name": "Momeself",
+        "category": "Website",
+        "image": "/portfolio/mechanic-momeself.webp",
+        "url": "https://demo-mechanic-momeself.vercel.app",
+        "description": "Multi-brand workshop in central Barcelos since 2010: diagnostics, servicing, brakes, electronics and collision repair.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Barcelos",
+        "reviewCount": "44+",
+        "rating": "4.6"
+      },
+      {
         "id": "mechanic-nunotavares",
         "name": "Nuno P. Tavares Automóveis",
         "category": "Website",
@@ -4588,7 +4606,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "237 projects across 51 industries",
+    "projectCount": "238 projects across 51 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
