@@ -2884,6 +2884,24 @@
         "rating": "4.7"
       },
       {
+        "id": "vet-fernandesbrito",
+        "name": "Clínica Veterinária Fernandes Brito",
+        "category": "Website",
+        "image": "/portfolio/vet-fernandesbrito.webp",
+        "url": "https://demo-vet-fernandesbrito.vercel.app",
+        "description": "Clínica veterinária de bairro em Vila Nova de Famalicão: consultas, vacinas, cirurgia e só os exames de que o seu animal precisa.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinária",
+        "location": "",
+        "reviewCount": "109+",
+        "rating": "4.7"
+      },
+      {
         "id": "vet-cvls",
         "name": "CVLS",
         "category": "Website",
@@ -4534,7 +4552,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "234 projetos em 51 setores",
+    "projectCount": "235 projetos em 51 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
