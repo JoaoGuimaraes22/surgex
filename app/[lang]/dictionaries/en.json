@@ -525,6 +525,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-silviapereira",
+        "name": "Gabinete de Estética Sílvia Pereira",
+        "category": "Website",
+        "image": "/portfolio/estetica-silviapereira.webp",
+        "url": "https://demo-estetica-silviapereira.vercel.app",
+        "description": "Facials, laser and wax hair removal, cryolipolysis, pressotherapy and LED in central Barcelos.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Barcelos",
+        "reviewCount": "54+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-iambeauty",
         "name": "I am beauty",
         "category": "Website",
@@ -4624,7 +4642,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "239 projects across 51 industries",
+    "projectCount": "240 projects across 51 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

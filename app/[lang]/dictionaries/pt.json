@@ -3300,6 +3300,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-silviapereira",
+        "name": "Gabinete de Estética Sílvia Pereira",
+        "category": "Website",
+        "image": "/portfolio/estetica-silviapereira.webp",
+        "url": "https://demo-estetica-silviapereira.vercel.app",
+        "description": "Rosto, depilação a laser e a cera, criolipólise, pressoterapia e LED no centro de Barcelos.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Barcelos",
+        "reviewCount": "54+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-iambeauty",
         "name": "I am beauty",
         "category": "Website",
@@ -4624,7 +4642,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "239 projetos em 51 setores",
+    "projectCount": "240 projetos em 51 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
