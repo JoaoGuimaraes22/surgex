@@ -3138,6 +3138,24 @@
         "rating": "4.7"
       },
       {
+        "id": "waste-transcadavao",
+        "name": "Transcadavão",
+        "category": "Website",
+        "image": "/portfolio/waste-transcadavao.webp",
+        "url": "https://demo-waste-transcadavao.vercel.app",
+        "description": "Sucata em Canelas, Gaia, desde 2000.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Gestão de Resíduos",
+        "location": "Canelas",
+        "reviewCount": "13+",
+        "rating": "3.4"
+      },
+      {
         "id": "caixilharia-fazmeca",
         "name": "Fazmeca",
         "category": "Website",
@@ -4606,7 +4624,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "238 projetos em 51 setores",
+    "projectCount": "239 projetos em 51 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

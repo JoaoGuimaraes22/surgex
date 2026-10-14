@@ -4326,6 +4326,24 @@
         "rating": "4.7"
       },
       {
+        "id": "waste-transcadavao",
+        "name": "Transcadavão",
+        "category": "Website",
+        "image": "/portfolio/waste-transcadavao.webp",
+        "url": "https://demo-waste-transcadavao.vercel.app",
+        "description": "Scrap metal yard in Canelas, Gaia, since 2000.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Waste Management",
+        "location": "Canelas",
+        "reviewCount": "13+",
+        "rating": "3.4"
+      },
+      {
         "id": "caixilharia-fazmeca",
         "name": "Fazmeca",
         "category": "Website",
@@ -4606,7 +4624,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "238 projects across 51 industries",
+    "projectCount": "239 projects across 51 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
