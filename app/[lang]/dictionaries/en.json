@@ -2269,6 +2269,24 @@
         "rating": "4.4"
       },
       {
+        "id": "movers-rsmudancas",
+        "name": "RS Mudanças",
+        "category": "Website",
+        "image": "/portfolio/movers-rsmudancas.webp",
+        "url": "https://demo-movers-rsmudancas.vercel.app",
+        "description": "Lisbon moving team: house and flat moves, careful packing, furniture taken apart and rebuilt.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Moving & Assembly",
+        "location": "Lisboa",
+        "reviewCount": "30+",
+        "rating": "5"
+      },
+      {
         "id": "movers-ruialves",
         "name": "Rui Alves",
         "category": "Website",
@@ -4552,7 +4570,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "235 projects across 51 industries",
+    "projectCount": "236 projects across 51 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
