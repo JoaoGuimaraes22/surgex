@@ -649,6 +649,24 @@
         "rating": "3.7"
       },
       {
+        "id": "chaves-misterchaves",
+        "name": "Mister Chaves",
+        "category": "Website",
+        "image": "/portfolio/chaves-misterchaves.webp",
+        "url": "https://demo-chaves-misterchaves.vercel.app",
+        "description": "Loja de chaves na Rua da Bélgica, Vila Nova de Gaia: chaves na hora, chaves de carro e comandos, comandos de garagem, matrículas, fechaduras, carimbos em 24h.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Chaves e Fechaduras",
+        "location": "Vila Nova de Gaia",
+        "reviewCount": "19+",
+        "rating": "4.2"
+      },
+      {
         "id": "medspa-joel",
         "name": "Clinic & Spa Joel",
         "category": "Website",
@@ -4570,7 +4588,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "236 projetos em 51 setores",
+    "projectCount": "237 projetos em 51 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

@@ -1819,6 +1819,24 @@
         "rating": "3.7"
       },
       {
+        "id": "chaves-misterchaves",
+        "name": "Mister Chaves",
+        "category": "Website",
+        "image": "/portfolio/chaves-misterchaves.webp",
+        "url": "https://demo-chaves-misterchaves.vercel.app",
+        "description": "Key shop on Rua da Bélgica, Vila Nova de Gaia: keys cut while you wait, car keys and remotes, garage remotes, number plates, locks, stamps in 24h.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Locksmith",
+        "location": "Vila Nova de Gaia",
+        "reviewCount": "19+",
+        "rating": "4.2"
+      },
+      {
         "id": "medspa-joel",
         "name": "Clinic & Spa Joel",
         "category": "Website",
@@ -4570,7 +4588,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "236 projects across 51 industries",
+    "projectCount": "237 projects across 51 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
