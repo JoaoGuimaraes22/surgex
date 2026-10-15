@@ -721,6 +721,24 @@
         "rating": "5"
       },
       {
+        "id": "mechanic-adelinolopes",
+        "name": "Adelino Lopes",
+        "category": "Website",
+        "image": "/portfolio/mechanic-adelinolopes.webp",
+        "url": "https://demo-mechanic-adelinolopes.vercel.app",
+        "description": "Eletricidade auto em Viseu desde 2008: luzes de aviso no painel, cablagens, baterias, luzes de reboque e mecânica geral.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Viseu",
+        "reviewCount": "68+",
+        "rating": "4.5"
+      },
+      {
         "id": "mechanic-amauto",
         "name": "AM AUTO David Monteiro",
         "category": "Website",
@@ -3678,6 +3696,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-rafadeucher",
+        "name": "Rafa Deucher",
+        "category": "Website",
+        "image": "/portfolio/estetica-rafadeucher.webp",
+        "url": "https://demo-estetica-rafadeucher.vercel.app",
+        "description": "Clínica de estética e spa em Viseu: head spa de 90 minutos, massagens, drenagem linfática Renata França, limpeza de pele e unhas.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Viseu",
+        "reviewCount": "147+",
+        "rating": "4.9"
+      },
+      {
         "id": "estetica-santabeleza",
         "name": "Santa Beleza & Spa",
         "category": "Website",
@@ -4790,7 +4826,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "248 projetos em 52 setores",
+    "projectCount": "250 projetos em 52 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

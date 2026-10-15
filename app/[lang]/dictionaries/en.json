@@ -777,6 +777,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-rafadeucher",
+        "name": "Rafa Deucher",
+        "category": "Website",
+        "image": "/portfolio/estetica-rafadeucher.webp",
+        "url": "https://demo-estetica-rafadeucher.vercel.app",
+        "description": "Aesthetics clinic and spa in Viseu: the 90-minute head spa, massages, Renata França lymphatic drainage, facials and nails.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Viseu",
+        "reviewCount": "147+",
+        "rating": "4.9"
+      },
+      {
         "id": "estetica-santabeleza",
         "name": "Santa Beleza & Spa",
         "category": "Website",
@@ -1925,6 +1943,24 @@
         "location": "Vila Franca de Xira",
         "reviewCount": "65+",
         "rating": "5"
+      },
+      {
+        "id": "mechanic-adelinolopes",
+        "name": "Adelino Lopes",
+        "category": "Website",
+        "image": "/portfolio/mechanic-adelinolopes.webp",
+        "url": "https://demo-mechanic-adelinolopes.vercel.app",
+        "description": "Auto electrics workshop in Viseu since 2008: warning-light faults, wiring, batteries, tow-bar lighting and general mechanics.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Viseu",
+        "reviewCount": "68+",
+        "rating": "4.5"
       },
       {
         "id": "mechanic-amauto",
@@ -4790,7 +4826,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "248 projects across 52 industries",
+    "projectCount": "250 projects across 52 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
