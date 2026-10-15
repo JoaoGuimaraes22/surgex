@@ -2233,6 +2233,24 @@
         "rating": "4.7"
       },
       {
+        "id": "mechanic-armandomelo",
+        "name": "Miguel Melo",
+        "category": "Website",
+        "image": "/portfolio/mechanic-armandomelo.webp",
+        "url": "https://demo-mechanic-armandomelo.vercel.app",
+        "description": "Multi-brand auto electrician in Areosa, Viana do Castelo: electrical faults, 2-DIN radios with Android Auto, car audio, lighting and A/C.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Viana do Castelo",
+        "reviewCount": "78+",
+        "rating": "4.7"
+      },
+      {
         "id": "mechanic-momeself",
         "name": "Momeself",
         "category": "Website",
@@ -4844,7 +4862,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "251 projects across 52 industries",
+    "projectCount": "252 projects across 52 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
