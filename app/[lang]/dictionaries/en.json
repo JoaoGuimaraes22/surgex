@@ -4488,6 +4488,24 @@
         "rating": "3.4"
       },
       {
+        "id": "music-meyou",
+        "name": "Me & You",
+        "category": "Website",
+        "image": "/portfolio/music-meyou.webp",
+        "url": "https://meandyou.pt",
+        "description": "Joana and Nelson, a married couple of musicians: violin, piano and voice for your ceremony, cocktail and party in Lisbon.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Wedding Music",
+        "location": "Agualva-Cacém (Sintra)",
+        "reviewCount": "18+",
+        "rating": "5"
+      },
+      {
         "id": "caixilharia-fazmeca",
         "name": "Fazmeca",
         "category": "Website",
@@ -4763,12 +4781,16 @@
         "label": "Waste Management"
       },
       {
+        "id": "wedding-music",
+        "label": "Wedding Music"
+      },
+      {
         "id": "windows-doors",
         "label": "Windows & Doors"
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "247 projects across 51 industries",
+    "projectCount": "248 projects across 52 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

@@ -3264,6 +3264,24 @@
         "rating": "3.4"
       },
       {
+        "id": "music-meyou",
+        "name": "Me & You",
+        "category": "Website",
+        "image": "/portfolio/music-meyou.webp",
+        "url": "https://meandyou.pt",
+        "description": "A Joana e o Nelson, um casal de músicos: violino, piano e voz para a cerimónia, o cocktail e a festa, em Lisboa e arredores.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Música para Casamentos",
+        "location": "Agualva-Cacém (Sintra)",
+        "reviewCount": "18+",
+        "rating": "5"
+      },
+      {
         "id": "caixilharia-fazmeca",
         "name": "Fazmeca",
         "category": "Website",
@@ -4763,12 +4781,16 @@
         "label": "Gestão de Resíduos"
       },
       {
+        "id": "wedding-music",
+        "label": "Música para Casamentos"
+      },
+      {
         "id": "windows-doors",
         "label": "Caixilharia"
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "247 projetos em 51 setores",
+    "projectCount": "248 projetos em 52 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
