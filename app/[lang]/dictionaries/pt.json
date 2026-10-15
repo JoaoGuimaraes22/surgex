@@ -4416,6 +4416,24 @@
         "rating": "4.2"
       },
       {
+        "id": "estetica-allinbeauty",
+        "name": "All in Beauty",
+        "category": "Website",
+        "image": "/portfolio/estetica-allinbeauty.webp",
+        "url": "https://demo-estetica-allinbeauty.vercel.app",
+        "description": "Extensão de pestanas natural, unhas de gel e depilação a laser na Avenida da Liberdade, em Mafra.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Mafra",
+        "reviewCount": "329+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-bamboo",
         "name": "Bamboo - Clínica de Estética",
         "category": "Website",
@@ -4826,7 +4844,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "250 projetos em 52 setores",
+    "projectCount": "251 projetos em 52 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

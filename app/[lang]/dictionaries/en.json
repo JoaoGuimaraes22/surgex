@@ -345,6 +345,24 @@
         "rating": "4.2"
       },
       {
+        "id": "estetica-allinbeauty",
+        "name": "All in Beauty",
+        "category": "Website",
+        "image": "/portfolio/estetica-allinbeauty.webp",
+        "url": "https://demo-estetica-allinbeauty.vercel.app",
+        "description": "Natural lash extensions, gel nails and laser hair removal on Avenida da Liberdade, Mafra.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Mafra",
+        "reviewCount": "329+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-bamboo",
         "name": "Bamboo - Clínica de Estética",
         "category": "Website",
@@ -4826,7 +4844,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "250 projects across 52 industries",
+    "projectCount": "251 projects across 52 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
