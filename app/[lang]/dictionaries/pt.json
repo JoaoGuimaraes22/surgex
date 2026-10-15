@@ -2812,6 +2812,24 @@
         "rating": "4.4"
       },
       {
+        "id": "vet-avenida",
+        "name": "Clínica Veterinária da Avenida",
+        "category": "Website",
+        "image": "/portfolio/vet-avenida.webp",
+        "url": "https://demo-vet-avenida.vercel.app",
+        "description": "Clínica veterinária na Av. Alcaides de Faria, Barcelos: consultas, vacinas, raio-X na clínica, estacionamento próprio e urgência 24h.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinária",
+        "location": "Barcelos",
+        "reviewCount": "51+",
+        "rating": "4.7"
+      },
+      {
         "id": "vet-abcvet",
         "name": "Clínica Veterinária de Caneças",
         "category": "Website",
@@ -4642,7 +4660,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "240 projetos em 51 setores",
+    "projectCount": "241 projetos em 51 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
