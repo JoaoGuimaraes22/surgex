@@ -3390,6 +3390,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-glamour",
+        "name": "Glamour Estética e Spa",
+        "category": "Website",
+        "image": "/portfolio/estetica-glamour.webp",
+        "url": "https://demo-estetica-glamour.vercel.app",
+        "description": "Estética e spa no Centro Comercial Vila Tina, em Valongo: depilação, sobrancelhas, unhas, massagens e medicina chinesa.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Valongo",
+        "reviewCount": "94+",
+        "rating": "4.9"
+      },
+      {
         "id": "estetica-iambeauty",
         "name": "I am beauty",
         "category": "Website",
@@ -4714,7 +4732,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "244 projetos em 51 setores",
+    "projectCount": "245 projetos em 51 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

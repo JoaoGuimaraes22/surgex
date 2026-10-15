@@ -543,6 +543,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-glamour",
+        "name": "Glamour Estética e Spa",
+        "category": "Website",
+        "image": "/portfolio/estetica-glamour.webp",
+        "url": "https://demo-estetica-glamour.vercel.app",
+        "description": "Aesthetics and spa in Centro Comercial Vila Tina, Valongo: waxing, brows, nails, massages and Chinese medicine.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Valongo",
+        "reviewCount": "94+",
+        "rating": "4.9"
+      },
+      {
         "id": "estetica-iambeauty",
         "name": "I am beauty",
         "category": "Website",
@@ -4714,7 +4732,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "244 projects across 51 industries",
+    "projectCount": "245 projects across 51 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
