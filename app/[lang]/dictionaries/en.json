@@ -1801,6 +1801,24 @@
         "rating": "5"
       },
       {
+        "id": "coach-soniadarocha",
+        "name": "Sónia da Rocha · Relationship Coaching & Family Constellations",
+        "category": "Website",
+        "image": "/portfolio/coach-soniadarocha.webp",
+        "url": "https://demo-coach-soniadarocha.vercel.app",
+        "description": "Relationship coaching, couples and life coaching and family constellations with Sónia da Rocha in Porto.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Life Coach",
+        "location": "Porto",
+        "reviewCount": "9+",
+        "rating": "5"
+      },
+      {
         "id": "chaves-massama",
         "name": "Casa das Chaves de Massamá",
         "category": "Website",
@@ -1889,6 +1907,24 @@
         "location": "Vila Franca de Xira",
         "reviewCount": "65+",
         "rating": "5"
+      },
+      {
+        "id": "mechanic-amauto",
+        "name": "AM AUTO David Monteiro",
+        "category": "Website",
+        "image": "/portfolio/mechanic-amauto.webp",
+        "url": "https://demo-mechanic-amauto.vercel.app",
+        "description": "Multi-brand car workshop in Valongo run by David Monteiro: diagnostics that find what others missed, itemised quotes, fair prices.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Valongo",
+        "reviewCount": "298+",
+        "rating": "4.6"
       },
       {
         "id": "mechanic-autoarroios",
@@ -4180,6 +4216,24 @@
         "rating": "4.7"
       },
       {
+        "id": "vet-quintadoparaiso",
+        "name": "Clínica Veterinária Quinta do Paraíso",
+        "category": "Website",
+        "image": "/portfolio/vet-quintadoparaiso.webp",
+        "url": "https://demo-vet-quintadoparaiso.vercel.app",
+        "description": "Neighbourhood vet in Setúbal: Dr. Nuno and Dra. Susana look after dogs and cats, explain everything in plain words and see you on time.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Setúbal",
+        "reviewCount": "122+",
+        "rating": "4.7"
+      },
+      {
         "id": "vet-cvls",
         "name": "CVLS",
         "category": "Website",
@@ -4660,7 +4714,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "241 projects across 51 industries",
+    "projectCount": "244 projects across 51 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

@@ -613,6 +613,24 @@
         "rating": "5"
       },
       {
+        "id": "coach-soniadarocha",
+        "name": "Sónia da Rocha · Relationship Coaching & Family Constellations",
+        "category": "Website",
+        "image": "/portfolio/coach-soniadarocha.webp",
+        "url": "https://demo-coach-soniadarocha.vercel.app",
+        "description": "Coaching de relações, de casal e de vida e constelações familiares com Sónia da Rocha, no Porto.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Coaching de Vida",
+        "location": "Porto",
+        "reviewCount": "9+",
+        "rating": "5"
+      },
+      {
         "id": "chaves-massama",
         "name": "Casa das Chaves de Massamá",
         "category": "Website",
@@ -701,6 +719,24 @@
         "location": "Vila Franca de Xira",
         "reviewCount": "65+",
         "rating": "5"
+      },
+      {
+        "id": "mechanic-amauto",
+        "name": "AM AUTO David Monteiro",
+        "category": "Website",
+        "image": "/portfolio/mechanic-amauto.webp",
+        "url": "https://demo-mechanic-amauto.vercel.app",
+        "description": "Oficina multimarcas em Valongo de David Monteiro: diagnóstico que encontra o que outros não viram, orçamento detalhado e preço justo.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Valongo",
+        "reviewCount": "298+",
+        "rating": "4.6"
       },
       {
         "id": "mechanic-autoarroios",
@@ -2974,6 +3010,24 @@
         "rating": "4.7"
       },
       {
+        "id": "vet-quintadoparaiso",
+        "name": "Clínica Veterinária Quinta do Paraíso",
+        "category": "Website",
+        "image": "/portfolio/vet-quintadoparaiso.webp",
+        "url": "https://demo-vet-quintadoparaiso.vercel.app",
+        "description": "Veterinário de bairro em Setúbal: o Dr. Nuno e a Dra. Susana tratam cães e gatos, explicam tudo em palavras simples e atendem a horas.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinária",
+        "location": "Setúbal",
+        "reviewCount": "122+",
+        "rating": "4.7"
+      },
+      {
         "id": "vet-cvls",
         "name": "CVLS",
         "category": "Website",
@@ -4660,7 +4714,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "241 projetos em 51 setores",
+    "projectCount": "244 projetos em 51 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
