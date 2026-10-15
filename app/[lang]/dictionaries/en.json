@@ -2053,6 +2053,24 @@
         "rating": "4"
       },
       {
+        "id": "mechanic-automafra",
+        "name": "Automafra",
+        "category": "Website",
+        "image": "/portfolio/mechanic-automafra.webp",
+        "url": "https://demo-mechanic-automafra.vercel.app",
+        "description": "Automafra, Mafra since 1981: servicing for every make, Opel representative, ContiService tyres, paintwork and fuel on one forecourt on Av. 25 de Abril.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Mafra",
+        "reviewCount": "146+",
+        "rating": "4.4"
+      },
+      {
         "id": "mechanic-autosande",
         "name": "Autosande",
         "category": "Website",
@@ -4750,7 +4768,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "246 projects across 51 industries",
+    "projectCount": "247 projects across 51 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
