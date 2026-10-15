@@ -4416,6 +4416,24 @@
         "rating": "4.8"
       },
       {
+        "id": "vet-viriatupets",
+        "name": "ViriatuPet's - Consultório Veterinário",
+        "category": "Website",
+        "image": "/portfolio/vet-viriatupets.webp",
+        "url": "https://demo-vet-viriatupets.vercel.app",
+        "description": "A small vet practice on Av. da Europa, Viseu: consultations, vaccines, deworming, microchips, lab tests, nutrition and home visits for dogs and cats.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Viseu",
+        "reviewCount": "57+",
+        "rating": "5"
+      },
+      {
         "id": "residuos-recissequeira",
         "name": "Recissequeira",
         "category": "Website",
@@ -4732,7 +4750,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "245 projects across 51 industries",
+    "projectCount": "246 projects across 51 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
