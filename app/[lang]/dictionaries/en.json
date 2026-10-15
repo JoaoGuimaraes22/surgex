@@ -4252,6 +4252,24 @@
         "rating": "4.8"
       },
       {
+        "id": "vet-dovale",
+        "name": "Clínica Veterinária do Vale",
+        "category": "Website",
+        "image": "/portfolio/vet-dovale.webp",
+        "url": "https://demo-vet-dovale.vercel.app",
+        "description": "Family veterinary clinic in Valongo since 2006.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Valongo",
+        "reviewCount": "251+",
+        "rating": "4.7"
+      },
+      {
         "id": "vet-luispaiva",
         "name": "Clínica Veterinária Dr. Luís Paiva",
         "category": "Website",
@@ -4862,7 +4880,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "252 projects across 52 industries",
+    "projectCount": "253 projects across 52 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
