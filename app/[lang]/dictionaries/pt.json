@@ -1283,8 +1283,8 @@
         "name": "Atelier Lá Mi Ré",
         "category": "Website",
         "image": "/portfolio/music-lamire.webp",
-        "url": "https://demo-music-lamire.vercel.app",
-        "description": "Aulas de violino, piano e iniciação musical em Agualva-Cacém, Sintra — individuais, seg–sáb 08:00–21:00.",
+        "url": "https://atelierlamire.pt",
+        "description": "Aulas de música em Agualva-Cacém, Sintra: qualquer instrumento, individuais ou em grupo, expressão musical desde bebé, coro e combo.",
         "services": [
           "Web Design",
           "SEO",
@@ -1293,7 +1293,7 @@
         ],
         "niche": "Escola de Música",
         "location": "Agualva-Cacém (Sintra)",
-        "reviewCount": "",
+        "reviewCount": "1+",
         "rating": "5"
       },
       {
