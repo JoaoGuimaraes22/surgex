@@ -615,6 +615,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-isabelsalgueiro",
+        "name": "Isabel Salgueiro",
+        "category": "Website",
+        "image": "/portfolio/estetica-isabelsalgueiro.webp",
+        "url": "https://demo-estetica-isabelsalgueiro.vercel.app",
+        "description": "Isabel Salgueiro's beauty institute in Viana do Castelo: facials, LPG endermologie, body care, waxing, gel nails and make-up.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Viana do Castelo",
+        "reviewCount": "89+",
+        "rating": "4.9"
+      },
+      {
         "id": "estetica-jsstudio",
         "name": "JS Studio",
         "category": "Website",
@@ -4880,7 +4898,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "253 projects across 52 industries",
+    "projectCount": "254 projects across 52 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

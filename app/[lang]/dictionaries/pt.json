@@ -3552,6 +3552,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-isabelsalgueiro",
+        "name": "Isabel Salgueiro",
+        "category": "Website",
+        "image": "/portfolio/estetica-isabelsalgueiro.webp",
+        "url": "https://demo-estetica-isabelsalgueiro.vercel.app",
+        "description": "Instituto de beleza Isabel Salgueiro em Viana do Castelo: rosto, endermologie LPG, corpo, depilação, unhas de gel e maquilhagem.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Viana do Castelo",
+        "reviewCount": "89+",
+        "rating": "4.9"
+      },
+      {
         "id": "estetica-jsstudio",
         "name": "JS Studio",
         "category": "Website",
@@ -4880,7 +4898,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "253 projetos em 52 setores",
+    "projectCount": "254 projetos em 52 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
