@@ -4524,6 +4524,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-andreiaduraes",
+        "name": "Andreia Durães Beauty Clinic",
+        "category": "Website",
+        "image": "/portfolio/estetica-andreiaduraes.webp",
+        "url": "https://demo-estetica-andreiaduraes.vercel.app",
+        "description": "Laser, manicure, pedicure, massagens e limpeza de pele com a Andreia Durães, na Rua Pinheiro Chagas, Lisboa.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Lisboa",
+        "reviewCount": "41+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-bamboo",
         "name": "Bamboo - Clínica de Estética",
         "category": "Website",
@@ -4934,7 +4952,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "256 projetos em 52 setores",
+    "projectCount": "257 projetos em 52 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

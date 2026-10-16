@@ -363,6 +363,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-andreiaduraes",
+        "name": "Andreia Durães Beauty Clinic",
+        "category": "Website",
+        "image": "/portfolio/estetica-andreiaduraes.webp",
+        "url": "https://demo-estetica-andreiaduraes.vercel.app",
+        "description": "Laser hair removal, manicure, pedicure, massage and skin cleansing with Andreia Durães, on Rua Pinheiro Chagas in Lisbon.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Lisboa",
+        "reviewCount": "41+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-bamboo",
         "name": "Bamboo - Clínica de Estética",
         "category": "Website",
@@ -4934,7 +4952,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "256 projects across 52 industries",
+    "projectCount": "257 projects across 52 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
