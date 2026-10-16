@@ -433,6 +433,24 @@
         "rating": "5"
       },
       {
+        "id": "language-juansalan",
+        "name": "Juan Salán — English & Spanish",
+        "category": "Website",
+        "image": "/portfolio/language-juansalan.webp",
+        "url": "https://demo-language-juansalan.vercel.app",
+        "description": "Aulas individuais de inglês e espanhol online com Juan Salán, a partir do Porto.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Escola de Línguas",
+        "location": "Porto",
+        "reviewCount": "9+",
+        "rating": "4.9"
+      },
+      {
         "id": "language-professordio",
         "name": "Professor Dio",
         "category": "Website",
@@ -3191,6 +3209,24 @@
         "rating": "4.7"
       },
       {
+        "id": "vet-meadelavet",
+        "name": "MeadelaVet",
+        "category": "Website",
+        "image": "/portfolio/vet-meadelavet.webp",
+        "url": "https://demo-vet-meadelavet.vercel.app",
+        "description": "Clínica veterinária na Meadela, Viana do Castelo, desde 2010.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinária",
+        "location": "Viana do Castelo",
+        "reviewCount": "112+",
+        "rating": "4.8"
+      },
+      {
         "id": "vet-mimavet",
         "name": "MimaVet — Centro Veterinário",
         "category": "Website",
@@ -4898,7 +4934,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "254 projetos em 52 setores",
+    "projectCount": "256 projetos em 52 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
