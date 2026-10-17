@@ -3189,6 +3189,24 @@
         "rating": "5"
       },
       {
+        "id": "solar-geosolar",
+        "name": "Geosolar",
+        "category": "Website",
+        "image": "/portfolio/solar-geosolar.webp",
+        "url": "https://demo-solar-geosolar.vercel.app",
+        "description": "Solar panels for homes and businesses in Viseu: self-consumption, batteries, solar hot water, licensing and maintenance.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Solar Energy",
+        "location": "Viseu",
+        "reviewCount": "5+",
+        "rating": "3.8"
+      },
+      {
         "id": "solar-thermosilva",
         "name": "ThermoSilva",
         "category": "Website",
@@ -4970,7 +4988,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "258 projects across 52 industries",
+    "projectCount": "259 projects across 52 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
