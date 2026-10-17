@@ -4323,6 +4323,24 @@
         "rating": "4.9"
       },
       {
+        "id": "vet-saobernardo",
+        "name": "Centro Veterinário de São Bernardo",
+        "category": "Website",
+        "image": "/portfolio/vet-saobernardo.webp",
+        "url": "https://demo-vet-saobernardo.vercel.app",
+        "description": "Neighbourhood vet in São Bernardo, Aveiro: consultations, vaccines, deworming, sterilisation, bathing and grooming.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "São Bernardo",
+        "reviewCount": "212+",
+        "rating": "4.8"
+      },
+      {
         "id": "vet-avencas",
         "name": "Clinica Veterinaria das Avencas",
         "category": "Website",
@@ -5100,7 +5118,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "265 projects across 53 industries",
+    "projectCount": "266 projects across 53 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
