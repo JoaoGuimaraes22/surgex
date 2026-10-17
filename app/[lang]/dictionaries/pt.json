@@ -3678,6 +3678,24 @@
         "rating": "4.9"
       },
       {
+        "id": "estetica-intention",
+        "name": "Intention Concept",
+        "category": "Website",
+        "image": "/portfolio/estetica-intention.webp",
+        "url": "https://demo-estetica-intention.vercel.app",
+        "description": "A clínica de estética de Inês Carneiro em Aveiro: depilação a laser com resultados desde a primeira sessão, pele, sobrancelhas, pestanas, unhas e barbeiro.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Aveiro",
+        "reviewCount": "136+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-isaimperial",
         "name": "Isa Imperial Estética Especializada",
         "category": "Website",
@@ -5064,7 +5082,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "263 projetos em 53 setores",
+    "projectCount": "264 projetos em 53 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
