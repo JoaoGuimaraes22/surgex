@@ -4288,6 +4288,24 @@
         "rating": "4.7"
       },
       {
+        "id": "vet-vigia",
+        "name": "Clínica Veterinária da Vigia",
+        "category": "Website",
+        "image": "/portfolio/vet-vigia.webp",
+        "url": "https://demo-vet-vigia.vercel.app",
+        "description": "Vet clinic in A dos Cunhados, on the road to Santa Cruz: consultations, vaccines, microchips and surgery with Dra. Sónia Farrim.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "A dos Cunhados",
+        "reviewCount": "44+",
+        "rating": "4.9"
+      },
+      {
         "id": "vet-abcvet",
         "name": "Clínica Veterinária de Caneças",
         "category": "Website",
@@ -5006,7 +5024,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "260 projects across 52 industries",
+    "projectCount": "261 projects across 52 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
