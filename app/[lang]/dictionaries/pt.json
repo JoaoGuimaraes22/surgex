@@ -1693,6 +1693,24 @@
         "rating": "5"
       },
       {
+        "id": "realestate-agendamediatica",
+        "name": "Agenda Mediática",
+        "category": "Website",
+        "image": "/portfolio/realestate-agendamediatica.webp",
+        "url": "https://demo-realestate-agendamediatica.vercel.app",
+        "description": "Imobiliária local na Quinta do Infantado, Loures.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Imobiliária",
+        "location": "Loures",
+        "reviewCount": "3+",
+        "rating": "3.7"
+      },
+      {
         "id": "realestate-alvarocastela",
         "name": "Consultoria imobiliária Álvaro Castela",
         "category": "Website",
@@ -5082,7 +5100,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "264 projetos em 53 setores",
+    "projectCount": "265 projetos em 53 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

@@ -3007,6 +3007,24 @@
         "rating": "5"
       },
       {
+        "id": "realestate-agendamediatica",
+        "name": "Agenda Mediática",
+        "category": "Website",
+        "image": "/portfolio/realestate-agendamediatica.webp",
+        "url": "https://demo-realestate-agendamediatica.vercel.app",
+        "description": "Local real estate agency in Quinta do Infantado, Loures.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Real Estate",
+        "location": "Loures",
+        "reviewCount": "3+",
+        "rating": "3.7"
+      },
+      {
         "id": "realestate-alvarocastela",
         "name": "Consultoria imobiliária Álvaro Castela",
         "category": "Website",
@@ -5082,7 +5100,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "264 projects across 53 industries",
+    "projectCount": "265 projects across 53 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
