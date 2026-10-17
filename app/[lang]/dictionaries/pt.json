@@ -3444,6 +3444,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-depilcenter",
+        "name": "DepilCenter",
+        "category": "Website",
+        "image": "/portfolio/estetica-depilcenter.webp",
+        "url": "https://demo-estetica-depilcenter.vercel.app",
+        "description": "Depilação a laser com Soprano XL SHR, IPL, cera e linha, tratamentos de rosto e corpo, unhas de gel e pestanas no centro de Torres Vedras.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Torres Vedras",
+        "reviewCount": "54+",
+        "rating": "4.9"
+      },
+      {
         "id": "estetica-dyoliver",
         "name": "Dy Oliver Instituto de Estética e Formação",
         "category": "Website",
@@ -4952,7 +4970,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "257 projetos em 52 setores",
+    "projectCount": "258 projetos em 52 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
