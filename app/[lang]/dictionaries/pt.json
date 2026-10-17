@@ -307,6 +307,24 @@
         "rating": "4.1"
       },
       {
+        "id": "remodelacao-augusto",
+        "name": "Augusto Remodelação",
+        "category": "Website",
+        "image": "/portfolio/remodelacao-augusto.webp",
+        "url": "https://demo-remodelacao-augusto.vercel.app",
+        "description": "Remodelações em Alverca do Ribatejo há mais de 15 anos: telhados, pavimentos cerâmicos e de madeira, casas de banho e cozinhas.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Remodelações",
+        "location": "Alverca do Ribatejo",
+        "reviewCount": "13+",
+        "rating": "4.9"
+      },
+      {
         "id": "avac-arcoviana",
         "name": "Arcoviana",
         "category": "Website",
@@ -4895,6 +4913,10 @@
         "label": "Head Spa"
       },
       {
+        "id": "home-renovation",
+        "label": "Remodelações"
+      },
+      {
         "id": "hvac",
         "label": "AVAC"
       },
@@ -5024,7 +5046,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "261 projetos em 52 setores",
+    "projectCount": "262 projetos em 53 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

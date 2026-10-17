@@ -1603,6 +1603,24 @@
         "rating": "4.1"
       },
       {
+        "id": "remodelacao-augusto",
+        "name": "Augusto Remodelação",
+        "category": "Website",
+        "image": "/portfolio/remodelacao-augusto.webp",
+        "url": "https://demo-remodelacao-augusto.vercel.app",
+        "description": "Renovation crew in Alverca do Ribatejo with 15+ years: roofs, ceramic and wood floors, bathrooms, kitchens and full home renovations.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Home Renovation",
+        "location": "Alverca do Ribatejo",
+        "reviewCount": "13+",
+        "rating": "4.9"
+      },
+      {
         "id": "avac-arcoviana",
         "name": "Arcoviana",
         "category": "Website",
@@ -4895,6 +4913,10 @@
         "label": "Head Spa"
       },
       {
+        "id": "home-renovation",
+        "label": "Home Renovation"
+      },
+      {
         "id": "hvac",
         "label": "HVAC"
       },
@@ -5024,7 +5046,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "261 projects across 52 industries",
+    "projectCount": "262 projects across 53 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
