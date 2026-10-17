@@ -955,6 +955,24 @@
         "rating": "4.7"
       },
       {
+        "id": "mechanic-brandauto",
+        "name": "Brandauto",
+        "category": "Website",
+        "image": "/portfolio/mechanic-brandauto.webp",
+        "url": "https://demo-mechanic-brandauto.vercel.app",
+        "description": "Oficina familiar multimarca em Aveiro: diagnóstico, revisões, filtro de partículas, travões, caixa e clássicos.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Aveiro",
+        "reviewCount": "118+",
+        "rating": "4.9"
+      },
+      {
         "id": "mechanic-electrobino",
         "name": "Electro Bino",
         "category": "Website",
@@ -5046,7 +5064,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "262 projetos em 53 setores",
+    "projectCount": "263 projetos em 53 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

@@ -2251,6 +2251,24 @@
         "rating": "4.7"
       },
       {
+        "id": "mechanic-brandauto",
+        "name": "Brandauto",
+        "category": "Website",
+        "image": "/portfolio/mechanic-brandauto.webp",
+        "url": "https://demo-mechanic-brandauto.vercel.app",
+        "description": "Family multi-brand workshop in Aveiro: diagnosis, servicing, DPF and engine faults, brakes, gearbox and classics.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Aveiro",
+        "reviewCount": "118+",
+        "rating": "4.9"
+      },
+      {
         "id": "mechanic-electrobino",
         "name": "Electro Bino",
         "category": "Website",
@@ -5046,7 +5064,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "262 projects across 53 industries",
+    "projectCount": "263 projects across 53 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
