@@ -2251,6 +2251,24 @@
         "rating": "4.5"
       },
       {
+        "id": "mechanic-evoperformance",
+        "name": "Evoperformance",
+        "category": "Website",
+        "image": "/portfolio/mechanic-evoperformance.webp",
+        "url": "https://demo-mechanic-evoperformance.vercel.app",
+        "description": "Multi-brand car workshop on the N115 in Torres Vedras: servicing, diagnosis, A/C recharge, brakes and engine repair, with a clear quote before any work.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Torres Vedras",
+        "reviewCount": "70+",
+        "rating": "4.8"
+      },
+      {
         "id": "mechanic-amadorauto",
         "name": "Garagem Amadorauto",
         "category": "Website",
@@ -4988,7 +5006,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "259 projects across 52 industries",
+    "projectCount": "260 projects across 52 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
