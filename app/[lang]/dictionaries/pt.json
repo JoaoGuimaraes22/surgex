@@ -3948,6 +3948,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-phpeel",
+        "name": "PHPeel Estética",
+        "category": "Website",
+        "image": "/portfolio/estetica-phpeel.webp",
+        "url": "https://demo-estetica-phpeel.vercel.app",
+        "description": "Saúde dos pés e estética no Barreiro: pedicure profunda com diagnóstico, unhas encravadas, calos e micose, e ainda pele, sobrancelhas, pestanas e laser.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Barreiro",
+        "reviewCount": "165+",
+        "rating": "4.9"
+      },
+      {
         "id": "estetica-pozinhos",
         "name": "Pozinhos de Beleza",
         "category": "Website",
@@ -5154,7 +5172,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "268 projetos em 53 setores",
+    "projectCount": "269 projetos em 53 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
