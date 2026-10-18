@@ -991,6 +991,24 @@
         "rating": "4.5"
       },
       {
+        "id": "mechanic-electrospyder",
+        "name": "Electro Spyder",
+        "category": "Website",
+        "image": "/portfolio/mechanic-electrospyder.webp",
+        "url": "https://demo-mechanic-electrospyder.vercel.app",
+        "description": "Eletricidade auto em Caxinas, Vila do Conde: reparações elétricas, diagnóstico, baterias, auto-rádios, ar condicionado e kits mãos-livres.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Vila do Conde",
+        "reviewCount": "94+",
+        "rating": "4.6"
+      },
+      {
         "id": "mechanic-evoperformance",
         "name": "Evoperformance",
         "category": "Website",
@@ -5172,7 +5190,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "269 projetos em 53 setores",
+    "projectCount": "270 projetos em 53 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

@@ -2323,6 +2323,24 @@
         "rating": "4.5"
       },
       {
+        "id": "mechanic-electrospyder",
+        "name": "Electro Spyder",
+        "category": "Website",
+        "image": "/portfolio/mechanic-electrospyder.webp",
+        "url": "https://demo-mechanic-electrospyder.vercel.app",
+        "description": "Auto electrics in Caxinas, Vila do Conde: electrical repairs, diagnostics, batteries, car radios, A/C and hands-free kits.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Vila do Conde",
+        "reviewCount": "94+",
+        "rating": "4.6"
+      },
+      {
         "id": "mechanic-evoperformance",
         "name": "Evoperformance",
         "category": "Website",
@@ -5172,7 +5190,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "269 projects across 53 industries",
+    "projectCount": "270 projects across 53 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
