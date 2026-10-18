@@ -4612,6 +4612,24 @@
         "rating": "4.8"
       },
       {
+        "id": "vet-draeva",
+        "name": "Clínica Veterinária Dra. Eva",
+        "category": "Website",
+        "image": "/portfolio/vet-draeva.webp",
+        "url": "https://demo-vet-draeva.vercel.app",
+        "description": "Dra. Eva Silva's small vet clinic in Santo António da Charneca, Barreiro: straight to the real problem, fair prices, every species.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Santo António da Charneca",
+        "reviewCount": "511+",
+        "rating": "4.9"
+      },
+      {
         "id": "vet-lilianadias",
         "name": "Clínica Veterinária Dra. Liliana Dias",
         "category": "Website",
@@ -5244,7 +5262,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "273 projects across 53 industries",
+    "projectCount": "274 projects across 53 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
