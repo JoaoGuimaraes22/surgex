@@ -1711,6 +1711,24 @@
         "rating": "4.4"
       },
       {
+        "id": "pool-ajgomes",
+        "name": "AJ Gomes Piscinas",
+        "category": "Website",
+        "image": "/portfolio/pool-ajgomes.webp",
+        "url": "https://demo-pool-ajgomes.vercel.app",
+        "description": "Construção de piscinas, montagem de equipamentos e manutenção em Braga desde 1997, com loja na Via Falperra, em Fraião.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Manutenção de Piscinas",
+        "location": "Braga",
+        "reviewCount": "4+",
+        "rating": "4.8"
+      },
+      {
         "id": "pool-tomasmonteiro",
         "name": "Tomás Monteiro · Pool Maintenance",
         "category": "Website",
@@ -5226,7 +5244,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "272 projetos em 53 setores",
+    "projectCount": "273 projetos em 53 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

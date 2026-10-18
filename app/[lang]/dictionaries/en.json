@@ -3061,6 +3061,24 @@
         "rating": "4.4"
       },
       {
+        "id": "pool-ajgomes",
+        "name": "AJ Gomes Piscinas",
+        "category": "Website",
+        "image": "/portfolio/pool-ajgomes.webp",
+        "url": "https://demo-pool-ajgomes.vercel.app",
+        "description": "Pool construction, equipment fitting and maintenance in Braga since 1997, plus a pool shop on the Falperra road in Fraião.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Pool Maintenance",
+        "location": "Braga",
+        "reviewCount": "4+",
+        "rating": "4.8"
+      },
+      {
         "id": "pool-tomasmonteiro",
         "name": "Tomás Monteiro · Pool Maintenance",
         "category": "Website",
@@ -5226,7 +5244,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "272 projects across 53 industries",
+    "projectCount": "273 projects across 53 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
