@@ -4991,6 +4991,24 @@
         "rating": "4.6"
       },
       {
+        "id": "vet-saoluis",
+        "name": "Veterinário São Luís",
+        "category": "Website",
+        "image": "/portfolio/vet-saoluis.webp",
+        "url": "https://demo-vet-saoluis.vercel.app",
+        "description": "Neighbourhood vet in Quinta do Anjo, Palmela, for over 20 years: consultations, vaccines, sterilisation, senior care and emergencies.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Q.ta do Anjo",
+        "reviewCount": "74+",
+        "rating": "4.8"
+      },
+      {
         "id": "vettop",
         "name": "VetTop",
         "category": "Website",
@@ -5374,7 +5392,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "280 projects across 54 industries",
+    "projectCount": "281 projects across 54 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
