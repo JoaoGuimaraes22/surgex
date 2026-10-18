@@ -4146,6 +4146,24 @@
         "rating": "4.6"
       },
       {
+        "id": "estetica-vilart",
+        "name": "Vil’Art Beauty Center",
+        "category": "Website",
+        "image": "/portfolio/estetica-vilart.webp",
+        "url": "https://demo-estetica-vilart.vercel.app",
+        "description": "Centro de beleza na Rua 25 de Abril, Vila do Conde: cabelo, unhas, tratamentos de rosto, linha e depilação, com vários serviços na mesma visita.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Vila do Conde",
+        "reviewCount": "48+",
+        "rating": "4.7"
+      },
+      {
         "id": "lavagem-autobrilho",
         "name": "Auto Brilho - Lavagem de Automóveis",
         "category": "Website",
@@ -5190,7 +5208,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "270 projetos em 53 setores",
+    "projectCount": "271 projetos em 53 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
