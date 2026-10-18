@@ -3099,6 +3099,24 @@
         "rating": "4.9"
       },
       {
+        "id": "vet-cvloule",
+        "name": "Centro Veterinário de Loulé",
+        "category": "Website",
+        "image": "/portfolio/vet-cvloule.webp",
+        "url": "https://demo-vet-cvloule.vercel.app",
+        "description": "Hospital veterinário em Loulé, aberto 7 dias: urgências sem marcação, cirurgia, TAC, endoscopia e internamento.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinária",
+        "location": "Loulé",
+        "reviewCount": "275+",
+        "rating": "4.4"
+      },
+      {
         "id": "vet-saobernardo",
         "name": "Centro Veterinário de São Bernardo",
         "category": "Website",
@@ -5298,7 +5316,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "276 projetos em 53 setores",
+    "projectCount": "277 projetos em 53 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
