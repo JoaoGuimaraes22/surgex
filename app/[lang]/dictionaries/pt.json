@@ -3389,6 +3389,24 @@
         "rating": "5"
       },
       {
+        "id": "vet-vetconde",
+        "name": "Vetconde - Clínica Veterinária",
+        "category": "Website",
+        "image": "/portfolio/vet-vetconde.webp",
+        "url": "https://demo-vet-vetconde.vercel.app",
+        "description": "A veterinária da família em Vila do Conde desde 2002.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinária",
+        "location": "Vila do Conde",
+        "reviewCount": "96+",
+        "rating": "4.8"
+      },
+      {
         "id": "vet-davila",
         "name": "Veterinário da Vila",
         "category": "Website",
@@ -5118,7 +5136,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "266 projetos em 53 setores",
+    "projectCount": "267 projetos em 53 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
