@@ -2161,6 +2161,24 @@
         "rating": "4.6"
       },
       {
+        "id": "mechanic-autoalexandre",
+        "name": "Auto Alexandre",
+        "category": "Website",
+        "image": "/portfolio/mechanic-autoalexandre.webp",
+        "url": "https://demo-mechanic-autoalexandre.vercel.app",
+        "description": "Family-run car repair workshop in Loulé since 1998.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Loulé",
+        "reviewCount": "176+",
+        "rating": "4.4"
+      },
+      {
         "id": "mechanic-autoarroios",
         "name": "Auto Arroios",
         "category": "Website",
@@ -5262,7 +5280,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "274 projects across 53 industries",
+    "projectCount": "275 projects across 53 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

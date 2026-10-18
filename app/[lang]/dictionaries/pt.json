@@ -811,6 +811,24 @@
         "rating": "4.6"
       },
       {
+        "id": "mechanic-autoalexandre",
+        "name": "Auto Alexandre",
+        "category": "Website",
+        "image": "/portfolio/mechanic-autoalexandre.webp",
+        "url": "https://demo-mechanic-autoalexandre.vercel.app",
+        "description": "Oficina familiar de mecânica em Loulé desde 1998.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Loulé",
+        "reviewCount": "176+",
+        "rating": "4.4"
+      },
+      {
         "id": "mechanic-autoarroios",
         "name": "Auto Arroios",
         "category": "Website",
@@ -5262,7 +5280,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "274 projetos em 53 setores",
+    "projectCount": "275 projetos em 53 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
