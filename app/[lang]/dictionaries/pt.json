@@ -1603,6 +1603,24 @@
         "rating": "5"
       },
       {
+        "id": "pest-desinfestlar",
+        "name": "Desinfest Lar",
+        "category": "Website",
+        "image": "/portfolio/pest-desinfestlar.webp",
+        "url": "https://demo-pest-desinfestlar.vercel.app",
+        "description": "Controlo de pragas em Odivelas: baratas, ratos, formigas, percevejos e fumigação.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Controlo de Pragas",
+        "location": "Odivelas",
+        "reviewCount": "3+",
+        "rating": "5"
+      },
+      {
         "id": "pest-rphigiene",
         "name": "RP Produtos de Higiene & Desbaratização",
         "category": "Website",
@@ -5356,7 +5374,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "279 projetos em 54 setores",
+    "projectCount": "280 projetos em 54 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

@@ -2953,6 +2953,24 @@
         "rating": "5"
       },
       {
+        "id": "pest-desinfestlar",
+        "name": "Desinfest Lar",
+        "category": "Website",
+        "image": "/portfolio/pest-desinfestlar.webp",
+        "url": "https://demo-pest-desinfestlar.vercel.app",
+        "description": "Pest control in Odivelas: cockroaches, rats, ants, bed bugs, fumigation and disinfection.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Pest Control",
+        "location": "Odivelas",
+        "reviewCount": "3+",
+        "rating": "5"
+      },
+      {
         "id": "pest-rphigiene",
         "name": "RP Produtos de Higiene & Desbaratização",
         "category": "Website",
@@ -5356,7 +5374,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "279 projects across 54 industries",
+    "projectCount": "280 projects across 54 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
