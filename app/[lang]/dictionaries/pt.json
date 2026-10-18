@@ -289,6 +289,24 @@
         "location": "Guimarães"
       },
       {
+        "id": "flooring-sotapaf",
+        "name": "Sotapaf",
+        "category": "Website",
+        "image": "/portfolio/flooring-sotapaf.webp",
+        "url": "https://demo-flooring-sotapaf.vercel.app",
+        "description": "Soalhos em madeira maciça, tacos, parquetes e flutuantes em Santa Maria da Feira desde 1998.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Pavimentos & Decks",
+        "location": "Santa Maria da Feira",
+        "reviewCount": "8+",
+        "rating": "4.9"
+      },
+      {
         "id": "drogaria-jomarsil",
         "name": "Jomarsil",
         "category": "Website",
@@ -5208,7 +5226,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "271 projetos em 53 setores",
+    "projectCount": "272 projetos em 53 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
