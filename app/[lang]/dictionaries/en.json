@@ -2125,6 +2125,24 @@
         "rating": "5"
       },
       {
+        "id": "spa-halonature",
+        "name": "HaloNature",
+        "category": "Website",
+        "image": "/portfolio/spa-halonature.webp",
+        "url": "https://demo-spa-halonature.vercel.app",
+        "description": "Salt cave halotherapy, relaxing, oriental and therapeutic massage in Pinhal Novo, Palmela.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Massage Therapy",
+        "location": "Pinhal Novo",
+        "reviewCount": "128+",
+        "rating": "4.4"
+      },
+      {
         "id": "spa-mariasousa",
         "name": "Maria Sousa Saúde & Bem-Estar",
         "category": "Website",
@@ -5338,7 +5356,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "278 projects across 54 industries",
+    "projectCount": "279 projects across 54 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

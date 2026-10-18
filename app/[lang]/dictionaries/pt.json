@@ -775,6 +775,24 @@
         "rating": "5"
       },
       {
+        "id": "spa-halonature",
+        "name": "HaloNature",
+        "category": "Website",
+        "image": "/portfolio/spa-halonature.webp",
+        "url": "https://demo-spa-halonature.vercel.app",
+        "description": "Haloterapia na gruta de sal e massagens relaxantes, orientais e terapêuticas no Pinhal Novo, Palmela.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Massagem Terapêutica",
+        "location": "Pinhal Novo",
+        "reviewCount": "128+",
+        "rating": "4.4"
+      },
+      {
         "id": "spa-mariasousa",
         "name": "Maria Sousa Saúde & Bem-Estar",
         "category": "Website",
@@ -5338,7 +5356,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "278 projetos em 54 setores",
+    "projectCount": "279 projetos em 54 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
