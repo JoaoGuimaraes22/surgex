@@ -1297,6 +1297,24 @@
         "rating": "4.5"
       },
       {
+        "id": "mechanic-libiauto",
+        "name": "Libiauto",
+        "category": "Website",
+        "image": "/portfolio/mechanic-libiauto.webp",
+        "url": "https://demo-mechanic-libiauto.vercel.app",
+        "description": "Oficina honesta em Quinta do Anjo, Palmela: revisões, diagnóstico, travões, embraiagem.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Oficina Mecânica",
+        "location": "Palmela",
+        "reviewCount": "83+",
+        "rating": "4.7"
+      },
+      {
         "id": "clinic-cmeoeiras",
         "name": "Centro Médico e Enfermagem de Oeiras",
         "category": "Website",
@@ -5223,6 +5241,10 @@
         "label": "Mecanica"
       },
       {
+        "id": "mechanics",
+        "label": "Oficina Mecânica"
+      },
+      {
         "id": "medical-clinic",
         "label": "Clínica Médica"
       },
@@ -5316,7 +5338,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "277 projetos em 53 setores",
+    "projectCount": "278 projetos em 54 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

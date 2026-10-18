@@ -2647,6 +2647,24 @@
         "rating": "4.5"
       },
       {
+        "id": "mechanic-libiauto",
+        "name": "Libiauto",
+        "category": "Website",
+        "image": "/portfolio/mechanic-libiauto.webp",
+        "url": "https://demo-mechanic-libiauto.vercel.app",
+        "description": "Honest car repair in Quinta do Anjo, Palmela: servicing, diagnostics, brakes, clutch.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanics",
+        "location": "Palmela",
+        "reviewCount": "83+",
+        "rating": "4.7"
+      },
+      {
         "id": "clinic-cmeoeiras",
         "name": "Centro Médico e Enfermagem de Oeiras",
         "category": "Website",
@@ -5223,6 +5241,10 @@
         "label": "Mechanic"
       },
       {
+        "id": "mechanics",
+        "label": "Mechanics"
+      },
+      {
         "id": "medical-clinic",
         "label": "Medical Clinic"
       },
@@ -5316,7 +5338,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "277 projects across 53 industries",
+    "projectCount": "278 projects across 54 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
