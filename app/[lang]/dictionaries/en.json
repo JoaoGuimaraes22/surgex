@@ -2449,6 +2449,24 @@
         "rating": "4.8"
       },
       {
+        "id": "mechanic-ratinhoauto",
+        "name": "Ratinho Auto",
+        "category": "Website",
+        "image": "/portfolio/mechanic-ratinhoauto.webp",
+        "url": "https://demo-mechanic-ratinhoauto.vercel.app",
+        "description": "Multi-brand workshop in the Quimiparque park, Barreiro: mechanics, auto electrics, panel beating and paint, tyres and parts.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Barreiro",
+        "reviewCount": "137+",
+        "rating": "4.2"
+      },
+      {
         "id": "mechanic-robalomacedo",
         "name": "Robalo & Macedo",
         "category": "Website",
@@ -5136,7 +5154,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "267 projects across 53 industries",
+    "projectCount": "268 projects across 53 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

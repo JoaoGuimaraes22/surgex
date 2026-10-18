@@ -1135,6 +1135,24 @@
         "rating": "4.8"
       },
       {
+        "id": "mechanic-ratinhoauto",
+        "name": "Ratinho Auto",
+        "category": "Website",
+        "image": "/portfolio/mechanic-ratinhoauto.webp",
+        "url": "https://demo-mechanic-ratinhoauto.vercel.app",
+        "description": "Oficina multimarcas na Quimiparque, Barreiro: mecânica, eletricidade auto, bate-chapas e pintura, pneus e peças.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Barreiro",
+        "reviewCount": "137+",
+        "rating": "4.2"
+      },
+      {
         "id": "mechanic-robalomacedo",
         "name": "Robalo & Macedo",
         "category": "Website",
@@ -5136,7 +5154,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "267 projetos em 53 setores",
+    "projectCount": "268 projetos em 53 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
