@@ -399,6 +399,24 @@
         "rating": "4.6"
       },
       {
+        "id": "medspa-bodymoments",
+        "name": "Body Moments",
+        "category": "Website",
+        "image": "/portfolio/medspa-bodymoments.webp",
+        "url": "https://demo-medspa-bodymoments.vercel.app",
+        "description": "Integrative aesthetics in central Faro with Andreia Coelho: an assessment first, then 4, 8 or 10-week body and skin plans, lymphatic drainage, facials, massage.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Faro",
+        "reviewCount": "108+",
+        "rating": "4.8"
+      },
+      {
         "id": "estetica-bodyspa",
         "name": "Body Spa Centro de Estética Matosinhos",
         "category": "Website",
@@ -5410,7 +5428,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "282 projects across 54 industries",
+    "projectCount": "283 projects across 54 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
