@@ -1423,6 +1423,24 @@
         "rating": "4.4"
       },
       {
+        "id": "movers-servico24h",
+        "name": "Mudanças Serviço 24h",
+        "category": "Website",
+        "image": "/portfolio/movers-servico24h.webp",
+        "url": "https://demo-movers-servico24h.vercel.app",
+        "description": "Equipa de mudanças em Leiria há mais de 15 anos: casas e escritórios, embalamento, montagem de móveis, longa distância e recolha.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mudanças & Montagens",
+        "location": "Leiria",
+        "reviewCount": "45+",
+        "rating": "4.9"
+      },
+      {
         "id": "movers-rsmudancas",
         "name": "RS Mudanças",
         "category": "Website",
@@ -5392,7 +5410,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "281 projetos em 54 setores",
+    "projectCount": "282 projetos em 54 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
