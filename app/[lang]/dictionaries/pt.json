@@ -1189,6 +1189,24 @@
         "rating": "4.6"
       },
       {
+        "id": "mechanic-motorbest",
+        "name": "MotorBest Algarve",
+        "category": "Website",
+        "image": "/portfolio/mechanic-motorbest.webp",
+        "url": "https://demo-mechanic-motorbest.vercel.app",
+        "description": "Oficina independente especialista em Mercedes-Benz e smart no Patacão, Faro.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Oficina Mecânica",
+        "location": "Faro",
+        "reviewCount": "417+",
+        "rating": "4.8"
+      },
+      {
         "id": "mechanic-nunotavares",
         "name": "Nuno P. Tavares Automóveis",
         "category": "Website",
@@ -5428,7 +5446,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "283 projetos em 54 setores",
+    "projectCount": "284 projetos em 54 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

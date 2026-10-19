@@ -2557,6 +2557,24 @@
         "rating": "4.6"
       },
       {
+        "id": "mechanic-motorbest",
+        "name": "MotorBest Algarve",
+        "category": "Website",
+        "image": "/portfolio/mechanic-motorbest.webp",
+        "url": "https://demo-mechanic-motorbest.vercel.app",
+        "description": "Independent Mercedes-Benz and smart specialist in Patacão, Faro.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Faro",
+        "reviewCount": "417+",
+        "rating": "4.8"
+      },
+      {
         "id": "mechanic-nunotavares",
         "name": "Nuno P. Tavares Automóveis",
         "category": "Website",
@@ -5428,7 +5446,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "283 projects across 54 industries",
+    "projectCount": "284 projects across 54 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
