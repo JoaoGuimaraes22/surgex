@@ -4630,6 +4630,24 @@
         "rating": "4.4"
       },
       {
+        "id": "vet-4patas",
+        "name": "Clínica Veterinária 4 Patas",
+        "category": "Website",
+        "image": "/portfolio/vet-4patas.webp",
+        "url": "https://demo-vet-4patas.vercel.app",
+        "description": "Village vet for dogs and cats in Conceição, Faro.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Faro",
+        "reviewCount": "38+",
+        "rating": "4.7"
+      },
+      {
         "id": "vet-avenida",
         "name": "Clínica Veterinária da Avenida",
         "category": "Website",
@@ -5446,7 +5464,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "284 projects across 54 industries",
+    "projectCount": "285 projects across 54 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
