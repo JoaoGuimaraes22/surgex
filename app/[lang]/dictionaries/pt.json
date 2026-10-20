@@ -3298,6 +3298,24 @@
         "rating": "4.4"
       },
       {
+        "id": "vet-fontainhas",
+        "name": "Clinica Veterinária das Fontaínhas",
+        "category": "Website",
+        "image": "/portfolio/vet-fontainhas.webp",
+        "url": "https://demo-vet-fontainhas.vercel.app",
+        "description": "Clínica veterinária em Balasar, Póvoa de Varzim: consultas, vacinas, chip e raio-X na clínica.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinária",
+        "location": "Póvoa de Varzim",
+        "reviewCount": "33+",
+        "rating": "4.4"
+      },
+      {
         "id": "vet-4patas",
         "name": "Clínica Veterinária 4 Patas",
         "category": "Website",
@@ -5518,7 +5536,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "288 projetos em 54 setores",
+    "projectCount": "289 projetos em 54 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
