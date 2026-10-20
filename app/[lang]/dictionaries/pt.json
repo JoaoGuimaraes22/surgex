@@ -2074,6 +2074,24 @@
         "rating": "5.0"
       },
       {
+        "id": "storage-bauazeitao",
+        "name": "Baú de Azeitão",
+        "category": "Website",
+        "image": "/portfolio/storage-bauazeitao.webp",
+        "url": "https://demo-storage-bauazeitao.vercel.app",
+        "description": "Arrecadações desde pequenas boxes a garagens em Azeitão, Setúbal.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Self-Storage",
+        "location": "Setúbal",
+        "reviewCount": "5+",
+        "rating": "5"
+      },
+      {
         "id": "storage-boxtorent",
         "name": "Box to Rent Almada",
         "category": "Website",
@@ -5464,7 +5482,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "285 projetos em 54 setores",
+    "projectCount": "286 projetos em 54 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
