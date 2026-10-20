@@ -2341,6 +2341,24 @@
         "rating": "4"
       },
       {
+        "id": "mechanic-morincheira",
+        "name": "Auto Reparadora Morincheira",
+        "category": "Website",
+        "image": "/portfolio/mechanic-morincheira.webp",
+        "url": "https://demo-mechanic-morincheira.vercel.app",
+        "description": "Family car workshop in Póvoa de Varzim: mechanics, bodywork and paint under one roof.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Póvoa de Varzim",
+        "reviewCount": "120+",
+        "rating": "4.6"
+      },
+      {
         "id": "mechanic-automafra",
         "name": "Automafra",
         "category": "Website",
@@ -5482,7 +5500,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "286 projects across 54 industries",
+    "projectCount": "287 projects across 54 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

@@ -973,6 +973,24 @@
         "rating": "4"
       },
       {
+        "id": "mechanic-morincheira",
+        "name": "Auto Reparadora Morincheira",
+        "category": "Website",
+        "image": "/portfolio/mechanic-morincheira.webp",
+        "url": "https://demo-mechanic-morincheira.vercel.app",
+        "description": "Oficina de família na Póvoa de Varzim: mecânica, chapa e pintura debaixo do mesmo teto.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Oficina Mecânica",
+        "location": "Póvoa de Varzim",
+        "reviewCount": "120+",
+        "rating": "4.6"
+      },
+      {
         "id": "mechanic-automafra",
         "name": "Automafra",
         "category": "Website",
@@ -5482,7 +5500,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "286 projetos em 54 setores",
+    "projectCount": "287 projetos em 54 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
