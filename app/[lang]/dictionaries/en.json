@@ -3205,6 +3205,24 @@
         "rating": "5"
       },
       {
+        "id": "plumbing-arkad",
+        "name": "Arkad Reparações",
+        "category": "Website",
+        "image": "/portfolio/plumbing-arkad.webp",
+        "url": "https://demo-plumbing-arkad.vercel.app",
+        "description": "Plumbing, electrical work, water heaters, locks and home repairs in Sintra and Algueirão-Mem Martins.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Plumbing",
+        "location": "Algueirão-Mem Martins",
+        "reviewCount": "23+",
+        "rating": "5"
+      },
+      {
         "id": "poledance-academia",
         "name": "Academia de Pole Dance",
         "category": "Website",
@@ -5536,7 +5554,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "289 projects across 54 industries",
+    "projectCount": "290 projects across 54 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
