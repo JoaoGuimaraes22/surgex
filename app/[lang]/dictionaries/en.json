@@ -2179,6 +2179,24 @@
         "rating": "5"
       },
       {
+        "id": "spa-padma",
+        "name": "Padma Spa",
+        "category": "Website",
+        "image": "/portfolio/spa-padma.webp",
+        "url": "https://demo-spa-padma.vercel.app",
+        "description": "Massages, face and body treatments and Chinese medicine in central Póvoa de Varzim.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Massage Therapy",
+        "location": "Póvoa de Varzim",
+        "reviewCount": "78+",
+        "rating": "4.8"
+      },
+      {
         "id": "mechanic-adelinolopes",
         "name": "Adelino Lopes",
         "category": "Website",
@@ -5500,7 +5518,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "287 projects across 54 industries",
+    "projectCount": "288 projects across 54 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
