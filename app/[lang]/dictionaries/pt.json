@@ -703,6 +703,24 @@
         "rating": "3.9"
       },
       {
+        "id": "chaves-bonjardim",
+        "name": "Chaves Bonjardim",
+        "category": "Website",
+        "image": "/portfolio/chaves-bonjardim.webp",
+        "url": "https://demo-chaves-bonjardim.vercel.app",
+        "description": "Loja de chaves na Rua do Bonjardim, Porto: cópias de chaves na hora, fechaduras e canhões, comandos de garagem e de carro, cofres e aloquetes.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Chaves e Fechaduras",
+        "location": "Porto",
+        "reviewCount": "126+",
+        "rating": "4.6"
+      },
+      {
         "id": "chaves-olivais",
         "name": "Chaves Dos Olivais",
         "category": "Website",
@@ -5554,7 +5572,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "290 projetos em 54 setores",
+    "projectCount": "291 projetos em 54 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

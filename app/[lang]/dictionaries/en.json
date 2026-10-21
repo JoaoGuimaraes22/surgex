@@ -2071,6 +2071,24 @@
         "rating": "3.9"
       },
       {
+        "id": "chaves-bonjardim",
+        "name": "Chaves Bonjardim",
+        "category": "Website",
+        "image": "/portfolio/chaves-bonjardim.webp",
+        "url": "https://demo-chaves-bonjardim.vercel.app",
+        "description": "Key shop on Rua do Bonjardim, Porto: keys copied while you wait, locks and cylinders, garage and car remotes, safes and padlocks.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Locksmith",
+        "location": "Porto",
+        "reviewCount": "126+",
+        "rating": "4.6"
+      },
+      {
         "id": "chaves-olivais",
         "name": "Chaves Dos Olivais",
         "category": "Website",
@@ -5554,7 +5572,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "290 projects across 54 industries",
+    "projectCount": "291 projects across 54 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
