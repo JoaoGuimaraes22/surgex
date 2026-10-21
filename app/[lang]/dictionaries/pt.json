@@ -937,6 +937,24 @@
         "rating": "4.6"
       },
       {
+        "id": "mechanic-escapalgarve",
+        "name": "Auto Escapalgarve",
+        "category": "Website",
+        "image": "/portfolio/mechanic-escapalgarve.webp",
+        "url": "https://demo-mechanic-escapalgarve.vercel.app",
+        "description": "Especialista em escapes na EN125 em Portimão desde 1989.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Oficina Mecânica",
+        "location": "Portimão",
+        "reviewCount": "165+",
+        "rating": "4.6"
+      },
+      {
         "id": "mechanic-espadaneira",
         "name": "Auto Espadaneira",
         "category": "Website",
@@ -5572,7 +5590,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "291 projetos em 54 setores",
+    "projectCount": "292 projetos em 54 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

@@ -2305,6 +2305,24 @@
         "rating": "4.6"
       },
       {
+        "id": "mechanic-escapalgarve",
+        "name": "Auto Escapalgarve",
+        "category": "Website",
+        "image": "/portfolio/mechanic-escapalgarve.webp",
+        "url": "https://demo-mechanic-escapalgarve.vercel.app",
+        "description": "Exhaust specialist on the EN125 in Portimão since 1989.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Portimão",
+        "reviewCount": "165+",
+        "rating": "4.6"
+      },
+      {
         "id": "mechanic-espadaneira",
         "name": "Auto Espadaneira",
         "category": "Website",
@@ -5572,7 +5590,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "291 projects across 54 industries",
+    "projectCount": "292 projects across 54 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
