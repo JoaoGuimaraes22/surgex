@@ -3513,6 +3513,24 @@
         "rating": "4.2"
       },
       {
+        "id": "estetica-beautyroom",
+        "name": "Beauty Room Portimão",
+        "category": "Website",
+        "image": "/portfolio/estetica-beautyroom.webp",
+        "url": "https://demo-estetica-beautyroom.vercel.app",
+        "description": "Cuts, colour and highlights with Inna, gel manicure and pedicure with Katerina.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Salon",
+        "location": "Portimão",
+        "reviewCount": "323+",
+        "rating": "4.9"
+      },
+      {
         "id": "barbershop-jaydixon",
         "name": "Jay Dixon Barbershop",
         "category": "Website",
@@ -5590,7 +5608,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "292 projects across 54 industries",
+    "projectCount": "293 projects across 54 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

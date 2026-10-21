@@ -2145,6 +2145,24 @@
         "rating": "4.2"
       },
       {
+        "id": "estetica-beautyroom",
+        "name": "Beauty Room Portimão",
+        "category": "Website",
+        "image": "/portfolio/estetica-beautyroom.webp",
+        "url": "https://demo-estetica-beautyroom.vercel.app",
+        "description": "Cortes, cor e madeixas com a Inna, manicure de gel e pedicure com a Katerina.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Salão",
+        "location": "Portimão",
+        "reviewCount": "323+",
+        "rating": "4.9"
+      },
+      {
         "id": "dentist-takata",
         "name": "Clínica Takata",
         "category": "Website",
@@ -5590,7 +5608,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "292 projetos em 54 setores",
+    "projectCount": "293 projetos em 54 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
