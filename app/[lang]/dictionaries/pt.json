@@ -3640,6 +3640,24 @@
         "rating": "4.7"
       },
       {
+        "id": "vet-gileanes",
+        "name": "Clínica Veterinária Gil Eanes",
+        "category": "Website",
+        "image": "/portfolio/vet-gileanes.webp",
+        "url": "https://demo-vet-gileanes.vercel.app",
+        "description": "Clínica veterinária no Largo Gil Eanes, em Portimão, desde 1996: consultas, vacinas, cirurgia e dentisteria para cães e gatos.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinária",
+        "location": "Portimão",
+        "reviewCount": "181+",
+        "rating": "4.7"
+      },
+      {
         "id": "vet-quintadoparaiso",
         "name": "Clínica Veterinária Quinta do Paraíso",
         "category": "Website",
@@ -5644,7 +5662,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "295 projetos em 54 setores",
+    "projectCount": "296 projetos em 54 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
