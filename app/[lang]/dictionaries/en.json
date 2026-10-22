@@ -1587,6 +1587,24 @@
         "rating": "4.9"
       },
       {
+        "id": "electrician-instalacaocerta",
+        "name": "Instalação Certa - Soluções Elétricas",
+        "category": "Website",
+        "image": "/portfolio/electrician-instalacaocerta.webp",
+        "url": "https://demo-electrician-instalacaocerta.vercel.app",
+        "description": "Electrician in Valongo: EV charging points at home and in condominium garages, faults, switchboards, lighting and smart home.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Electrician",
+        "location": "Valongo",
+        "reviewCount": "66+",
+        "rating": "4.9"
+      },
+      {
         "id": "gym-espacopt",
         "name": "Espaço PT",
         "category": "Website",
@@ -5698,7 +5716,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "298 projects across 54 industries",
+    "projectCount": "299 projects across 54 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
