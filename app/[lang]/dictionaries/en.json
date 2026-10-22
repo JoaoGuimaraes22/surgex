@@ -2413,6 +2413,24 @@
         "rating": "4.6"
       },
       {
+        "id": "mechanic-autotouril",
+        "name": "Auto-touril",
+        "category": "Website",
+        "image": "/portfolio/mechanic-autotouril.webp",
+        "url": "https://demo-mechanic-autotouril.vercel.app",
+        "description": "24-hour towing and roadside assistance in Figueira da Foz since 1989: cars, heavy vehicles and campervans, motorway recoveries and our own workshop.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Figueira da Foz",
+        "reviewCount": "91+",
+        "rating": "3.9"
+      },
+      {
         "id": "mechanic-automafra",
         "name": "Automafra",
         "category": "Website",
@@ -5608,7 +5626,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "293 projects across 54 industries",
+    "projectCount": "294 projects across 54 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

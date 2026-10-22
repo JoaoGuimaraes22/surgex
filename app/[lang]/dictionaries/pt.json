@@ -1045,6 +1045,24 @@
         "rating": "4.6"
       },
       {
+        "id": "mechanic-autotouril",
+        "name": "Auto-touril",
+        "category": "Website",
+        "image": "/portfolio/mechanic-autotouril.webp",
+        "url": "https://demo-mechanic-autotouril.vercel.app",
+        "description": "Reboques e assistência em viagem 24 horas na Figueira da Foz desde 1989: ligeiros, pesados e autocaravanas, recolha em autoestrada e oficina própria.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Figueira da Foz",
+        "reviewCount": "91+",
+        "rating": "3.9"
+      },
+      {
         "id": "mechanic-automafra",
         "name": "Automafra",
         "category": "Website",
@@ -5608,7 +5626,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "293 projetos em 54 setores",
+    "projectCount": "294 projetos em 54 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
