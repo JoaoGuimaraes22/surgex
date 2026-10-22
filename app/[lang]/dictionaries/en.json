@@ -3421,6 +3421,24 @@
         "rating": "5"
       },
       {
+        "id": "realestate-imotrofeu",
+        "name": "Imotrofeu - Mediação Imobiliária",
+        "category": "Website",
+        "image": "/portfolio/realestate-imotrofeu.webp",
+        "url": "https://demo-realestate-imotrofeu.vercel.app",
+        "description": "Independent real estate agency in Braga's historic centre.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Real Estate",
+        "location": "Braga",
+        "reviewCount": "3+",
+        "rating": "5"
+      },
+      {
         "id": "locksmith-arranjos",
         "name": "Arranjos e Companhia Algés",
         "category": "Website",
@@ -5680,7 +5698,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "297 projects across 54 industries",
+    "projectCount": "298 projects across 54 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
