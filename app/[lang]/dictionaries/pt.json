@@ -5298,6 +5298,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-beatrizferreira",
+        "name": "Centro de Estética Beatriz Ferreira",
+        "category": "Website",
+        "image": "/portfolio/estetica-beatrizferreira.webp",
+        "url": "https://demo-estetica-beatrizferreira.vercel.app",
+        "description": "40 anos de estética de rosto e corpo na Figueira da Foz: rosto Sothys, peelings, HIFU, depilação laser, massagens, pestanas e unhas na Rua da Liberdade 112.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Figueira da Foz",
+        "reviewCount": "90+",
+        "rating": "4.7"
+      },
+      {
         "id": "contabilidade-joc",
         "name": "JOC Contabilidade",
         "category": "Website",
@@ -5626,7 +5644,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "294 projetos em 54 setores",
+    "projectCount": "295 projetos em 54 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

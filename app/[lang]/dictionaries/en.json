@@ -471,6 +471,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-beatrizferreira",
+        "name": "Centro de Estética Beatriz Ferreira",
+        "category": "Website",
+        "image": "/portfolio/estetica-beatrizferreira.webp",
+        "url": "https://demo-estetica-beatrizferreira.vercel.app",
+        "description": "40 years of face and body aesthetics in Figueira da Foz: Sothys facials, peels, HIFU, laser hair removal, massage, lashes and nails at Rua da Liberdade 112.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Figueira da Foz",
+        "reviewCount": "90+",
+        "rating": "4.7"
+      },
+      {
         "id": "estetica-dula",
         "name": "Clínica Dulá",
         "category": "Website",
@@ -5626,7 +5644,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "294 projects across 54 industries",
+    "projectCount": "295 projects across 54 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
