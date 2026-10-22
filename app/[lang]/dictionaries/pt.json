@@ -2504,6 +2504,24 @@
         "rating": "4.9"
       },
       {
+        "id": "vet-covagala",
+        "name": "C.V.C.G. - Centro Veterinário Cova-Gala",
+        "category": "Website",
+        "image": "/portfolio/vet-covagala.webp",
+        "url": "https://demo-vet-covagala.vercel.app",
+        "description": "Clínica veterinária na Cova-Gala, Figueira da Foz.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinária",
+        "location": "Figueira da Foz",
+        "reviewCount": "98+",
+        "rating": "4.7"
+      },
+      {
         "id": "vet-centralpet",
         "name": "Central Pet Telheiras",
         "category": "Website",
@@ -5662,7 +5680,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "296 projetos em 54 setores",
+    "projectCount": "297 projetos em 54 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
