@@ -4614,6 +4614,24 @@
         "rating": "4.8"
       },
       {
+        "id": "estetica-suedessence",
+        "name": "SUED ESSENCE",
+        "category": "Website",
+        "image": "/portfolio/estetica-suedessence.webp",
+        "url": "https://demo-estetica-suedessence.vercel.app",
+        "description": "Cabelo e estética no Montijo: cortes com visagismo, o Loiro Sued, tratamentos TRUSS, limpeza de pele, drenagem linfática e unhas.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Montijo",
+        "reviewCount": "180+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-sunesthetic",
         "name": "Sun & Esthetic",
         "category": "Website",
@@ -5792,7 +5810,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "303 projetos em 55 setores",
+    "projectCount": "304 projetos em 55 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

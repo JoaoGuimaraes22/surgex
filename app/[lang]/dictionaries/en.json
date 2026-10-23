@@ -1011,6 +1011,24 @@
         "rating": "4.8"
       },
       {
+        "id": "estetica-suedessence",
+        "name": "SUED ESSENCE",
+        "category": "Website",
+        "image": "/portfolio/estetica-suedessence.webp",
+        "url": "https://demo-estetica-suedessence.vercel.app",
+        "description": "Hair and aesthetics in Montijo: visagism cuts, the Loiro Sued blond, TRUSS treatments, skin care, lymphatic drainage and nails.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Montijo",
+        "reviewCount": "180+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-sunesthetic",
         "name": "Sun & Esthetic",
         "category": "Website",
@@ -5792,7 +5810,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "303 projects across 55 industries",
+    "projectCount": "304 projects across 55 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
