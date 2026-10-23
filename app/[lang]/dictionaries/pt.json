@@ -4614,6 +4614,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-taynara",
+        "name": "Taynara Santana Beauty Clinic",
+        "category": "Website",
+        "image": "/portfolio/estetica-taynara.webp",
+        "url": "https://demo-estetica-taynara.vercel.app",
+        "description": "Clínica de estética em Santarém: depilação a laser, HIFU, limpeza de pele e tratamento de acne.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Santarém",
+        "reviewCount": "76+",
+        "rating": "4.9"
+      },
+      {
         "id": "medspa-thais",
         "name": "Thaís - Gabinete de Estética",
         "category": "Website",
@@ -5756,7 +5774,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "301 projetos em 55 setores",
+    "projectCount": "302 projetos em 55 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
