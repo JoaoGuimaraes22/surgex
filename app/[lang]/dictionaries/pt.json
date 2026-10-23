@@ -1405,6 +1405,24 @@
         "rating": "4.8"
       },
       {
+        "id": "mechanic-topmill",
+        "name": "TopMill Mecânica e Elétrica",
+        "category": "Website",
+        "image": "/portfolio/mechanic-topmill.webp",
+        "url": "https://demo-mechanic-topmill.vercel.app",
+        "description": "Oficina independente na EN119, no Montijo: mecânica, elétrica auto, diagnóstico, assistência de bateria e aluguer de carros.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Montijo",
+        "reviewCount": "80+",
+        "rating": "4.7"
+      },
+      {
         "id": "mechanic-udiel",
         "name": "Udiel",
         "category": "Website",
@@ -5810,7 +5828,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "304 projetos em 55 setores",
+    "projectCount": "305 projetos em 55 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
