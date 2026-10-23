@@ -2414,6 +2414,24 @@
         "rating": "4.2"
       },
       {
+        "id": "timber-mlopes",
+        "name": "Manuel Jesus Lopes & Cia., Lda.",
+        "category": "Website",
+        "image": "/portfolio/timber-mlopes.webp",
+        "url": "https://demo-timber-mlopes.vercel.app",
+        "description": "Armazém de madeiras e carpintaria na Maia desde 1986: madeira maciça, pinho tratado, placas, ripas e molduras, cortadas à medida na hora.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Madeiras & Carpintaria",
+        "location": "Maia",
+        "reviewCount": "35+",
+        "rating": "4.6"
+      },
+      {
         "id": "tires-agpneus",
         "name": "AG Pneus — Auto da Guerra",
         "category": "Website",
@@ -5699,6 +5717,10 @@
         "label": "Madeiras & Carpintaria"
       },
       {
+        "id": "timber-joinery",
+        "label": "Madeiras & Carpintaria"
+      },
+      {
         "id": "tire-shop",
         "label": "Pneus"
       },
@@ -5716,7 +5738,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "299 projetos em 54 setores",
+    "projectCount": "300 projetos em 55 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

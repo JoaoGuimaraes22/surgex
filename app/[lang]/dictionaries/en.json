@@ -3855,6 +3855,24 @@
         "rating": "4.2"
       },
       {
+        "id": "timber-mlopes",
+        "name": "Manuel Jesus Lopes & Cia., Lda.",
+        "category": "Website",
+        "image": "/portfolio/timber-mlopes.webp",
+        "url": "https://demo-timber-mlopes.vercel.app",
+        "description": "Timber yard and joinery in Maia since 1986: solid wood, treated pine, boards, slats and mouldings, cut to size while you wait.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Timber & Joinery",
+        "location": "Maia",
+        "reviewCount": "35+",
+        "rating": "4.6"
+      },
+      {
         "id": "tires-agpneus",
         "name": "AG Pneus — Auto da Guerra",
         "category": "Website",
@@ -5699,6 +5717,10 @@
         "label": "Timber & Carpentry"
       },
       {
+        "id": "timber-joinery",
+        "label": "Timber & Joinery"
+      },
+      {
         "id": "tire-shop",
         "label": "Tire Shop"
       },
@@ -5716,7 +5738,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "299 projects across 54 industries",
+    "projectCount": "300 projects across 55 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
