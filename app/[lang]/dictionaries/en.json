@@ -2287,6 +2287,24 @@
         "rating": "4.6"
       },
       {
+        "id": "mechanic-artvolin",
+        "name": "Artvolin",
+        "category": "Website",
+        "image": "/portfolio/mechanic-artvolin.webp",
+        "url": "https://demo-mechanic-artvolin.vercel.app",
+        "description": "Car repair workshop in Santarém since 2010: mechanics and auto electrics in the same bay, diagnosis, air conditioning, brakes and servicing.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Santarém",
+        "reviewCount": "83+",
+        "rating": "4.3"
+      },
+      {
         "id": "mechanic-autoalexandre",
         "name": "Auto Alexandre",
         "category": "Website",
@@ -5738,7 +5756,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "300 projects across 55 industries",
+    "projectCount": "301 projects across 55 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

@@ -883,6 +883,24 @@
         "rating": "4.6"
       },
       {
+        "id": "mechanic-artvolin",
+        "name": "Artvolin",
+        "category": "Website",
+        "image": "/portfolio/mechanic-artvolin.webp",
+        "url": "https://demo-mechanic-artvolin.vercel.app",
+        "description": "Oficina automóvel em Santarém desde 2010: mecânica e eletricidade auto na mesma oficina, diagnóstico, ar condicionado, travões e revisões.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Santarém",
+        "reviewCount": "83+",
+        "rating": "4.3"
+      },
+      {
         "id": "mechanic-autoalexandre",
         "name": "Auto Alexandre",
         "category": "Website",
@@ -5738,7 +5756,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "300 projetos em 55 setores",
+    "projectCount": "301 projetos em 55 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
