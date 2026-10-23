@@ -3839,6 +3839,24 @@
         "rating": "4.7"
       },
       {
+        "id": "vet-hvsantarem",
+        "name": "HVS - Hospital Veterinário de Santarém",
+        "category": "Website",
+        "image": "/portfolio/vet-hvsantarem.webp",
+        "url": "https://demo-vet-hvsantarem.vercel.app",
+        "description": "Hospital veterinário em Santarém, aberto todos os dias das 09h às 02h: consultas, urgências, internamento, cirurgia e exóticos.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinária",
+        "location": "Santarém",
+        "reviewCount": "396+",
+        "rating": "4"
+      },
+      {
         "id": "vet-meadelavet",
         "name": "MeadelaVet",
         "category": "Website",
@@ -5774,7 +5792,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "302 projetos em 55 setores",
+    "projectCount": "303 projetos em 55 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
