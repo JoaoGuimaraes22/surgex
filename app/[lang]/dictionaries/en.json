@@ -1873,6 +1873,24 @@
         "rating": "4"
       },
       {
+        "id": "junk-arteentulhos",
+        "name": "Arte Entulhos",
+        "category": "Website",
+        "image": "/portfolio/junk-arteentulhos.webp",
+        "url": "https://demo-junk-arteentulhos.vercel.app",
+        "description": "Rubble removal, skip hire and house clearances in Bobadela, Loures and north Lisbon since 2001.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Junk Removal",
+        "location": "Bobadela",
+        "reviewCount": "9+",
+        "rating": "3"
+      },
+      {
         "id": "landscaping-joaobrito",
         "name": "João Brito Jardins",
         "category": "Website",
@@ -5882,7 +5900,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "308 projects across 55 industries",
+    "projectCount": "309 projects across 55 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
