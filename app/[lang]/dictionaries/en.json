@@ -1873,6 +1873,24 @@
         "rating": "4"
       },
       {
+        "id": "landscaping-joaobrito",
+        "name": "João Brito Jardins",
+        "category": "Website",
+        "image": "/portfolio/landscaping-joaobrito.webp",
+        "url": "https://demo-landscaping-joaobrito.vercel.app",
+        "description": "Garden construction and maintenance, land clearing and irrigation systems in Loures.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Landscaping",
+        "location": "Loures",
+        "reviewCount": "1+",
+        "rating": "5"
+      },
+      {
         "id": "jardins-rtjardins",
         "name": "RT Jardins e Regas",
         "category": "Website",
@@ -5846,7 +5864,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "306 projects across 55 industries",
+    "projectCount": "307 projects across 55 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
