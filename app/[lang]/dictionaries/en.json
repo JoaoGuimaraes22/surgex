@@ -453,6 +453,24 @@
         "rating": "4.8"
       },
       {
+        "id": "estetica-camilacoelho",
+        "name": "Camila Coelho Estética Avançada",
+        "category": "Website",
+        "image": "/portfolio/estetica-camilacoelho.webp",
+        "url": "https://demo-estetica-camilacoelho.vercel.app",
+        "description": "Advanced aesthetics in Évora: laser hair removal, HIFU, lymphatic drainage, body lifting and massage with Camila Coelho.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Évora",
+        "reviewCount": "34+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-catarinaferreira",
         "name": "Catarina Ferreira - Estética e Massagem Terapêutica",
         "category": "Website",
@@ -5918,7 +5936,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "310 projects across 55 industries",
+    "projectCount": "311 projects across 55 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

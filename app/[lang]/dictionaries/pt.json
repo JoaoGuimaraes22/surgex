@@ -5532,6 +5532,24 @@
         "rating": "4.8"
       },
       {
+        "id": "estetica-camilacoelho",
+        "name": "Camila Coelho Estética Avançada",
+        "category": "Website",
+        "image": "/portfolio/estetica-camilacoelho.webp",
+        "url": "https://demo-estetica-camilacoelho.vercel.app",
+        "description": "Estética avançada em Évora: depilação a laser, HIFU, drenagem linfática, body lifting e massagens com a Camila Coelho.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Évora",
+        "reviewCount": "34+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-dula",
         "name": "Clínica Dulá",
         "category": "Website",
@@ -5918,7 +5936,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "310 projetos em 55 setores",
+    "projectCount": "311 projetos em 55 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
