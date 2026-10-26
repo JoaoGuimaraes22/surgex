@@ -1513,6 +1513,24 @@
         "rating": "4.7"
       },
       {
+        "id": "mechanic-quaresmaamaro",
+        "name": "Quaresma e Amaro",
+        "category": "Website",
+        "image": "/portfolio/mechanic-quaresmaamaro.webp",
+        "url": "https://demo-mechanic-quaresmaamaro.vercel.app",
+        "description": "Oficina multimarca em Évora desde 2000: revisões, diagnóstico, mecânica e eletricidade, especialistas VW e Seat.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Évora",
+        "reviewCount": "54+",
+        "rating": "4.3"
+      },
+      {
         "id": "clinic-cmeoeiras",
         "name": "Centro Médico e Enfermagem de Oeiras",
         "category": "Website",
@@ -5900,7 +5918,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "309 projetos em 55 setores",
+    "projectCount": "310 projetos em 55 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
