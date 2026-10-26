@@ -2612,6 +2612,24 @@
         "rating": "4.7"
       },
       {
+        "id": "vet-cvmontijo",
+        "name": "C.V.M. - Centro Veterinário do Montijo",
+        "category": "Website",
+        "image": "/portfolio/vet-cvmontijo.webp",
+        "url": "https://demo-vet-cvmontijo.vercel.app",
+        "description": "Clínica veterinária no centro do Montijo, aberta até às 20h nos dias úteis.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinária",
+        "location": "Montijo",
+        "reviewCount": "152+",
+        "rating": "4.7"
+      },
+      {
         "id": "vet-centralpet",
         "name": "Central Pet Telheiras",
         "category": "Website",
@@ -5864,7 +5882,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "307 projetos em 55 setores",
+    "projectCount": "308 projetos em 55 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
