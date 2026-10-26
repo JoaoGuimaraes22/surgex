@@ -1353,6 +1353,24 @@
         "rating": "4.5"
       },
       {
+        "id": "condo-aliados",
+        "name": "Aliados",
+        "category": "Website",
+        "image": "/portfolio/condo-aliados.webp",
+        "url": "https://demo-condo-aliados.vercel.app",
+        "description": "Condominium administrator in Porto: assemblies, minutes, quotas, annual accounts, reserve fund, insurance and suppliers.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Condominium Management",
+        "location": "Porto",
+        "reviewCount": "39+",
+        "rating": "2.3"
+      },
+      {
         "id": "condo-domuslider",
         "name": "Domuslider",
         "category": "Website",
@@ -5828,7 +5846,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "305 projects across 55 industries",
+    "projectCount": "306 projects across 55 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

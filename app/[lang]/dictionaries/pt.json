@@ -4974,6 +4974,24 @@
         "rating": "4.5"
       },
       {
+        "id": "condo-aliados",
+        "name": "Aliados",
+        "category": "Website",
+        "image": "/portfolio/condo-aliados.webp",
+        "url": "https://demo-condo-aliados.vercel.app",
+        "description": "Administração de condomínios no Porto: assembleias, atas, quotas, contas anuais, fundo de reserva, seguros e fornecedores.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Administração de Condomínios",
+        "location": "Porto",
+        "reviewCount": "39+",
+        "rating": "2.3"
+      },
+      {
         "id": "condo-domuslider",
         "name": "Domuslider",
         "category": "Website",
@@ -5828,7 +5846,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "305 projetos em 55 setores",
+    "projectCount": "306 projetos em 55 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
