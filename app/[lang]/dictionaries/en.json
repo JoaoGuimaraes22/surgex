@@ -669,6 +669,24 @@
         "rating": "4.9"
       },
       {
+        "id": "estetica-higibel",
+        "name": "Higibel Beauty Academy",
+        "category": "Website",
+        "image": "/portfolio/estetica-higibel.webp",
+        "url": "https://demo-estetica-higibel.vercel.app",
+        "description": "Brows, microblading, lip pigmentation, laser, nails and facials in Vila Real, plus hands-on workshops with certificate.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Vila Real",
+        "reviewCount": "130+",
+        "rating": "4.9"
+      },
+      {
         "id": "estetica-iambeauty",
         "name": "I am beauty",
         "category": "Website",
@@ -6127,7 +6145,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "321 projects across 57 industries",
+    "projectCount": "322 projects across 57 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
