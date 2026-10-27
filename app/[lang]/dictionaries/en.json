@@ -2791,6 +2791,24 @@
         "rating": "4.9"
       },
       {
+        "id": "mechanic-egipower",
+        "name": "Egipower",
+        "category": "Website",
+        "image": "/portfolio/mechanic-egipower.webp",
+        "url": "https://demo-mechanic-egipower.vercel.app",
+        "description": "Egipower, a multi-brand car workshop in Guarda with a name for German cars: servicing, diagnosis and mechanics in a bright new workshop on Av. 25 de Abril.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Guarda",
+        "reviewCount": "59+",
+        "rating": "4.5"
+      },
+      {
         "id": "mechanic-electrobino",
         "name": "Electro Bino",
         "category": "Website",
@@ -6203,7 +6221,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "325 projects across 58 industries",
+    "projectCount": "326 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
