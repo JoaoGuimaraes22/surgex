@@ -1209,6 +1209,24 @@
         "rating": "4.9"
       },
       {
+        "id": "materiais-jveloso",
+        "name": "J. Veloso & Irmão",
+        "category": "Website",
+        "image": "/portfolio/materiais-jveloso.webp",
+        "url": "https://demo-materiais-jveloso.vercel.app",
+        "description": "Building materials, sawn timber, paints and fencing mesh on the EM 574 in Oliveira (São Mateus), Famalicão.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Building Materials",
+        "location": "Vila Nova de Famalicão",
+        "reviewCount": "45+",
+        "rating": "4.4"
+      },
+      {
         "id": "stand-autopromocao",
         "name": "Auto Promoção",
         "category": "Website",
@@ -5809,6 +5827,10 @@
         "label": "Bar & Nightlife"
       },
       {
+        "id": "building-materials",
+        "label": "Building Materials"
+      },
+      {
         "id": "car-dealership",
         "label": "Car Dealership"
       },
@@ -5990,7 +6012,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "314 projects across 55 industries",
+    "projectCount": "315 projects across 56 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

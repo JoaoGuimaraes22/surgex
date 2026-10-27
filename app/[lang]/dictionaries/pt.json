@@ -4920,6 +4920,24 @@
         "rating": "4.9"
       },
       {
+        "id": "materiais-jveloso",
+        "name": "J. Veloso & Irmão",
+        "category": "Website",
+        "image": "/portfolio/materiais-jveloso.webp",
+        "url": "https://demo-materiais-jveloso.vercel.app",
+        "description": "Materiais de construção, madeira serrada, tintas e redes na EM 574, em Oliveira (São Mateus), Famalicão.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Materiais de Construção",
+        "location": "Vila Nova de Famalicão",
+        "reviewCount": "45+",
+        "rating": "4.4"
+      },
+      {
         "id": "stand-autopromocao",
         "name": "Auto Promoção",
         "category": "Website",
@@ -5809,6 +5827,10 @@
         "label": "Bar & Noite"
       },
       {
+        "id": "building-materials",
+        "label": "Materiais de Construção"
+      },
+      {
         "id": "car-dealership",
         "label": "Stand Automovel"
       },
@@ -5990,7 +6012,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "314 projetos em 55 setores",
+    "projectCount": "315 projetos em 56 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
