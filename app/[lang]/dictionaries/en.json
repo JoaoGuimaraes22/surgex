@@ -1873,6 +1873,24 @@
         "rating": "4.9"
       },
       {
+        "id": "flooring-verbo",
+        "name": "Verbo Instalações",
+        "category": "Website",
+        "image": "/portfolio/flooring-verbo.webp",
+        "url": "https://demo-flooring-verbo.vercel.app",
+        "description": "Floating, vinyl and porcelain floors, plasterboard, render and kitchen and bathroom remodels in Leiria.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Flooring & Decks",
+        "location": "Leiria",
+        "reviewCount": "30+",
+        "rating": "5"
+      },
+      {
         "id": "drogaria-jomarsil",
         "name": "Jomarsil",
         "category": "Website",
@@ -6185,7 +6203,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "324 projects across 58 industries",
+    "projectCount": "325 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

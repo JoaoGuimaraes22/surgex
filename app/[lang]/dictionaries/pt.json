@@ -307,6 +307,24 @@
         "rating": "4.9"
       },
       {
+        "id": "flooring-verbo",
+        "name": "Verbo Instalações",
+        "category": "Website",
+        "image": "/portfolio/flooring-verbo.webp",
+        "url": "https://demo-flooring-verbo.vercel.app",
+        "description": "Pavimento flutuante, vinílico e porcelanato, pladur, reboco e remodelação de cozinhas e WC em Leiria.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Pavimentos & Decks",
+        "location": "Leiria",
+        "reviewCount": "30+",
+        "rating": "5"
+      },
+      {
         "id": "drogaria-jomarsil",
         "name": "Jomarsil",
         "category": "Website",
@@ -6185,7 +6203,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "324 projetos em 58 setores",
+    "projectCount": "325 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
