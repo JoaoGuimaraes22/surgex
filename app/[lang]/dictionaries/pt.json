@@ -1927,6 +1927,24 @@
         "rating": "5"
       },
       {
+        "id": "pest-biodesinfest",
+        "name": "Biodesinfest",
+        "category": "Website",
+        "image": "/portfolio/pest-biodesinfest.webp",
+        "url": "https://demo-pest-biodesinfest.vercel.app",
+        "description": "Controlo de pragas em Santa Maria da Feira desde 2008: ratos, baratas, vespas, térmitas e desinfeção para casas e empresas.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Controlo de Pragas",
+        "location": "Argoncilhe",
+        "reviewCount": "7+",
+        "rating": "5"
+      },
+      {
         "id": "pest-desinfestlar",
         "name": "Desinfest Lar",
         "category": "Website",
@@ -6221,7 +6239,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "326 projetos em 58 setores",
+    "projectCount": "327 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
