@@ -4705,6 +4705,24 @@
         "rating": "5"
       },
       {
+        "id": "spa-mainspa",
+        "name": "Main SPA Guarda",
+        "category": "Website",
+        "image": "/portfolio/spa-mainspa.webp",
+        "url": "https://demo-spa-mainspa.vercel.app",
+        "description": "Spa feminino na Guarda: massagens, depilação a laser díodo, radiofrequência facial e depilação, em salas calmas à luz das velas com vista para a serra.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Guarda",
+        "reviewCount": "63+",
+        "rating": "4.9"
+      },
+      {
         "id": "estetica-menteecorpo",
         "name": "Mente & Corpo · Estética e Spa",
         "category": "Website",
@@ -6239,7 +6257,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "327 projetos em 58 setores",
+    "projectCount": "328 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

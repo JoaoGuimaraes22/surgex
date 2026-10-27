@@ -831,6 +831,24 @@
         "rating": "5"
       },
       {
+        "id": "spa-mainspa",
+        "name": "Main SPA Guarda",
+        "category": "Website",
+        "image": "/portfolio/spa-mainspa.webp",
+        "url": "https://demo-spa-mainspa.vercel.app",
+        "description": "A women's day spa in Guarda: massages, diode laser hair removal, facial radiofrequency and waxing in calm, candlelit rooms with a view of the hills.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Guarda",
+        "reviewCount": "63+",
+        "rating": "4.9"
+      },
+      {
         "id": "estetica-menteecorpo",
         "name": "Mente & Corpo · Estética e Spa",
         "category": "Website",
@@ -6239,7 +6257,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "327 projects across 58 industries",
+    "projectCount": "328 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
