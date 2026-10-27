@@ -5568,6 +5568,24 @@
         "rating": "4.8"
       },
       {
+        "id": "vet-vetevora",
+        "name": "Vetévora — Centro Veterinário",
+        "category": "Website",
+        "image": "/portfolio/vet-vetevora.webp",
+        "url": "https://demo-vet-vetevora.vercel.app",
+        "description": "Veterinary clinic in Évora for over 30 years: consultations, surgery, X-ray and ultrasound, exotic animals.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Évora",
+        "reviewCount": "148+",
+        "rating": "4.5"
+      },
+      {
         "id": "vet-viriatupets",
         "name": "ViriatuPet's - Consultório Veterinário",
         "category": "Website",
@@ -5936,7 +5954,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "311 projects across 55 industries",
+    "projectCount": "312 projects across 55 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
