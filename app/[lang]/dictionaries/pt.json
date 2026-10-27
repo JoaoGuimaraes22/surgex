@@ -4218,6 +4218,24 @@
         "rating": "5"
       },
       {
+        "id": "vet-zoopharma",
+        "name": "Zoopharma · Centro Veterinário",
+        "category": "Website",
+        "image": "/portfolio/vet-zoopharma.webp",
+        "url": "https://demo-vet-zoopharma.vercel.app",
+        "description": "Centro veterinário em Vila Real, na Av. João Paulo II: consultas, vacinas, cirurgia, gatos e seniores, preços justos e urgência 24h.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinária",
+        "location": "Vila Real",
+        "reviewCount": "128+",
+        "rating": "4.7"
+      },
+      {
         "id": "residuos-recissequeira",
         "name": "Recissequeira",
         "category": "Website",
@@ -6167,7 +6185,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "323 projetos em 58 setores",
+    "projectCount": "324 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
