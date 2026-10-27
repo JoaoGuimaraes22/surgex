@@ -79,7 +79,7 @@ export default function Hero({
           {dict.titleLine2}
         </h1>
 
-        <p className="mt-4 font-mono text-sm uppercase tracking-[4px] text-muted">
+        <p className="mt-4 max-w-3xl font-mono text-sm uppercase tracking-[4px] text-muted">
           {dict.subtitle}
         </p>
 
