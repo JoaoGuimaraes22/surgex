@@ -1657,6 +1657,23 @@
         "rating": "4.4"
       },
       {
+        "id": "rita-blog",
+        "name": "Cartas de Mim para Ti",
+        "category": "Website",
+        "image": "/portfolio/rita-blog.webp",
+        "url": "https://cartasdemimparati.com",
+        "description": "Cartas honestas sobre a maternidade à portuguesa — do radar do dia a dia às bases que importam.",
+        "services": [
+          "Web Design",
+          "Blog + CMS",
+          "SEO",
+          "Multi-language"
+        ],
+        "niche": "Blog de Maternidade",
+        "location": "Portugal",
+        "client": true
+      },
+      {
         "id": "movers-servico24h",
         "name": "Mudanças Serviço 24h",
         "category": "Website",
@@ -1780,7 +1797,8 @@
         "niche": "Escola de Música",
         "location": "Agualva-Cacém (Sintra)",
         "reviewCount": "1+",
-        "rating": "5"
+        "rating": "5",
+        "client": true
       },
       {
         "id": "music-saobras",
@@ -4215,7 +4233,8 @@
         "niche": "Música para Casamentos",
         "location": "Agualva-Cacém (Sintra)",
         "reviewCount": "18+",
-        "rating": "5"
+        "rating": "5",
+        "client": true
       },
       {
         "id": "caixilharia-fazmeca",
@@ -5811,14 +5830,16 @@
     "reviewsLabel": "AVALIAÇÕES_GOOGLE",
     "ratingLabel": "CLASSIFICAÇÃO",
     "locationLabel": "LOCALIZAÇÃO",
-    "disclaimer": "Projetos demonstrativos. Sites-conceito criados pela SurgeX para mostrar o nosso trabalho — sem qualquer afiliação, endosso ou encomenda por parte dos negócios apresentados. Os nomes, avaliações e dados são usados apenas para fins ilustrativos.",
-    "disclaimerSingle": "Projeto demonstrativo. Site-conceito criado pela SurgeX para mostrar o nosso trabalho — sem qualquer afiliação, endosso ou encomenda por parte do negócio apresentado. O nome, avaliações e dados são usados apenas para fins ilustrativos."
+    "disclaimer": "Os projetos marcados como Cliente são sites de clientes SurgeX, publicados com autorização. Os restantes são projetos demonstrativos: sites-conceito criados pela SurgeX para mostrar o nosso trabalho — sem qualquer afiliação, endosso ou encomenda por parte dos negócios apresentados. Os nomes, avaliações e dados são usados apenas para fins ilustrativos.",
+    "disclaimerSingle": "Projeto demonstrativo. Site-conceito criado pela SurgeX para mostrar o nosso trabalho — sem qualquer afiliação, endosso ou encomenda por parte do negócio apresentado. O nome, avaliações e dados são usados apenas para fins ilustrativos.",
+    "clientBadge": "Cliente",
+    "clientNote": "Site de cliente SurgeX, em produção no domínio do cliente."
   },
   "projectsPage": {
     "label": "PROJETOS",
     "headline": "O Nosso Trabalho.",
     "description": "Cada projeto é construído para aquele negócio. Sem templates, sem atalhos.",
-    "disclaimer": "Projetos demonstrativos. Sites-conceito criados pela SurgeX para mostrar o nosso trabalho — sem qualquer afiliação, endosso ou encomenda por parte dos negócios apresentados. Os nomes, avaliações e dados são usados apenas para fins ilustrativos.",
+    "disclaimer": "Os projetos marcados como Cliente são sites de clientes SurgeX, publicados com autorização. Os restantes são projetos demonstrativos: sites-conceito criados pela SurgeX para mostrar o nosso trabalho — sem qualquer afiliação, endosso ou encomenda por parte dos negócios apresentados. Os nomes, avaliações e dados são usados apenas para fins ilustrativos.",
     "categories": {
       "webDevelopment": {
         "title": "Desenvolvimento Web",
@@ -5977,6 +5998,10 @@
         "label": "Serralharia & Remodelação"
       },
       {
+        "id": "motherhood-blog",
+        "label": "Blog de Maternidade"
+      },
+      {
         "id": "moving-assembly",
         "label": "Mudanças & Montagens"
       },
@@ -6066,7 +6091,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "318 projetos em 56 setores",
+    "projectCount": "319 projetos em 57 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

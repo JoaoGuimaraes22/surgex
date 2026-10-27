@@ -20,6 +20,7 @@ export default function ProjectShowcase({
     reviewCount?: string;
     rating?: string;
     location?: string;
+    client?: boolean;
   };
   portfolio: {
     back: string;
@@ -30,6 +31,7 @@ export default function ProjectShowcase({
     ratingLabel: string;
     locationLabel: string;
     disclaimerSingle: string;
+    clientNote: string;
   };
   lang: string;
 }) {
@@ -81,9 +83,9 @@ export default function ProjectShowcase({
             {project.description}
           </p>
 
-          {/* Demo disclaimer (legal) */}
+          {/* A client site says so; a demo carries the legal disclaimer */}
           <p className="mt-6 max-w-md font-mono text-[10px] leading-relaxed tracking-[0.5px] text-muted/60">
-            {portfolio.disclaimerSingle}
+            {project.client ? portfolio.clientNote : portfolio.disclaimerSingle}
           </p>
 
           {/* Meta */}

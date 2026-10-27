@@ -121,7 +121,7 @@ export default async function CityPage({
       <Navbar dict={dict.navbar} lang={lang} />
       <main>
         <JsonLd data={jsonLd} />
-        <CityLanding dict={city} projects={cityProjects} lang={lang} />
+        <CityLanding dict={city} projects={cityProjects} clientBadge={dict.portfolio.clientBadge} lang={lang} />
       </main>
       <Footer dict={dict.footer} />
       <ChatWidget dict={dict.chat} lang={lang} />

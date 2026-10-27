@@ -3187,6 +3187,23 @@
         "rating": "4.4"
       },
       {
+        "id": "rita-blog",
+        "name": "Cartas de Mim para Ti",
+        "category": "Website",
+        "image": "/portfolio/rita-blog.webp",
+        "url": "https://cartasdemimparati.com",
+        "description": "Honest letters about Portuguese motherhood — from everyday radar to the basics that matter.",
+        "services": [
+          "Web Design",
+          "Blog + CMS",
+          "SEO",
+          "Multi-language"
+        ],
+        "niche": "Motherhood Blog",
+        "location": "Portugal",
+        "client": true
+      },
+      {
         "id": "movers-servico24h",
         "name": "Mudanças Serviço 24h",
         "category": "Website",
@@ -3310,7 +3327,8 @@
         "niche": "Music School",
         "location": "Agualva-Cacém (Sintra)",
         "reviewCount": "1+",
-        "rating": "5"
+        "rating": "5",
+        "client": true
       },
       {
         "id": "music-saobras",
@@ -5763,7 +5781,8 @@
         "niche": "Wedding Music",
         "location": "Agualva-Cacém (Sintra)",
         "reviewCount": "18+",
-        "rating": "5"
+        "rating": "5",
+        "client": true
       },
       {
         "id": "caixilharia-fazmeca",
@@ -5811,14 +5830,16 @@
     "reviewsLabel": "GOOGLE_REVIEWS",
     "ratingLabel": "RATING",
     "locationLabel": "LOCATION",
-    "disclaimer": "Demonstration projects. Concept sites built by SurgeX to showcase our work — not affiliated with, endorsed by, or commissioned by the businesses shown. Business names, ratings, and data are used for illustrative purposes only.",
-    "disclaimerSingle": "Demonstration project. A concept site built by SurgeX to showcase our work — not affiliated with, endorsed by, or commissioned by the business shown. The business name, ratings, and data are used for illustrative purposes only."
+    "disclaimer": "Projects marked Client are SurgeX client sites, shown with permission. The rest are demonstration projects: concept sites built by SurgeX to showcase our work — not affiliated with, endorsed by, or commissioned by the businesses shown. Business names, ratings, and data are used for illustrative purposes only.",
+    "disclaimerSingle": "Demonstration project. A concept site built by SurgeX to showcase our work — not affiliated with, endorsed by, or commissioned by the business shown. The business name, ratings, and data are used for illustrative purposes only.",
+    "clientBadge": "Client",
+    "clientNote": "A SurgeX client site, live on the client's own domain."
   },
   "projectsPage": {
     "label": "PROJECTS",
     "headline": "Our Work.",
     "description": "Every project is built for that business. No templates, no shortcuts.",
-    "disclaimer": "Demonstration projects. Concept sites built by SurgeX to showcase our work — not affiliated with, endorsed by, or commissioned by the businesses shown. Business names, ratings, and data are used for illustrative purposes only.",
+    "disclaimer": "Projects marked Client are SurgeX client sites, shown with permission. The rest are demonstration projects: concept sites built by SurgeX to showcase our work — not affiliated with, endorsed by, or commissioned by the businesses shown. Business names, ratings, and data are used for illustrative purposes only.",
     "categories": {
       "webDevelopment": {
         "title": "Web Development",
@@ -5977,6 +5998,10 @@
         "label": "Metalwork & Renovation"
       },
       {
+        "id": "motherhood-blog",
+        "label": "Motherhood Blog"
+      },
+      {
         "id": "moving-assembly",
         "label": "Moving & Assembly"
       },
@@ -6066,7 +6091,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "318 projects across 56 industries",
+    "projectCount": "319 projects across 57 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

@@ -2,6 +2,7 @@
 
 import * as motion from "motion/react-client";
 import Link from "next/link";
+import ClientBadge from "./client-badge";
 
 type Project = {
   id: string;
@@ -11,6 +12,7 @@ type Project = {
   reviewCount?: string;
   rating?: string;
   location?: string;
+  client?: boolean;
 };
 
 type CityDict = {
@@ -32,10 +34,12 @@ type CityDict = {
 export default function CityLanding({
   dict,
   projects,
+  clientBadge,
   lang,
 }: {
   dict: CityDict;
   projects: Project[];
+  clientBadge: string;
   lang: string;
 }) {
   const statKeys = ["projects", "avgRating", "totalReviews", "niches"] as const;
@@ -126,6 +130,7 @@ export default function CityLanding({
                   loading="lazy"
                   className="h-full w-full object-cover opacity-60 transition-all duration-500 group-hover:scale-105 group-hover:opacity-100"
                 />
+                {project.client && <ClientBadge label={clientBadge} />}
                 <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent" />
                 <div className="absolute bottom-0 left-0 w-full p-6">
                   <span className="font-mono text-[9px] uppercase tracking-[2px] text-muted">

@@ -2,6 +2,7 @@
 
 import * as motion from "motion/react-client";
 import Link from "next/link";
+import ClientBadge from "./client-badge";
 
 export default function Portfolio({
   dict,
@@ -20,15 +21,17 @@ export default function Portfolio({
       reviewCount?: string;
       rating?: string;
       location?: string;
+      client?: boolean;
     }[];
     cta: string;
     seeMore: string;
     disclaimer: string;
+    clientBadge: string;
   };
   lang: string;
 }) {
-  // Hand-picked homepage showcase (order preserved)
-  const FEATURED_IDS = [
+  // Live client sites first (`client: true`, in dictionary order), then the hand-picked demos, six in all
+  const FEATURED_DEMO_IDS = [
     "dentist-primehealthcare",
     "dentist-penedo",
     "vet-avencas",
@@ -37,9 +40,11 @@ export default function Portfolio({
     "auto-bicesse",
   ];
   const byId = new Map(dict.projects.map((p) => [p.id, p]));
-  const featured = FEATURED_IDS.map((id) => byId.get(id)).filter(
+  const clients = dict.projects.filter((p) => p.client);
+  const demos = FEATURED_DEMO_IDS.map((id) => byId.get(id)).filter(
     (p): p is (typeof dict.projects)[number] => Boolean(p)
   );
+  const featured = [...clients, ...demos].slice(0, 6);
 
   return (
     <section id="work" className="relative z-[5] overflow-hidden py-32 px-10">
@@ -56,7 +61,7 @@ export default function Portfolio({
         </h2>
       </div>
 
-      {/* Project grid — 6 diverse niches on homepage */}
+      {/* Project grid — the clients, then demos from diverse niches, six on the homepage */}
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {featured.map((project, i) => (
           <motion.div
@@ -77,6 +82,7 @@ export default function Portfolio({
                 alt={project.name}
                 className="h-full w-full object-cover opacity-60 transition-all duration-500 group-hover:scale-105 group-hover:opacity-100"
               />
+              {project.client && <ClientBadge label={dict.clientBadge} />}
 
               {/* Overlay gradient */}
               <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent" />

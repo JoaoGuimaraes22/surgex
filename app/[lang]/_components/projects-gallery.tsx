@@ -4,6 +4,7 @@ import { useState } from "react";
 import { motion } from "motion/react";
 import Link from "next/link";
 import { visibleProjects as filterVisible } from "../_lib/hidden-projects";
+import ClientBadge from "./client-badge";
 
 type Project = {
   id: string;
@@ -17,6 +18,7 @@ type Project = {
   reviewCount?: string;
   rating?: string;
   location?: string;
+  client?: boolean;
 };
 
 type ProjectsPageDict = {
@@ -54,11 +56,13 @@ function ProjectCard({
   project,
   lang,
   cta,
+  clientBadge,
   index,
 }: {
   project: Project;
   lang: string;
   cta: string;
+  clientBadge: string;
   index: number;
 }) {
   return (
@@ -79,6 +83,7 @@ function ProjectCard({
           loading="lazy"
           className="h-full w-full object-cover opacity-60 transition-all duration-500 group-hover:scale-105 group-hover:opacity-100"
         />
+        {project.client && <ClientBadge label={clientBadge} />}
         <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/20 to-transparent" />
         <div className="absolute bottom-0 left-0 w-full p-6">
           <span className="font-mono text-[9px] uppercase tracking-[2px] text-muted">
@@ -120,6 +125,7 @@ export default function ProjectsGallery({
   portfolio: {
     projects: Project[];
     cta: string;
+    clientBadge: string;
   };
   lang: string;
 }) {
@@ -274,6 +280,7 @@ export default function ProjectsGallery({
                     project={project}
                     lang={lang}
                     cta={dict.cta}
+                    clientBadge={portfolio.clientBadge}
                     index={i}
                   />
                 ))}
