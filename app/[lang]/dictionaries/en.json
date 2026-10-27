@@ -2917,6 +2917,24 @@
         "rating": "4.8"
       },
       {
+        "id": "mechanic-rastodanoite",
+        "name": "Rasto da Noite Oficina Auto",
+        "category": "Website",
+        "image": "/portfolio/mechanic-rastodanoite.webp",
+        "url": "https://demo-mechanic-rastodanoite.vercel.app",
+        "description": "Multi-brand workshop in Castelo Branco since 2008: cars, motorhomes, trucks and semi-trailers, diagnostics, tyres and a mobile workshop van.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Castelo Branco",
+        "reviewCount": "64+",
+        "rating": "4.5"
+      },
+      {
         "id": "mechanic-ratinhoauto",
         "name": "Ratinho Auto",
         "category": "Website",
@@ -6012,7 +6030,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "315 projects across 56 industries",
+    "projectCount": "316 projects across 56 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

@@ -1405,6 +1405,24 @@
         "rating": "4.8"
       },
       {
+        "id": "mechanic-rastodanoite",
+        "name": "Rasto da Noite Oficina Auto",
+        "category": "Website",
+        "image": "/portfolio/mechanic-rastodanoite.webp",
+        "url": "https://demo-mechanic-rastodanoite.vercel.app",
+        "description": "Oficina multimarca em Castelo Branco desde 2008: ligeiros, autocaravanas, pesados e semirreboques, diagnóstico, pneus e oficina móvel.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Castelo Branco",
+        "reviewCount": "64+",
+        "rating": "4.5"
+      },
+      {
         "id": "mechanic-ratinhoauto",
         "name": "Ratinho Auto",
         "category": "Website",
@@ -6012,7 +6030,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "315 projetos em 56 setores",
+    "projectCount": "316 projetos em 56 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
