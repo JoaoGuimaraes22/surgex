@@ -1119,6 +1119,24 @@
         "rating": "4.7"
       },
       {
+        "id": "mechanic-freshmotive",
+        "name": "Fresh Motive",
+        "category": "Website",
+        "image": "/portfolio/mechanic-freshmotive.webp",
+        "url": "https://demo-mechanic-freshmotive.vercel.app",
+        "description": "Body shop, car paint and repairs in Sesimbra.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Auto Body",
+        "location": "Sesimbra",
+        "reviewCount": "88+",
+        "rating": "4.6"
+      },
+      {
         "id": "lavagem-autobrilho",
         "name": "Auto Brilho - Lavagem de Automóveis",
         "category": "Website",
@@ -5972,7 +5990,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "313 projects across 55 industries",
+    "projectCount": "314 projects across 55 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
