@@ -1101,6 +1101,24 @@
         "rating": "4.6"
       },
       {
+        "id": "medspa-verdementa",
+        "name": "Verde Menta",
+        "category": "Website",
+        "image": "/portfolio/medspa-verdementa.webp",
+        "url": "https://demo-medspa-verdementa.vercel.app",
+        "description": "Alexandrite laser hair removal by Candela, nails, massage and facial care in central Castelo Branco.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Castelo Branco",
+        "reviewCount": "56+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-vilart",
         "name": "Vil’Art Beauty Center",
         "category": "Website",
@@ -6048,7 +6066,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "317 projects across 56 industries",
+    "projectCount": "318 projects across 56 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

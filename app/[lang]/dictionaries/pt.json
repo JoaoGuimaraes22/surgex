@@ -4848,6 +4848,24 @@
         "rating": "4.6"
       },
       {
+        "id": "medspa-verdementa",
+        "name": "Verde Menta",
+        "category": "Website",
+        "image": "/portfolio/medspa-verdementa.webp",
+        "url": "https://demo-medspa-verdementa.vercel.app",
+        "description": "Depilação a laser Alexandrite Candela, unhas, massagem e cuidados de rosto no centro de Castelo Branco.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Castelo Branco",
+        "reviewCount": "56+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-vilart",
         "name": "Vil’Art Beauty Center",
         "category": "Website",
@@ -6048,7 +6066,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "317 projetos em 56 setores",
+    "projectCount": "318 projetos em 56 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
