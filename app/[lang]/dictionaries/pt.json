@@ -1279,6 +1279,24 @@
         "rating": "4.8"
       },
       {
+        "id": "mechanic-garagemveiga",
+        "name": "Garagem Veiga",
+        "category": "Website",
+        "image": "/portfolio/mechanic-garagemveiga.webp",
+        "url": "https://demo-mechanic-garagemveiga.vercel.app",
+        "description": "Oficina multimarcas na Rua Stuart Carvalhais, em Vila Real: revisões, diagnóstico, mecânica, travões, eletricidade auto e carros antigos de volta à estrada.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Vila Real",
+        "reviewCount": "54+",
+        "rating": "4.3"
+      },
+      {
         "id": "mechanic-lswauto",
         "name": "LSW - Auto",
         "category": "Website",
@@ -6091,7 +6109,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "319 projetos em 57 setores",
+    "projectCount": "320 projetos em 57 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

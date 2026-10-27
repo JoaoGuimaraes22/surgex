@@ -2809,6 +2809,24 @@
         "rating": "4.8"
       },
       {
+        "id": "mechanic-garagemveiga",
+        "name": "Garagem Veiga",
+        "category": "Website",
+        "image": "/portfolio/mechanic-garagemveiga.webp",
+        "url": "https://demo-mechanic-garagemveiga.vercel.app",
+        "description": "Multi-brand car workshop on Rua Stuart Carvalhais, Vila Real: servicing, diagnosis, mechanics, brakes, electrics and older cars brought back to the road.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Vila Real",
+        "reviewCount": "54+",
+        "rating": "4.3"
+      },
+      {
         "id": "mechanic-lswauto",
         "name": "LSW - Auto",
         "category": "Website",
@@ -6091,7 +6109,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "319 projects across 57 industries",
+    "projectCount": "320 projects across 57 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
