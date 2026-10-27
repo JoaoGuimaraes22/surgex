@@ -4091,6 +4091,24 @@
         "rating": "4.8"
       },
       {
+        "id": "vet-vetsesimbra",
+        "name": "Vetsesimbra",
+        "category": "Website",
+        "image": "/portfolio/vet-vetsesimbra.webp",
+        "url": "https://demo-vet-vetsesimbra.vercel.app",
+        "description": "Clínica do Dr. Luís Miguel Bravo Nunes em Sesimbra: consultas sem marcação, urgências no horário de abertura, cirurgia e diagnóstico.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinária",
+        "location": "Sesimbra",
+        "reviewCount": "128+",
+        "rating": "4.8"
+      },
+      {
         "id": "vettop",
         "name": "VetTop",
         "category": "Website",
@@ -6030,7 +6048,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "316 projetos em 56 setores",
+    "projectCount": "317 projetos em 56 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
