@@ -5440,6 +5440,24 @@
         "rating": "4.7"
       },
       {
+        "id": "vet-quintadaamendoeira",
+        "name": "Clínica Veterinária Quinta da Amendoeira",
+        "category": "Website",
+        "image": "/portfolio/vet-quintadaamendoeira.webp",
+        "url": "https://demo-vet-quintadaamendoeira.vercel.app",
+        "description": "Vet clinic and dog hotel in Castelo Branco: consultations for dogs, cats and exotics, surgery, vaccines and an out-of-hours emergency line.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Castelo Branco",
+        "reviewCount": "161+",
+        "rating": "4.7"
+      },
+      {
         "id": "vet-quintadoparaiso",
         "name": "Clínica Veterinária Quinta do Paraíso",
         "category": "Website",
@@ -6109,7 +6127,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "320 projects across 57 industries",
+    "projectCount": "321 projects across 57 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
