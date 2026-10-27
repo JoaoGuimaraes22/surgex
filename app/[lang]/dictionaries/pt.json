@@ -5533,6 +5533,24 @@
         "rating": "4.9"
       },
       {
+        "id": "eletrico-costamartins",
+        "name": "Costa Martins — Material Eléctrico",
+        "category": "Website",
+        "image": "/portfolio/eletrico-costamartins.webp",
+        "url": "https://demo-eletrico-costamartins.vercel.app",
+        "description": "Material elétrico, iluminação, aparelhagem, cabos e TV em Viana do Castelo.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Material Elétrico",
+        "location": "Viana do Castelo",
+        "reviewCount": "82+",
+        "rating": "4.5"
+      },
+      {
         "id": "electrician-instalacaocerta",
         "name": "Instalação Certa - Soluções Elétricas",
         "category": "Website",
@@ -5984,6 +6002,10 @@
         "label": "Treino Canino"
       },
       {
+        "id": "electrical-supplies",
+        "label": "Material Elétrico"
+      },
+      {
         "id": "electrician",
         "label": "Eletricista"
       },
@@ -6145,7 +6167,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "322 projetos em 57 setores",
+    "projectCount": "323 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
