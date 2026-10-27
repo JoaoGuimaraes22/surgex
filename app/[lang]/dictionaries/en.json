@@ -1801,6 +1801,24 @@
         "rating": "4.1"
       },
       {
+        "id": "spa-palma",
+        "name": "Palma Head Spa",
+        "category": "Website",
+        "image": "/portfolio/spa-palma.webp",
+        "url": "https://demo-spa-palma.vercel.app",
+        "description": "Head spa rituals on Sesimbra's seafront: hydrotherapy, scalp massage with Gua Sha, facials and massages, then tea on the terrace facing the sea.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Head Spa",
+        "location": "Sesimbra",
+        "reviewCount": "170+",
+        "rating": "5"
+      },
+      {
         "id": "remodelacao-augusto",
         "name": "Augusto Remodelação",
         "category": "Website",
@@ -5954,7 +5972,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "312 projects across 55 industries",
+    "projectCount": "313 projects across 55 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

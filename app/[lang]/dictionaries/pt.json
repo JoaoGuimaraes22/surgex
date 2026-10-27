@@ -325,6 +325,24 @@
         "rating": "4.1"
       },
       {
+        "id": "spa-palma",
+        "name": "Palma Head Spa",
+        "category": "Website",
+        "image": "/portfolio/spa-palma.webp",
+        "url": "https://demo-spa-palma.vercel.app",
+        "description": "Rituais de head spa na marginal de Sesimbra: hidroterapia, massagem ao couro cabeludo com Gua Sha, faciais e massagens, e chá no terraço junto ao mar.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Head Spa",
+        "location": "Sesimbra",
+        "reviewCount": "170+",
+        "rating": "5"
+      },
+      {
         "id": "remodelacao-augusto",
         "name": "Augusto Remodelação",
         "category": "Website",
@@ -5954,7 +5972,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "312 projetos em 55 setores",
+    "projectCount": "313 projetos em 55 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
