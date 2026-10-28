@@ -5602,6 +5602,24 @@
         "rating": "4.7"
       },
       {
+        "id": "vet-portasdebeja",
+        "name": "Clínica Veterinária Portas de Beja",
+        "category": "Website",
+        "image": "/portfolio/vet-portasdebeja.webp",
+        "url": "https://demo-vet-portasdebeja.vercel.app",
+        "description": "Vet clinic for dogs and cats in Portas de Beja since 1995.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Beja",
+        "reviewCount": "146+",
+        "rating": "4.7"
+      },
+      {
         "id": "vet-quintadaamendoeira",
         "name": "Clínica Veterinária Quinta da Amendoeira",
         "category": "Website",
@@ -6311,7 +6329,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "331 projects across 58 industries",
+    "projectCount": "332 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
