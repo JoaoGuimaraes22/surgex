@@ -1387,6 +1387,24 @@
         "rating": "4.7"
       },
       {
+        "id": "mechanic-madridauto",
+        "name": "MadridAuto",
+        "category": "Website",
+        "image": "/portfolio/mechanic-madridauto.webp",
+        "url": "https://demo-mechanic-madridauto.vercel.app",
+        "description": "Oficina de reparações automóveis em Bragança: diagnóstico, revisões, baterias, eletricidade e reparação de sinistros.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Bragança",
+        "reviewCount": "79+",
+        "rating": "4.5"
+      },
+      {
         "id": "mechanic-armandomelo",
         "name": "Miguel Melo",
         "category": "Website",
@@ -6347,7 +6365,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "333 projetos em 58 setores",
+    "projectCount": "334 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

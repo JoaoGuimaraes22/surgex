@@ -2989,6 +2989,24 @@
         "rating": "4.7"
       },
       {
+        "id": "mechanic-madridauto",
+        "name": "MadridAuto",
+        "category": "Website",
+        "image": "/portfolio/mechanic-madridauto.webp",
+        "url": "https://demo-mechanic-madridauto.vercel.app",
+        "description": "Car repair workshop in Bragança: diagnostics, servicing, batteries, electrics and accident repair.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Bragança",
+        "reviewCount": "79+",
+        "rating": "4.5"
+      },
+      {
         "id": "mechanic-armandomelo",
         "name": "Miguel Melo",
         "category": "Website",
@@ -6347,7 +6365,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "333 projects across 58 industries",
+    "projectCount": "334 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
