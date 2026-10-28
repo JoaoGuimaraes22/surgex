@@ -4525,6 +4525,24 @@
         "rating": "4.8"
       },
       {
+        "id": "estetica-elite",
+        "name": "elite - Estética e bem-estar",
+        "category": "Website",
+        "image": "/portfolio/estetica-elite.webp",
+        "url": "https://demo-estetica-elite.vercel.app",
+        "description": "Head Spa, InfraslimX, laser Alexandrite Candela, limpeza de pele, unhas e massagens no Largo dos Correios, no centro de Beja.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Beja",
+        "reviewCount": "52+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-espumadepetalas",
         "name": "Espuma de Pétalas",
         "category": "Website",
@@ -6329,7 +6347,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "332 projetos em 58 setores",
+    "projectCount": "333 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
