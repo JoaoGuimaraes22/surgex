@@ -1513,6 +1513,24 @@
         "rating": "4.6"
       },
       {
+        "id": "mechanic-relvalampreia",
+        "name": "Sebastião Relva & Lampreia",
+        "category": "Website",
+        "image": "/portfolio/mechanic-relvalampreia.webp",
+        "url": "https://demo-mechanic-relvalampreia.vercel.app",
+        "description": "Oficina em Beja desde 1996, conhecida pela Peugeot e pela Citroën: revisões, oficina geral e o carro levado à inspeção.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Beja",
+        "reviewCount": "50+",
+        "rating": "4.2"
+      },
+      {
         "id": "mechanic-stargarage",
         "name": "Star Garage",
         "category": "Website",
@@ -6257,7 +6275,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "328 projetos em 58 setores",
+    "projectCount": "329 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

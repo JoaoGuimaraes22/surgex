@@ -3097,6 +3097,24 @@
         "rating": "4.6"
       },
       {
+        "id": "mechanic-relvalampreia",
+        "name": "Sebastião Relva & Lampreia",
+        "category": "Website",
+        "image": "/portfolio/mechanic-relvalampreia.webp",
+        "url": "https://demo-mechanic-relvalampreia.vercel.app",
+        "description": "Car workshop in Beja since 1996, known for Peugeot and Citroën: servicing, general repairs and the car taken to inspection.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Beja",
+        "reviewCount": "50+",
+        "rating": "4.2"
+      },
+      {
         "id": "mechanic-stargarage",
         "name": "Star Garage",
         "category": "Website",
@@ -6257,7 +6275,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "328 projects across 58 industries",
+    "projectCount": "329 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
