@@ -6,6 +6,7 @@ import Hero from "./_components/hero";
 import Services from "./_components/services";
 import Pricing from "./_components/pricing";
 import Portfolio from "./_components/portfolio";
+import { visiblePortfolio } from "./_lib/hidden-projects";
 import Process from "./_components/process";
 import About from "./_components/about";
 import Stats from "./_components/stats";
@@ -44,7 +45,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
         <Hero dict={dict.hero} />
         <Services dict={dict.services} lang={lang} />
         <Pricing dict={dict.pricing} />
-        <Portfolio dict={dict.portfolio} lang={lang} />
+        <Portfolio dict={visiblePortfolio(dict.portfolio)} lang={lang} />
         <Process dict={dict.process} />
         <About dict={dict.about} />
         <Stats dict={dict.stats} />

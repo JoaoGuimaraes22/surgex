@@ -1057,7 +1057,7 @@
           "Google Reviews Integration",
           "Multi-language"
         ],
-        "niche": "Oficina Mecânica",
+        "niche": "Mecânica",
         "location": "Portimão",
         "reviewCount": "165+",
         "rating": "4.6"
@@ -1147,7 +1147,7 @@
           "Google Reviews Integration",
           "Multi-language"
         ],
-        "niche": "Oficina Mecânica",
+        "niche": "Mecânica",
         "location": "Póvoa de Varzim",
         "reviewCount": "120+",
         "rating": "4.6"
@@ -1453,7 +1453,7 @@
           "Google Reviews Integration",
           "Multi-language"
         ],
-        "niche": "Oficina Mecânica",
+        "niche": "Mecânica",
         "location": "Faro",
         "reviewCount": "417+",
         "rating": "4.8"
@@ -1651,7 +1651,7 @@
           "Google Reviews Integration",
           "Multi-language"
         ],
-        "niche": "Oficina Mecânica",
+        "niche": "Mecânica",
         "location": "Palmela",
         "reviewCount": "83+",
         "rating": "4.7"
@@ -1705,7 +1705,7 @@
           "Google Reviews Integration",
           "Multi-language"
         ],
-        "niche": "Serralharia & Remodelações",
+        "niche": "Serralharia & Remodelação",
         "location": "Maia",
         "reviewCount": "20+",
         "rating": "4.9"
@@ -1741,7 +1741,7 @@
           "Google Reviews Integration",
           "Multi-language"
         ],
-        "niche": "Serralharia & Remodelações",
+        "niche": "Serralharia & Remodelação",
         "location": "Braga",
         "reviewCount": "20+",
         "rating": "5"
@@ -1759,7 +1759,7 @@
           "Google Reviews Integration",
           "Multi-language"
         ],
-        "niche": "Serralharia & Remodelações",
+        "niche": "Serralharia & Remodelação",
         "location": "Almada",
         "reviewCount": "40+",
         "rating": "4.4"
@@ -4217,6 +4217,24 @@
         "rating": "4.8"
       },
       {
+        "id": "vet-primetails",
+        "name": "Prime Tails",
+        "category": "Website",
+        "image": "/portfolio/vet-primetails.webp",
+        "url": "https://demo-vet-primetails.vercel.app",
+        "description": "A Prime Tails é o veterinário de bairro no centro histórico de Oeiras: consultórios separados para cães e gatos, pet spa para banhos e tosquias, e uma boutique.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinária",
+        "location": "Oeiras",
+        "reviewCount": "36+",
+        "rating": "5"
+      },
+      {
         "id": "vet-vetconde",
         "name": "Vetconde - Clínica Veterinária",
         "category": "Website",
@@ -5347,7 +5365,7 @@
           "Google Reviews Integration",
           "Multi-language"
         ],
-        "niche": "Limpezas",
+        "niche": "Limpeza",
         "location": "Amadora",
         "reviewCount": "10+",
         "rating": "5"
@@ -6131,7 +6149,7 @@
       },
       {
         "id": "veterinary",
-        "label": "Veterinaria"
+        "label": "Veterinária"
       },
       {
         "id": "auto-detailing",
@@ -6159,7 +6177,7 @@
       },
       {
         "id": "car-dealership",
-        "label": "Stand Automovel"
+        "label": "Stand Automóvel"
       },
       {
         "id": "chiropractic",
@@ -6239,11 +6257,7 @@
       },
       {
         "id": "mechanic",
-        "label": "Mecanica"
-      },
-      {
-        "id": "mechanics",
-        "label": "Oficina Mecânica"
+        "label": "Mecânica"
       },
       {
         "id": "medical-clinic",
@@ -6283,7 +6297,7 @@
       },
       {
         "id": "plumbing",
-        "label": "Canalizacao"
+        "label": "Canalização"
       },
       {
         "id": "pole-dance-studio",
@@ -6326,10 +6340,6 @@
         "label": "Madeiras & Carpintaria"
       },
       {
-        "id": "timber-joinery",
-        "label": "Madeiras & Carpintaria"
-      },
-      {
         "id": "tire-shop",
         "label": "Pneus"
       },
@@ -6347,7 +6357,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "333 projetos em 58 setores",
+    "projectCount": "334 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

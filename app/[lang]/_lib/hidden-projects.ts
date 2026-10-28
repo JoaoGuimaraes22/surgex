@@ -11,6 +11,7 @@ export const HIDDEN_PROJECT_IDS: readonly string[] = [
   "harvey",
   "mm-detalhe",
   "autobody-jpautopaint",
+  "vet-primetails",
 ];
 
 export function isHiddenProject(id: string): boolean {
@@ -19,4 +20,13 @@ export function isHiddenProject(id: string): boolean {
 
 export function visibleProjects<T extends { id: string }>(projects: T[]): T[] {
   return projects.filter((p) => !isHiddenProject(p.id));
+}
+
+/**
+ * The portfolio dict with hidden demos removed. Filter on the server before the
+ * dict reaches a client component: whatever a client component receives is
+ * serialized into the page source, rendered or not.
+ */
+export function visiblePortfolio<P extends { projects: { id: string }[] }>(portfolio: P): P {
+  return { ...portfolio, projects: visibleProjects(portfolio.projects) };
 }

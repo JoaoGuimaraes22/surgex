@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { motion } from "motion/react";
 import Link from "next/link";
-import { visibleProjects as filterVisible } from "../_lib/hidden-projects";
+import { nicheKey } from "../_lib/niche";
 import ClientBadge from "./client-badge";
 
 type Project = {
@@ -49,7 +49,7 @@ type ProjectsPageDict = {
 };
 
 function slugify(niche: string) {
-  return niche.toLowerCase().replace(/ & /g, "-").replace(/ /g, "-");
+  return nicheKey(niche).replace(/ & /g, "-").replace(/ /g, "-");
 }
 
 function ProjectCard({
@@ -129,7 +129,8 @@ export default function ProjectsGallery({
   };
   lang: string;
 }) {
-  const visibleProjects = filterVisible(portfolio.projects);
+  // Hidden demos are already filtered on the server (visiblePortfolio).
+  const visibleProjects = portfolio.projects;
 
   const [cityFilter, setCityFilter] = useState<string | null>(null);
 
@@ -147,10 +148,10 @@ export default function ProjectsGallery({
     ? visibleProjects.filter((p) => p.location === cityFilter)
     : visibleProjects;
 
-  // Map niche display names to stable nav IDs by matching labels
+  // Map niche display names to stable nav IDs by matching labels (accent/case-insensitive)
   const nicheToNavId: Record<string, string> = {};
   for (const nav of dict.nicheNav) {
-    nicheToNavId[nav.label] = nav.id;
+    nicheToNavId[nicheKey(nav.label)] = nav.id;
   }
 
   // Group projects by niche
@@ -163,10 +164,13 @@ export default function ProjectsGallery({
   }
 
   // Sort niche groups to match nicheNav order
-  const navOrder = dict.nicheNav.map((n) => n.label);
+  const navOrder = dict.nicheNav.map((n) => nicheKey(n.label));
+  const navIndex = (niche: string) => {
+    const i = navOrder.indexOf(nicheKey(niche));
+    return i === -1 ? 999 : i;
+  };
   const sortedNicheEntries = Object.entries(nicheGroups).sort(
-    (a, b) => (navOrder.indexOf(a[0]) === -1 ? 999 : navOrder.indexOf(a[0])) -
-              (navOrder.indexOf(b[0]) === -1 ? 999 : navOrder.indexOf(b[0]))
+    (a, b) => navIndex(a[0]) - navIndex(b[0])
   );
 
   return (
@@ -254,7 +258,7 @@ export default function ProjectsGallery({
 
           {/* Niche groups */}
           {sortedNicheEntries.map(([niche, projects]) => (
-            <div key={niche} id={nicheToNavId[niche] ?? slugify(niche)} className="mb-16 last:mb-0 scroll-mt-28">
+            <div key={niche} id={nicheToNavId[nicheKey(niche)] ?? slugify(niche)} className="mb-16 last:mb-0 scroll-mt-28">
               <motion.div
                 className="mb-6 flex items-center justify-between"
                 initial={{ opacity: 0, x: -10 }}

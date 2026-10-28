@@ -4335,7 +4335,7 @@
           "Google Reviews Integration",
           "Multi-language"
         ],
-        "niche": "Timber & Joinery",
+        "niche": "Timber & Carpentry",
         "location": "Maia",
         "reviewCount": "35+",
         "rating": "4.6"
@@ -5837,6 +5837,24 @@
         "rating": "4.8"
       },
       {
+        "id": "vet-primetails",
+        "name": "Prime Tails",
+        "category": "Website",
+        "image": "/portfolio/vet-primetails.webp",
+        "url": "https://demo-vet-primetails.vercel.app",
+        "description": "Prime Tails is the neighbourhood vet in the historic centre of Oeiras: separate consultation rooms for dogs and cats, a pet spa for baths and grooming, and a boutique.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Oeiras",
+        "reviewCount": "36+",
+        "rating": "5"
+      },
+      {
         "id": "vet-vetconde",
         "name": "Vetconde - Clínica Veterinária",
         "category": "Website",
@@ -6242,10 +6260,6 @@
         "label": "Mechanic"
       },
       {
-        "id": "mechanics",
-        "label": "Mechanics"
-      },
-      {
         "id": "medical-clinic",
         "label": "Medical Clinic"
       },
@@ -6326,10 +6340,6 @@
         "label": "Timber & Carpentry"
       },
       {
-        "id": "timber-joinery",
-        "label": "Timber & Joinery"
-      },
-      {
         "id": "tire-shop",
         "label": "Tire Shop"
       },
@@ -6347,7 +6357,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "333 projects across 58 industries",
+    "projectCount": "334 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

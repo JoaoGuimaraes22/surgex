@@ -8,7 +8,8 @@ import Footer from "../_components/footer";
 import ChatWidget from "../_components/chat-widget";
 import JsonLd from "../_components/json-ld";
 import { SITE_URL, ogLocale } from "../_lib/seo";
-import { visibleProjects } from "../_lib/hidden-projects";
+import { visibleProjects, visiblePortfolio } from "../_lib/hidden-projects";
+import { navWithProjects } from "../_lib/niche";
 
 const siteUrl = SITE_URL;
 
@@ -91,13 +92,13 @@ export default async function ProjectsPage({
         dict={dict.navbar}
         hideLinks
         backHref={`/${lang}`}
-        nicheNav={{ items: dict.projectsPage.nicheNav, label: dict.projectsPage.nicheNavLabel }}
+        nicheNav={{ items: navWithProjects(dict.projectsPage.nicheNav, listedProjects), label: dict.projectsPage.nicheNavLabel }}
       />
       <main>
         <JsonLd data={jsonLd} />
         <ProjectsGallery
           dict={dict.projectsPage}
-          portfolio={dict.portfolio}
+          portfolio={visiblePortfolio(dict.portfolio)}
           lang={lang}
         />
       </main>

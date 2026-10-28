@@ -91,6 +91,9 @@ export default async function ProjectPage({
   );
 
   if (!project) notFound();
+  // Labels only: the project list would be serialized into the page source.
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const { projects: _projects, ...portfolioLabels } = dict.portfolio;
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -129,7 +132,7 @@ export default async function ProjectPage({
       <Navbar dict={dict.navbar} hideLinks backHref={`/${lang}/projects`} />
       <main>
         <JsonLd data={jsonLd} />
-        <ProjectShowcase project={project} portfolio={dict.portfolio} lang={lang} />
+        <ProjectShowcase project={project} portfolio={portfolioLabels} lang={lang} />
       </main>
     </ThemeProvider>
   );
