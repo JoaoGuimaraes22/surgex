@@ -4217,24 +4217,6 @@
         "rating": "4.8"
       },
       {
-        "id": "vet-primetails",
-        "name": "Prime Tails",
-        "category": "Website",
-        "image": "/portfolio/vet-primetails.webp",
-        "url": "https://demo-vet-primetails.vercel.app",
-        "description": "A Prime Tails é o veterinário de bairro no centro histórico de Oeiras: consultórios separados para cães e gatos, pet spa para banhos e tosquias, e uma boutique.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Multi-language"
-        ],
-        "niche": "Veterinária",
-        "location": "Oeiras",
-        "reviewCount": "36+",
-        "rating": "5"
-      },
-      {
         "id": "vet-vetconde",
         "name": "Vetconde - Clínica Veterinária",
         "category": "Website",
@@ -6365,7 +6347,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "334 projetos em 58 setores",
+    "projectCount": "333 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
