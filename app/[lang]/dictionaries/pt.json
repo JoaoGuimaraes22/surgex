@@ -2702,6 +2702,24 @@
         "rating": "4.8"
       },
       {
+        "id": "vet-6fs",
+        "name": "6 F´s - Serviços Veterinários",
+        "category": "Website",
+        "image": "/portfolio/vet-6fs.webp",
+        "url": "https://demo-vet-6fs.vercel.app",
+        "description": "Clínica veterinária para cães e gatos no centro da Guarda: consultas, vacinas, exames, cirurgia e enfermagem.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinária",
+        "location": "Guarda",
+        "reviewCount": "109+",
+        "rating": "4.9"
+      },
+      {
         "id": "vet-anaeosbichos",
         "name": "Ana e os Bichos",
         "category": "Website",
@@ -6275,7 +6293,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "329 projetos em 58 setores",
+    "projectCount": "330 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

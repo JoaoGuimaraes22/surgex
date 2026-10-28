@@ -4323,6 +4323,24 @@
         "rating": "4.8"
       },
       {
+        "id": "vet-6fs",
+        "name": "6 F´s - Serviços Veterinários",
+        "category": "Website",
+        "image": "/portfolio/vet-6fs.webp",
+        "url": "https://demo-vet-6fs.vercel.app",
+        "description": "Vet clinic for dogs and cats in the centre of Guarda: consults, vaccines, exams, surgery and nursing.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Guarda",
+        "reviewCount": "109+",
+        "rating": "4.9"
+      },
+      {
         "id": "vet-anaeosbichos",
         "name": "Ana e os Bichos",
         "category": "Website",
@@ -6275,7 +6293,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "329 projects across 58 industries",
+    "projectCount": "330 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
