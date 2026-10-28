@@ -721,6 +721,24 @@
         "rating": "5"
       },
       {
+        "id": "coach-anapinhal",
+        "name": "Ana Pinhal · Coaching & Therapies",
+        "category": "Website",
+        "image": "/portfolio/coach-anapinhal.webp",
+        "url": "https://demo-coach-anapinhal.vercel.app",
+        "description": "Coaching de vida e terapias individuais com Ana Pinhal em Leça da Palmeira, Matosinhos.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Coaching de Vida",
+        "location": "Leça da Palmeira",
+        "reviewCount": "5+",
+        "rating": "5"
+      },
+      {
         "id": "coach-liriaguedes",
         "name": "Liria Guedes",
         "category": "Website",
@@ -6293,7 +6311,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "330 projetos em 58 setores",
+    "projectCount": "331 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
