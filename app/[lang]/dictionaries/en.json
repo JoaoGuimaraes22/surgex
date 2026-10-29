@@ -1981,6 +1981,24 @@
         "rating": "4.1"
       },
       {
+        "id": "spa-headfoot",
+        "name": "Head & Foot SPA",
+        "category": "Website",
+        "image": "/portfolio/spa-headfoot.webp",
+        "url": "https://demo-spa-headfoot.vercel.app",
+        "description": "Japanese head spa, salt foot bath, Kobido and reflexology in Feijó, Almada.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Head Spa",
+        "location": "Almada",
+        "reviewCount": "258+",
+        "rating": "5"
+      },
+      {
         "id": "spa-palma",
         "name": "Palma Head Spa",
         "category": "Website",
@@ -6447,7 +6465,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "339 projects across 58 industries",
+    "projectCount": "340 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
