@@ -2197,6 +2197,24 @@
         "rating": "5"
       },
       {
+        "id": "pool-atlantida",
+        "name": "Atlântida Pool",
+        "category": "Website",
+        "image": "/portfolio/pool-atlantida.webp",
+        "url": "https://demo-pool-atlantida.vercel.app",
+        "description": "Loja de piscinas familiar em Fernão Ferro, Seixal: construção de piscinas, bombas, filtros, tratamento e análise da água grátis ao balcão.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Piscina & Spa",
+        "location": "Fernão Ferro",
+        "reviewCount": "19+",
+        "rating": "3"
+      },
+      {
         "id": "pool-mergulhosalgado",
         "name": "Mergulho Salgado",
         "category": "Website",
@@ -6357,7 +6375,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "334 projetos em 58 setores",
+    "projectCount": "335 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
