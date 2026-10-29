@@ -2738,6 +2738,24 @@
         "rating": "4.7"
       },
       {
+        "id": "tires-charnecauto",
+        "name": "Charnecauto",
+        "category": "Website",
+        "image": "/portfolio/tires-charnecauto.webp",
+        "url": "https://demo-tires-charnecauto.vercel.app",
+        "description": "Pneus, alinhamento de direção, furos e mecânica multimarcas na Póvoa de Santo Adrião, Odivelas.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Pneus",
+        "location": "Odivelas",
+        "reviewCount": "105+",
+        "rating": "4.6"
+      },
+      {
         "id": "tires-kitpneus",
         "name": "Kit Pneus",
         "category": "Website",
@@ -6429,7 +6447,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "338 projetos em 58 setores",
+    "projectCount": "339 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

@@ -4413,6 +4413,24 @@
         "rating": "4.7"
       },
       {
+        "id": "tires-charnecauto",
+        "name": "Charnecauto",
+        "category": "Website",
+        "image": "/portfolio/tires-charnecauto.webp",
+        "url": "https://demo-tires-charnecauto.vercel.app",
+        "description": "Tyres, wheel alignment, puncture repair and multi-brand mechanics in Póvoa de Santo Adrião, Odivelas.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Tire Shop",
+        "location": "Odivelas",
+        "reviewCount": "105+",
+        "rating": "4.6"
+      },
+      {
         "id": "tires-kitpneus",
         "name": "Kit Pneus",
         "category": "Website",
@@ -6429,7 +6447,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "338 projects across 58 industries",
+    "projectCount": "339 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
