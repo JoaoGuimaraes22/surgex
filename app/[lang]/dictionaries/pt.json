@@ -6019,6 +6019,24 @@
         "rating": "4.4"
       },
       {
+        "id": "estetica-cryoslim",
+        "name": "Cryoslim Clinic",
+        "category": "Website",
+        "image": "/portfolio/estetica-cryoslim.webp",
+        "url": "https://demo-estetica-cryoslim.vercel.app",
+        "description": "A clínica de estética de Sónia Jornalo em Bragança: remodelação corporal com frio, rosto, unhas e nutrição com acompanhamento de grupo.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Bragança",
+        "reviewCount": "24+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-catarinaferreira",
         "name": "Catarina Ferreira - Estética e Massagem Terapêutica",
         "category": "Website",
@@ -6393,7 +6411,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "336 projetos em 58 setores",
+    "projectCount": "337 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

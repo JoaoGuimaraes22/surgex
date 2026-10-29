@@ -525,6 +525,24 @@
         "rating": "4.4"
       },
       {
+        "id": "estetica-cryoslim",
+        "name": "Cryoslim Clinic",
+        "category": "Website",
+        "image": "/portfolio/estetica-cryoslim.webp",
+        "url": "https://demo-estetica-cryoslim.vercel.app",
+        "description": "Sónia Jornalo's aesthetics clinic in Bragança: cryo body contouring, facial care, nails and nutrition with group follow-up.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Bragança",
+        "reviewCount": "24+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-danicabrera",
         "name": "Dani Cabrera Estética",
         "category": "Website",
@@ -6393,7 +6411,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "336 projects across 58 industries",
+    "projectCount": "337 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
