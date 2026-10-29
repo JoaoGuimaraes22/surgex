@@ -4777,6 +4777,24 @@
         "rating": "4.9"
       },
       {
+        "id": "estetica-joanapereira",
+        "name": "Joana Pereira Academy",
+        "category": "Website",
+        "image": "/portfolio/estetica-joanapereira.webp",
+        "url": "https://demo-estetica-joanapereira.vercel.app",
+        "description": "Sobrancelhas naturais, Beauty Lips e remoção a laser de pigmento antigo em Portimão, com a Joana Pereira: 22 anos de estética.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Portimão",
+        "reviewCount": "137+",
+        "rating": "4.9"
+      },
+      {
         "id": "estetica-jsstudio",
         "name": "JS Studio",
         "category": "Website",
@@ -6411,7 +6429,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "337 projetos em 58 setores",
+    "projectCount": "338 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

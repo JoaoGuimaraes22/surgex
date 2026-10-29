@@ -795,6 +795,24 @@
         "rating": "4.9"
       },
       {
+        "id": "estetica-joanapereira",
+        "name": "Joana Pereira Academy",
+        "category": "Website",
+        "image": "/portfolio/estetica-joanapereira.webp",
+        "url": "https://demo-estetica-joanapereira.vercel.app",
+        "description": "Natural brows, Beauty Lips and laser removal of old pigment in Portimão, with Joana Pereira: 22 years in aesthetics.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Portimão",
+        "reviewCount": "137+",
+        "rating": "4.9"
+      },
+      {
         "id": "estetica-jsstudio",
         "name": "JS Studio",
         "category": "Website",
@@ -6411,7 +6429,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "337 projects across 58 industries",
+    "projectCount": "338 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
