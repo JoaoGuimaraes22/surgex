@@ -4090,6 +4090,24 @@
         "rating": "4.7"
       },
       {
+        "id": "vet-valedalvaro",
+        "name": "Clínica Veterinária Vale d'Álvaro",
+        "category": "Website",
+        "image": "/portfolio/vet-valedalvaro.webp",
+        "url": "https://demo-vet-valedalvaro.vercel.app",
+        "description": "Clínica veterinária em Bragança: consultas sem marcação, vacinas, cirurgia, internamento com notícias por mensagem e urgências.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Clínica Veterinária",
+        "location": "Bragança",
+        "reviewCount": "245+",
+        "rating": "4.8"
+      },
+      {
         "id": "vet-cvls",
         "name": "CVLS",
         "category": "Website",
@@ -6375,7 +6393,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "335 projetos em 58 setores",
+    "projectCount": "336 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
