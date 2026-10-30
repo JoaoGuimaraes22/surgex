@@ -901,6 +901,24 @@
         "rating": "5"
       },
       {
+        "id": "spa-equador",
+        "name": "Equador Wellness & Spa",
+        "category": "Website",
+        "image": "/portfolio/spa-equador.webp",
+        "url": "https://demo-spa-equador.vercel.app",
+        "description": "Day spa em Canidelo, Vila Nova de Gaia: massagens com nome de cidades, circuitos a dois, Doctor Fish, escalda-pés, brunch e Vinho do Porto.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Massagem Terapêutica",
+        "location": "Vila Nova de Gaia",
+        "reviewCount": "172+",
+        "rating": "4.8"
+      },
+      {
         "id": "spa-halonature",
         "name": "HaloNature",
         "category": "Website",
@@ -2646,6 +2664,22 @@
         "location": "Viseu",
         "reviewCount": "5+",
         "rating": "3.8"
+      },
+      {
+        "id": "solar-gruposolar",
+        "name": "Grupo Solar",
+        "category": "Website",
+        "image": "/portfolio/solar-gruposolar.webp",
+        "url": "https://demo-solar-gruposolar.vercel.app",
+        "description": "Painéis solares para casas, quintas e empresas em Vila do Conde: autoconsumo, baterias, coberturas industriais, licenciamento e manutenção.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Energia Solar",
+        "location": ""
       },
       {
         "id": "solar-thermosilva",
@@ -6537,7 +6571,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "344 projetos em 58 setores",
+    "projectCount": "346 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

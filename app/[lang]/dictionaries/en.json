@@ -2557,6 +2557,24 @@
         "rating": "5"
       },
       {
+        "id": "spa-equador",
+        "name": "Equador Wellness & Spa",
+        "category": "Website",
+        "image": "/portfolio/spa-equador.webp",
+        "url": "https://demo-spa-equador.vercel.app",
+        "description": "Day spa in Canidelo, Vila Nova de Gaia: massages named after cities, couples' circuits, Doctor Fish, foot soak, brunch and a glass of Port.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Massage Therapy",
+        "location": "Vila Nova de Gaia",
+        "reviewCount": "172+",
+        "rating": "4.8"
+      },
+      {
         "id": "spa-halonature",
         "name": "HaloNature",
         "category": "Website",
@@ -4339,6 +4357,22 @@
         "location": "Viseu",
         "reviewCount": "5+",
         "rating": "3.8"
+      },
+      {
+        "id": "solar-gruposolar",
+        "name": "Grupo Solar",
+        "category": "Website",
+        "image": "/portfolio/solar-gruposolar.webp",
+        "url": "https://demo-solar-gruposolar.vercel.app",
+        "description": "Solar panels for homes, farms and businesses in Vila do Conde: self-consumption, batteries, business roofs, licensing and maintenance.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Solar Energy",
+        "location": ""
       },
       {
         "id": "solar-thermosilva",
@@ -6537,7 +6571,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "344 projects across 58 industries",
+    "projectCount": "346 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
