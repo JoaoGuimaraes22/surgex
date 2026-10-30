@@ -3061,6 +3061,24 @@
         "rating": "4.5"
       },
       {
+        "id": "mechanic-dobairro",
+        "name": "Mecânico do Bairro",
+        "category": "Website",
+        "image": "/portfolio/mechanic-dobairro.webp",
+        "url": "https://demo-mechanic-dobairro.vercel.app",
+        "description": "Hélder's workshop on Rua Damasceno Monteiro, Lisbon: servicing, brakes, clutch, diagnosis and electrics.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Lisboa",
+        "reviewCount": "132+",
+        "rating": "4.9"
+      },
+      {
         "id": "mechanic-armandomelo",
         "name": "Miguel Melo",
         "category": "Website",
@@ -6501,7 +6519,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "342 projects across 58 industries",
+    "projectCount": "343 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

@@ -1423,6 +1423,24 @@
         "rating": "4.5"
       },
       {
+        "id": "mechanic-dobairro",
+        "name": "Mecânico do Bairro",
+        "category": "Website",
+        "image": "/portfolio/mechanic-dobairro.webp",
+        "url": "https://demo-mechanic-dobairro.vercel.app",
+        "description": "A oficina do Hélder na Rua Damasceno Monteiro, Lisboa: revisões, travões, embraiagem, diagnóstico e eletricidade.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Lisboa",
+        "reviewCount": "132+",
+        "rating": "4.9"
+      },
+      {
         "id": "mechanic-armandomelo",
         "name": "Miguel Melo",
         "category": "Website",
@@ -6501,7 +6519,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "342 projetos em 58 setores",
+    "projectCount": "343 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
