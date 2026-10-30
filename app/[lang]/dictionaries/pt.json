@@ -4849,6 +4849,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-isabelsoares",
+        "name": "Isabel Maria Soares",
+        "category": "Website",
+        "image": "/portfolio/estetica-isabelsoares.webp",
+        "url": "https://demo-estetica-isabelsoares.vercel.app",
+        "description": "Laser, depilação, pedicura terapêutica, rosto, corpo e terapias holísticas na Baixa do Porto desde 2006.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Porto",
+        "reviewCount": "234+",
+        "rating": "4.8"
+      },
+      {
         "id": "estetica-isabelsalgueiro",
         "name": "Isabel Salgueiro",
         "category": "Website",
@@ -6519,7 +6537,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "343 projetos em 58 setores",
+    "projectCount": "344 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
