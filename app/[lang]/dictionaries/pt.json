@@ -3783,6 +3783,24 @@
         "rating": "4.8"
       },
       {
+        "id": "vet-antoniocarlossantos",
+        "name": "Clinica Veterinaria António Carlos Santos",
+        "category": "Website",
+        "image": "/portfolio/vet-antoniocarlossantos.webp",
+        "url": "https://demo-vet-antoniocarlossantos.vercel.app",
+        "description": "Clínica veterinária ao fim do dia na Venda do Pinheiro (Mafra): Dr. António Carlos Santos e D. Luísa.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinária",
+        "location": "Venda do Pinheiro",
+        "reviewCount": "434+",
+        "rating": "4.9"
+      },
+      {
         "id": "vet-avencas",
         "name": "Clínica Veterinária das Avencas",
         "category": "Website",
@@ -6465,7 +6483,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "340 projetos em 58 setores",
+    "projectCount": "341 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
