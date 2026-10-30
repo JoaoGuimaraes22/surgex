@@ -4235,6 +4235,24 @@
         "rating": "5"
       },
       {
+        "id": "storage-mudovedras",
+        "name": "Mudovedras Self Storage",
+        "category": "Website",
+        "image": "/portfolio/storage-mudovedras.webp",
+        "url": "https://demo-storage-mudovedras.vercel.app",
+        "description": "Self-storage in Torres Vedras: six secure, clean spaces with 24 h access at most, and a moving company that packs, moves and stores for you.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Self-Storage",
+        "location": "Silveira",
+        "reviewCount": "8+",
+        "rating": "4.9"
+      },
+      {
         "id": "storage-gaia",
         "name": "Self Storage Gaia",
         "category": "Website",
@@ -6483,7 +6501,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "341 projects across 58 industries",
+    "projectCount": "342 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
