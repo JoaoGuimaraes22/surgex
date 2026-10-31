@@ -865,6 +865,24 @@
         "rating": "4.2"
       },
       {
+        "id": "spa-ariana",
+        "name": "Ariana Studio",
+        "category": "Website",
+        "image": "/portfolio/spa-ariana.webp",
+        "url": "https://demo-spa-ariana.vercel.app",
+        "description": "Massagem de relaxamento, pedras quentes, velas quentes, a dois e a 4 mãos em Baguim do Monte, Gondomar.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Massagem Terapêutica",
+        "location": "Baguim do Monte",
+        "reviewCount": "51+",
+        "rating": "4.8"
+      },
+      {
         "id": "medspa-joel",
         "name": "Clinic & Spa Joel",
         "category": "Website",
@@ -6643,7 +6661,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "350 projetos em 58 setores",
+    "projectCount": "351 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

@@ -2557,6 +2557,24 @@
         "rating": "4.2"
       },
       {
+        "id": "spa-ariana",
+        "name": "Ariana Studio",
+        "category": "Website",
+        "image": "/portfolio/spa-ariana.webp",
+        "url": "https://demo-spa-ariana.vercel.app",
+        "description": "Relaxing, hot stone, warm candle, couples and four-hands massages in Baguim do Monte, Gondomar.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Massage Therapy",
+        "location": "Baguim do Monte",
+        "reviewCount": "51+",
+        "rating": "4.8"
+      },
+      {
         "id": "medspa-joel",
         "name": "Clinic & Spa Joel",
         "category": "Website",
@@ -6643,7 +6661,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "350 projects across 58 industries",
+    "projectCount": "351 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
