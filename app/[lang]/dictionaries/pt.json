@@ -4883,6 +4883,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-fabianne",
+        "name": "Fabianne Rodrigues Academy & Beauty Center",
+        "category": "Website",
+        "image": "/portfolio/estetica-fabianne.webp",
+        "url": "https://demo-estetica-fabianne.vercel.app",
+        "description": "Unhas de gel, spa dos pés, pestanas, sobrancelhas, epilação a laser e massagem na Baixa de Coimbra, e formação certificada IEFP.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Coimbra",
+        "reviewCount": "140+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-silviapereira",
         "name": "Gabinete de Estética Sílvia Pereira",
         "category": "Website",
@@ -6715,7 +6733,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "354 projetos em 58 setores",
+    "projectCount": "355 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
