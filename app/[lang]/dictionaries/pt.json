@@ -5315,6 +5315,24 @@
         "rating": "4.9"
       },
       {
+        "id": "estetica-sofiapiairo",
+        "name": "Sofia Piairo Centro de Estética Avançada",
+        "category": "Website",
+        "image": "/portfolio/estetica-sofiapiairo.webp",
+        "url": "https://demo-estetica-sofiapiairo.vercel.app",
+        "description": "Depilação a laser de díodo, LPG, Indiba, Mesoboost, head spa e massagens em Guimarães.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Guimarães",
+        "reviewCount": "55+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-soubella",
         "name": "SouBella Wellness",
         "category": "Website",
@@ -6697,7 +6715,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "353 projetos em 58 setores",
+    "projectCount": "354 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
