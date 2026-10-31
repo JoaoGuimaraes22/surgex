@@ -6251,6 +6251,24 @@
         "rating": "4.6"
       },
       {
+        "id": "estetica-bessari",
+        "name": "Bessari Aesthetics & Academy",
+        "category": "Website",
+        "image": "/portfolio/estetica-bessari.webp",
+        "url": "https://demo-estetica-bessari.vercel.app",
+        "description": "Micropigmentação de sobrancelhas e lábios, pestanas, laser, remoção de tatuagens e formação com a Sarah Indiane em Forte da Casa, Vila Franca de Xira.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Forte da Casa",
+        "reviewCount": "39+",
+        "rating": "4.9"
+      },
+      {
         "id": "medspa-bodymoments",
         "name": "Body Moments",
         "category": "Website",
@@ -6733,7 +6751,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "355 projetos em 58 setores",
+    "projectCount": "356 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
