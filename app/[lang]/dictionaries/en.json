@@ -615,6 +615,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-loiola",
+        "name": "Espaço Loiola",
+        "category": "Website",
+        "image": "/portfolio/estetica-loiola.webp",
+        "url": "https://demo-estetica-loiola.vercel.app",
+        "description": "Paola Loiola's beauty spa in Corroios: lymphatic drainage (MPL, Renata França), post-op and pregnancy care, facials, body treatments and massage.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Corroios",
+        "reviewCount": "95+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-espacon",
         "name": "Espaço N - Gabinete de Estética",
         "category": "Website",
@@ -6661,7 +6679,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "351 projects across 58 industries",
+    "projectCount": "352 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
