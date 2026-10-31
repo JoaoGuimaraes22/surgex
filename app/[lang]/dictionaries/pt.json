@@ -4739,6 +4739,24 @@
         "rating": "4.9"
       },
       {
+        "id": "estetica-divabeauty",
+        "name": "Diva Beauty Concept",
+        "category": "Website",
+        "image": "/portfolio/estetica-divabeauty.webp",
+        "url": "https://demo-estetica-divabeauty.vercel.app",
+        "description": "A casa de beleza de Izze Silva em Santa Maria da Feira: unhas de gel, depilação a laser, cera, corpo e maquilhagem, num espaço novo.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Santa Maria da Feira",
+        "reviewCount": "52+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-dyoliver",
         "name": "Dy Oliver Instituto de Estética e Formação",
         "category": "Website",
@@ -6751,7 +6769,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "356 projetos em 58 setores",
+    "projectCount": "357 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
