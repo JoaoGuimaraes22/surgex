@@ -759,6 +759,24 @@
         "rating": "4.8"
       },
       {
+        "id": "estetica-harmonie",
+        "name": "Esthétique Harmonie",
+        "category": "Website",
+        "image": "/portfolio/estetica-harmonie.webp",
+        "url": "https://demo-estetica-harmonie.vercel.app",
+        "description": "Aesthetics centre in Marrazes, Leiria: laser hair removal, facials, body treatments, massage, lashes, nail design and micropigmentation.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Leiria",
+        "reviewCount": "22+",
+        "rating": "5"
+      },
+      {
         "id": "medspa-eva",
         "name": "Eva Clínica Estética Avançada",
         "category": "Website",
@@ -6805,7 +6823,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "359 projects across 58 industries",
+    "projectCount": "360 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
