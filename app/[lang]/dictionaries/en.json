@@ -5996,6 +5996,24 @@
         "rating": "4.9"
       },
       {
+        "id": "vet-piscinas",
+        "name": "Clínica Veterinária das Piscinas",
+        "category": "Website",
+        "image": "/portfolio/vet-piscinas.webp",
+        "url": "https://demo-vet-piscinas.vercel.app",
+        "description": "Neighbourhood vet clinic in São Victor, Braga: consultations, vaccines, microchip, sterilisation, surgery and senior care for dogs and cats, at fair prices.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Braga",
+        "reviewCount": "337+",
+        "rating": "4.8"
+      },
+      {
         "id": "vet-abcvet",
         "name": "Clínica Veterinária de Caneças",
         "category": "Website",
@@ -6967,7 +6985,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "368 projects across 58 industries",
+    "projectCount": "369 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
