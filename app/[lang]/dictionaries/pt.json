@@ -6413,6 +6413,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-joanacarvalho",
+        "name": "Centro de Estética Avançada Joana Carvalho",
+        "category": "Website",
+        "image": "/portfolio/estetica-joanacarvalho.webp",
+        "url": "https://demo-estetica-joanacarvalho.vercel.app",
+        "description": "Estética avançada em Castêlo da Maia: depilação a laser, rosto, corpo e massagem.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Maia",
+        "reviewCount": "67+",
+        "rating": "4.8"
+      },
+      {
         "id": "estetica-beatrizferreira",
         "name": "Centro de Estética Beatriz Ferreira",
         "category": "Website",
@@ -6769,7 +6787,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "357 projetos em 58 setores",
+    "projectCount": "358 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
