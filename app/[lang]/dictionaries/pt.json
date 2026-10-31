@@ -559,6 +559,24 @@
         "rating": "5"
       },
       {
+        "id": "language-karolina",
+        "name": "Inglês com Karolina",
+        "category": "Website",
+        "image": "/portfolio/language-karolina.webp",
+        "url": "https://demo-language-karolina.vercel.app",
+        "description": "Aulas de inglês em Setúbal com a Karolina: individuais ou em pequenos grupos, crianças e adultos, do A1 ao C1, presenciais ou online.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Escola de Línguas",
+        "location": "Setúbal",
+        "reviewCount": "1+",
+        "rating": "5"
+      },
+      {
         "id": "language-juansalan",
         "name": "Juan Salán — English & Spanish",
         "category": "Website",
@@ -7003,7 +7021,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "370 projetos em 58 setores",
+    "projectCount": "371 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

@@ -2449,6 +2449,24 @@
         "rating": "5"
       },
       {
+        "id": "language-karolina",
+        "name": "Inglês com Karolina",
+        "category": "Website",
+        "image": "/portfolio/language-karolina.webp",
+        "url": "https://demo-language-karolina.vercel.app",
+        "description": "Private English lessons in Setúbal with Karolina: one-to-one or small groups, children and adults, A1 to C1, in person or online.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Language School",
+        "location": "Setúbal",
+        "reviewCount": "1+",
+        "rating": "5"
+      },
+      {
         "id": "language-juansalan",
         "name": "Juan Salán — English & Spanish",
         "category": "Website",
@@ -7003,7 +7021,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "370 projects across 58 industries",
+    "projectCount": "371 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
