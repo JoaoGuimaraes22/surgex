@@ -1567,6 +1567,24 @@
         "rating": "4.9"
       },
       {
+        "id": "mechanic-miguelcunha",
+        "name": "Miguel Cunha Motors",
+        "category": "Website",
+        "image": "/portfolio/mechanic-miguelcunha.webp",
+        "url": "https://demo-mechanic-miguelcunha.vercel.app",
+        "description": "Oficina de mecânica geral em Ferreiros, Braga: revisões, travões, diagnóstico e experiência BMW.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Braga",
+        "reviewCount": "143+",
+        "rating": "4.9"
+      },
+      {
         "id": "mechanic-armandomelo",
         "name": "Miguel Melo",
         "category": "Website",
@@ -7039,7 +7057,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "372 projetos em 58 setores",
+    "projectCount": "373 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
