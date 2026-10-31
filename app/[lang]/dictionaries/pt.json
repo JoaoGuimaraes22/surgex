@@ -937,6 +937,24 @@
         "rating": "4.4"
       },
       {
+        "id": "spa-marbelle",
+        "name": "MarBelle Fisioterapia & Spa",
+        "category": "Website",
+        "image": "/portfolio/spa-marbelle.webp",
+        "url": "https://demo-spa-marbelle.vercel.app",
+        "description": "Massagem de relaxamento e terapêutica, head spa para um ou dois, sessões kids e fisioterapia em São Mamede de Infesta, Matosinhos.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Massagem Terapêutica",
+        "location": "São Mamede de Infesta (Matosinhos)",
+        "reviewCount": "130+",
+        "rating": "4.9"
+      },
+      {
         "id": "spa-mariasousa",
         "name": "Maria Sousa Saúde & Bem-Estar",
         "category": "Website",
@@ -6589,7 +6607,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "347 projetos em 58 setores",
+    "projectCount": "348 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
