@@ -4757,6 +4757,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-espacon",
+        "name": "Espaço N - Gabinete de Estética",
+        "category": "Website",
+        "image": "/portfolio/estetica-espacon.webp",
+        "url": "https://demo-estetica-espacon.vercel.app",
+        "description": "O gabinete da Nilseane em Braga: depilação a cera para ela e para ele, limpeza de pele, sobrancelhas com linha e massagem.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Braga",
+        "reviewCount": "62+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-espumadepetalas",
         "name": "Espuma de Pétalas",
         "category": "Website",
@@ -6607,7 +6625,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "348 projetos em 58 setores",
+    "projectCount": "349 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

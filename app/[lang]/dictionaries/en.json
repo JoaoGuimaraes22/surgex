@@ -615,6 +615,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-espacon",
+        "name": "Espaço N - Gabinete de Estética",
+        "category": "Website",
+        "image": "/portfolio/estetica-espacon.webp",
+        "url": "https://demo-estetica-espacon.vercel.app",
+        "description": "Nilseane's beauty studio in Braga: gentle waxing for women and men, skin cleansing, eyebrow threading and hot-stone massage.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Braga",
+        "reviewCount": "62+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-espumadepetalas",
         "name": "Espuma de Pétalas",
         "category": "Website",
@@ -6607,7 +6625,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "348 projects across 58 industries",
+    "projectCount": "349 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
