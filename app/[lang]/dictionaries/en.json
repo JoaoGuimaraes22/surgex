@@ -6501,6 +6501,24 @@
         "rating": "5"
       },
       {
+        "id": "vet-bicharada",
+        "name": "República da Bicharada",
+        "category": "Website",
+        "image": "/portfolio/vet-bicharada.webp",
+        "url": "https://demo-vet-bicharada.vercel.app",
+        "description": "Small vet clinic in Almada, on Av. 25 de Abril: consults, vaccines, microchip, surgery and bath & grooming with Dra. Diana.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Almada",
+        "reviewCount": "14+",
+        "rating": "4.6"
+      },
+      {
         "id": "vet-vetconde",
         "name": "Vetconde - Clínica Veterinária",
         "category": "Website",
@@ -7021,7 +7039,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "371 projects across 58 industries",
+    "projectCount": "372 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
