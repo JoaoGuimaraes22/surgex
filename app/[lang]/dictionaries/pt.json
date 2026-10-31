@@ -1351,6 +1351,24 @@
         "rating": "4.9"
       },
       {
+        "id": "mechanic-carlospereira",
+        "name": "Carlos Pereira da Silva — Car Workshop",
+        "category": "Website",
+        "image": "/portfolio/mechanic-carlospereira.webp",
+        "url": "https://demo-mechanic-carlospereira.vercel.app",
+        "description": "Oficina independente em Loures: revisões, travões, diagnóstico e eletricidade auto.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Loures",
+        "reviewCount": "73+",
+        "rating": "4.7"
+      },
+      {
         "id": "mechanic-egipower",
         "name": "Egipower",
         "category": "Website",
@@ -6985,7 +7003,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "369 projetos em 58 setores",
+    "projectCount": "370 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
