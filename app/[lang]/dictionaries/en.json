@@ -6502,6 +6502,24 @@
         "rating": "4.7"
       },
       {
+        "id": "vet-coimbroes",
+        "name": "Clínica Veterinária de Coimbrões",
+        "category": "Website",
+        "image": "/portfolio/vet-coimbroes.webp",
+        "url": "https://demo-vet-coimbroes.vercel.app",
+        "description": "Neighbourhood vet in Coimbrões, Vila Nova de Gaia: consultations, vaccines, microchip and minor emergencies for dogs and cats.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Vila Nova de Gaia",
+        "reviewCount": "160+",
+        "rating": "4.7"
+      },
+      {
         "id": "residuos-recissequeira",
         "name": "Recissequeira",
         "category": "Website",
@@ -6859,7 +6877,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "362 projects across 58 industries",
+    "projectCount": "363 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
