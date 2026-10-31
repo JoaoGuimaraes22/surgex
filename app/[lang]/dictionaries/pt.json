@@ -6323,6 +6323,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-anacarina",
+        "name": "Ana Carina Gabinete de Estética",
+        "category": "Website",
+        "image": "/portfolio/estetica-anacarina.webp",
+        "url": "https://demo-estetica-anacarina.vercel.app",
+        "description": "Estética de rosto e corpo em Barcelos: radiofrequência, cavitação, tratamentos de rosto, massagem e unhas.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Barcelos",
+        "reviewCount": "25+",
+        "rating": "4.9"
+      },
+      {
         "id": "estetica-andreiaduraes",
         "name": "Andreia Durães Beauty Clinic",
         "category": "Website",
@@ -6913,7 +6931,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "365 projetos em 58 setores",
+    "projectCount": "366 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

@@ -363,6 +363,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-anacarina",
+        "name": "Ana Carina Gabinete de Estética",
+        "category": "Website",
+        "image": "/portfolio/estetica-anacarina.webp",
+        "url": "https://demo-estetica-anacarina.vercel.app",
+        "description": "Face and body aesthetics in Barcelos: radiofrequency, cavitation, professional facials, massage and nails.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Barcelos",
+        "reviewCount": "25+",
+        "rating": "4.9"
+      },
+      {
         "id": "estetica-andreiaduraes",
         "name": "Andreia Durães Beauty Clinic",
         "category": "Website",
@@ -6913,7 +6931,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "365 projects across 58 industries",
+    "projectCount": "366 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
