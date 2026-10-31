@@ -4197,6 +4197,24 @@
         "rating": "4.9"
       },
       {
+        "id": "estetica-benditabeleza",
+        "name": "Bendita Beleza",
+        "category": "Website",
+        "image": "/portfolio/estetica-benditabeleza.webp",
+        "url": "https://demo-estetica-benditabeleza.vercel.app",
+        "description": "Hair salon in Loures: colour and highlights, cuts, curly hair, event hair and makeup, nails.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Salon",
+        "location": "Loures",
+        "reviewCount": "56+",
+        "rating": "5"
+      },
+      {
         "id": "barbershop-jaydixon",
         "name": "Jay Dixon Barbershop",
         "category": "Website",
@@ -6571,7 +6589,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "346 projects across 58 industries",
+    "projectCount": "347 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

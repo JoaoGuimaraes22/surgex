@@ -2541,6 +2541,24 @@
         "rating": "4.9"
       },
       {
+        "id": "estetica-benditabeleza",
+        "name": "Bendita Beleza",
+        "category": "Website",
+        "image": "/portfolio/estetica-benditabeleza.webp",
+        "url": "https://demo-estetica-benditabeleza.vercel.app",
+        "description": "Cabeleireiro em Loures: coloração e madeixas, cortes, cabelo cacheado, penteados e maquilhagem de evento, unhas.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Salão",
+        "location": "Loures",
+        "reviewCount": "56+",
+        "rating": "5"
+      },
+      {
         "id": "dentist-takata",
         "name": "Clínica Takata",
         "category": "Website",
@@ -6571,7 +6589,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "346 projetos em 58 setores",
+    "projectCount": "347 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
