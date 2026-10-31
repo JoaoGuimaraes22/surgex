@@ -849,6 +849,24 @@
         "rating": "4.9"
       },
       {
+        "id": "estetica-joanasimoes",
+        "name": "Joana Simões Estética",
+        "category": "Website",
+        "image": "/portfolio/estetica-joanasimoes.webp",
+        "url": "https://demo-estetica-joanasimoes.vercel.app",
+        "description": "Joana Simões' aesthetics studio in Loures: gel nails and nail art, pedicure, waxing, brows and facials, one-to-one with Joana.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Loures",
+        "reviewCount": "37+",
+        "rating": "4.9"
+      },
+      {
         "id": "estetica-jsstudio",
         "name": "JS Studio",
         "category": "Website",
@@ -6625,7 +6643,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "349 projects across 58 industries",
+    "projectCount": "350 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

@@ -4991,6 +4991,24 @@
         "rating": "4.9"
       },
       {
+        "id": "estetica-joanasimoes",
+        "name": "Joana Simões Estética",
+        "category": "Website",
+        "image": "/portfolio/estetica-joanasimoes.webp",
+        "url": "https://demo-estetica-joanasimoes.vercel.app",
+        "description": "O estúdio de estética de Joana Simões em Loures: unhas de gel e nail art, pedicure, depilação, sobrancelhas e rosto, sempre com a Joana.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Loures",
+        "reviewCount": "37+",
+        "rating": "4.9"
+      },
+      {
         "id": "estetica-jsstudio",
         "name": "JS Studio",
         "category": "Website",
@@ -6625,7 +6643,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "349 projetos em 58 setores",
+    "projectCount": "350 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
