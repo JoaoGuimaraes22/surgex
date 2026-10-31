@@ -4485,6 +4485,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-isabelferreira",
+        "name": "Isabel Ferreira Cabeleireiro e Estética",
+        "category": "Website",
+        "image": "/portfolio/estetica-isabelferreira.webp",
+        "url": "https://demo-estetica-isabelferreira.vercel.app",
+        "description": "Hair salon with beauty, nails and lashes in Barcelos' Centro Comercial Ibérico.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Salon",
+        "location": "Barcelos",
+        "reviewCount": "35+",
+        "rating": "4.2"
+      },
+      {
         "id": "barbershop-jaydixon",
         "name": "Jay Dixon Barbershop",
         "category": "Website",
@@ -6877,7 +6895,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "363 projects across 58 industries",
+    "projectCount": "364 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

@@ -2613,6 +2613,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-isabelferreira",
+        "name": "Isabel Ferreira Cabeleireiro e Estética",
+        "category": "Website",
+        "image": "/portfolio/estetica-isabelferreira.webp",
+        "url": "https://demo-estetica-isabelferreira.vercel.app",
+        "description": "Cabeleireiro com estética, unhas e pestanas no Centro Comercial Ibérico, Barcelos.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Salão",
+        "location": "Barcelos",
+        "reviewCount": "35+",
+        "rating": "4.2"
+      },
+      {
         "id": "dentist-takata",
         "name": "Clínica Takata",
         "category": "Website",
@@ -6877,7 +6895,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "363 projetos em 58 setores",
+    "projectCount": "364 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
