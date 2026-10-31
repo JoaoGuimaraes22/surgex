@@ -2971,6 +2971,24 @@
         "rating": "4.6"
       },
       {
+        "id": "mechanic-autobicalho",
+        "name": "Auto Bicalho",
+        "category": "Website",
+        "image": "/portfolio/mechanic-autobicalho.webp",
+        "url": "https://demo-mechanic-autobicalho.vercel.app",
+        "description": "Multi-brand mechanics, diagnostics and auto electrics in Massarelos, Porto, since 2009.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Porto",
+        "reviewCount": "81+",
+        "rating": "4.6"
+      },
+      {
         "id": "mechanic-autostamaria",
         "name": "Auto Eléctrica Sta. Maria",
         "category": "Website",
@@ -6895,7 +6913,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "364 projects across 58 industries",
+    "projectCount": "365 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

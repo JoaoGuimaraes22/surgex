@@ -1099,6 +1099,24 @@
         "rating": "4.6"
       },
       {
+        "id": "mechanic-autobicalho",
+        "name": "Auto Bicalho",
+        "category": "Website",
+        "image": "/portfolio/mechanic-autobicalho.webp",
+        "url": "https://demo-mechanic-autobicalho.vercel.app",
+        "description": "Mecânica multimarca, diagnóstico e eletricidade auto em Massarelos, Porto, desde 2009.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Oficina Mecânica",
+        "location": "Porto",
+        "reviewCount": "81+",
+        "rating": "4.6"
+      },
+      {
         "id": "mechanic-autostamaria",
         "name": "Auto Eléctrica Sta. Maria",
         "category": "Website",
@@ -6895,7 +6913,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "364 projetos em 58 setores",
+    "projectCount": "365 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
