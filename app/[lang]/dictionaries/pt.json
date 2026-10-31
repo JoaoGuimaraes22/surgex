@@ -1225,6 +1225,24 @@
         "rating": "4.6"
       },
       {
+        "id": "mechanic-autovilanovense",
+        "name": "Auto Vilanovense",
+        "category": "Website",
+        "image": "/portfolio/mechanic-autovilanovense.webp",
+        "url": "https://demo-mechanic-autovilanovense.vercel.app",
+        "description": "Oficina de bairro em Mafamude, Vila Nova de Gaia: mecânica para todas as marcas, revisões, travões e pneus Firestone.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Oficina Mecânica",
+        "location": "Vila Nova de Gaia",
+        "reviewCount": "61+",
+        "rating": "4.2"
+      },
+      {
         "id": "mechanic-autotouril",
         "name": "Auto-touril",
         "category": "Website",
@@ -6841,7 +6859,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "361 projetos em 58 setores",
+    "projectCount": "362 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

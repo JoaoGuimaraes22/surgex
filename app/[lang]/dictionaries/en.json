@@ -3097,6 +3097,24 @@
         "rating": "4.6"
       },
       {
+        "id": "mechanic-autovilanovense",
+        "name": "Auto Vilanovense",
+        "category": "Website",
+        "image": "/portfolio/mechanic-autovilanovense.webp",
+        "url": "https://demo-mechanic-autovilanovense.vercel.app",
+        "description": "Neighbourhood garage in Mafamude, Vila Nova de Gaia: mechanics for every make, servicing, brakes and Firestone tyres.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Vila Nova de Gaia",
+        "reviewCount": "61+",
+        "rating": "4.2"
+      },
+      {
         "id": "mechanic-autotouril",
         "name": "Auto-touril",
         "category": "Website",
@@ -6841,7 +6859,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "361 projects across 58 industries",
+    "projectCount": "362 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
