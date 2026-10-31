@@ -4775,6 +4775,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-omstudio",
+        "name": "Espaço Beleza Spa Om Studio",
+        "category": "Website",
+        "image": "/portfolio/estetica-omstudio.webp",
+        "url": "https://demo-estetica-omstudio.vercel.app",
+        "description": "Estética, laser díodo, tratamentos de rosto e corpo e massagens no Espaço Beleza Spa, com yoga e Reiki no Om Studio.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Ramada (Odivelas)",
+        "reviewCount": "29+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-loiola",
         "name": "Espaço Loiola",
         "category": "Website",
@@ -6679,7 +6697,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "352 projetos em 58 setores",
+    "projectCount": "353 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
