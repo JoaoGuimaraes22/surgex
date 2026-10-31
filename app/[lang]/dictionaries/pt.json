@@ -4340,6 +4340,24 @@
         "rating": "4.8"
       },
       {
+        "id": "vet-cvloures",
+        "name": "Consultorio Veterinário de Loures",
+        "category": "Website",
+        "image": "/portfolio/vet-cvloures.webp",
+        "url": "https://demo-vet-cvloures.vercel.app",
+        "description": "Veterinário de bairro em Loures para cães, gatos, coelhos e exóticos.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinária",
+        "location": "Loures",
+        "reviewCount": "25+",
+        "rating": "4.9"
+      },
+      {
         "id": "vet-cvls",
         "name": "CVLS",
         "category": "Website",
@@ -6931,7 +6949,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "366 projetos em 58 setores",
+    "projectCount": "367 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

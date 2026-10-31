@@ -6248,6 +6248,24 @@
         "rating": "4.8"
       },
       {
+        "id": "vet-cvloures",
+        "name": "Consultorio Veterinário de Loures",
+        "category": "Website",
+        "image": "/portfolio/vet-cvloures.webp",
+        "url": "https://demo-vet-cvloures.vercel.app",
+        "description": "Neighbourhood vet in Loures for dogs, cats, rabbits and exotics.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Loures",
+        "reviewCount": "25+",
+        "rating": "4.9"
+      },
+      {
         "id": "vet-cvls",
         "name": "CVLS",
         "category": "Website",
@@ -6931,7 +6949,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "366 projects across 58 industries",
+    "projectCount": "367 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
