@@ -4595,6 +4595,24 @@
         "rating": "5.0"
       },
       {
+        "id": "salon-mariasstudio",
+        "name": "Marias Studio Viseu",
+        "category": "Website",
+        "image": "/portfolio/salon-mariasstudio.webp",
+        "url": "https://demo-salon-mariasstudio.vercel.app",
+        "description": "Beauty salon in the centre of Viseu: gel nails, pedicure, hair, brows and lashes, waxing, laser and massage.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Salon",
+        "location": "Viseu",
+        "reviewCount": "101+",
+        "rating": "4.8"
+      },
+      {
         "id": "storage-bauazeitao",
         "name": "Baú de Azeitão",
         "category": "Website",
@@ -6949,7 +6967,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "367 projects across 58 industries",
+    "projectCount": "368 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
