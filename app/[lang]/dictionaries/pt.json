@@ -6287,6 +6287,24 @@
         "rating": "4.6"
       },
       {
+        "id": "estetica-berose",
+        "name": "Be Rose - estética & bem estar",
+        "category": "Website",
+        "image": "/portfolio/estetica-berose.webp",
+        "url": "https://demo-estetica-berose.vercel.app",
+        "description": "Espaço de estética em Setúbal: limpeza de pele, depilação a laser e cera, pestanas e microblading, massagens, head spa e unhas.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Setúbal",
+        "reviewCount": "75+",
+        "rating": "4.9"
+      },
+      {
         "id": "estetica-bessari",
         "name": "Bessari Aesthetics & Academy",
         "category": "Website",
@@ -6823,7 +6841,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "360 projetos em 58 setores",
+    "projectCount": "361 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

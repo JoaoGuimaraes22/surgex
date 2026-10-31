@@ -399,6 +399,24 @@
         "rating": "4.6"
       },
       {
+        "id": "estetica-berose",
+        "name": "Be Rose - estética & bem estar",
+        "category": "Website",
+        "image": "/portfolio/estetica-berose.webp",
+        "url": "https://demo-estetica-berose.vercel.app",
+        "description": "Beauty and aesthetics studio in Setúbal: facials, laser and waxing, lashes and microblading, massages, head spa and nails.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Setúbal",
+        "reviewCount": "75+",
+        "rating": "4.9"
+      },
+      {
         "id": "estetica-bessari",
         "name": "Bessari Aesthetics & Academy",
         "category": "Website",
@@ -6823,7 +6841,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "360 projects across 58 industries",
+    "projectCount": "361 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
