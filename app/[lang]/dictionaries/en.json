@@ -417,6 +417,24 @@
         "rating": "4.9"
       },
       {
+        "id": "estetica-bloomcherie",
+        "name": "Bloom Chérie",
+        "category": "Website",
+        "image": "/portfolio/estetica-bloomcherie.webp",
+        "url": "https://demo-estetica-bloomcherie.vercel.app",
+        "description": "Lip blush, brow micropigmentation, lash lift, nails and skin care on Rua Luís Barroso, Famalicão.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Vila Nova de Famalicão",
+        "reviewCount": "98+",
+        "rating": "5"
+      },
+      {
         "id": "medspa-bodymoments",
         "name": "Body Moments",
         "category": "Website",
@@ -6787,7 +6805,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "358 projects across 58 industries",
+    "projectCount": "359 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

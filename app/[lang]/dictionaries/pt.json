@@ -6287,6 +6287,24 @@
         "rating": "4.9"
       },
       {
+        "id": "estetica-bloomcherie",
+        "name": "Bloom Chérie",
+        "category": "Website",
+        "image": "/portfolio/estetica-bloomcherie.webp",
+        "url": "https://demo-estetica-bloomcherie.vercel.app",
+        "description": "Micropigmentação de lábios e sobrancelhas, lifting de pestanas, unhas e pele na Rua Luís Barroso, Famalicão.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Vila Nova de Famalicão",
+        "reviewCount": "98+",
+        "rating": "5"
+      },
+      {
         "id": "medspa-bodymoments",
         "name": "Body Moments",
         "category": "Website",
@@ -6787,7 +6805,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "358 projetos em 58 setores",
+    "projectCount": "359 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
