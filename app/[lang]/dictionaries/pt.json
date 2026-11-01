@@ -2395,6 +2395,24 @@
         "rating": "5"
       },
       {
+        "id": "plumbing-gulpitubo",
+        "name": "Gulpitubo - Canalizações",
+        "category": "Website",
+        "image": "/portfolio/plumbing-gulpitubo.webp",
+        "url": "https://demo-plumbing-gulpitubo.vercel.app",
+        "description": "Canalizadores em Gulpilhares desde 2001.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Canalização",
+        "location": "Vila Nova de Gaia",
+        "reviewCount": "3+",
+        "rating": "5"
+      },
+      {
         "id": "poledance-academia",
         "name": "Academia de Pole Dance",
         "category": "Website",
@@ -7111,7 +7129,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "376 projetos em 58 setores",
+    "projectCount": "377 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
