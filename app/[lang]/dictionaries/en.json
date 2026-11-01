@@ -4321,6 +4321,24 @@
         "rating": "5"
       },
       {
+        "id": "nursery-viveirodoeste",
+        "name": "Viveiro do Este",
+        "category": "Website",
+        "image": "/portfolio/nursery-viveirodoeste.webp",
+        "url": "https://demo-nursery-viveirodoeste.vercel.app",
+        "description": "Plant nursery in Este, Braga: indoor and outdoor plants, fruit trees, roll turf and pots, with expert advice.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Plant Nursery",
+        "location": "Braga",
+        "reviewCount": "115+",
+        "rating": "4.5"
+      },
+      {
         "id": "plumbing-arkad",
         "name": "Arkad Reparações",
         "category": "Website",
@@ -6717,6 +6735,24 @@
         "rating": "4.8"
       },
       {
+        "id": "vet-vetlife",
+        "name": "Vetlife - Saúde Animal",
+        "category": "Website",
+        "image": "/portfolio/vet-vetlife.webp",
+        "url": "https://demo-vet-vetlife.vercel.app",
+        "description": "Vet clinic in Pinhal de Frades, Seixal, since 2009: walk-in consults and vaccines, surgery, X-ray and ultrasound, home visits and an urgent line.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Arrentela",
+        "reviewCount": "145+",
+        "rating": "4.6"
+      },
+      {
         "id": "vet-vetsesimbra",
         "name": "Vetsesimbra",
         "category": "Website",
@@ -7122,6 +7158,10 @@
         "label": "Physiotherapy"
       },
       {
+        "id": "plant-nursery",
+        "label": "Plant Nursery"
+      },
+      {
         "id": "plumbing",
         "label": "Plumbing"
       },
@@ -7183,7 +7223,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "380 projects across 58 industries",
+    "projectCount": "382 projects across 59 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

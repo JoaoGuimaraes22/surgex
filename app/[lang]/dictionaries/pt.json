@@ -2413,6 +2413,24 @@
         "rating": "5"
       },
       {
+        "id": "nursery-viveirodoeste",
+        "name": "Viveiro do Este",
+        "category": "Website",
+        "image": "/portfolio/nursery-viveirodoeste.webp",
+        "url": "https://demo-nursery-viveirodoeste.vercel.app",
+        "description": "Viveiro em Este, Braga: plantas de interior e exterior, árvores de fruto, relva de rolo e vasos, com aconselhamento.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Viveiro de Plantas",
+        "location": "Braga",
+        "reviewCount": "115+",
+        "rating": "4.5"
+      },
+      {
         "id": "plumbing-arkad",
         "name": "Arkad Reparações",
         "category": "Website",
@@ -4791,6 +4809,24 @@
         "rating": "4.8"
       },
       {
+        "id": "vet-vetlife",
+        "name": "Vetlife - Saúde Animal",
+        "category": "Website",
+        "image": "/portfolio/vet-vetlife.webp",
+        "url": "https://demo-vet-vetlife.vercel.app",
+        "description": "Clínica veterinária em Pinhal de Frades, Seixal, desde 2009: consultas e vacinas sem marcação, cirurgia, raio-X, ecografia e linha de urgência.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinária",
+        "location": "Arrentela",
+        "reviewCount": "145+",
+        "rating": "4.6"
+      },
+      {
         "id": "vet-vetsesimbra",
         "name": "Vetsesimbra",
         "category": "Website",
@@ -7122,6 +7158,10 @@
         "label": "Fisioterapia"
       },
       {
+        "id": "plant-nursery",
+        "label": "Viveiro de Plantas"
+      },
+      {
         "id": "plumbing",
         "label": "Canalização"
       },
@@ -7183,7 +7223,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "380 projetos em 58 setores",
+    "projectCount": "382 projetos em 59 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
