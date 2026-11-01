@@ -3888,6 +3888,24 @@
         "rating": "4.9"
       },
       {
+        "id": "movers-marciofelix",
+        "name": "Márcio Félix Mudanças e Transportes",
+        "category": "Website",
+        "image": "/portfolio/movers-marciofelix.webp",
+        "url": "https://demo-movers-marciofelix.vercel.app",
+        "description": "House and office moves in Sintra and Greater Lisbon.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Moving & Assembly",
+        "location": "Almargem do Bpo.",
+        "reviewCount": "14+",
+        "rating": "5"
+      },
+      {
         "id": "movers-rsmudancas",
         "name": "RS Mudanças",
         "category": "Website",
@@ -7093,7 +7111,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "375 projects across 58 industries",
+    "projectCount": "376 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

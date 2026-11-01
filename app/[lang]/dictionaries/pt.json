@@ -1998,6 +1998,24 @@
         "rating": "4.9"
       },
       {
+        "id": "movers-marciofelix",
+        "name": "Márcio Félix Mudanças e Transportes",
+        "category": "Website",
+        "image": "/portfolio/movers-marciofelix.webp",
+        "url": "https://demo-movers-marciofelix.vercel.app",
+        "description": "Mudanças de casa e escritório em Sintra e na Grande Lisboa.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mudanças & Montagens",
+        "location": "Almargem do Bpo.",
+        "reviewCount": "14+",
+        "rating": "5"
+      },
+      {
         "id": "movers-rsmudancas",
         "name": "RS Mudanças",
         "category": "Website",
@@ -7093,7 +7111,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "375 projetos em 58 setores",
+    "projectCount": "376 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
