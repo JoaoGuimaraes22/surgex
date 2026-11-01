@@ -3043,6 +3043,24 @@
         "rating": "4.6"
       },
       {
+        "id": "mechanic-centrallaranjeiro",
+        "name": "Auto Central do Laranjeiro",
+        "category": "Website",
+        "image": "/portfolio/mechanic-centrallaranjeiro.webp",
+        "url": "https://demo-mechanic-centrallaranjeiro.vercel.app",
+        "description": "Honest car repair in Laranjeiro, Almada: servicing, diagnostics, batteries, brakes, MOT prep.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Almada",
+        "reviewCount": "87+",
+        "rating": "4"
+      },
+      {
         "id": "mechanic-autostamaria",
         "name": "Auto Eléctrica Sta. Maria",
         "category": "Website",
@@ -7129,7 +7147,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "377 projects across 58 industries",
+    "projectCount": "378 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

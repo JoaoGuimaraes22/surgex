@@ -1153,6 +1153,24 @@
         "rating": "4.6"
       },
       {
+        "id": "mechanic-centrallaranjeiro",
+        "name": "Auto Central do Laranjeiro",
+        "category": "Website",
+        "image": "/portfolio/mechanic-centrallaranjeiro.webp",
+        "url": "https://demo-mechanic-centrallaranjeiro.vercel.app",
+        "description": "Oficina de mecânica no Laranjeiro, Almada: revisões, diagnóstico, baterias, travões, inspeção.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Oficina Mecânica",
+        "location": "Almada",
+        "reviewCount": "87+",
+        "rating": "4"
+      },
+      {
         "id": "mechanic-autostamaria",
         "name": "Auto Eléctrica Sta. Maria",
         "category": "Website",
@@ -7129,7 +7147,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "377 projetos em 58 setores",
+    "projectCount": "378 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
