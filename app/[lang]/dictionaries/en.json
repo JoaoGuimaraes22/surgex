@@ -6032,6 +6032,24 @@
         "rating": "4.7"
       },
       {
+        "id": "vet-boanova",
+        "name": "Clínica Veterinária Boa Nova",
+        "category": "Website",
+        "image": "/portfolio/vet-boanova.webp",
+        "url": "https://demo-vet-boanova.vercel.app",
+        "description": "Veterinary clinic in Leça da Palmeira: consults, surgery, dentistry with dental X-ray and gentle care for scared cats.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Matosinhos",
+        "reviewCount": "183+",
+        "rating": "4.6"
+      },
+      {
         "id": "vet-avenida",
         "name": "Clínica Veterinária da Avenida",
         "category": "Website",
@@ -7075,7 +7093,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "374 projects across 58 industries",
+    "projectCount": "375 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

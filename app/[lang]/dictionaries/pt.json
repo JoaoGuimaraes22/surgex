@@ -4124,6 +4124,24 @@
         "rating": "4.7"
       },
       {
+        "id": "vet-boanova",
+        "name": "Clínica Veterinária Boa Nova",
+        "category": "Website",
+        "image": "/portfolio/vet-boanova.webp",
+        "url": "https://demo-vet-boanova.vercel.app",
+        "description": "Clínica veterinária em Leça da Palmeira: consultas, cirurgia, dentária com RX à boca e cuidado com gatos medrosos.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinária",
+        "location": "Matosinhos",
+        "reviewCount": "183+",
+        "rating": "4.6"
+      },
+      {
         "id": "vet-avenida",
         "name": "Clínica Veterinária da Avenida",
         "category": "Website",
@@ -7075,7 +7093,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "374 projetos em 58 setores",
+    "projectCount": "375 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
