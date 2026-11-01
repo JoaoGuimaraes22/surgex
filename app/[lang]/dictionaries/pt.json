@@ -883,6 +883,24 @@
         "rating": "4.2"
       },
       {
+        "id": "spa-alquimia",
+        "name": "Alquimia",
+        "category": "Website",
+        "image": "/portfolio/spa-alquimia.webp",
+        "url": "https://demo-spa-alquimia.vercel.app",
+        "description": "Spa de massagens e bem-estar em Viseu: massagem de relaxamento, terapêutica e de velas, drenagem linfática, osteopatia, estética e unhas.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Massagem Terapêutica",
+        "location": "Viseu",
+        "reviewCount": "68+",
+        "rating": "5"
+      },
+      {
         "id": "spa-ariana",
         "name": "Ariana Studio",
         "category": "Website",
@@ -7057,7 +7075,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "373 projetos em 58 setores",
+    "projectCount": "374 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
