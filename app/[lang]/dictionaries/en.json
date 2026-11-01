@@ -2701,6 +2701,24 @@
         "rating": "5"
       },
       {
+        "id": "chaves-achave",
+        "name": "A Chave",
+        "category": "Website",
+        "image": "/portfolio/chaves-achave.webp",
+        "url": "https://demo-chaves-achave.vercel.app",
+        "description": "Key and lock shop in Loures town centre: keys copied while you wait, cylinders and locks fitted, door opening when you are locked out.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Locksmith",
+        "location": "Loures",
+        "reviewCount": "20+",
+        "rating": "4.5"
+      },
+      {
         "id": "chaves-massama",
         "name": "Casa das Chaves de Massamá",
         "category": "Website",
@@ -7147,7 +7165,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "378 projects across 58 industries",
+    "projectCount": "379 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

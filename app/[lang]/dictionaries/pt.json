@@ -811,6 +811,24 @@
         "rating": "5"
       },
       {
+        "id": "chaves-achave",
+        "name": "A Chave",
+        "category": "Website",
+        "image": "/portfolio/chaves-achave.webp",
+        "url": "https://demo-chaves-achave.vercel.app",
+        "description": "Loja de chaves e fechaduras no centro de Loures: cópias de chaves na hora, cilindros e fechaduras, abertura de portas quando fica à porta.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Chaves e Fechaduras",
+        "location": "Loures",
+        "reviewCount": "20+",
+        "rating": "4.5"
+      },
+      {
         "id": "chaves-massama",
         "name": "Casa das Chaves de Massamá",
         "category": "Website",
@@ -7147,7 +7165,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "378 projetos em 58 setores",
+    "projectCount": "379 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
