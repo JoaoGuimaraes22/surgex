@@ -5747,6 +5747,24 @@
         "rating": "4.8"
       },
       {
+        "id": "estetica-studiodelas",
+        "name": "Studio Delas",
+        "category": "Website",
+        "image": "/portfolio/estetica-studiodelas.webp",
+        "url": "https://demo-estetica-studiodelas.vercel.app",
+        "description": "Estúdio de estética acolhedor em Valongo: unhas de gel, verniz gel, imersão em pó SNS, pedicure, massagens, sobrancelhas a linha e rosto.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Valongo",
+        "reviewCount": "92+",
+        "rating": "4.7"
+      },
+      {
         "id": "estetica-suedessence",
         "name": "SUED ESSENCE",
         "category": "Website",
@@ -7165,7 +7183,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "379 projetos em 58 setores",
+    "projectCount": "380 projetos em 58 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

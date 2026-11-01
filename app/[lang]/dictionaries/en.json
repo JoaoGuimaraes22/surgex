@@ -1371,6 +1371,24 @@
         "rating": "4.8"
       },
       {
+        "id": "estetica-studiodelas",
+        "name": "Studio Delas",
+        "category": "Website",
+        "image": "/portfolio/estetica-studiodelas.webp",
+        "url": "https://demo-estetica-studiodelas.vercel.app",
+        "description": "A cosy beauty studio in Valongo: gel and gel-polish nails, SNS dip powder, pedicure, relaxing massages, thread brows and facials.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Valongo",
+        "reviewCount": "92+",
+        "rating": "4.7"
+      },
+      {
         "id": "estetica-suedessence",
         "name": "SUED ESSENCE",
         "category": "Website",
@@ -7165,7 +7183,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "379 projects across 58 industries",
+    "projectCount": "380 projects across 58 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
