@@ -1477,6 +1477,24 @@
         "rating": "4.5"
       },
       {
+        "id": "mechanic-electrogoncalves",
+        "name": "Electro Gonçalves",
+        "category": "Website",
+        "image": "/portfolio/mechanic-electrogoncalves.webp",
+        "url": "https://demo-mechanic-electrogoncalves.vercel.app",
+        "description": "Eletricidade auto em Matosinhos: diagnóstico de avarias, baterias, alarmes, sensores e câmaras de marcha atrás, ar condicionado.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Matosinhos",
+        "reviewCount": "71+",
+        "rating": "4.4"
+      },
+      {
         "id": "mechanic-electrospyder",
         "name": "Electro Spyder",
         "category": "Website",
@@ -7241,7 +7259,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "383 projetos em 59 setores",
+    "projectCount": "384 projetos em 59 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

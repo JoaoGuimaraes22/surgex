@@ -3403,6 +3403,24 @@
         "rating": "4.5"
       },
       {
+        "id": "mechanic-electrogoncalves",
+        "name": "Electro Gonçalves",
+        "category": "Website",
+        "image": "/portfolio/mechanic-electrogoncalves.webp",
+        "url": "https://demo-mechanic-electrogoncalves.vercel.app",
+        "description": "Auto electrics and electronics in Matosinhos: fault diagnosis, batteries, alarms, parking sensors and reversing cameras, A/C recharge.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Matosinhos",
+        "reviewCount": "71+",
+        "rating": "4.4"
+      },
+      {
         "id": "mechanic-electrospyder",
         "name": "Electro Spyder",
         "category": "Website",
@@ -7241,7 +7259,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "383 projects across 59 industries",
+    "projectCount": "384 projects across 59 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
