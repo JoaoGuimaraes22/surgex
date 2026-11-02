@@ -6179,6 +6179,24 @@
         "rating": "5"
       },
       {
+        "id": "condo-9zero9",
+        "name": "9zero9 - Administração de Condomínios",
+        "category": "Website",
+        "image": "/portfolio/condo-9zero9.webp",
+        "url": "https://demo-condo-9zero9.vercel.app",
+        "description": "Administração de condomínios em Braga há cerca de vinte anos: assembleias, contas, manutenção e seguros.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Administração de Condomínios",
+        "location": "Braga",
+        "reviewCount": "40+",
+        "rating": "2.6"
+      },
+      {
         "id": "condo-aldimar",
         "name": "Aldimar",
         "category": "Website",
@@ -7223,7 +7241,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "382 projetos em 59 setores",
+    "projectCount": "383 projetos em 59 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
