@@ -4701,6 +4701,24 @@
         "rating": "4.2"
       },
       {
+        "id": "estetica-andreiafonseca",
+        "name": "Andreia Fonseca",
+        "category": "Website",
+        "image": "/portfolio/estetica-andreiafonseca.webp",
+        "url": "https://demo-estetica-andreiafonseca.vercel.app",
+        "description": "Hair and beauty salon in the centre of Mafra: cuts, colour, natural highlights, straightening, hair treatments and massage.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Salon",
+        "location": "Mafra",
+        "reviewCount": "82+",
+        "rating": "4.9"
+      },
+      {
         "id": "estetica-beautyroom",
         "name": "Beauty Room Portimão",
         "category": "Website",
@@ -7259,7 +7277,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "384 projects across 59 industries",
+    "projectCount": "385 projects across 59 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
