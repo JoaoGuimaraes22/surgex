@@ -3273,7 +3273,8 @@
         "niche": "Veterinária",
         "location": "Lisboa",
         "reviewCount": "111+",
-        "rating": "4.9"
+        "rating": "4.9",
+        "client": true
       },
       {
         "id": "vet-covagala",
