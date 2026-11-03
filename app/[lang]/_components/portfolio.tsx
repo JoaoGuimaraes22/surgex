@@ -32,12 +32,9 @@ export default function Portfolio({
 }) {
   // Live client sites first (`client: true`, in dictionary order), then the hand-picked demos, six in all
   const FEATURED_DEMO_IDS = [
-    "dentist-primehealthcare",
-    "dentist-penedo",
+    "detailing-ecestetica",
     "vet-avencas",
     "vet-cvls",
-    "detailing-ecestetica",
-    "auto-bicesse",
   ];
   const byId = new Map(dict.projects.map((p) => [p.id, p]));
   const clients = dict.projects.filter((p) => p.client);

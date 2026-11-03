@@ -237,24 +237,6 @@
     "headline": "Projetos Selecionados.",
     "projects": [
       {
-        "id": "gym-levelup",
-        "name": "Level UP Fight & Fitness",
-        "category": "Website",
-        "image": "/portfolio/gym-levelup.webp",
-        "url": "https://gym-levelup.vercel.app",
-        "description": "Academia de desportos de combate a beira-mar no Estoril com Jiu-Jitsu, Muay Thai e treino funcional.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Multi-language"
-        ],
-        "niche": "Fitness",
-        "location": "Estoril",
-        "reviewCount": "53+",
-        "rating": "5.0"
-      },
-      {
         "id": "flooring-preldeck",
         "name": "Preldeck",
         "category": "Website",
@@ -1387,24 +1369,6 @@
         "rating": "4.8"
       },
       {
-        "id": "mechanic-boxauto",
-        "name": "Boxauto",
-        "category": "Website",
-        "image": "/portfolio/mechanic-boxauto.webp",
-        "url": "https://demo-mechanic-boxauto.vercel.app",
-        "description": "Oficina multimarca familiar em Cabriz, Sintra: diagnóstico, motor e caixa, pneus, chapa e pintura, pré-inspeção, ar condicionado.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Multi-language"
-        ],
-        "niche": "Mecânica",
-        "location": "Sintra",
-        "reviewCount": "95+",
-        "rating": "4.7"
-      },
-      {
         "id": "mechanic-brandauto",
         "name": "Brandauto",
         "category": "Website",
@@ -1873,24 +1837,6 @@
         "rating": "4.8"
       },
       {
-        "id": "mechanic-zechapas",
-        "name": "Zé Chapas",
-        "category": "Website",
-        "image": "/portfolio/mechanic-zechapas.webp",
-        "url": "https://demo-mechanic-zechapas.vercel.app",
-        "description": "Oficina de escapes no centro histórico de Oeiras há mais de 30 anos.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Multi-language"
-        ],
-        "niche": "Mecânica",
-        "location": "Oeiras",
-        "reviewCount": "91+",
-        "rating": "4.5"
-      },
-      {
         "id": "mechanic-libiauto",
         "name": "Libiauto",
         "category": "Website",
@@ -2086,24 +2032,6 @@
         "location": "Lisboa",
         "reviewCount": "30+",
         "rating": "5"
-      },
-      {
-        "id": "movers-ruialves",
-        "name": "Rui Alves",
-        "category": "Website",
-        "image": "/portfolio/movers-ruialves.webp",
-        "url": "https://demo-movers-ruialves.vercel.app",
-        "description": "Mudanças, recolhas na loja e montagem de móveis na Amadora e na Grande Lisboa, e viagens longas pelo país.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Multi-language"
-        ],
-        "niche": "Mudanças & Montagens",
-        "location": "Amadora",
-        "reviewCount": "70+",
-        "rating": "4.9"
       },
       {
         "id": "movers-exodo",
@@ -2413,24 +2341,6 @@
         "rating": "5"
       },
       {
-        "id": "petsitting-yourpetsperson",
-        "name": "Your Pet's Person",
-        "category": "Website",
-        "image": "/portfolio/petsitting-yourpetsperson.webp",
-        "url": "https://demo-petsitting-yourpetsperson.vercel.app",
-        "description": "A Daiana cuida do seu gato, cão ou animal pequeno em sua casa ou na dela enquanto viaja — visitas ao domicílio, passeios e estadias em Carnaxide e arredores (Oeiras), com fotos e vídeos todos os dias.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Multi-language"
-        ],
-        "niche": "Pet Sitting",
-        "location": "Carnaxide",
-        "reviewCount": "29+",
-        "rating": "5"
-      },
-      {
         "id": "nursery-viveirodoeste",
         "name": "Viveiro do Este",
         "category": "Website",
@@ -2482,24 +2392,6 @@
         "niche": "Canalização",
         "location": "Vila Nova de Gaia",
         "reviewCount": "3+",
-        "rating": "5"
-      },
-      {
-        "id": "poledance-academia",
-        "name": "Academia de Pole Dance",
-        "category": "Website",
-        "image": "/portfolio/poledance-academia.webp",
-        "url": "https://demo-poledance-academia.vercel.app",
-        "description": "O primeiro estúdio de pole dance de Lisboa, desde 2007.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Multi-language"
-        ],
-        "niche": "Estúdio de Pole Dance",
-        "location": "Lisboa",
-        "reviewCount": "191+",
         "rating": "5"
       },
       {
@@ -3441,24 +3333,6 @@
         "rating": "4.9"
       },
       {
-        "id": "detailing-elefanteazul",
-        "name": "Elefante Azul Cascais",
-        "category": "Website",
-        "image": "/portfolio/detailing-elefanteazul.webp",
-        "url": "https://detailing-elefanteazul.vercel.app",
-        "description": "Lavagem automóvel self-service 24/7 com equipamento profissional e assistência no local, perto do CascaiShopping.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Multi-language"
-        ],
-        "niche": "Detailing Auto",
-        "location": "Alcabideche",
-        "reviewCount": "784+",
-        "rating": "4.3"
-      },
-      {
         "id": "bar-iateben",
         "name": "Iate Ben",
         "category": "Website",
@@ -3511,62 +3385,6 @@
         "location": "Parede",
         "reviewCount": "122+",
         "rating": "5.0"
-      },
-      {
-        "id": "cleaning-houseshine",
-        "name": "House Shine Cascais JV",
-        "category": "Website",
-        "image": "/portfolio/cleaning-houseshine.webp",
-        "url": "https://cleaning-houseshine.vercel.app",
-        "description": "Franquia de limpezas domésticas profissionais com limpeza profunda, pos-obra e manutenção regular.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Multi-language"
-        ],
-        "niche": "Limpeza",
-        "location": "Cascais",
-        "reviewCount": "58+",
-        "rating": "4.6"
-      },
-      {
-        "id": "dentist-doracosta",
-        "name": "Clínica Dentaria Dora & Costa Matos",
-        "category": "Website",
-        "image": "/portfolio/dentist-doracosta.webp",
-        "url": "https://dentist-doracosta.vercel.app",
-        "description": "Clínica dentaria familiar com implantes, ortodontia e tratamentos esteticos num ambiente acolhedor.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Appointment Booking",
-          "Multi-language"
-        ],
-        "niche": "Dentista",
-        "location": "Parede",
-        "reviewCount": "82+",
-        "rating": "4.4"
-      },
-      {
-        "id": "dentist-penedo",
-        "name": "Clínica Dentaria do Penedo",
-        "category": "Website",
-        "image": "/portfolio/dentist-penedo.webp",
-        "url": "https://dentist-penedo.vercel.app",
-        "description": "Clínica dentaria comunitaria conhecida pela equipa simpatica, precos acessiveis e serviços completos.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Appointment Booking",
-          "Multi-language"
-        ],
-        "niche": "Dentista",
-        "location": "Sao Domingos de Rana",
-        "reviewCount": "77+",
-        "rating": "4.7"
       },
       {
         "id": "dogcamp",
@@ -3657,24 +3475,6 @@
         "location": "Mem Martins",
         "reviewCount": "90+",
         "rating": "4.8"
-      },
-      {
-        "id": "gym-lineup",
-        "name": "LINE UP Functional Training",
-        "category": "Website",
-        "image": "/portfolio/gym-lineup.webp",
-        "url": "https://gym-lineup-mocha.vercel.app",
-        "description": "Box de CrossFit e treino funcional com coaches certificados, ambiente comunitario e equipamento de qualidade.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Multi-language"
-        ],
-        "niche": "Fitness",
-        "location": "Sao Domingos de Rana",
-        "reviewCount": "67+",
-        "rating": "4.9"
       },
       {
         "id": "gym-popei",
@@ -3785,24 +3585,6 @@
         "location": "Carcavelos",
         "reviewCount": "115+",
         "rating": "4.4"
-      },
-      {
-        "id": "auto-bicesse",
-        "name": "Auto Bicesse Maxima Lda",
-        "category": "Website",
-        "image": "/portfolio/auto-bicesse.webp",
-        "url": "https://auto-bicesse.vercel.app",
-        "description": "Oficina de reparacao automóvel completa com diagnóstico, manutenção, travoes, suspensao e preparacao para IPO.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Multi-language"
-        ],
-        "niche": "Mecânica",
-        "location": "Alcabideche",
-        "reviewCount": "72+",
-        "rating": "4.6"
       },
       {
         "id": "autorepair-electroautoluis",
@@ -6162,24 +5944,6 @@
         "rating": "5"
       },
       {
-        "id": "limpeza-sofaecia",
-        "name": "Limpeza de Sofá & Cia",
-        "category": "Website",
-        "image": "/portfolio/limpeza-sofaecia.webp",
-        "url": "https://demo-limpeza-sofaecia.vercel.app",
-        "description": "Sofás, poltronas, colchões, tapetes e alcatifas limpos e higienizados em sua casa, em Cascais.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Multi-language"
-        ],
-        "niche": "Limpeza",
-        "location": "Cascais",
-        "reviewCount": "76+",
-        "rating": "5"
-      },
-      {
         "id": "limpezas-pbm",
         "name": "PBM Limpeza & Higienização",
         "category": "Website",
@@ -6288,24 +6052,6 @@
         "rating": "3"
       },
       {
-        "id": "danca-ritmosreflexos",
-        "name": "Academia Dança Ritmos e Reflexos",
-        "category": "Website",
-        "image": "/portfolio/danca-ritmosreflexos.webp",
-        "url": "https://demo-danca-ritmosreflexos.vercel.app",
-        "description": "Escola de dança em Agualva-Cacém desde 2014: kizomba, semba, salsa, bachata, dança do ventre, ballet e hip hop para adultos e crianças.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Multi-language"
-        ],
-        "niche": "Escola de Dança",
-        "location": "Agualva-Cacém",
-        "reviewCount": "59+",
-        "rating": "4.8"
-      },
-      {
         "id": "danca-joanamachado",
         "name": "Escola de Dança Joana Machado",
         "category": "Website",
@@ -6321,24 +6067,6 @@
         "niche": "Escola de Dança",
         "location": "Lisboa",
         "reviewCount": "49+",
-        "rating": "5"
-      },
-      {
-        "id": "danca-escolasintra",
-        "name": "Escola de Dança Sintra",
-        "category": "Website",
-        "image": "/portfolio/danca-escolasintra.webp",
-        "url": "https://demo-danca-escolasintra.vercel.app",
-        "description": "Escola de dança em Mem Martins (Sintra) desde 2014: ballet, contemporânea e hip hop para crianças e jovens; kizomba, semba, bachata, salsa, danças de salão, zumba, pilates e yoga para adultos.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Multi-language"
-        ],
-        "niche": "Escola de Dança",
-        "location": "Algueirão-Mem Martins",
-        "reviewCount": "22+",
         "rating": "5"
       },
       {
@@ -6502,42 +6230,6 @@
         "location": "São João das Lampas",
         "reviewCount": "36+",
         "rating": "5"
-      },
-      {
-        "id": "centrocanino-caotopia",
-        "name": "Cãotopia – Centro Canino",
-        "category": "Website",
-        "image": "/portfolio/centrocanino-caotopia.webp",
-        "url": "https://demo-centrocanino-caotopia.vercel.app",
-        "description": "Creche canina em plena natureza, em Sintra: corridas sem trela, passeios, piscina nos dias quentes e tenda para a chuva.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Multi-language"
-        ],
-        "niche": "Treino Canino",
-        "location": "Sintra",
-        "reviewCount": "45+",
-        "rating": "5"
-      },
-      {
-        "id": "creche-dametrela",
-        "name": "Dá-me Trela!",
-        "category": "Website",
-        "image": "/portfolio/creche-dametrela.webp",
-        "url": "https://demo-creche-dametrela.vercel.app",
-        "description": "Creche educativa para cães, lar familiar e treino por reforço positivo em Campo de Ourique, Lisboa.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Multi-language"
-        ],
-        "niche": "Treino Canino",
-        "location": "Lisboa",
-        "reviewCount": "",
-        "rating": "4.9"
       },
       {
         "id": "eletrico-costamartins",
@@ -7219,10 +6911,6 @@
       {
         "id": "plumbing",
         "label": "Canalização"
-      },
-      {
-        "id": "pole-dance-studio",
-        "label": "Estúdio de Pole Dance"
       },
       {
         "id": "pool-maintenance",
