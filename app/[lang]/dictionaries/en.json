@@ -6627,6 +6627,24 @@
         "rating": "4.7"
       },
       {
+        "id": "waste-sosucatas",
+        "name": "Só Sucatas",
+        "category": "Website",
+        "image": "/portfolio/waste-sosucatas.webp",
+        "url": "https://demo-waste-sosucatas.vercel.app",
+        "description": "Scrap metal yard in Braga.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Waste Management",
+        "location": "Braga",
+        "reviewCount": "27+",
+        "rating": "3.6"
+      },
+      {
         "id": "waste-transcadavao",
         "name": "Transcadavão",
         "category": "Website",
@@ -6966,7 +6984,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "385 projects across 59 industries",
+    "projectCount": "386 projects across 59 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

@@ -4773,6 +4773,24 @@
         "rating": "4.7"
       },
       {
+        "id": "waste-sosucatas",
+        "name": "Só Sucatas",
+        "category": "Website",
+        "image": "/portfolio/waste-sosucatas.webp",
+        "url": "https://demo-waste-sosucatas.vercel.app",
+        "description": "Sucata em Braga.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Gestão de Resíduos",
+        "location": "Braga",
+        "reviewCount": "27+",
+        "rating": "3.6"
+      },
+      {
         "id": "waste-transcadavao",
         "name": "Transcadavão",
         "category": "Website",
@@ -6966,7 +6984,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "385 projetos em 59 setores",
+    "projectCount": "386 projetos em 59 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
