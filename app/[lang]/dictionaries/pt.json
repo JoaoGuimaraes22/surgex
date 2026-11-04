@@ -4303,6 +4303,24 @@
         "rating": "4.7"
       },
       {
+        "id": "vet-mostrarcarinho",
+        "name": "Clínica Veterinária Mostrar Carinho",
+        "category": "Website",
+        "image": "/portfolio/vet-mostrarcarinho.webp",
+        "url": "https://demo-vet-mostrarcarinho.vercel.app",
+        "description": "A clínica da Dra. Ana Cardoso em Valbom, Gondomar: consultas, vacinas, análises e TAC, com carinho a sério.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinária",
+        "location": "Valbom",
+        "reviewCount": "193+",
+        "rating": "4.8"
+      },
+      {
         "id": "vet-portasdebeja",
         "name": "Clínica Veterinária Portas de Beja",
         "category": "Website",
@@ -6984,7 +7002,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "386 projetos em 59 setores",
+    "projectCount": "387 projetos em 59 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
