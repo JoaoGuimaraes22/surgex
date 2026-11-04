@@ -1531,6 +1531,24 @@
         "rating": "4.3"
       },
       {
+        "id": "mechanic-helderauto",
+        "name": "Helder Auto",
+        "category": "Website",
+        "image": "/portfolio/mechanic-helderauto.webp",
+        "url": "https://demo-mechanic-helderauto.vercel.app",
+        "description": "Eletricidade auto e mecânica geral em Pinhal dos Frades, Seixal.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Seixal",
+        "reviewCount": "176+",
+        "rating": "4.5"
+      },
+      {
         "id": "mechanic-lswauto",
         "name": "LSW - Auto",
         "category": "Website",
@@ -7112,7 +7130,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "394 projetos em 60 setores",
+    "projectCount": "395 projetos em 60 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
