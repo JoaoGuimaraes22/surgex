@@ -1369,6 +1369,24 @@
         "rating": "4.8"
       },
       {
+        "id": "mechanic-borgata",
+        "name": "Borgata Performance",
+        "category": "Website",
+        "image": "/portfolio/mechanic-borgata.webp",
+        "url": "https://demo-mechanic-borgata.vercel.app",
+        "description": "Oficina especialista em carros italianos em Amadora: reparação, diagnóstico e reprogramação de Bruno Borgata desde 2011.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Amadora",
+        "reviewCount": "115+",
+        "rating": "4.8"
+      },
+      {
         "id": "mechanic-brandauto",
         "name": "Brandauto",
         "category": "Website",
@@ -7020,7 +7038,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "388 projetos em 59 setores",
+    "projectCount": "389 projetos em 59 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
