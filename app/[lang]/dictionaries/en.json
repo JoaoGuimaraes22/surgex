@@ -4069,6 +4069,22 @@
         "rating": "5"
       },
       {
+        "id": "pest-killpest",
+        "name": "Killpest",
+        "category": "Website",
+        "image": "/portfolio/pest-killpest.webp",
+        "url": "https://demo-pest-killpest.vercel.app",
+        "description": "Pest control in Ribeirão, Vila Nova de Famalicão: rodents, cockroaches, ants and room fogging.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Pest Control",
+        "location": "Ribeirão"
+      },
+      {
         "id": "pest-rphigiene",
         "name": "RP Produtos de Higiene & Desbaratização",
         "category": "Website",
@@ -7042,7 +7058,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "390 projects across 60 industries",
+    "projectCount": "391 projects across 60 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

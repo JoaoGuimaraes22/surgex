@@ -2215,6 +2215,22 @@
         "rating": "5"
       },
       {
+        "id": "pest-killpest",
+        "name": "Killpest",
+        "category": "Website",
+        "image": "/portfolio/pest-killpest.webp",
+        "url": "https://demo-pest-killpest.vercel.app",
+        "description": "Desinfestação e controlo de pragas em Ribeirão, Vila Nova de Famalicão: roedores, baratas, formigas e nebulização.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Controlo de Pragas",
+        "location": "Ribeirão"
+      },
+      {
         "id": "pest-rphigiene",
         "name": "RP Produtos de Higiene & Desbaratização",
         "category": "Website",
@@ -7042,7 +7058,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "390 projetos em 60 setores",
+    "projectCount": "391 projetos em 60 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
