@@ -5890,6 +5890,24 @@
         "rating": "4.4"
       },
       {
+        "id": "coach-empreendedoresvencedores",
+        "name": "Empreendedores Vencedores",
+        "category": "Website",
+        "image": "/portfolio/coach-empreendedoresvencedores.webp",
+        "url": "https://demo-coach-empreendedoresvencedores.vercel.app",
+        "description": "Rede de micro e pequenos empreendedores em Portugal: grupo diário no WhatsApp, palestras às quartas, feiras e membros que vendem uns pelos outros.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Rede de Empreendedores",
+        "location": "Amadora",
+        "reviewCount": "6+",
+        "rating": "5"
+      },
+      {
         "id": "stand-autopromocao",
         "name": "Auto Promoção",
         "category": "Website",
@@ -6839,6 +6857,10 @@
         "label": "Materiais de Construção"
       },
       {
+        "id": "business-network",
+        "label": "Rede de Empreendedores"
+      },
+      {
         "id": "car-dealership",
         "label": "Stand Automóvel"
       },
@@ -7020,7 +7042,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "389 projetos em 59 setores",
+    "projectCount": "390 projetos em 60 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

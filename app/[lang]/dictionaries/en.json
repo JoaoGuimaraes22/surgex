@@ -1605,6 +1605,24 @@
         "rating": "4.4"
       },
       {
+        "id": "coach-empreendedoresvencedores",
+        "name": "Empreendedores Vencedores",
+        "category": "Website",
+        "image": "/portfolio/coach-empreendedoresvencedores.webp",
+        "url": "https://demo-coach-empreendedoresvencedores.vercel.app",
+        "description": "A network of micro and small entrepreneurs in Portugal: a daily WhatsApp group, Wednesday talks, fairs and members who sell for each other.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Business Network",
+        "location": "Amadora",
+        "reviewCount": "6+",
+        "rating": "5"
+      },
+      {
         "id": "stand-autopromocao",
         "name": "Auto Promoção",
         "category": "Website",
@@ -6839,6 +6857,10 @@
         "label": "Building Materials"
       },
       {
+        "id": "business-network",
+        "label": "Business Network"
+      },
+      {
         "id": "car-dealership",
         "label": "Car Dealership"
       },
@@ -7020,7 +7042,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "389 projects across 59 industries",
+    "projectCount": "390 projects across 60 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
