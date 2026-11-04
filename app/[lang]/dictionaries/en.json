@@ -5884,6 +5884,24 @@
         "rating": "4.4"
       },
       {
+        "id": "vet-ronfe",
+        "name": "Centro Veterinário de Ronfe",
+        "category": "Website",
+        "image": "/portfolio/vet-ronfe.webp",
+        "url": "https://demo-vet-ronfe.vercel.app",
+        "description": "Dra. Ana Salazar's vet in Ronfe, Guimarães: consultations, vaccines, surgery, X-ray, ultrasound, home visits, grooming and an urgent line.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Guimarães",
+        "reviewCount": "66+",
+        "rating": "4.7"
+      },
+      {
         "id": "vet-saobernardo",
         "name": "Centro Veterinário de São Bernardo",
         "category": "Website",
@@ -7094,7 +7112,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "393 projects across 60 industries",
+    "projectCount": "394 projects across 60 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
