@@ -5438,6 +5438,24 @@
         "rating": "4.9"
       },
       {
+        "id": "estetica-mariacarmo",
+        "name": "Maria do Carmo Instituto de Beleza",
+        "category": "Website",
+        "image": "/portfolio/estetica-mariacarmo.webp",
+        "url": "https://demo-estetica-mariacarmo.vercel.app",
+        "description": "Instituto de beleza em Mafra desde 1996: rosto com Sothys, massagem e estética, com clientes que ficam anos.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Mafra",
+        "reviewCount": "44+",
+        "rating": "4.9"
+      },
+      {
         "id": "estetica-menteecorpo",
         "name": "Mente & Corpo · Estética e Spa",
         "category": "Website",
@@ -7058,7 +7076,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "391 projetos em 60 setores",
+    "projectCount": "392 projetos em 60 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
