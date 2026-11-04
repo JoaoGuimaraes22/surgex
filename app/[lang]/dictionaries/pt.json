@@ -2465,6 +2465,24 @@
         "rating": "4.8"
       },
       {
+        "id": "pool-goon",
+        "name": "Goon Services",
+        "category": "Website",
+        "image": "/portfolio/pool-goon.webp",
+        "url": "https://demo-pool-goon.vercel.app",
+        "description": "Construção e manutenção de piscinas, limpezas profissionais, administração de condomínios e loja em Santa Maria da Feira.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Manutenção de Piscinas",
+        "location": "Santa Maria da Feira",
+        "reviewCount": "26+",
+        "rating": "3.8"
+      },
+      {
         "id": "pool-tomasmonteiro",
         "name": "Tomás Monteiro · Pool Maintenance",
         "category": "Website",
@@ -7076,7 +7094,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "392 projetos em 60 setores",
+    "projectCount": "393 projetos em 60 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

@@ -4337,6 +4337,24 @@
         "rating": "4.8"
       },
       {
+        "id": "pool-goon",
+        "name": "Goon Services",
+        "category": "Website",
+        "image": "/portfolio/pool-goon.webp",
+        "url": "https://demo-pool-goon.vercel.app",
+        "description": "Pool construction and maintenance, professional cleaning, condominium administration and a shop in Santa Maria da Feira.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Pool Maintenance",
+        "location": "Santa Maria da Feira",
+        "reviewCount": "26+",
+        "rating": "3.8"
+      },
+      {
         "id": "pool-tomasmonteiro",
         "name": "Tomás Monteiro · Pool Maintenance",
         "category": "Website",
@@ -7076,7 +7094,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "392 projects across 60 industries",
+    "projectCount": "393 projects across 60 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
