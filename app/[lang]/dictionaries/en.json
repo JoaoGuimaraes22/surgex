@@ -4897,6 +4897,24 @@
         "rating": "4.6"
       },
       {
+        "id": "madeiras-pinhex",
+        "name": "PINHEX",
+        "category": "Website",
+        "image": "/portfolio/madeiras-pinhex.webp",
+        "url": "https://demo-madeiras-pinhex.vercel.app",
+        "description": "Timber yard in Azeitão, Setúbal: pine, MDF, chipboard, plywood, floating floors, doors and hardware, with cutting and help choosing the right wood.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Timber & Carpentry",
+        "location": "Azeitão",
+        "reviewCount": "77+",
+        "rating": "3.7"
+      },
+      {
         "id": "tires-agpneus",
         "name": "AG Pneus — Auto da Guerra",
         "category": "Website",
@@ -7002,7 +7020,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "387 projects across 59 industries",
+    "projectCount": "388 projects across 59 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

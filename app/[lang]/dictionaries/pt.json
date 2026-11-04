@@ -3024,6 +3024,24 @@
         "rating": "4.6"
       },
       {
+        "id": "madeiras-pinhex",
+        "name": "PINHEX",
+        "category": "Website",
+        "image": "/portfolio/madeiras-pinhex.webp",
+        "url": "https://demo-madeiras-pinhex.vercel.app",
+        "description": "Armazém de madeiras em Azeitão, Setúbal: pinho, MDF, aglomerados, contraplacado, chão flutuante, portas e ferragens, com corte e ajuda na escolha.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Madeiras & Carpintaria",
+        "location": "Azeitão",
+        "reviewCount": "77+",
+        "rating": "3.7"
+      },
+      {
         "id": "tires-agpneus",
         "name": "AG Pneus — Auto da Guerra",
         "category": "Website",
@@ -7002,7 +7020,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "387 projetos em 59 setores",
+    "projectCount": "388 projetos em 59 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
