@@ -345,6 +345,24 @@
         "rating": "4.2"
       },
       {
+        "id": "estetica-afbeauty",
+        "name": "AF Beauty Space",
+        "category": "Website",
+        "image": "/portfolio/estetica-afbeauty.webp",
+        "url": "https://demo-estetica-afbeauty.vercel.app",
+        "description": "Aesthetics and wellbeing with Aida Franco in Torres Vedras: face and body treatments, massage, gel nails, wax and laser hair removal.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Torres Vedras",
+        "reviewCount": "32+",
+        "rating": "4.9"
+      },
+      {
         "id": "estetica-allinbeauty",
         "name": "All in Beauty",
         "category": "Website",
@@ -7260,7 +7278,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "402 projects across 61 industries",
+    "projectCount": "403 projects across 61 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

@@ -6626,6 +6626,24 @@
         "rating": "4.2"
       },
       {
+        "id": "estetica-afbeauty",
+        "name": "AF Beauty Space",
+        "category": "Website",
+        "image": "/portfolio/estetica-afbeauty.webp",
+        "url": "https://demo-estetica-afbeauty.vercel.app",
+        "description": "Estética e bem-estar com Aida Franco em Torres Vedras: tratamentos de rosto e corpo, massagens, unhas de gel, epilação a cera e laser.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Torres Vedras",
+        "reviewCount": "32+",
+        "rating": "4.9"
+      },
+      {
         "id": "estetica-allinbeauty",
         "name": "All in Beauty",
         "category": "Website",
@@ -7260,7 +7278,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "402 projetos em 61 setores",
+    "projectCount": "403 projetos em 61 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
