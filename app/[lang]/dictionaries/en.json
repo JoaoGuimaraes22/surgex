@@ -1443,6 +1443,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-sweetcare",
+        "name": "Sweet Care by Rita Rodrigues",
+        "category": "Website",
+        "image": "/portfolio/estetica-sweetcare.webp",
+        "url": "https://demo-estetica-sweetcare.vercel.app",
+        "description": "Beauty practice in Viana do Castelo, by Meadela: laser hair removal, gel nails, foot and nail care, brows done with thread.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Viana do Castelo",
+        "reviewCount": "91+",
+        "rating": "4.9"
+      },
+      {
         "id": "estetica-taynara",
         "name": "Taynara Santana Beauty Clinic",
         "category": "Website",
@@ -7166,7 +7184,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "397 projects across 60 industries",
+    "projectCount": "398 projects across 60 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

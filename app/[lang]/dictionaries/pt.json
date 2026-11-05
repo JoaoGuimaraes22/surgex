@@ -5834,6 +5834,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-sweetcare",
+        "name": "Sweet Care by Rita Rodrigues",
+        "category": "Website",
+        "image": "/portfolio/estetica-sweetcare.webp",
+        "url": "https://demo-estetica-sweetcare.vercel.app",
+        "description": "Gabinete de estética em Viana do Castelo, junto à Meadela: depilação a laser, unhas de gel, cuidados de pés e unhas, sobrancelhas à linha.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Viana do Castelo",
+        "reviewCount": "91+",
+        "rating": "4.9"
+      },
+      {
         "id": "estetica-taynara",
         "name": "Taynara Santana Beauty Clinic",
         "category": "Website",
@@ -7166,7 +7184,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "397 projetos em 60 setores",
+    "projectCount": "398 projetos em 60 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
