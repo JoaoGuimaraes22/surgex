@@ -6590,6 +6590,24 @@
         "rating": "3.9"
       },
       {
+        "id": "flooring-paviera",
+        "name": "Paviera",
+        "category": "Website",
+        "image": "/portfolio/flooring-paviera.webp",
+        "url": "https://demo-flooring-paviera.vercel.app",
+        "description": "Pavimentos vinílicos, flutuantes, linóleo e alcatifa, estores de rolo, blackout e venezianos.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Pavimentos & Decks",
+        "location": "Viseu",
+        "reviewCount": "26+",
+        "rating": "4.7"
+      },
+      {
         "id": "contabilidade-riolgest",
         "name": "RIOLGEST Business Consulting",
         "category": "Website",
@@ -7278,7 +7296,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "403 projetos em 61 setores",
+    "projectCount": "404 projetos em 61 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

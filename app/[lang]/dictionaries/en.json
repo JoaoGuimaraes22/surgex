@@ -2145,6 +2145,24 @@
         "rating": "3.9"
       },
       {
+        "id": "flooring-paviera",
+        "name": "Paviera",
+        "category": "Website",
+        "image": "/portfolio/flooring-paviera.webp",
+        "url": "https://demo-flooring-paviera.vercel.app",
+        "description": "Vinyl, laminate, lino and carpet flooring plus roller, blackout and venetian blinds.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Flooring & Decks",
+        "location": "Viseu",
+        "reviewCount": "26+",
+        "rating": "4.7"
+      },
+      {
         "id": "flooring-preldeck",
         "name": "Preldeck",
         "category": "Website",
@@ -7278,7 +7296,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "403 projects across 61 industries",
+    "projectCount": "404 projects across 61 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
