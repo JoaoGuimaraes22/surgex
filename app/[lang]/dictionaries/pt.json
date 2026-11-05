@@ -2591,6 +2591,24 @@
         "rating": "5"
       },
       {
+        "id": "realestate-habifranca",
+        "name": "Habifrança",
+        "category": "Website",
+        "image": "/portfolio/realestate-habifranca.webp",
+        "url": "https://demo-realestate-habifranca.vercel.app",
+        "description": "Imobiliária em Gondomar desde 1998.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Imobiliária",
+        "location": "Gondomar",
+        "reviewCount": "6+",
+        "rating": "4.3"
+      },
+      {
         "id": "realestate-imotrofeu",
         "name": "Imotrofeu - Mediação Imobiliária",
         "category": "Website",
@@ -7242,7 +7260,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "401 projetos em 61 setores",
+    "projectCount": "402 projetos em 61 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
