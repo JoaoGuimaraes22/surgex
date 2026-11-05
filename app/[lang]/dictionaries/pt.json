@@ -3184,6 +3184,24 @@
         "rating": "4.8"
       },
       {
+        "id": "explicacoes-rumoaexcelencia",
+        "name": "Rumo à Excelência",
+        "category": "Website",
+        "image": "/portfolio/explicacoes-rumoaexcelencia.webp",
+        "url": "https://demo-explicacoes-rumoaexcelencia.vercel.app",
+        "description": "Explicações a todas as disciplinas, do 1.º ao 12.º ano, na Rua Miguel Bombarda em Viseu.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Centro de Explicações",
+        "location": "Viseu",
+        "reviewCount": "20+",
+        "rating": "5"
+      },
+      {
         "id": "vet-6fs",
         "name": "6 F´s - Serviços Veterinários",
         "category": "Website",
@@ -7171,6 +7189,10 @@
         "label": "Pneus"
       },
       {
+        "id": "tutoring-centre",
+        "label": "Centro de Explicações"
+      },
+      {
         "id": "waste-management",
         "label": "Gestão de Resíduos"
       },
@@ -7184,7 +7206,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "398 projetos em 60 setores",
+    "projectCount": "399 projetos em 61 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

@@ -5111,6 +5111,24 @@
         "rating": "4.8"
       },
       {
+        "id": "explicacoes-rumoaexcelencia",
+        "name": "Rumo à Excelência",
+        "category": "Website",
+        "image": "/portfolio/explicacoes-rumoaexcelencia.webp",
+        "url": "https://demo-explicacoes-rumoaexcelencia.vercel.app",
+        "description": "Tutoring in every subject, from year 1 to year 12, at Rua Miguel Bombarda in Viseu.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Tutoring Centre",
+        "location": "Viseu",
+        "reviewCount": "20+",
+        "rating": "5"
+      },
+      {
         "id": "vet-6fs",
         "name": "6 F´s - Serviços Veterinários",
         "category": "Website",
@@ -7171,6 +7189,10 @@
         "label": "Tire Shop"
       },
       {
+        "id": "tutoring-centre",
+        "label": "Tutoring Centre"
+      },
+      {
         "id": "waste-management",
         "label": "Waste Management"
       },
@@ -7184,7 +7206,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "398 projects across 60 industries",
+    "projectCount": "399 projects across 61 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
