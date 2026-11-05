@@ -4791,6 +4791,24 @@
         "rating": "4.9"
       },
       {
+        "id": "storage-aveiro",
+        "name": "Self Storage Aveiro",
+        "category": "Website",
+        "image": "/portfolio/storage-aveiro.webp",
+        "url": "https://demo-storage-aveiro.vercel.app",
+        "description": "Storage boxes in several sizes and parking for cars, trucks, caravans and motorhomes in Fermelã, Estarreja.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Self-Storage",
+        "location": "Fermelã",
+        "reviewCount": "15+",
+        "rating": "4.7"
+      },
+      {
         "id": "storage-gaia",
         "name": "Self Storage Gaia",
         "category": "Website",
@@ -7130,7 +7148,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "395 projects across 60 industries",
+    "projectCount": "396 projects across 60 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
