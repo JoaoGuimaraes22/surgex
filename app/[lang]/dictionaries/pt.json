@@ -1549,6 +1549,24 @@
         "rating": "4.5"
       },
       {
+        "id": "mechanic-jarocha",
+        "name": "Joaquim Alves da Rocha",
+        "category": "Website",
+        "image": "/portfolio/mechanic-jarocha.webp",
+        "url": "https://demo-mechanic-jarocha.vercel.app",
+        "description": "Oficina de mecânica e chaparia em São Pedro da Cova, Gondomar.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Oficina Mecânica",
+        "location": "São Pedro da Cova",
+        "reviewCount": "75+",
+        "rating": "4.7"
+      },
+      {
         "id": "mechanic-lswauto",
         "name": "LSW - Auto",
         "category": "Website",
@@ -7224,7 +7242,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "400 projetos em 61 setores",
+    "projectCount": "401 projetos em 61 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
