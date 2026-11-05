@@ -2968,6 +2968,24 @@
         "location": ""
       },
       {
+        "id": "solar-srdospaineis",
+        "name": "Sr. dos Painéis",
+        "category": "Website",
+        "image": "/portfolio/solar-srdospaineis.webp",
+        "url": "https://demo-solar-srdospaineis.vercel.app",
+        "description": "Painéis solares, inversores e baterias montados pelo André e a equipa, de Alhos Vedros para Lisboa, Margem Sul e Alentejo.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Energia Solar",
+        "location": "Alhos Vedros",
+        "reviewCount": "19+",
+        "rating": "4.9"
+      },
+      {
         "id": "solar-thermosilva",
         "name": "ThermoSilva",
         "category": "Website",
@@ -7148,7 +7166,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "396 projetos em 60 setores",
+    "projectCount": "397 projetos em 60 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
