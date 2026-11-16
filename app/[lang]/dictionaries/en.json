@@ -4391,6 +4391,24 @@
         "rating": "5"
       },
       {
+        "id": "physio-fisioandcare",
+        "name": "Fisio&Care",
+        "category": "Website",
+        "image": "/portfolio/physio-fisioandcare.webp",
+        "url": "https://demo-physio-fisioandcare.vercel.app",
+        "description": "Physiotherapy, injury rehab and clinical pilates in Mafamude, Vila Nova de Gaia.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Physiotherapy",
+        "location": "Vila Nova de Gaia",
+        "reviewCount": "55+",
+        "rating": "5"
+      },
+      {
         "id": "nursery-viveirodoeste",
         "name": "Viveiro do Este",
         "category": "Website",
@@ -7404,7 +7422,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "410 projects across 61 industries",
+    "projectCount": "411 projects across 61 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
