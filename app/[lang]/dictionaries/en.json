@@ -6209,6 +6209,24 @@
         "rating": "4.4"
       },
       {
+        "id": "vet-clivam",
+        "name": "Clivam - Clínica Veterinária do Alto da Maia",
+        "category": "Website",
+        "image": "/portfolio/vet-clivam.webp",
+        "url": "https://demo-vet-clivam.vercel.app",
+        "description": "Neighbourhood vet in Alto da Maia, Águas Santas: consultations, vaccines, microchips and long-term care for dogs and cats.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Águas Santas",
+        "reviewCount": "165+",
+        "rating": "4.7"
+      },
+      {
         "id": "vet-4patas",
         "name": "Clínica Veterinária 4 Patas",
         "category": "Website",
@@ -7368,7 +7386,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "408 projects across 61 industries",
+    "projectCount": "409 projects across 61 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
