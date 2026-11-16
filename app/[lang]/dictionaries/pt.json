@@ -5420,6 +5420,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-feelyou",
+        "name": "Feel You",
+        "category": "Website",
+        "image": "/portfolio/estetica-feelyou.webp",
+        "url": "https://demo-estetica-feelyou.vercel.app",
+        "description": "Massagens, rosto, sobrancelhas, depilação e unhas em Aradas, Aveiro.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Aveiro (Aradas)",
+        "reviewCount": "60+",
+        "rating": "4.7"
+      },
+      {
         "id": "estetica-silviapereira",
         "name": "Gabinete de Estética Sílvia Pereira",
         "category": "Website",
@@ -7386,7 +7404,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "409 projetos em 61 setores",
+    "projectCount": "410 projetos em 61 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
