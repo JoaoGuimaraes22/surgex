@@ -1315,6 +1315,24 @@
         "rating": "4.2"
       },
       {
+        "id": "mechanic-autovitoriana",
+        "name": "Auto Vitoriana",
+        "category": "Website",
+        "image": "/portfolio/mechanic-autovitoriana.webp",
+        "url": "https://demo-mechanic-autovitoriana.vercel.app",
+        "description": "Oficina multimarca em Mascotelos, Guimarães, há mais de 35 anos.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Guimarães",
+        "reviewCount": "49+",
+        "rating": "4.6"
+      },
+      {
         "id": "mechanic-autotouril",
         "name": "Auto-touril",
         "category": "Website",
@@ -7332,7 +7350,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "406 projetos em 61 setores",
+    "projectCount": "407 projetos em 61 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
