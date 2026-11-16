@@ -6064,6 +6064,24 @@
         "rating": "4.7"
       },
       {
+        "id": "vet-cvlamas",
+        "name": "Centro Veterinário de Santa Maria de Lamas",
+        "category": "Website",
+        "image": "/portfolio/vet-cvlamas.webp",
+        "url": "https://demo-vet-cvlamas.vercel.app",
+        "description": "Dogs-and-cats vet in Santa Maria de Lamas, Santa Maria da Feira: consults, vaccines, surgery, grooming, home visits and Drop n'Go.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Santa Maria de Lamas (Santa Maria da Feira)",
+        "reviewCount": "88+",
+        "rating": "4.7"
+      },
+      {
         "id": "vet-saobernardo",
         "name": "Centro Veterinário de São Bernardo",
         "category": "Website",
@@ -7296,7 +7314,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "404 projects across 61 industries",
+    "projectCount": "405 projects across 61 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
