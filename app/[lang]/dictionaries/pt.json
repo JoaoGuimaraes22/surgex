@@ -1441,6 +1441,24 @@
         "rating": "4.9"
       },
       {
+        "id": "mechanic-carlosfreire",
+        "name": "Carlos Freire, Lda - Oficina",
+        "category": "Website",
+        "image": "/portfolio/mechanic-carlosfreire.webp",
+        "url": "https://demo-mechanic-carlosfreire.vercel.app",
+        "description": "Oficina familiar em São Martinho do Bispo, Coimbra: mecânica, diagnóstico, chaparia e pintura no mesmo sítio.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Coimbra",
+        "reviewCount": "140+",
+        "rating": "4.3"
+      },
+      {
         "id": "mechanic-carlospereira",
         "name": "Carlos Pereira da Silva — Car Workshop",
         "category": "Website",
@@ -7422,7 +7440,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "411 projetos em 61 setores",
+    "projectCount": "412 projetos em 61 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
