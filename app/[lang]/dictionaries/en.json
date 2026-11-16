@@ -2127,6 +2127,24 @@
         "rating": "4.9"
       },
       {
+        "id": "electrician-nunojorge",
+        "name": "Nuno Jorge - Eletricista",
+        "category": "Website",
+        "image": "/portfolio/electrician-nunojorge.webp",
+        "url": "https://demo-electrician-nunojorge.vercel.app",
+        "description": "Electrician in Algueirão-Mem Martins, Sintra: installations, switchboards, repairs, video intercoms and ITED.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Electrician",
+        "location": "Algueirão-Mem Martins",
+        "reviewCount": "14+",
+        "rating": "5"
+      },
+      {
         "id": "gym-espacopt",
         "name": "Espaço PT",
         "category": "Website",
@@ -7440,7 +7458,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "412 projects across 61 industries",
+    "projectCount": "413 projects across 61 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
