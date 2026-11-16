@@ -577,6 +577,24 @@
         "rating": "5"
       },
       {
+        "id": "language-tobeeacademy",
+        "name": "To Bee Academy",
+        "category": "Website",
+        "image": "/portfolio/language-tobeeacademy.webp",
+        "url": "https://demo-language-tobeeacademy.vercel.app",
+        "description": "Inglês para crianças e jovens em Aveiro: turmas reduzidas depois da escola, com jogos, canções e histórias com a teacher Ana.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Escola de Línguas",
+        "location": "Aveiro",
+        "reviewCount": "10+",
+        "rating": "5"
+      },
+      {
         "id": "lavandaria-impec",
         "name": "Impec — Lavandaria Self Service",
         "category": "Website",
@@ -7350,7 +7368,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "407 projetos em 61 setores",
+    "projectCount": "408 projetos em 61 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
