@@ -739,6 +739,24 @@
         "rating": "5"
       },
       {
+        "id": "coach-cristinalampreia",
+        "name": "Cristina Lampreia · Relationship Coach",
+        "category": "Website",
+        "image": "/portfolio/coach-cristinalampreia.webp",
+        "url": "https://demo-coach-cristinalampreia.vercel.app",
+        "description": "Coaching de relacionamentos e Eneagrama em Corroios, Seixal e online.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Coaching de Vida",
+        "location": "Corroios",
+        "reviewCount": "2+",
+        "rating": "5"
+      },
+      {
         "id": "coach-liriaguedes",
         "name": "Liria Guedes",
         "category": "Website",
@@ -7314,7 +7332,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "405 projetos em 61 setores",
+    "projectCount": "406 projetos em 61 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

@@ -2665,6 +2665,24 @@
         "rating": "5"
       },
       {
+        "id": "coach-cristinalampreia",
+        "name": "Cristina Lampreia · Relationship Coach",
+        "category": "Website",
+        "image": "/portfolio/coach-cristinalampreia.webp",
+        "url": "https://demo-coach-cristinalampreia.vercel.app",
+        "description": "Relationship coaching and the Enneagram in Corroios, Seixal and online.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Life Coach",
+        "location": "Corroios",
+        "reviewCount": "2+",
+        "rating": "5"
+      },
+      {
         "id": "coach-liriaguedes",
         "name": "Liria Guedes",
         "category": "Website",
@@ -7314,7 +7332,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "405 projects across 61 industries",
+    "projectCount": "406 projects across 61 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
