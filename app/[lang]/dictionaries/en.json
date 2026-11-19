@@ -7075,6 +7075,24 @@
         "rating": "5"
       },
       {
+        "id": "vet-zoopanda",
+        "name": "Zoo Panda",
+        "category": "Website",
+        "image": "/portfolio/vet-zoopanda.webp",
+        "url": "https://demo-vet-zoopanda.vercel.app",
+        "description": "Zoo Panda veterinary clinic in Vermoim, Famalicão: consultations, vaccines, surgery, X-ray and lab tests for dogs and cats.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Vermoim",
+        "reviewCount": "167+",
+        "rating": "4.7"
+      },
+      {
         "id": "vet-zoopharma",
         "name": "Zoopharma · Centro Veterinário",
         "category": "Website",
@@ -7494,7 +7512,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "415 projects across 61 industries",
+    "projectCount": "416 projects across 61 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
