@@ -433,6 +433,24 @@
         "rating": "4"
       },
       {
+        "id": "avac-termotermica",
+        "name": "Termotérmica",
+        "category": "Website",
+        "image": "/portfolio/avac-termotermica.webp",
+        "url": "https://demo-avac-termotermica.vercel.app",
+        "description": "Ar condicionado, aquecimento central, bombas de calor e ventilação instalados pela Termotérmica em Canidelo, Vila Nova de Gaia.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "AVAC",
+        "location": "Vila Nova de Gaia",
+        "reviewCount": "5+",
+        "rating": "4.2"
+      },
+      {
         "id": "junk-arteentulhos",
         "name": "Arte Entulhos",
         "category": "Website",
@@ -7476,7 +7494,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "414 projetos em 61 setores",
+    "projectCount": "415 projetos em 61 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
