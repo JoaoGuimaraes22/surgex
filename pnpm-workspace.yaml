@@ -1,0 +1,9 @@
+# Settings only (no packages): read by pnpm 10 and 11 alike.
+overrides:
+  # GHSA-g3hv-75wg-m249 (minimatch globparts amplification, fixed only in 11.0.1), lint-time via typescript-eslint
+  # 8.70; its one call, minimatch(path, pattern, {dot}), is unchanged in 11. Drop once typescript-eslint >= 8.73.
+  "@typescript-eslint/typescript-estree>minimatch": "^11.0.1"
+# pnpm 11 refuses to run scripts while a build is unapproved; unrs-resolver (eslint-import) ships prebuilt
+# bindings, so its postinstall is not needed.
+allowBuilds:
+  unrs-resolver: false
