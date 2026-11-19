@@ -1335,6 +1335,24 @@
         "rating": "4.9"
       },
       {
+        "id": "estetica-rosanaguarines",
+        "name": "Rosana Guarines | Estética Avançada",
+        "category": "Website",
+        "image": "/portfolio/estetica-rosanaguarines.webp",
+        "url": "https://demo-estetica-rosanaguarines.vercel.app",
+        "description": "Massage, facials, laser hair removal, hands and feet, brows and lashes in Vila do Conde.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Vila do Conde",
+        "reviewCount": "47+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-santabeleza",
         "name": "Santa Beleza & Spa",
         "category": "Website",
@@ -7458,7 +7476,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "413 projects across 61 industries",
+    "projectCount": "414 projects across 61 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
