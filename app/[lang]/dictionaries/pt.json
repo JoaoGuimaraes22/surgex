@@ -7076,6 +7076,24 @@
         "rating": "4.8"
       },
       {
+        "id": "estetica-camai",
+        "name": "Camai",
+        "category": "Website",
+        "image": "/portfolio/estetica-camai.webp",
+        "url": "https://demo-estetica-camai.vercel.app",
+        "description": "Estúdio de estética facial de Carolina Maia no Lavradio, Barreiro: limpeza de pele, hidratação, pele acneica e gravidez, cada passo explicado.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Lavradio",
+        "reviewCount": "55+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-camilacoelho",
         "name": "Camila Coelho Estética Avançada",
         "category": "Website",
@@ -7530,7 +7548,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "417 projetos em 61 setores",
+    "projectCount": "418 projetos em 61 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

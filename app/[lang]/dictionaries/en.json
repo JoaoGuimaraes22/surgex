@@ -543,6 +543,24 @@
         "rating": "4.8"
       },
       {
+        "id": "estetica-camai",
+        "name": "Camai",
+        "category": "Website",
+        "image": "/portfolio/estetica-camai.webp",
+        "url": "https://demo-estetica-camai.vercel.app",
+        "description": "Carolina Maia's facial skincare studio in Lavradio, Barreiro: deep cleansing, hydration, acne and pregnancy-safe facials, every step explained.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Lavradio",
+        "reviewCount": "55+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-camilacoelho",
         "name": "Camila Coelho Estética Avançada",
         "category": "Website",
@@ -7530,7 +7548,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "417 projects across 61 industries",
+    "projectCount": "418 projects across 61 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
