@@ -4086,6 +4086,24 @@
         "client": true
       },
       {
+        "id": "movers-gomes",
+        "name": "Mudanças & Transportes Gomes",
+        "category": "Website",
+        "image": "/portfolio/movers-gomes.webp",
+        "url": "https://demo-movers-gomes.vercel.app",
+        "description": "Family moving company in Vila Nova de Gaia: home and office moves, furniture assembly, packing and storage.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Moving & Assembly",
+        "location": "Vila Nova de Gaia",
+        "reviewCount": "19+",
+        "rating": "4.4"
+      },
+      {
         "id": "movers-servico24h",
         "name": "Mudanças Serviço 24h",
         "category": "Website",
@@ -7512,7 +7530,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "416 projects across 61 industries",
+    "projectCount": "417 projects across 61 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
