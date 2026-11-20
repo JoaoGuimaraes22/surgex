@@ -1819,6 +1819,24 @@
         "rating": "5"
       },
       {
+        "id": "mechanic-marciosilva",
+        "name": "Oficina Márcio Miguel Fonseca Silva",
+        "category": "Website",
+        "image": "/portfolio/mechanic-marciosilva.webp",
+        "url": "https://demo-mechanic-marciosilva.vercel.app",
+        "description": "Oficina em Travanca, Santa Maria da Feira: diagnóstico, revisões, travões, embraiagem e DPF, com todas as opções explicadas antes.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Travanca",
+        "reviewCount": "90+",
+        "rating": "4.7"
+      },
+      {
         "id": "mechanic-quimenauto",
         "name": "Quimenauto",
         "category": "Website",
@@ -7548,7 +7566,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "418 projetos em 61 setores",
+    "projectCount": "419 projetos em 61 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
