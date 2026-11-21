@@ -2449,6 +2449,24 @@
         "rating": "3"
       },
       {
+        "id": "landscaping-caetano",
+        "name": "Caetano abate e poda de árvores",
+        "category": "Website",
+        "image": "/portfolio/landscaping-caetano.webp",
+        "url": "https://demo-landscaping-caetano.vercel.app",
+        "description": "Tree felling, pine dismantling, pruning and land clearing in Charneca de Caparica and Almada.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Landscaping",
+        "location": "Charneca de Caparica",
+        "reviewCount": "3+",
+        "rating": "5"
+      },
+      {
         "id": "landscaping-joaobrito",
         "name": "João Brito Jardins",
         "category": "Website",
@@ -7528,7 +7546,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "423 projects across 61 industries",
+    "projectCount": "424 projects across 61 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

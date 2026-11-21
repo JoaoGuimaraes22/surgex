@@ -451,6 +451,24 @@
         "rating": "3"
       },
       {
+        "id": "landscaping-caetano",
+        "name": "Caetano abate e poda de árvores",
+        "category": "Website",
+        "image": "/portfolio/landscaping-caetano.webp",
+        "url": "https://demo-landscaping-caetano.vercel.app",
+        "description": "Abate de árvores, desmontagem de pinheiros, poda e limpeza de terrenos na Charneca de Caparica e em Almada.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Abate e Poda de Árvores",
+        "location": "Charneca de Caparica",
+        "reviewCount": "3+",
+        "rating": "5"
+      },
+      {
         "id": "landscaping-joaobrito",
         "name": "João Brito Jardins",
         "category": "Website",
@@ -7528,7 +7546,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "423 projetos em 61 setores",
+    "projectCount": "424 projetos em 61 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
