@@ -2555,6 +2555,24 @@
         "rating": "5"
       },
       {
+        "id": "plumbing-madureira",
+        "name": "Pichelaria Madureira",
+        "category": "Website",
+        "image": "/portfolio/plumbing-madureira.webp",
+        "url": "https://demo-plumbing-madureira.vercel.app",
+        "description": "Pichelaria de bairro em Aldoar, Porto: fugas, substituição de canos, caldeiras e aquecimento a gás, e ainda trolha e pintura.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Canalização",
+        "location": "Porto",
+        "reviewCount": "61+",
+        "rating": "3.4"
+      },
+      {
         "id": "pool-atlantida",
         "name": "Atlântida Pool",
         "category": "Website",
@@ -7456,7 +7474,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "419 projetos em 61 setores",
+    "projectCount": "420 projetos em 61 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

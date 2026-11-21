@@ -4553,6 +4553,24 @@
         "rating": "5"
       },
       {
+        "id": "plumbing-madureira",
+        "name": "Pichelaria Madureira",
+        "category": "Website",
+        "image": "/portfolio/plumbing-madureira.webp",
+        "url": "https://demo-plumbing-madureira.vercel.app",
+        "description": "Neighbourhood plumber in Aldoar, Porto: leaks, pipe replacement, boilers and gas heating, plus masonry and painting.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Plumbing",
+        "location": "Porto",
+        "reviewCount": "61+",
+        "rating": "3.4"
+      },
+      {
         "id": "pool-atlantida",
         "name": "Atlântida Pool",
         "category": "Website",
@@ -7456,7 +7474,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "419 projects across 61 industries",
+    "projectCount": "420 projects across 61 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
