@@ -451,6 +451,24 @@
         "rating": "3"
       },
       {
+        "id": "landscaping-pioneiros",
+        "name": "Abate de Árvores e Limpeza de Terrenos",
+        "category": "Website",
+        "image": "/portfolio/landscaping-pioneiros.webp",
+        "url": "https://demo-landscaping-pioneiros.vercel.app",
+        "description": "Abate de árvores, pinheiros e palmeiras, limpeza de terrenos e lavagem de telhados na Charneca de Caparica.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Abate de Árvores e Limpeza de Terrenos",
+        "location": "Charneca de Caparica",
+        "reviewCount": "10+",
+        "rating": "5"
+      },
+      {
         "id": "landscaping-caetano",
         "name": "Caetano abate e poda de árvores",
         "category": "Website",
@@ -7600,7 +7618,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "427 projetos em 61 setores",
+    "projectCount": "428 projetos em 61 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
