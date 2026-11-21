@@ -1965,6 +1965,24 @@
         "rating": "3"
       },
       {
+        "id": "condo-fraccaoc",
+        "name": "Fracção C",
+        "category": "Website",
+        "image": "/portfolio/condo-fraccaoc.webp",
+        "url": "https://demo-condo-fraccaoc.vercel.app",
+        "description": "Condominium administrator in Matosinhos for 26 years: accounts, assemblies, quotas, works, insurance and the reserve fund.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Condominium Management",
+        "location": "Matosinhos",
+        "reviewCount": "4+",
+        "rating": "3.5"
+      },
+      {
         "id": "danca-joanamachado",
         "name": "Escola de Dança Joana Machado",
         "category": "Website",
@@ -7564,7 +7582,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "425 projects across 61 industries",
+    "projectCount": "426 projects across 61 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
