@@ -3781,6 +3781,24 @@
         "rating": "4.8"
       },
       {
+        "id": "mechanic-marioaraujo",
+        "name": "Mário Araújo e Albino",
+        "category": "Website",
+        "image": "/portfolio/mechanic-marioaraujo.webp",
+        "url": "https://demo-mechanic-marioaraujo.vercel.app",
+        "description": "Honest car repair in Maia: diagnostics, servicing, brakes, clutch and IPO inspection runs.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Maia",
+        "reviewCount": "70+",
+        "rating": "4.7"
+      },
+      {
         "id": "mechanic-nunotavares",
         "name": "Nuno P. Tavares Automóveis",
         "category": "Website",
@@ -7510,7 +7528,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "422 projects across 61 industries",
+    "projectCount": "423 projects across 61 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

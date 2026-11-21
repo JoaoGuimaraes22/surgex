@@ -1783,6 +1783,24 @@
         "rating": "4.8"
       },
       {
+        "id": "mechanic-marioaraujo",
+        "name": "Mário Araújo e Albino",
+        "category": "Website",
+        "image": "/portfolio/mechanic-marioaraujo.webp",
+        "url": "https://demo-mechanic-marioaraujo.vercel.app",
+        "description": "Oficina honesta na Maia: diagnóstico, revisões, travões, embraiagem e levamos o carro à inspeção.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Maia",
+        "reviewCount": "70+",
+        "rating": "4.7"
+      },
+      {
         "id": "mechanic-nunotavares",
         "name": "Nuno P. Tavares Automóveis",
         "category": "Website",
@@ -7510,7 +7528,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "422 projetos em 61 setores",
+    "projectCount": "423 projetos em 61 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
