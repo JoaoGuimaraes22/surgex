@@ -4808,6 +4808,24 @@
         "rating": "4"
       },
       {
+        "id": "vet-lisvet",
+        "name": "Lisvet - Consultório Veterinário",
+        "category": "Website",
+        "image": "/portfolio/vet-lisvet.webp",
+        "url": "https://demo-vet-lisvet.vercel.app",
+        "description": "Lisvet, consultório veterinário familiar na Guimarota, Leiria: consultas, vacinas, microchip, análises e estadias para cães e gatos.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinária",
+        "location": "Leiria",
+        "reviewCount": "122+",
+        "rating": "4.9"
+      },
+      {
         "id": "vet-meadelavet",
         "name": "MeadelaVet",
         "category": "Website",
@@ -7474,7 +7492,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "420 projetos em 61 setores",
+    "projectCount": "421 projetos em 61 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

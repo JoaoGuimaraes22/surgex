@@ -6824,6 +6824,24 @@
         "rating": "4"
       },
       {
+        "id": "vet-lisvet",
+        "name": "Lisvet - Consultório Veterinário",
+        "category": "Website",
+        "image": "/portfolio/vet-lisvet.webp",
+        "url": "https://demo-vet-lisvet.vercel.app",
+        "description": "Lisvet, family vet practice in Guimarota, Leiria: consultations, vaccines, microchip, in-house lab tests and short stays for cats and dogs.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Leiria",
+        "reviewCount": "122+",
+        "rating": "4.9"
+      },
+      {
         "id": "vet-meadelavet",
         "name": "MeadelaVet",
         "category": "Website",
@@ -7474,7 +7492,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "420 projects across 61 industries",
+    "projectCount": "421 projects across 61 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
