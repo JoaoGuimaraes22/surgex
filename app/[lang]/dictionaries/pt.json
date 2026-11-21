@@ -343,24 +343,6 @@
         "rating": "5"
       },
       {
-        "id": "remodelacao-augusto",
-        "name": "Augusto Remodelação",
-        "category": "Website",
-        "image": "/portfolio/remodelacao-augusto.webp",
-        "url": "https://demo-remodelacao-augusto.vercel.app",
-        "description": "Remodelações em Alverca do Ribatejo há mais de 15 anos: telhados, pavimentos cerâmicos e de madeira, casas de banho e cozinhas.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Multi-language"
-        ],
-        "niche": "Remodelações",
-        "location": "Alverca do Ribatejo",
-        "reviewCount": "13+",
-        "rating": "4.9"
-      },
-      {
         "id": "avac-arcoviana",
         "name": "Arcoviana",
         "category": "Website",
@@ -592,24 +574,6 @@
         "niche": "Escola de Línguas",
         "location": "Lisboa",
         "reviewCount": "26+",
-        "rating": "5"
-      },
-      {
-        "id": "language-tobeeacademy",
-        "name": "To Bee Academy",
-        "category": "Website",
-        "image": "/portfolio/language-tobeeacademy.webp",
-        "url": "https://demo-language-tobeeacademy.vercel.app",
-        "description": "Inglês para crianças e jovens em Aveiro: turmas reduzidas depois da escola, com jogos, canções e histórias com a teacher Ana.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Multi-language"
-        ],
-        "niche": "Escola de Línguas",
-        "location": "Aveiro",
-        "reviewCount": "10+",
         "rating": "5"
       },
       {
@@ -2753,24 +2717,6 @@
         "rating": "4.3"
       },
       {
-        "id": "realestate-imotrofeu",
-        "name": "Imotrofeu - Mediação Imobiliária",
-        "category": "Website",
-        "image": "/portfolio/realestate-imotrofeu.webp",
-        "url": "https://demo-realestate-imotrofeu.vercel.app",
-        "description": "Imobiliária independente no centro histórico de Braga.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Multi-language"
-        ],
-        "niche": "Imobiliária",
-        "location": "Braga",
-        "reviewCount": "3+",
-        "rating": "5"
-      },
-      {
         "id": "locksmith-arranjos",
         "name": "Arranjos e Companhia Algés",
         "category": "Website",
@@ -3008,24 +2954,6 @@
         "rating": "4.8"
       },
       {
-        "id": "storage-bauazeitao",
-        "name": "Baú de Azeitão",
-        "category": "Website",
-        "image": "/portfolio/storage-bauazeitao.webp",
-        "url": "https://demo-storage-bauazeitao.vercel.app",
-        "description": "Arrecadações desde pequenas boxes a garagens em Azeitão, Setúbal.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Multi-language"
-        ],
-        "niche": "Self-Storage",
-        "location": "Setúbal",
-        "reviewCount": "5+",
-        "rating": "5"
-      },
-      {
         "id": "storage-boxtorent",
         "name": "Box to Rent Almada",
         "category": "Website",
@@ -3130,22 +3058,6 @@
         "location": "Viseu",
         "reviewCount": "5+",
         "rating": "3.8"
-      },
-      {
-        "id": "solar-gruposolar",
-        "name": "Grupo Solar",
-        "category": "Website",
-        "image": "/portfolio/solar-gruposolar.webp",
-        "url": "https://demo-solar-gruposolar.vercel.app",
-        "description": "Painéis solares para casas, quintas e empresas em Vila do Conde: autoconsumo, baterias, coberturas industriais, licenciamento e manutenção.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Multi-language"
-        ],
-        "niche": "Energia Solar",
-        "location": ""
       },
       {
         "id": "solar-srdospaineis",
@@ -5020,24 +4932,6 @@
         "location": "Arrentela",
         "reviewCount": "145+",
         "rating": "4.6"
-      },
-      {
-        "id": "vet-vetri",
-        "name": "Vetri - Consultório Veterinário",
-        "category": "Website",
-        "image": "/portfolio/vet-vetri.webp",
-        "url": "https://demo-vet-vetri.vercel.app",
-        "description": "A Vetri cuida de cães e gatos desde 1999.",
-        "services": [
-          "Web Design",
-          "SEO",
-          "Google Reviews Integration",
-          "Multi-language"
-        ],
-        "niche": "Veterinário",
-        "location": "Cachoeiras",
-        "reviewCount": "59+",
-        "rating": "4.8"
       },
       {
         "id": "vet-vetsesimbra",
@@ -7423,10 +7317,6 @@
       {
         "id": "head-spa",
         "label": "Head Spa"
-      },
-      {
-        "id": "home-renovation",
-        "label": "Remodelações"
       },
       {
         "id": "hvac",
