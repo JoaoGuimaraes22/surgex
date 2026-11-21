@@ -7094,6 +7094,24 @@
         "rating": "4.8"
       },
       {
+        "id": "vet-vetspot",
+        "name": "VetSpot Centro Veterinário",
+        "category": "Website",
+        "image": "/portfolio/vet-vetspot.webp",
+        "url": "https://demo-vet-vetspot.vercel.app",
+        "description": "Neighbourhood vet and grooming clinic in Setúbal: consultations, vaccines, baths and clipping for dogs and cats.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Setúbal",
+        "reviewCount": "84+",
+        "rating": "4.7"
+      },
+      {
         "id": "vettop",
         "name": "VetTop",
         "category": "Website",
@@ -7582,7 +7600,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "426 projects across 61 industries",
+    "projectCount": "427 projects across 61 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
