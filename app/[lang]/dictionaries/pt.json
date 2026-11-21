@@ -829,6 +829,24 @@
         "rating": "3.9"
       },
       {
+        "id": "chaves-paulo",
+        "name": "Chaveiro Paulo",
+        "category": "Website",
+        "image": "/portfolio/chaves-paulo.webp",
+        "url": "https://demo-chaves-paulo.vercel.app",
+        "description": "Chaveiro 24 horas em Braga.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Chaves e Fechaduras",
+        "location": "Braga",
+        "reviewCount": "195+",
+        "rating": "5"
+      },
+      {
         "id": "chaves-bonjardim",
         "name": "Chaves Bonjardim",
         "category": "Website",
@@ -7492,7 +7510,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "421 projetos em 61 setores",
+    "projectCount": "422 projetos em 61 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

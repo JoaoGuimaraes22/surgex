@@ -2827,6 +2827,24 @@
         "rating": "3.9"
       },
       {
+        "id": "chaves-paulo",
+        "name": "Chaveiro Paulo",
+        "category": "Website",
+        "image": "/portfolio/chaves-paulo.webp",
+        "url": "https://demo-chaves-paulo.vercel.app",
+        "description": "24-hour locksmith in Braga.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Locksmith",
+        "location": "Braga",
+        "reviewCount": "195+",
+        "rating": "5"
+      },
+      {
         "id": "chaves-bonjardim",
         "name": "Chaves Bonjardim",
         "category": "Website",
@@ -7492,7 +7510,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "421 projects across 61 industries",
+    "projectCount": "422 projects across 61 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
