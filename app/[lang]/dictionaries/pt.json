@@ -5674,6 +5674,24 @@
         "rating": "4.9"
       },
       {
+        "id": "estetica-hidalinasaraiva",
+        "name": "Hidalina Saraiva · Formação e Serviços",
+        "category": "Website",
+        "image": "/portfolio/estetica-hidalinasaraiva.webp",
+        "url": "https://demo-estetica-hidalinasaraiva.vercel.app",
+        "description": "Depilação a laser, tratamentos de rosto e corpo e formação em laser para profissionais com Hidalina Saraiva, em Guimarães.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Guimarães",
+        "reviewCount": "32+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-higibel",
         "name": "Higibel Beauty Academy",
         "category": "Website",
@@ -7712,7 +7730,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "433 projetos em 62 setores",
+    "projectCount": "434 projetos em 62 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
