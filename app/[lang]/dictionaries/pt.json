@@ -2789,6 +2789,24 @@
         "rating": "5"
       },
       {
+        "id": "realestate-catiaoliveira",
+        "name": "Cátia Oliveira | Estratégia Imobiliária & Consultoria",
+        "category": "Website",
+        "image": "/portfolio/realestate-catiaoliveira.webp",
+        "url": "https://demo-realestate-catiaoliveira.vercel.app",
+        "description": "Venda, compre ou arrende em Odivelas com um plano: avaliação, preço, divulgação e papelada tratados pela equipa de Cátia Oliveira.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Imobiliária",
+        "location": "Odivelas",
+        "reviewCount": "4+",
+        "rating": "5"
+      },
+      {
         "id": "realestate-habifranca",
         "name": "Habifrança",
         "category": "Website",
@@ -7618,7 +7636,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "428 projetos em 61 setores",
+    "projectCount": "429 projetos em 61 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

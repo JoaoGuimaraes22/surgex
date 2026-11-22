@@ -4823,6 +4823,24 @@
         "rating": "5"
       },
       {
+        "id": "realestate-catiaoliveira",
+        "name": "Cátia Oliveira | Estratégia Imobiliária & Consultoria",
+        "category": "Website",
+        "image": "/portfolio/realestate-catiaoliveira.webp",
+        "url": "https://demo-realestate-catiaoliveira.vercel.app",
+        "description": "Sell, buy or rent in Odivelas with a plan: valuation, pricing, marketing and paperwork handled by Cátia Oliveira's team.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Real Estate",
+        "location": "Odivelas",
+        "reviewCount": "4+",
+        "rating": "5"
+      },
+      {
         "id": "realestate-habifranca",
         "name": "Habifrança",
         "category": "Website",
@@ -7618,7 +7636,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "428 projects across 61 industries",
+    "projectCount": "429 projects across 61 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
