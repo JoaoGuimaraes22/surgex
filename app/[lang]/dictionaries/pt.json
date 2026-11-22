@@ -3294,6 +3294,24 @@
         "rating": "5"
       },
       {
+        "id": "materials-aquagres",
+        "name": "Aquagres",
+        "category": "Website",
+        "image": "/portfolio/materials-aquagres.webp",
+        "url": "https://demo-materials-aquagres.vercel.app",
+        "description": "Pavimentos, revestimentos, móveis de casa de banho, torneiras e materiais de construção em Mafra desde 1999.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Cerâmicas & Sanitários",
+        "location": "Mafra",
+        "reviewCount": "83+",
+        "rating": "4.2"
+      },
+      {
         "id": "madeiras-delfim",
         "name": "Delfim Ferreira Martins & Filho, Lda.",
         "category": "Website",
@@ -4463,6 +4481,24 @@
         "location": "Barcelos",
         "reviewCount": "51+",
         "rating": "4.7"
+      },
+      {
+        "id": "vet-fontedebaixo",
+        "name": "Clínica Veterinária da Fonte de Baixo",
+        "category": "Website",
+        "image": "/portfolio/vet-fontedebaixo.webp",
+        "url": "https://demo-vet-fontedebaixo.vercel.app",
+        "description": "Clínica da Dra. Cecília Alvarenga no centro de Barcelos: consultas, vacinas, cirurgia e ajuda fora de horas quando precisa.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinária",
+        "location": "Barcelos",
+        "reviewCount": "22+",
+        "rating": "2.8"
       },
       {
         "id": "vet-vigia",
@@ -7647,6 +7683,10 @@
         "label": "Tatuagem"
       },
       {
+        "id": "tiles-bathrooms",
+        "label": "Cerâmicas & Sanitários"
+      },
+      {
         "id": "timber-carpentry",
         "label": "Madeiras & Carpintaria"
       },
@@ -7672,7 +7712,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "431 projetos em 61 setores",
+    "projectCount": "433 projetos em 62 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

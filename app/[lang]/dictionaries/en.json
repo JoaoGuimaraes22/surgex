@@ -5383,6 +5383,24 @@
         "rating": "5"
       },
       {
+        "id": "materials-aquagres",
+        "name": "Aquagres",
+        "category": "Website",
+        "image": "/portfolio/materials-aquagres.webp",
+        "url": "https://demo-materials-aquagres.vercel.app",
+        "description": "Floor and wall tiles, bathroom furniture, taps and building materials in Mafra since 1999.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Tiles & Bathrooms",
+        "location": "Mafra",
+        "reviewCount": "83+",
+        "rating": "4.2"
+      },
+      {
         "id": "madeiras-delfim",
         "name": "Delfim Ferreira Martins & Filho, Lda.",
         "category": "Website",
@@ -6535,6 +6553,24 @@
         "rating": "4.7"
       },
       {
+        "id": "vet-fontedebaixo",
+        "name": "Clínica Veterinária da Fonte de Baixo",
+        "category": "Website",
+        "image": "/portfolio/vet-fontedebaixo.webp",
+        "url": "https://demo-vet-fontedebaixo.vercel.app",
+        "description": "Dra. Cecília Alvarenga's vet clinic in Barcelos centre: consultations, vaccines, surgery and help after hours when you need it.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Barcelos",
+        "reviewCount": "22+",
+        "rating": "2.8"
+      },
+      {
         "id": "vet-vigia",
         "name": "Clínica Veterinária da Vigia",
         "category": "Website",
@@ -7647,6 +7683,10 @@
         "label": "Tattoo"
       },
       {
+        "id": "tiles-bathrooms",
+        "label": "Tiles & Bathrooms"
+      },
+      {
         "id": "timber-carpentry",
         "label": "Timber & Carpentry"
       },
@@ -7672,7 +7712,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "431 projects across 61 industries",
+    "projectCount": "433 projects across 62 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
