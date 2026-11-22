@@ -3691,6 +3691,24 @@
         "rating": "4.5"
       },
       {
+        "id": "mechanic-incrivelauto",
+        "name": "Incrivelauto",
+        "category": "Website",
+        "image": "/portfolio/mechanic-incrivelauto.webp",
+        "url": "https://demo-mechanic-incrivelauto.vercel.app",
+        "description": "Family-run multi-brand garage in Famalicão: diagnostics, auto electrics, injection, A/C, brakes and servicing.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Vila Nova de Famalicão",
+        "reviewCount": "92+",
+        "rating": "4.5"
+      },
+      {
         "id": "mechanic-jarocha",
         "name": "Joaquim Alves da Rocha",
         "category": "Website",
@@ -7636,7 +7654,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "429 projects across 61 industries",
+    "projectCount": "430 projects across 61 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

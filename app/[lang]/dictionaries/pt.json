@@ -1657,6 +1657,24 @@
         "rating": "4.5"
       },
       {
+        "id": "mechanic-incrivelauto",
+        "name": "Incrivelauto",
+        "category": "Website",
+        "image": "/portfolio/mechanic-incrivelauto.webp",
+        "url": "https://demo-mechanic-incrivelauto.vercel.app",
+        "description": "Oficina familiar multimarcas em Famalicão: diagnóstico, eletricidade auto, injeção, ar condicionado, travões e revisões.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Oficina",
+        "location": "Vila Nova de Famalicão",
+        "reviewCount": "92+",
+        "rating": "4.5"
+      },
+      {
         "id": "mechanic-jarocha",
         "name": "Joaquim Alves da Rocha",
         "category": "Website",
@@ -7636,7 +7654,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "429 projetos em 61 setores",
+    "projectCount": "430 projetos em 61 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
