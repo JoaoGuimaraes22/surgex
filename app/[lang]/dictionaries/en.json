@@ -1407,6 +1407,24 @@
         "rating": "4.9"
       },
       {
+        "id": "estetica-sarapimpao",
+        "name": "Sara Pimpão Estética e Bem Estar",
+        "category": "Website",
+        "image": "/portfolio/estetica-sarapimpao.webp",
+        "url": "https://demo-estetica-sarapimpao.vercel.app",
+        "description": "Facials, laser hair removal, lash lift, massage and Head SPA in central Palmela.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Aesthetics",
+        "location": "Palmela",
+        "reviewCount": "87+",
+        "rating": "5"
+      },
+      {
         "id": "estetica-sofiapiairo",
         "name": "Sofia Piairo Centro de Estética Avançada",
         "category": "Website",
@@ -7654,7 +7672,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "430 projects across 61 industries",
+    "projectCount": "431 projects across 61 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
