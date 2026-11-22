@@ -2647,6 +2647,24 @@
         "rating": "5"
       },
       {
+        "id": "language-joanamesquita",
+        "name": "Joana Mesquita — Professora de Português e Inglês",
+        "category": "Website",
+        "image": "/portfolio/language-joanamesquita.webp",
+        "url": "https://demo-language-joanamesquita.vercel.app",
+        "description": "One-to-one Portuguese and English lessons in Vila do Conde: school support, national exam prep and Portuguese for foreigners.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Language School",
+        "location": "Vila do Conde",
+        "reviewCount": "34+",
+        "rating": "5"
+      },
+      {
         "id": "language-juansalan",
         "name": "Juan Salán — English & Spanish",
         "category": "Website",
@@ -7748,7 +7766,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "435 projects across 62 industries",
+    "projectCount": "436 projects across 62 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
