@@ -6052,6 +6052,24 @@
         "rating": "5"
       },
       {
+        "id": "estetica-mysecret",
+        "name": "My Secret Beauty & Spa Center",
+        "category": "Website",
+        "image": "/portfolio/estetica-mysecret.webp",
+        "url": "https://demo-estetica-mysecret.vercel.app",
+        "description": "Massagens de relaxamento, profundas e a dois, rosto e unhas em Faro.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Estética",
+        "location": "Faro",
+        "reviewCount": "105+",
+        "rating": "4.8"
+      },
+      {
         "id": "hifu-marciasilvano",
         "name": "Márcia Silvano HIFU EXPERT",
         "category": "Website",
@@ -7766,7 +7784,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "436 projetos em 62 setores",
+    "projectCount": "437 projetos em 62 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
