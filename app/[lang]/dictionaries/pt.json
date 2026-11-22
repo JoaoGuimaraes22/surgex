@@ -1693,6 +1693,24 @@
         "rating": "4.7"
       },
       {
+        "id": "exhaust-joescape",
+        "name": "Joescape",
+        "category": "Website",
+        "image": "/portfolio/exhaust-joescape.webp",
+        "url": "https://demo-exhaust-joescape.vercel.app",
+        "description": "Especialistas em escapes em Vale Sepal, Leiria: catalisadores, silenciadores, flexíveis e linhas à medida.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Oficina Mecânica",
+        "location": "Leiria",
+        "reviewCount": "85+",
+        "rating": "4.2"
+      },
+      {
         "id": "mechanic-lswauto",
         "name": "LSW - Auto",
         "category": "Website",
@@ -7730,7 +7748,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "434 projetos em 62 setores",
+    "projectCount": "435 projetos em 62 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },

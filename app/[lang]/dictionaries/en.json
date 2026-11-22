@@ -3763,6 +3763,24 @@
         "rating": "4.7"
       },
       {
+        "id": "exhaust-joescape",
+        "name": "Joescape",
+        "category": "Website",
+        "image": "/portfolio/exhaust-joescape.webp",
+        "url": "https://demo-exhaust-joescape.vercel.app",
+        "description": "Exhaust specialist in Vale Sepal, Leiria: catalytic converters, silencers, flex pipes and custom lines.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Leiria",
+        "reviewCount": "85+",
+        "rating": "4.2"
+      },
+      {
         "id": "mechanic-lswauto",
         "name": "LSW - Auto",
         "category": "Website",
@@ -7730,7 +7748,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "434 projects across 62 industries",
+    "projectCount": "435 projects across 62 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
