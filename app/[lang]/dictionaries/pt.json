@@ -811,6 +811,24 @@
         "rating": "5"
       },
       {
+        "id": "coach-isabelfelix",
+        "name": "Isabel Félix, Constelações familiares",
+        "category": "Website",
+        "image": "/portfolio/coach-isabelfelix.webp",
+        "url": "https://demo-coach-isabelfelix.vercel.app",
+        "description": "Constelações familiares com Maria Isabel Félix em Ramada, Odivelas: sessões individuais e em grupo.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Coaching de Vida",
+        "location": "Odivelas",
+        "reviewCount": "14+",
+        "rating": "5"
+      },
+      {
         "id": "coach-liriaguedes",
         "name": "Liria Guedes",
         "category": "Website",
@@ -7784,7 +7802,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "437 projetos em 62 setores",
+    "projectCount": "438 projetos em 62 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
