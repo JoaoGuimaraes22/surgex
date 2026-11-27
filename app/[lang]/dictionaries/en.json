@@ -3781,6 +3781,24 @@
         "rating": "4.5"
       },
       {
+        "id": "mechanic-hmgarage",
+        "name": "HM Garage",
+        "category": "Website",
+        "image": "/portfolio/mechanic-hmgarage.webp",
+        "url": "https://demo-mechanic-hmgarage.vercel.app",
+        "description": "Honest car repair in Setúbal: diagnosis and price before work, videos of the job, old parts returned and your car washed.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mechanic",
+        "location": "Setúbal",
+        "reviewCount": "114+",
+        "rating": "5"
+      },
+      {
         "id": "mechanic-incrivelauto",
         "name": "Incrivelauto",
         "category": "Website",
@@ -7802,7 +7820,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "438 projects across 62 industries",
+    "projectCount": "439 projects across 62 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },

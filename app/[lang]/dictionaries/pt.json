@@ -1693,6 +1693,24 @@
         "rating": "4.5"
       },
       {
+        "id": "mechanic-hmgarage",
+        "name": "HM Garage",
+        "category": "Website",
+        "image": "/portfolio/mechanic-hmgarage.webp",
+        "url": "https://demo-mechanic-hmgarage.vercel.app",
+        "description": "Mecânica honesta em Setúbal: diagnóstico e preço antes do trabalho, vídeos da reparação, peças velhas devolvidas e carro lavado.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Mecânica",
+        "location": "Setúbal",
+        "reviewCount": "114+",
+        "rating": "5"
+      },
+      {
         "id": "mechanic-incrivelauto",
         "name": "Incrivelauto",
         "category": "Website",
@@ -7802,7 +7820,7 @@
       }
     ],
     "nicheNavLabel": "EXPLORAR POR NICHO",
-    "projectCount": "438 projetos em 62 setores",
+    "projectCount": "439 projetos em 62 setores",
     "cityFilterLabel": "FILTRAR POR CIDADE",
     "cityFilterAll": "Todas as Cidades"
   },
