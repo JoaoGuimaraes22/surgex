@@ -6534,6 +6534,24 @@
         "rating": "4.8"
       },
       {
+        "id": "vet-domusstella",
+        "name": "Centro Veterinário Domus Stella",
+        "category": "Website",
+        "image": "/portfolio/vet-domusstella.webp",
+        "url": "https://demo-vet-domusstella.vercel.app",
+        "description": "Vet clinic in Abraveses, Viseu: consults, vaccines, senior care and surgery for dogs and cats, followed for years.",
+        "services": [
+          "Web Design",
+          "SEO",
+          "Google Reviews Integration",
+          "Multi-language"
+        ],
+        "niche": "Veterinary",
+        "location": "Viseu",
+        "reviewCount": "40+",
+        "rating": "4.8"
+      },
+      {
         "id": "vet-antoniocarlossantos",
         "name": "Clinica Veterinaria António Carlos Santos",
         "category": "Website",
@@ -7820,7 +7838,7 @@
       }
     ],
     "nicheNavLabel": "BROWSE BY NICHE",
-    "projectCount": "439 projects across 62 industries",
+    "projectCount": "440 projects across 62 industries",
     "cityFilterLabel": "FILTER BY CITY",
     "cityFilterAll": "All Cities"
   },
